@@ -7,6 +7,12 @@ Tradução Portuguesa (PT-PT) phpBB versão 3.2.11 - phpBB 3.2.11
 Tradução Portuguesa (PT-PT) phpBB versão 4.3.15 - phpBB 3.3.15
 
 ------------
-* Tradução segundo as normas do Acordo Ortográfico
+* Tradução segundo as normas do Acordo Ortográfico (Formal)
 
-* Tradução segundo o pré-Acordo Ortográfico
+* Tradução segundo o pré-Acordo Ortográfico (Formal)
+
+Para o phpBB 3.3 existem novas versões:
+
+* Tradução segundo as normas do Acordo Ortográfico (Casual, ou seja, tratar por tu)
+
+* Tradução segundo o pré-Acordo Ortográfico (Casual, ou seja, tratar por tu)
