@@ -219,13 +219,13 @@ $lang = array_merge($lang, array(
 
 	'DEACTIVATE'				=> 'Desativar',
 	'DIRECTORY_DOES_NOT_EXIST'	=> 'A Pasta "%s" selecionada não existe.',
-	'DIRECTORY_NOT_DIR'			=> 'A Pasta "%s" selecionada não é uma diretoria.',
+	'DIRECTORY_NOT_DIR'			=> 'A Pasta "%s" selecionada não é uma pasta.',
 	'DIRECTORY_NOT_WRITABLE'	=> 'A Pasta "%s" selecionada não pode ser escrita.',
 	'DISABLE'					=> 'Desativar',
 	'DOWNLOAD'					=> 'Transferir',
 	'DOWNLOAD_AS'				=> 'Descarregar como',
 	'DOWNLOAD_STORE'			=> 'Descarregar ou Guardar o Ficheiro',
-	'DOWNLOAD_STORE_EXPLAIN'	=> 'Deve descarregar diretamente o Ficheiro ou guardá-lo na sua diretoria.',
+	'DOWNLOAD_STORE_EXPLAIN'	=> 'Deve descarregar diretamente o Ficheiro ou guardá-lo na sua pasta.',
 
 	'EDIT'						=> 'Editar',
 	'ENABLE'					=> 'Ativar',
@@ -319,7 +319,7 @@ $lang = array_merge($lang, array(
 	'ADMIN_INTRO'					=> 'Obrigado por usar o phpBB3 no seu Fórum. Esta página apresenta as Estatísticas Gerais do Fórum. À esquerda encontra os menus de acesso ao Painel de Administração. Cada um deles contém instruções de configuração.',
 	'ADMIN_LOG'						=> 'Registos da ações dos Administradores',
 	'ADMIN_LOG_INDEX_EXPLAIN'		=> 'Este registo mostra as últimas cinco ações dos Administradores. Uma cópia completa do registo está disponível no item apropriado do Menu ou seguindo o atalho abaixo.',
-	'AVATAR_DIR_SIZE'				=> 'Tamanho da diretoria dos avatares',
+	'AVATAR_DIR_SIZE'				=> 'Tamanho da pasta dos avatares',
 
 	'BOARD_STARTED'					=> 'Data de criação do Fórum',
 	'BOARD_VERSION'					=> 'Versão do phpBB',
@@ -381,7 +381,7 @@ $lang = array_merge($lang, array(
 
 	'TOPICS_PER_DAY'				=> 'Média de Tópicos diários',
 
-	'UPLOAD_DIR_SIZE'				=> 'Tamanho da diretoria dos anexos',
+	'UPLOAD_DIR_SIZE'				=> 'Tamanho da pasta dos anexos',
 	'USERS_PER_DAY'					=> 'Média de Registos diários',
 
 	'VALUE'							=> 'Valor',

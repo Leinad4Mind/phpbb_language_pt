@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang)) {
 
 // Database Backup/Restore
 $lang = array_merge($lang, array(
-	'ACP_BACKUP_EXPLAIN'		=> 'Aqui pode fazer Cópias de Segurança da Base de Dados do Fórum. Os ficheiros podem ser guardados na directoria /store, ou pode transferi-los para o seu computador. Dependendo das configurações do Servidor, o ficheiro poderá ser comprimido em diversos formatos.',
+	'ACP_BACKUP_EXPLAIN'		=> 'Aqui pode fazer Cópias de Segurança da Base de Dados do Fórum. Os ficheiros podem ser guardados na pasta /store, ou pode transferi-los para o seu computador. Dependendo das configurações do Servidor, o ficheiro poderá ser comprimido em diversos formatos.',
 	'ACP_RESTORE_EXPLAIN'		=> 'Esta operação recuperará todas as Tabelas da Base de Dados do phpBB incluídas no Ficheiro. Se o Servidor suportar compressão de Ficheiros de texto gzip ou bzip2 a descompressão será automática. <strong>ATENÇÃO</strong> A Base da Dados actual, e toda a informação nela contida, será substituída. A reposição dos dados poderá demorar, aguarde até que o processo esteja concluído.',
 
 	'BACKUP_DELETE'				=> 'O Ficheiro da Cópia de Segurança foi apagado com sucesso.',
@@ -67,7 +67,7 @@ $lang = array_merge($lang, array(
 	'START_BACKUP'				=> 'Iniciar a Cópia de Segurança',
 	'START_RESTORE'				=> 'Iniciar restauração',
 	'STORE_AND_DOWNLOAD'		=> 'Armazenar e descarregar',
-	'STORE_LOCAL'				=> 'Guardar na directoria /store do Fórum',
+	'STORE_LOCAL'				=> 'Guardar na pasta /store do Fórum',
 	'STRUCTURE_ONLY'			=> 'Só estrutura',
 
 	'TABLE_SELECT'				=> 'Selecção de Tabelas',

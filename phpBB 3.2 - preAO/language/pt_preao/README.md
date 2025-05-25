@@ -1,7 +1,7 @@
-Tradução Portuguesa (PT-PT) phpBB versão 3.2.9 - phpBB 3.2.9
+Tradução Portuguesa (PT-PT) phpBB versão 3.2.11 - phpBB 3.2.11
 
 ------------
 * Tradução segundo o pré-Acordo Ortográfico
 
 ------------
-Compatível com phpBB 3.2.9
+Compatível com phpBB 3.2.9+

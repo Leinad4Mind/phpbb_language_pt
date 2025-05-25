@@ -145,7 +145,7 @@ $help = array(
 	),
 	array(
 		0	=> 'Por que não consigo anexar ficheiros?',
-		1	=> 'Em algumas secções, anexar ficheiros pode estar restrito a alguns Utilizadores ou Grupos. Para anexar um arquivo, tem que ter de uma autorização especial. Apenas o Moderador do Fórum e os Administradores podem lhe dar esse acesso. Por Favor, contacte-os.',
+		1	=> 'Em algumas secções, anexar ficheiros pode estar restrito a alguns Utilizadores ou Grupos. Para anexar um ficheiro, tem que ter de uma autorização especial. Apenas o Moderador do Fórum e os Administradores podem lhe dar esse acesso. Por Favor, contacte-os.',
 	),
 	array(
 		0	=> 'Por que recebi uma Advertência?',

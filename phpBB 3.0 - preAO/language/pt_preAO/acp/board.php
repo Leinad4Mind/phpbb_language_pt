@@ -90,7 +90,7 @@ $lang = array_merge($lang, array(
 
 // Avatar Settings 
 $lang = array_merge($lang, array(
-	'ACP_AVATAR_SETTINGS_EXPLAIN'	=> 'Os Avatares são pequenas imagens que o Utilizador pode usar para ser identificado no Fórum. Dependendo do Estilo usado, o Avatar é mostrado normalmente acima do nome do Utilizador na visualização dos Tópicos. Aqui pode definir como os Utilizadores podem usar os seus Avatares. Para enviar Avatares, a Directoria abaixo já tem que estar criada e certificar-se que o Servidor pode gravar Ficheiros nela. O limite do tamanho da imagem do Avatar é válido apenas para Avatares enviados, não se aplicando a imagens utilizadas de outros sítios web.',
+	'ACP_AVATAR_SETTINGS_EXPLAIN'	=> 'Os Avatares são pequenas imagens que o Utilizador pode usar para ser identificado no Fórum. Dependendo do Estilo usado, o Avatar é mostrado normalmente acima do nome do Utilizador na visualização dos Tópicos. Aqui pode definir como os Utilizadores podem usar os seus Avatares. Para enviar Avatares, a Pasta abaixo já tem que estar criada e certificar-se que o Servidor pode gravar Ficheiros nela. O limite do tamanho da imagem do Avatar é válido apenas para Avatares enviados, não se aplicando a imagens utilizadas de outros sítios web.',
 
 	'ALLOW_AVATARS'					=> 'Activar avatares',
 	'ALLOW_AVATARS_EXPLAIN'			=> 'Permitir o uso normal de avatares;<br />Caso desactive o uso normal de avatares ou um uso de avatares, os avatares desactivados deixarão de ser visíveis no Fórum, embora os utilizadores possam transferir os seus próprios avatares no Painel de Controlo do Utilizador.',
@@ -100,10 +100,10 @@ $lang = array_merge($lang, array(
 	'ALLOW_REMOTE_UPLOAD'			=> 'Permitir o envio de avatar remoto',
 	'ALLOW_REMOTE_UPLOAD_EXPLAIN'	=> 'Permitir o envio de avatares de um outro sítio.',
 	'ALLOW_UPLOAD'					=> 'Activar o envio de Avatar',
-	'AVATAR_GALLERY_PATH'			=> 'Directoria da Galeria de Avatares',
-	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'Directoria dependendo da raiz do phpBB para Galeria de Avatares: Exemplo: \images\avatars\gallery.',
-	'AVATAR_STORAGE_PATH'			=> 'Directoria de arquivo dos Avatares',
-	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'Directoria dependendo da raiz do phpBB para Upload de Avatares  Exemplo: \images\avatars\upload.<br />O upload do Avatar <strong>estará indisponível</strong> se a pasta não tiver permissão de escrita.',
+	'AVATAR_GALLERY_PATH'			=> 'Pasta da Galeria de Avatares',
+	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'Pasta dependendo da raiz do phpBB para Galeria de Avatares: Exemplo: \images\avatars\gallery.',
+	'AVATAR_STORAGE_PATH'			=> 'Pasta de ficheiro dos Avatares',
+	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'Pasta dependendo da raiz do phpBB para Upload de Avatares  Exemplo: \images\avatars\upload.<br />O upload do Avatar <strong>estará indisponível</strong> se a pasta não tiver permissão de escrita.',
 	'MAX_AVATAR_SIZE'				=> 'Dimensões Máximas do Avatar',
 	'MAX_AVATAR_SIZE_EXPLAIN'		=> '(Altura x Largura em píxeis).',
 	'MAX_FILESIZE'					=> 'Tamanho Máximo do Ficheiro Avatar',
@@ -333,7 +333,7 @@ $lang = array_merge($lang, array(
 
 	'COOKIE_DOMAIN'							=> 'Domínio do Cookie',
 	'COOKIE_NAME'							=> 'Nome do Cookie',
-	'COOKIE_PATH'							=> 'Directoria do Cookie',
+	'COOKIE_PATH'							=> 'Pasta do Cookie',
 	'COOKIE_SECURE'							=> 'Cookie seguro',
 	'COOKIE_SECURE_EXPLAIN'					=> 'Se o Servidor funciona por SSL, mude para Activado caso contrário, deixe-o Desactivado. Estando Activado sem funcionar por SSL poderá resultar em erros no Servidor durante os redireccionamentos.',
 	'ONLINE_LENGTH'							=> 'Tempo limite para visualização online',
@@ -414,13 +414,13 @@ $lang = array_merge($lang, array(
 	'ENABLE_GZIP_EXPLAIN'					=> 'Conteúdo gerado será comprimido antes de enviado ao utilizador. Isto pode reduzir o tráfego na rede, mas irá aumentar o uso do CPU no servidor e cliente. Requer a utilização da extensão PHP zlib.',
 	'FORCE_SERVER_VARS'						=> 'Forçar configurações da URL do Servidor',
 	'FORCE_SERVER_VARS_EXPLAIN'				=> 'Se seleccionar Sim serão usadas as configurações aqui definidas em alternativa aos valores definidos automaticamente.',
-	'ICONS_PATH'							=> 'Directoria para Ficheiro de Ícones',
-	'ICONS_PATH_EXPLAIN'					=> 'Directoria sob o directoria raiz do phpBB. Exemplo: images/icons.',
+	'ICONS_PATH'							=> 'Pasta para Ficheiro de Ícones',
+	'ICONS_PATH_EXPLAIN'					=> 'Pasta sob o pasta raiz do phpBB. Exemplo: images/icons.',
 	'PATH_SETTINGS'							=> 'Configurações de Pastas',
-	'RANKS_PATH'							=> 'Directoria para Ficheiro de Imagens de Classificação',
-	'RANKS_PATH_EXPLAIN'					=> 'Directoria sob a directoria raiz do phpBB. Exemplo:  images/ranks.',
-	'SCRIPT_PATH'							=> 'Directoria do script',
-	'SCRIPT_PATH_EXPLAIN'					=> 'Directoria onde o phpBB está instalado com relação ao Domínio. Exemplo: phpBB3.',
+	'RANKS_PATH'							=> 'Pasta para Ficheiro de Imagens de Classificação',
+	'RANKS_PATH_EXPLAIN'					=> 'Pasta sob a pasta raiz do phpBB. Exemplo:  images/ranks.',
+	'SCRIPT_PATH'							=> 'Pasta do script',
+	'SCRIPT_PATH_EXPLAIN'					=> 'Pasta onde o phpBB está instalado com relação ao Domínio. Exemplo: phpBB3.',
 	'SERVER_NAME'							=> 'Nome do Domínio',
 	'SERVER_NAME_EXPLAIN'					=> 'O nome do Domínio que executa o Fórum. Exemplo: www.exemplo.com.',
 	'SERVER_PORT'							=> 'Porta do Servidor',
@@ -428,10 +428,10 @@ $lang = array_merge($lang, array(
 	'SERVER_PROTOCOL'						=> 'Protocolo do Servidor',
 	'SERVER_PROTOCOL_EXPLAIN'				=> 'Será usado como o protocolo do servidor se essa configuração for forçada. Se vazio ou não forçado, o protocolo é determinado pela configuração de segurança do cookie http:// ou https://.',
 	'SERVER_URL_SETTINGS'					=> 'Configurações da URL do Servidor',
-	'SMILIES_PATH'							=> 'Directoria de Ficheiro de Emoções',
-	'SMILIES_PATH_EXPLAIN'					=> 'Directoria sob a directoria raiz do phpBB. Exemplo: images/smilies.',
-	'UPLOAD_ICONS_PATH'						=> 'Directoria de Ficheiro de Ícones de Grupos de Extensões',
-	'UPLOAD_ICONS_PATH_EXPLAIN'				=> 'Directoria sob a directoria raiz do phpBB. Exemplo: images/upload_icons.',
+	'SMILIES_PATH'							=> 'Pasta de Ficheiro de Emoções',
+	'SMILIES_PATH_EXPLAIN'					=> 'Pasta sob a pasta raiz do phpBB. Exemplo: images/smilies.',
+	'UPLOAD_ICONS_PATH'						=> 'Pasta de Ficheiro de Ícones de Grupos de Extensões',
+	'UPLOAD_ICONS_PATH_EXPLAIN'				=> 'Pasta sob a pasta raiz do phpBB. Exemplo: images/upload_icons.',
 ));
 
 // Security Settings 

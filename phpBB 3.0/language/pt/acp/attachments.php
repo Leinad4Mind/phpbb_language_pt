@@ -97,7 +97,7 @@ $lang = array_merge($lang, array(
 	'EXTENSION_GROUP_DELETED'			=> 'Grupo de Extensões apagado com sucesso.',
 	'EXTENSION_GROUP_EXIST'				=> 'Grupo de Extensões %s já existe.',
 
-	'EXT_GROUP_ARCHIVES'				=> 'Arquivos',
+	'EXT_GROUP_ARCHIVES'				=> 'Ficheiros',
 	'EXT_GROUP_DOCUMENTS'				=> 'Documentos',
 	'EXT_GROUP_DOWNLOADABLE_FILES'		=> 'Ficheiros para Transferência',
 	'EXT_GROUP_FLASH_FILES'				=> 'Ficheiros Flash',
@@ -136,8 +136,8 @@ $lang = array_merge($lang, array(
 	'NO_FILE_CAT'						=> 'Nenhum',
 	'NO_IMAGE'							=> 'Sem imagem',
 	'NO_THUMBNAIL_SUPPORT'				=> 'O suporte às miniaturas (imagem reduzida) encontra-se desativado. Para ativar esta funcionalidade é necessário a extensão GD ou imagemagick instalado. Nenhum dos dois foi encontrado.',
-	'NO_UPLOAD_DIR'						=> 'A diretoria de envio (upload) que indicou não existe.',
-	'NO_WRITE_UPLOAD'					=> 'A diretoria que indicou não permite gravação. Por favor, altere as permissões para permitir a escrita nele.',
+	'NO_UPLOAD_DIR'						=> 'A pasta de envio (upload) que indicou não existe.',
+	'NO_WRITE_UPLOAD'					=> 'A pasta que indicou não permite gravação. Por favor, altere as permissões para permitir a escrita nele.',
 
 	'ONLY_ALLOWED_IN_PM'				=> 'Apenas autorizar nas Mensagens Privadas',
 	'ORDER_ALLOW_DENY'					=> 'Permitir',
@@ -165,8 +165,8 @@ $lang = array_merge($lang, array(
 	'UPLOADING_FILES'					=> 'A Enviar Ficheiros',
 	'UPLOADING_FILE_TO'					=> 'A Enviar Ficheiro "%1$s" à Mensagem Nº %2$d...',
 	'UPLOAD_DENIED_FORUM'				=> 'Não tem Permissão para enviar Ficheiros para o Fórum "%s".',
-	'UPLOAD_DIR'						=> 'Diretoria de Anexos',
-	'UPLOAD_DIR_EXPLAIN'				=> 'Diretoria de arquivo dos anexos. Se mudar esta diretoria tendo já anexos nela, deve mudar manualmente esses anexos para o novo local.',
+	'UPLOAD_DIR'						=> 'Pasta de Anexos',
+	'UPLOAD_DIR_EXPLAIN'				=> 'Pasta de ficheiro dos anexos. Se mudar esta pasta tendo já anexos nela, deve mudar manualmente esses anexos para o novo local.',
 	'UPLOAD_ICON'						=> 'Ícone de envio',
-	'UPLOAD_NOT_DIR'					=> 'O local para envio de Ficheiros que indicou não parece ser uma diretoria.',
+	'UPLOAD_NOT_DIR'					=> 'O local para envio de Ficheiros que indicou não parece ser uma pasta.',
 ));

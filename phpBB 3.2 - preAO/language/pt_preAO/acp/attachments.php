@@ -95,7 +95,7 @@ $lang = array_merge($lang, array(
 	'EXTENSION_GROUP_DELETED'			=> 'Grupo de Extensões apagado com sucesso.',
 	'EXTENSION_GROUP_EXIST'				=> 'Grupo de Extensões %s já existe.',
 
-	'EXT_GROUP_ARCHIVES'				=> 'Arquivos',
+	'EXT_GROUP_ARCHIVES'				=> 'Ficheiros',
 	'EXT_GROUP_DOCUMENTS'				=> 'Documentos',
 	'EXT_GROUP_DOWNLOADABLE_FILES'		=> 'Ficheiros para Transferência',
 	'EXT_GROUP_FLASH_FILES'				=> 'Ficheiros Flash',
@@ -110,8 +110,10 @@ $lang = array_merge($lang, array(
 
 	'IMAGE_LINK_SIZE'					=> 'Dimensões para o atalho de Imagem',
 	'IMAGE_LINK_SIZE_EXPLAIN'			=> 'Mostra o anexo da imagem como um atalho se a imagem for maior que o seleccionado, introduza 0px por 0px para desactivar.',
-	'IMAGICK_PATH'						=> 'Local do ImageMagick',
-	'IMAGICK_PATH_EXPLAIN'				=> 'Caminho completo para o programa imagemagick, p.exemplo: /usr/bin/.',
+	'IMAGE_QUALITY'						=> 'Qualidade dos anexos de imagem enviados (apenas JPEG)',
+	'IMAGE_QUALITY_EXPLAIN'				=> 'Especifique um valor entre 50% (menor tamanho do ficheiro) e 90% (qualidade superior). Qualidade superior a 90% aumenta o tamanho do ficheiro e é desactivada. A configuração será aplicada apenas se as dimensões máximas da imagem estiverem definidas para um valor diferente de 0px por 0px.',
+	'IMAGE_STRIP_METADATA'				=> 'Remover metadados de imagem (apenas JPEG)',
+	'IMAGE_STRIP_METADATA_EXPLAIN'		=> 'Remover metadados EXIF p.ex. nome do autor, coordenadas GPS e detalhes da câmara. A configuração será aplicada apenas se as dimensões máximas da imagem estiverem definidas para um valor diferente de 0px por 0px.',
 
 	'MAX_ATTACHMENTS'					=> 'Máximo de anexos por Mensagem',
 	'MAX_ATTACHMENTS_PM'				=> 'Máximo de anexos por Mensagem Privada',
@@ -130,6 +132,8 @@ $lang = array_merge($lang, array(
 	'NOT_ASSIGNED'						=> 'Não atribuído',
 	'NO_ATTACHMENTS'					=> 'Nenhum anexo encontrado para este período.',
 	'NO_EXT_GROUP'						=> 'Nenhum',
+	'NO_EXT_GROUP_ALLOWED_PM'			=> 'Não há <a href="%s">grupos de extensões permitidos</a> para mensagens privadas.',
+	'NO_EXT_GROUP_ALLOWED_POST'			=> 'Não há <a href="%s">grupos de extensões permitidos</a> para mensagens.',
 	'NO_EXT_GROUP_NAME'					=> 'Nome do Grupo não foi seleccionado',
 	'NO_EXT_GROUP_SPECIFIED'			=> 'Grupo de Extensão não especificado.',
 	'NO_FILE_CAT'						=> 'Nenhum',

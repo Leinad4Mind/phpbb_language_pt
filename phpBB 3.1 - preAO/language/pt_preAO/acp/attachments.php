@@ -98,7 +98,7 @@ $lang = array_merge($lang, array(
 	'EXTENSION_GROUP_DELETED'			=> 'Grupo de Extensões apagado com sucesso.',
 	'EXTENSION_GROUP_EXIST'				=> 'Grupo de Extensões %s já existe.',
 
-	'EXT_GROUP_ARCHIVES'				=> 'Arquivos',
+	'EXT_GROUP_ARCHIVES'				=> 'Ficheiros',
 	'EXT_GROUP_DOCUMENTS'				=> 'Documentos',
 	'EXT_GROUP_DOWNLOADABLE_FILES'		=> 'Ficheiros para Transferência',
 	'EXT_GROUP_FLASH_FILES'				=> 'Ficheiros Flash',
