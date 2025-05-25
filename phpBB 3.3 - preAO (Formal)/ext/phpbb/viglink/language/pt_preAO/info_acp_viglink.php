@@ -6,7 +6,7 @@
  *
  * @copyright (c) 2014 phpBB Limited <https://www.phpbb.com>
  * @license GNU General Public License, version 2 (GPL-2.0)
- * @Traduzido por: https://leinad4mind.top/forum - segundo as normas do Acordo Ortográfico
+ * @Traduzido por: https://leinad4mind.top/forum - segundo pré-Acordo Ortográfico (Versão Formal) (Versão Formal)
  *
  */
 

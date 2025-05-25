@@ -9,7 +9,7 @@
  *
  * For full copyright and license information, please see
  * the docs/CREDITS.txt file.
- * @Traduzido por: https://leinad4mind.top/forum - segundo as normas do Acordo Ortográfico
+ * @Traduzido por: https://leinad4mind.top/forum - segundo as normas do Acordo Ortográfico (Versão Formal)
  */
 
 /**
