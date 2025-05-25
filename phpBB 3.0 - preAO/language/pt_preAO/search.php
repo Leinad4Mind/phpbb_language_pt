@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* search [Português Pré-AO]
-*
-* @package language
-* @version 1.0.9
-* @Traduzido por: http://www.phpbb-pt.com - segundo pré-Acordo Ortográfico
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* 
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * search [Português Pré-AO]
+ *
+ * @package language
+ * @version 1.0.9
+ * @Traduzido por: https://leinad4mind.top/forum - segundo pré-Acordo Ortográfico
+ * @copyright (c) 2005 phpBB Group
+ * @license http://opensource.org/licenses/gpl-license.php GNU Public License
+ * 
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -54,9 +53,9 @@ $lang = array_merge($lang, array(
 	'JUMP_TO_POST'				=> 'Ir para a mensagem',
 
 	'LOGIN_EXPLAIN_EGOSEARCH'	=> 'É necessário que esteja registado para visualizar os Tópicos.',
-	'LOGIN_EXPLAIN_UNREADSEARCH'=> 'É necessário que esteja registado e autenticado para ver as suas mensagens lidas.',
+	'LOGIN_EXPLAIN_UNREADSEARCH' => 'É necessário que esteja registado e autenticado para ver as suas mensagens lidas.',
 	'LOGIN_EXPLAIN_NEWPOSTS'	=> 'É necessário que esteja registado e autenticado para ver novas mensagens desde sua última visita.',
-	
+
 	'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> 'Introduziu demasiadas palavras para pesquisar. Por favor, não introduza mais do que %1$d palavras.',
 
 	'NO_KEYWORDS'				=> 'Tem que especificar pelo menos uma palavra para pesquisa. Cada palavra tem que conter no mínimo %d caracteres e não pode conter mais do que %d caracteres.',
@@ -85,13 +84,13 @@ $lang = array_merge($lang, array(
 	'SEARCH_AUTHOR_EXPLAIN'		=> 'Use * para resultados parciais',
 	'SEARCH_FIRST_POST'			=> 'Apenas a primeira Mensagem dos Tópicos',
 	'SEARCH_FORUMS'				=> 'Pesquisar nos Fóruns',
-	'SEARCH_FORUMS_EXPLAIN'		=> 'Seleccione o Fórum ou os Fóruns em que deseja procurar. Para ser mais rápido na pesquisa seleccione o Fórum principal do Subfórum e marque a opção de pesquisar em Subfórum.',
+	'SEARCH_FORUMS_EXPLAIN'		=> 'Seleccione o Fórum ou os Fóruns em que deseja procurar. Para ser mais rápido na pesquisa seleccione o Fórum principal do Sub-fórum e marque a opção de pesquisar em Sub-fórum.',
 	'SEARCH_IN_RESULTS'			=> 'Procurar estes resultados',
 	'SEARCH_KEYWORDS_EXPLAIN'	=> 'Coloque <strong>+</strong> na frente das palavras que têm que ser encontradas e coloque <strong>-</strong> nas palavras que <strong>não</strong> têm que ser encontradas. Faça uma lista de palavras separadas por <strong>|</strong> Use o <strong>*</strong> para resultados parciais.',
 	'SEARCH_MSG_ONLY'			=> 'Apenas Mensagens de texto',
 	'SEARCH_OPTIONS'			=> 'Opções de pesquisa',
 	'SEARCH_QUERY'				=> 'Procurar',
-	'SEARCH_SUBFORUMS'			=> 'Procurar nos Subfóruns',
+	'SEARCH_SUBFORUMS'			=> 'Procurar nos Sub-fóruns',
 	'SEARCH_TITLE_MSG'			=> 'Procurar Títulos e texto dos Tópicos',
 	'SEARCH_TITLE_ONLY'			=> 'Procurar só nos Títulos dos Tópicos',
 	'SEARCH_WITHIN'				=> 'Procurar com',
@@ -104,5 +103,3 @@ $lang = array_merge($lang, array(
 
 	'TOO_FEW_AUTHOR_CHARS'		=> 'Deve indicar pelo menos %d caracteres do nome do autor.',
 ));
-
-?>

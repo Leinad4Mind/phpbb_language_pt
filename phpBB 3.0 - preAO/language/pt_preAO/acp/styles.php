@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* acp_styles [Português Pré-AO]
-*
-* @package language
-* @version 1.0.9
-* @Traduzido por: http://www.phpbb-pt.com - segundo pré-Acordo Ortográfico
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* 
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * acp_styles [Português Pré-AO]
+ *
+ * @package language
+ * @version 1.0.9
+ * @Traduzido por: https://leinad4mind.top/forum - segundo pré-Acordo Ortográfico
+ * @copyright (c) 2005 phpBB Group
+ * @license http://opensource.org/licenses/gpl-license.php GNU Public License
+ * 
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -85,7 +84,7 @@ $lang = array_merge($lang, array(
 	'DELETE_THEME'					=> 'Apagar Tema',
 	'DELETE_THEME_EXPLAIN'			=> 'Aqui pode remover o Tema seleccionado da Base de Dados.  Por favor, note que não é possível anular esta acção. Deve exportar primeiro o Conjunto de Imagens para possível uso futuro.',
 	'DETAILS'						=> 'Detalhes',
-	'DIMENSIONS_EXPLAIN'			=> 'Seleccionando Sim aqui irá incluir os parâmetros de largura/altura.',
+	'DIMENSIONS_EXPLAIN'			=> 'Ao seleccionar Sim aqui irá incluir os parâmetros de largura/altura.',
 
 
 	'EDIT_DETAILS_IMAGESET'			=> 'Editar detalhes do Conjunto de Imagens',
@@ -107,7 +106,7 @@ $lang = array_merge($lang, array(
 	'EDIT_THEME_STORE_PARSED'		=> 'O Tema requer que o seu stylesheet esteja analisado gramaticalmente. Isto só é possível se estiver armazenado na Base de Dados.',
 	'EDITOR_DISABLED'				=> 'O Editor de Templates encontra-se desactivado.',
 	'EXPORT'						=> 'Exportar',
-	
+
 	'FOREGROUND'					=> 'Primeiro Plano',
 	'FONT_COLOUR'					=> 'Cor da Fonte',
 	'FONT_FACE'						=> 'Fonte',
@@ -145,7 +144,7 @@ $lang = array_merge($lang, array(
 	'ITALIC'						=> 'Itálico',
 
 	'IMG_CAT_BUTTONS'				=> 'Botões Localizados',
-	'IMG_CAT_CUSTOM'				=> 'Imagens Customizadas',
+	'IMG_CAT_CUSTOM'				=> 'Imagens Personalizadas',
 	'IMG_CAT_FOLDERS'				=> 'Ícones de Tópico',
 	'IMG_CAT_FORUMS'				=> 'Ícones de Fórum',
 	'IMG_CAT_ICONS'					=> 'Ícones Gerais',
@@ -165,12 +164,12 @@ $lang = array_merge($lang, array(
 	'IMG_FORUM_LINK'				=> 'Fórum Link',
 	'IMG_FORUM_READ'				=> 'Fórum',
 	'IMG_FORUM_READ_LOCKED'			=> 'Fórum Bloqueado',
-	'IMG_FORUM_READ_SUBFORUM'		=> 'Subfórum',
+	'IMG_FORUM_READ_SUBFORUM'		=> 'Sub-fórum',
 	'IMG_FORUM_UNREAD'				=> 'Fórum com Mensagens não lidas',
 	'IMG_FORUM_UNREAD_LOCKED'		=> 'Fórum Bloqueado com Mensagens não lidas',
-	'IMG_FORUM_UNREAD_SUBFORUM'		=> 'Subfórum com Mensagens não lidas',
-	'IMG_SUBFORUM_READ'				=> 'Subfórum',
-	'IMG_SUBFORUM_UNREAD'			=> 'Subfórum com Mensagens não lidas',
+	'IMG_FORUM_UNREAD_SUBFORUM'		=> 'Sub-fórum com Mensagens não lidas',
+	'IMG_SUBFORUM_READ'				=> 'Sub-fórum',
+	'IMG_SUBFORUM_UNREAD'			=> 'Sub-fórum com Mensagens não lidas',
 
 	'IMG_TOPIC_MOVED'				=> 'Tópico movido',
 
@@ -204,7 +203,7 @@ $lang = array_merge($lang, array(
 	'IMG_ANNOUNCE_UNREAD'			=> 'Anúncio mensagens não lidas',
 	'IMG_ANNOUNCE_UNREAD_MINE'		=> 'Anúncio definido para não lidas',
 	'IMG_ANNOUNCE_UNREAD_LOCKED'	=> 'Anúncio Bloqueado mensagens não lidas',
-	'IMG_ANNOUNCE_UNREAD_LOCKED_MINE'=> 'Anúncio Bloqueado definido para não lidas',
+	'IMG_ANNOUNCE_UNREAD_LOCKED_MINE' => 'Anúncio Bloqueado definido para não lidas',
 
 	'IMG_GLOBAL_READ'				=> 'Global',
 	'IMG_GLOBAL_READ_MINE'			=> 'Global definido para',
@@ -293,7 +292,7 @@ $lang = array_merge($lang, array(
 
 	'LINE_SPACING'					=> 'Espaçamento da Linha',
 	'LOCALISED_IMAGES'				=> 'Localizado',
-	'LOCATION_DISABLED_EXPLAIN'		=> 'Esta configuração é hereditária e não pode ser modificada.',	
+	'LOCATION_DISABLED_EXPLAIN'		=> 'Esta configuração é hereditária e não pode ser modificada.',
 
 	'NO_CLASS'						=> 'Não há nenhuma classe na folha de estilos.',
 	'NO_IMAGESET'					=> 'Não há nenhum Conjunto de Imagens no Sistema de Ficheiros.',
@@ -403,7 +402,7 @@ $lang = array_merge($lang, array(
 
 	'THEME_ADDED'					=> 'Novo Tema adicionado no Sistema de Ficheiros.',
 	'THEME_ADDED_DB'				=> 'Novo Tema adicionado à Base de Dados.',
-	'THEME_CLASS_ADDED'				=> 'Classe customizada adicionada com sucesso.',
+	'THEME_CLASS_ADDED'				=> 'Classe personalizada adicionada com sucesso.',
 	'THEME_DELETED'					=> 'Tema apagado com sucesso.',
 	'THEME_DELETED_FS'				=> 'Tema removido da Base de Dados mas os Ficheiros ainda estão no Sistema de Ficheiros.',
 	'THEME_DETAILS_UPDATED'			=> 'Detalhes do Tema actualizado com sucesso.',
@@ -436,5 +435,3 @@ $lang = array_merge($lang, array(
 	'UNSET'							=> 'Indefinido',
 
 ));
-
-?>

@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* This file is part of the phpBB Forum Software package.
-*
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
-* @Traduzido por: http://www.phpbb-pt.com - segundo as normas do Acordo Ortográfico
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * This file is part of the phpBB Forum Software package.
+ *
+ * @copyright (c) phpBB Limited <https://www.phpbb.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * For full copyright and license information, please see
+ * the docs/CREDITS.txt file.
+ * @Traduzido por: https://leinad4mind.top/forum - segundo as normas do Acordo Ortográfico
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -59,7 +58,7 @@ $lang = array_merge($lang, array(
 	'JUMP_TO_POST'				=> 'Ir para a mensagem',
 
 	'LOGIN_EXPLAIN_EGOSEARCH'	=> 'É necessário que esteja registado para visualizar os Tópicos.',
-	'LOGIN_EXPLAIN_UNREADSEARCH'=> 'É necessário que esteja registado e autenticado para ver as suas mensagens lidas.',
+	'LOGIN_EXPLAIN_UNREADSEARCH' => 'É necessário que esteja registado e autenticado para ver as suas mensagens lidas.',
 	'LOGIN_EXPLAIN_NEWPOSTS'	=> 'É necessário que esteja registado e autenticado para ver novas mensagens desde sua última visita.',
 
 	'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> array(
@@ -87,7 +86,7 @@ $lang = array_merge($lang, array(
 	'RESULT_DAYS'				=> 'Limitar resultados anteriores',
 	'RESULT_SORT'				=> 'Organizar resultados por',
 	'RETURN_FIRST'				=> 'Mostrar os primeiros',
-	'RETURN_FIRST_EXPLAIN'		=> 'Defina como 0 para exibir a postagem inteira.',
+	'RETURN_FIRST_EXPLAIN'		=> 'Defina como 0 para exibir a mensagem inteira.',
 	'GO_TO_SEARCH_ADV'			=> 'Pesquisa avançada',
 
 	'SEARCHED_FOR'				=> 'Termo usado na pesquisa',

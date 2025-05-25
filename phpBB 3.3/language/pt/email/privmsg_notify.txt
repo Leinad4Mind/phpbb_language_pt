@@ -2,7 +2,7 @@ Subject: Nova Mensagem Privada
 
 Olá, {USERNAME},
 
-Uma nova mensagem privada de "{AUTHOR_NAME}" no seu registro em "{SITENAME}" com o seguinte título:
+Uma nova mensagem privada de "{AUTHOR_NAME}" no seu registo em "{SITENAME}" com o seguinte título:
 {SUBJECT}
 
 Pode ver a sua nova mensagem clicando no seguinte endereço:

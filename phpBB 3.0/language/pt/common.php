@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* common [Português]
-*
-* @package language
-* @version 1.0.9
-* @Traduzido por: http://www.phpbb-pt.com - segundo as normas do Acordo Ortográfico
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* 
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * common [Português]
+ *
+ * @package language
+ * @version 1.0.9
+ * @Traduzido por: https://leinad4mind.top/forum - segundo as normas do Acordo Ortográfico
+ * @copyright (c) 2005 phpBB Group
+ * @license http://opensource.org/licenses/gpl-license.php GNU Public License
+ * 
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -41,7 +40,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'					=> 'Traduzido por phpBB Portugal',
+	'TRANSLATION_INFO'					=> 'Traduzido por phpBB Leinad4Mind',
 	'DIRECTION'							=> 'ltr',
 	'DATE_FORMAT'						=> '|d M Y|',	// 01 Jan 2007 (with Relative days enabled) 
 	'USER_LANG'							=> 'pt',
@@ -94,7 +93,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_URL_NOT_FOUND'				=> 'O Ficheiro indicado não foi encontrado.',
 	'AVATAR_WRONG_FILESIZE'				=> 'O tamanho do Avatar deve estar entre 0 e %1$d %2$s.',
 	'AVATAR_WRONG_SIZE'					=> 'O Avatar submetido tem %5$d píxeis de largura e %6$d píxeis de altura. Os Avatares devem ter %1$d píxeis de largura e %2$d píxeis de altura, mas não podem ser maiores do que %3$d píxeis de largura e %4$d píxeis de altura.',
-	
+
 	'BACK_TO_TOP'						=> 'Topo',
 	'BACK_TO_PREV'						=> 'Voltar à página anterior',
 	'BAN_TRIGGERED_BY_EMAIL'			=> 'O seu endereço de email foi banido do Fórum.',
@@ -175,7 +174,7 @@ $lang = array_merge($lang, array(
 	'ERR_JAB_CONNECT'					=> 'Não foi possível fazer a ligação ao servidor Jabber.',
 	'ERR_UNABLE_TO_LOGIN'				=> 'Ocorreu um erro no acesso. Nome de Utilizador ou Senha incorretos.',
 	'ERR_UNWATCHING'					=> 'Um erro ocorreu durante o cancelamento da subscrição.',
-	'ERR_WATCHING'						=> 'Um erro ocorreu durante a subscrição.',	
+	'ERR_WATCHING'						=> 'Um erro ocorreu durante a subscrição.',
 	'ERR_WRONG_PATH_TO_PHPBB'			=> 'O local do script phpBB indicado parece não ser válido.',
 	'EXPAND_VIEW'						=> 'Ver mais detalhes',
 	'EXTENSION'							=> 'Extensão',
@@ -310,7 +309,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_CHECK_PM'					=> 'Ver Mensagens Privadas.',
 	'LOGIN_CONFIRMATION'				=> 'Confirmação de acesso',
 	'LOGIN_CONFIRM_EXPLAIN'				=> 'Para prevenir ataques "brute force" o Administrador exige o código de confirmação após sucessivas tentativas falhadas de acesso. O código é exibido na imagem abaixo. Se tiver problemas em ver esta imagem, por favor, contacte um %sAdministrador%s.', // unused
-    'LOGIN_ERROR_ATTEMPTS'				=> 'Excedeu o número máximo de tentativas de acesso. Além do seu nome de Utilizador e Senha tem de resolver o CAPTCHA abaixo',
+	'LOGIN_ERROR_ATTEMPTS'				=> 'Excedeu o número máximo de tentativas de acesso. Além do seu nome de Utilizador e Senha tem de resolver o CAPTCHA abaixo',
 	'LOGIN_ERROR_EXTERNAL_AUTH_APACHE'	=> 'Não foi autenticado pelo Apache.',
 	'LOGIN_ERROR_PASSWORD'				=> 'A Senha introduzida não está correta, tente novamente. Se continuar com problemas, contacte um %sAdministrador do Fórum%s.',
 	'LOGIN_ERROR_PASSWORD_CONVERT'		=> 'Não foi possível converter a sua Senha ao atualizar este Fórum. Por favor peça uma %snova senha%s. Se continuar com problemas, contacte um %sAdministrador do Fórum%s.',
@@ -327,7 +326,7 @@ $lang = array_merge($lang, array(
 	'MARK'								=> 'Selecionar',
 	'MARK_ALL'							=> 'Selecionar Todos',
 	'MARK_FORUMS_READ'					=> 'Marcar todos os Fóruns como lidos',
-	'MARK_SUBFORUMS_READ'				=> 'Marcar todos os subfóruns como lidos',
+	'MARK_SUBFORUMS_READ'				=> 'Marcar todos os Sub-fóruns como lidos',
 	'MB'								=> 'MB',
 	'MIB'								=> 'MiB',
 	'MCP'								=> 'Painel de Moderação',
@@ -416,8 +415,8 @@ $lang = array_merge($lang, array(
 		0								=> 'Nenhuma mensagem na lista',		// 0
 		1								=> '1 mensagem na lista',		// 1
 		2								=> '%d mensagens na lista',		// 2+
-	),	
-	
+	),
+
 	'OCCUPATION'							=> 'Ocupação',
 	'OFFLINE'							=> 'Desligado',
 	'ONLINE'							=> 'Ligado',
@@ -570,8 +569,8 @@ $lang = array_merge($lang, array(
 	'START_WATCHING_TOPIC'				=> 'Observar Tópico',
 	'STOP_WATCHING_FORUM'				=> 'Parar de Observar Fórum',
 	'STOP_WATCHING_TOPIC'				=> 'Parar de Observar Tópico',
-	'SUBFORUM'							=> 'Subfórum',
-	'SUBFORUMS'							=> 'Subfóruns',
+	'SUBFORUM'							=> 'Sub-fórum',
+	'SUBFORUMS'							=> 'Sub-fóruns',
 	'SUBJECT'							=> 'Assunto',
 	'SUBMIT'							=> 'Enviar',
 
@@ -584,7 +583,7 @@ $lang = array_merge($lang, array(
 	'TIME'								=> 'Data',
 
 	'TOO_LARGE'							=> 'O valor que inseriu é muito grande.',
-    'TOO_LARGE_MAX_RECIPIENTS'			=> 'O valor do configurado para o <strong>número máximo de destinatários permitidos por Mensagem Privada</strong> é muito grande.',
+	'TOO_LARGE_MAX_RECIPIENTS'			=> 'O valor do configurado para o <strong>número máximo de destinatários permitidos por Mensagem Privada</strong> é muito grande.',
 
 	'TOO_LONG'							=> 'O valor definido é muito longo.',
 
@@ -754,7 +753,7 @@ $lang = array_merge($lang, array(
 			2		=> 'Há %d minutos atrás',
 			60		=> 'Há 1 hora atrás',
 		),
-		
+
 		'Sunday'						=> 'domingo',
 		'Monday'						=> 'segunda-feira',
 		'Tuesday'						=> 'terça-feira',
@@ -844,49 +843,49 @@ $lang = array_merge($lang, array(
 
 	'tz_zones'                     	=> array(
 		'-12'                     	=> '[TMG-12] Eniwetok, Kwajalein',
-        '-11'                    	=> '[TMG-11] Atol de Midway, Samoa',
-        '-10'                    	=> '[TMG-10] Havai, Honolulu',
+		'-11'                    	=> '[TMG-11] Atol de Midway, Samoa',
+		'-10'                    	=> '[TMG-10] Havai, Honolulu',
 		'-9.5'						=> '[TMG - 9:30] Marquesas Islands Time',
-        '-9'                     	=> '[TMG-9] Alasca',
-        '-8'                     	=> '[TMG-8] Anchorage, Los Angeles, São Francisco, Seattle',
-        '-7'                     	=> '[TMG-7] Denver, Edmonton, Phoenix, Salt Lake City, Santa Fé',
-        '-6'                     	=> '[TMG-6] Chicago, Guatemala, Cidade do México, Saskatchewan Este',
-        '-5'                    	=> '[TMG-5] Bogotá, Kingston, Lima, Nova Iorque',
-        '-4.5'                     	=> '[TMG-4.5] Venezuela',
-        '-4'                    	=> '[TMG-4] Caracas, Labrador, La Paz, Províncias Marítimas, Santiago',
-        '-3.5'                    	=> '[TMG-3.5] Horário Padrão [Canadá], Terra Nova e Labrador',
-        '-3'                    	=> '[TMG-3] Brasília, Buenos Aires, Georgetown, Rio de Janeiro, São Paulo',
-        '-2'                     	=> '[TMG-2] Atlântico Centro',
-        '-1'                    	=> '[TMG-1] Açores, Arq. Cabo Verde',
-        '0'                        	=> '[TMG] Dublin, Edimburgo, Islândia, Lisboa, Londres, Casablanca',
-        '1'                      	=> '[TMG+1] Alkmaar, Amesterdão, Berlim, Berna, Bruxelas, Madrid, Paris, Roma, Roterdão, Oslo, Viena',
-        '2'                       	=> '[TMG+2] Atenas, Bucareste, Harare, Helsínquia, Israel, Istambul',
-        '3'                     	=> '[TMG+3] Ankara, Bagdade, Bahrein, Beirute, Kuwait, Moscovo, Nairóbi, Riyadh',
-        '3.5'                     	=> '[TMG+3.5] Irão',
-        '4'                        	=> '[TMG+4] Abu Dhabi, Cabul, Mascate, Tbilisi, Volgogrado',
-        '4.5'                     	=> '[TMG+4.5] Afeganistão',
-        '5'                        	=> '[TMG+5] Calcutá, Madras, Nova Deli',
-        '5.5'                     	=> '[TMG+5.5] Índia',
+		'-9'                     	=> '[TMG-9] Alasca',
+		'-8'                     	=> '[TMG-8] Anchorage, Los Angeles, São Francisco, Seattle',
+		'-7'                     	=> '[TMG-7] Denver, Edmonton, Phoenix, Salt Lake City, Santa Fé',
+		'-6'                     	=> '[TMG-6] Chicago, Guatemala, Cidade do México, Saskatchewan Este',
+		'-5'                    	=> '[TMG-5] Bogotá, Kingston, Lima, Nova Iorque',
+		'-4.5'                     	=> '[TMG-4.5] Venezuela',
+		'-4'                    	=> '[TMG-4] Caracas, Labrador, La Paz, Províncias Marítimas, Santiago',
+		'-3.5'                    	=> '[TMG-3.5] Horário Padrão [Canadá], Terra Nova e Labrador',
+		'-3'                    	=> '[TMG-3] Brasília, Buenos Aires, Georgetown, Rio de Janeiro, São Paulo',
+		'-2'                     	=> '[TMG-2] Atlântico Centro',
+		'-1'                    	=> '[TMG-1] Açores, Arq. Cabo Verde',
+		'0'                        	=> '[TMG] Dublin, Edimburgo, Islândia, Lisboa, Londres, Casablanca',
+		'1'                      	=> '[TMG+1] Alkmaar, Amesterdão, Berlim, Berna, Bruxelas, Madrid, Paris, Roma, Roterdão, Oslo, Viena',
+		'2'                       	=> '[TMG+2] Atenas, Bucareste, Harare, Helsínquia, Israel, Istambul',
+		'3'                     	=> '[TMG+3] Ankara, Bagdade, Bahrein, Beirute, Kuwait, Moscovo, Nairóbi, Riyadh',
+		'3.5'                     	=> '[TMG+3.5] Irão',
+		'4'                        	=> '[TMG+4] Abu Dhabi, Cabul, Mascate, Tbilisi, Volgogrado',
+		'4.5'                     	=> '[TMG+4.5] Afeganistão',
+		'5'                        	=> '[TMG+5] Calcutá, Madras, Nova Deli',
+		'5.5'                     	=> '[TMG+5.5] Índia',
 		'5.75'						=> '[TMG + 5:45] Nepal Time',
-        '6'                        	=> '[TMG+6] Almaty, Dhakar, Catmandu',
-        '6.5'                     	=> '[TMG+6.5] Rangum',
-        '7'                        	=> '[TMG+7] Banguecoque, Hanói, Jacarta, Phnom Penh',
-        '8'                        	=> '[TMG+8] Pequim, Hong Kong, Kuala Lumpur, Manila, Perth, Singapura, Taipei',
+		'6'                        	=> '[TMG+6] Almaty, Dhakar, Catmandu',
+		'6.5'                     	=> '[TMG+6.5] Rangum',
+		'7'                        	=> '[TMG+7] Banguecoque, Hanói, Jacarta, Phnom Penh',
+		'8'                        	=> '[TMG+8] Pequim, Hong Kong, Kuala Lumpur, Manila, Perth, Singapura, Taipei',
 		'8.75'						=> '[TMG + 8:45] Southeastern Western Australia Standard Time',
-        '9'                        	=> '[TMG+9] Mijn, Osaka, Sapporo, Seul, Tóquio, Yakutsk',
-        '9.5'                     	=> '[TMG+9.5] Adelaide, Darwin',
-        '10'                     	=> '[TMG+10] Brisbane, Camberra, Guam, Hobart, Melbourne, Porto Moresby, Sydney, Vertaal',
+		'9'                        	=> '[TMG+9] Mijn, Osaka, Sapporo, Seul, Tóquio, Yakutsk',
+		'9.5'                     	=> '[TMG+9.5] Adelaide, Darwin',
+		'10'                     	=> '[TMG+10] Brisbane, Camberra, Guam, Hobart, Melbourne, Porto Moresby, Sydney, Vertaal',
 		'10.5'						=> '[TMG + 10:30] Lord Howe Standard Time',
-        '11'                     	=> '[TMG+11] Magadan, Nova Caledónia, Ilhas Salomão',
+		'11'                     	=> '[TMG+11] Magadan, Nova Caledónia, Ilhas Salomão',
 		'11.5'						=> '[TMG + 11:30] Norfolk Island Time',
-        '12'                     	=> '[TMG+12] Auckland, Gemak, Fiji, Kamchatka, Ilhas Marshall, Suva, Wellington',
+		'12'                     	=> '[TMG+12] Auckland, Gemak, Fiji, Kamchatka, Ilhas Marshall, Suva, Wellington',
 		'12.75'						=> '[TMG + 12:45] Chatham Islands Time',
 		'13'						=> '[TMG + 13] Tonga Time, Phoenix Islands Time',
 		'14'						=> '[TMG + 14] Line Island Time',
-       ),
+	),
 
 	// The value is only an example and will get replaced by the current time on view 
-	'dateformats'						=> array( 
+	'dateformats'						=> array(
 		'd M Y, H:i'					=> '01 Jan 2008, 17:37',
 		'd M Y H:i'						=> '01 Jan 2008 17:37',
 		'M jS, \'y, H:i'				=> 'Jan 1st, \'07, 17:37',
@@ -894,12 +893,10 @@ $lang = array_merge($lang, array(
 		'F jS, Y, g:i a'				=> 'Janeiro 1st, 2008, 5:37 pm',
 		'|d M Y|, H:i'					=> 'Hoje, 17:37 / 01 Jan 2008, 17:37',
 		'|F jS, Y|, g:i a'				=> 'Hoje, 5:37 pm / Janeiro 1st, 2008, 5:37 pm'
-	), 
+	),
 
 	// The default dateformat which will be used on new installs in this language 
 	// Translators should change this if a the usual date format is different 
 	'default_dateformat'				=> 'd/M/Y, H:i', // 20/Abr/2009, 09:17
-	
-));
 
-?>
+));

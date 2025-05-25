@@ -1,20 +1,20 @@
 <?php
-/**
-*
-* help_faq [Português Pré-AO]
-*
-* @package language
-* @version 1.0.9
-* @Traduzido por: http://www.phpbb-pt.com - segundo pré-Acordo Ortográfico
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* 
-*/
 
 /**
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * help_faq [Português Pré-AO]
+ *
+ * @package language
+ * @version 1.0.9
+ * @Traduzido por: https://leinad4mind.top/forum - segundo pré-Acordo Ortográfico
+ * @copyright (c) 2005 phpBB Group
+ * @license http://opensource.org/licenses/gpl-license.php GNU Public License
+ * 
+ */
+
+/**
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
@@ -111,10 +111,10 @@ $help = array(
 		0	=> '--',
 		1	=> 'Sobre as Mensagens',
 	),
-   array( 
-      0 => 'Como posso enviar uma mensagem?', 
-      1 => 'Para enviar um novo Tópico num Fórum, clique no botão relevante das páginas dos Fóruns e Tópicos. Deverá registar-se antes de enviar uma mensagem. Uma lista de suas permissões de cada Fórum está disponível no fundo das páginas dos Fóruns e Tópicos. Exemplo: Pode criar novos Tópicos, votações, etc.' 
-   ), 
+	array(
+		0 => 'Como posso enviar uma mensagem?',
+		1 => 'Para enviar um novo Tópico num Fórum, clique no botão relevante das páginas dos Fóruns e Tópicos. Deverá registar-se antes de enviar uma mensagem. Uma lista de suas permissões de cada Fórum está disponível no fundo das páginas dos Fóruns e Tópicos. Exemplo: Pode criar novos Tópicos, votações, etc.'
+	),
 	array(
 		0	=> 'Como crio um Tópico no Fórum?',
 		1	=> 'Isso é fácil, clique no botão Novo Tópico ou Responder. Estes botões só são visíveis nas situações em que está autorizado a fazê-lo.',
@@ -173,7 +173,7 @@ $help = array(
 	),
 	array(
 		0	=> 'O que é BBCode?',
-		1	=> 'O BBCode é uma implementação especial do HTML. A possibilidade usar BBCode nas mensagens é determinada pelo Administrador do Fórum. Adicionalmente, pode poderá desactivar o BBCode em cada mensagem, seleccionando Desactivar BBCode nesta Mensagem abaixo da caixa principal de cada mensagem. BBCode por si mesmo é similar em estilo ao HTML, as Etiquetas (TAGs) são incluídas entre parênteses rectos, como por [exemplo], em vez de &lt;exemplo&gt; proporcionando uma maior facilidade na formatação dos textos e mensagens dentro do Fórum. Para mais informações, consulte o Guia BBCode, acessível através de um atalho no Painel de Mensagens.',
+		1	=> 'O BBCode é uma implementação especial do HTML. A possibilidade usar BBCode nas mensagens é determinada pelo Administrador do Fórum. Adicionalmente, pode poderá desactivar o BBCode em cada mensagem, ao seleccionar Desactivar BBCode nesta Mensagem abaixo da caixa principal de cada mensagem. BBCode por si mesmo é similar em estilo ao HTML, as Etiquetas (TAGs) são incluídas entre parênteses rectos, como por [exemplo], em vez de &lt;exemplo&gt; proporcionando uma maior facilidade na formatação dos textos e mensagens dentro do Fórum. Para mais informações, consulte o Guia BBCode, acessível através de um atalho no Painel de Mensagens.',
 	),
 	array(
 		0	=> 'Posso usar HTML?',
@@ -338,7 +338,7 @@ $help = array(
 	),
 	array(
 		0	=> 'Quem traduziu o phpBB3?',
-		1	=> 'O phpBB3 foi traduzido para a Língua Portuguesa por phpBB Portugal, sendo esta tradução de distribuição livre e gratuita. Se encontrar erros ou incorrecções, ou ainda, se tiver alguma sugestão a fazer visite-nos em phpBB Portugal. Agradecemos antecipadamente a sua visita e as contribuições que entender dar-nos, prometendo analisá-las cuidadosamente e dar-lhe resposta tão breve quanto possível.',
+		1	=> 'O phpBB3 foi traduzido para a Língua Portuguesa por phpBB Leinad4Mind, sendo esta tradução de distribuição livre e gratuita. Se encontrar erros ou incorrecções, ou ainda, se tiver alguma sugestão a fazer visite-nos em phpBB Leinad4Mind. Agradecemos antecipadamente a sua visita e as contribuições que entender dar-nos, prometendo analisá-las cuidadosamente e dar-lhe resposta tão breve quanto possível.',
 	),
 	array(
 		0	=> 'Por que não existe a Função X?',
@@ -349,5 +349,3 @@ $help = array(
 		1	=> 'Contacte o Administrador deste Fórum. Veja no canto superior direito da imagem encontrará um atalho para a lista de Utilizadores onde está o Administrador. Envie-lhe uma Mensagem Privada a expor o assunto.',
 	),
 );
-
-?>

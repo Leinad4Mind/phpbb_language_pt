@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* acp_common [Português Pré-AO]
-*
-* @package language
-* @version 1.0.9
-* @Traduzido por: http://www.phpbb-pt.com - segundo pré-Acordo Ortográfico
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* 
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * acp_common [Português Pré-AO]
+ *
+ * @package language
+ * @version 1.0.9
+ * @Traduzido por: https://leinad4mind.top/forum - segundo pré-Acordo Ortográfico
+ * @copyright (c) 2005 phpBB Group
+ * @license http://opensource.org/licenses/gpl-license.php GNU Public License
+ * 
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -278,9 +277,9 @@ $lang = array_merge($lang, array(
 	'SELECT_OPTION'					=> 'Seleccionar Opção',
 
 	'SETTING_TOO_LOW'				=> 'O valor escrito para a configuração "%1$s" é muito baixo. O valor mínimo permitido é %2$d.',
-    'SETTING_TOO_BIG'				=> 'O valor escrito para a configuração "%1$s" é muito alto. O valor máximo permitido é %2$d.',    
-    'SETTING_TOO_LONG'				=> 'O valor escrito para a configuração "%1$s" é muito longo. O comprimento máximo permitido é %2$d.',
-    'SETTING_TOO_SHORT'				=> 'O valor escrito para a configuração "%1$s" é muito curto. O comprimento mínimo permitido é %2$d.',
+	'SETTING_TOO_BIG'				=> 'O valor escrito para a configuração "%1$s" é muito alto. O valor máximo permitido é %2$d.',
+	'SETTING_TOO_LONG'				=> 'O valor escrito para a configuração "%1$s" é muito longo. O comprimento máximo permitido é %2$d.',
+	'SETTING_TOO_SHORT'				=> 'O valor escrito para a configuração "%1$s" é muito curto. O comprimento mínimo permitido é %2$d.',
 
 	'SHOW_ALL_OPERATIONS'			=> 'Mostrar todas as operações',
 
@@ -289,17 +288,17 @@ $lang = array_merge($lang, array(
 	'USER_CONTROL_PANEL'			=> 'Painel de Utilizadores',
 
 	'WARNING'						=> 'Advertência',
-)); 
+));
 
 // PHP info 
-$lang = array_merge($lang, array( 
+$lang = array_merge($lang, array(
 	'ACP_PHP_INFO_EXPLAIN'			=> 'Esta página mostra informações da versão do PHP instalada neste servidor, incluindo detalhes dos módulos carregados, variáveis disponíveis e as configurações padrão. Esta informação pode ser necessária quando forem detectados erros. Alguns servidores podem limitar, por medida de segurança, as informações exibidas. Mantenha estas informações reservadas excepto quando questionado pela <a href="https://www.phpbb.com/about/team/">membros da equipa oficial</a> no Fórum de Suporte.',
 
 	'NO_PHPINFO_AVAILABLE'			=> 'As informações do PHP não podem ser determinadas. O Phpinfo() foi desactivado por medidas de segurança.',
-)); 
+));
 
 // Logs 
-$lang = array_merge($lang, array( 
+$lang = array_merge($lang, array(
 	'ACP_ADMIN_LOGS_EXPLAIN'		=> 'Esta é a lista das acções dos Administradores. Pode ordená-la por Utilizador, data, Endereço de IP ou Acção do Registo. Se tiver as permissões adequadas, pode limpar operações individuais ou todo o registo.',
 	'ACP_CRITICAL_LOGS_EXPLAIN'		=> 'Esta é a lista das acções realizadas pelo Fórum. Estes registos têm informações que permitem solucionar problemas específicos, por exemplo uma falha no envio de emails.  Pode ordená-la por Utilizador, data, IP ou acção. Se tiver as permissões adequadas, pode limpar operações individuais ou todo o registo.',
 	'ACP_MOD_LOGS_EXPLAIN'			=> 'Esta é a lista das acções dos Moderadores do Fórum. Pode ordená-la por Utilizador, data, Endereço de IP ou Acção do Registo. Se tiver as permissões adequadas, pode limpar operações individuais ou todo o registo.',
@@ -309,14 +308,14 @@ $lang = array_merge($lang, array(
 	'DISPLAY_LOG'					=> 'Exibir Entradas anteriores',
 
 	'NO_ENTRIES'					=> 'Não há registos neste Período.',
-	
+
 	'SORT_IP'						=> 'Endereço de IP',
 	'SORT_DATE'						=> 'Data',
 	'SORT_ACTION'					=> 'Registo da acção',
-)); 
+));
 
 // Index page 
-$lang = array_merge($lang, array( 
+$lang = array_merge($lang, array(
 	'ADMIN_INTRO'					=> 'Obrigado por usar o phpBB3 no seu Fórum. Esta página apresenta as Estatísticas Gerais do Fórum. À esquerda encontra os menus de acesso ao Painel de Administração. Cada um deles contém instruções de configuração.',
 	'ADMIN_LOG'						=> 'Registos da acções dos Administradores',
 	'ADMIN_LOG_INDEX_EXPLAIN'		=> 'Este registo mostra as últimas cinco acções dos Administradores. Uma cópia completa do registo está disponível no item apropriado do Menu ou seguindo o atalho abaixo.',
@@ -328,7 +327,7 @@ $lang = array_merge($lang, array(
 	'DATABASE_SERVER_INFO'			=> 'Servidor da Base de Dados',
 	'DATABASE_SIZE'					=> 'Tamanho da Base de Dados',
 
-	// Enviroment configuration checks, mbstring related
+	// Environment configuration checks, mbstring related
 	'ERROR_MBSTRING_FUNC_OVERLOAD'					=> 'A função de sobrecarga não se encontra configurada correctamente',
 	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'			=> '<var>mbstring.func_overload</var> deve ser definido para 0 ou 4. Pode verificar o valor actual em <samp>informação PHP</samp>.',
 	'ERROR_MBSTRING_ENCODING_TRANSLATION'			=> 'A codificação de caracteres transparentes não se encontra configurada correctamente',
@@ -393,10 +392,10 @@ $lang = array_merge($lang, array(
 
 	'WELCOME_PHPBB'					=> 'Bem-vindo ao phpBB',
 	'WRITABLE_CONFIG'				=> 'O seu ficheiro de configuração (config.php) encontra-se universalmente configurável. É altamente recomendável que modifique as Permissões do ficheiro para 640 ou 644 (leia: <a href="http://en.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php).',
-)); 
+));
 
 // Inactive Users
-$lang = array_merge($lang, array( 
+$lang = array_merge($lang, array(
 	'INACTIVE_DATE'					=> 'Data Inactiva',
 	'INACTIVE_REASON'				=> 'Razão',
 	'INACTIVE_REASON_MANUAL'		=> 'Registo Desactivado pelo Administrador',
@@ -418,7 +417,7 @@ $lang = array_merge($lang, array(
 	'SORT_REMINDER'					=> 'Aviso enviado',
 
 	'USER_IS_INACTIVE'				=> 'Utilizador Inactivo',
-)); 
+));
 
 // Send statistics page
 $lang = array_merge($lang, array(
@@ -433,7 +432,7 @@ $lang = array_merge($lang, array(
 ));
 
 // Log Entries 
-$lang = array_merge($lang, array( 
+$lang = array_merge($lang, array(
 	'LOG_ACL_ADD_USER_GLOBAL_U_'			=> '<strong>Permissões de Utilizadores a Utilizadores Adicionadas ou Editadas</strong><br />» %s',
 	'LOG_ACL_ADD_GROUP_GLOBAL_U_'			=> '<strong>Permissões de Utilizadores a Grupos Adicionadas ou Editadas</strong><br />» %s',
 	'LOG_ACL_ADD_USER_GLOBAL_M_'			=> '<strong>Permissões Globais a Utilizadores Adicionadas ou Editadas</strong><br />» %s',
@@ -519,7 +518,7 @@ $lang = array_merge($lang, array(
 	'LOG_APPROVE_TOPIC'						=> '<strong>Tópico Aprovado</strong><br />» %s',
 	'LOG_BUMP_TOPIC'						=> '<strong>Tópico Ressuscitado</strong><br />» %s',
 	'LOG_DELETE_POST'						=> '<strong>Mensagem apagada “%1$s” escrita por</strong><br />» %2$s',
-    'LOG_DELETE_SHADOW_TOPIC'				=> '<strong>Tópico fantasma eliminado</strong><br />» %s',
+	'LOG_DELETE_SHADOW_TOPIC'				=> '<strong>Tópico fantasma eliminado</strong><br />» %s',
 	'LOG_DELETE_TOPIC'						=> '<strong>Tópico apagado “%1$s” escrito por</strong><br />» %2$s',
 	'LOG_FORK'								=> '<strong>Tópico Copiado</strong><br />» de %s',
 	'LOG_LOCK'								=> '<strong>Tópico Bloqueado</strong><br />» %s',
@@ -560,14 +559,14 @@ $lang = array_merge($lang, array(
 	'LOG_FORUM_ADD'							=> '<strong>Criar um novo Fórum</strong><br />» %s',
 	'LOG_FORUM_COPIED_PERMISSIONS'			=> '<strong>Permissões do Fórum copiadas</strong> de %1$s<br />» %2$s',
 	'LOG_FORUM_DEL_FORUM'					=> '<strong>Fórum apagado</strong><br />» %s',
-	'LOG_FORUM_DEL_FORUMS'					=> '<strong>Fórum e Subfórum apagados</strong><br />» %s',
-	'LOG_FORUM_DEL_MOVE_FORUMS'				=> '<strong>Fórum apagado e Subfórum Movido</strong> para %1$s<br />» %2$s',
+	'LOG_FORUM_DEL_FORUMS'					=> '<strong>Fórum e Sub-fórum apagados</strong><br />» %s',
+	'LOG_FORUM_DEL_MOVE_FORUMS'				=> '<strong>Fórum apagado e Sub-fórum Movido</strong> para %1$s<br />» %2$s',
 	'LOG_FORUM_DEL_MOVE_POSTS'				=> '<strong>Fórum apagado e Mensagens Movidas</strong> para %1$s<br />» %2$s',
-	'LOG_FORUM_DEL_MOVE_POSTS_FORUMS'		=> '<strong>Eliminado Fórum e Subfóruns, movidas mensagens</strong> para %1$s<br />» %2$s',
-	'LOG_FORUM_DEL_MOVE_POSTS_MOVE_FORUMS'	=> '<strong>Eliminado Fórum, movidas mensagens</strong> para %1$s <strong>e Subfóruns</strong> para %2$s<br />» %3$s',
+	'LOG_FORUM_DEL_MOVE_POSTS_FORUMS'		=> '<strong>Eliminado Fórum e Sub-fóruns, movidas mensagens</strong> para %1$s<br />» %2$s',
+	'LOG_FORUM_DEL_MOVE_POSTS_MOVE_FORUMS'	=> '<strong>Eliminado Fórum, movidas mensagens</strong> para %1$s <strong>e Sub-fóruns</strong> para %2$s<br />» %3$s',
 	'LOG_FORUM_DEL_POSTS'					=> '<strong>Eliminado Fórum e as mensagens</strong><br />» %s',
-	'LOG_FORUM_DEL_POSTS_FORUMS'			=> '<strong>Eliminado Fórum, as mensagens e Subfóruns</strong><br />» %s',
-	'LOG_FORUM_DEL_POSTS_MOVE_FORUMS'		=> '<strong>Eliminado Fórum e as mensagens, movidos Subfóruns</strong> para %1$s<br />» %2$s',
+	'LOG_FORUM_DEL_POSTS_FORUMS'			=> '<strong>Eliminado Fórum, as mensagens e Sub-fóruns</strong><br />» %s',
+	'LOG_FORUM_DEL_POSTS_MOVE_FORUMS'		=> '<strong>Eliminado Fórum e as mensagens, movidos Sub-fóruns</strong> para %1$s<br />» %2$s',
 	'LOG_FORUM_EDIT'						=> '<strong>Detalhes do Fórum editados</strong><br />» %s',
 	'LOG_FORUM_MOVE_DOWN'					=> '<strong>Fórum Movido</strong> %1$s <strong>abaixo/acima</strong> %2$s',
 	'LOG_FORUM_MOVE_UP'						=> '<strong>Fórum Movido</strong> %1$s <strong>acima/abaixo</strong> %2$s',
@@ -749,5 +748,3 @@ $lang = array_merge($lang, array(
 	'LOG_WORD_DELETE'						=> '<strong>Palavra Censurada Apagada</strong><br />» %s',
 	'LOG_WORD_EDIT'							=> '<strong>Palavra Censurada Editada</strong><br />» %s',
 ));
-
-?>

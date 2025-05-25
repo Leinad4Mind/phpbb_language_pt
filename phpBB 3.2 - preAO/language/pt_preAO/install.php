@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* This file is part of the phpBB Forum Software package.
-*
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
-* @Traduzido por: http://www.phpbb-pt.com - segundo pré-Acordo Ortográfico
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * This file is part of the phpBB Forum Software package.
+ *
+ * @copyright (c) phpBB Limited <https://www.phpbb.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * For full copyright and license information, please see
+ * the docs/CREDITS.txt file.
+ * @Traduzido por: https://leinad4mind.top/forum - segundo pré-Acordo Ortográfico
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -45,7 +44,7 @@ $lang = array_merge($lang, array(
 
 	// Introduction page
 	'INTRODUCTION_TITLE'	=> 'Introdução',
-	'INTRODUCTION_BODY'		=> 'Bem-vindo ao phpBB3!<br /><br />O phpBB® é a solução de fórum em código aberto mais utilizada no mundo. O phpBB3 é a última parcela de uma linha de pacotes iniciada em 2000. Como os seus Antecessores, o phpBB3 é rico em recursos, é fácil de usar e é totalmente suportado pela equipa do phpBB. O phpBB3 melhora tudo aquilo que fez o phpBB2 popular, e adiciona recursos geralmente solicitados que não estavam presentes nas versões anteriores. Esperamos que exceda as suas expectativas.<br /><br />Este sistema de instalação irá guiá-lo através da instalação phpBB3, actualizando para a versão mais recente do phpBB3 de versões anteriores, bem como a conversão para phpBB3 a partir de um sistema de discussão diferente (incluindo phpBB2). Para obter mais informações, recomendamos que leia <a href="../docs/INSTALL.html">o guia de instalação</a>.<br /><br />Para ler a licença phpBB3 ou aprender sobre a obtenção de suporte e a nossa posição sobre ele, por favor, seleccione as opções respectivas no menu lateral. Para continuar, seleccione a aba apropriada acima.',
+	'INTRODUCTION_BODY'		=> 'Bem-vindo ao phpBB3!<br /><br />O phpBB® é a solução de fórum em código aberto mais utilizada no mundo. O phpBB3 é a última parcela de uma linha de pacotes iniciada em 2000. Como os seus Antecessores, o phpBB3 é rico em recursos, é fácil de usar e é totalmente suportado pela equipa do phpBB. O phpBB3 melhora tudo aquilo que fez o phpBB2 popular, e adiciona recursos geralmente solicitados que não estavam presentes nas versões anteriores. Esperamos que exceda as suas expectativas.<br /><br />Este sistema de instalação irá guiá-lo através da instalação phpBB3, ao actualizar para a versão mais recente do phpBB3 de versões anteriores, bem como a conversão para phpBB3 a partir de um sistema de discussão diferente (incluindo phpBB2). Para obter mais informações, recomendamos que leia <a href="../docs/INSTALL.html">o guia de instalação</a>.<br /><br />Para ler a licença phpBB3 ou aprender sobre a obtenção de suporte e a nossa posição sobre ele, por favor, seleccione as opções respectivas no menu lateral. Para continuar, seleccione a aba apropriada acima.',
 
 	// Support page
 	'SUPPORT_TITLE'		=> 'Suporte',
@@ -238,7 +237,7 @@ $lang = array_merge($lang, array(
 	'CONFIG_SITE_DESC'					=> 'Escreva um pequeno texto a descrever o seu Fórum',
 	'CONFIG_SITENAME'					=> 'oseudominio.com',
 
-	'DEFAULT_INSTALL_POST'				=> 'Esta é uma Mensagem de exemplo, (criada automaticamente durante a instalação) do seu novo Fórum phpBB3. Pode apagar esta Mensagem, o Tópico e o Fórum quando quiser! Se tiver alguma dúvida, sugestão ou comentário sobre esta tradução para português europeu do phpBB3x, consulte a comunidade phpBB Portugal. Da mesma forma, pode visitar-nos, se desejar fazer alguma observação sobre esta tradução e o acordo ortográfico da língua portuguesa. Estamos a construir uma Comunidade phpBB em Portugal. O contributo de todos é importante. O nosso compromisso é ajudar quem nos procura. Responderemos a todos os contactos tão rápido quanto possível. A sua participação é o maior incentivo que pode nos dar. A tradução deste Fórum respeita o acordo ortográfico da língua portuguesa em vigor desde Janeiro de 2009.',
+	'DEFAULT_INSTALL_POST'				=> 'Esta é uma Mensagem de exemplo, (criada automaticamente durante a instalação) do seu novo Fórum phpBB3. Pode apagar esta Mensagem, o Tópico e o Fórum quando quiser! Se tiver alguma dúvida, sugestão ou comentário sobre esta tradução para português europeu do phpBB3x, consulte a comunidade phpBB Leinad4Mind. Da mesma forma, pode visitar-nos, se desejar fazer alguma observação sobre esta tradução e o acordo ortográfico da língua portuguesa. Estamos a construir uma Comunidade phpBB em Portugal. O contributo de todos é importante. O nosso compromisso é ajudar quem nos procura. Responderemos a todos os contactos tão rápido quanto possível. A sua participação é o maior incentivo que pode nos dar. A tradução deste Fórum respeita o acordo ortográfico da língua portuguesa em vigor desde Janeiro de 2009.',
 
 	'FORUMS_FIRST_CATEGORY'				=> 'A minha primeira Categoria',
 	'FORUMS_TEST_FORUM_DESC'			=> 'Este é um Fórum de Testes.',
@@ -334,12 +333,12 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'CLI_INSTALL_BOARD'				=> 'Instalar phpBB',
 	'CLI_UPDATE_BOARD'				=> 'Actualizar phpBB',
- 	'CLI_INSTALL_SHOW_CONFIG'		=> 'Mostrar a configuração que será usada',
- 	'CLI_INSTALL_VALIDATE_CONFIG'	=> 'Validar um ficheiro de configuração',
- 	'CLI_CONFIG_FILE'				=> 'Ficheiro de configuração a ser usado',
- 	'MISSING_FILE'					=> 'Não é possível aceder o ficheiro %1$s',
- 	'MISSING_DATA'					=> 'O ficheiro de configuração está com dados em falta ou pode conter configurações inválidas.',
- 	'INVALID_YAML_FILE'				=> 'Não foi possível analisar o ficheiro YAML %1$s',
+	'CLI_INSTALL_SHOW_CONFIG'		=> 'Mostrar a configuração que será usada',
+	'CLI_INSTALL_VALIDATE_CONFIG'	=> 'Validar um ficheiro de configuração',
+	'CLI_CONFIG_FILE'				=> 'Ficheiro de configuração a ser usado',
+	'MISSING_FILE'					=> 'Não é possível aceder o ficheiro %1$s',
+	'MISSING_DATA'					=> 'O ficheiro de configuração está com dados em falta ou pode conter configurações inválidas.',
+	'INVALID_YAML_FILE'				=> 'Não foi possível analisar o ficheiro YAML %1$s',
 	'CONFIGURATION_VALID'			=> 'O ficheiro de configuração é válido',
 ));
 
@@ -385,7 +384,7 @@ $lang = array_merge($lang, array(
 		<ol style="margin-left: 20px; font-size: 1.1em;">
 			<li>Vá à <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">Página de Transferências do phpBB.com</a> e descarregue o "Pacote de actualização do phpBB" correto.<br /><br /></li>
 			<li>Descompacte o Ficheiro.<br /><br /></li>
-			<li>Envie as pastas "install" e "vendor" descompactadas para a pasta raiz do seu phpBB (onde se encontra o ficheir config.php).<br /><br /></li>
+			<li>Envie as pastas "install" e "vendor" descompactadas para a pasta raiz do seu phpBB (onde se encontra o ficheiro config.php).<br /><br /></li>
 		</ol>
 
 		<p>Depois de enviado, o seu fórum ficará inacessível aos utilizadores normais, caso esteja realmente presente a pasta de instalação que supostamente acaba de enviar.<br /><br />
@@ -405,9 +404,9 @@ $lang = array_merge($lang, array(
 	'UPDATE_TYPE_DB_ONLY'	=> 'Actualizar apenas base de dados',
 
 	// File updater methods
-	'UPDATE_FILE_METHOD_TITLE'		=> 'Métodos de actualizador de ficheiros',
+	'UPDATE_FILE_METHOD_TITLE'		=> 'Métodos de actualização de ficheiros',
 
-	'UPDATE_FILE_METHOD'			=> 'Método do actualizador de ficheiro',
+	'UPDATE_FILE_METHOD'			=> 'Método do actualização de ficheiro',
 	'UPDATE_FILE_METHOD_DOWNLOAD'	=> 'Transferir ficheiros modificados num só ficheiro comprimido ',
 	'UPDATE_FILE_METHOD_FTP'		=> 'Actualizar ficheiros via FTP (Automático)',
 	'UPDATE_FILE_METHOD_FILESYSTEM'	=> 'Actualizar ficheiros via acesso directo aos ficheiros (Automático)',
@@ -454,7 +453,7 @@ $lang = array_merge($lang, array(
 	'FILE_DIFF_NOT_ALLOWED'			=> 'O ficheiro não se encontra disponível para ser verificado',
 	'FILE_USED'						=> 'A informação foi utilizada de',			// Single file
 	'FILES_CONFLICT'				=> 'Ficheiros em conflito',
-	'FILES_CONFLICT_EXPLAIN'		=> 'Os ficheiros seguintes apresentam alterações relativamente à versão anterior. Eventuais tentativas de alteração aos ficheiros poderiam criar conflitos. Investigue os conflitos e tente resolvê-los manualmente ou continue a actualização seleccionando o método desejado. Se resolver os conflitos manualmente, faça nova verificação aos ficheiros depois de modificados. Pode seleccionar o método desejado para todos os Ficheiros. O primeiro irá resultar num Ficheiro onde as linhas em conflito do seu Ficheiro anterior serão perdidas, e o outro irá resultar na perda das modificações no novo ficheiro.',
+	'FILES_CONFLICT_EXPLAIN'		=> 'Os ficheiros seguintes apresentam alterações relativamente à versão anterior. Eventuais tentativas de alteração aos ficheiros poderiam criar conflitos. Investigue os conflitos e tente resolvê-los manualmente ou continue a actualização ao seleccionar o método desejado. Se resolver os conflitos manualmente, faça nova verificação aos ficheiros depois de modificados. Pode seleccionar o método desejado para todos os Ficheiros. O primeiro irá resultar num Ficheiro onde as linhas em conflito do seu Ficheiro anterior serão perdidas, e o outro irá resultar na perda das modificações no novo ficheiro.',
 	'FILES_DELETED'						=> 'Ficheiros apagados',
 	'FILES_DELETED_EXPLAIN'				=> 'Os seguintes ficheiros não existem na nova versão. Esses ficheiros devem ser excluídos de sua instalação.',
 	'FILES_MODIFIED'					=> 'Ficheiros modificados',
@@ -473,8 +472,8 @@ $lang = array_merge($lang, array(
 	// File updater
 	'UPDATE_UPDATING_FILES'	=> 'A actualizar ficheiros',
 
-	'UPDATE_FILE_UPDATER_HAS_FAILED'	=> 'O actualizador de ficheiros “%1$s“ falhou. O instalador irá tentar com “%2$s“.',
-	'UPDATE_FILE_UPDATERS_HAVE_FAILED'	=> 'O actualizador de ficheiros falhou. Não existe métodos alternativos disponíveis.',
+	'UPDATE_FILE_UPDATER_HAS_FAILED'	=> 'A actualização de ficheiros “%1$s“ falhou. O instalador irá tentar com “%2$s“.',
+	'UPDATE_FILE_UPDATERS_HAVE_FAILED'	=> 'A actualização de ficheiros falhou. Não existe métodos alternativos disponíveis.',
 
 	'UPDATE_CONTINUE_UPDATE_PROCESS'	=> 'Continuar processo de actualização',
 	'UPDATE_RECHECK_UPDATE_FILES'		=> 'Verifique novamente os ficheiros',
@@ -574,7 +573,7 @@ $lang = array_merge($lang, array(
 	'CONV_ERROR_GET_CONFIG'			=> 'Não foi possível adquirir a configuração do Fórum.',
 	'CONV_ERROR_COULD_NOT_READ'		=> 'Não foi possível aceder/ler “%s”.',
 	'CONV_ERROR_GROUP_ACCESS'		=> 'Não foi possível adquirir as informações de autenticação dos Grupos.',
-	'CONV_ERROR_INCONSISTENT_GROUPS'=> 'Foi encontrada uma inconsistência na tabela de grupos em add_bots() - tem que adicionar todos os Grupos especiais manualmente.',
+	'CONV_ERROR_INCONSISTENT_GROUPS' => 'Foi encontrada uma inconsistência na tabela de grupos em add_bots() - tem que adicionar todos os Grupos especiais manualmente.',
 	'CONV_ERROR_INSERT_BOT'			=> 'Não foi possível inserir o Bot na tabela de Utilizadores.',
 	'CONV_ERROR_INSERT_BOTGROUP'	=> 'Não foi possível inserir o Bot na tabela de Bots.',
 	'CONV_ERROR_INSERT_USER_GROUP'	=> 'Não foi possível inserir o utilizador na tabela user_group.',

@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* This file is part of the phpBB Forum Software package.
-*
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
-* @Traduzido por: http://www.phpbb-pt.com - segundo as normas do Acordo Ortográfico
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * This file is part of the phpBB Forum Software package.
+ *
+ * @copyright (c) phpBB Limited <https://www.phpbb.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * For full copyright and license information, please see
+ * the docs/CREDITS.txt file.
+ * @Traduzido por: https://leinad4mind.top/forum - segundo as normas do Acordo Ortográfico
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -240,7 +239,7 @@ $lang = array_merge($lang, array(
 	'CONFIG_SITE_DESC'					=> 'Escreva um pequeno texto a descrever o seu Fórum',
 	'CONFIG_SITENAME'					=> 'oseudominio.com',
 
-	'DEFAULT_INSTALL_POST'				=> '<t>Esta é uma Mensagem de exemplo, (criada automaticamente durante a instalação) do seu novo Fórum phpBB3. Pode apagar esta Mensagem, o Tópico e o Fórum quando quiser! Se tiver alguma dúvida, sugestão ou comentário sobre esta tradução para português europeu do phpBB3x, consulte a comunidade phpBB Portugal. Da mesma forma, pode visitar-nos, se desejar fazer alguma observação sobre esta tradução e o acordo ortográfico da língua portuguesa. Estamos a construir uma Comunidade phpBB em Portugal. O contributo de todos é importante. O nosso compromisso é ajudar quem nos procura. Responderemos a todos os contactos tão rápido quanto possível. A sua participação é o maior incentivo que pode nos dar. A tradução deste Fórum respeita o acordo ortográfico da língua portuguesa em vigor desde Janeiro de 2009.</t>',
+	'DEFAULT_INSTALL_POST'				=> '<t>Esta é uma Mensagem de exemplo, (criada automaticamente durante a instalação) do seu novo Fórum phpBB3. Pode apagar esta Mensagem, o Tópico e o Fórum quando quiser! Se tiver alguma dúvida, sugestão ou comentário sobre esta tradução para português europeu do phpBB3x, consulte a comunidade phpBB Leinad4Mind. Da mesma forma, pode visitar-nos, se desejar fazer alguma observação sobre esta tradução e o acordo ortográfico da língua portuguesa. Estamos a construir uma Comunidade phpBB em Portugal. O contributo de todos é importante. O nosso compromisso é ajudar quem nos procura. Responderemos a todos os contactos tão rápido quanto possível. A sua participação é o maior incentivo que pode nos dar. A tradução deste Fórum respeita o acordo ortográfico da língua portuguesa em vigor desde Janeiro de 2009.</t>',
 
 	'FORUMS_FIRST_CATEGORY'				=> 'A minha primeira Categoria',
 	'FORUMS_TEST_FORUM_DESC'			=> 'Este é um Fórum de Testes.',
@@ -336,12 +335,12 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'CLI_INSTALL_BOARD'				=> 'Instalar phpBB',
 	'CLI_UPDATE_BOARD'				=> 'Atualizar phpBB',
- 	'CLI_INSTALL_SHOW_CONFIG'		=> 'Mostrar a configuração que será usada',
- 	'CLI_INSTALL_VALIDATE_CONFIG'	=> 'Validar um ficheiro de configuração',
- 	'CLI_CONFIG_FILE'				=> 'Ficheiro de configuração a ser usado',
- 	'MISSING_FILE'					=> 'Não é possível aceder o ficheiro %1$s',
- 	'MISSING_DATA'					=> 'O ficheiro de configuração está com dados em falta ou pode conter configurações inválidas.',
- 	'INVALID_YAML_FILE'				=> 'Não foi possível analisar o ficheiro YAML %1$s',
+	'CLI_INSTALL_SHOW_CONFIG'		=> 'Mostrar a configuração que será usada',
+	'CLI_INSTALL_VALIDATE_CONFIG'	=> 'Validar um ficheiro de configuração',
+	'CLI_CONFIG_FILE'				=> 'Ficheiro de configuração a ser usado',
+	'MISSING_FILE'					=> 'Não é possível aceder o ficheiro %1$s',
+	'MISSING_DATA'					=> 'O ficheiro de configuração está com dados em falta ou pode conter configurações inválidas.',
+	'INVALID_YAML_FILE'				=> 'Não foi possível analisar o ficheiro YAML %1$s',
 	'CONFIGURATION_VALID'			=> 'O ficheiro de configuração é válido',
 ));
 
@@ -571,9 +570,9 @@ $lang = array_merge($lang, array(
 	'CONVERT_COMPLETE'			=> 'Conversão terminada',
 	'CONVERT_COMPLETE_EXPLAIN'	=> 'O seu Fórum foi convertido com sucesso para o phpBB 3.3. Já pode entrar e <a href="../">aceder ao Fórum</a>. Por favor, verifique se as configurações foram transferidos corretamente antes de ativar o seu fórum. Apague a pasta de instalação. Lembre-se que está disponível ajuda online através da <a href="https://www.phpbb.com/support/docs/en/3.3/ug/">Documentação</a> e de <a href="https://www.phpbb.com/community/viewforum.php?f=661">fóruns de suporte</a>.',
 
-	'COLLIDING_CLEAN_USERNAME'			=> '<strong>%s</strong> é o nome de usuário limpo para:',
-	'COLLIDING_USER'					=> '» id do usuário: <strong>%d</strong> nome de usuário: <strong>%s</strong> (%d posts)',
-	'COLLIDING_USERNAMES_FOUND'			=> 'Nomes de usuário conflitantes foram encontrados em seu antigo quadro. Para concluir a conversão, exclua ou renomeie esses usuários para que haja apenas um usuário em seu quadro antigo para cada nome de usuário limpo.',
+	'COLLIDING_CLEAN_USERNAME'			=> '<strong>%s</strong> é o nome de utilizador limpo para:',
+	'COLLIDING_USER'					=> '» id do utilizador: <strong>%d</strong> nome de utilizador: <strong>%s</strong> (%d mensagens)',
+	'COLLIDING_USERNAMES_FOUND'			=> 'Nomes de utilizador duplicados foram encontrados no seu antigo fórum. Para concluir a conversão, exclua ou renomeie esses utilizadores para que haja apenas um utilizador no seu fórum antigo para cada nome de utilizador limpo.',
 	'CONV_ERR_FATAL'					=> 'Erro fatal de conversão',
 	'CONV_ERROR_ATTACH_FTP_DIR'			=> 'O envio de anexos por FTP está ativo no seu painel antigo. Desative a opção de envio por FTP, crie uma pasta válida e envie todos os ficheiros de anexos para a nova pasta. Após concluir esta operação, reinicie o conversor.',
 	'CONV_ERROR_CONFIG_EMPTY'			=> 'Não foram encontradas informações de configuração válidas para a conversão.',

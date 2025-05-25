@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* mcp [Português Pré-AO]
-*
-* @package language
-* @version 1.0.9
-* @Traduzido por: http://www.phpbb-pt.com - segundo pré-Acordo Ortográfico
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* 
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * mcp [Português Pré-AO]
+ *
+ * @package language
+ * @version 1.0.9
+ * @Traduzido por: https://leinad4mind.top/forum - segundo pré-Acordo Ortográfico
+ * @copyright (c) 2005 phpBB Group
+ * @license http://opensource.org/licenses/gpl-license.php GNU Public License
+ * 
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -327,7 +326,7 @@ $lang = array_merge($lang, array(
 	'SPLIT_TOPIC_ALL_CONFIRM'			=> 'Tem a certeza que deseja dividir este Tópico?',
 	'SPLIT_TOPIC_BEYOND'				=> 'Dividir o Tópico em Mensagens seleccionadas',
 	'SPLIT_TOPIC_BEYOND_CONFIRM'		=> 'Tem a certeza que deseja cortar este Tópico na Mensagem seleccionada?',
-	'SPLIT_TOPIC_EXPLAIN'				=> 'Usando este formulário pode dividir um Tópico em dois, seleccionando as Mensagens do novo Tópico.',
+	'SPLIT_TOPIC_EXPLAIN'				=> 'Usando este formulário pode dividir um Tópico em dois, ao seleccionar as Mensagens do novo Tópico.',
 
 	'THIS_PM_IP'						=> 'IP para esta Mensagem Privada',
 	'THIS_POST_IP'						=> 'IP para esta Mensagem',
@@ -401,5 +400,3 @@ $lang = array_merge($lang, array(
 		)
 	),
 ));
-
-?>

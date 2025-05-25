@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* This file is part of the phpBB Forum Software package.
-*
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
-* @Traduzido por: http://www.phpbb-pt.com - segundo as normas do Acordo Ortográfico
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * This file is part of the phpBB Forum Software package.
+ *
+ * @copyright (c) phpBB Limited <https://www.phpbb.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * For full copyright and license information, please see
+ * the docs/CREDITS.txt file.
+ * @Traduzido por: https://leinad4mind.top/forum - segundo as normas do Acordo Ortográfico
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -415,7 +414,7 @@ $lang = array_merge($lang, array(
 	'PASS_TYPE_SYMBOL_EXPLAIN'			=> 'Tem que ter entre %1$s e %2$s, com maiúsculas, minúsculas, números e símbolos.',
 	'PASSWORD'							=> 'Senha',
 	'PASSWORD_ACTIVATED'				=> 'A sua Nova Senha foi ativada.',
-	'PASSWORD_UPDATED_IF_EXISTED'		=> 'Se a sua conta existir, uma nova senha foi enviada para o seu endereço de e-mail. Caso não receba um e-mail, isso pode dever-se por ter sido banido, ou a sua conta não estar ativada ou não ter permissão para alterar a sua senha. Entre em contato com o administrador se algum desses motivos se aplicar. Para além disso, verifique a sua caixa de spam.',
+	'PASSWORD_UPDATED_IF_EXISTED'		=> 'Se a sua conta existir, uma nova senha foi enviada para o seu endereço de e-mail. Caso não receba um e-mail, isso pode dever-se por ter sido banido, ou a sua conta não estar ativada ou não ter permissão para alterar a sua senha. Entre em contacto com o administrador se algum desses motivos se aplicar. Para além disso, verifique a sua caixa de spam.',
 	'PERMISSIONS_RESTORED'				=> 'As suas permissões originais foram restauradas com sucesso.',
 	'PERMISSIONS_TRANSFERRED'			=> 'As Permissões foram transferidas do <strong>%s</strong> com sucesso. Agora, pode navegar com as Permissões do Utilizador. <br />As Permissões de Administrador não foram transferidas. Pode voltar as suas Permissões originais em qualquer momento.',
 	'PM_DISABLED'						=> 'As Mensagens Privadas estão inativas.',

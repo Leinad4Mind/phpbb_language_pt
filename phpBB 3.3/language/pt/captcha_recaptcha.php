@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* This file is part of the phpBB Forum Software package.
-*
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
-* @Traduzido por: http://www.phpbb-pt.com - segundo as normas do Acordo Ortográfico
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * This file is part of the phpBB Forum Software package.
+ *
+ * @copyright (c) phpBB Limited <https://www.phpbb.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * For full copyright and license information, please see
+ * the docs/CREDITS.txt file.
+ * @Traduzido por: https://leinad4mind.top/forum - segundo as normas do Acordo Ortográfico
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = [];
 }
 
@@ -70,9 +69,9 @@ $lang = array_merge($lang, [
 	'RECAPTCHA_V3_THRESHOLD_DEFAULT_EXPLAIN'	=> 'Usado quando nenhuma das outras ações é aplicável.',
 	'RECAPTCHA_V3_THRESHOLD_LOGIN'				=> 'Limite de conexão',
 	'RECAPTCHA_V3_THRESHOLD_POST'				=> 'Limite de postar ',
-	'RECAPTCHA_V3_THRESHOLD_REGISTER'			=> 'Limite de registro',
+	'RECAPTCHA_V3_THRESHOLD_REGISTER'			=> 'Limite de registo',
 	'RECAPTCHA_V3_THRESHOLD_REPORT'				=> 'Limite de denúncias',
 	'RECAPTCHA_V3_THRESHOLDS'					=> 'Limites',
-	'RECAPTCHA_V3_THRESHOLDS_EXPLAIN'			=> 'reCAPTCHA v3 retorna uma pontuação (<samp>1.0</samp> é muito provável que seja uma boa interação enquanto <samp>0.0</samp> é muito provável que seja um robô). Aqui você pode definir a pontuação mínima por ação.',	
+	'RECAPTCHA_V3_THRESHOLDS_EXPLAIN'			=> 'reCAPTCHA v3 retorna uma pontuação (<samp>1.0</samp> é muito provável que seja uma boa interação enquanto <samp>0.0</samp> é muito provável que seja um robô). Aqui você pode definir a pontuação mínima por ação.',
 	'EMPTY_RECAPTCHA_V3_REQUEST_METHOD'			=> 'reCAPTCHA v3 exige que saiba qual método disponível que deseja usar ao verificar a solicitação.',
 ]);

@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* acp_search [Português Pré-AO]
-*
-* @package language
-* @version 1.0.9
-* @Traduzido por: http://www.phpbb-pt.com - segundo pré-Acordo Ortográfico
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* 
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * acp_search [Português Pré-AO]
+ *
+ * @package language
+ * @version 1.0.9
+ * @Traduzido por: https://leinad4mind.top/forum - segundo pré-Acordo Ortográfico
+ * @copyright (c) 2005 phpBB Group
+ * @license http://opensource.org/licenses/gpl-license.php GNU Public License
+ * 
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -60,8 +59,8 @@ $lang = array_merge($lang, array(
 	'FULLTEXT_MYSQL_PCRE'					=> 'Suporte para non-latin UTF-8 caracteres utilizando PCRE:',
 	'FULLTEXT_MYSQL_MBSTRING_EXPLAIN'		=> 'Se o PCRE não tiver propriedades de carácter unicode, o sistema de pesquisa tentará utilizar o sistema de expressões regulares mbstring.',
 	'FULLTEXT_MYSQL_PCRE_EXPLAIN'			=> 'Esta pesquisa exige propriedades de carácter PCRE, que somente estão presentes nas versões superiores a PHP 4.4, 5.1, se quer procurar non-latin carácter.',
-    'FULLTEXT_MYSQL_MIN_SEARCH_CHARS_EXPLAIN'   => 'Número mínimo de caracteres das palavras que são indexados para pesquisa. A alteração desta configuração tem de ser feita no mysql por si ou pelo administrador do servidor.',
-    'FULLTEXT_MYSQL_MAX_SEARCH_CHARS_EXPLAIN'   => 'Número máximo de caracteres das palavras que são indexados para pesquisa. A alteração desta configuração tem de ser feita no mysql por si ou pelo administrador do servidor.',
+	'FULLTEXT_MYSQL_MIN_SEARCH_CHARS_EXPLAIN'   => 'Número mínimo de caracteres das palavras que são indexados para pesquisa. A alteração desta configuração tem de ser feita no mysql por si ou pelo administrador do servidor.',
+	'FULLTEXT_MYSQL_MAX_SEARCH_CHARS_EXPLAIN'   => 'Número máximo de caracteres das palavras que são indexados para pesquisa. A alteração desta configuração tem de ser feita no mysql por si ou pelo administrador do servidor.',
 
 	'GENERAL_SEARCH_SETTINGS'				=> 'Configurações Gerais da Pesquisa',
 	'GO_TO_SEARCH_INDEX'					=> 'Ir à página inicial da Pesquisa',
@@ -106,5 +105,3 @@ $lang = array_merge($lang, array(
 	'YES_SEARCH_UPDATE'						=> 'Activar a actualização de textos completos',
 	'YES_SEARCH_UPDATE_EXPLAIN'				=> 'Os índices de texto completo são actualizados ao enviar uma mensagem, mesmo se a pesquisa estiver desactivada.',
 ));
-
-?>

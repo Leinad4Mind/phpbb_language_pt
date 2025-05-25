@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* viewforum [Português Pré-AO]
-*
-* @package language
-* @version 1.0.9
-* @Traduzido por: http://www.phpbb-pt.com - segundo pré-Acordo Ortográfico
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* 
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * viewforum [Português Pré-AO]
+ *
+ * @package language
+ * @version 1.0.9
+ * @Traduzido por: https://leinad4mind.top/forum - segundo pré-Acordo Ortográfico
+ * @copyright (c) 2005 phpBB Group
+ * @license http://opensource.org/licenses/gpl-license.php GNU Public License
+ * 
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -54,19 +53,17 @@ $lang = array_merge($lang, array(
 	'NO_NEW_POSTS_HOT'				=> 'Sem novas Mensagens [ Popular ]',   // Not used anymore
 	'NO_NEW_POSTS_LOCKED'			=> 'Sem novas Mensagens [ Fechado ]',   // Not used anymore
 	'NO_READ_ACCESS'				=> 'Não tem as Permissões para ler Tópicos neste Fórum.',
-    'NO_UNREAD_POSTS_HOT'			=> 'Sem mensagens por ler [ Popular ]',
-    'NO_UNREAD_POSTS_LOCKED'		=> 'Sem mensagens por ler [ Bloqueado ]',
+	'NO_UNREAD_POSTS_HOT'			=> 'Sem mensagens por ler [ Popular ]',
+	'NO_UNREAD_POSTS_LOCKED'		=> 'Sem mensagens por ler [ Bloqueado ]',
 
 	'POST_FORUM_LOCKED'				=> 'Fórum fechado',
 
 	'TOPICS_MARKED'					=> 'Todos os Tópicos foram sinalizados como lidos.',
 
-    'UNREAD_POSTS_HOT'				=> 'Mensagens por ler [ Popular ]',
-    'UNREAD_POSTS_LOCKED'			=> 'Mensagens por ler [ Bloqueado ]',
+	'UNREAD_POSTS_HOT'				=> 'Mensagens por ler [ Popular ]',
+	'UNREAD_POSTS_LOCKED'			=> 'Mensagens por ler [ Bloqueado ]',
 
 	'VIEW_FORUM'					=> 'Ver Fórum',
 	'VIEW_FORUM_TOPIC'				=> '1 Tópico',
 	'VIEW_FORUM_TOPICS'				=> '%d Tópicos',
 ));
-
-?>

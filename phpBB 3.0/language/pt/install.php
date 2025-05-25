@@ -1,25 +1,24 @@
 <?php
+
 /**
-*
-* install [Português]
-*
-* @package language
-* @version 1.0.9
-* @Traduzido por: http://www.phpbb-pt.com - segundo as normas do Acordo Ortográfico
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* 
-*/
+ *
+ * install [Português]
+ *
+ * @package language
+ * @version 1.0.9
+ * @Traduzido por: https://leinad4mind.top/forum - segundo as normas do Acordo Ortográfico
+ * @copyright (c) 2005 phpBB Group
+ * @license http://opensource.org/licenses/gpl-license.php GNU Public License
+ * 
+ */
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -187,7 +186,7 @@ $lang = array_merge($lang, array(
 	'GPL'								=> 'General Public License',
 
 	'INITIAL_CONFIG'					=> 'Configuração Básica',
-	'INITIAL_CONFIG_EXPLAIN'			=> 'Agora que a instalação determinou que o servidor pode executar o phpBB são necessárias algumas informações específicas. Caso não saiba como ligar à sua Base de Dados, por favor, contacte o seu serviço de hospedagem (em primeiro lugar) ou utilize o Fórum de suporte da Comunidade phpBB.com ou o phpBB Portugal. Antes de continuar certifique-se que os dados inseridos estão corretos.',
+	'INITIAL_CONFIG_EXPLAIN'			=> 'Agora que a instalação determinou que o servidor pode executar o phpBB são necessárias algumas informações específicas. Caso não saiba como ligar à sua Base de Dados, por favor, contacte o seu serviço de hospedagem (em primeiro lugar) ou utilize o Fórum de suporte da Comunidade phpBB.com ou o phpBB Leinad4Mind. Antes de continuar certifique-se que os dados inseridos estão corretos.',
 	'INSTALL_CONGRATS'					=> 'Parabéns!',
 	'INSTALL_CONGRATS_EXPLAIN'			=> '
 		Instalou o phpBB %1$s com sucesso. Por favor, proceda à escolha de uma das seguintes opções:</p>
@@ -278,7 +277,7 @@ $lang = array_merge($lang, array(
 	'MAKE_FOLDERS_WRITABLE'				=> 'Por Favor, certifique-se de que estas pastas existem e podem ser escritas pelo servidor e tente novamente:<br />»<strong>%s</strong>',
 
 	'MYSQL_SCHEMA_UPDATE_REQUIRED'		=> 'O seu programa de Base de Dados MySQL está desatualizado. O phpBB detetou um programa para MySQL 3.x/4.x, mas o servidor é executado em MySQL %2$s.<br /><strong>Antes de proceder à sua atualização, tem que atualizar o programa.</strong><br /><br />Por favor, reporte para <a href="https://www.phpbb.com/kb/article/doesnt-have-a-default-value-errors/">Knowledge Base article about upgrading the MySQL schema</a>. Se encontrar algum problema, use por favor, o <a href="https://www.phpbb.com/community/viewforum.php?f=46">Fórum de Suporte em língua inglesa</a>.',
-	
+
 	'NAMING_CONFLICT'					=> 'Conflito de nomes: %s e %s são pseudónimos<br /><br />%s',
 	'NEXT_STEP'							=> 'Avançar para o próximo passo',
 	'NOT_FOUND'							=> 'Não foi possível encontrar',
@@ -345,7 +344,7 @@ $lang = array_merge($lang, array(
 	'SUB_LICENSE'						=> 'Licença',
 	'SUB_SUPPORT'						=> 'Suporte',
 	'SUCCESSFUL_CONNECT'				=> 'Ligação Completa',
-	'SUPPORT_BODY'						=> 'Esta tradução é suportada pelo phpBB Portugal, onde é oferecida ajuda gratuita à comunidade phpBB que usa como língua materna o português de Portugal. <br /><br /><br />No Fórum pode pedir ajuda, expondo as suas dúvidas relativas a:</p><ul><li>Instalação</li><li>Configuração</li><li>Questões técnicas</li><li>Todo o tipo de erros</li><li>Atualizações</li><li>Conversão do phpBB 2.0.x para o phpBB 3.0.x</li><li>Conversão de outros softwares para o phpBB 3.0.x</li><li>Modificações do phpBB</li><li>Estilos</li><li>Tradução do phpBB para português europeu</li><li>...</li></ul><p>O nosso objetivo maior é não deixar nenhum utilizador sem resposta<br /></p><h2>Tradução</h2><p>Todos os créditos deste trabalho são propriedade do phpBB Portugal.<br /> Todas as questões relativas a esta tradução devem ser dirigidas ao phpBB Portugal.<br /> Registe-se e aceda ao Fórum da tradução onde as suas opiniões são esperadas com agrado.</p><h2>Tutoriais</h2><p>Procuraremos disponibilizar tutoriais úteis aos nossos utilizadores</p><h2>Modificações</h2><p>As modificações disponibilizadas serão objeto de tradução, apoio na instalação e configuração.</p><h2>Fórum de suporte ao phpBB em português europeu</h2><p>Temos um Fórum exclusivo para apoio à nossa tradução. As suas sugestões, serão objeto de cuidadosa análise e resposta tão rápida quanto humanamente possível.<br /><br /> A tradução do phpBB para português europeu é a nossa Pedra Preciosa de maior valor.<br /><br /> Conheça-nos e, se gostar, traga um amigo consigo.<br /><br />A Equipa do phpBB Portugal.',
+	'SUPPORT_BODY'						=> 'Esta tradução é suportada pelo phpBB Leinad4Mind, onde é oferecida ajuda gratuita à comunidade phpBB que usa como língua materna o português de Portugal. <br /><br /><br />No Fórum pode pedir ajuda, expondo as suas dúvidas relativas a:</p><ul><li>Instalação</li><li>Configuração</li><li>Questões técnicas</li><li>Todo o tipo de erros</li><li>Atualizações</li><li>Conversão do phpBB 2.0.x para o phpBB 3.0.x</li><li>Conversão de outros softwares para o phpBB 3.0.x</li><li>Modificações do phpBB</li><li>Estilos</li><li>Tradução do phpBB para português europeu</li><li>...</li></ul><p>O nosso objetivo maior é não deixar nenhum utilizador sem resposta<br /></p><h2>Tradução</h2><p>Todos os créditos deste trabalho são propriedade do phpBB Leinad4Mind.<br /> Todas as questões relativas a esta tradução devem ser dirigidas ao phpBB Leinad4Mind.<br /> Registe-se e aceda ao Fórum da tradução onde as suas opiniões são esperadas com agrado.</p><h2>Tutoriais</h2><p>Procuraremos disponibilizar tutoriais úteis aos nossos utilizadores</p><h2>Modificações</h2><p>As modificações disponibilizadas serão objeto de tradução, apoio na instalação e configuração.</p><h2>Fórum de suporte ao phpBB em português europeu</h2><p>Temos um Fórum exclusivo para apoio à nossa tradução. As suas sugestões, serão objeto de cuidadosa análise e resposta tão rápida quanto humanamente possível.<br /><br /> A tradução do phpBB para português europeu é a nossa Pedra Preciosa de maior valor.<br /><br /> Conheça-nos e, se gostar, traga um amigo consigo.<br /><br />A Equipa do phpBB Leinad4Mind.',
 	'SYNC_FORUMS'						=> 'Sincronizar Fóruns',
 	'SYNC_POST_COUNT'					=> 'Sincronizar contador de Mensagens',
 	'SYNC_POST_COUNT_ID'				=> 'Sincronizar contador de Mensagens para <var>entry</var> %1$s to %2$s.',
@@ -389,7 +388,7 @@ $lang = array_merge($lang, array(
 	'COLLECTED_INFORMATION'				=> 'Informação dos ficheiros',
 	'COLLECTED_INFORMATION_EXPLAIN'		=> 'Esta é uma lista dos ficheiros que precisam de ser atualizados. Leia as informações para saber o que tem de fazer para os atualizar.',
 	'COLLECTING_FILE_DIFFS'				=> 'A verificar os diferentes ficheiros',
-	'COMPLETE_LOGIN_TO_BOARD'			=> 'Agora deve <a href="../ucp.php?mode=login">entrar no seu Fórum</a> e verificar se tudo funciona bem. Não se esqueça de eliminar, mover ou apagar a diretoria install!',	
+	'COMPLETE_LOGIN_TO_BOARD'			=> 'Agora deve <a href="../ucp.php?mode=login">entrar no seu Fórum</a> e verificar se tudo funciona bem. Não se esqueça de eliminar, mover ou apagar a diretoria install!',
 	'CONTINUE_UPDATE_NOW'				=> 'Continuar o processo de atualização agora',		// Shown within the database update script at the end if called from the updater
 	'CONTINUE_UPDATE'					=> 'Continue a atualização agora',					// Shown after file upload to indicate the update process is not yet finished
 	'CURRENT_FILE'						=> 'Inicio do Conflito - Ficheiro original atual antes da atualização',
@@ -411,7 +410,7 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_AS'						=> 'Transferir como',
 	'DOWNLOAD_UPDATE_METHOD_BUTTON'		=> 'Transferir o Ficheiro das modificações (recomendado)',
 	'DOWNLOAD_CONFLICTS'				=> 'Transfira os valores em conflito para este ficheiro',
-	'DOWNLOAD_CONFLICTS_EXPLAIN'		=> 'Procure por &lt;&lt;&lt; para encontrar valores em conflito',	
+	'DOWNLOAD_CONFLICTS_EXPLAIN'		=> 'Procure por &lt;&lt;&lt; para encontrar valores em conflito',
 	'DOWNLOAD_UPDATE_METHOD'			=> 'Transferir os Ficheiros modificados',
 	'DOWNLOAD_UPDATE_METHOD_EXPLAIN'	=> 'Depois de transferir os Ficheiros deve descomprimi-los e enviá-los para a diretoria raiz do seu phpBB. Envie os Ficheiros para os seus respetivos locais. Depois de enviar todos os Ficheiros, confira-os novamente clicando no botão abaixo.',
 
@@ -588,7 +587,7 @@ $lang = array_merge($lang, array(
 	'CONFIG_SITE_DESC'					=> 'Escreva um pequeno texto a descrever o seu Fórum',
 	'CONFIG_SITENAME'					=> 'oseudominio.com',
 
-	'DEFAULT_INSTALL_POST'				=> 'Esta é uma Mensagem de exemplo, (criada automaticamente durante a instalação) do seu novo Fórum phpBB3x. Pode apagar esta Mensagem, o Tópico e o Fórum quando quiser! Se tiver alguma dúvida, sugestão ou comentário sobre esta tradução para português europeu do phpBB3x, consulte a comunidade phpBB Portugal. Da mesma forma, pode visitar-nos, se desejar fazer alguma observação sobre esta tradução e o acordo ortográfico da língua portuguesa. Estamos a construir uma Comunidade phpBB em Portugal. O contributo de todos é importante. O nosso compromisso é ajudar quem nos procura. Responderemos a todos os contactos tão rápido quanto possível. A sua participação é o maior incentivo que pode dar-nos. A tradução deste Fórum respeita o acordo ortográfico da língua portuguesa em vigor desde Janeiro de 2009.',
+	'DEFAULT_INSTALL_POST'				=> 'Esta é uma Mensagem de exemplo, (criada automaticamente durante a instalação) do seu novo Fórum phpBB3x. Pode apagar esta Mensagem, o Tópico e o Fórum quando quiser! Se tiver alguma dúvida, sugestão ou comentário sobre esta tradução para português europeu do phpBB3x, consulte a comunidade phpBB Leinad4Mind. Da mesma forma, pode visitar-nos, se desejar fazer alguma observação sobre esta tradução e o acordo ortográfico da língua portuguesa. Estamos a construir uma Comunidade phpBB em Portugal. O contributo de todos é importante. O nosso compromisso é ajudar quem nos procura. Responderemos a todos os contactos tão rápido quanto possível. A sua participação é o maior incentivo que pode dar-nos. A tradução deste Fórum respeita o acordo ortográfico da língua portuguesa em vigor desde Janeiro de 2009.',
 
 	'FORUMS_FIRST_CATEGORY'				=> 'A minha primeira Categoria',
 	'FORUMS_TEST_FORUM_DESC'			=> 'Este é um Fórum de Testes.',
@@ -627,5 +626,3 @@ $lang = array_merge($lang, array(
 
 	'TOPICS_TOPIC_TITLE'				=> 'Bem-vindo ao phpBB3x',
 ));
-
-?>

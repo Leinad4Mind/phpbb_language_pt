@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* This file is part of the phpBB Forum Software package.
-*
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
-* @Traduzido por: http://www.phpbb-pt.com - segundo as normas do Acordo Ortográfico
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * This file is part of the phpBB Forum Software package.
+ *
+ * @copyright (c) phpBB Limited <https://www.phpbb.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * For full copyright and license information, please see
+ * the docs/CREDITS.txt file.
+ * @Traduzido por: https://leinad4mind.top/forum - segundo as normas do Acordo Ortográfico
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -41,7 +40,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'					=> 'Traduzido por: <a href="http://www.phpbb-pt.com">phpBB Portugal</a>',
+	'TRANSLATION_INFO'					=> 'Traduzido por: <a href="http://www.phpbb-pt.com">phpBB Leinad4Mind</a>',
 	'DIRECTION'							=> 'ltr',
 	'DATE_FORMAT'						=> '|d M Y|',	// 01 Jan 2007 (with Relative days enabled)
 	'DATETIME_FORMAT'					=> '|d M Y, H:i|',	// 01 Jan 2007, 13:37 (with Relative days enabled)
@@ -229,7 +228,7 @@ $lang = array_merge($lang, array(
 	'ERR_JAB_CONNECT'					=> 'Não foi possível fazer a ligação ao servidor Jabber.',
 	'ERR_UNABLE_TO_LOGIN'				=> 'Ocorreu um erro no acesso. Nome de Utilizador ou Senha incorretos.',
 	'ERR_UNWATCHING'					=> 'Um erro ocorreu durante o cancelamento da subscrição.',
-	'ERR_WATCHING'						=> 'Um erro ocorreu durante a subscrição.',	
+	'ERR_WATCHING'						=> 'Um erro ocorreu durante a subscrição.',
 	'ERR_WRONG_PATH_TO_PHPBB'			=> 'O local do script phpBB indicado parece não ser válido.',
 	'ERROR'								=> 'Erro',
 	'EXPAND_VIEW'						=> 'Ver mais detalhes',
@@ -397,7 +396,7 @@ $lang = array_merge($lang, array(
 	'LOGOUT_USER'						=> 'Sair [ %s ]',
 	'LOG_ME_IN'							=> 'Lembrar-me',
 
-	'MAIN'								=> 'Principal',	
+	'MAIN'								=> 'Principal',
 	'MARK'								=> 'Marcar',
 	'MARK_ALL'							=> 'Marcar Todos',
 	'MARK_ALL_READ'						=> 'Marcar todos como lidos',
@@ -1423,7 +1422,7 @@ $lang = array_merge($lang, array(
 	),
 
 	// The value is only an example and will get replaced by the current time on view 
-	'dateformats'						=> array( 
+	'dateformats'						=> array(
 		'd M Y, H:i'					=> '01 Jan 2008, 17:37',
 		'd M Y H:i'						=> '01 Jan 2008 17:37',
 		'M jS, \'y, H:i'				=> 'Jan 1st, \'07, 17:37',

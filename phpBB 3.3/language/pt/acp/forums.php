@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* This file is part of the phpBB Forum Software package.
-*
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
-* @Traduzido por: http://www.phpbb-pt.com - segundo as normas do Acordo Ortográfico
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * This file is part of the phpBB Forum Software package.
+ *
+ * @copyright (c) phpBB Limited <https://www.phpbb.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * For full copyright and license information, please see
+ * the docs/CREDITS.txt file.
+ * @Traduzido por: https://leinad4mind.top/forum - segundo as normas do Acordo Ortográfico
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -82,7 +81,7 @@ $lang = array_merge($lang, array(
 	'FORUM_AUTO_PRUNE_EXPLAIN'		=> 'Elimina os Tópicos deste Fórum conforme os parâmetros de frequência/idade definidos abaixo.',
 	'FORUM_CREATED'					=> 'Fórum criado com sucesso.',
 	'FORUM_DATA_NEGATIVE'			=> 'Os Parâmetros de Limpeza não podem ser negativos.',
-	'FORUM_DESC_TOO_LONG'			=> 'A sua descrição é muito grande, o limite é de 4.000 caracteres.', 
+	'FORUM_DESC_TOO_LONG'			=> 'A sua descrição é muito grande, o limite é de 4.000 caracteres.',
 	'FORUM_DELETE'					=> 'Apagar Fórum',
 	'FORUM_DELETE_EXPLAIN'			=> 'Esta ferramenta permite-lhe apagar um determinado Fórum. Se este, for um Fórum com um elevado número de mensagens, pode se desejar mover, todas as suas mensagens (ou Fóruns) incluídas.',
 	'FORUM_DELETED'					=> 'Fórum selecionado apagado com sucesso.',
@@ -91,7 +90,7 @@ $lang = array_merge($lang, array(
 	'FORUM_EDIT_EXPLAIN'			=> 'Esta ferramenta permite-lhe criar um novo Fórum. Tenha em atenção que a Moderação e o Controlo do Contador de Mensagens são determinados pelas Permissões do Fórum para cada Utilizador ou Grupo.',
 	'FORUM_IMAGE'					=> 'Imagem do Fórum',
 	'FORUM_IMAGE_EXPLAIN'			=> 'Local da Imagem (relativo à pasta raiz do phpBB).',
-	'FORUM_IMAGE_NO_EXIST'			=> 'A imagem do Fórum especificada não existe',	
+	'FORUM_IMAGE_NO_EXIST'			=> 'A imagem do Fórum especificada não existe',
 	'FORUM_LINK_EXPLAIN'			=> 'URL Completa (incluindo o protocolo, ex. <samp>http://</samp>) para o local em que o utilizador será redirecionado ao clicar, ex: http://www.phpbb.com/.',
 	'FORUM_LINK_TRACK'				=> 'Salvar Redirecionamento de Links',
 	'FORUM_LINK_TRACK_EXPLAIN'		=> 'Guarda o número de vezes que o atalho do Fórum foi usado.',
@@ -101,7 +100,7 @@ $lang = array_merge($lang, array(
 	'FORUM_PARENT'					=> 'Fórum Pai',
 	'FORUM_PASSWORD'				=> 'Senha do Fórum',
 	'FORUM_PASSWORD_CONFIRM'		=> 'Confirmar Senha do Fórum',
-	'FORUM_PASSWORD_CONFIRM_EXPLAIN'=> 'Só se definir uma senha para este Fórum.',
+	'FORUM_PASSWORD_CONFIRM_EXPLAIN' => 'Só se definir uma senha para este Fórum.',
 	'FORUM_PASSWORD_EXPLAIN'		=> 'Defina uma Senha para este Fórum. Utilize preferencialmente o sistema de Permissões.',
 	'FORUM_PASSWORD_UNSET'			=> 'Remover password do Fórum',
 	'FORUM_PASSWORD_UNSET_EXPLAIN'	=> 'Selecione se deseja remover a password do Fórum.',
@@ -130,7 +129,7 @@ $lang = array_merge($lang, array(
 
 	'LINK'							=> 'atalho',
 	'LIMIT_SUBFORUMS'				=> 'Limitar legenda para direcionar subforums filhos',
-	'LIMIT_SUBFORUMS_EXPLAIN'		=> 'Limita os subfóruns a serem exibidos aos subfóruns que são descendentes diretos (filhos) do fórum atual. Desativar isso exibirá todos os subfóruns com a opção "Listar sub fóruns na legenda" ativada, independentemente da profundidade.',
+	'LIMIT_SUBFORUMS_EXPLAIN'		=> 'Limita os Sub-fóruns a serem exibidos aos Sub-fóruns que são descendentes diretos (filhos) do fórum atual. Desativar isso exibirá todos os Sub-fóruns com a opção "Listar sub fóruns na legenda" ativada, independentemente da profundidade.',
 	'LIST_INDEX'					=> 'Mostrar no Fórum Pai',
 	'LIST_INDEX_EXPLAIN'			=> 'Se definido como Sim, mostra no Fórum Pai, um atalho para este Fórum, se tiver a opção Mostrar os Sub-fóruns ativada.',
 	'LIST_SUBFORUMS'				=> 'Mostrar os Sub-fóruns',

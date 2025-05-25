@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* This file is part of the phpBB Forum Software package.
-*
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
-* @Traduzido por: http://www.phpbb-pt.com - segundo pré-Acordo Ortográfico
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * This file is part of the phpBB Forum Software package.
+ *
+ * @copyright (c) phpBB Limited <https://www.phpbb.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * For full copyright and license information, please see
+ * the docs/CREDITS.txt file.
+ * @Traduzido por: https://leinad4mind.top/forum - segundo pré-Acordo Ortográfico
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -126,7 +125,7 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSION_UPDATE_FAILURE'		=> 'Não foi possível actualizar a extensão %s',
 	'CLI_EXTENSION_UPDATE_SUCCESS'		=> 'A extensão %s foi actualizada com sucesso',
 	'CLI_EXTENSION_NOT_FOUND'			=> 'Não foram encontradas Extensões.',
-	'CLI_EXTENSION_NOT_ENABLEABLE'		=> 'A Extensão %s não é activável.',
+	'CLI_EXTENSION_NOT_ENABLEABLE'		=> 'A Extensão %s não é possível de activar.',
 	'CLI_EXTENSIONS_AVAILABLE'			=> 'Disponível',
 	'CLI_EXTENSIONS_DISABLED'			=> 'Desactivado',
 	'CLI_EXTENSIONS_ENABLED'			=> 'Activado',
@@ -157,7 +156,7 @@ $lang = array_merge($lang, array(
 
 	'CLI_THUMBNAIL_NOTHING_TO_GENERATE'	=> 'Sem miniaturas para criar.',
 	'CLI_THUMBNAIL_NOTHING_TO_DELETE'	=> 'Sem miniaturas para apagar.',
-	
+
 	'CLI_USER_ADD_SUCCESS'		=> 'Utilizador %s adicionado com sucesso.',
 	'CLI_USER_DELETE_CONFIRM'	=> 'Tem a certeza que deseja remover ‘%s’? [s/N]',
 	'CLI_USER_RECLEAN_START'	=> 'A limpar nomes de utilizadores',
@@ -166,7 +165,7 @@ $lang = array_merge($lang, array(
 		1	=> 'Limpeza completa. %d nome de utilizador limpo.',
 		2	=> 'Limpeza completa. %d nomes de utilizadores limpos.',
 	],
-	));
+));
 
 // Additional help for commands.
 $lang = array_merge($lang, array(
@@ -177,4 +176,4 @@ Para enviar, opcionalmente, um email de activação de conta para o utilizador, 
 Caso este comando seja executado sem opções, será questionado para as introduzir.
 Para enviar, opcionalmente, um email ao novo utilizador, utilize a opção <info>--send-email</info>.',
 	'CLI_HELP_USER_RECLEAN'		=> 'Ao reforçar a limpeza dos nomes dos utilizadores irá verificar e certificar-se que todos os nomes de utilizadores possuem versões limpas dos nomes de utilizadores guardadas. Nomes de utilizadores limpos significa que se encontram em minúsculas, normalizadas em NFC e transformadas em ASCII.',
-	));
+));

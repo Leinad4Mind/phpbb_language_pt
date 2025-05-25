@@ -1,20 +1,20 @@
 <?php
-/**
-*
-* help_faq [Português]
-*
-* @package language
-* @version 1.0.9
-* @Traduzido por: http://www.phpbb-pt.com - segundo as normas do Acordo Ortográfico
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* 
-*/
 
 /**
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * help_faq [Português]
+ *
+ * @package language
+ * @version 1.0.9
+ * @Traduzido por: https://leinad4mind.top/forum - segundo as normas do Acordo Ortográfico
+ * @copyright (c) 2005 phpBB Group
+ * @license http://opensource.org/licenses/gpl-license.php GNU Public License
+ * 
+ */
+
+/**
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
@@ -111,10 +111,10 @@ $help = array(
 		0	=> '--',
 		1	=> 'Sobre as Mensagens',
 	),
-   array( 
-      0 => 'Como posso enviar uma mensagem?', 
-      1 => 'Para enviar um novo Tópico num Fórum, clique no botão relevante das páginas dos Fóruns e Tópicos. Deverá registar-se antes de enviar uma mensagem. Uma lista de suas permissões de cada Fórum está disponível no fundo das páginas dos Fóruns e Tópicos. Exemplo: Pode criar novos Tópicos, votações, etc.' 
-   ), 
+	array(
+		0 => 'Como posso enviar uma mensagem?',
+		1 => 'Para enviar um novo Tópico num Fórum, clique no botão relevante das páginas dos Fóruns e Tópicos. Deverá registar-se antes de enviar uma mensagem. Uma lista de suas permissões de cada Fórum está disponível no fundo das páginas dos Fóruns e Tópicos. Exemplo: Pode criar novos Tópicos, votações, etc.'
+	),
 	array(
 		0	=> 'Como crio um Tópico no Fórum?',
 		1	=> 'Isso é fácil, clique no botão Novo Tópico ou Responder. Estes botões só são visíveis nas situações em que está autorizado a fazê-lo.',
@@ -145,7 +145,7 @@ $help = array(
 	),
 	array(
 		0	=> 'Por que não consigo anexar ficheiros?',
-		1	=> 'Em algumas seções, anexar ficheiros pode estar restrito a alguns Utilizadores ou Grupos. Para anexar um arquivo, tem que ter de uma autorização especial. Apenas o Moderador do Fórum e os Administradores podem lhe dar esse acesso. Por Favor, contacte-os.',
+		1	=> 'Em algumas secções, anexar ficheiros pode estar restrito a alguns Utilizadores ou Grupos. Para anexar um arquivo, tem que ter de uma autorização especial. Apenas o Moderador do Fórum e os Administradores podem lhe dar esse acesso. Por Favor, contacte-os.',
 	),
 	array(
 		0	=> 'Por que recebi uma Advertência?',
@@ -338,7 +338,7 @@ $help = array(
 	),
 	array(
 		0	=> 'Quem traduziu o phpBB3?',
-		1	=> 'O phpBB3 foi traduzido para a Língua Portuguesa por phpBB Portugal, sendo esta tradução de distribuição livre e gratuita. Se encontrar erros ou incorreções, ou ainda, se tiver alguma sugestão a fazer visite-nos em phpBB Portugal. Agradecemos antecipadamente a sua visita e as contribuições que entender dar-nos, prometendo analisá-las cuidadosamente e dar-lhe resposta tão breve quanto possível.',
+		1	=> 'O phpBB3 foi traduzido para a Língua Portuguesa por phpBB Leinad4Mind, sendo esta tradução de distribuição livre e gratuita. Se encontrar erros ou incorreções, ou ainda, se tiver alguma sugestão a fazer visite-nos em phpBB Leinad4Mind. Agradecemos antecipadamente a sua visita e as contribuições que entender dar-nos, prometendo analisá-las cuidadosamente e dar-lhe resposta tão breve quanto possível.',
 	),
 	array(
 		0	=> 'Por que não existe a Função X?',
@@ -349,5 +349,3 @@ $help = array(
 		1	=> 'Contacte o Administrador deste Fórum. Veja no canto superior direito da imagem encontrará um atalho para a lista de Utilizadores onde está o Administrador. Envie-lhe uma Mensagem Privada a expor o assunto.',
 	),
 );
-
-?>

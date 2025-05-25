@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* This file is part of the phpBB Forum Software package.
-*
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
-* @Traduzido por: http://www.phpbb-pt.com - segundo as normas do Acordo Ortográfico
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * This file is part of the phpBB Forum Software package.
+ *
+ * @copyright (c) phpBB Limited <https://www.phpbb.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * For full copyright and license information, please see
+ * the docs/CREDITS.txt file.
+ * @Traduzido por: https://leinad4mind.top/forum - segundo as normas do Acordo Ortográfico
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -52,7 +51,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_HELPLINE'				=> 'Linha de Ajuda',
 	'BBCODE_HELPLINE_EXPLAIN'		=> 'Neste Campo deve ser inserido o texto mostrado quando se coloca o cursor sobre o BBCode.',
 	'BBCODE_HELPLINE_TEXT'			=> 'Texto da Linha de Ajuda',
-	'BBCODE_HELPLINE_TOO_LONG'		=> 'A linha de ajuda que escreveu é muito longa.',	
+	'BBCODE_HELPLINE_TOO_LONG'		=> 'A linha de ajuda que escreveu é muito longa.',
 
 	'BBCODE_INVALID_TAG_NAME'		=> 'O Nome da TAG de BBCode selecionado já existe.',
 	'BBCODE_INVALID'				=> 'A construção do seu BBCode é invalido.',
@@ -100,7 +99,7 @@ $lang = array_merge($lang, array(
 		'MAP'			=> 'Mapeia strings de caracteres para sua substituição no formato <samp>{MAP=string1:replacement1,string2:replacement2}</samp>. Não diferencia maiúsculas de minúsculas. Preserva valores desconhecidos por padrão.',
 		'RANGE'			=> 'Aceita um número inteiro no intervalo determinado, por exemplo <samp>{RANGE=-10,42}</samp>.',
 		'REGEXP'		=> 'Valida seu valor em relação a um determinada expressão regular (regexp), por exemplo. <samp>{REGEXP=/^foo\w+bar$/}</samp>.',
-		'TIMESTAMP'		=> 'Um registro de data e hora como <samp>1h30m10s</samp> que será convertido em um número de segundos. Também aceita um número.',
+		'TIMESTAMP'		=> 'Um registo de data e hora como <samp>1h30m10s</samp> que será convertido em um número de segundos. Também aceita um número.',
 		'UINT'			=> 'Um valor inteiro sem sinal. Igual a <samp>{INT}</samp>, mas rejeita valores inferiores a 0.',
 	),
 ));
@@ -217,7 +216,7 @@ $lang = array_merge($lang, array(
 ));
 
 // Word censors 
-$lang = array_merge($lang, array( 
+$lang = array_merge($lang, array(
 	'ACP_WORDS_EXPLAIN'				=> 'Aqui pode adicionar, editar e apagar palavras que serão automaticamente censuradas no Fórum. Adicionando esta opção, os visitantes continuarão a poder registar-se com Nomes de utilizadores contendo estas palavras. Podem ser utilizados asteriscos (*) aumentando as possibilidades de abranger variações de uma mesma palavra. Por exemplo, testa* abrangerá testar e detesta.',
 	'ADD_WORD'						=> 'Adicionar nova Palavra',
 

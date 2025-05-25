@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* This file is part of the phpBB Forum Software package.
-*
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
-* @Traduzido por: http://www.phpbb-pt.com - segundo pré-Acordo Ortográfico
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * This file is part of the phpBB Forum Software package.
+ *
+ * @copyright (c) phpBB Limited <https://www.phpbb.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * For full copyright and license information, please see
+ * the docs/CREDITS.txt file.
+ * @Traduzido por: https://leinad4mind.top/forum - segundo pré-Acordo Ortográfico
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -37,15 +36,15 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 /**
-*	EXTENSION-DEVELOPERS PLEASE NOTE
-*
-*	You are able to put your permission sets into your extension.
-*	The permissions logic should be added via the 'core.permissions' event.
-*	You can easily add new permission categories, types and permissions, by
-*	simply merging them into the respective arrays.
-*	The respective language strings should be added into a language file, that
-*	start with 'permissions_', so they are automatically loaded within the ACP.
-*/
+ *	EXTENSION-DEVELOPERS PLEASE NOTE
+ *
+ *	You are able to put your permission sets into your extension.
+ *	The permissions logic should be added via the 'core.permissions' event.
+ *	You can easily add new permission categories, types and permissions, by
+ *	simply merging them into the respective arrays.
+ *	The respective language strings should be added into a language file, that
+ *	start with 'permissions_', so they are automatically loaded within the ACP.
+ */
 
 $lang = array_merge($lang, array(
 	'ACL_CAT_ACTIONS'		=> 'Acções',
@@ -82,7 +81,7 @@ $lang = array_merge($lang, array(
 
 	'ACL_U_SENDPM'		=> 'Pode enviar mensagens privadas',
 	'ACL_U_MASSPM'		=> 'Pode enviar mensagens para vários utilizadores',
-	'ACL_U_MASSPM_GROUP'=> 'Pode enviar mensagens para Grupos',
+	'ACL_U_MASSPM_GROUP' => 'Pode enviar mensagens para Grupos',
 	'ACL_U_READPM'		=> 'Pode ler mensagens privadas',
 	'ACL_U_PM_EDIT'		=> 'Pode editar as suas mensagens privadas',
 	'ACL_U_PM_DELETE'	=> 'Pode apagar as suas mensagens privadas',

@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* This file is part of the phpBB Forum Software package.
-*
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
-* @Traduzido por: http://www.phpbb-pt.com - segundo pré-Acordo Ortográfico
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * This file is part of the phpBB Forum Software package.
+ *
+ * @copyright (c) phpBB Limited <https://www.phpbb.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * For full copyright and license information, please see
+ * the docs/CREDITS.txt file.
+ * @Traduzido por: https://leinad4mind.top/forum - segundo pré-Acordo Ortográfico
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -82,7 +81,7 @@ $lang = array_merge($lang, array(
 	'FORUM_AUTO_PRUNE_EXPLAIN'		=> 'Elimina os Tópicos deste Fórum conforme os parâmetros de frequência/idade definidos abaixo.',
 	'FORUM_CREATED'					=> 'Fórum criado com sucesso.',
 	'FORUM_DATA_NEGATIVE'			=> 'Os Parâmetros de Limpeza não podem ser negativos.',
-	'FORUM_DESC_TOO_LONG'			=> 'A sua descrição é muito grande, o limite é de 4.000 caracteres.', 
+	'FORUM_DESC_TOO_LONG'			=> 'A sua descrição é muito grande, o limite é de 4.000 caracteres.',
 	'FORUM_DELETE'					=> 'Apagar Fórum',
 	'FORUM_DELETE_EXPLAIN'			=> 'Esta ferramenta permite-lhe apagar um determinado Fórum. Se este, for um Fórum com um elevado número de mensagens, pode se desejar mover, todas as suas mensagens (ou Fóruns) incluídas.',
 	'FORUM_DELETED'					=> 'Fórum seleccionado apagado com sucesso.',
@@ -91,7 +90,7 @@ $lang = array_merge($lang, array(
 	'FORUM_EDIT_EXPLAIN'			=> 'Esta ferramenta permite-lhe criar um novo Fórum. Tenha em atenção que a Moderação e o Controlo do Contador de Mensagens são determinados pelas Permissões do Fórum para cada Utilizador ou Grupo.',
 	'FORUM_IMAGE'					=> 'Imagem do Fórum',
 	'FORUM_IMAGE_EXPLAIN'			=> 'Local da Imagem (relativo à pasta raiz do phpBB).',
-	'FORUM_IMAGE_NO_EXIST'			=> 'A imagem do Fórum especificada não existe',	
+	'FORUM_IMAGE_NO_EXIST'			=> 'A imagem do Fórum especificada não existe',
 	'FORUM_LINK_EXPLAIN'			=> 'URL Completa (incluindo o protocolo, ex. <samp>http://</samp>) para o local em que o utilizador será redireccionado ao clicar, ex: http://www.phpbb.com/.',
 	'FORUM_LINK_TRACK'				=> 'Salvar Redireccionamento de Links',
 	'FORUM_LINK_TRACK_EXPLAIN'		=> 'Guarda o número de vezes que o atalho do Fórum foi usado.',
@@ -100,7 +99,7 @@ $lang = array_merge($lang, array(
 	'FORUM_PARENT'					=> 'Fórum Pai',
 	'FORUM_PASSWORD'				=> 'Senha do Fórum',
 	'FORUM_PASSWORD_CONFIRM'		=> 'Confirmar Senha do Fórum',
-	'FORUM_PASSWORD_CONFIRM_EXPLAIN'=> 'Só se definir uma senha para este Fórum.',
+	'FORUM_PASSWORD_CONFIRM_EXPLAIN' => 'Só se definir uma senha para este Fórum.',
 	'FORUM_PASSWORD_EXPLAIN'		=> 'Defina uma Senha para este Fórum. Utilize preferencialmente o sistema de Permissões.',
 	'FORUM_PASSWORD_UNSET'			=> 'Remover password do Fórum',
 	'FORUM_PASSWORD_UNSET_EXPLAIN'	=> 'Seleccione se deseja remover a password do Fórum.',

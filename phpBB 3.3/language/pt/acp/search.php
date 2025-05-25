@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* This file is part of the phpBB Forum Software package.
-*
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
-* @Traduzido por: http://www.phpbb-pt.com - segundo as normas do Acordo Ortográfico
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * This file is part of the phpBB Forum Software package.
+ *
+ * @copyright (c) phpBB Limited <https://www.phpbb.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * For full copyright and license information, please see
+ * the docs/CREDITS.txt file.
+ * @Traduzido por: https://leinad4mind.top/forum - segundo as normas do Acordo Ortográfico
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -50,7 +49,7 @@ $lang = array_merge($lang, array(
 	'CREATE_INDEX'							=> 'Criar Índice',
 
 	'DEFAULT_SEARCH_RETURN_CHARS'			=> 'Número de caracteres retornados por padrão',
-	'DEFAULT_SEARCH_RETURN_CHARS_EXPLAIN'	=> 'O número padrão de caracteres que serão retornados durante a pesquisa. Um valor 0 retornará a postagem inteira.',
+	'DEFAULT_SEARCH_RETURN_CHARS_EXPLAIN'	=> 'O número padrão de caracteres que serão retornados durante a pesquisa. Um valor 0 retornará a mensagem inteira.',
 	'DELETE_INDEX'							=> 'Apagar Índice',
 	'DELETING_INDEX_IN_PROGRESS'			=> 'Excluindo o Índice em progresso...',
 	'DELETING_INDEX_IN_PROGRESS_EXPLAIN'	=> 'A pesquisa está a apagar os Índices. Esta ação pode levar alguns minutos.',

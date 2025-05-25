@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* acp_language [Português Pré-AO]
-*
-* @package language
-* @version 1.0.9
-* @Traduzido por: http://www.phpbb-pt.com - segundo pré-Acordo Ortográfico
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* 
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * acp_language [Português Pré-AO]
+ *
+ * @package language
+ * @version 1.0.9
+ * @Traduzido por: https://leinad4mind.top/forum - segundo pré-Acordo Ortográfico
+ * @copyright (c) 2005 phpBB Group
+ * @license http://opensource.org/licenses/gpl-license.php GNU Public License
+ * 
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -56,7 +55,7 @@ $lang = array_merge($lang, array(
 	'LANGUAGE_ENTRIES_EXPLAIN'		=> 'Aqui pode alterar os pacotes de idiomas existentes ou não traduzidos.<br /><strong>Nota:</strong> Depois de efectuar as modificações clique em Enviar e Descarregar Ficheiro O mesmo será colocado na directoria /store.<br /> Estas alterações só serão visíveis depois de substituir os ficheiros no servidor.',
 	'LANGUAGE_FILES'				=> 'Ficheiros dos idiomas',
 	'LANGUAGE_KEY'					=> 'Chave de Linguagem',
-	'LANGUAGE_PACK_ALREADY_INSTALLED'=> 'O Pacote de idiomas já se encontra instalado.',
+	'LANGUAGE_PACK_ALREADY_INSTALLED' => 'O Pacote de idiomas já se encontra instalado.',
 	'LANGUAGE_PACK_DELETED'			=> 'O Pacote de idiomas <strong>%s</strong> foi apagado com sucesso. O idiomas Oficial do Fórum foi actualizado para todos os Membros que estão a usá-lo.',
 	'LANGUAGE_PACK_DETAILS'			=> 'Detalhes do Pacote de idiomas',
 	'LANGUAGE_PACK_INSTALLED'		=> 'O Pacote de idiomas <strong>%s</strong> foi instalado com sucesso.',
@@ -100,5 +99,3 @@ $lang = array_merge($lang, array(
 
 	'WRONG_LANGUAGE_FILE'			=> 'O Ficheiro seleccionado é inválido.',
 ));
-
-?>

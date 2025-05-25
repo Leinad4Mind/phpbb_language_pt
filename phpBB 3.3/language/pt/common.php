@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* This file is part of the phpBB Forum Software package.
-*
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
-* @Traduzido por: http://www.phpbb-pt.com - segundo as normas do Acordo Ortográfico
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * This file is part of the phpBB Forum Software package.
+ *
+ * @copyright (c) phpBB Limited <https://www.phpbb.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * For full copyright and license information, please see
+ * the docs/CREDITS.txt file.
+ * @Traduzido por: https://leinad4mind.top/forum - segundo as normas do Acordo Ortográfico
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -41,7 +40,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'					=> 'Traduzido por: <a href="http://www.phpbb-pt.com">phpBB Portugal</a>',
+	'TRANSLATION_INFO'					=> 'Traduzido por: <a href="http://www.phpbb-pt.com">phpBB Leinad4Mind</a>',
 	'DIRECTION'							=> 'ltr',
 	'DATE_FORMAT'						=> '|d M Y|',	// 01 Jan 2007 (with Relative days enabled)
 	'DATETIME_FORMAT'					=> '|d M Y, H:i|',	// 01 Jan 2007, 13:37 (with Relative days enabled)
@@ -64,7 +63,7 @@ $lang = array_merge($lang, array(
 	'ACCOUNT_DEACTIVATED'				=> 'O seu registo foi desativado manualmente e apenas pode ser reativado por um Administrador.',
 	'ACP'								=> 'Painel de Administração',
 	'ACP_SHORT'							=> 'ACP',
-	'ACTIVATION_ALREADY_SENT'		=> 'O e-mail de ativação já foi enviado para o seu endereço de e-mail. Você pode tentar novamente após 24 horas. Se você continuar tendo problemas para ativar sua conta, entre em contato com um administrador do fórum.',
+	'ACTIVATION_ALREADY_SENT'		=> 'O e-mail de ativação já foi enviado para o seu endereço de e-mail. Você pode tentar novamente após 24 horas. Se você continuar tendo problemas para ativar sua conta, entre em contacto com um administrador do fórum.',
 	'ACTIVE'							=> 'Ativo',
 	'ACTIVE_ERROR'						=> 'Especificou um Utilizador inativo. Se continuar com problemas, contacte um Administrador.',
 	'ADMINISTRATOR'						=> 'Administrador',
@@ -170,14 +169,14 @@ $lang = array_merge($lang, array(
 		1	=> '%d carácter',
 		2	=> '%d caracteres',
 	),
-		// Versão especial a ser usada ao descrever intervalos, por ex. "min x caracteres e max y caracteres"
+	// Versão especial a ser usada ao descrever intervalos, por ex. "min x caracteres e max y caracteres"
 	'CHARACTERS_XY'			=> array(
 		1	=> '%d character',
 		2	=> '%d characters',
 	),
 	'COLLAPSE_VIEW'						=> 'Recolher vista',
 	'CLOSE_WINDOW'						=> 'Fechar Janela',
-	'CODE'								=> 'Código',	
+	'CODE'								=> 'Código',
 	'COLOUR_SWATCH'						=> 'Paleta de Cores',
 	'COLON'								=> ':',
 	'COMMA_SEPARATOR'					=> ', ',	// Comma used to join lists into a single string, use localised comma if appropriate, eg: Ideographic or Arabic
@@ -215,7 +214,7 @@ $lang = array_merge($lang, array(
 	'DISPLAY_MESSAGES'					=> 'Mostrar mensagens anteriores',
 	'DISPLAY_POSTS'						=> 'Mostrar mensagens anteriores',
 	'DISPLAY_TOPICS'					=> 'Mostrar Tópicos anteriores',
-	'DOMAIN_NO_MX_RECORD_EMAIL'			=> 'O domínio de email inserido não é um registro  MX válido.',
+	'DOMAIN_NO_MX_RECORD_EMAIL'			=> 'O domínio de email inserido não é um registo  MX válido.',
 	'DOWNLOADED'						=> 'Transferido',
 	'DOWNLOADING_FILE'					=> 'A Transferir ficheiro',
 	'DOWNLOAD_COUNTS'		=> array(
@@ -241,7 +240,7 @@ $lang = array_merge($lang, array(
 	'ERR_JAB_CONNECT'					=> 'Não foi possível fazer a ligação ao servidor Jabber.',
 	'ERR_UNABLE_TO_LOGIN'				=> 'Ocorreu um erro no acesso. Nome de Utilizador ou Senha incorretos.',
 	'ERR_UNWATCHING'					=> 'Um erro ocorreu durante o cancelamento da subscrição.',
-	'ERR_WATCHING'						=> 'Um erro ocorreu durante a subscrição.',	
+	'ERR_WATCHING'						=> 'Um erro ocorreu durante a subscrição.',
 	'ERR_WRONG_PATH_TO_PHPBB'			=> 'O local do script phpBB indicado parece não ser válido.',
 	'ERROR'								=> 'Erro',
 	'EXPAND_VIEW'						=> 'Ver mais detalhes',
@@ -278,7 +277,7 @@ $lang = array_merge($lang, array(
 	'FROM'								=> 'de',
 	'FSOCK_DISABLED'					=> 'Não foi possível concluir esta operação, porque a função <var>fsockopen</var> está desativada ou o servidor solicitado não foi encontrado.',
 	'FSOCK_TIMEOUT'						=> 'O tempo limite esgotou-se durante a leitura do fluxo de rede',
-	
+
 	'FILESYSTEM_CANNOT_CHANGE_FILE_GROUP'		=> 'Não foi possível alterar o grupo do arquivo',
 	'FILESYSTEM_CANNOT_CHANGE_FILE_PERMISSIONS'	=> 'Não foi possível alterar as permissões do arquivo',
 	'FILESYSTEM_CANNOT_COPY_FILES'				=> 'Não foi possível copiar os arquivos',
@@ -288,7 +287,7 @@ $lang = array_merge($lang, array(
 	'FILESYSTEM_CANNOT_DUMP_FILE'				=> 'Não foi possível descarregar o arquivo',
 	'FILESYSTEM_CANNOT_MIRROR_DIRECTORY'		=> 'Não foi possível espelhar o diretório',
 	'FILESYSTEM_CANNOT_RENAME_FILE'				=> 'Não foi possível renomear um arquivo do sistema',
-	'FILESYSTEM_CANNOT_TOUCH_FILES'				=> 'Não foi possível criar ou alterar o registro de data e hora do arquivo',
+	'FILESYSTEM_CANNOT_TOUCH_FILES'				=> 'Não foi possível criar ou alterar o registo de data e hora do arquivo',
 
 	'FTP_FSOCK_HOST'					=> 'Servidor FTP',
 	'FTP_FSOCK_HOST_EXPLAIN'			=> 'Servidor FTP utilizada para se ligar ao seu site.',
@@ -420,7 +419,7 @@ $lang = array_merge($lang, array(
 	'LOGOUT_USER'						=> 'Sair [ %s ]',
 	'LOG_ME_IN'							=> 'Lembrar-me',
 
-	'MAIN'								=> 'Principal',	
+	'MAIN'								=> 'Principal',
 	'MARK'								=> 'Marcar',
 	'MARK_ALL'							=> 'Marcar Todos',
 	'MARK_ALL_READ'						=> 'Marcar todos como lidos',
@@ -631,9 +630,9 @@ $lang = array_merge($lang, array(
 	'POST_UNAPPROVED'					=> 'Esta mensagem não foi aprovada.',
 	'POST_UNAPPROVED_EXPLAIN'			=> 'Esta mensagem não é visível para outros usuários até que tenha sido aprovada por um moderador.',
 	'POWERED_BY'						=> 'Desenvolvido por %s',
-	
+
 	'QUOTE'								=> 'Citar',
-	
+
 	'PREVIEW'							=> 'Prever',
 	'PREVIOUS'							=> 'Anterior',	  // Used in pagination
 	'PREVIOUS_STEP'						=> 'Anterior',
@@ -685,10 +684,10 @@ $lang = array_merge($lang, array(
 	'RETURN_TOPIC'						=> 'Clique %saqui%s para voltar ao Tópico',
 	'RETURN_TO'							=> 'Voltar para “%s”',
 	'RETURN_TO_INDEX'					=> 'Regressar ao índice do fórum',
-	
+
 	'ROUTE_NOT_FOUND'				=> 'A rota solicitada “%s” não foi encontrada.',
 	'ROUTE_INVALID_MISSING_PARAMS'	=> 'Parâmetros inválidos ou ausentes foram passados ​​para a rota “%s”.',
-	
+
 	'FEED'								=> 'Feed',
 	'FEED_NEWS'							=> 'Novidades',
 	'FEED_TOPICS_ACTIVE'				=> 'Tópicos ativos',
@@ -1456,7 +1455,7 @@ $lang = array_merge($lang, array(
 	),
 
 	// The value is only an example and will get replaced by the current time on view 
-	'dateformats'						=> array( 
+	'dateformats'						=> array(
 		'd M Y, H:i'					=> '01 Jan 2008, 17:37',
 		'd M Y H:i'						=> '01 Jan 2008 17:37',
 		'M jS, \'y, H:i'				=> 'Jan 1st, \'07, 17:37',

@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* acp_prune [Português Pré-AO]
-*
-* @package language
-* @version 1.0.9
-* @Traduzido por: http://www.phpbb-pt.com - segundo pré-Acordo Ortográfico
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* 
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * acp_prune [Português Pré-AO]
+ *
+ * @package language
+ * @version 1.0.9
+ * @Traduzido por: https://leinad4mind.top/forum - segundo pré-Acordo Ortográfico
+ * @copyright (c) 2005 phpBB Group
+ * @license http://opensource.org/licenses/gpl-license.php GNU Public License
+ * 
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -61,10 +60,10 @@ $lang = array_merge($lang, array(
 	'USER_PRUNE_FAILURE'			=> 'Nenhum Utilizador cumpriu estes critérios.',
 
 	'WRONG_ACTIVE_JOINED_DATE'		=> 'A data indicada está incorrecta, o formato correto é <kbd>YYYY-MM-DD</kbd>.',
-)); 
+));
 
 // Forum Pruning 
-$lang = array_merge($lang, array( 
+$lang = array_merge($lang, array(
 	'ACP_PRUNE_FORUMS_EXPLAIN'		=> 'Aqui pode apagar qualquer Tópico que não tenha sido respondido ou visualizado dentro do número de dias seleccionado. Se não escrever um número, então todos os Tópicos serão apagados. Note que esta operação não excluirá Tópicos com Votações em Curso ou Tópicos Fixos e Anúncios.',
 
 	'FORUM_PRUNE'					=> 'Limpeza',
@@ -88,5 +87,3 @@ $lang = array_merge($lang, array(
 
 	'TOPICS_PRUNED'					=> 'Tópicos Limpos',
 ));
-
-?>

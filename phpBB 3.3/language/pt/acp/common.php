@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* This file is part of the phpBB Forum Software package.
-*
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
-* @Traduzido por: http://www.phpbb-pt.com - segundo as normas do Acordo Ortográfico
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * This file is part of the phpBB Forum Software package.
+ *
+ * @copyright (c) phpBB Limited <https://www.phpbb.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * For full copyright and license information, please see
+ * the docs/CREDITS.txt file.
+ * @Traduzido por: https://leinad4mind.top/forum - segundo as normas do Acordo Ortográfico
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -305,7 +304,7 @@ $lang = array_merge($lang, array(
 	'SELECT_OPTION'					=> 'Selecionar Opção',
 
 	'SETTING_TOO_LOW'				=> 'O valor escrito para a configuração "%1$s" é muito baixo. O valor mínimo permitido é %2$d.',
-	'SETTING_TOO_BIG'				=> 'O valor escrito para a configuração "%1$s" é muito alto. O valor máximo permitido é %2$d.',	
+	'SETTING_TOO_BIG'				=> 'O valor escrito para a configuração "%1$s" é muito alto. O valor máximo permitido é %2$d.',
 	'SETTING_TOO_LONG'				=> 'O valor escrito para a configuração "%1$s" é muito longo. O comprimento máximo permitido é %2$d.',
 	'SETTING_TOO_SHORT'				=> 'O valor escrito para a configuração "%1$s" é muito curto. O comprimento mínimo permitido é %2$d.',
 
@@ -317,7 +316,7 @@ $lang = array_merge($lang, array(
 
 	'UCP'							=> 'Painel de Controlo de Utilizadores',
 	'URL_INVALID'					=> 'O URL fornecido para a configuração “%1$s” é inválido.',
-	'URL_SCHEME_INVALID'			=> 'O esquema fornecido “%2$s” na configuração de separação por vírgula “%1$s” é inválido. O esquema deve começar com um caractere latino seguido por caracteres alfanuméricos, hifens ou pontos.',
+	'URL_SCHEME_INVALID'			=> 'O esquema fornecido “%2$s” na configuração de separação por vírgula “%1$s” é inválido. O esquema deve começar com um caracter latino seguido por caracteres alfanuméricos, hifenes ou pontos.',
 	'USERNAMES_EXPLAIN'				=> 'Insira cada um dos Utilizadores em linhas separadas.',
 	'USER_CONTROL_PANEL'			=> 'Painel de Utilizadores',
 
@@ -336,7 +335,7 @@ $lang = array_merge($lang, array(
 ));
 
 // Logs
-$lang = array_merge($lang, array( 
+$lang = array_merge($lang, array(
 	'ACP_ADMIN_LOGS_EXPLAIN'		=> 'Esta é a lista das ações dos Administradores. Pode ordená-la por Utilizador, data, Endereço de IP ou Ação do Registo. Se tiver as permissões adequadas, pode limpar operações individuais ou todo o registo.',
 	'ACP_CRITICAL_LOGS_EXPLAIN'		=> 'Esta é a lista das ações realizadas pelo Fórum. Estes registos têm informações que permitem solucionar problemas específicos, por exemplo uma falha no envio de emails.  Pode ordená-la por Utilizador, data, IP ou ação. Se tiver as permissões adequadas, pode limpar operações individuais ou todo o registo.',
 	'ACP_MOD_LOGS_EXPLAIN'			=> 'Esta é a lista das ações dos Moderadores do Fórum. Pode ordená-la por Utilizador, data, Endereço de IP ou Ação do Registo. Se tiver as permissões adequadas, pode limpar operações individuais ou todo o registo.',
@@ -548,7 +547,7 @@ $lang = array_merge($lang, array(
 	'LOG_BBCODE_EDIT'						=> '<strong>BBCode Editado</strong><br />» %s',
 	'LOG_BBCODE_DELETE'						=> '<strong>BBCode Apagado</strong><br />» %s',
 	'LOG_BBCODE_CONFIGURATION_ERROR'		=> '<strong>Erro durante a configuração do BBCode</strong>: %1$s<br />» %2$s',
-	
+
 	'LOG_BOT_ADDED'							=> '<strong>Motor de Busca Adicionado</strong><br />» %s',
 	'LOG_BOT_DELETE'						=> '<strong>Motor de Busca Apagado</strong><br />» %s',
 	'LOG_BOT_UPDATED'						=> '<strong>Motor de Busca Atualizado</strong><br />» %s',
@@ -738,7 +737,7 @@ $lang = array_merge($lang, array(
 	'LOG_SEARCH_INDEX_CREATED'				=> '<strong>Índice de busca criado por</strong><br />» %s',
 	'LOG_SEARCH_INDEX_REMOVED'				=> '<strong>Índice de busca excluído por</strong><br />» %s',
 	'LOG_SPHINX_ERROR'						=> '<strong>Erro de Sphinx</strong><br />» %s',
-	
+
 	'LOG_SPAMHAUS_OPEN_RESOLVER'		=> 'A Spamhaus não permite consultas usando um resolvedor aberto. A verificação da lista negra foi desativada. Para obter mais informações, consulte https://www.spamhaus.com/product/help-for-spamhaus-public-mirror-users/.',
 	'LOG_SPAMHAUS_VOLUME_LIMIT'			=> 'O limite de volume de consulta Spamhaus foi excedido. A verificação da lista negra foi desativada. Para obter mais informações, consulte https://www.spamhaus.com/product/help-for-spamhaus-public-mirror-users/.',
 

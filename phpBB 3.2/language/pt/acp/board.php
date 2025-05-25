@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* This file is part of the phpBB Forum Software package.
-*
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
-* @Traduzido por: http://www.phpbb-pt.com - segundo as normas do Acordo Ortográfico
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * This file is part of the phpBB Forum Software package.
+ *
+ * @copyright (c) phpBB Limited <https://www.phpbb.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * For full copyright and license information, please see
+ * the docs/CREDITS.txt file.
+ * @Traduzido por: https://leinad4mind.top/forum - segundo as normas do Acordo Ortográfico
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -118,7 +117,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_GALLERY_PATH'			=> 'Caminho da pasta da Galeria de Avatares',
 	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'Caminho da pasta desde a raiz do phpBB, para a Galeria de Avatares: Exemplo: <samp>images/avatares/gallery</samp>.<br>Pontos duplos como <samp>../</samp> serão retirados do caminho por razões de segurança.',
 	'AVATAR_STORAGE_PATH'			=> 'Caminho da pasta onde os Avatares são guardados',
-	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'Caminho da pasta desde a raiz do phpBB, para o envio de Avatares. Exemplo: <samp>images/avatares/upload</samp>.<br>O Envio de Avatares <strong>não ficará disponível</strong> se a pasta não for gravável.<br>Pontos duplos como <samp>../</samp> serão retirados do caminho por razões de segurança.',
+	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'Caminho da pasta desde a raiz do phpBB, para o envio de Avatares. Exemplo: <samp>images/avatares/upload</samp>.<br>O Envio de Avatares <strong>não ficará disponível</strong> se a pasta não tiver permissões de escrita.<br>Pontos duplos como <samp>../</samp> serão retirados do caminho por razões de segurança.',
 	'MAX_AVATAR_SIZE'				=> 'Dimensões Máximas do Avatar',
 	'MAX_AVATAR_SIZE_EXPLAIN'		=> '(Altura x Largura em píxeis).',
 	'MAX_FILESIZE'					=> 'Tamanho Máximo do Ficheiro Avatar',
@@ -137,7 +136,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_FORWARD_PM'				=> 'Permitir reencaminhamento das Mensagens Privadas',
 	'ALLOW_IMG_PM'					=> 'Permitir o uso do BBCode IMG',
 	'ALLOW_MASS_PM'					=> 'Permitir envio de Mensagens Privadas para múltiplos Utilizadores e Grupos',
-	'ALLOW_MASS_PM_EXPLAIN'			=> 'O envio para Grupos pode ser ajustado individualmente de acordo com a página de configurações do Grupo.',	
+	'ALLOW_MASS_PM_EXPLAIN'			=> 'O envio para Grupos pode ser ajustado individualmente de acordo com a página de configurações do Grupo.',
 	'ALLOW_PRINT_PM'				=> 'Permitir a impressão das Mensagem Privadas',
 	'ALLOW_QUOTE_PM'				=> 'Permitir citar nas Mensagens Privadas',
 	'ALLOW_SIG_PM'					=> 'Permitir assinaturas nas Mensagens Privadas',
@@ -235,7 +234,7 @@ $lang = array_merge($lang, array(
 	'ACC_DISABLE'						=> 'Desativar Registos',
 	'ACC_NONE'							=> 'Nenhuma',
 	'ACC_USER'							=> 'Utilizador',
-//	'ACC_USER_ADMIN'					=> 'User + Admin',
+	//	'ACC_USER_ADMIN'					=> 'User + Admin',
 	'ALLOW_EMAIL_REUSE'					=> 'Ativar duplicação de emails',
 	'ALLOW_EMAIL_REUSE_EXPLAIN'			=> 'O mesmo email pode ser usado no Registo de vários Utilizadores.',
 	'COPPA'								=> 'COPPA',

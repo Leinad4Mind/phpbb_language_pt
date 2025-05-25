@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* acp_ban [Português]
-*
-* @package language
-* @version 1.0.9
-* @Traduzido por: http://www.phpbb-pt.com - segundo as normas do Acordo Ortográfico
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* 
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * acp_ban [Português]
+ *
+ * @package language
+ * @version 1.0.9
+ * @Traduzido por: https://leinad4mind.top/forum - segundo as normas do Acordo Ortográfico
+ * @copyright (c) 2005 phpBB Group
+ * @license http://opensource.org/licenses/gpl-license.php GNU Public License
+ * 
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -51,7 +50,7 @@ $lang = array_merge($lang, array(
 	'BAN_UPDATE_SUCCESSFUL'		=> 'A Lista de Expulsões foi atualizada com sucesso.',
 	'BANNED_UNTIL_DATE'			=> 'até %s', // Exemplo: "até Seg 13.Jul.2009, 14:44"
 	'BANNED_UNTIL_DURATION'		=> '%1$s (até %2$s)', // Exemplo: "7 dias (até Ter 14.Jul.2009, 14:44)"
-	
+
 	'EMAIL_BAN'					=> 'Expulsar um ou mais endereços de email',
 	'EMAIL_BAN_EXCLUDE_EXPLAIN'	=> 'Ative esta opção para excluir emails da expulsão.',
 	'EMAIL_BAN_EXPLAIN'			=> 'Quando utilizar mais do que um endereço de email, separe-os por linha. Para selecionar endereços de email parciais, utilize asteriscos (*), como por exemplo, <samp>*@hotmail.com</samp>, <samp>*@*.domain.tld</samp>, etc.',
@@ -82,5 +81,3 @@ $lang = array_merge($lang, array(
 	'USER_UNBAN'				=> 'Retirar expulsão a utilizadores pelo nome de utilizador',
 	'USER_UNBAN_EXPLAIN'		=> 'Pode desbloquear (ou retirar a expulsão) múltiplos IPs apenas de uma só vez usando a combinação apropriada do rato e teclado do seu computador. IPs expulsos têm uma marcação no fundo.',
 ));
-
-?>
