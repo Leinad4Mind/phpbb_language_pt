@@ -166,6 +166,7 @@ $lang = array_merge($lang, array(
 	),
 	'COLLAPSE_VIEW'						=> 'Recolher vista',
 	'CLOSE_WINDOW'						=> 'Fechar Janela',
+	'CODE'								=> 'Código',
 	'COLOUR_SWATCH'						=> 'Paleta de Cores',
 	'COLON'								=> ':',
 	'COMMA_SEPARATOR'					=> ', ',	// Comma used to join lists into a single string, use localised comma if appropriate, eg: Ideographic or Arabic
@@ -203,6 +204,7 @@ $lang = array_merge($lang, array(
 	'DISPLAY_MESSAGES'					=> 'Mostrar mensagens anteriores',
 	'DISPLAY_POSTS'						=> 'Mostrar mensagens anteriores',
 	'DISPLAY_TOPICS'					=> 'Mostrar Tópicos anteriores',
+	'DOMAIN_NO_MX_RECORD_EMAIL'			=> 'O Domínio do endereço de email indicado é inválido.',
 	'DOWNLOADED'						=> 'Transferido',
 	'DOWNLOADING_FILE'					=> 'A Transferir ficheiro',
 	'DOWNLOAD_COUNTS'		=> array(
@@ -615,6 +617,7 @@ $lang = array_merge($lang, array(
 	'PROFILE'							=> 'Painel de Controlo do Utilizador',
 
 	'QUICK_LINKS'						=> 'Links rápidos',
+	'QUOTE'								=> 'Citar',
 
 	'RANK'								=> 'Classificação',
 	'READING_FORUM'						=> 'Ver Tópicos em %s',
