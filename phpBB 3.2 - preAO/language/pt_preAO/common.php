@@ -484,7 +484,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TOPIC_IN_QUEUE'		=> '<strong>Aprovação do Tópico</strong> pedida por %1$s:',
 	'NOTIFICATION_TYPE_NOT_EXIST'		=> 'A notificação do tipo "%s" falta no sistema de ficheiros.',
 	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '<strong>Aprovação necessária</strong> do Utilizador Registado Recentemente: “%1$s”',
-	// Used in conjuction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
+	// Used in conjunction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	'NOTIFICATION_MANY_OTHERS'			=> 'outros',
 	'NOTIFICATION_X_OTHERS'				=> array(
 		2	=> '%d outros',
