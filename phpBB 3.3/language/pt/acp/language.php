@@ -20,7 +20,7 @@ if (!defined('IN_PHPBB')) {
 }
 
 if (empty($lang) || !is_array($lang)) {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -35,8 +35,8 @@ if (empty($lang) || !is_array($lang)) {
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array(
-	'ACP_FILES'						=> 'Administração de idiomas',
+$lang = array_merge($lang, [
+	'ACP_FILES'							=> 'Administração de idiomas',
 	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'O gestor de idiomas permite instalar e desinstalar idiomas no Fórum. O Idioma pré-definido está marcado com um asterisco (*).',
 
 	'DELETE_LANGUAGE_CONFIRM'		=> 'Tem a certeza que deseja apagar “%s”?',
@@ -51,27 +51,27 @@ $lang = array_merge($lang, array(
 	'LANGUAGE_PACK_CPF_UPDATE'		=> 'A informação dos campos de perfil personalizado foi copiada do idioma padrão. Altere se necessário.',
 	'LANGUAGE_PACK_ISO'				=> 'ISO',
 	'LANGUAGE_PACK_LOCALNAME'		=> 'Nome do Local',
-	'LANGUAGE_PACK_NAME'			=> 'Nome',
+	'LANGUAGE_PACK_NAME'				=> 'Nome',
 	'LANGUAGE_PACK_NOT_EXIST'		=> 'O Pacote de idiomas selecionado não existe.',
 	'LANGUAGE_PACK_USED_BY'			=> 'Utilizado por (incluindo robôs)',
 	'LANGUAGE_VARIABLE'				=> 'Variável de linguagem',
-	'LANG_AUTHOR'					=> 'Autor do Pacote de idioma',
+	'LANG_AUTHOR'						=> 'Autor do Pacote de idioma',
 	'LANG_ENGLISH_NAME'				=> 'Nome Inglês',
 	'LANG_ISO_CODE'					=> 'Código ISO',
-	'LANG_LOCAL_NAME'				=> 'Nome local',
+	'LANG_LOCAL_NAME'					=> 'Nome local',
 
-	'MISSING_LANG_FILES'			=> 'Ficheiros de linguagem em falta',
+	'MISSING_LANG_FILES'				=> 'Ficheiros de linguagem em falta',
 	'MISSING_LANG_VARIABLES'		=> 'Variáveis de linguagem em falta',
 
 	'NO_FILE_SELECTED'				=> 'Não foi selecionado o Ficheiro de Linguagem.',
-	'NO_LANG_ID'					=> 'Não foi selecionado um pacote de idioma.',
+	'NO_LANG_ID'						=> 'Não foi selecionado um pacote de idioma.',
 	'NO_REMOVE_DEFAULT_LANG'		=> 'Não pode excluir o pacote de idioma Oficial<br />Se deseja excluir este pacote, altere o idioma Oficial do Fórum.',
 	'NO_UNINSTALLED_LANGUAGE_PACKS'	=> 'Não há Pacotes de idiomas desinstalados',
 
-	'THOSE_MISSING_LANG_FILES'		=> 'Os Ficheiros seguintes estão ausentes da pasta %s de idiomas',
+	'THOSE_MISSING_LANG_FILES'			=> 'Os Ficheiros seguintes estão ausentes da pasta %s de idiomas',
 	'THOSE_MISSING_LANG_VARIABLES'	=> 'As variáveis seguintes estão ausentes do %s pacote de idiomas',
 
-	'UNINSTALLED_LANGUAGE_PACKS'	=> 'Pacote de idiomas desinstalados',
+	'UNINSTALLED_LANGUAGE_PACKS'		=> 'Pacote de idiomas desinstalados',
 
 	'BROWSE_LANGUAGE_PACKS_DATABASE'	=> 'Ver repositório de idiomas',
-));
+]);

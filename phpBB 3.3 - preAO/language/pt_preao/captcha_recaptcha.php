@@ -51,7 +51,7 @@ $lang = array_merge($lang, [
 
 	'RECAPTCHA_PUBLIC'					=> 'Chave pública do reCaptcha',
 	'RECAPTCHA_PUBLIC_EXPLAIN'			=> 'A sua chave pública do reCAPTCHA v2. As chaves podem ser obtidas em <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>. Por favor, use o reCAPTCHA v2 &gt; Selo de reCAPTCHA invisível',
-	'RECAPTCHA_V3_PUBLIC_EXPLAIN'		=> 'A sya chave pública do reCAPTCHA v3. As chaves podem ser obtidas em <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>. Por favor, use o reCAPTCHA v3.',
+	'RECAPTCHA_V3_PUBLIC_EXPLAIN'		=> 'A sua chave pública do reCAPTCHA v3. As chaves podem ser obtidas em <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>. Por favor, use o reCAPTCHA v3.',
 	'RECAPTCHA_PRIVATE'					=> 'Chave secreta do reCaptcha',
 	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'A sua chave secreta do reCAPTCHA v2. As chaves podem ser obtidas em <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>. Por favor, use o reCAPTCHA v2 &gt; Selo de reCAPTCHA invisível',
 	'RECAPTCHA_V3_PRIVATE_EXPLAIN'	=> 'A sua chave secreta do reCAPTCHA v3. As chaves podem ser obtidas em <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>. Por favor, use o reCAPTCHA v3.',

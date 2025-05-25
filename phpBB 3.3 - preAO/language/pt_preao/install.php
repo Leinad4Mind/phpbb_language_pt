@@ -115,7 +115,7 @@ $lang = array_merge($lang, [
 	'PHP_MBSTRING_SUPPORT_EXPLAIN'		=> 'Para que o phpBB funcione correctamente, a extensão mbstring do PHP precisa estar disponível.',
 	'PHP_XML_SUPPORT'							=> 'Suporte PHP XML/DOM',
 	'PHP_XML_SUPPORT_EXPLAIN'				=> 'Para que o phpBB funcione correctamente, a extensão PHP XML/DOM precisa estar disponível.',
-	'PHP_SUPPORTED_DB'						=> 'Bases de dados suportados',
+	'PHP_SUPPORTED_DB'						=> 'Bases de dados suportadas',
 	'PHP_SUPPORTED_DB_EXPLAIN'				=> 'Deve ter suporte para pelo menos uma base de dados compatível dentro do PHP. Se nenhum módulo da base de dados for mostrado como disponível, deve entrar em contacto com o seu provedor de hospedagem ou rever a documentação de instalação relevante do PHP para obter orientação.',
 
 	'RETEST_REQUIREMENTS'	=> 'Teste de novo os requisitos',
@@ -571,7 +571,7 @@ $lang = array_merge($lang, [
 
 	'COLLIDING_CLEAN_USERNAME'			=> '<strong>%s</strong> é o nome de utilizador limpo para:',
 	'COLLIDING_USER'						=> '» id do utilizador: <strong>%d</strong> nome de utilizador: <strong>%s</strong> (%d mensagens)',
-	'COLLIDING_USERNAMES_FOUND'		=> 'Nomes de utilizadores duplicados foram encontrados no seu antigo fórum. Para concluir a conversão, exclua ou renomeie esses utilizadores para que haja apenas um utilizador no seu fórum antigo para cada nome de utilizador limpo.',
+	'COLLIDING_USERNAMES_FOUND'		=> 'Nomes de utilizador duplicados foram encontrados no seu antigo fórum. Para concluir a conversão, exclua ou renomeie esses utilizadores para que haja apenas um utilizador no seu fórum antigo para cada nome de utilizador limpo.',
 	'CONV_ERR_FATAL'						=> 'Erro fatal de conversão',
 	'CONV_ERROR_ATTACH_FTP_DIR'		=> 'O envio de anexos por FTP está activo no seu painel antigo. Desactive a opção de envio por FTP, crie uma pasta válida e envie todos os ficheiros de anexos para a nova pasta. Após concluir esta operação, reinicie o conversor.',
 	'CONV_ERROR_CONFIG_EMPTY'			=> 'Não foram encontradas informações de configuração válidas para a conversão.',

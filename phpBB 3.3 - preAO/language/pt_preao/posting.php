@@ -225,7 +225,7 @@ $lang = array_merge($lang, [
 	'POST_REVIEW_EDIT_EXPLAIN'	=> 'Esta mensagem foi alterada por outro utilizador enquanto estava a editá-la. Pode rever a versão actual desta mensagem e ajustar a sua edição.',
 	'POST_REVIEW_EXPLAIN'		=> 'Pelo menos uma nova Mensagem foi feita neste Tópico. Deseja rever a sua Mensagem levando isso em conta.',
 	'POST_STORED'					=> 'Esta Mensagem foi enviada com sucesso.',
-	'POST_STORED_MOD'				=> 'Tópico criado com sucesso, embora necessite ser Aprovado e posteriormente Movido.',
+	'POST_STORED_MOD'				=> 'Esta Mensagem foi enviada, mas necessita ser Aprovada.',
 	'POST_TOPIC_AS'				=> 'Tipo de Tópico',
 	'PROGRESS_BAR'					=> 'Barra de Progresso',
 
