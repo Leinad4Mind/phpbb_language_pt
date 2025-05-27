@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang)) {
 // Bot settings
 $lang = array_merge($lang, [
 	'BOTS'						=> 'Gestão de Motores de Busca',
-	'BOTS_EXPLAIN'				=> 'Motores de Busca ou espiões são agentes de pesquisa usados para manter actualizadas as Bases de Dados dos servidores de pesquisa. Estes podem distorcer as estatísticas do número de visitantes, aumentando a carga do servidor e, em algumas situações, provocar erros. Aqui pode definir um tipo especial de utilizador para contornar estes problemas.',
+	'BOTS_EXPLAIN'				=> 'Motores de Busca ou espiões são agentes de pesquisa usados para manter actualizadas as Bases de Dados dos servidores de pesquisa. Estes podem distorcer as estatísticas do número de visitantes, aumentando a carga do servidor e, em algumas situações, provocar erros. Aqui podes definir um tipo especial de utilizador para contornar estes problemas.',
 	'BOT_ACTIVATE'				=> 'Activar',
 	'BOT_ACTIVE'				=> 'Motor de Busca Activo',
 	'BOT_ADD'					=> 'Adicionar motor de busca',
@@ -48,7 +48,7 @@ $lang = array_merge($lang, [
 	'BOT_DEACTIVATE'			=> 'Desactivar',
 	'BOT_DELETED'				=> 'Motor de Busca removido com sucesso.',
 	'BOT_EDIT'					=> 'Editar Motores de Busca',
-	'BOT_EDIT_EXPLAIN'		=> 'Aqui pode editar ou adicionar novos Motores de Busca. Pode definir qualquer sequência de agentes e/ou um ou mais endereços de IP (ou grupo de endereços) para coincidir. Cuidado ao definir os parâmetros dos agentes ou endereços. Pode especificar um estilo ou Idioma com os quais o Motor de Busca visualizará o seu Fórum. Isto pode reduzir o tráfego de seu site especificando um estilo simples para motores de busca. Lembre-se de especificar permissões para o grupo especial de Motores de Busca.',
+	'BOT_EDIT_EXPLAIN'		=> 'Aqui podes editar ou adicionar novos Motores de Busca. Pode definir qualquer sequência de agentes e/ou um ou mais endereços de IP (ou grupo de endereços) para coincidir. Cuidado ao definir os parâmetros dos agentes ou endereços. Pode especificar um estilo ou Idioma com os quais o Motor de Busca visualizará o seu Fórum. Isto pode reduzir o tráfego de seu site especificando um estilo simples para motores de busca. Lembre-se de especificar permissões para o grupo especial de Motores de Busca.',
 	'BOT_LANG'					=> 'Idioma do Motor de Busca',
 	'BOT_LANG_EXPLAIN'		=> 'O idioma presente no Motor de Busca quando ele navega.',
 	'BOT_LAST_VISIT'			=> 'Última visita',

@@ -76,7 +76,7 @@ $lang = array_merge($lang, [
 	'ENABLE_TOPIC_ICONS'					=> 'Ativar Ícones de Tópicos',
 
 	'FORUM_ADMIN'							=> 'Administração de Fóruns',
-	'FORUM_ADMIN_EXPLAIN'				=> 'No phpBB3 tudo é baseado em Fóruns que podem ser de três tipos: Categoria, Fórum e Atalho. O Fórum pode ter um número ilimitado de Sub-fóruns, podendo o Administrador decidir o que cada um pode receber. Aqui pode adicionar, editar, apagar, trancar e destrancar Fóruns individuais e ainda adicionar controlos. Se as suas Mensagens e Tópicos não estão sincronizadas, pode ressincronizar um Fórum. <strong>Os Fóruns criados só se tornam visíveis aos Utilizadores depois de definidas ou copiadas as Permissões adequadas.</strong>',
+	'FORUM_ADMIN_EXPLAIN'				=> 'No phpBB3 tudo é baseado em Fóruns que podem ser de três tipos: Categoria, Fórum e Atalho. O Fórum pode ter um número ilimitado de Sub-fóruns, podendo o Administrador decidir o que cada um pode receber. Aqui podes adicionar, editar, apagar, trancar e destrancar Fóruns individuais e ainda adicionar controlos. Se as suas Mensagens e Tópicos não estão sincronizadas, pode ressincronizar um Fórum. <strong>Os Fóruns criados só se tornam visíveis aos Utilizadores depois de definidas ou copiadas as Permissões adequadas.</strong>',
 	'FORUM_AUTO_PRUNE'					=> 'Ativar Auto-limpeza',
 	'FORUM_AUTO_PRUNE_EXPLAIN'			=> 'Elimina os Tópicos deste Fórum conforme os parâmetros de frequência/idade definidos abaixo.',
 	'FORUM_CREATED'						=> 'Fórum criado com sucesso.',
@@ -154,7 +154,7 @@ $lang = array_merge($lang, [
 	'PRUNE_OLD_POLLS'						=> 'Limpar Votações antigas',
 	'PRUNE_OLD_POLLS_EXPLAIN'			=> 'Apaga os Tópicos com votações sem votos, nos dias que definiu em Auto-Limpeza por idade.',
 
-	'REDIRECT_ACL'							=> 'Aqui pode %sconfigurar as Permissões%s deste Fórum.',
+	'REDIRECT_ACL'							=> 'Aqui podes %sconfigurar as Permissões%s deste Fórum.',
 
 	'SYNC_IN_PROGRESS'					=> 'Sincronizando Fórum',
 	'SYNC_IN_PROGRESS_EXPLAIN'			=> 'Ressincronização em progresso da ordem dos Tópicos %1$d/%2$d.',

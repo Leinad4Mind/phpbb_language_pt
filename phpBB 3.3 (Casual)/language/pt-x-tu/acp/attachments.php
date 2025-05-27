@@ -36,9 +36,9 @@ if (empty($lang) || !is_array($lang)) {
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, [
-	'ACP_ATTACHMENT_SETTINGS_EXPLAIN'	=> 'Aqui pode configurar as Opções Principais para os Anexos e Categorias Especiais associadas.',
-	'ACP_EXTENSION_GROUPS_EXPLAIN'		=> 'Aqui pode adicionar, excluir, modificar e desativar as Extensões. Consulte o Painel Gestor de Grupos de Extensões. Recomenda-se que não permita extensões de scripts (tipo: php, php3, php4, phtml, pl, cgi, py, rb, asp, aspx, entre outras...), por serem potencialmente perigosas.',
-	'ACP_MANAGE_EXTENSIONS_EXPLAIN'		=> 'Aqui pode controlar as Extensões permitidas. Para ativar as suas Extensões, consulte por favor o Painel de Gestão dos Grupos das Extensões. Recomenda-se que não permita extensões de scripts (tipo: php, php3, php4, phtml, pl, cgi, py, rb, asp, aspx, entre outras...), por serem potencialmente perigosas.',
+	'ACP_ATTACHMENT_SETTINGS_EXPLAIN'	=> 'Aqui podes configurar as Opções Principais para os Anexos e Categorias Especiais associadas.',
+	'ACP_EXTENSION_GROUPS_EXPLAIN'		=> 'Aqui podes adicionar, excluir, modificar e desativar as Extensões. Consulte o Painel Gestor de Grupos de Extensões. Recomenda-se que não permita extensões de scripts (tipo: php, php3, php4, phtml, pl, cgi, py, rb, asp, aspx, entre outras...), por serem potencialmente perigosas.',
+	'ACP_MANAGE_EXTENSIONS_EXPLAIN'		=> 'Aqui podes controlar as Extensões permitidas. Para ativar as suas Extensões, consulte por favor o Painel de Gestão dos Grupos das Extensões. Recomenda-se que não permita extensões de scripts (tipo: php, php3, php4, phtml, pl, cgi, py, rb, asp, aspx, entre outras...), por serem potencialmente perigosas.',
 	'ACP_ORPHAN_ATTACHMENTS_EXPLAIN'		=> 'Estes são os Ficheiros que não estão associados a uma Mensagem.',
 	'ADD_EXTENSION'							=> 'Adicionar Extensão',
 	'ADD_EXTENSION_GROUP'					=> 'Adicionar Grupo de Extensões',
@@ -143,18 +143,18 @@ $lang = array_merge($lang, [
 	'ORDER_ALLOW_DENY'					=> 'Permitir',
 	'ORDER_DENY_ALLOW'					=> 'Negar',
 
-	'REMOVE_ALLOWED_IPS'					=> 'Remover ou não exclui IPs/Servidores autorizados',
-	'REMOVE_DISALLOWED_IPS'				=> 'Remover ou não exclui IPs/Servidores proibidos',
+	'REMOVE_ALLOWED_IPS'					=> 'Remover ou retirar exclusão a IPs/hostnames <em>autorizados</em>',
+	'REMOVE_DISALLOWED_IPS'				=> 'Remover ou retirar exclusão a IPs/hostnames <em>proibidos</em>',
 	'RESYNC_FILES_STATS_CONFIRM'		=> 'Tem a certeza que deseja ressincronizar estatísticas de ficheiros?',
 
 	'SECURE_ALLOW_DENY'					=> 'Permitir/Negar lista',
 	'SECURE_ALLOW_DENY_EXPLAIN'		=> 'Permite ou nega a lista de endereços. Esta configuração aplica-se apenas aos Ficheiros para transferência.',
 	'SECURE_DOWNLOADS'					=> 'Ativar transferências seguras',
-	'SECURE_DOWNLOADS_EXPLAIN'			=> 'Com esta opção ativada, as transferências são autorizadas apenas para os IPs/Servidores por si definidos.',
+	'SECURE_DOWNLOADS_EXPLAIN'			=> 'Com esta opção ativada, as transferências são autorizadas apenas para os IPs/hostnames por si definidos.',
 	'SECURE_DOWNLOAD_NOTICE'			=> 'As transferências seguras estão desativadas. A execução das opções abaixo depende da sua ativação.',
 	'SECURE_DOWNLOAD_UPDATE_SUCCESS'	=> 'A lista de IPs foi atualizada com sucesso.',
 	'SECURE_EMPTY_REFERRER'				=> 'Permitir origem em branco',
-	'SECURE_EMPTY_REFERRER_EXPLAIN'	=> 'A segurança das transferências é baseada na origem. Deseja permitir transferências que escondem a origem?',
+	'SECURE_EMPTY_REFERRER_EXPLAIN'	=> 'A segurança das transferências é baseada na origem. Deseja permitir transferências que ocultam a origem?',
 	'SETTINGS_CAT_IMAGES'				=> 'Configuração de Categorias de Imagens',
 	'SPECIAL_CATEGORY'					=> 'Categoria Especial',
 	'SPECIAL_CATEGORY_EXPLAIN'			=> 'Categorias Especiais diferenciam-se na forma como são apresentadas dentro da Mensagem.',

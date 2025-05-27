@@ -61,14 +61,14 @@ $lang = array_merge($lang, [
 	'BBCODE_TAG_DEF_TOO_LONG'		=> 'A Definição da TAG escrita é muito grande. Por Favor, reescreva de forma mais curta.',
 	'BBCODE_USAGE'						=> 'Uso do BBCode',
 	'BBCODE_USAGE_EXAMPLE'			=> '[highlight={COLOR}]{TEXT}[/highlight]<br /><br />[font={SIMPLETEXT1}]{SIMPLETEXT2}[/font]',
-	'BBCODE_USAGE_EXPLAIN'			=> 'Aqui pode definir como utilizar o BBCode. Substitua qualquer variável inserida pelo símbolo correspondente (%sleia as instruções%s).',
+	'BBCODE_USAGE_EXPLAIN'			=> 'Aqui podes definir como utilizar o BBCode. Substitua qualquer variável inserida pelo símbolo correspondente (%sleia as instruções%s).',
 
 	'EXAMPLE'							=> 'Exemplo:',
 	'EXAMPLES'							=> 'Exemplos:',
 
 	'HTML_REPLACEMENT'				=> 'Substituição do HTML',
 	'HTML_REPLACEMENT_EXAMPLE'		=> '&lt;span style="background-color: {COLOR};">{TEXT}&lt;/span&gt;<br /><br />&lt;span style="font-family: {SIMPLETEXT1};">{SIMPLETEXT2}&lt;/span&gt;',
-	'HTML_REPLACEMENT_EXPLAIN'		=> 'Aqui pode definir a substituição padrão do HTML. Não se esqueça de colocar os símbolos utilizados acima!',
+	'HTML_REPLACEMENT_EXPLAIN'		=> 'Aqui podes definir a substituição padrão do HTML. Não se esqueça de colocar os símbolos utilizados acima!',
 
 	'TOKEN'								=> 'Símbolo',
 	'TOKENS'								=> 'Símbolos',
@@ -92,8 +92,8 @@ $lang = array_merge($lang, [
 
 // Smilies and topic icons
 $lang = array_merge($lang, [
-	'ACP_ICONS_EXPLAIN'				=> 'Aqui pode adicionar, editar e apagar os ícones que os Utilizador terão disponíveis para adicionar nos Tópicos e Mensagens. Estes ícones são exibidos geralmente perto do Título dos Tópicos na lista de Fóruns, ou o título do Tópico na lista de Tópicos. Também pode instalar e criar Pacotes de Ícones novos.',
-	'ACP_SMILIES_EXPLAIN'			=> 'Emoções ou Smilies são tipicamente pequenas, às vezes imagens animadas utilizadas para mostrar alguma emoção ou sentimento. Aqui pode adicionar, editar e apagar as Emoções que os Utilizadores terão disponíveis nos Tópicos e Mensagens Privadas. Também pode instalar e criar Pacotes de Emoções.',
+	'ACP_ICONS_EXPLAIN'				=> 'Aqui podes adicionar, editar e apagar os ícones que os Utilizador terão disponíveis para adicionar nos Tópicos e Mensagens. Estes ícones são exibidos geralmente perto do Título dos Tópicos na lista de Fóruns, ou o título do Tópico na lista de Tópicos. Também pode instalar e criar Pacotes de Ícones novos.',
+	'ACP_SMILIES_EXPLAIN'			=> 'Emoções ou Smilies são tipicamente pequenas, às vezes imagens animadas utilizadas para mostrar alguma emoção ou sentimento. Aqui podes adicionar, editar e apagar as Emoções que os Utilizadores terão disponíveis nos Tópicos e Mensagens Privadas. Também pode instalar e criar Pacotes de Emoções.',
 	'ADD_SMILIES'						=> 'Adicionar Múltiplas Emoções',
 	'ADD_SMILEY_CODE'					=> 'Adicionar Código Adicional à Emoção',
 	'ADD_ICONS'							=> 'Adicionar Ícones Múltiplos',
@@ -203,7 +203,7 @@ $lang = array_merge($lang, [
 
 // Word censors 
 $lang = array_merge($lang, [
-	'ACP_WORDS_EXPLAIN'				=> 'Aqui pode adicionar, editar e apagar palavras que serão automaticamente censuradas no Fórum. Adicionando esta opção, os visitantes continuarão a poder registar-se com Nomes de utilizadores contendo estas palavras. Podem ser utilizados asteriscos (*) aumentando as possibilidades de abranger variações de uma mesma palavra. Por exemplo, testa* abrangerá testar e detesta.',
+	'ACP_WORDS_EXPLAIN'				=> 'Aqui podes adicionar, editar e apagar palavras que serão automaticamente censuradas no Fórum. Adicionando esta opção, os visitantes continuarão a poder registar-se com Nomes de utilizadores contendo estas palavras. Podem ser utilizados asteriscos (*) aumentando as possibilidades de abranger variações de uma mesma palavra. Por exemplo, testa* abrangerá testar e detesta.',
 	'ADD_WORD'							=> 'Adicionar nova Palavra',
 
 	'EDIT_WORD'							=> 'Editar Palavra Censurada',
@@ -245,11 +245,11 @@ $lang = array_merge($lang, [
 
 // Disallow Usernames
 $lang = array_merge($lang, [
-	'ACP_DISALLOW_EXPLAIN'			=> 'Aqui pode gerir os nomes cuja utilização é proibida. Utilize o asterisco (*) para facilitar a construção de nomes.',
+	'ACP_DISALLOW_EXPLAIN'			=> 'Aqui podes gerir os nomes cuja utilização é proibida. Utilize o asterisco (*) para facilitar a construção de nomes.',
 	'ADD_DISALLOW_EXPLAIN'			=> 'Pode proibir nomes de utilizadores combinando o asterisco (*) com outros caracteres.',
 	'ADD_DISALLOW_TITLE'				=> 'Adicionar um Nome Proibido',
 
-	'DELETE_DISALLOW_EXPLAIN'		=> 'Aqui pode eliminar uma proibição, ao selecionar na lista o nome cuja proibição pretende anular, clicando de seguida em enviar.',
+	'DELETE_DISALLOW_EXPLAIN'		=> 'Aqui podes eliminar uma proibição, ao selecionar na lista o nome cuja proibição pretende anular, clicando de seguida em enviar.',
 	'DELETE_DISALLOW_TITLE'			=> 'Apagar um Nome Proibido',
 	'DISALLOWED_ALREADY'				=> 'O Nome especificado já está proibido.',
 	'DISALLOWED_DELETED'				=> 'O Nome Proibido foi apagado com sucesso.',
@@ -261,7 +261,7 @@ $lang = array_merge($lang, [
 
 // Reasons
 $lang = array_merge($lang, [
-	'ACP_REASONS_EXPLAIN'			=> 'Aqui pode gerir as razões utilizadas em denúncias e mensagens negativas quando desaprovando mensagens. Existe uma razão padrão (marcada com um (*)) em que não pode apagar, esta razão é normalmente utilizada para mensagens Personalizadas se não possuírem motivos plausíveis.',
+	'ACP_REASONS_EXPLAIN'			=> 'Aqui podes gerir as razões utilizadas em denúncias e mensagens negativas quando desaprovando mensagens. Existe uma razão padrão (marcada com um (*)) em que não pode apagar, esta razão é normalmente utilizada para mensagens Personalizadas se não possuírem motivos plausíveis.',
 	'ADD_NEW_REASON'					=> 'Adicionar nova Razão',
 	'AVAILABLE_TITLES'				=> 'Títulos de Razões Locais Disponíveis',
 
@@ -280,7 +280,7 @@ $lang = array_merge($lang, [
 	'REASON_DESCRIPTION'				=> 'Descrição da Razão',
 	'REASON_DESC_TRANSLATED'		=> 'Descrição da Razão exibida',
 	'REASON_EDIT'						=> 'Editar Razão para Denúncia/Negação',
-	'REASON_EDIT_EXPLAIN'			=> 'Aqui pode adicionar ou editar uma razão. Se a razão for traduzida, a versão localizada é utilizada ao invés da descrição descrita aqui.',
+	'REASON_EDIT_EXPLAIN'			=> 'Aqui podes adicionar ou editar uma razão. Se a razão for traduzida, a versão localizada é utilizada ao invés da descrição descrita aqui.',
 	'REASON_REMOVED'					=> 'A razão foi apagada por sucesso.',
 	'REASON_TITLE'						=> 'Título da Razão',
 	'REASON_TITLE_TRANSLATED'		=> 'Título da Razão exibida',

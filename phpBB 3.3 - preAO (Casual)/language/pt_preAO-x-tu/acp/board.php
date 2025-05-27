@@ -37,20 +37,20 @@ if (empty($lang) || !is_array($lang)) {
 
 // Board Settings
 $lang = array_merge($lang, [
-	'ACP_BOARD_SETTINGS_EXPLAIN'		=> 'Aqui pode definir as configurações básicas do phpBB e as configurações gerais do Fórum.',
+	'ACP_BOARD_SETTINGS_EXPLAIN'		=> 'Aqui podes definir as configurações básicas do phpBB e as configurações gerais do Fórum.',
 	'BOARD_INDEX_TEXT'					=> 'Texto Índice do Fórum',
-	'BOARD_INDEX_TEXT_EXPLAIN'			=> 'Texto que será mostrado no board’s breadcrumbs (Navegação estrutural). Se não for indicado, o texto mostrado será Board index',
+	'BOARD_INDEX_TEXT_EXPLAIN'			=> 'Texto que será mostrado no breadcrumbs (navegação estrutural) do fórum. Se não for indicado, o texto mostrado será "Índice do Fórum"',
 	'BOARD_STYLE'							=> 'Estilo do Fórum',
 	'CUSTOM_DATEFORMAT'					=> 'Personalizado...',
 	'DEFAULT_DATE_FORMAT'				=> 'Formato da Data',
 	'DEFAULT_DATE_FORMAT_EXPLAIN'		=> 'A sintaxe usada é idêntica ao da função PHP <a href="https://www.php.net/manual/datetime.format.php">date</a>.',
 	'DEFAULT_LANGUAGE'					=> 'Idioma Padrão',
 	'DEFAULT_STYLE'						=> 'Estilo Padrão',
-	'DEFAULT_STYLE_EXPLAIN'				=> 'Estilo por defeito para novos Utilizadores.',
+	'DEFAULT_STYLE_EXPLAIN'				=> 'Estilo padrão para novos Utilizadores.',
 	'DISABLE_BOARD'						=> 'Desactivar o Fórum',
 	'DISABLE_BOARD_EXPLAIN'				=> 'O Fórum fica inacessível aos utilizadores que não sejam Administradores ou Moderadores. Pode justificar o fecho temporário introduzindo uma mensagem até 255 caracteres',
 	'DISPLAY_LAST_SUBJECT'				=> 'Mostrar assunto da última mensagem adicionado na lista do fórum',
-	'DISPLAY_LAST_SUBJECT_EXPLAIN'	=> 'O assunto da última mensagem será mostrado na lista de fóruns com um link para mensagem. Não são mostrados assuntos relativos a fóruns protegidos por senha ou inacessíveis ao utilizador.',
+	'DISPLAY_LAST_SUBJECT_EXPLAIN'	=> 'O assunto da última mensagem será mostrado na lista de fóruns com um link para a mensagem. Não são mostrados assuntos relativos a fóruns protegidos por senha ou inacessíveis ao utilizador.',
 	'DISPLAY_UNAPPROVED_POSTS'			=> 'Exibir mensagens não aprovadas para o autor',
 	'DISPLAY_UNAPPROVED_POSTS_EXPLAIN'	=> 'As mensagens não aprovadas podem ser visualizadas pelo autor. Não se aplica a mensagens de convidados',
 	'GUEST_STYLE'							=> 'Estilo para visitantes',
@@ -58,20 +58,20 @@ $lang = array_merge($lang, [
 	'OVERRIDE_STYLE'						=> 'Sobrepor Estilo do Utilizador',
 	'OVERRIDE_STYLE_EXPLAIN'			=> 'Substitui o Estilo dos Utilizadores e dos visitantes pelo Estilo Padrão do Fórum.',
 	'SITE_DESC'								=> 'Descrição do Site',
-	'SITE_HOME_TEXT'						=> 'Texto principal do sítio Web',
-	'SITE_HOME_TEXT_EXPLAIN'			=> 'Este texto será exibido como um link para sua página inicial do sítio, no breadcrumbs do Fórum. Se não for especificado, o padrão será "Home".',
-	'SITE_HOME_URL'						=> 'URL principal do sítio',
+	'SITE_HOME_TEXT'						=> 'Texto principal do site',
+	'SITE_HOME_TEXT_EXPLAIN'			=> 'Este texto será exibido como um link para a tua página inicial, no breadcrumbs do Fórum. Se não for especificado, o padrão será "Página Principal".',
+	'SITE_HOME_URL'						=> 'URL principal do site',
 	'SITE_HOME_URL_EXPLAIN'				=> 'Se for especificado, será colocado no início do breadcrumbs um link para este URL e o logótipo do Fórum vai apontar para este URL em vez do índice do Fórum. É obrigatório indicar um URL, por exemplo, <samp>http://www.phpbb.com</samp>.',
-	'SITE_NAME'								=> 'Nome do Sítio',
+	'SITE_NAME'								=> 'Nome do Site',
 	'SYSTEM_TIMEZONE'						=> 'Fuso horário do visitante',
 	'SYSTEM_TIMEZONE_EXPLAIN'			=> 'Fuso horário a mostrar a utilizadores não ligados (visitantes, motores de busca). Os utilizadores ligados definem o seu fuso horário durante o registo e podem alterá-lo no Painel de Controlo do Utilizador.',
 	'WARNINGS_EXPIRE'						=> 'Duração do aviso',
-	'WARNINGS_EXPIRE_EXPLAIN'			=> 'O número de dias que uma advertência permanece no Registo do Utilizador. Defina como 0 para advertência permanente.',
+	'WARNINGS_EXPIRE_EXPLAIN'			=> 'O número de dias que uma advertência permanece no Registo do Utilizador. Define como 0 para advertência permanente.',
 ]);
 
 // Board Features
 $lang = array_merge($lang, [
-	'ACP_BOARD_FEATURES_EXPLAIN'	=> 'Aqui pode Activar/Desactivar diversos recursos do phpBB.',
+	'ACP_BOARD_FEATURES_EXPLAIN'	=> 'Aqui podes Activar/Desactivar diversos recursos do phpBB.',
 
 	'ALLOW_ATTACHMENTS'				=> 'Activar Anexos',
 	'ALLOW_BIRTHDAYS'					=> 'Permitir aniversários',
@@ -87,7 +87,7 @@ $lang = array_merge($lang, [
 	'ALLOW_PM_REPORT'					=> 'Permitir aos utilizadores reportar Mensagens Privadas',
 	'ALLOW_PM_REPORT_EXPLAIN'		=> 'Caso esteja activado, os utilizadores terão a opção de reportar uma mensagem privada que tenham recebido ou enviado para moderação. Estas mensagens privadas irão ser visíveis no Painel de Controlo de Moderação.',
 	'ALLOW_QUICK_REPLY'				=> 'Permitir Resposta Rápida',
-	'ALLOW_QUICK_REPLY_EXPLAIN'	=> 'Este interruptor permite activar/desactivar globalmente a Resposta Rápida em todo o Fórum. Quando activado, terá ainda que activar a Resposta Rápida individualmente em cada um dos Fóruns.',
+	'ALLOW_QUICK_REPLY_EXPLAIN'	=> 'Este interruptor permite activar/desactivar globalmente a Resposta Rápida em todo o Fórum. Quando activado, terás ainda que activar a Resposta Rápida individualmente em cada um dos Fóruns.',
 	'ALLOW_QUICK_REPLY_BUTTON'		=> 'Activar a Resposta Rápida em todos os Fóruns',
 	'ALLOW_SIG'							=> 'Permitir Assinaturas',
 	'ALLOW_SIG_BBCODE'				=> 'Permitir aos Utilizadores usar BBCode na Assinatura',
@@ -105,16 +105,16 @@ $lang = array_merge($lang, [
 
 // Avatar Settings
 $lang = array_merge($lang, [
-	'ACP_AVATAR_SETTINGS_EXPLAIN'	=> 'Os Avatares são pequenas imagens que o Utilizador pode usar para ser identificado no Fórum. Dependendo do Estilo usado, o Avatar é mostrado normalmente acima do nome do Utilizador na visualização dos Tópicos. Aqui pode definir como os Utilizadores podem usar os seus Avatares. Para enviar Avatares, a Pasta abaixo já tem que estar criada e certificar-se que o Servidor pode gravar Ficheiros nela. O limite do tamanho da imagem do Avatar é válido apenas para Avatares enviados, não se aplicando a imagens utilizadas de outros sítios web.',
+	'ACP_AVATAR_SETTINGS_EXPLAIN'	=> 'Os Avatares são pequenas imagens que o Utilizador pode usar para ser identificado no Fórum. Dependendo do Estilo usado, o Avatar é mostrado normalmente acima do nome do Utilizador na visualização dos Tópicos. Aqui podes definir como os Utilizadores podem usar os seus Avatares. Para enviar Avatares, a Pasta abaixo já tem que estar criada e certificares-te que o Servidor pode gravar Ficheiros nela. O limite do tamanho da imagem do Avatar é válido apenas para Avatares enviados, não se aplicando a imagens utilizadas de outros sites.',
 
 	'ALLOW_AVATARS'					=> 'Activar avatares',
-	'ALLOW_AVATARS_EXPLAIN'			=> 'Permitir o uso normal de avatares;<br>Caso desactive o uso normal de avatares ou um uso de avatares, os avatares desactivados deixarão de ser visíveis no Fórum, embora os utilizadores possam transferir os seus próprios avatares no Painel de Controlo do Utilizador.',
+	'ALLOW_AVATARS_EXPLAIN'			=> 'Permitir o uso normal de avatares;<br>Caso desactives o uso normal de avatares ou um uso de avatares, os avatares desactivados deixarão de ser visíveis no Fórum, embora os utilizadores possam transferir os seus próprios avatares no Painel de Controlo do Utilizador.',
 	'ALLOW_GRAVATAR'					=> 'Activar Avatares de Gravatar',
 	'ALLOW_LOCAL'						=> 'Permitir Galeria de Avatares',
 	'ALLOW_REMOTE'						=> 'Activar Avatar Remoto',
-	'ALLOW_REMOTE_EXPLAIN'			=> 'Os Avatares utilizados de outros sítios web.<br><em><strong class="error">Aviso:</strong> A activação deste recurso pode permitir que os utilizadores verifiquem a existência de ficheiros e serviços que só podem ser acedidos na rede local.</em>',
+	'ALLOW_REMOTE_EXPLAIN'			=> 'Os Avatares utilizados de outros sites.<br><em><strong class="error">Aviso:</strong> A activação deste recurso pode permitir que os utilizadores verifiquem a existência de ficheiros e serviços que só podem ser acedidos na rede local.</em>',
 	'ALLOW_REMOTE_UPLOAD'			=> 'Permitir o envio de avatar remoto',
-	'ALLOW_REMOTE_UPLOAD_EXPLAIN'	=> 'Permitir o envio de avatares de um outro sítio.<br><em><strong class="error">Aviso:</strong> A activação deste recurso pode permitir que os utilizadores verifiquem a existência de ficheiros e serviços que só podem ser acedidos na rede local.</em>',
+	'ALLOW_REMOTE_UPLOAD_EXPLAIN'	=> 'Permitir o envio de avatares de um outro site.<br><em><strong class="error">Aviso:</strong> A activação deste recurso pode permitir que os utilizadores verifiquem a existência de ficheiros e serviços que só podem ser acedidos na rede local.</em>',
 	'ALLOW_UPLOAD'						=> 'Activar o envio de Avatar',
 	'AVATAR_GALLERY_PATH'			=> 'Caminho da pasta da Galeria de Avatares',
 	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'Caminho da pasta desde a raiz do phpBB, para a Galeria de Avatares: Exemplo: <samp>images/avatares/gallery</samp>.<br>Pontos duplos como <samp>../</samp> serão retirados do caminho por razões de segurança.',
@@ -130,11 +130,11 @@ $lang = array_merge($lang, [
 
 // Message Settings
 $lang = array_merge($lang, [
-	'ACP_MESSAGE_SETTINGS_EXPLAIN'	=> 'Aqui pode configurar as opções das Mensagens Privadas.',
+	'ACP_MESSAGE_SETTINGS_EXPLAIN'	=> 'Aqui podes configurar as opções das Mensagens Privadas.',
 
 	'ALLOW_BBCODE_PM'						=> 'Permitir BBCode nas Mensagens Privadas',
 	'ALLOW_FLASH_PM'						=> 'Permitir o uso do BBCode FLASH',
-	'ALLOW_FLASH_PM_EXPLAIN'			=> 'Para enviar Flash nas Mensagens Privadas tem que activar esta opção. O que depende das suas Permissões.',
+	'ALLOW_FLASH_PM_EXPLAIN'			=> 'Para enviar Flash nas Mensagens Privadas tens que activar esta opção. O que depende das tuas Permissões.',
 	'ALLOW_FORWARD_PM'					=> 'Permitir reencaminhamento das Mensagens Privadas',
 	'ALLOW_IMG_PM'							=> 'Permitir o uso do BBCode IMG',
 	'ALLOW_MASS_PM'						=> 'Permitir envio de Mensagens Privadas para múltiplos Utilizadores e Grupos',
@@ -149,7 +149,7 @@ $lang = array_merge($lang, [
 	'BOXES_MAX_EXPLAIN'					=> 'Número máximo de Pastas Pessoais que os Utilizadores podem criar para as Mensagens Privadas.',
 	'ENABLE_PM_ICONS'						=> 'Activa o uso de ícones de Tópico nas Mensagens Privadas',
 	'FULL_FOLDER_ACTION'					=> 'Acção padrão para pastas cheias',
-	'FULL_FOLDER_ACTION_EXPLAIN'		=> 'Define o procedimento se a pasta do Utilizador encher e a acção configurada não for aplicável. Na pasta "Mensagens enviadas" serão sempre excluídas as Mensagens mais antigas.',
+	'FULL_FOLDER_ACTION_EXPLAIN'		=> 'Define o procedimento para quando a pasta do Utilizador atingir o seu limite e a acção configurada não for aplicável. Na pasta "Mensagens enviadas" serão sempre excluídas as Mensagens mais antigas.',
 	'HOLD_NEW_MESSAGES'					=> 'Manuseio de novas Mensagens',
 	'PM_EDIT_TIME'							=> 'Limite do tempo de edição',
 	'PM_EDIT_TIME_EXPLAIN'				=> 'Limita o tempo disponível para editar uma nova Mensagem Privada ainda não enviada (0 = ilimitado).',
@@ -159,7 +159,7 @@ $lang = array_merge($lang, [
 
 // Post Settings
 $lang = array_merge($lang, [
-	'ACP_POST_SETTINGS_EXPLAIN'		=> 'Aqui pode configurar todas as opções de Mensagens.',
+	'ACP_POST_SETTINGS_EXPLAIN'		=> 'Aqui podes configurar todas as opções de Mensagens.',
 	'ALLOW_POST_LINKS'					=> 'Permitir a Tag BBCode [URL] nas Mensagens Privadas',
 	'ALLOW_POST_LINKS_EXPLAIN'			=> 'Se desactivado, a Tag BBCode [URL] e as URLs mágicas serão desactivadas nas Mensagens Privadas.',
 	'ALLOWED_SCHEMES_LINKS'				=> 'Permitido esquemas em endereços',
@@ -204,7 +204,7 @@ $lang = array_merge($lang, [
 
 // Signature Settings
 $lang = array_merge($lang, [
-	'ACP_SIGNATURE_SETTINGS_EXPLAIN'	=> 'Aqui pode configurar as opções para as Assinaturas dos Utilizadores.',
+	'ACP_SIGNATURE_SETTINGS_EXPLAIN'	=> 'Aqui podes configurar as opções para as Assinaturas dos Utilizadores.',
 
 	'MAX_SIG_FONT_SIZE'					=> 'Tamanho Máximo do tipo de letra da Assinatura',
 	'MAX_SIG_FONT_SIZE_EXPLAIN'		=> 'Tamanho Máximo do tipo de letra permitido na Assinatura dos Utilizadores (0 = ilimitado).',
@@ -306,7 +306,7 @@ $lang = array_merge($lang, [
 
 // Visual Confirmation Settings
 $lang = array_merge($lang, [
-	'ACP_VC_SETTINGS_EXPLAIN'					=> 'Aqui pode seleccionar e configurar plugins desenhados para bloquear registos automáticos de spambots. Estes plugins fazem um teste ao utilizador <em>(CAPTCHA)</em> de difícil resolução pelos computadores.',
+	'ACP_VC_SETTINGS_EXPLAIN'					=> 'Aqui podes seleccionar e configurar plugins desenhados para bloquear registos automáticos de spambots. Estes plugins fazem um teste ao utilizador <em>(CAPTCHA)</em> de difícil resolução pelos computadores.',
 	'ACP_VC_EXT_GET_MORE'						=> 'Para plugins adicionais (e possivelmente melhores) anti-spam, visite o <a href="https://www.phpbb.com/go/anti-spam-ext"><strong>Repositório de Extensões do phpBB.com</strong></a>. Para mais informações sobre a prevenção de spam no seu fórum, visite o <a href="https://www.phpbb.com/go/anti-spam"><strong>phpBB.com Knowledge Base</strong></a>.',
 	'AVAILABLE_CAPTCHAS'							=> 'Plugins disponíveis',
 	'CAPTCHA_UNAVAILABLE'						=> 'O plugin não pode ser seleccionado enquanto não preencher os requisitos necessários.',
@@ -369,7 +369,7 @@ $lang = array_merge($lang, [
 
 // Contact Settings
 $lang = array_merge($lang, [
-	'ACP_CONTACT_SETTINGS_EXPLAIN'		=> 'Aqui pode activar e desactivar a página de contacto e adicionar o texto que será exibido.',
+	'ACP_CONTACT_SETTINGS_EXPLAIN'		=> 'Aqui podes activar e desactivar a página de contacto e adicionar o texto que será exibido.',
 
 	'CONTACT_US_ENABLE'						=> 'Activar página de contacto',
 	'CONTACT_US_ENABLE_EXPLAIN'			=> 'Esta página permite aos utilizadores enviarem emails para os administradores do fórum. Tenha em atenção que a opção do correio eletrónico do fórum tem de estar activa. Poderá encontrar essa opção em Geral &gt; Comunicação do Cliente &gt; Configuração de Email.',
@@ -382,7 +382,7 @@ $lang = array_merge($lang, [
 
 // Load Settings
 $lang = array_merge($lang, [
-	'ACP_LOAD_SETTINGS_EXPLAIN'			=> 'Aqui pode activar e desactivar certas funções do Fórum que podem reduzir o total de processamento pedido. Para a maioria dos Servidores não é necessário desactivar nenhuma função. No entanto, em certos sistemas ou em ambientes de hospedagem compartilhada pode ser benéfico se desactivar alguns recursos que não sejam realmente necessários. Pode também especificar limites para a carga do sistema e activar sessões, além das quais o Fórum sairá do ar.',
+	'ACP_LOAD_SETTINGS_EXPLAIN'			=> 'Aqui podes activar e desactivar certas funções do Fórum que podem reduzir o total de processamento pedido. Para a maioria dos Servidores não é necessário desactivar nenhuma função. No entanto, em certos sistemas ou em ambientes de hospedagem compartilhada pode ser benéfico se desactivar alguns recursos que não sejam realmente necessários. Pode também especificar limites para a carga do sistema e activar sessões, além das quais o Fórum sairá do ar.',
 
 	'ALLOW_CDN'									=> 'Permitir o uso de redes de entrega de conteúdo de terceiros',
 	'ALLOW_CDN_EXPLAIN'						=> 'Se esta configuração for activada, alguns ficheiros podem ser colocados em servidores externos em vez do seu próprio servidor. Isso reduz o consumo da largura de banda da rede usada pelo seu servidor, mas pode representar um problema de privacidade em alguns países. Numa instalação padrão do phpBB, isso inclui carregar “jQuery” e o tipo de letra “Open Sans” da rede de entrega de conteúdo da Google. Isso também se aplica ao tipo de letra “Font Awesome”, que o phpBB e algumas extensões usam para renderizar ícones.',
@@ -607,7 +607,7 @@ $lang = array_merge($lang, [
 
 // Jabber settings
 $lang = array_merge($lang, [
-	'ACP_JABBER_SETTINGS_EXPLAIN'			=> 'Aqui pode activar e controlar o uso do Jabber para Mensagens Instantâneas e Notícias. Jabber é um Protocolo código-aberto e por isso mesmo disponível a qualquer pessoa interessada. Alguns Servidores de Jabber incluem Gateways e transportes que permitem que contacte Utilizadores em outras redes. Nem todos os servidores oferecem todos os transportes, e mudanças nos protocolos podem evitar operações de transportes. Note que pode levar muitos segundos até à actualização dos detalhes da conta de Jabber, então não interrompa a execução dos procedimentos enquanto não estiver completo!',
+	'ACP_JABBER_SETTINGS_EXPLAIN'			=> 'Aqui podes activar e controlar o uso do Jabber para Mensagens Instantâneas e Notícias. Jabber é um Protocolo código-aberto e por isso mesmo disponível a qualquer pessoa interessada. Alguns Servidores de Jabber incluem Gateways e transportes que permitem que contacte Utilizadores em outras redes. Nem todos os servidores oferecem todos os transportes, e mudanças nos protocolos podem evitar operações de transportes. Note que pode levar muitos segundos até à actualização dos detalhes da conta de Jabber, então não interrompa a execução dos procedimentos enquanto não estiver completo!',
 
 	'JAB_ALLOW_SELF_SIGNED'					=> 'Permitir certificados SSL autoassinados',
 	'JAB_ALLOW_SELF_SIGNED_EXPLAIN'		=> 'Permite conexões ao servidor Jabber com certificado SSL autoassinado.<br><em><strong>Aviso:</strong> Permitir certificados SSL autoassinados pode causar implicações de segurança.</em>',

@@ -425,7 +425,7 @@ $lang = array_merge($lang, [
 		],
 		'DESCRIPTION'					=> [
 			'WAREZ'						=> 'A Mensagem contém endereços ilegais ou de software pirateado',
-			'SPAM'						=> 'A Mensagem tem apenas o propósito de anunciar um sítio web ou um produto',
+			'SPAM'						=> 'A Mensagem tem apenas o propósito de anunciar um site ou um produto',
 			'OFF_TOPIC'					=> 'A Mensagem é desnecessária, e não faz sentido',
 			'OTHER'						=> 'Outra. Use o campo abaixo para especificar a razão',
 		],

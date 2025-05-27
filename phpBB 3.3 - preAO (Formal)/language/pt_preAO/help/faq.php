@@ -138,7 +138,7 @@ $lang = array_merge($lang, [
 	'HELP_FAQ_PMS_UNWANTED_ANSWER'		=> 'Pode apagar automaticamente Mensagens Privadas enviadas por um Utilizador usando as regras das mensagens no seu Painel de Controlo do Utilizador. Se estiver recebendo Mensagens indesejáveis por parte de algum Utilizador, denuncie as mensagens a um Moderador do Fórum para que possa proibir o determinado utilizador de enviar este tipo de Mensagens.',
 	'HELP_FAQ_PMS_UNWANTED_QUESTION'		=> 'Recebo Mensagens Privadas indesejáveis!',
 
-	'HELP_FAQ_POSTING_BUMP_ANSWER'		=> 'Clicando em Ressuscitar Tópico, quando estiver a visualizar o mesmo, pode ressuscitar o Tópico para o topo do Fórum na primeira página. Porém, se não vir esta opção, então esta ferramenta encontra-se desactivada. Também o pode fazer simplesmente respondendo ao Tópico. Entretanto, fique atento às regras do sítio web.',
+	'HELP_FAQ_POSTING_BUMP_ANSWER'		=> 'Clicando em Ressuscitar Tópico, quando estiver a visualizar o mesmo, pode ressuscitar o Tópico para o topo do Fórum na primeira página. Porém, se não vir esta opção, então esta ferramenta encontra-se desactivada. Também o pode fazer simplesmente respondendo ao Tópico. Entretanto, fique atento às regras do site.',
 	'HELP_FAQ_POSTING_BUMP_QUESTION'		=> 'Como posso ressuscitar os meus Tópicos?',
 	'HELP_FAQ_POSTING_CREATE_ANSWER'		=> 'Isso é fácil, clique no botão Novo Tópico ou Responder. Estes botões só são visíveis nas situações em que está autorizado a fazê-lo.',
 	'HELP_FAQ_POSTING_CREATE_QUESTION'	=> 'Como crio um Tópico ou respondo num Fórum?',

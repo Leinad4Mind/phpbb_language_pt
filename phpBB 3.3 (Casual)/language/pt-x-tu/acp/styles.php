@@ -51,7 +51,7 @@ $lang = array_merge($lang, [
 	'INHERITING_FROM'					=> 'Herdar de',
 	'INSTALL_STYLE'					=> 'Instalar Estilo',
 	'INSTALL_STYLES'					=> 'Instalar Estilos',
-	'INSTALL_STYLES_EXPLAIN'		=> 'Aqui pode instalar um novo Estilo e elementos correspondentes. Se já tem instalados os elementos relevantes do Estilo serão substituídos. Alguns Estilos necessitam que os elementos do Estilo já estejam instalados. Se tentar instalar um Estilo e os seus elementos ainda não estiverem instalados será avisado.',
+	'INSTALL_STYLES_EXPLAIN'		=> 'Aqui podes instalar um novo Estilo e elementos correspondentes. Se já tem instalados os elementos relevantes do Estilo serão substituídos. Alguns Estilos necessitam que os elementos do Estilo já estejam instalados. Se tentar instalar um Estilo e os seus elementos ainda não estiverem instalados será avisado.',
 	'INVALID_STYLE_ID'				=> 'A ID do estilo inválida.',
 
 	'NO_MATCHING_STYLES_FOUND'		=> 'Nenhum estilo coincide com a sua query.',

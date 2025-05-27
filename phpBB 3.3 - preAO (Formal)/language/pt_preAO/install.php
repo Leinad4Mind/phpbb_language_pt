@@ -246,7 +246,7 @@ $lang = array_merge($lang, [
 
 	'RANKS_SITE_ADMIN_TITLE'			=> 'Administrador',
 	'REPORT_WAREZ'							=> 'A mensagem denunciada contém endereços ilegais ou de software pirateado.',
-	'REPORT_SPAM'							=> 'A mensagem denunciada tem apenas o propósito de anunciar um sítio web ou um produto.',
+	'REPORT_SPAM'							=> 'A mensagem denunciada tem apenas o propósito de anunciar um site ou um produto.',
 	'REPORT_OFF_TOPIC'					=> 'A mensagem denunciada é desnecessária, e não faz sentido.',
 	'REPORT_OTHER'							=> 'A mensagem denunciada não se encaixa em nenhuma outra categoria, use o campo de descrição para especificar uma.',
 
@@ -517,7 +517,7 @@ $lang = array_merge($lang, [
 	// Start conversion
 	'SUB_INTRO'						=> 'Introdução',
 	'CONVERT_INTRO'				=> 'Bem-vindo ao phpBB Unified Convertor Framework',
-	'CONVERT_INTRO_BODY'			=> 'Aqui é possível importar dados de outros sistemas de Fóruns (instalados). A lista seguinte mostra os módulos de conversão disponíveis. Se não existe um conversor na lista para o código de Fórum que deseja converter, por favor, verifique no nosso sítio web onde podem estar disponíveis outros conversores.',
+	'CONVERT_INTRO_BODY'			=> 'Aqui é possível importar dados de outros sistemas de Fóruns (instalados). A lista seguinte mostra os módulos de conversão disponíveis. Se não existe um conversor na lista para o código de Fórum que deseja converter, por favor, verifique no nosso site onde podem estar disponíveis outros conversores.',
 	'AVAILABLE_CONVERTORS'		=> 'Conversores Disponíveis',
 	'NO_CONVERTORS'				=> 'Não está disponível nenhum conversor',
 	'CONVERT_OPTIONS'				=> 'Opções',

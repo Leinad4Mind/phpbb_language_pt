@@ -36,10 +36,10 @@ if (empty($lang) || !is_array($lang)) {
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, [
-	'ACP_GROUPS_MANAGE_EXPLAIN'		=> 'Aqui pode criar, configurar e eliminar Grupos. Pode ainda escolher os Líderes dos Grupos, especificar o seu estado (Aberto ou Fechado) e atribuir um Nome e uma Descrição ao Grupo.',
+	'ACP_GROUPS_MANAGE_EXPLAIN'		=> 'Aqui podes criar, configurar e eliminar Grupos. Pode ainda escolher os Líderes dos Grupos, especificar o seu estado (Aberto ou Fechado) e atribuir um Nome e uma Descrição ao Grupo.',
 	'ADD_GROUP_CATEGORY'					=> 'Adicionar Categoria',
 	'ADD_USERS'								=> 'Adicionar Utilizadores',
-	'ADD_USERS_EXPLAIN'					=> 'Aqui pode adicionar novos Membros ao Grupo. Deve indicar se é o Grupo Padrão dos Utilizadores seleccionados. Pode seleccionar os Líderes do Grupo. Escreva apenas um Utilizador por linha.',
+	'ADD_USERS_EXPLAIN'					=> 'Aqui podes adicionar novos Membros ao Grupo. Deve indicar se é o Grupo Padrão dos Utilizadores seleccionados. Pode seleccionar os Líderes do Grupo. Escreva apenas um Utilizador por linha.',
 
 	'COPY_PERMISSIONS'					=> 'Copiar Permissões de',
 	'COPY_PERMISSIONS_EXPLAIN'			=> 'Uma vez criadas, o Grupo terá as mesmas Permissões que seleccionar aqui.',
@@ -68,7 +68,7 @@ $lang = array_merge($lang, [
 	'GROUP_DEMOTE'							=> 'Demitir Líder do Grupo',
 	'GROUP_DESC'							=> 'Descrição do Grupo',
 	'GROUP_DETAILS'						=> 'Informação do Grupo',
-	'GROUP_EDIT_EXPLAIN'					=> 'Aqui pode configurar os Grupos existentes. Alterar o nome (excepto dos Grupos Pré-Definidos, onde o nome não pode ser alterado), descrição e estado (Aberto/Fechado). Também é possível especificar outras opções como a cor, a classificação, etc. As alterações aqui feitas afectarão os Membros do Grupo. De notar que os Membros do Grupo podem alterar os Avatares a não ser que seleccione as Permissões de Utilizadores apropriadas.',
+	'GROUP_EDIT_EXPLAIN'					=> 'Aqui podes configurar os Grupos existentes. Alterar o nome (excepto dos Grupos Pré-Definidos, onde o nome não pode ser alterado), descrição e estado (Aberto/Fechado). Também é possível especificar outras opções como a cor, a classificação, etc. As alterações aqui feitas afectarão os Membros do Grupo. De notar que os Membros do Grupo podem alterar os Avatares a não ser que seleccione as Permissões de Utilizadores apropriadas.',
 	'GROUP_ERR_USERS_EXIST'				=> 'Os Utilizadores seleccionados já são Membros deste Grupo.',
 	'GROUP_FOUNDER_MANAGE'				=> 'Gerir apenas por Fundadores',
 	'GROUP_FOUNDER_MANAGE_EXPLAIN'	=> 'Limitar a Gestão deste Grupo aos Administradores Fundadores. Os Utilizadores que possuem as Permissões de Grupo apropriadas, têm autorização para visualizar este Grupo bem como os seus Membros.',

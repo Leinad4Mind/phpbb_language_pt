@@ -906,7 +906,7 @@ $lang = array_merge($lang, [
 	'VIEW_TOPIC_MOVED'				=> 'Movido: ',
 	'VIEW_TOPIC_POLL'					=> 'Votação: ',
 	'VIEW_TOPIC_STICKY'				=> 'Fixo: ',
-	'VISIT_WEBSITE'					=> 'Visitar o sítio web',
+	'VISIT_WEBSITE'					=> 'Visitar o site',
 
 	'WARNINGS'							=> 'Avisos',
 	'WARN_USER'							=> 'Avisar Utilizador',
@@ -915,7 +915,7 @@ $lang = array_merge($lang, [
 	'WATCH_TOPIC_CONFIRM'			=> 'Tem a certeza que deseja subscrever este Tópico?',
 	'WATCH_TOPIC_DETAILED'			=> 'Tem a certeza que deseja subscrever o Tópico “%s”?',
 	'WELCOME_SUBJECT'					=> 'Bem-vindo ao %s Fóruns',
-	'WEBSITE'							=> 'Sítio web',
+	'WEBSITE'							=> 'Site',
 	'WHOIS'								=> 'Quem',
 	'WHO_IS_ONLINE'					=> 'Quem está ligado',
 	'WRONG_PASSWORD'					=> 'Senha errada.',
