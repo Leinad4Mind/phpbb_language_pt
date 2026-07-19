@@ -66,15 +66,15 @@ $lang = array_merge($lang, [
 
 	'LINKAGE_FORBIDDEN'				=> 'Não está autorizado a ver o atalho para esta página.',
 	'LOGIN_NOTIFY_TOPIC'				=> 'Foi notificado por este Tópico, ligue-se para vê-lo.',
-	'LOGIN_VIEWTOPIC'					=> 'Tem que estar Registado e ligado para ver este Tópico.',
+	'LOGIN_VIEWTOPIC'					=> 'Tens que estar Registado e ligado para ver este Tópico.',
 
 	'MAKE_ANNOUNCE'					=> 'Alterar para “Anúncio”',
 	'MAKE_GLOBAL'						=> 'Alterar para “Global”',
 	'MAKE_NORMAL'						=> 'Alterar para “Tópico Normal”',
 	'MAKE_STICKY'						=> 'Alterar para “Fixo”',
 	'MAX_OPTIONS_SELECT'		=> [
-		1	=> 'Pode selecionar <strong>%d</strong> opção',
-		2	=> 'Pode selecionar até <strong>%d</strong> opções',
+		1	=> 'Podes selecionar <strong>%d</strong> opção',
+		2	=> 'Podes selecionar até <strong>%d</strong> opções',
 	],
 	'MISSING_INLINE_ATTACHMENT'	=> 'O ficheiro <strong>%s</strong> não está disponível',
 	'MOVE_TOPIC'						=> 'Mover Tópico',
@@ -83,7 +83,7 @@ $lang = array_merge($lang, [
 	'NO_NEWER_TOPICS'					=> 'Não há Tópicos novos neste Fórum.',
 	'NO_OLDER_TOPICS'					=> 'Não há Tópicos antigos neste Fórum.',
 	'NO_UNREAD_POSTS'					=> 'Não há Mensagens novas não lidas neste Tópico.',
-	'NO_VOTE_OPTION'					=> 'Deve selecionar uma opção para votar.',
+	'NO_VOTE_OPTION'					=> 'Deves selecionar uma opção para votar.',
 	'NO_VOTES'							=> 'Sem votos',
 	'NO_AUTH_PRINT_TOPIC'			=> 'Não está autorizado a imprimir tópicos.',
 
@@ -117,6 +117,6 @@ $lang = array_merge($lang, [
 		2	=> '%d mensagens',
 	],
 	'VIEW_UNREAD_POST'				=> 'Mensagens por ler',
-	'VOTE_SUBMITTED'					=> 'O seu voto foi registado.',
+	'VOTE_SUBMITTED'					=> 'O teu voto foi registado.',
 	'VOTE_CONVERTED'					=> 'Não é possível alterar votos.',
 ]);

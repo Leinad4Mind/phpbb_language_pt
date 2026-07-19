@@ -46,7 +46,7 @@ $lang = array_merge($lang, [
 		<p>Gestão, controlo e aplicação das Permissões de acesso aos fóruns. As Permissões estão dividias em Permissões de Fóruns, Permissões dos Moderadores nos Fóruns, Permissões dos utilizadores nos Fóruns e Permissões dos Grupos nos Fóruns.</p>
 
 		<h2>3 - Categorias das Permissões</h2>
-		<p>Gestão, controlo e aplicação das Permissões às categorias. As Permissões estão divididas em 4 grupos, Categorias dos Administradores, Categorias dos Moderadores, Categorias dos Utilizadores e Categorias dos Fóruns. As categorias padrão cobrem a Administração do Fórum. Pode editar cada uma das categorias, para adicionar ou excluir tarefas se o desejar ou achar necessário.</p>
+<p>Gestão, controlo e aplicação das Permissões às categorias. As Permissões estão divididas em 4 grupos, Categorias dos Administradores, Categorias dos Moderadores, Categorias dos Utilizadores e Categorias dos Fóruns. As categorias padrão cobrem a Administração do Fórum. Podes editar cada uma das categorias, para adicionares ou excluíres tarefas se o desejares ou achares necessário.</p>
 
 		<h2>4 - Cenário das Permissões</h2>
 		<p>Dá uma visão global das Permissões atribuídas a Utilizadores, Moderadores (locais e globais), Administradores ou Fóruns.</p>
@@ -58,7 +58,7 @@ $lang = array_merge($lang, [
 
 	'ACL_NEVER'					=> 'Nunca',
 	'ACL_SET'					=> 'Configurar Permissões',
-	'ACL_SET_EXPLAIN'			=> 'As Permissões são baseadas num sistema <strong>SIM</strong>/<strong>NÃO</strong>. A opção <strong>Nunca</strong> selecionada para um Utilizador ou Grupo sobrepor-se-á a todas as outras. Se não deseja atribuir um valor de qualquer opção para este Utilizador ou Grupo, selecione <strong>NÃO</strong>. Se valores são atribuídos para esta opção ou em outra qualquer, eles serão preferencialmente utilizados, senão o <strong>Nunca</strong> é assumido. Todos os objetos marcados (com a caixa de confirmação em frente a eles) irão copiar as permissões que definiu. De salientar que definir permissões administrativas para contas de fundador não tem nenhum efeito, pois as permissões de administrador são sempre definidas como <strong>SIM</strong> para fundador.',
+'ACL_SET_EXPLAIN'			=> 'As Permissões são baseadas num sistema <strong>SIM</strong>/<strong>NÃO</strong>. A opção <strong>Nunca</strong> selecionada para um Utilizador ou Grupo sobrepor-se-á a todas as outras. Se não desejares atribuir um valor a qualquer opção para este Utilizador ou Grupo, seleciona <strong>NÃO</strong>. Se valores são atribuídos para esta opção ou em outra qualquer, eles serão preferencialmente utilizados, senão o <strong>Nunca</strong> é assumido. Todos os objetos marcados (com a caixa de confirmação em frente a eles) irão copiar as permissões que definiste. De salientar que definir permissões administrativas para contas de fundador não tem nenhum efeito, pois as permissões de administrador são sempre definidas como <strong>SIM</strong> para fundador.',
 	'ACL_SETTING'				=> 'Configuração',
 
 	'ACL_TYPE_A_'				=> 'Permissões Administrativas',
@@ -78,8 +78,8 @@ $lang = array_merge($lang, [
 	'ACL_YES'					=> 'Sim',
 
 	'ACP_ADMINISTRATORS_EXPLAIN'					=> 'Aqui podes configurar as Permissões Administrativas dos Utilizadores e Grupos. Todos os Utilizadores com Permissões Administrativas podem entrar no Painel de Administração.',
-	'ACP_FORUM_MODERATORS_EXPLAIN'				=> 'Aqui podes configurar Utilizadores e Grupos como Moderadores do Fórum. Para configurar Permissões de Utilizador, para definir Permissões de Moderadores Globais ou Administradores, por favor, use a página apropriada.',
-	'ACP_FORUM_PERMISSIONS_EXPLAIN'				=> 'Aqui podes definir que Utilizadores e Grupos podem aceder a cada um dos Fóruns. Para configurar Moderadores ou Administradores, por favor, use a página apropriada.',
+'ACP_FORUM_MODERATORS_EXPLAIN'				=> 'Aqui podes configurar Utilizadores e Grupos como Moderadores do Fórum. Para configurar Permissões de Utilizador, para definir Permissões de Moderadores Globais ou Administradores, por favor, usa a página apropriada.',
+'ACP_FORUM_PERMISSIONS_EXPLAIN'				=> 'Aqui podes definir que Utilizadores e Grupos podem aceder a cada um dos Fóruns. Para configurar Moderadores ou Administradores, por favor, usa a página apropriada.',
 	'ACP_FORUM_PERMISSIONS_COPY_EXPLAIN'		=> 'Aqui podes copiar as Permissões dum Fórum atribuindo-as a um ou mais Fóruns.',
 	'ACP_GLOBAL_MODERATORS_EXPLAIN'				=> 'Aqui podes configurar Permissões de Moderadores Globais para Utilizadores e Grupos. Estes são Moderadores normais, exceto se tiverem acesso a todos Fóruns.',
 	'ACP_GROUPS_FORUM_PERMISSIONS_EXPLAIN'		=> 'Aqui podes configurar Permissões de Fóruns para Grupos.',
@@ -110,9 +110,9 @@ $lang = array_merge($lang, [
 	'APPLY_PERMISSIONS_EXPLAIN'	=> 'As Permissões e tarefas definidas para este item serão apenas aplicadas a este item e todos os itens marcados.',
 	'AUTH_UPDATED'						=> 'As Permissões foram atualizadas com sucesso.',
 
-	'COPY_PERMISSIONS_CONFIRM'					=> 'Tem a certeza que pretende prosseguir com esta operação? Por favor, esteja ciente que isto irá sobrescrever quaisquer permissões existentes nos alvos selecionados.',
-	'COPY_PERMISSIONS_FORUM_FROM_EXPLAIN'	=> 'Selecione o Fórum cujas Permissões pretende copiar.',
-	'COPY_PERMISSIONS_FORUM_TO_EXPLAIN'		=> 'Selecione o Fórum cujas Permissões pretende definir.',
+'COPY_PERMISSIONS_CONFIRM'					=> 'Tens a certeza que pretendes prosseguir com esta operação? Por favor, fica ciente que isto irá sobrescrever quaisquer permissões existentes nos alvos selecionados.',
+'COPY_PERMISSIONS_FORUM_FROM_EXPLAIN'	=> 'Seleciona o Fórum cujas Permissões pretendes copiar.',
+'COPY_PERMISSIONS_FORUM_TO_EXPLAIN'		=> 'Seleciona o Fórum cujas Permissões pretendes definir.',
 	'COPY_PERMISSIONS_FROM'						=> 'Copiar Permissões de',
 	'COPY_PERMISSIONS_TO'						=> 'Aplicar Permissões a',
 
@@ -122,7 +122,7 @@ $lang = array_merge($lang, [
 
 	'DEFAULT'							=> 'Padrão',
 	'DELETE_ROLE'						=> 'Eliminar Tarefa',
-	'DELETE_ROLE_CONFIRM'			=> 'Deseja realmente Eliminar esta Tarefa? Itens atribuídos a esta Tarefa <strong>não</strong> perderão as suas configurações de Permissões.',
+'DELETE_ROLE_CONFIRM'			=> 'Desejas realmente Eliminar esta Tarefa? Itens atribuídos a esta Tarefa <strong>não</strong> perderão as suas configurações de Permissões.',
 	'DISPLAY_ROLE_ITEMS'				=> 'Ver Itens utilizando esta Tarefa',
 
 	'EDIT_PERMISSIONS'				=> 'Editar Permissões',
@@ -138,13 +138,13 @@ $lang = array_merge($lang, [
 
 	'NO_AUTH_SETTING_FOUND'			=> 'A Configuração de Permissões não foi definida.',
 	'NO_ROLE_ASSIGNED'				=> 'Sem Tarefas atribuídas',
-	'NO_ROLE_ASSIGNED_EXPLAIN'		=> 'A Configuração para esta Tarefa não alterou as Permissões na direita. Se deseja desativar/excluir todas as Permissões deve utilizar o atalho "Tudo <strong>Não</strong>".',
+'NO_ROLE_ASSIGNED_EXPLAIN'		=> 'A Configuração para esta Tarefa não alterou as Permissões na direita. Se desejares desativar/excluir todas as Permissões deves utilizar o atalho "Tudo <strong>Não</strong>".',
 	'NO_ROLE_AVAILABLE'				=> 'Sem Tarefas Disponíveis',
-	'NO_ROLE_NAME_SPECIFIED'		=> 'Deve inserir o nome da Categoria',
+'NO_ROLE_NAME_SPECIFIED'		=> 'Deves inserir o nome da Categoria',
 	'NO_ROLE_SELECTED'				=> 'A Tarefa não foi encontrada.',
-	'NO_USER_GROUP_SELECTED'		=> 'Não selecionou nenhum Utilizador ou Grupo.',
+'NO_USER_GROUP_SELECTED'		=> 'Não selecionaste nenhum Utilizador ou Grupo.',
 
-	'ONLY_FORUM_DEFINED'				=> 'Apenas selecionou Fóruns. Selecione pelo menos um Utilizador ou um Grupo.',
+'ONLY_FORUM_DEFINED'				=> 'Apenas selecionaste Fóruns. Seleciona pelo menos um Utilizador ou um Grupo.',
 
 	'PERMISSION_APPLIED_TO_ALL'	=> 'As Tarefas e Permissões também serão aplicadas a todos os objetos selecionados',
 	'PLUS_SUBFORUMS'					=> '+ Sub-fóruns',
@@ -208,8 +208,8 @@ $lang = array_merge($lang, [
 	'ROLE_DESCRIPTION_USER_STANDARD'			=> 'Pode utilizar a maior parte das funções do Utilizador. Não pode alterar o nome do utilizador ou o Intervalo de Segurança.',
 	'ROLE_DESCRIPTION_USER_NEW_MEMBER'		=> 'A função dos membros do Grupo Especial de Utilizadores Registados Recentemente. Contém permissões <strong>Nunca</strong> para bloquear recursos aos novos utilizadores.',
 
-	'ROLE_DESCRIPTION_EXPLAIN'					=> 'Pode fazer uma pequena descrição das Permissões desta Categoria. O Texto será mostrado na lista das Categorias.',
-	'ROLE_DESCRIPTION_LONG'						=> 'A Descrição da tarefa é muito grande. Por Favor, limite seu texto a 4000 caracteres.',
+	'ROLE_DESCRIPTION_EXPLAIN'					=> 'Podes fazer uma pequena descrição das Permissões desta Categoria. O Texto será mostrado na lista das Categorias.',
+	'ROLE_DESCRIPTION_LONG'						=> 'A Descrição da tarefa é muito grande. Por Favor, limita o teu texto a 4000 caracteres.',
 	'ROLE_DETAILS'									=> 'Detalhes da tarefa',
 	'ROLE_EDIT_SUCCESS'							=> 'A Tarefa foi editada com sucesso.',
 	'ROLE_NAME'										=> 'Nome da Categoria',

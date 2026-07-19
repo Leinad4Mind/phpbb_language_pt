@@ -44,7 +44,7 @@ $lang = array_merge($lang, [
 	'EXTENSION_NOT_AVAILABLE'	=> 'A extensão selecionada não está disponível para este Fórum, por favor, verifique versões do phpBB e PHP permitidas (veja a página de detalhes).',
 	'EXTENSION_DIR_INVALID'		=> 'A extensão selecionada não pode ser ativada porque tem uma estrutura de pastas inválida.',
 	'EXTENSION_NOT_ENABLEABLE'	=> 'A extensão selecionada não pode ser ativada, por favor, verifique os requisitos do extensão.',
-	'EXTENSION_NOT_INSTALLED'	=> 'A extensão %s não está disponível. Verifique se instalou corretamente.',
+	'EXTENSION_NOT_INSTALLED'	=> 'A extensão %s não está disponível. Verifica se instalaste corretamente.',
 
 	'DETAILS'						=> 'Detalhes',
 
@@ -59,9 +59,9 @@ $lang = array_merge($lang, [
 	'EXTENSION_DISABLE_EXPLAIN'		=> 'Desativar uma extensão mantém ficheiros, dados e configurações, mas remove qualquer funcionalidade adicional da extensão.',
 	'EXTENSION_ENABLE_EXPLAIN'			=> 'Ativar uma extensão permite usá-la no seu Fórum.',
 
-	'EXTENSION_DELETE_DATA_IN_PROGRESS'	=> 'Os dados da extensão estão a ser apagados. Por favor não deixe ou atualize esta página até a tarefa estar concluída.',
-	'EXTENSION_DISABLE_IN_PROGRESS'		=> 'A extensão está a ser desativada. Por favor não deixe ou atualize esta página até a tarefa estar concluída.',
-	'EXTENSION_ENABLE_IN_PROGRESS'		=> 'A extensão está a ser ativada. Por favor não deixe ou atualize esta página até a tarefa estar concluída.',
+	'EXTENSION_DELETE_DATA_IN_PROGRESS'	=> 'Os dados da extensão estão a ser apagados. Por favor, não deixes ou atualizes esta página até a tarefa estar concluída.',
+	'EXTENSION_DISABLE_IN_PROGRESS'		=> 'A extensão está a ser desativada. Por favor, não deixes ou atualizes esta página até a tarefa estar concluída.',
+	'EXTENSION_ENABLE_IN_PROGRESS'		=> 'A extensão está a ser ativada. Por favor, não deixes ou atualizes esta página até a tarefa estar concluída.',
 
 	'EXTENSION_DELETE_DATA_SUCCESS'	=> 'Os dados da extensão foram apagados com sucesso',
 	'EXTENSION_DISABLE_SUCCESS'		=> 'A extensão foi desativada com sucesso',
@@ -73,27 +73,27 @@ $lang = array_merge($lang, [
 	'EXTENSION_INSTALL_HEADLINE' 	=> 'Instalando uma extensão',
 	'EXTENSION_INSTALL_EXPLAIN'	=> '<ol>
 			<li>Transfira uma extensão da base de dados de extensões do phpBB</li>
-			<li>Descompacte a extensão e a envie para a pasta <samp>ext/</samp> do seu fórum phpBB</li>
-			<li>Ative a extensão, aqui no gestor de Extensões</li>
+			<li>Descompacta a extensão e envia-la para a pasta <samp>ext/</samp> do teu fórum phpBB</li>
+			<li>Ativa a extensão, aqui no gestor de Extensões</li>
 		</ol>',
 	'EXTENSION_UPDATE_HEADLINE'	=> 'Atualizar extensões',
 	'EXTENSION_UPDATE_EXPLAIN'		=> '<ol>
-			<li>Desative a extensão</li>
-			<li>Apague os ficheiros da extensão do sistema de ficheiros</li>
-			<li>Envie os novos ficheiros</li>
-			<li>Ative a extensão</li>
+			<li>Desativa a extensão</li>
+			<li>Apaga os ficheiros da extensão do sistema de ficheiros</li>
+			<li>Envia os novos ficheiros</li>
+			<li>Ativa a extensão</li>
 		</ol>',
 	'EXTENSION_REMOVE_HEADLINE'	=> 'Remover completamente uma extensão',
 	'EXTENSION_REMOVE_EXPLAIN'		=> '<ol>
-			<li>Desative a extensão</li>
-			<li>Apague os dados da extensão</li>
-			<li>Apague os ficheiros da extensão do sistema de ficheiros</li>
+			<li>Desativa a extensão</li>
+			<li>Apaga os dados da extensão</li>
+			<li>Apaga os ficheiros da extensão do sistema de ficheiros</li>
 		</ol>',
 
-	'EXTENSION_DELETE_DATA_CONFIRM'		=> 'Tem a certeza que deseja excluir os dados associados à “%s”?<br /><br />Se continuar remove todos os dados e configurações. Esta ação não é reversível!',
-	'EXTENSION_DISABLE_CONFIRM'			=> 'Tem a certeza que deseja desativar a extensão “%s”?',
-	'EXTENSION_ENABLE_CONFIRM'				=> 'Tem a certeza que deseja ativar a extensão “%s”?',
-	'EXTENSION_FORCE_UNSTABLE_CONFIRM'	=> 'Tem a certeza que deseja forçar o uso de versões instáveis?',
+	'EXTENSION_DELETE_DATA_CONFIRM'		=> 'Tens a certeza que desejas excluir os dados associados à “%s”?<br /><br />Se continuar remove todos os dados e configurações. Esta ação não é reversível!',
+	'EXTENSION_DISABLE_CONFIRM'			=> 'Tens a certeza que desejas desativar a extensão “%s”?',
+	'EXTENSION_ENABLE_CONFIRM'				=> 'Tens a certeza que desejas ativar a extensão “%s”?',
+	'EXTENSION_FORCE_UNSTABLE_CONFIRM'	=> 'Tens a certeza que desejas forçar o uso de versões instáveis?',
 
 	'RETURN_TO_EXTENSION_LIST'		=> 'Voltar à lista de extensões',
 
@@ -124,7 +124,7 @@ $lang = array_merge($lang, [
 	'NO_VERSIONCHECK'			=> 'Não foi obtida de nenhuma informação de versão.',
 
 	'VERSIONCHECK_FORCE_UPDATE_ALL'		=> 'Verificar novamente todas as versões',
-	'FORCE_UNSTABLE'							=> 'Verifique sempre se há versões instáveis',
+	'FORCE_UNSTABLE'							=> 'Verifica sempre se há versões instáveis',
 	'EXTENSIONS_VERSION_CHECK_SETTINGS'	=> 'Configurações de verificação de versão',
 
 	'BROWSE_EXTENSIONS_DATABASE'			=> 'Navegue na base de dados de extensões',

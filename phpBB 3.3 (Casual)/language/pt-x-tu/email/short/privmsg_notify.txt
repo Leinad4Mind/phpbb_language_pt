@@ -1,15 +1,15 @@
-Subject: Recebeu uma nova Mensagem Privada
+Subject: Recebeste uma nova Mensagem Privada
 
 Olá, {USERNAME},
 
-Tem uma mensagem privada nova de "{AUTHOR_NAME}" na sua conta em {SITENAME} com o seguinte assunto:
+Tens uma mensagem privada nova de "{AUTHOR_NAME}" na tua conta em {SITENAME} com o seguinte assunto:
 
 {SUBJECT}
 
-Pode ver a sua nova mensagem clicando no seguinte endereço:
+Podes ver a tua nova mensagem clicando no seguinte endereço:
 
 {U_VIEW_MESSAGE}
 
-Pediu para ser notificado de novas mensagens privadas. Pode optar por não ser notificado de novas mensagens alterando a configuração no seu perfil.
+Pediste para seres notificado de novas mensagens privadas. Podes optar por não seres notificado de novas mensagens alterando a configuração no teu perfil.
 
 {EMAIL_SIG}

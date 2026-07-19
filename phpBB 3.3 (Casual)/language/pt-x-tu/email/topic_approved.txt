@@ -3,15 +3,15 @@ Subject: Tópico aprovado - {TOPIC_TITLE}
 Olá, {USERNAME},
 
 
-O seu Tópico "{TOPIC_TITLE}" em {SITENAME} foi aprovado.
+O teu Tópico "{TOPIC_TITLE}" em {SITENAME} foi aprovado.
 
-Pode vê-lo no seguinte endereço:
+Podes vê-lo no seguinte endereço:
 {U_VIEW_TOPIC}
 
 
 Obrigado, {USERNAME}.
-Continue a participar ativamente.
-A sua colaboração é fundamental para todos nós.
+Continua a participar ativamente.
+A tua colaboração é fundamental para todos nós.
 
 
 

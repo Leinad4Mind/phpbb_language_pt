@@ -39,11 +39,11 @@ $lang = array_merge($lang, [
 	'EXTENSION'						=> 'Extensão',
 	'EXTENSIONS'					=> 'Extensões',
 	'EXTENSIONS_ADMIN'			=> 'Gestão de Extensões',
-	'EXTENSIONS_EXPLAIN'			=> 'O Gestor de Extensões é uma ferramenta do phpBB que permite gerir todas as suas extensões e exibir as respectivas informações.',
+	'EXTENSIONS_EXPLAIN'			=> 'O Gestor de Extensões é uma ferramenta do phpBB que permite gerir todas as tuas extensões e exibir as respectivas informações.',
 	'EXTENSION_INVALID_LIST'	=> 'A Extensão “%s” não é válida.<br />%s<br /><br />',
-	'EXTENSION_NOT_AVAILABLE'	=> 'A extensão seleccionada não está disponível para este Fórum, por favor, verifique versões do phpBB e PHP permitidas (veja a página de detalhes).',
+	'EXTENSION_NOT_AVAILABLE'	=> 'A extensão seleccionada não está disponível para este Fórum, por favor, verifica versões do phpBB e PHP permitidas (vê a página de detalhes).',
 	'EXTENSION_DIR_INVALID'		=> 'A extensão seleccionada não pode ser activada porque tem uma estrutura de pastas inválida.',
-	'EXTENSION_NOT_ENABLEABLE'	=> 'A extensão seleccionada não pode ser activada, por favor, verifique os requisitos do extensão.',
+	'EXTENSION_NOT_ENABLEABLE'	=> 'A extensão seleccionada não pode ser activada, por favor, verifica os requisitos do extensão.',
 	'EXTENSION_NOT_INSTALLED'	=> 'A extensão %s não está disponível. Verifique se instalou correctamente.',
 
 	'DETAILS'						=> 'Detalhes',
@@ -57,11 +57,11 @@ $lang = array_merge($lang, [
 
 	'EXTENSION_DELETE_DATA_EXPLAIN'	=> 'Apagar dados de uma extensão remove todos os dados e configurações. Os ficheiros da extensão são mantidas para que possa ser activada novamente.',
 	'EXTENSION_DISABLE_EXPLAIN'		=> 'Desactivar uma extensão mantém ficheiros, dados e configurações, mas remove qualquer funcionalidade adicional da extensão.',
-	'EXTENSION_ENABLE_EXPLAIN'			=> 'Activar uma extensão permite usá-la no seu Fórum.',
+	'EXTENSION_ENABLE_EXPLAIN'			=> 'Activar uma extensão permite usá-la no teu Fórum.',
 
-	'EXTENSION_DELETE_DATA_IN_PROGRESS'	=> 'Os dados da extensão estão a ser apagados. Por favor não deixe ou actualize esta página até a tarefa estar concluída.',
-	'EXTENSION_DISABLE_IN_PROGRESS'		=> 'A extensão está a ser desactivada. Por favor não deixe ou actualize esta página até a tarefa estar concluída.',
-	'EXTENSION_ENABLE_IN_PROGRESS'		=> 'A extensão está a ser activada. Por favor não deixe ou actualize esta página até a tarefa estar concluída.',
+	'EXTENSION_DELETE_DATA_IN_PROGRESS'	=> 'Os dados da extensão estão a ser apagados. Por favor, não deixes ou actualizes esta página até a tarefa estar concluída.',
+	'EXTENSION_DISABLE_IN_PROGRESS'		=> 'A extensão está a ser desactivada. Por favor, não deixes ou actualizes esta página até a tarefa estar concluída.',
+	'EXTENSION_ENABLE_IN_PROGRESS'		=> 'A extensão está a ser activada. Por favor, não deixes ou actualizes esta página até a tarefa estar concluída.',
 
 	'EXTENSION_DELETE_DATA_SUCCESS'	=> 'Os dados da extensão foram apagados com sucesso',
 	'EXTENSION_DISABLE_SUCCESS'		=> 'A extensão foi desactivada com sucesso',
@@ -73,7 +73,7 @@ $lang = array_merge($lang, [
 	'EXTENSION_INSTALL_HEADLINE' 	=> 'Instalando uma extensão',
 	'EXTENSION_INSTALL_EXPLAIN'	=> '<ol>
 			<li>Transfira uma extensão da base de dados de extensões do phpBB</li>
-			<li>Descompacte a extensão e a envie para a pasta <samp>ext/</samp> do seu fórum phpBB</li>
+			<li>Descompacta a extensão e envia-la para a pasta <samp>ext/</samp> do teu fórum phpBB</li>
 			<li>Active a extensão, aqui no gestor de Extensões</li>
 		</ol>',
 	'EXTENSION_UPDATE_HEADLINE'	=> 'Actualizar extensões',

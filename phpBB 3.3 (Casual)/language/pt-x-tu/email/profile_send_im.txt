@@ -2,12 +2,12 @@
 Olá, {TO_USERNAME},
 
 
-A mensagem que se segue foi enviada para si de {FROM_USERNAME} através da sua conta em {SITENAME}.
-Se há material abusivo, "spam", ou comentários que considera ofensivos contacte o seguinte endereço:
+A mensagem que se segue foi enviada para ti de {FROM_USERNAME} através da tua conta em {SITENAME}.
+Se há material abusivo, "spam", ou comentários que consideras ofensivos contacta o seguinte endereço:
 {BOARD_CONTACT}
 enviando este email completo, particularmente os cabeçalhos.
-Por favor, note que o remetente desta mensagem é o Fórum {FROM_USERNAME}.
+Por favor, nota que o remetente desta mensagem é o Fórum {FROM_USERNAME}.
 
-A Mensagem que lhe foi enviada é a seguinte:
+A Mensagem que te foi enviada é a seguinte:
 
 {MESSAGE}

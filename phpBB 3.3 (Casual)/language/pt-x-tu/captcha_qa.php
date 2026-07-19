@@ -38,17 +38,17 @@ if (empty($lang) || !is_array($lang)) {
 $lang = array_merge($lang, [
 	'CAPTCHA_QA'					=> 'Q&amp;A',
 	'CONFIRM_QUESTION_EXPLAIN'	=> 'Esta pergunta destina-se a prevenir registos automáticos de spambots.',
-	'CONFIRM_QUESTION_WRONG'	=> 'A sua resposta à questão está errada.',
+	'CONFIRM_QUESTION_WRONG'	=> 'A tua resposta à questão está errada.',
 	'CONFIRM_QUESTION_MISSING'	=> 'Não foi possível carregar as perguntas para o sistema de segurança. Por favor, contacte o administrador do fórum.',
 
 	'QUESTION_ANSWERS'			=> 'Respostas',
-	'ANSWERS_EXPLAIN'				=> 'Introduza respostas corretas, uma por linha.',
+	'ANSWERS_EXPLAIN'				=> 'Introduz respostas corretas, uma por linha.',
 	'CONFIRM_QUESTION'			=> 'Pergunta',
 
 	'ANSWER'							=> 'Resposta',
 	'EDIT_QUESTION'				=> 'Editar Pergunta',
 	'QUESTIONS'						=> 'Perguntas',
-	'QUESTIONS_EXPLAIN'			=> 'Para cada submissão ao formulário, onde ativou o plugin Q&amp;A, será feita uma das perguntas aqui definidas. Para usar este plugin deve definir pelo menos uma pergunta no idioma padrão. As perguntas devem ser de fácil resposta para o seu público alvo, mas sem excederem a capacidade de pesquisa do spambot no Google™. Serão obtidos melhores resultados se usar mais do que uma pergunta e as alterar com regularidade. Ative a confirmação rigorosa se a sua pergunta se baseia em maiúsculas e minúsculas, pontuação ou espaços em branco.',
+	'QUESTIONS_EXPLAIN'			=> 'Para cada submissão ao formulário, onde ativaste o plugin Q&amp;A, será feita uma das perguntas aqui definidas. Para usares este plugin deves definir pelo menos uma pergunta no idioma padrão. As perguntas devem ser de fácil resposta para o teu público alvo, mas sem excederem a capacidade de pesquisa do spambot no Google™. Serão obtidos melhores resultados se usares mais do que uma pergunta e as alterares com regularidade. Ativa a confirmação rigorosa se a tua pergunta se baseia em maiúsculas e minúsculas, pontuação ou espaços em branco.',
 	'QUESTION_DELETED'			=> 'Pergunta excluída',
 	'QUESTION_LANG'				=> 'Idioma',
 	'QUESTION_LANG_EXPLAIN'		=> 'O idioma desta questão e das respostas é escrito em.',
@@ -59,5 +59,5 @@ $lang = array_merge($lang, [
 	'QUESTION_TEXT_EXPLAIN'		=> 'A pergunta feita ao utilizador.',
 
 	'QA_ERROR_MSG'					=> 'Preencha todos os campos e pelo menos uma resposta.',
-	'QA_LAST_QUESTION'			=> 'Não pode apagar todas as perguntas, enquanto o plugin estiver ativo.',
+	'QA_LAST_QUESTION'			=> 'Não podes apagar todas as perguntas, enquanto o plugin estiver ativo.',
 ]);

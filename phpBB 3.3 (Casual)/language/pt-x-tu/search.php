@@ -58,15 +58,15 @@ $lang = array_merge($lang, [
 	'JUMP_TO_POST'					=> 'Ir para a mensagem',
 
 	'LOGIN_EXPLAIN_EGOSEARCH'		=> 'É necessário que esteja registado para visualizar os Tópicos.',
-	'LOGIN_EXPLAIN_UNREADSEARCH'	=> 'É necessário que esteja registado e autenticado para ver as suas mensagens lidas.',
-	'LOGIN_EXPLAIN_NEWPOSTS'		=> 'É necessário que esteja registado e autenticado para ver novas mensagens desde sua última visita.',
+	'LOGIN_EXPLAIN_UNREADSEARCH'	=> 'É necessário que estejas registado e autenticado para ver as tuas mensagens lidas.',
+	'LOGIN_EXPLAIN_NEWPOSTS'		=> 'É necessário que estejas registado e autenticado para ver novas mensagens desde a tua última visita.',
 
 	'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> [
 		1	=> 'Especificou muitas palavras para a pesquisa. Por favor, não insira mais do que %1$d palavra.',
 		2	=> 'Especificou muitas palavras para a pesquisa. Por favor, não insira mais do que %1$d palavras.',
 	],
 
-	'NO_KEYWORDS'					=> 'Tem que especificar pelo menos uma palavra para a pesquisa. Cada palavra tem que conter no mínimo %s caracteres e não pode conter mais do que %s caracteres.',
+	'NO_KEYWORDS'					=> 'Tens que especificar pelo menos uma palavra para a pesquisa. Cada palavra tem que conter no mínimo %s caracteres e não pode conter mais do que %s caracteres.',
 	'NO_RECENT_SEARCHES'			=> 'Sem procuras recentes',
 	'NO_SEARCH'						=> 'Não está autorizado a usar a pesquisa.',
 	'NO_SEARCH_RESULTS'			=> 'Não foi encontrado nenhum resultado.',
@@ -98,7 +98,7 @@ $lang = array_merge($lang, [
 	'SEARCH_AUTHOR_EXPLAIN'		=> 'Use * para resultados parciais',
 	'SEARCH_FIRST_POST'			=> 'Apenas a primeira Mensagem dos Tópicos',
 	'SEARCH_FORUMS'				=> 'Pesquisar nos Fóruns',
-	'SEARCH_FORUMS_EXPLAIN'		=> 'Selecione o Fórum ou os Fóruns em que deseja pesquisar. Para ser mais rápido, selecione o Fórum principal do Sub-fórum e marque a opção de pesquisar em Sub-fórum.',
+	'SEARCH_FORUMS_EXPLAIN'		=> 'Seleciona o Fórum ou os Fóruns em que desejas pesquisar. Para ser mais rápido, seleciona o Fórum principal do Sub-fórum e marca a opção de pesquisar em Sub-fórum.',
 	'SEARCH_IN_RESULTS'			=> 'Pesquisar estes resultados',
 	'SEARCH_KEYWORDS_EXPLAIN'	=> 'Coloque <strong>+</strong> em frente das palavras que têm que ser encontradas e coloque <strong>-</strong> nas que <strong>não</strong> têm que ser encontradas. Faça uma lista de palavras separadas por <strong>|</strong>. Use o <strong>*</strong> para resultados parciais.',
 	'SEARCH_MSG_ONLY'				=> 'Apenas no conteúdo das Mensagens',
@@ -118,7 +118,7 @@ $lang = array_merge($lang, [
 	'SPHINX_SEARCH_FAILED_LOG'	=> 'Desculpe, a pesquisa não pôde ser executada. Mais informações sobre esta falha foram registadas no log de erros.',
 
 	'TOO_FEW_AUTHOR_CHARS'	=> [
-		1	=> 'Tem que especificar pelo menos %d carácter dos nomes dos autores.',
-		2	=> 'Tem que especificar pelo menos %d caracteres dos nomes dos autores.',
+		1	=> 'Tens que especificar pelo menos %d carácter dos nomes dos autores.',
+		2	=> 'Tens que especificar pelo menos %d caracteres dos nomes dos autores.',
 	],
 ]);

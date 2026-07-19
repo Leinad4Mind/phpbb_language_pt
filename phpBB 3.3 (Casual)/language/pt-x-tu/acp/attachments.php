@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang)) {
 $lang = array_merge($lang, [
 	'ACP_ATTACHMENT_SETTINGS_EXPLAIN'	=> 'Aqui podes configurar as Opções Principais para os Anexos e Categorias Especiais associadas.',
 	'ACP_EXTENSION_GROUPS_EXPLAIN'		=> 'Aqui podes adicionar, excluir, modificar e desativar as Extensões. Consulte o Painel Gestor de Grupos de Extensões. Recomenda-se que não permita extensões de scripts (tipo: php, php3, php4, phtml, pl, cgi, py, rb, asp, aspx, entre outras...), por serem potencialmente perigosas.',
-	'ACP_MANAGE_EXTENSIONS_EXPLAIN'		=> 'Aqui podes controlar as Extensões permitidas. Para ativar as suas Extensões, consulte por favor o Painel de Gestão dos Grupos das Extensões. Recomenda-se que não permita extensões de scripts (tipo: php, php3, php4, phtml, pl, cgi, py, rb, asp, aspx, entre outras...), por serem potencialmente perigosas.',
+	'ACP_MANAGE_EXTENSIONS_EXPLAIN'		=> 'Aqui podes controlar as Extensões permitidas. Para ativares as tuas Extensões, consulta por favor, o Painel de Gestão dos Grupos das Extensões. Recomenda-se que não permitas extensões de scripts (tipo: php, php3, php4, phtml, pl, cgi, py, rb, asp, aspx, entre outras...), por serem potencialmente perigosas.',
 	'ACP_ORPHAN_ATTACHMENTS_EXPLAIN'		=> 'Estes são os Ficheiros que não estão associados a uma Mensagem.',
 	'ADD_EXTENSION'							=> 'Adicionar Extensão',
 	'ADD_EXTENSION_GROUP'					=> 'Adicionar Grupo de Extensões',
@@ -77,14 +77,14 @@ $lang = array_merge($lang, [
 	'DEFINE_ALLOWED_IPS'					=> 'Definir IPs/Servidores autorizados',
 	'DEFINE_DISALLOWED_IPS'				=> 'Definir IPs/Servidores proibidos',
 	'DOWNLOAD_ADD_IPS_EXPLAIN'			=> 'Para definir vários IPs ou Servidores diferentes, introduza cada um numa nova linha. Para definir uma faixa de endereços de IP separe o início e o fim com um hífen (-). Pode utilizar asteriscos (*)',
-	'DOWNLOAD_REMOVE_IPS_EXPLAIN'		=> 'Pode remover (ou não-excluir) múltiplos endereços de IPs de uma única vez usando a combinação apropriada de rato e teclado para seu computador e navegador. IPs apagados têm um fundo em azul.',
+	'DOWNLOAD_REMOVE_IPS_EXPLAIN'		=> 'Podes remover (ou não-excluir) múltiplos endereços de IPs de uma única vez usando a combinação apropriada de rato e teclado para o teu computador e navegador. IPs apagados têm um fundo em azul.',
 	'DISPLAY_INLINED'						=> 'Mostrar Imagens',
 	'DISPLAY_INLINED_EXPLAIN'			=> 'Se escolher Não as imagens anexadas serão mostradas como atalhos.',
 	'DISPLAY_ORDER'						=> 'Ordem de visualização dos Anexos',
 	'DISPLAY_ORDER_EXPLAIN'				=> 'Os anexos são ordenados pela hora de envio.',
 
 	'EDIT_EXTENSION_GROUP'				=> 'Editar Grupo de Extensões',
-	'EXCLUDE_ENTERED_IP'					=> 'Ative para excluir o IP/Servidor digitado.',
+	'EXCLUDE_ENTERED_IP'					=> 'Ativa para excluir o IP/Servidor digitado.',
 	'EXCLUDE_FROM_ALLOWED_IP'			=> 'Excluir IP dos IPs/Servidores autorizados',
 	'EXCLUDE_FROM_DISALLOWED_IP'		=> 'Excluir IP dos IPs/Servidores proibidos',
 	'EXTENSIONS_UPDATED'					=> 'Extensões atualizadas com sucesso.',
@@ -101,7 +101,7 @@ $lang = array_merge($lang, [
 	'EXT_GROUP_PLAIN_TEXT'				=> 'Texto simples',
 
 	'FILES_GONE'							=> 'Alguns dos anexos que selecionou para eliminar não existem. Eles podem já ter sido excluídos. Os anexos que existiam foram eliminados.',
-	'FILES_STATS_WRONG'					=> 'As estatísticas dos seus ficheiros são imprecisas e provavelmente precisam ser ressincronizadas. Valores atuais: Número de ficheiros = %1$d, tamanho total dos ficheiros = %2$s.<br />Clique %3$saqui%4$s para os ressincronizar.',
+	'FILES_STATS_WRONG'					=> 'As estatísticas dos teus ficheiros são imprecisas e provavelmente precisam ser ressincronizadas. Valores atuais: Número de ficheiros = %1$d, tamanho total dos ficheiros = %2$s.<br />Clica %3$saqui%4$s para os ressincronizar.',
 
 	'GO_TO_EXTENSIONS'					=> 'Vá para a Tela de Gestão de Extensões',
 	'GROUP_NAME'							=> 'Nome do Grupo',
@@ -145,7 +145,7 @@ $lang = array_merge($lang, [
 
 	'REMOVE_ALLOWED_IPS'					=> 'Remover ou retirar exclusão a IPs/hostnames <em>autorizados</em>',
 	'REMOVE_DISALLOWED_IPS'				=> 'Remover ou retirar exclusão a IPs/hostnames <em>proibidos</em>',
-	'RESYNC_FILES_STATS_CONFIRM'		=> 'Tem a certeza que deseja ressincronizar estatísticas de ficheiros?',
+	'RESYNC_FILES_STATS_CONFIRM'		=> 'Tens a certeza que desejas ressincronizar estatísticas de ficheiros?',
 
 	'SECURE_ALLOW_DENY'					=> 'Permitir/Negar lista',
 	'SECURE_ALLOW_DENY_EXPLAIN'		=> 'Permite ou nega a lista de endereços. Esta configuração aplica-se apenas aos Ficheiros para transferência.',

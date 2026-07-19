@@ -39,7 +39,7 @@ $lang = array_merge($lang, [
 	'ACP_GROUPS_MANAGE_EXPLAIN'		=> 'Aqui podes criar, configurar e eliminar Grupos. Pode ainda escolher os Líderes dos Grupos, especificar o seu estado (Aberto ou Fechado) e atribuir um Nome e uma Descrição ao Grupo.',
 	'ADD_GROUP_CATEGORY'					=> 'Adicionar Categoria',
 	'ADD_USERS'								=> 'Adicionar Utilizadores',
-	'ADD_USERS_EXPLAIN'					=> 'Aqui podes adicionar novos Membros ao Grupo. Deve indicar se é o Grupo Padrão dos Utilizadores selecionados. Pode selecionar os Líderes do Grupo. Escreva apenas um Utilizador por linha.',
+	'ADD_USERS_EXPLAIN'					=> 'Aqui podes adicionar novos Membros ao Grupo. Deves indicar se é o Grupo Padrão dos Utilizadores selecionados. Podes selecionar os Líderes do Grupo. Escreve apenas um Utilizador por linha.',
 
 	'COPY_PERMISSIONS'					=> 'Copiar Permissões de',
 	'COPY_PERMISSIONS_EXPLAIN'			=> 'Uma vez criadas, o Grupo terá as mesmas Permissões que selecionar aqui.',
@@ -55,13 +55,13 @@ $lang = array_merge($lang, [
 	'GROUP_CATEGORY_NAME'				=> 'Nome da Categoria',
 	'GROUP_CLOSED'							=> 'Fechado',
 	'GROUP_COLOR'							=> 'Cor do Grupo',
-	'GROUP_COLOR_EXPLAIN'				=> 'Selecione a cor dos Utilizadores do Grupo. Deixe em branco se não deseja ativar esta opção.',
+	'GROUP_COLOR_EXPLAIN'				=> 'Seleciona a cor dos Utilizadores do Grupo. Deixa em branco se não desejas ativar esta opção.',
 	'GROUP_CONFIRM_ADD_USERS'			=> [
-		1	=> 'Tem a certeza que deseja adicionar o utilizador %2$s ao Grupo?',
-		2	=> 'Tem a certeza que deseja adicionar os utilizadores %2$s ao Grupo?',
+		1	=> 'Tens a certeza que desejas adicionar o utilizador %2$s ao Grupo?',
+		2	=> 'Tens a certeza que desejas adicionar os utilizadores %2$s ao Grupo?',
 	],
 	'GROUP_CREATED'						=> 'O Grupo selecionado foi criado com sucesso.',
-	'GROUP_DEFAULT'						=> 'Selecione este como Grupo Padrão para este Utilizador.',
+	'GROUP_DEFAULT'						=> 'Seleciona este como Grupo Padrão para este Utilizador.',
 	'GROUP_DEFS_UPDATED'					=> 'Grupo Padrão para os Utilizadores selecionados.',
 	'GROUP_DELETE'							=> 'Apagar Membro do Grupo',
 	'GROUP_DELETED'						=> 'Grupo apagado e Utilizadores mudados de Grupo com sucesso.',
@@ -132,7 +132,7 @@ $lang = array_merge($lang, [
 
 	'PENDING_MEMBERS'						=> 'Pendente',
 
-	'SELECT_GROUP'							=> 'Selecione um Grupo',
+	'SELECT_GROUP'							=> 'Seleciona um Grupo',
 	'SPECIAL_GROUPS'						=> 'Grupos Pré-Definidos',
 	'SPECIAL_GROUPS_EXPLAIN'			=> 'São os Grupos Básicos do phpBB. Não podem ser apagados ou modificados. Porém, pode adicionar membros a estes Grupos e modificar as Configurações de cada um dos Grupos.',
 
@@ -150,7 +150,7 @@ $lang = array_merge($lang, [
 	'USERS_APPROVED'						=> 'Os Utilizadores selecionados foram aprovados com sucesso.',
 	'USER_DEFAULT'							=> 'Utilizador Padrão',
 	'USER_DEF_GROUPS'						=> 'Grupos Criados pelo Administrador',
-	'USER_DEF_GROUPS_EXPLAIN'			=> 'Pode gerir as Permissões dos Membros destes Grupos. Editar as Configurações ou eliminar o Grupo.',
+	'USER_DEF_GROUPS_EXPLAIN'			=> 'Podes gerir as Permissões dos Membros destes Grupos. Editar as Configurações ou eliminar o Grupo.',
 	'USER_GROUP_DEFAULT'					=> 'Grupo Padrão',
 	'USER_GROUP_DEFAULT_EXPLAIN'		=> 'Ao selecionar SIM será este o Grupo Padrão dos Utilizadores.',
 	'USER_GROUP_LEADER'					=> 'Líder do Grupo',

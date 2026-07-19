@@ -42,7 +42,7 @@ $lang = array_merge($lang, [
 	'CRITERIA'							=> 'Critérios',
 
 	'DEACTIVATE_DELETE'				=> 'Desactivar ou apagar',
-	'DEACTIVATE_DELETE_EXPLAIN'	=> 'Escolher se quer desactivar Utilizadores ou excluí-los totalmente. Por favor, note que os Utilizadores excluídos não podem ser restaurados!',
+	'DEACTIVATE_DELETE_EXPLAIN'	=> 'Escolher se quer desactivar Utilizadores ou excluí-los totalmente. Por favor, nota que os Utilizadores excluídos não podem ser restaurados!',
 	'DELETE_USERS'						=> 'Apagar',
 	'DELETE_USER_POSTS'				=> 'Apagar Mensagens Limpas',
 	'DELETE_USER_POSTS_EXPLAIN'	=> 'Não é possível apagar as Mensagens de Utilizadores eliminados',
@@ -69,7 +69,7 @@ $lang = array_merge($lang, [
 
 // Forum Pruning
 $lang = array_merge($lang, [
-	'ACP_PRUNE_FORUMS_EXPLAIN'		=> 'Aqui podes apagar qualquer Tópico que não tenha sido respondido ou visualizado dentro do número de dias seleccionado. Se não escrever um número, então todos os Tópicos serão apagados. Note que esta operação não excluirá Tópicos com Votações em Curso ou Tópicos Fixos e Anúncios.',
+	'ACP_PRUNE_FORUMS_EXPLAIN'		=> 'Aqui podes apagar qualquer Tópico que não tem sido respondido ou visualizado dentro do número de dias seleccionado. Se não escreveres um número, então todos os Tópicos serão apagados. Nota que esta operação não excluirá Tópicos com Votações em Curso ou Tópicos Fixos e Anúncios.',
 
 	'FORUM_PRUNE'						=> 'Limpeza',
 

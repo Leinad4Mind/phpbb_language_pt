@@ -44,23 +44,23 @@ $lang = array_merge($lang, [
 	'CAPTCHA_RECAPTCHA_V3'			=> 'reCaptcha v3',
 
 	'RECAPTCHA_INCORRECT'				=> 'A solução apresentada não é correcta',
-	'RECAPTCHA_NOSCRIPT'					=> 'Por favor, active o JavaScript no seu navegador para carregar o desafio.',
+	'RECAPTCHA_NOSCRIPT'					=> 'Por favor, activa o JavaScript no teu navegador para carregar o desafio.',
 	'RECAPTCHA_NOT_AVAILABLE'			=> 'Para usar o reCaptcha tem que criar uma conta em <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 	'RECAPTCHA_INVISIBLE'				=> 'Este CAPTCHA é realmente invisível. Para verificar se funciona, um pequeno ícone deve aparecer no canto inferior direito desta página.',
-	'RECAPTCHA_V3_LOGIN_ERROR_ATTEMPTS'	=> 'Excedeu o número máximo de tentativas de login permitidas.<br>Além de seu nome de utilizador e senha, o reCAPTCHA v3 invisível será usado para autenticar a sua sessão.',
+	'RECAPTCHA_V3_LOGIN_ERROR_ATTEMPTS'	=> 'Excedeu o número máximo de tentativas de login permitidas.<br>Além de teu nome de utilizador e senha, o reCAPTCHA v3 invisível será usado para autenticar a tua sessão.',
 
 	'RECAPTCHA_PUBLIC'					=> 'Chave pública do reCaptcha',
-	'RECAPTCHA_PUBLIC_EXPLAIN'			=> 'A sua chave pública do reCAPTCHA v2. As chaves podem ser obtidas em <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>. Por favor, use o reCAPTCHA v2 &gt; Selo de reCAPTCHA invisível',
-	'RECAPTCHA_V3_PUBLIC_EXPLAIN'		=> 'A sua chave pública do reCAPTCHA v3. As chaves podem ser obtidas em <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>. Por favor, use o reCAPTCHA v3.',
+	'RECAPTCHA_PUBLIC_EXPLAIN'			=> 'A tua chave pública do reCAPTCHA v2. As chaves podem ser obtidas em <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>. Por favor, use o reCAPTCHA v2 &gt; Selo de reCAPTCHA invisível',
+	'RECAPTCHA_V3_PUBLIC_EXPLAIN'		=> 'A tua chave pública do reCAPTCHA v3. As chaves podem ser obtidas em <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>. Por favor, use o reCAPTCHA v3.',
 	'RECAPTCHA_PRIVATE'					=> 'Chave secreta do reCaptcha',
-	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'A sua chave secreta do reCAPTCHA v2. As chaves podem ser obtidas em <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>. Por favor, use o reCAPTCHA v2 &gt; Selo de reCAPTCHA invisível',
-	'RECAPTCHA_V3_PRIVATE_EXPLAIN'	=> 'A sua chave secreta do reCAPTCHA v3. As chaves podem ser obtidas em <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>. Por favor, use o reCAPTCHA v3.',
+	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'A tua chave secreta do reCAPTCHA v2. As chaves podem ser obtidas em <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>. Por favor, use o reCAPTCHA v2 &gt; Selo de reCAPTCHA invisível',
+	'RECAPTCHA_V3_PRIVATE_EXPLAIN'	=> 'A tua chave secreta do reCAPTCHA v3. As chaves podem ser obtidas em <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>. Por favor, use o reCAPTCHA v3.',
 
 	'RECAPTCHA_V3_DOMAIN'				=> 'Domínio solicitado',
 	'RECAPTCHA_V3_DOMAIN_EXPLAIN'		=> 'O domínio a ser usado para recuperar o script ao verificar a consulta.<br>Use <samp>recaptcha.net</samp> quando <samp>google.com</samp> não estiver acessível.',
 
 	'RECAPTCHA_V3_METHOD'				=> 'Método de solicitação',
-	'RECAPTCHA_V3_METHOD_EXPLAIN'		=> 'O método a ser usado ao verificar a solicitação.<br>As opções desactivadas não estão disponíveis nas suas configurações.',
+	'RECAPTCHA_V3_METHOD_EXPLAIN'		=> 'O método a ser usado ao verificar a solicitação.<br>As opções desactivadas não estão disponíveis nas tuas configurações.',
 	'RECAPTCHA_V3_METHOD_CURL'			=> 'cURL',
 	'RECAPTCHA_V3_METHOD_POST'			=> 'POST',
 	'RECAPTCHA_V3_METHOD_SOCKET'		=> 'Socket',
@@ -72,6 +72,6 @@ $lang = array_merge($lang, [
 	'RECAPTCHA_V3_THRESHOLD_REGISTER'			=> 'Limite de registo',
 	'RECAPTCHA_V3_THRESHOLD_REPORT'				=> 'Limite de denúncias',
 	'RECAPTCHA_V3_THRESHOLDS'						=> 'Limites',
-	'RECAPTCHA_V3_THRESHOLDS_EXPLAIN'			=> 'reCAPTCHA v3 retorna uma pontuação (<samp>1.0</samp> é muito provável que seja uma boa interação enquanto <samp>0.0</samp> é muito provável que seja um robô). Aqui você pode definir a pontuação mínima por ação.',
+	'RECAPTCHA_V3_THRESHOLDS_EXPLAIN'			=> 'reCAPTCHA v3 retorna uma pontuação (<samp>1.0</samp> é muito provável que seja uma boa interação enquanto <samp>0.0</samp> é muito provável que seja um robô). Aqui podes definir a pontuação mínima por ação.',
 	'EMPTY_RECAPTCHA_V3_REQUEST_METHOD'			=> 'reCAPTCHA v3 exige que saiba qual método disponível que deseja usar ao verificar a solicitação.',
 ]);

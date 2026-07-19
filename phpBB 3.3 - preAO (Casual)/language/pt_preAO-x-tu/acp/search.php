@@ -36,12 +36,12 @@ if (empty($lang) || !is_array($lang)) {
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, [
-	'ACP_SEARCH_INDEX_EXPLAIN'					=> 'Aqui podes gerir os índices de pesquisa do Fórum. Desde que normalmente utilize apenas um modo de pesquisa deve apagar todos os outros. Depois de alterar algumas das configurações da pesquisa (e.g. o número mínimo/máximo de caracteres) é preciso recriar o índice para que as novas configurações se tornem efectivas.',
+	'ACP_SEARCH_INDEX_EXPLAIN'					=> 'Aqui podes gerir os índices de pesquisa do Fórum. Desde que normalmente utiliza apenas um modo de pesquisa deve apagar todos os outros. Depois de alterar algumas das configurações da pesquisa (e.g. o número mínimo/máximo de caracteres) é preciso recriar o índice para que as novas configurações se tornem efectivas.',
 	'ACP_SEARCH_SETTINGS_EXPLAIN'				=> 'Aqui podes definir o modo de pesquisa que será utilizado para a execução deste Sistema. Pode configurar várias opções que podem influenciar em quantos processos estas acções serão solicitadas. Algumas destas configurações são as mesmas para todos os modos de pesquisa.',
 
 	'COMMON_WORD_THRESHOLD'						=> 'Limite de palavras comuns',
 	'COMMON_WORD_THRESHOLD_EXPLAIN'			=> 'Palavras que estão incluídas em grande percentagem em todas as Mensagens, são consideradas comuns. As palavras comuns são ignoradas nas pesquisas. Escreva zero para desactivar esta opção. Apenas terá efeito se possuir mais de 100 Mensagens.',
-	'CONFIRM_SEARCH_BACKEND'					=> 'Deseja alterar o modo de pesquisa? Depois de modificar o seu modo de pesquisa, deverá criar um novo índice para o novo modo seleccionado. Se não planeia voltar ao seu modo de pesquisa antigo, poderá excluí-lo.',
+	'CONFIRM_SEARCH_BACKEND'					=> 'Deseja alterar o modo de pesquisa? Depois de modificar o teu modo de pesquisa, deverá criar um novo índice para o novo modo seleccionado. Se não planeia voltar ao teu modo de pesquisa antigo, poderá excluí-lo.',
 	'CONTINUE_DELETING_INDEX'					=> 'Continuar processo de exclusão de índice',
 	'CONTINUE_DELETING_INDEX_EXPLAIN'		=> 'Um processo de exclusão de índice foi iniciado. Para aceder à página de índice da pesquisa novamente deve completar o processo ou cancelá-lo.',
 	'CONTINUE_INDEXING'							=> 'Continuar com o processo de indexar anterior',
@@ -84,8 +84,8 @@ $lang = array_merge($lang, [
 	'FULLTEXT_SPHINX_PORT_EXPLAIN'				=> 'Porta usada pela servidor onde funciona a pesquisa sphinx daemon. Deixe em branco para usar por defeito a porta 9312 da API Sphinx',
 	'FULLTEXT_SPHINX_WRONG_DATABASE'				=> 'A pesquisa sphinx para phpBB apenas suporta MySQL e PostgreSQL.',
 	'FULLTEXT_SPHINX_CONFIG_FILE'					=> 'Ficheiro de configuração Sphinx',
-	'FULLTEXT_SPHINX_CONFIG_FILE_EXPLAIN'		=> 'O conteúdo gerado pelo ficheiro de configuração sphinx. Estes dados têm que ser colados no sphinx.conf usado pela pesquisa sphinx daemon. Substitua os espaços em [dbuser] e [dbpassword], pelas credenciais de acesso à sua Base de Dados.',
-	'FULLTEXT_SPHINX_NO_CONFIG_DATA'				=> 'O caminho da pasta de dados sphinx não está definido. Por favor defina-o para gerar o ficheiro de configuração.',
+	'FULLTEXT_SPHINX_CONFIG_FILE_EXPLAIN'		=> 'O conteúdo gerado pelo ficheiro de configuração sphinx. Estes dados têm que ser colados no sphinx.conf usado pela pesquisa sphinx daemon. Substitua os espaços em [dbuser] e [dbpassword], pelas credenciais de acesso à tua Base de Dados.',
+	'FULLTEXT_SPHINX_NO_CONFIG_DATA'				=> 'O caminho da pasta de dados sphinx não está definido. Por favor define-o para gerar o ficheiro de configuração.',
 
 	'GENERAL_SEARCH_SETTINGS'				=> 'Configurações Gerais da Pesquisa',
 	'GO_TO_SEARCH_INDEX'						=> 'Ir à página inicial da Pesquisa',
@@ -130,7 +130,7 @@ $lang = array_merge($lang, [
 	'SEARCH_STORE_RESULTS'					=> 'Tamanho da Cache de resultados da pesquisa',
 	'SEARCH_STORE_RESULTS_EXPLAIN'		=> 'A Cache dos resultados da pesquisa irá expirar após este tempo, em segundos. Escreva 0 se deseja desactivar esta opção.',
 	'SEARCH_TYPE'								=> 'Modo de pesquisa',
-	'SEARCH_TYPE_EXPLAIN'					=> 'O phpBB permite-lhe seleccionar o modo que será utilizado para a pesquisa de textos nos conteúdos da mensagem. Por padrão, será utilizado apenas o próprio sistema de pesquisas por textos completos.',
+	'SEARCH_TYPE_EXPLAIN'					=> 'O phpBB permite-te seleccionar o modo que será utilizado para a pesquisa de textos nos conteúdos da mensagem. Por padrão, será utilizado apenas o próprio sistema de pesquisas por textos completos.',
 	'SWITCHED_SEARCH_BACKEND'				=> 'O modo de pesquisa foi seleccionado com sucesso. Agora, para utilizá-lo terá que certificar-se da existência de um índice para o modo escolhido.',
 
 	'TOTAL_WORDS'								=> 'Número Total de Palavras indexadas',

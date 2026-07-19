@@ -72,9 +72,9 @@ $lang = array_merge($lang, [
 
 	'TOKEN'								=> 'Símbolo',
 	'TOKENS'								=> 'Símbolos',
-	'TOKENS_EXPLAIN'					=> 'Os Símbolos são campos especiais a serem adicionados pelos Utilizadores. Mas estes apenas serão válidos se tiverem as definições correspondentes. Se necessário, pode numerá-los adicionando um número como o último carácter: Exemplo: {Utilizador}, {Utilizador1}.<br /> <br />Pode ainda utilizar estes Símbolos com qualquer sequência de linguagem presente na pasta /language como esta: {L_<em>&lt;STRINGNAME&gt;</em>} onde <em>&lt;STRINGNAME&gt;</em> é o nome da sequência traduzida que deseja adicionar. Por exemplo, {L_WROTE} será exibido como “Escreveu” ou traduzido de acordo com a localidade do Utilizador.<br /><br /><strong>Tenha em atenção que apenas os Símbolos listados abaixo podem ser utilizados com os BBCodes personalizados.</strong>',
+	'TOKENS_EXPLAIN'					=> 'Os Símbolos são campos especiais a serem adicionados pelos Utilizadores. Mas estes apenas serão válidos se tiverem as definições correspondentes. Se necessário, podes numerá-los adicionando um número como o último carácter: Exemplo: {Utilizador}, {Utilizador1}.<br /> <br />Podes ainda utilizar estes Símbolos com qualquer sequência de linguagem presente na pasta /language como esta: {L_<em>&lt;STRINGNAME&gt;</em>} onde <em>&lt;STRINGNAME&gt;</em> é o nome da sequência traduzida que desejares adicionar. Por exemplo, {L_WROTE} será exibido como “Escreveu” ou traduzido de acordo com a localidade do Utilizador.<br /><br /><strong>Tem em atenção que apenas os Símbolos listados abaixo podem ser utilizados com os BBCodes personalizados.</strong>',
 	'TOKEN_DEFINITION'				=> 'O que é que isto pode ser?',
-	'TOO_MANY_BBCODES'				=> 'Não pode criar mais BBCodes. Elimine alguns BBCodes para poder criar outros.',
+	'TOO_MANY_BBCODES'				=> 'Não podes criar mais BBCodes. Elimina alguns BBCodes para poderes criar outros.',
 
 	'tokens'			=> [
 		'TEXT'				=> 'Qualquer texto, incluindo caracteres estrangeiros, números, etc ...',
@@ -102,9 +102,9 @@ $lang = array_merge($lang, [
 
 	'CODE'								=> 'Código',
 	'CURRENT_ICONS'					=> 'Ícones atuais',
-	'CURRENT_ICONS_EXPLAIN'			=> 'Escolha o que fazer com os ícones atualmente instalados.',
+	'CURRENT_ICONS_EXPLAIN'			=> 'Escolhe o que fazer com os ícones atualmente instalados.',
 	'CURRENT_SMILIES'					=> 'Emoções atuais',
-	'CURRENT_SMILIES_EXPLAIN'		=> 'Escolha o que fazer com as Emoções atualmente instaladas.',
+	'CURRENT_SMILIES_EXPLAIN'		=> 'Escolhe o que fazer com as Emoções atualmente instaladas.',
 
 	'DISPLAY_ON_POSTING'				=> 'Exibir na Mensagem',
 	'DISPLAY_POSTING'					=> 'Na Mensagem',
@@ -207,7 +207,7 @@ $lang = array_merge($lang, [
 	'ADD_WORD'							=> 'Adicionar nova Palavra',
 
 	'EDIT_WORD'							=> 'Editar Palavra Censurada',
-	'ENTER_WORD'						=> 'Tem que escrever uma palavra e a sua substituição.',
+	'ENTER_WORD'						=> 'Tens que escrever uma palavra e a sua substituição.',
 
 	'NO_WORD'							=> 'Não foi selecionada nenhuma palavra para poder ser editada.',
 
@@ -226,11 +226,11 @@ $lang = array_merge($lang, [
 	'ACP_RANKS_EXPLAIN'				=> 'Aqui poderá adicionar, editar, visualizar e apagar classificações. Pode também criar classificações personalizadas que podem ser aplicados a um Utilizador nas Ferramentas de Administração de Utilizadores.',
 	'ADD_RANK'							=> 'Adicionar nova classificação',
 
-	'MUST_SELECT_RANK'				=> 'Tem de selecionar uma classificação.',
+	'MUST_SELECT_RANK'				=> 'Tens de selecionar uma classificação.',
 
 	'NO_ASSIGNED_RANK'				=> 'Nenhuma Classificação Especial existente.',
-	'NO_RANK_TITLE'					=> 'Tem que escrever o Título da Classificação.',
-	'NO_UPDATE_RANKS'					=> 'A classificação foi apagada com sucesso. De qualquer modo, os registos que utilizavam esta classificação não foram atualizados. Tem que atualizar as classificações nestes registos manualmente.',
+	'NO_RANK_TITLE'					=> 'Tens que escrever o Título da Classificação.',
+	'NO_UPDATE_RANKS'					=> 'A classificação foi apagada com sucesso. De qualquer modo, os registos que utilizavam esta classificação não foram atualizados. Tens que atualizar as classificações nestes registos manualmente.',
 
 	'RANK_ADDED'						=> 'A classificação foi adicionada com sucesso.',
 	'RANK_IMAGE'						=> 'Imagem da Classificação',
@@ -238,18 +238,18 @@ $lang = array_merge($lang, [
 	'RANK_IMAGE_IN_USE'				=> '(em uso)',
 	'RANK_MINIMUM'						=> 'Número Mínimo de Mensagens',
 	'RANK_REMOVED'						=> 'A classificação foi apagada com sucesso.',
-	'RANK_SPECIAL'						=> 'Escreva uma Classificação Especial',
+	'RANK_SPECIAL'						=> 'Escreve uma Classificação Especial',
 	'RANK_TITLE'						=> 'Título da Classificação',
 	'RANK_UPDATED'						=> 'A Classificação foi atualizada com sucesso.',
 ]);
 
 // Disallow Usernames
 $lang = array_merge($lang, [
-	'ACP_DISALLOW_EXPLAIN'			=> 'Aqui podes gerir os nomes cuja utilização é proibida. Utilize o asterisco (*) para facilitar a construção de nomes.',
-	'ADD_DISALLOW_EXPLAIN'			=> 'Pode proibir nomes de utilizadores combinando o asterisco (*) com outros caracteres.',
+	'ACP_DISALLOW_EXPLAIN'			=> 'Aqui podes gerir os nomes cuja utilização é proibida. Utiliza o asterisco (*) para facilitar a construção de nomes.',
+	'ADD_DISALLOW_EXPLAIN'			=> 'Podes proibir nomes de utilizadores combinando o asterisco (*) com outros caracteres.',
 	'ADD_DISALLOW_TITLE'				=> 'Adicionar um Nome Proibido',
 
-	'DELETE_DISALLOW_EXPLAIN'		=> 'Aqui podes eliminar uma proibição, ao selecionar na lista o nome cuja proibição pretende anular, clicando de seguida em enviar.',
+	'DELETE_DISALLOW_EXPLAIN'		=> 'Aqui podes eliminar uma proibição, ao selecionar na lista o nome cuja proibição pretendes anular, clicando de seguida em enviar.',
 	'DELETE_DISALLOW_TITLE'			=> 'Apagar um Nome Proibido',
 	'DISALLOWED_ALREADY'				=> 'O Nome especificado já está proibido.',
 	'DISALLOWED_DELETED'				=> 'O Nome Proibido foi apagado com sucesso.',
@@ -266,7 +266,7 @@ $lang = array_merge($lang, [
 	'AVAILABLE_TITLES'				=> 'Títulos de Razões Locais Disponíveis',
 
 	'IS_NOT_TRANSLATED'				=> 'A Razão <strong>não</strong> foi encontrada.',
-	'IS_NOT_TRANSLATED_EXPLAIN'	=> 'A Razão <strong>não</strong> foi encontrada. Se deseja estabelecer a forma local, especifique a chave correta através dos ficheiros de linguagem do Fórum de razões para denúncias.',
+	'IS_NOT_TRANSLATED_EXPLAIN'	=> 'A Razão <strong>não</strong> foi encontrada. Se desejas estabelecer a forma local, especifica a chave correta através dos ficheiros de linguagem do Fórum de razões para denúncias.',
 	'IS_TRANSLATED'					=> 'A Razão foi encontrada.',
 	'IS_TRANSLATED_EXPLAIN'			=> 'A Razão foi encontrada. Se o título que escreveu aqui for especificado com os ficheiros de linguagem do Fórum de razões para denúncias, a forma localizada para o título e a descrição serão utilizadas.',
 

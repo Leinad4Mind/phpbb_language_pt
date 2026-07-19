@@ -41,7 +41,7 @@ $lang = array_merge($lang, [
 	'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> 'Anexos foram desactivados',
 
 	'BOOKMARK_ADDED'					=> 'Tópico adicionado aos Favoritos.',
-	'BOOKMARK_ERR'						=> 'Erro ao adicionar o Tópico aos favoritos. Por favor, tente novamente.',
+	'BOOKMARK_ERR'						=> 'Erro ao adicionar o Tópico aos favoritos. Por favor, tenta novamente.',
 	'BOOKMARK_REMOVED'				=> 'Tópico removido dos Favoritos.',
 	'BOOKMARK_TOPIC'					=> 'Adicionar Tópico aos Favoritos',
 	'BOOKMARK_TOPIC_REMOVE'			=> 'Remover Tópico dos Favoritos',
@@ -117,6 +117,6 @@ $lang = array_merge($lang, [
 		2	=> '%d mensagens',
 	],
 	'VIEW_UNREAD_POST'				=> 'Mensagens por ler',
-	'VOTE_SUBMITTED'					=> 'O seu voto foi registado.',
+	'VOTE_SUBMITTED'					=> 'O teu voto foi registado.',
 	'VOTE_CONVERTED'					=> 'Não é possível alterar votos.',
 ]);

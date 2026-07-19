@@ -59,7 +59,7 @@ $lang = array_merge($lang, [
 	'OVERRIDE_STYLE_EXPLAIN'			=> 'Substitui o Estilo dos Utilizadores e dos visitantes pelo Estilo Padrão do Fórum.',
 	'SITE_DESC'								=> 'Descrição do Site',
 	'SITE_HOME_TEXT'						=> 'Texto principal do sítio Web',
-	'SITE_HOME_TEXT_EXPLAIN'			=> 'Este texto será exibido como um link para sua página inicial do sítio, no breadcrumbs do Fórum. Se não for especificado, o padrão será "Página Principal".',
+	'SITE_HOME_TEXT_EXPLAIN'			=> 'Este texto será exibido como um link para a tua página inicial do sítio, no breadcrumbs do Fórum. Se não for especificado, o padrão será "Página Principal".',
 	'SITE_HOME_URL'						=> 'URL principal do sítio',
 	'SITE_HOME_URL_EXPLAIN'				=> 'Se for especificado, será colocado no início do breadcrumbs um link para este URL e o logótipo do Fórum vai apontar para este URL em vez do índice do Fórum. É obrigatório indicar um URL, por exemplo, <samp>http://www.phpbb.com</samp>.',
 	'SITE_NAME'								=> 'Nome do Sítio',
@@ -134,7 +134,7 @@ $lang = array_merge($lang, [
 
 	'ALLOW_BBCODE_PM'						=> 'Permitir BBCode nas Mensagens Privadas',
 	'ALLOW_FLASH_PM'						=> 'Permitir o uso do BBCode FLASH',
-	'ALLOW_FLASH_PM_EXPLAIN'			=> 'Para enviar Flash nas Mensagens Privadas tem que ativar esta opção. O que depende das suas Permissões.',
+	'ALLOW_FLASH_PM_EXPLAIN'			=> 'Para enviar Flash nas Mensagens Privadas tens que ativar esta opção. O que depende das tuas Permissões.',
 	'ALLOW_FORWARD_PM'					=> 'Permitir reencaminhamento das Mensagens Privadas',
 	'ALLOW_IMG_PM'							=> 'Permitir o uso do BBCode IMG',
 	'ALLOW_MASS_PM'						=> 'Permitir envio de Mensagens Privadas para múltiplos Utilizadores e Grupos',
@@ -225,12 +225,12 @@ $lang = array_merge($lang, [
 	'ACP_REGISTER_SETTINGS_EXPLAIN'		=> 'Aqui são definidas as opções de Registo e Perfil do Utilizador.',
 
 	'ACC_ACTIVATION'							=> 'Ativação de Conta',
-	'ACC_ACTIVATION_EXPLAIN'				=> 'Pode desativar os Registos ou definir se o novo Utilizador tem acesso imediato ao Fórum ou se é necessária uma confirmação.',
+	'ACC_ACTIVATION_EXPLAIN'				=> 'Podes desativar os Registos ou definir se o novo Utilizador tem acesso imediato ao Fórum ou se é necessária uma confirmação.',
 	'ACC_ACTIVATION_WARNING'				=> 'Por favor, note que o método de ativação selecionado atualmente exige que o envio de emails esteja ativado, de outra forma de registo será desativado. Recomendamos que selecione um método de ativação diferente ou ative o envio de emails.',
 	'NEW_MEMBER_POST_LIMIT'					=> 'Limite das Mensagens dos Utilizadores Registados Recentemente',
-	'NEW_MEMBER_POST_LIMIT_EXPLAIN'		=> 'Os novos utilizadores entram para o Grupo <em>Utilizadores Registados Recentemente</em> até atingirem este número de mensagens. Pode usar este Grupo para impedir que usem as mensagens privadas ou para rever as suas mensagens. <strong>0 para desativar.</strong>',
+	'NEW_MEMBER_POST_LIMIT_EXPLAIN'		=> 'Os novos utilizadores entram para o Grupo <em>Utilizadores Registados Recentemente</em> até atingirem este número de mensagens. Podes usar este Grupo para impedir que usem as mensagens privadas ou para rever as suas mensagens. <strong>0 para desativar.</strong>',
 	'NEW_MEMBER_GROUP_DEFAULT'				=> 'Grupo de Utilizadores Registados Recentemente',
-	'NEW_MEMBER_GROUP_DEFAULT_EXPLAIN'	=> 'Se definido como Sim e especificado um limite de mensagens, o novo utilizador será colocado no Grupo <em>Utilizadores Registados Recentemente</em>, sendo esse o seu Grupo Padrão. Isso pode ser útil se deseja atribuir um Grupo Padrão, Classificação e/ou Avatar a estes utilizadores.',
+	'NEW_MEMBER_GROUP_DEFAULT_EXPLAIN'	=> 'Se definido como Sim e especificado um limite de mensagens, o novo utilizador será colocado no Grupo <em>Utilizadores Registados Recentemente</em>, sendo esse o seu Grupo Padrão. Isso pode ser útil se desejares atribuir um Grupo Padrão, Classificação e/ou Avatar a estes utilizadores.',
 
 	'ACC_ADMIN'							=> 'Administrador',
 	'ACC_DISABLE'						=> 'Desativar Registos',
@@ -291,7 +291,7 @@ $lang = array_merge($lang, [
 	'ACP_FEED_TOPICS_ACTIVE'			=> 'Ativar Feeds nos Tópicos ativos',
 	'ACP_FEED_TOPICS_ACTIVE_EXPLAIN'	=> 'Ativa Feeds nos "Tópicos ativos”, exibindo os últimos Tópicos ativos, incluindo as últimas mensagens.',
 	'ACP_FEED_NEWS'						=> 'Notícias Feed',
-	'ACP_FEED_NEWS_EXPLAIN'				=> 'Selecione a primeira mensagem destes Fóruns. Selecione nenhum Fórum para desativar o Feed de notícias.<br>Selecione múltiplos Fóruns clicando na tecla <samp>CTRL</samp> e clicando no Fórum.',
+	'ACP_FEED_NEWS_EXPLAIN'				=> 'Seleciona a primeira mensagem destes Fóruns. Não seleciones nenhum Fórum para desativar o Feed de notícias.<br>Seleciona múltiplos Fóruns clicando na tecla <samp>CTRL</samp> e clicando no Fórum.',
 
 	'ACP_FEED_OVERALL_FORUMS'				=> 'Ativar Feed nos Fóruns',
 	'ACP_FEED_OVERALL_FORUMS_EXPLAIN'	=> 'Permite mostrar a lista de “Todos os Fóruns” com Feed.',
@@ -301,13 +301,13 @@ $lang = array_merge($lang, [
 	'ACP_FEED_ITEM_STATISTICS'				=> 'Item de estatísticas',
 	'ACP_FEED_ITEM_STATISTICS_EXPLAIN'	=> 'Exibe estatísticas individuais por baixo dos itens de feed<br>(Enviado por, data e hora, respostas, visualizações)',
 	'ACP_FEED_EXCLUDE_ID'					=> 'Excluir Fóruns',
-	'ACP_FEED_EXCLUDE_ID_EXPLAIN'			=> 'O conteúdo destes <strong>não será incluído nos feeds</strong>. Não selecione nenhum Fórum, para puxar os dados de todos os Fóruns.<br>Selecione/Desmarque múltiplos Fóruns clicando <samp>CTRL</samp> e clicando.',
+	'ACP_FEED_EXCLUDE_ID_EXPLAIN'			=> 'O conteúdo destes <strong>não será incluído nos feeds</strong>. Não seleciones nenhum Fórum, para puxar os dados de todos os Fóruns.<br>Seleciona/Desmarca múltiplos Fóruns clicando <samp>CTRL</samp> e clicando.',
 ]);
 
 // Visual Confirmation Settings
 $lang = array_merge($lang, [
 	'ACP_VC_SETTINGS_EXPLAIN'					=> 'Aqui podes selecionar e configurar plugins desenhados para bloquear registos automáticos de spambots. Estes plugins fazem um teste ao utilizador <em>(CAPTCHA)</em> de difícil resolução pelos computadores.',
-	'ACP_VC_EXT_GET_MORE'						=> 'Para plugins adicionais (e possivelmente melhores) anti-spam, visite o <a href="https://www.phpbb.com/go/anti-spam-ext"><strong>Repositório de Extensões do phpBB.com</strong></a>. Para mais informações sobre a prevenção de spam no seu fórum, visite o <a href="https://www.phpbb.com/go/anti-spam"><strong>phpBB.com Knowledge Base</strong></a>.',
+	'ACP_VC_EXT_GET_MORE'						=> 'Para plugins adicionais (e possivelmente melhores) anti-spam, visita o <a href="https://www.phpbb.com/go/anti-spam-ext"><strong>Repositório de Extensões do phpBB.com</strong></a>. Para mais informações sobre a prevenção de spam no teu fórum, visita o <a href="https://www.phpbb.com/go/anti-spam"><strong>phpBB.com Knowledge Base</strong></a>.',
 	'AVAILABLE_CAPTCHAS'							=> 'Plugins disponíveis',
 	'CAPTCHA_UNAVAILABLE'						=> 'O plugin não pode ser selecionado enquanto não preencher os requisitos necessários.',
 	'CAPTCHA_GD'									=> 'Imagem GD',
@@ -316,9 +316,9 @@ $lang = array_merge($lang, [
 	'CAPTCHA_GD_EXPLAIN'							=> 'Use o GD para gerar uma imagem anti-spambot mais complexa.',
 	'CAPTCHA_GD_FOREGROUND_NOISE_EXPLAIN'	=> 'Use o ruído em primeiro plano para gerar uma imagem GD de mais difícil leitura.',
 	'CAPTCHA_GD_X_GRID'							=> 'O ruído de fundo do eixo x',
-	'CAPTCHA_GD_X_GRID_EXPLAIN'				=> 'Utilize esta configuração para gerar uma imagem mais complexa. 0 desativa o ruído de fundo no eixo X.',
+	'CAPTCHA_GD_X_GRID_EXPLAIN'				=> 'Utiliza esta configuração para gerar uma imagem mais complexa. 0 desativa o ruído de fundo no eixo X.',
 	'CAPTCHA_GD_Y_GRID'							=> 'O ruído de fundo do eixo y',
-	'CAPTCHA_GD_Y_GRID_EXPLAIN'				=> 'Utilize esta configuração para gerar uma imagem mais complexa. 0 desativa o ruído de fundo no eixo Y.',
+	'CAPTCHA_GD_Y_GRID_EXPLAIN'				=> 'Utiliza esta configuração para gerar uma imagem mais complexa. 0 desativa o ruído de fundo no eixo Y.',
 	'CAPTCHA_GD_WAVE'								=> 'Onda de distorção',
 	'CAPTCHA_GD_WAVE_EXPLAIN'					=> 'Aplica uma onda para provocar distorção na imagem.',
 	'CAPTCHA_GD_3D_NOISE'						=> 'Adiciona ruído usando objetos 3D',
@@ -329,7 +329,7 @@ $lang = array_merge($lang, [
 	'CAPTCHA_FONT_NEW'							=> 'Novas formas',
 	'CAPTCHA_FONT_LOWER'							=> 'Também usar minúsculas',
 	'CAPTCHA_NO_GD'								=> 'Imagem simples',
-	'CAPTCHA_PREVIEW_MSG'						=> 'As suas alterações não foram gravadas, isto é apenas uma previsão.',
+	'CAPTCHA_PREVIEW_MSG'						=> 'As tuas alterações não foram gravadas, isto é apenas uma previsão.',
 	'CAPTCHA_PREVIEW_EXPLAIN'					=> 'O plugin será semelhante a esta imagem:',
 
 	'CAPTCHA_SELECT'								=> 'Plugins instalados',
@@ -349,14 +349,14 @@ $lang = array_merge($lang, [
 
 // Cookie Settings
 $lang = array_merge($lang, [
-	'ACP_COOKIE_SETTINGS_EXPLAIN'			=> 'Estas configurações definem os dados usados nos cookies enviados aos navegadores dos Utilizadores. Na maioria dos casos os valores predefinidos são suficientes. Se os alterar faça-o com cuidado. Qualquer incorreção impede os Utilizadores de acederem ao Fórum. Se verificar que os utilizadores não conseguem entrar ou sair da sua conta, visite <strong><a href="https://www.phpbb.com/support/go/cookie-settings/">phpBB.com Knowledge Base - Corrigindo configurações de Cookies Incorretas</a></strong>.',
+	'ACP_COOKIE_SETTINGS_EXPLAIN'			=> 'Estas configurações definem os dados usados nos cookies enviados aos navegadores dos Utilizadores. Na maioria dos casos os valores predefinidos são suficientes. Se os alterares faz-o com cuidado. Qualquer incorreção impede os Utilizadores de acederem ao Fórum. Se verificares que os utilizadores não conseguem entrar ou sair da sua conta, visita <strong><a href="https://www.phpbb.com/support/go/cookie-settings/">phpBB.com Knowledge Base - Corrigindo configurações de Cookies Incorretas</a></strong>.',
 
 	'COOKIE_DOMAIN'							=> 'Domínio do Cookie',
-	'COOKIE_DOMAIN_EXPLAIN'					=> 'Na maioria dos casos o domínio do cookie é opcional. Deixe em branco em caso de dúvida.<br><br> No caso de ter o fórum integrado com outro software ou de ter múltiplos domínios, então, para determinar o domínio do cookie, deverá fazer o seguinte. Caso tenha algo como <i>exemplo.pt</i> e <i>forum.exemplo.pt</i>, ou talvez <i>forum.exemplo.pt</i> e <i>blog.exemplo.pt</i>. Remova os subdomínios até que reste o domínio principal, <i>exemplo.pt</i>. Agora adicione um ponto final em frente ao domínio, ou seja, ficaria: .exemplo.pt (repare no ponto final no início).',
+	'COOKIE_DOMAIN_EXPLAIN'					=> 'Na maioria dos casos o domínio do cookie é opcional. Deixa em branco em caso de dúvida.<br><br> No caso de teres o fórum integrado com outro software ou de teres múltiplos domínios, então, para determinares o domínio do cookie, deverás fazer o seguinte. Caso tenhas algo como <i>exemplo.pt</i> e <i>forum.exemplo.pt</i>, ou talvez <i>forum.exemplo.pt</i> e <i>blog.exemplo.pt</i>. Remove os subdomínios até que reste o domínio principal, <i>exemplo.pt</i>. Agora adiciona um ponto final em frente ao domínio, ou seja, ficaria: .exemplo.pt (repara no ponto final no início).',
 	'COOKIE_NAME'								=> 'Nome do Cookie',
-	'COOKIE_NAME_EXPLAIN'					=> 'Pode colocar aqui o que bem desejar, seja original. Sempre que as configurações dos cookies sejam alteradas, o nome do cookie deve ser também alterado.',
+	'COOKIE_NAME_EXPLAIN'					=> 'Podes colocar aqui o que bem desejares, sê original. Sempre que as configurações dos cookies sejam alteradas, o nome do cookie deve ser também alterado.',
 	'COOKIE_NOTICE'				 			=> 'Aviso do Cookie',
-	'COOKIE_NOTICE_EXPLAIN'					=> 'Se ativado, um aviso sobre o cookie será mostrado aos utilizadores quando estes visitarem o seu fórum. Poderá ser exigido por lei, dependendo do conteúdo do fórum e das extensões ativadas.',
+	'COOKIE_NOTICE_EXPLAIN'					=> 'Se ativado, um aviso sobre o cookie será mostrado aos utilizadores quando estes visitarem o teu fórum. Poderá ser exigido por lei, dependendo do conteúdo do fórum e das extensões ativadas.',
 	'COOKIE_PATH'								=> 'Caminho do Cookie',
 	'COOKIE_PATH_EXPLAIN'					=> 'Normalmente será o mesmo que o caminho do script ou apenas uma barra para tornar o cookie acessível em todo o domínio do site.',
 	'COOKIE_SECURE'							=> 'Cookie seguro',
@@ -385,7 +385,7 @@ $lang = array_merge($lang, [
 	'ACP_LOAD_SETTINGS_EXPLAIN'			=> 'Aqui podes ativar e desativar certas funções do Fórum que podem reduzir o total de processamento pedido. Para a maioria dos Servidores não é necessário desativar nenhuma função. No entanto, em certos sistemas ou em ambientes de hospedagem compartilhada pode ser benéfico se desativar alguns recursos que não sejam realmente necessários. Pode também especificar limites para a carga do sistema e ativar sessões, além das quais o Fórum sairá do ar.',
 
 	'ALLOW_CDN'									=> 'Permitir o uso de redes de entrega de conteúdo de terceiros',
-	'ALLOW_CDN_EXPLAIN'						=> 'Se esta configuração for ativada, alguns ficheiros podem ser colocados em servidores externos em vez do seu próprio servidor. Isso reduz o consumo da largura de banda da rede usada pelo seu servidor, mas pode representar um problema de privacidade em alguns países. Numa instalação padrão do phpBB, isso inclui carregar “jQuery” e o tipo de letra “Open Sans” da rede de entrega de conteúdo da Google. Isso também se aplica ao tipo de letra “Font Awesome”, que o phpBB e algumas extensões usam para renderizar ícones.',
+	'ALLOW_CDN_EXPLAIN'						=> 'Se esta configuração for ativada, alguns ficheiros podem ser colocados em servidores externos em vez do teu próprio servidor. Isso reduz o consumo da largura de banda da rede usada pelo teu servidor, mas pode representar um problema de privacidade em alguns países. Numa instalação padrão do phpBB, isso inclui carregar “jQuery” e o tipo de letra “Open Sans” da rede de entrega de conteúdo da Google. Isso também se aplica ao tipo de letra “Font Awesome”, que o phpBB e algumas extensões usam para renderizar ícones.',
 	'ALLOW_LIVE_SEARCHES'					=> 'Permitir pesquisas ativas',
 	'ALLOW_LIVE_SEARCHES_EXPLAIN'			=> 'Se esta configuração for ativada, serão sugeridas aos utilizadores palavras-chave, à medida que digitam em certos campos do fórum.',
 	'CUSTOM_PROFILE_FIELDS'					=> 'Campos do Perfil Personalizados',
@@ -430,26 +430,26 @@ $lang = array_merge($lang, [
 $lang = array_merge($lang, [
 	'ACP_AUTH_SETTINGS_EXPLAIN'			=> 'O phpBB suporta Plugins ou Módulos que permitem definir o método de autenticação dos Utilizadores que entram no Fórum. São disponibilizados três plugins: DB, LDAP e Apache. Nem todos os Módulos necessitam de informação adicional. Preencha apenas os campos relevantes para o método selecionado.',
 
-	'AUTH_METHOD'								=> 'Selecione um método de autenticação',
+	'AUTH_METHOD'								=> 'Seleciona um método de autenticação',
 
-	'AUTH_PROVIDER_OAUTH_ERROR_ELEMENT_MISSING'	=> 'Tem de indicar a key e o secret de cada OAuth service provider ativado. É necessário apenas uma de cada OAuth service provider.',
-	'AUTH_PROVIDER_OAUTH_EXPLAIN'			=> 'Cada provedor de OAuth requer um segredo único e fundamental para se autenticar com o servidor externo. Este deve ser fornecido pelo serviço OAuth quando regista o seu site e deve ser inserido exatamente como fornecido.<br>Os serviços que não tenham uma chave e um segredo aqui inseridos não estarão disponíveis para serem usados pelos utilizadores do fórum. Tenha em atenção que o utilizador pode ainda registar-se e ligar-se usando a DB authentication plug-in.',
+	'AUTH_PROVIDER_OAUTH_ERROR_ELEMENT_MISSING'	=> 'Tens de indicar a key e o secret de cada OAuth service provider ativado. É necessário apenas uma de cada OAuth service provider.',
+	'AUTH_PROVIDER_OAUTH_EXPLAIN'			=> 'Cada provedor de OAuth requer um segredo único e fundamental para se autenticar com o servidor externo. Este deve ser fornecido pelo serviço OAuth quando registas o teu site e deve ser inserido exatamente como fornecido.<br>Os serviços que não tenham uma chave e um segredo aqui inseridos não estarão disponíveis para serem usados pelos utilizadores do fórum. Tem em atenção que o utilizador pode ainda registar-se e ligar-se usando a DB authentication plug-in.',
 	'AUTH_PROVIDER_OAUTH_KEY'				=> 'Key',
 	'AUTH_PROVIDER_OAUTH_TITLE'			=> 'OAuth',
 	'AUTH_PROVIDER_OAUTH_SECRET'			=> 'Secret',
 
-	'APACHE_SETUP_BEFORE_USE'				=> 'Tem que configurar a autenticação no Apache antes de mudar para este método de autenticação. Certifique-se de que o nome do Utilizador usado para a autenticação Apache seja a mesma que o seu nome de Utilizador no phpBB. A autenticação Apache apenas pode ser utilizada com o mod_php (com uma versão CGI não funciona).',
+	'APACHE_SETUP_BEFORE_USE'				=> 'Tens que configurar a autenticação no Apache antes de mudar para este método de autenticação. Certifica-te de que o nome do Utilizador usado para a autenticação Apache seja a mesma que o teu nome de Utilizador no phpBB. A autenticação Apache apenas pode ser utilizada com o mod_php (com uma versão CGI não funciona).',
 
 	'LDAP'										=> 'LDAP',
 	'LDAP_DN'									=> 'LDAP base <var>dn</var>',
 	'LDAP_DN_EXPLAIN'							=> 'Este é o Nome Distinto (dn), determinando a informação do Utilizador, Exemplo: o=Minha Companhia, c=EU.',
 	'LDAP_EMAIL'								=> 'Atributo do email LDAP',
-	'LDAP_EMAIL_EXPLAIN'						=> 'Atribui automaticamente ao nome de seu atributo de entrada de email do Utilizador (se existir um) o email ao novo Utilizador. Se deixar em branco, resulta num endereço de email vazio para os Utilizadores que entrem pela primeira vez ao Fórum.',
+	'LDAP_EMAIL_EXPLAIN'						=> 'Atribui automaticamente ao nome de seu atributo de entrada de email do Utilizador (se existir um) o email ao novo Utilizador. Se deixares em branco, resulta num endereço de email vazio para os Utilizadores que entrem pela primeira vez ao Fórum.',
 	'LDAP_INCORRECT_USER_PASSWORD'		=> 'As ligações para o Servidor LDAP falharam com nome de Utilizador e senha indicados.',
 	'LDAP_NO_EMAIL'							=> 'O Atributo de email especificado não existe.',
 	'LDAP_NO_IDENTITY'						=> 'Não foi possível encontrar uma identificação de Acesso para %s.',
 	'LDAP_PASSWORD'							=> 'Senha LDAP',
-	'LDAP_PASSWORD_EXPLAIN'					=> 'Deixe este campo em branco para acesso anónimo. Caso contrário preencha com a senha do Utilizador indicado. Necessário para Ative Directory Servers.<br><em><strong>Aviso:</strong> Esta senha será armazenada como texto simples na Base de Dados, visível a todos que podem aceder à Base de Dados ou a quem pode ver esta página de configuração.</em>',
+	'LDAP_PASSWORD_EXPLAIN'					=> 'Deixa este campo em branco para acesso anónimo. Caso contrário preenche com a senha do Utilizador indicado. Necessário para Ative Directory Servers.<br><em><strong>Aviso:</strong> Esta senha será armazenada como texto simples na Base de Dados, visível a todos que podem aceder à Base de Dados ou a quem pode ver esta página de configuração.</em>',
 	'LDAP_PORT'									=> 'Porta LDAP do Servidor',
 	'LDAP_PORT_EXPLAIN'						=> 'Opcionalmente pode definir uma porta para o Servidor LDAP que tem como padrão a porta 389.',
 	'LDAP_SERVER'								=> 'Nome do Servidor de LDAP',
@@ -459,12 +459,12 @@ $lang = array_merge($lang, [
 	'LDAP_USER'									=> 'Nome de Utilizador LDAP',
 	'LDAP_USER_EXPLAIN'						=> 'Deixe em branco para acesso anónimo. Se preenchido o phpBB irá ligar ao Servidor LDAP com o nome de Utilizador indicado.',
 	'LDAP_USER_FILTER'						=> 'Filtro do Utilizador LDAP',
-	'LDAP_USER_FILTER_EXPLAIN'				=> 'Pode optar por aumentar o limite de objetos pesquisados com filtros adicionais. Por exemplo, <samp>objectClass=posixGroup</samp> deve resultar na utilização de <samp>(&amp;(uid=$username)(objectClass=posixGroup))</samp>.',
+	'LDAP_USER_FILTER_EXPLAIN'				=> 'Podes optar por aumentar o limite de objetos pesquisados com filtros adicionais. Por exemplo, <samp>objectClass=posixGroup</samp> deve resultar na utilização de <samp>(&amp;(uid=$username)(objectClass=posixGroup))</samp>.',
 ]);
 
 // Server Settings
 $lang = array_merge($lang, [
-	'ACP_SERVER_SETTINGS_EXPLAIN'			=> 'Aqui são definidas as configurações dos Servidores e Domínios. Certifique-se de que os dados estão corretos. Eventuais erros resultarão em emails contendo informações incorretas. Quando introduzir o domínio, inclua o http:// ou outro protocolo. Altere apenas o número da Porta do Servidor se souber que seu Servidor usa um valor diferente, a Porta 80 é usada na maioria dos casos.',
+	'ACP_SERVER_SETTINGS_EXPLAIN'			=> 'Aqui são definidas as configurações dos Servidores e Domínios. Certifica-te de que os dados estão corretos. Eventuais erros resultarão em emails contendo informações incorretas. Quando introduzires o domínio, inclui o http:// ou outro protocolo. Altera apenas o número da Porta do Servidor se souberes que o teu Servidor usa um valor diferente, a Porta 80 é usada na maioria dos casos.',
 
 	'ENABLE_GZIP'								=> 'Ativa Compressão GZip',
 	'ENABLE_GZIP_EXPLAIN'					=> 'Conteúdo gerado será comprimido antes de enviado ao utilizador. Isto pode reduzir o tráfego na rede, mas irá aumentar o uso do CPU no servidor e cliente. Requer a utilização da extensão PHP zlib.',
@@ -473,9 +473,9 @@ $lang = array_merge($lang, [
 	'ICONS_PATH'								=> 'Caminho para Ficheiro de Ícones',
 	'ICONS_PATH_EXPLAIN'						=> 'Caminho desde a raiz do phpBB. Exemplo: images/icons.',
 	'MOD_REWRITE_ENABLE'						=> 'Ativar URL Rewriting',
-	'MOD_REWRITE_ENABLE_EXPLAIN' 			=> 'Quando ativado, as URLs que contenham ’app.php’ serão reescritas para remover o nome do ficheiro (ou seja, app.php/foo transforma-se em /foo). <strong>O mod_rewrite tem que estar ativado no Servidor Apache. Ativar esta opção sem o mod_rewrite, poderá comprometer o funcionamento do seu Fórum.</strong>',
-	'MOD_REWRITE_DISABLED'					=> 'O módulo <strong>mod_rewrite</strong> está desativado no seu servidor web Apache. Ative o módulo ou entre em contacto com seu serviço de hospedagem web, para ativar este recurso.',
-	'MOD_REWRITE_INFORMATION_UNAVAILABLE'	=> 'É impossível determinar se este servidor suporta regravação de URL. A configuração pode estar ativada, mas se a regravação não estiver disponível os caminhos gerados por este fórum (para uso em links) podem não funcionar. Contacte o seu fornecedor de hospedagem web, se não tiver a certeza se pode ou não ativar com segurança este recurso.',
+	'MOD_REWRITE_ENABLE_EXPLAIN' 			=> 'Quando ativado, as URLs que contenham ’app.php’ serão reescritas para remover o nome do ficheiro (ou seja, app.php/foo transforma-se em /foo). <strong>O mod_rewrite tem que estar ativado no Servidor Apache. Ativar esta opção sem o mod_rewrite, poderá comprometer o funcionamento do teu Fórum.</strong>',
+	'MOD_REWRITE_DISABLED'					=> 'O módulo <strong>mod_rewrite</strong> está desativado no teu servidor web Apache. Ativa o módulo ou entra em contacto com o teu serviço de hospedagem web, para ativar este recurso.',
+	'MOD_REWRITE_INFORMATION_UNAVAILABLE'	=> 'É impossível determinar se este servidor suporta regravação de URL. A configuração pode estar ativada, mas se a regravação não estiver disponível os caminhos gerados por este fórum (para uso em links) podem não funcionar. Contacta o teu fornecedor de hospedagem web, se não tiveres a certeza se podes ou não ativar com segurança este recurso.',
 	'PATH_SETTINGS'							=> 'Configurações do Caminho de Pastas',
 	'RANKS_PATH'								=> 'Caminho para Ficheiro de Imagens de Classificação',
 	'RANKS_PATH_EXPLAIN'						=> 'Caminho desde a raiz do phpBB. Exemplo: images/ranks.',
@@ -504,7 +504,7 @@ $lang = array_merge($lang, [
 	'ALLOW_AUTOLOGIN'							=> 'Permitir acesso automático ("Lembrar o meu acesso")',
 	'ALLOW_AUTOLOGIN_EXPLAIN'				=> 'Permite aos Utilizadores entrar automaticamente quando regressam ao Fórum.',
 	'ALLOW_PASSWORD_RESET'					=> 'Permitir redefinição de senha ("Esqueci-me da senha")',
-	'ALLOW_PASSWORD_RESET_EXPLAIN'		=> 'Determina se os utilizadores podem usar a opção "Esqueci-me da senha" na página de acesso para recuperar sua conta. Se usar um mecanismo de autenticação externo poderá desativar este recurso.',
+	'ALLOW_PASSWORD_RESET_EXPLAIN'		=> 'Determina se os utilizadores podem usar a opção "Esqueci-me da senha" na página de acesso para recuperar a sua conta. Se usares um mecanismo de autenticação externo poderás desativar este recurso.',
 	'AUTOLOGIN_LENGTH'						=> 'Duração em dias da chave "Lembrar o meus acesso"',
 	'AUTOLOGIN_LENGTH_EXPLAIN'				=> 'Duração da chave "Lembrar o meu acesso" em dias. 0 para desativar.',
 	'BROWSER_VALID'							=> 'Validação do navegador',
@@ -517,6 +517,7 @@ $lang = array_merge($lang, [
 	'EMAIL_CHECK_MX_EXPLAIN'				=> 'Se ativado, o Domínio do email, quando indicado nos Registos ou alterações de Perfil será verificado nos Registos MX.',
 	'FORCE_PASS_CHANGE'						=> 'Força a mudança de Senha',
 	'FORCE_PASS_CHANGE_EXPLAIN'			=> 'Duração em dias da Senha de acesso ao Fórum. Após este prazo é pedido ao Utilizador que altere a sua Senha. 0 para desativar.',
+
 	'FORM_TIME_MAX'							=> 'Tempo máximo para enviar formas',
 	'FORM_TIME_MAX_EXPLAIN'					=> 'Tempo máximo para enviar formas. Use -1 para desativar. Note que uma forma pode vir a ser inválida se a sessão expirar.',
 	'FORM_SID_GUESTS'							=> 'Formas de laço para Sessões de Visitantes',
@@ -526,13 +527,13 @@ $lang = array_merge($lang, [
 	'IP_VALID'									=> 'Verificação do IP da Sessão',
 	'IP_VALID_EXPLAIN'						=> 'Determina como é autenticado o IP do Utilizador. Todos comparam o endereço completo. A.B.C os primeiros x.x.x. A.B os primeiros x.x. Nenhum desativa a verificação. Em endereços IPv6: A.B.C compara os primeiros quatro blocos. A.B os primeiros 3 blocos.',
 	'IP_LOGIN_LIMIT_MAX'						=> 'Número máximo de tentativas de acesso por endereço IP',
-	'IP_LOGIN_LIMIT_MAX_EXPLAIN'			=> 'Limite de tentativas de acesso permitido, a partir de um único endereço IP, antes da tarefa anti-spambot ser disparada. Digite 0 para impedir que a tarefa anti-spambot de ser desencadeada por endereços IP.',
+	'IP_LOGIN_LIMIT_MAX_EXPLAIN'			=> 'Limite de tentativas de acesso permitido, a partir de um único endereço IP, antes da tarefa anti-spambot ser disparada. Digita 0 para impedir que a tarefa anti-spambot de ser desencadeada por endereços IP.',
 	'IP_LOGIN_LIMIT_TIME'					=> 'Tempo de duração para tentativas de acesso por endereço IP',
 	'IP_LOGIN_LIMIT_TIME_EXPLAIN'			=> 'A permissão para tentar o acesso termina após este período.',
 	'IP_LOGIN_LIMIT_USE_FORWARDED'		=> 'Tentativas de acesso limitadas a valores <var>X_FORWARDED_FOR</var>',
 	'IP_LOGIN_LIMIT_USE_FORWARDED_EXPLAIN'	=> 'Em vez de limitar as tentativas de acesso pelo endereço IP, são limitadas por valores <var>X_FORWARDED_FOR</var>. <br><em><strong>Aviso:</strong> Só ative esta opção se o servidor proxy fornecer valores <var>X_FORWARDED_FOR</var> confiáveis.</em>',
 	'MAX_LOGIN_ATTEMPTS'						=> 'Número máximo de tentativas de acesso',
-	'MAX_LOGIN_ATTEMPTS_EXPLAIN'			=> 'Após este número de acessos inválidos, o Utilizador terá que fazer a tarefa anti-spambot. Digite 0 para impedir que a tarefa anti-spambot seja disparada para contas de utilizador distintas.',
+	'MAX_LOGIN_ATTEMPTS_EXPLAIN'			=> 'Após este número de acessos inválidos, o Utilizador terá que fazer a tarefa anti-spambot. Digita 0 para impedir que a tarefa anti-spambot seja disparada para contas de utilizador distintas.',
 	'NO_IP_VALIDATION'						=> 'Nenhum',
 	'NO_REF_VALIDATION'						=> 'Nenhum',
 	'PASSWORD_TYPE'							=> 'Complexidade da Senha',
@@ -548,12 +549,12 @@ $lang = array_merge($lang, [
 	'TPL_ALLOW_PHP'							=> 'Permitir php nos Modelos (Templates)',
 	'TPL_ALLOW_PHP_EXPLAIN'					=> 'Se ativado, os comandos PHP e INCLUDEPHP serão reconhecidos e inseridos nos Templates.',
 	'UPLOAD_CERT_VALID'						=> 'Validar certificado de upload',
-	'UPLOAD_CERT_VALID_EXPLAIN'			=> 'Se ativado, os certificados de uploads remotos serão validados. Isto requer que o pacote CA seja definido pelo ficheiro <samp>openssl.cafile</samp> ou pela configuração do <samp>curl.cainfo</samp> no seu php.ini.',
+	'UPLOAD_CERT_VALID_EXPLAIN'			=> 'Se ativado, os certificados de uploads remotos serão validados. Isto requer que o pacote CA seja definido pelo ficheiro <samp>openssl.cafile</samp> ou pela configuração do <samp>curl.cainfo</samp> no teu php.ini.',
 ]);
 
 // Email Settings
 $lang = array_merge($lang, [
-	'ACP_EMAIL_SETTINGS_EXPLAIN'			=> 'Esta informação é usada quando o Fórum envia emails aos Utilizadores. Certifique-se que usa um email válido. Qualquer Mensagem incorreta não será entregue neste endereço. Se o seu serviço de hospedagem não oferece um serviço nativo de email baseado no PHP, pode enviar mensagens através de SMTP. É necessário um Servidor adequado, não especifique qualquer nome antigo aqui! Se o servidor requer autenticação, introduza os nomes e senhas necessários. tenha em atenção que apenas é usada a autenticação básica. Implementações de autenticações diferentes não estão disponíveis.',
+	'ACP_EMAIL_SETTINGS_EXPLAIN'			=> 'Esta informação é usada quando o Fórum envia emails aos Utilizadores. Certifica-te que usas um email válido. Qualquer Mensagem incorreta não será entregue neste endereço. Se o teu serviço de hospedagem não oferece um serviço nativo de email baseado no PHP, podes enviar mensagens através de SMTP. É necessário um Servidor adequado, não especifiques qualquer nome antigo aqui! Se o servidor requer autenticação, introduz os nomes e senhas necessários. Tem em atenção que apenas é usada a autenticação básica. Implementações de autenticações diferentes não estão disponíveis.',
 
 	'ADMIN_EMAIL'								=> 'Endereço de Email do Remetente',
 	'ADMIN_EMAIL_EXPLAIN'					=> 'Será utilizado o endereço do remetente em todos os emails. Este é o email padrão do Fórum para contacto e envio de emails pelo sistema phpBB. Será sempre usado como o endereço de email do <samp>Remetente</samp>',
@@ -576,11 +577,11 @@ $lang = array_merge($lang, [
 	'ENABLE_EMAIL'								=> 'Correio eletrónico do Fórum',
 	'ENABLE_EMAIL_EXPLAIN'					=> 'Se estiver definido como desativado não poderá ser enviado correio eletrónico através do Fórum. <em>Note que a ativação e configuração de contas requer que esta função esteja ativada. Desativar esta função impedirá que a ativação de novas contas seja feita pelo “Utilizador” ou “Administrador”.</em>',
 	'SEND_TEST_EMAIL'							=> 'Enviar email de teste',
-	'SEND_TEST_EMAIL_EXPLAIN'				=> 'Irá ser enviado um email, para efeitos de teste, para o endereço definido na sua conta.',
+	'SEND_TEST_EMAIL_EXPLAIN'				=> 'Irá ser enviado um email, para efeitos de teste, para o endereço definido na tua conta.',
 	'SMTP_ALLOW_SELF_SIGNED'				=> 'Permitir certificados SSL autoassinados',
 	'SMTP_ALLOW_SELF_SIGNED_EXPLAIN'		=> 'Permite conexões ao servidor SMTP com certificado SSL autoassinado.<br><em><strong>Aviso:</strong> Permitir certificados SSL autoassinados pode causar implicações de segurança.</em>',
 	'SMTP_AUTH_METHOD'						=> 'Método de Autenticação para o SMTP',
-	'SMTP_AUTH_METHOD_EXPLAIN'				=> 'Apenas usado se um Nome/Senha é atribuído, pergunte ao seu ISP se não sabe que método usa.',
+	'SMTP_AUTH_METHOD_EXPLAIN'				=> 'Apenas usado se um Nome/Senha é atribuído, pergunta ao teu ISP se não sabes que método usa.',
 	'SMTP_CRAM_MD5'							=> 'CRAM-MD5',
 	'SMTP_DIGEST_MD5'							=> 'DIGEST-MD5',
 	'SMTP_LOGIN'								=> 'LOGIN',
@@ -589,9 +590,9 @@ $lang = array_merge($lang, [
 	'SMTP_PLAIN'								=> 'PLAIN',
 	'SMTP_POP_BEFORE_SMTP'					=> 'POP-BEFORE-SMTP',
 	'SMTP_PORT'									=> 'Porta do Servidor de SMTP',
-	'SMTP_PORT_EXPLAIN'						=> 'Mude apenas se tiver a certeza de que seu Servidor de SMTP está numa porta diferente.',
+	'SMTP_PORT_EXPLAIN'						=> 'Muda apenas se tiveres a certeza de que o teu Servidor de SMTP está numa porta diferente.',
 	'SMTP_SERVER'								=> 'Endereço do servidor de SMTP',
-	'SMTP_SERVER_EXPLAIN'					=> 'Não forneça um protocolo (<samp>ssl://</samp> ou <samp>tls://</samp>) a não ser que o seu host de email solicite que o faça.',
+	'SMTP_SERVER_EXPLAIN'					=> 'Não forneças um protocolo (<samp>ssl://</samp> ou <samp>tls://</samp>) a não ser que o teu host de email solicite que o faças.',
 	'SMTP_SETTINGS'							=> 'Configurações do SMTP',
 	'SMTP_USERNAME'							=> 'Nome de Utilizador SMTP',
 	'SMTP_USERNAME_EXPLAIN'					=> 'Só introduza um Nome se o Servidor de SMTP o pedir.',
@@ -599,7 +600,7 @@ $lang = array_merge($lang, [
 	'SMTP_VERIFY_PEER_EXPLAIN'				=> 'Requer a verificação do certificado SSL usado pelo servidor SMTP.<br><em><strong>Aviso:</strong> Conectar pontos de rede com certificados SSL não verificados pode causar implicações de segurança.</em>',
 	'SMTP_VERIFY_PEER_NAME'					=> 'Verificar nome do ponto de rede SMTP',
 	'SMTP_VERIFY_PEER_NAME_EXPLAIN'		=> 'Requer verificação do nome do ponto de rede para os servidores SMTP que usem conexões SSL / TLS.<br><em><strong>Aviso:</strong> Conectar a pontos de rede não verificados pode causar implicações de segurança.</em>',
-	'TEST_EMAIL_SENT'							=> 'O email de teste foi enviado.<br>Caso não o receba, por favor, verifique a sua configuração.<br><br>Caso necessite de assistência, visite o <a href="https://www.phpbb.com/community/">Fórum Oficial de Suporte phpBB</a> (Em inglês) ou o <a href="https://leinad4mind.top/forum">Fórum Oficial Português de Suporte phpBB</a>.',
+	'TEST_EMAIL_SENT'							=> 'O email de teste foi enviado.<br>Caso não o recebas, por favor, verifica a tua configuração.<br><br>Caso necessites de assistência, visita o <a href="https://www.phpbb.com/community/">Fórum Oficial de Suporte phpBB</a> (Em inglês) ou o <a href="https://leinad4mind.top/forum">Fórum Oficial Português de Suporte phpBB</a>.',
 
 	'USE_SMTP'									=> 'Usar um Servidor de SMTP para enviar emails',
 	'USE_SMTP_EXPLAIN'						=> 'Marque “Sim” se quer ou tem que enviar os emails recorrendo a um Servidor SMTP em vez da função de email do Servidor.',

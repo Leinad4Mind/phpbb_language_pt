@@ -75,7 +75,7 @@ $lang = array_merge($lang, [
 	'CLI_DESCRIPTION_REPARSER_AVAILABLE'		=> 'Reanalisadores disponíveis:',
 	'CLI_DESCRIPTION_REPARSER_REPARSE'			=> 'Texto reanalisado guardado com o serviço actual de text_formatter.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'	=> 'Tipo de texto a reanalisar. Deixe em branco para reanalisar tudo.',
-	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'		=> 'Sem quaisquer alterações, apenas veja o resultado que seria desta operação',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'		=> 'Sem quaisquer alterações, apenas vê o resultado que seria desta operação',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MIN'	=> 'ID do registo menor a ser processado',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MAX'	=> 'ID do registo maior a ser processado',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'	=> 'Número aproximado de registos a serem processados de cada vez',
@@ -133,7 +133,7 @@ $lang = array_merge($lang, [
 	'CLI_FIXUP_FIX_LEFT_RIGHT_IDS_SUCCESS'			=> 'Correcção da estrutura da árvore dos fóruns e dos módulos efectuada com sucesso.',
 	'CLI_FIXUP_UPDATE_HASH_BCRYPT_SUCCESS'			=> 'Senhas com hashes desactualizadas foram encriptadas por bcrypt com sucesso.',
 
-	'CLI_MIGRATION_NAME'						=> 'Nome da migração, incluindo o conjunto de nomes (utilize barras inclinadas ao invés de contra-barras para evitar problemas).',
+	'CLI_MIGRATION_NAME'						=> 'Nome da migração, incluindo o conjunto de nomes (utiliza barras inclinadas ao invés de contra-barras para evitar problemas).',
 	'CLI_MIGRATIONS_AVAILABLE'				=> 'Migrações disponíveis',
 	'CLI_MIGRATIONS_INSTALLED'				=> 'Migrações instaladas',
 	'CLI_MIGRATIONS_ONLY_AVAILABLE'		=> 'Mostrar apenas as migrações disponíveis',
@@ -170,9 +170,9 @@ $lang = array_merge($lang, [
 $lang = array_merge($lang, [
 	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' Opcionalmente pode especificar um nome de tarefa cron para executar apenas a tarefa cron especificada. ',
 	'CLI_HELP_USER_ACTIVATE'	=> 'Activar conta de utilizador, ou desactivar uma conta fazendo uso da opção <info>--deactivate</info>.
-Para enviar, opcionalmente, um email de activação de conta para o utilizador, utilize a opção <info>--send-email</info>.',
+Para enviar, opcionalmente, um email de activação de conta para o utilizador, utiliza a opção <info>--send-email</info>.',
 	'CLI_HELP_USER_ADD'			=> 'O comando <info>%command.name%</info> adiciona um novo utilizador:
 Caso este comando seja executado sem opções, será questionado para as introduzir.
-Para enviar, opcionalmente, um email ao novo utilizador, utilize a opção <info>--send-email</info>.',
+Para enviar, opcionalmente, um email ao novo utilizador, utiliza a opção <info>--send-email</info>.',
 	'CLI_HELP_USER_RECLEAN'		=> 'Ao reforçar a limpeza dos nomes dos utilizadores irá verificar e certificar-se que todos os nomes de utilizadores possuem versões limpas dos nomes de utilizadores guardadas. Nomes de utilizadores limpos significa que se encontram em minúsculas, normalizadas em NFC e transformadas em ASCII.',
 ]);

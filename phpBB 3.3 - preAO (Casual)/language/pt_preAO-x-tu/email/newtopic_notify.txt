@@ -14,7 +14,7 @@ Se não pretende continuar a observar o Fórum, tanto poderá clicar em
 {U_STOP_WATCHING_FORUM}
 
 Continue a participar activamente.
-A sua colaboração é fundamental para todos nós.
+A tua colaboração é fundamental para todos nós.
 
 
 {EMAIL_SIG}

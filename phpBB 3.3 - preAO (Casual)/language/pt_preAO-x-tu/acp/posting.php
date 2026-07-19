@@ -41,7 +41,7 @@ $lang = array_merge($lang, [
 	'ACP_BBCODES_EXPLAIN'			=> 'BBCode (Bulletin Board Code) é uma linguagem originalmente desenvolvida para phpBB. Permite configurar o que é, e como é exibido. Aqui é possível adicionar, editar e apagar BBCodes.',
 	'ADD_BBCODE'						=> 'Adicionar novo BBCode',
 
-	'BBCODE_DANGER'					=> 'O BBCode que está a tentar adicionar parece inseguro, tal como usar {TEXT} dentro de um atributo de HTML, ou seja, num contexto sensível. Esta é uma possível questão de segurança XSS, tente usar um tipo mais restritivo como {SIMPLETEXT} ou {INTTEXT}. Prossiga se compreende os riscos de segurança envolvidos e se considera inevitável o uso de {TEXT}.',
+	'BBCODE_DANGER'					=> 'O BBCode que está a tentar adicionar parece inseguro, tal como usar {TEXT} dentro de um atributo de HTML, ou seja, num contexto sensível. Esta é uma possível questão de segurança XSS, tenta usar um tipo mais restritivo como {SIMPLETEXT} ou {INTTEXT}. Prossiga se compreende os riscos de segurança envolvidos e se considera inevitável o uso de {TEXT}.',
 	'BBCODE_DANGER_PROCEED'			=> 'Continuar',
 
 	'BBCODE_ADDED'						=> 'O BBCode foi adicionado com sucesso.',
@@ -54,8 +54,8 @@ $lang = array_merge($lang, [
 	'BBCODE_HELPLINE_TOO_LONG'		=> 'A linha de ajuda que escreveu é muito longa.',
 
 	'BBCODE_INVALID_TAG_NAME'		=> 'O Nome da TAG de BBCode seleccionado já existe.',
-	'BBCODE_INVALID'					=> 'A construção do seu BBCode é invalido.',
-	'BBCODE_INVALID_TEMPLATE'		=> 'A template do seu BBCode é inválido.',
+	'BBCODE_INVALID'					=> 'A construção do teu BBCode é invalido.',
+	'BBCODE_INVALID_TEMPLATE'		=> 'A template do teu BBCode é inválido.',
 	'BBCODE_TAG'						=> 'TAG',
 	'BBCODE_TAG_TOO_LONG'			=> 'O Nome da TAG seleccionado é muito grande.',
 	'BBCODE_TAG_DEF_TOO_LONG'		=> 'A Definição da TAG escrita é muito grande. Por Favor, reescreva de forma mais curta.',
@@ -72,9 +72,9 @@ $lang = array_merge($lang, [
 
 	'TOKEN'								=> 'Símbolo',
 	'TOKENS'								=> 'Símbolos',
-	'TOKENS_EXPLAIN'					=> 'Os Símbolos são campos especiais a serem adicionados pelos Utilizadores. Mas estes apenas serão válidos se tiverem as definições correspondentes. Se necessário, pode numerá-los adicionando um número como o último carácter: Exemplo: {Utilizador}, {Utilizador1}.<br /> <br />Pode ainda utilizar estes Símbolos com qualquer sequência de linguagem presente na pasta /language como esta: {L_<em>&lt;STRINGNAME&gt;</em>} onde <em>&lt;STRINGNAME&gt;</em> é o nome da sequência traduzida que deseja adicionar. Por exemplo, {L_WROTE} será exibido como “Escreveu” ou traduzido de acordo com a localidade do Utilizador.<br /><br /><strong>Tenha em atenção que apenas os Símbolos listados abaixo podem ser utilizados com os BBCodes personalizados.</strong>',
+	'TOKENS_EXPLAIN'					=> 'Os Símbolos são campos especiais a serem adicionados pelos Utilizadores. Mas estes apenas serão válidos se tiverem as definições correspondentes. Se necessário, podes numerá-los adicionando um número como o último carácter: Exemplo: {Utilizador}, {Utilizador1}.<br /> <br />Podes ainda utilizar estes Símbolos com qualquer sequência de linguagem presente na pasta /language como esta: {L_<em>&lt;STRINGNAME&gt;</em>} onde <em>&lt;STRINGNAME&gt;</em> é o nome da sequência traduzida que desejares adicionar. Por exemplo, {L_WROTE} será exibido como “Escreveu” ou traduzido de acordo com a localidade do Utilizador.<br /><br /><strong>Tem em atenção que apenas os Símbolos listados abaixo podem ser utilizados com os BBCodes personalizados.</strong>',
 	'TOKEN_DEFINITION'				=> 'O que é que isto pode ser?',
-	'TOO_MANY_BBCODES'				=> 'Não pode criar mais BBCodes. Elimine alguns BBCodes para poder criar outros.',
+	'TOO_MANY_BBCODES'				=> 'Não podes criar mais BBCodes. Elimina alguns BBCodes para poderes criar outros.',
 
 	'tokens'			=> [
 		'TEXT'				=> 'Qualquer texto, incluindo caracteres estrangeiros, números, etc ...',
@@ -85,7 +85,7 @@ $lang = array_merge($lang, [
 		'EMAIL'				=> 'Um endereço de email válido',
 		'URL'					=> 'Uma URL válida utilizando qualquer protocolo permitido (http, ftp, etc. não pode ser utilizada para javascript). Se nenhum for concedido, “http://” é o prefixado para a sequência.',
 		'LOCAL_URL'			=> 'Uma URL local. O URL deve ser relativo à página do tópico e não pode conter o nome do servidor ou o protocolo, como as ligações são prefixados com “%s”',
-		'RELATIVE_URL'		=> 'Uma URL relativa. Pode combinar partes de uma URL, mas tenha cuidado: a URL completa é uma URL relativa válida. Quando quiser usar URLs relativas do seu fórum, use o token LOCAL_URL.',
+		'RELATIVE_URL'		=> 'Uma URL relativa. Podes combinar partes de uma URL, mas tem cuidado: a URL completa é uma URL relativa válida. Quando quiseres usar URLs relativas do teu fórum, usa o token LOCAL_URL.',
 		'COLOR'				=> 'Uma Cor de HTML, pode ser tanto na forma numérica <samp>#FF1234</samp> ou uma <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS colour keyword</a> assim como <samp>fuchsia</samp> ou <samp>InactiveBorder</samp>',
 	],
 ]);
@@ -114,9 +114,9 @@ $lang = array_merge($lang, [
 	'EDIT_SMILIES'						=> 'Editar Emoções',
 	'EMOTION'							=> 'Emoção',
 	'EXPORT_ICONS'						=> 'Exportar e descarregar Pacote de ícones (smilies.pak)',
-	'EXPORT_ICONS_EXPLAIN'			=> '%sClicando neste atalho, as configurações para os seus ícones instalados serão compactadas para <samp>icons.pak</samp> que uma vez descarregado pode ser utilizado para criar um ficheiro <samp>.zip</samp> ou <samp>.tgz</samp> contendo todos os seus ícones mais este ficheiro de configuração<samp>icons.pak</samp>%s.',
+	'EXPORT_ICONS_EXPLAIN'			=> '%sClicando neste atalho, as configurações para os teus ícones instalados serão compactadas para <samp>icons.pak</samp> que uma vez descarregado pode ser utilizado para criar um ficheiro <samp>.zip</samp> ou <samp>.tgz</samp> contendo todos os teus ícones mais este ficheiro de configuração<samp>icons.pak</samp>%s.',
 	'EXPORT_SMILIES'					=> 'Exportar e descarregar um pack de Emoções',
-	'EXPORT_SMILIES_EXPLAIN'		=> '%sClicando neste atalho, os ícones de emoções instalados será compactado para <samp>smilies.pak</samp> que uma vez descarregado pode ser utilizado para criar um ficheiro <samp>.zip</samp> ou <samp>.tgz</samp> contendo todas as suas emoções mais este ficheiro de configuração<samp>smilies.pak</samp>%s.',
+	'EXPORT_SMILIES_EXPLAIN'		=> '%sClicando neste atalho, os ícones de emoções instalados será compactado para <samp>smilies.pak</samp> que uma vez descarregado pode ser utilizado para criar um ficheiro <samp>.zip</samp> ou <samp>.tgz</samp> contendo todas as tuas emoções mais este ficheiro de configuração<samp>smilies.pak</samp>%s.',
 
 	'FIRST'								=> 'Primeiro',
 
@@ -207,7 +207,7 @@ $lang = array_merge($lang, [
 	'ADD_WORD'							=> 'Adicionar nova Palavra',
 
 	'EDIT_WORD'							=> 'Editar Palavra Censurada',
-	'ENTER_WORD'						=> 'Tem que escrever uma palavra e a sua substituição.',
+	'ENTER_WORD'						=> 'Tens que escrever uma palavra e a sua substituição.',
 
 	'NO_WORD'							=> 'Não foi seleccionada nenhuma palavra para poder ser editada.',
 
@@ -223,14 +223,14 @@ $lang = array_merge($lang, [
 
 // Ranks
 $lang = array_merge($lang, [
-	'ACP_RANKS_EXPLAIN'				=> 'Aqui poderá adicionar, editar, visualizar e apagar classificações. Pode também criar classificações personalizadas que podem ser aplicados a um Utilizador nas Ferramentas de Administração de Utilizadores.',
+	'ACP_RANKS_EXPLAIN'				=> 'Aqui poderás adicionar, editar, visualizar e apagar classificações. Podes também criar classificações personalizadas que podem ser aplicados a um Utilizador nas Ferramentas de Administração de Utilizadores.',
 	'ADD_RANK'							=> 'Adicionar nova classificação',
 
-	'MUST_SELECT_RANK'				=> 'Tem de seleccionar uma classificação.',
+	'MUST_SELECT_RANK'				=> 'Tens de seleccionar uma classificação.',
 
 	'NO_ASSIGNED_RANK'				=> 'Nenhuma Classificação Especial existente.',
-	'NO_RANK_TITLE'					=> 'Tem que escrever o Título da Classificação.',
-	'NO_UPDATE_RANKS'					=> 'A classificação foi apagada com sucesso. De qualquer modo, os registos que utilizavam esta classificação não foram actualizados. Tem que actualizar as classificações nestes registos manualmente.',
+	'NO_RANK_TITLE'					=> 'Tens que escrever o Título da Classificação.',
+	'NO_UPDATE_RANKS'					=> 'A classificação foi apagada com sucesso. De qualquer modo, os registos que utilizavam esta classificação não foram actualizados. Tens que actualizar as classificações nestes registos manualmente.',
 
 	'RANK_ADDED'						=> 'A classificação foi adicionada com sucesso.',
 	'RANK_IMAGE'						=> 'Imagem da Classificação',
@@ -246,7 +246,7 @@ $lang = array_merge($lang, [
 // Disallow Usernames
 $lang = array_merge($lang, [
 	'ACP_DISALLOW_EXPLAIN'			=> 'Aqui podes gerir os nomes cuja utilização é proibida. Utilize o asterisco (*) para facilitar a construção de nomes.',
-	'ADD_DISALLOW_EXPLAIN'			=> 'Pode proibir nomes de utilizadores combinando o asterisco (*) com outros caracteres.',
+	'ADD_DISALLOW_EXPLAIN'			=> 'Podes proibir nomes de utilizadores combinando o asterisco (*) com outros caracteres.',
 	'ADD_DISALLOW_TITLE'				=> 'Adicionar um Nome Proibido',
 
 	'DELETE_DISALLOW_EXPLAIN'		=> 'Aqui podes eliminar uma proibição, ao seleccionar na lista o nome cuja proibição pretende anular, clicando de seguida em enviar.',
@@ -266,7 +266,7 @@ $lang = array_merge($lang, [
 	'AVAILABLE_TITLES'				=> 'Títulos de Razões Locais Disponíveis',
 
 	'IS_NOT_TRANSLATED'				=> 'A Razão <strong>não</strong> foi encontrada.',
-	'IS_NOT_TRANSLATED_EXPLAIN'	=> 'A Razão <strong>não</strong> foi encontrada. Se deseja estabelecer a forma local, especifique a chave correcta através dos ficheiros de linguagem do Fórum de razões para denúncias.',
+	'IS_NOT_TRANSLATED_EXPLAIN'	=> 'A Razão <strong>não</strong> foi encontrada. Se desejas estabelecer a forma local, especifica a chave correcta através dos ficheiros de linguagem do Fórum de razões para denúncias.',
 	'IS_TRANSLATED'					=> 'A Razão foi encontrada.',
 	'IS_TRANSLATED_EXPLAIN'			=> 'A Razão foi encontrada. Se o título que escreveu aqui for especificado com os ficheiros de linguagem do Fórum de razões para denúncias, a forma localizada para o título e a descrição serão utilizadas.',
 
@@ -276,7 +276,7 @@ $lang = array_merge($lang, [
 
 	'REASON_ADD'						=> 'Adicionar Razão para Denúncia/Negação',
 	'REASON_ADDED'						=> 'A Razão para Denúncia/Negação foi adicionada com sucesso.',
-	'REASON_ALREADY_EXIST'			=> 'O Título escrito já existe. Por Favor, escreva outro título para esta razão.',
+	'REASON_ALREADY_EXIST'			=> 'O Título escrito já existe. Por Favor, escreve outro título para esta razão.',
 	'REASON_DESCRIPTION'				=> 'Descrição da Razão',
 	'REASON_DESC_TRANSLATED'		=> 'Descrição da Razão exibida',
 	'REASON_EDIT'						=> 'Editar Razão para Denúncia/Negação',

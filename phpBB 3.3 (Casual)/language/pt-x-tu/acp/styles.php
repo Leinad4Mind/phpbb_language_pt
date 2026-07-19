@@ -36,13 +36,14 @@ if (empty($lang) || !is_array($lang)) {
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, [
-	'ACP_STYLES_EXPLAIN'				=> 'O gestor de estilos permite alterar estilos existentes, apagar, desinstalar, reinstalar e instalar novos. Também pode ver como será o seu estilo usando a função de pré-visualização. É mostrado o número de utilizadores de cada estilo. No entanto, a função Sobrepor Estilo do Utilizador, não reflete esta contagem. De salientar também que não pode desinstalar o estilo “<strong>prosilver</strong>”, pois é o estilo pai padrão e principal do phpBB.',
+	'ACP_STYLES_EXPLAIN'				=> 'O gestor de estilos permite alterar estilos existentes, apagar, desinstalar, reinstalar e instalar novos. Também podes ver como será o teu estilo usando a função de pré-visualização. É mostrado o número de utilizadores de cada estilo. No entanto, a função Sobrepor Estilo do Utilizador, não reflete esta contagem. De salientar também que não podes desinstalar o estilo “<strong>prosilver</strong>”, pois é o estilo pai padrão e principal do phpBB.',
 
 	'CANNOT_BE_INSTALLED'			=> 'Não pode ser instalado',
-	'CONFIRM_UNINSTALL_STYLES'		=> 'Tem a certeza de deseja desinstalar os estilos selecionados?',
+
+	'CONFIRM_UNINSTALL_STYLES'		=> 'Tens a certeza de que desejas desinstalar os estilos selecionados?',
 	'COPYRIGHT'							=> 'Copyright',
 
-	'DEACTIVATE_DEFAULT'				=> 'Não pode desativar o Estilo Padrão.',
+	'DEACTIVATE_DEFAULT'				=> 'Não podes desativar o Estilo Padrão.',
 	'DELETE_FROM_FS'					=> 'Apagar do Sistema de Ficheiros',
 	'DELETE_STYLE_FILES_FAILED'	=> 'Erro ao apagar os ficheiros do estilo "%s".',
 	'DELETE_STYLE_FILES_SUCCESS'	=> 'Os ficheiros do estilo "%s" foram apagados.',
@@ -51,10 +52,10 @@ $lang = array_merge($lang, [
 	'INHERITING_FROM'					=> 'Herdar de',
 	'INSTALL_STYLE'					=> 'Instalar Estilo',
 	'INSTALL_STYLES'					=> 'Instalar Estilos',
-	'INSTALL_STYLES_EXPLAIN'		=> 'Aqui podes instalar um novo Estilo e elementos correspondentes. Se já tem instalados os elementos relevantes do Estilo serão substituídos. Alguns Estilos necessitam que os elementos do Estilo já estejam instalados. Se tentar instalar um Estilo e os seus elementos ainda não estiverem instalados será avisado.',
+	'INSTALL_STYLES_EXPLAIN'		=> 'Aqui podes instalar um novo Estilo e elementos correspondentes. Se já tiveres instalados os elementos relevantes do Estilo serão substituídos. Alguns Estilos necessitam que os elementos do Estilo já estejam instalados. Se tentares instalar um Estilo e os seus elementos ainda não estiverem instalados serás avisado.',
 	'INVALID_STYLE_ID'				=> 'A ID do estilo inválida.',
 
-	'NO_MATCHING_STYLES_FOUND'		=> 'Nenhum estilo coincide com a sua query.',
+	'NO_MATCHING_STYLES_FOUND'		=> 'Nenhum estilo coincide com a tua query.',
 	'NO_UNINSTALLED_STYLE'			=> 'Não há estilos desinstalados.',
 
 	'PURGED_CACHE'						=> 'A Cache foi limpa.',
@@ -65,10 +66,10 @@ $lang = array_merge($lang, [
 	'STYLE_ACTIVE'						=> 'Ativo',
 	'STYLE_DEACTIVATE'				=> 'Desativar',
 	'STYLE_DEFAULT'					=> 'Tornar Estilo Padrão',
-	'STYLE_DEFAULT_CHANGE_INACTIVE'	=> 'Tem que ativar o estilo antes de o tornar padrão.',
+	'STYLE_DEFAULT_CHANGE_INACTIVE'	=> 'Tens que ativar o estilo antes de o tornar padrão.',
 	'STYLE_ERR_INVALID_PARENT'		=> 'Estilo principal inválido.',
 	'STYLE_ERR_NAME_EXIST'			=> 'Um Estilo com o mesmo nome já existe.',
-	'STYLE_ERR_STYLE_NAME'			=> 'Tem que especificar um nome para este Estilo.',
+	'STYLE_ERR_STYLE_NAME'			=> 'Tens que especificar um nome para este Estilo.',
 	'STYLE_INSTALLED'					=> 'O estilo "%s" foi instalado.',
 	'STYLE_INSTALLED_RETURN_INSTALLED_STYLES'	=> 'Voltar à lista estilos instalados',
 	'STYLE_INSTALLED_RETURN_UNINSTALLED_STYLES'	=> 'Instalar mais estilos',
@@ -83,7 +84,7 @@ $lang = array_merge($lang, [
 	'STYLE_USED_BY'					=> 'Usado por (incluindo Motor de Busca)',
 	'STYLE_VERSION'					=> 'Versão do Estilo',
 
-	'UNINSTALL_PROSILVER'			=> 'Não pode desinstalar o estilo “prosilver”.',
+	'UNINSTALL_PROSILVER'			=> 'Não podes desinstalar o estilo “prosilver”.',
 	'UNINSTALL_DEFAULT'				=> 'Não é possível desinstalar o estilo padrão.',
 
 	'BROWSE_STYLES_DATABASE'		=> 'Visite o repositório de estilos',

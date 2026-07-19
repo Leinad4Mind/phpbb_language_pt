@@ -60,7 +60,7 @@ $lang = array_merge($lang, [
 
 	'IP_BAN'							=> 'Expulsar um ou mais IPs',
 	'IP_BAN_EXCLUDE_EXPLAIN'	=> 'Activa esta opção para excluires IPs da expulsão.',
-	'IP_BAN_EXPLAIN'				=> 'Para especificar diferentes IPs ou hostnames digite cada um numa nova linha. Para especificar uma range de endereços de IP separe o início e o fim com um hífen (-), para especificar uma wildcard use asterisco *.',
+	'IP_BAN_EXPLAIN'				=> 'Para especificar diferentes IPs ou hostnames digita cada um numa nova linha. Para especificar uma range de endereços de IP separe o início e o fim com um hífen (-), para especificar uma wildcard use asterisco *.',
 	'IP_HOSTNAME'					=> 'Endereços IP ou hostnames',
 	'IP_NO_BANNED'					=> 'Não há endereços de IP expulsos',
 	'IP_UNBAN'						=> 'Desbloquear um ou mais endereços de IP',

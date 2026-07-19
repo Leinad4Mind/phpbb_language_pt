@@ -2,18 +2,18 @@ Subject: Notificação de citação - "{TOPIC_TITLE}"
 
 Olá, {USERNAME},
 
-Está a receber esta notificação porque "{AUTHOR_NAME}" citou-te no Tópico "{TOPIC_TITLE}" em "{SITENAME}". Pode usar o endereço seguinte para ver a resposta.
+Estás a receber esta notificação porque "{AUTHOR_NAME}" citou-te no Tópico "{TOPIC_TITLE}" em "{SITENAME}". Podes usar o endereço seguinte para ver a resposta.
 
-Para ver a mensagem citada, clique no seguinte endereço:
+Para ver a mensagem citada, clica no seguinte endereço:
 {U_VIEW_POST}
 
-Para ver o tópico, clique no seguinte endereço:
+Para ver o tópico, clica no seguinte endereço:
 {U_TOPIC}
 
-Para ver o fórum, clique no seguinte endereço:
+Para ver o fórum, clica no seguinte endereço:
 {U_FORUM}
 
-Para não receber notificações de respostas com citações suas, por favor atualize configurações de notificação aqui:
+Para não receberes notificações de respostas com citações tuas, por favor, atualiza as tuas configurações de notificação aqui:
 
 {U_NOTIFICATION_SETTINGS}
 

@@ -4,18 +4,18 @@ Subject: Bem-vindo ao Fórum {SITENAME}
 
 LEIA ATENTAMENTE este email e guarde-o para consultas posteriores.
 
-A informação da sua conta é a seguinte:
+A informação da tua conta é a seguinte:
 ==============================================
 Utilizador: {USERNAME}
 
 Endereço do Fórum: {U_BOARD}
 ==============================================
 
-A sua senha foi armazenada na nossa Base de Dados de forma segura e não pode ser recuperada. No caso de a esquecer, poderá redefini-la, usando o endereço de e-mail associado à sua conta.
+A tua senha foi armazenada na nossa Base de Dados de forma segura e não pode ser recuperada. No caso de a esquecer, poderá redefini-la, usando o endereço de e-mail associado à tua conta.
 
 
-{USERNAME}, obrigado pelo seu registo em "{SITENAME}".
-Participe activamente. A sua colaboração é fundamental para todos nós.
+{USERNAME}, obrigado pelo teu registo em "{SITENAME}".
+Participe activamente. A tua colaboração é fundamental para todos nós.
 
 
 {EMAIL_SIG}

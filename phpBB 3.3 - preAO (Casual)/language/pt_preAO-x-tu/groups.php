@@ -36,16 +36,16 @@ if (empty($lang) || !is_array($lang)) {
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, [
-	'ALREADY_DEFAULT_GROUP'			=> 'O Grupo seleccionado já é o seu Grupo Padrão.',
+	'ALREADY_DEFAULT_GROUP'			=> 'O Grupo seleccionado já é o teu Grupo Padrão.',
 	'ALREADY_IN_GROUP'				=> 'Já é Utilizador do Grupo seleccionado.',
 	'ALREADY_IN_GROUP_PENDING'		=> 'Já pediu para entrar no Grupo seleccionado.',
 
-	'CANNOT_JOIN_GROUP'				=> 'Não pode inscrever-se neste Grupo. Apenas o pode fazer em Grupos abertos.',
-	'CANNOT_RESIGN_GROUP'			=> 'Não pode demitir-se deste Grupo. Apenas o pode fazer em Grupos abertos.',
+	'CANNOT_JOIN_GROUP'				=> 'Não podes inscrever-te neste Grupo. Apenas o podes fazer em Grupos abertos.',
+	'CANNOT_RESIGN_GROUP'			=> 'Não podes demitir-te deste Grupo. Apenas o podes fazer em Grupos abertos.',
 	'CHANGED_DEFAULT_GROUP'			=> 'Grupo Padrão foi mudado.',
 
 	'GROUP_AVATAR'						=> 'Avatar do Grupo',
-	'GROUP_CHANGE_DEFAULT'			=> 'Tem a certeza que deseja alterar o seu Grupo Padrão para o “%s”?',
+	'GROUP_CHANGE_DEFAULT'			=> 'Tens a certeza que desejas alterar o teu Grupo Padrão para o “%s”?',
 	'GROUP_CLOSED'						=> 'Fechado',
 	'GROUP_DESC'						=> 'Descrição do Grupo',
 	'GROUP_HIDDEN'						=> 'Escondido',
@@ -56,32 +56,32 @@ $lang = array_merge($lang, [
 	'GROUP_IS_OPEN'					=> 'Este é um Grupo aberto, podem entrar novos Utilizadores.',
 	'GROUP_IS_SPECIAL'				=> 'Este é um Grupo especial, só o Administrador pode adicionar novos Utilizadores.',
 	'GROUP_JOIN'						=> 'Entrar no Grupo',
-	'GROUP_JOIN_CONFIRM'				=> 'Tem a certeza que deseja entrar no Grupo seleccionado?',
+	'GROUP_JOIN_CONFIRM'				=> 'Tens a certeza que desejas entrar no Grupo seleccionado?',
 	'GROUP_JOIN_PENDING'				=> 'Pedir para entrar no Grupo',
-	'GROUP_JOIN_PENDING_CONFIRM'	=> 'Tem a certeza que deseja pedir para entrar no Grupo?',
+	'GROUP_JOIN_PENDING_CONFIRM'	=> 'Tens a certeza que desejas pedir para entrar no Grupo?',
 	'GROUP_JOINED'						=> 'Entrou no Grupo',
-	'GROUP_JOINED_PENDING'			=> 'Pediu para entrar no Grupo. Espere que o Líder aprove a sua entrada.',
+	'GROUP_JOINED_PENDING'			=> 'Pediu para entrar no Grupo. Espere que o Líder aprove a tua entrada.',
 	'GROUP_LIST'						=> 'Gerir Utilizadores',
 	'GROUP_MEMBERS'					=> 'Utilizadores do Grupo',
 	'GROUP_NAME'						=> 'Nome do Grupo',
 	'GROUP_OPEN'						=> 'Aberto',
 	'GROUP_RANK'						=> 'Classificação do Grupo',
 	'GROUP_RESIGN_MEMBERSHIP'				=> 'Remover Utilizadores do Grupo',
-	'GROUP_RESIGN_MEMBERSHIP_CONFIRM'	=> 'Tem a certeza que deseja remover o Utilizador pendente do Grupo seleccionado?',
+	'GROUP_RESIGN_MEMBERSHIP_CONFIRM'	=> 'Tens a certeza que desejas remover o Utilizador pendente do Grupo seleccionado?',
 	'GROUP_RESIGN_PENDING'					=> 'Remover um Utilizador pendente',
-	'GROUP_RESIGN_PENDING_CONFIRM'		=> 'Tem a certeza que deseja remover a sua inscrição do Grupo seleccionado?',
+	'GROUP_RESIGN_PENDING_CONFIRM'		=> 'Tens a certeza que desejas remover a tua inscrição do Grupo seleccionado?',
 	'GROUP_RESIGNED_MEMBERSHIP'			=> 'Foi removido do Grupo',
-	'GROUP_RESIGNED_PENDING'				=> 'A sua inscrição pendente para entrar no Grupo foi excluída com sucesso.',
+	'GROUP_RESIGNED_PENDING'				=> 'A tua inscrição pendente para entrar no Grupo foi excluída com sucesso.',
 	'GROUP_TYPE'							=> 'Tipo do Grupo',
 	'GROUP_UNDISCLOSED'					=> 'Grupo invisível',
 	'FORUM_UNDISCLOSED'					=> 'Moderar Fóruns invisível(eis)',
 
-	'LOGIN_EXPLAIN_GROUP'				=> 'Tem que entrar para ver detalhes deste Grupo',
+	'LOGIN_EXPLAIN_GROUP'				=> 'Tens que entrar para ver detalhes deste Grupo',
 
 	'NO_LEADERS'							=> 'Não é Líder de nenhum Grupo.',
 	'NOT_LEADER_OF_GROUP'				=> 'A acção seleccionada não pode ser realizada porque não é Líder do Grupo seleccionado.',
 	'NOT_MEMBER_OF_GROUP'				=> 'A operação desejada não pode ser realizada porque não é Utilizador deste Grupo.',
-	'NOT_RESIGN_FROM_DEFAULT_GROUP'	=> 'Não está autorizado a sair do seu Grupo Padrão.',
+	'NOT_RESIGN_FROM_DEFAULT_GROUP'	=> 'Não está autorizado a sair do teu Grupo Padrão.',
 
 	'PRIMARY_GROUP'						=> 'Grupo Primário',
 
@@ -89,6 +89,6 @@ $lang = array_merge($lang, [
 
 	'USER_GROUP_CHANGE'					=> 'Do grupo “%1$s” para “%2$s”',
 	'USER_GROUP_DEMOTE'					=> 'Líder do Grupo',
-	'USER_GROUP_DEMOTE_CONFIRM'		=> 'Tem a certeza que deseja tornar-se Líder do Grupo Seleccionado?',
+	'USER_GROUP_DEMOTE_CONFIRM'		=> 'Tens a certeza que desejas tornar-se Líder do Grupo Seleccionado?',
 	'USER_GROUP_DEMOTED'					=> 'Tornou-se Líder do Grupo com sucesso.',
 ]);

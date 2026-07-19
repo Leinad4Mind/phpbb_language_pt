@@ -137,7 +137,7 @@ $lang = array_merge($lang, [
 	'NO_FILE_CAT'							=> 'Nenhum',
 	'NO_IMAGE'								=> 'Sem imagem',
 	'NO_UPLOAD_DIR'						=> 'A pasta de envio (upload) que indicou não existe.',
-	'NO_WRITE_UPLOAD'						=> 'A pasta que indicou não permite gravação. Por favor, altere as permissões para permitir a escrita nele.',
+	'NO_WRITE_UPLOAD'						=> 'A pasta que indicou não permite gravação. Por favor, altera as permissões para permitir a escrita nele.',
 
 	'ONLY_ALLOWED_IN_PM'					=> 'Apenas autorizar nas Mensagens Privadas',
 	'ORDER_ALLOW_DENY'					=> 'Permitir',

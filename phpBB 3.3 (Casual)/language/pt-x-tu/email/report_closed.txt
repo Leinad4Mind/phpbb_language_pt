@@ -3,13 +3,13 @@ Subject: {POST_SUBJECT} - Denúncia Fechada
 Olá, {USERNAME},
 
 
-A sua denúncia da Mensagem "{POST_SUBJECT}" no Tópico "{TOPIC_TITLE}" em {SITENAME} foi vista e fechada por um Moderador ou um Administrador.
-Se tem mais perguntas a este respeito, contacte o Utilizador {CLOSER_NAME} por Mensagem Privada.
+A tua denúncia da Mensagem "{POST_SUBJECT}" no Tópico "{TOPIC_TITLE}" em {SITENAME} foi vista e fechada por um Moderador ou um Administrador.
+Se tiveres mais perguntas a este respeito, contacta o Utilizador {CLOSER_NAME} por Mensagem Privada.
 
 
 Obrigado, {USERNAME}.
-Continue a participar ativamente.
-A sua colaboração é fundamental para todos nós.
+Continua a participar ativamente.
+A tua colaboração é fundamental para todos nós.
 
 
 

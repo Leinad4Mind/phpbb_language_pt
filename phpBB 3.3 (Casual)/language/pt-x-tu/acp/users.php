@@ -37,25 +37,25 @@ if (empty($lang) || !is_array($lang)) {
 
 $lang = array_merge($lang, [
 	'ADMIN_SIG_PREVIEW'				=> 'Pré-visualização da Assinatura',
-	'AT_LEAST_ONE_FOUNDER'			=> 'Não pode mudar este Fundador para um Utilizador normal. É necessário ter no mínimo um Fundador para este Fórum. Se quer mudar a situação deste Fundador, promova outro Utilizador à condição de Fundador primeiro.',
+	'AT_LEAST_ONE_FOUNDER'			=> 'Não podes mudar este Fundador para um Utilizador normal. É necessário ter no mínimo um Fundador para este Fórum. Se queres mudar a situação deste Fundador, promove outro Utilizador à condição de Fundador primeiro.',
 
 	'BAN_ALREADY_ENTERED'			=> 'A expulsão já tinha sido previamente informada. A lista de expulsões não foi atualizada.',
 	'BAN_SUCCESSFUL'					=> 'Expulso com sucesso!',
 
 	'CANNOT_BAN_ANONYMOUS'			=> 'Não tem permissão para eliminar a conta Visitantes. As Permissões dos Visitantes podem ser definidas no separador Permissões.',
-	'CANNOT_BAN_FOUNDER'				=> 'Não pode expulsar Fundadores.',
-	'CANNOT_BAN_YOURSELF'			=> 'Não pode auto expulsar-se.',
-	'CANNOT_DEACTIVATE_BOT'			=> 'Não pode desativar contas de Motores de Busca. Desative o Motor de Busca.',
-	'CANNOT_DEACTIVATE_FOUNDER'	=> 'Não pode desativar contas de Fundador.',
-	'CANNOT_DEACTIVATE_YOURSELF'	=> 'Não pode desativar sua própria conta.',
-	'CANNOT_FORCE_REACT_BOT'		=> 'Não pode forçar a Reativação de contas de Motores de Busca. Desative o Motor de Busca.',
-	'CANNOT_FORCE_REACT_FOUNDER'	=> 'Não pode forçar a Reativação de uma conta de Fundador.',
-	'CANNOT_FORCE_REACT_YOURSELF'	=> 'Não pode forçar a Reativação da sua própria conta.',
-	'CANNOT_REMOVE_ANONYMOUS'		=> 'Não pode remover a conta de Utilizador convidado.',
-	'CANNOT_REMOVE_FOUNDER'			=> 'Não tem permissão para remover contas de fundador.',
-	'CANNOT_REMOVE_YOURSELF'		=> 'Não pode remover sua própria conta.',
-	'CANNOT_SET_FOUNDER_IGNORED'	=> 'Não pode promover os Utilizadores ignorados a Fundadores.',
-	'CANNOT_SET_FOUNDER_INACTIVE'	=> 'Tem que ativar os Utilizadores antes de os promover a Fundadores, apenas Utilizadores ativos podem ser promovidos.',
+	'CANNOT_BAN_FOUNDER'				=> 'Não podes expulsar Fundadores.',
+	'CANNOT_BAN_YOURSELF'			=> 'Não podes auto expulsar-te.',
+	'CANNOT_DEACTIVATE_BOT'			=> 'Não podes desativar contas de Motores de Busca. Desativa o Motor de Busca.',
+	'CANNOT_DEACTIVATE_FOUNDER'	=> 'Não podes desativar contas de Fundador.',
+	'CANNOT_DEACTIVATE_YOURSELF'	=> 'Não podes desativar a tua própria conta.',
+	'CANNOT_FORCE_REACT_BOT'		=> 'Não podes forçar a Reativação de contas de Motores de Busca. Desativa o Motor de Busca.',
+	'CANNOT_FORCE_REACT_FOUNDER'	=> 'Não podes forçar a Reativação de uma conta de Fundador.',
+	'CANNOT_FORCE_REACT_YOURSELF'	=> 'Não podes forçar a Reativação da tua própria conta.',
+	'CANNOT_REMOVE_ANONYMOUS'		=> 'Não podes remover a conta de Utilizador convidado.',
+	'CANNOT_REMOVE_FOUNDER'			=> 'Não tens permissão para remover contas de fundador.',
+	'CANNOT_REMOVE_YOURSELF'		=> 'Não podes remover a tua própria conta.',
+	'CANNOT_SET_FOUNDER_IGNORED'	=> 'Não podes promover os Utilizadores ignorados a Fundadores.',
+	'CANNOT_SET_FOUNDER_INACTIVE'	=> 'Tens que ativar os Utilizadores antes de os promover a Fundadores, apenas Utilizadores ativos podem ser promovidos.',
 	'CONFIRM_EMAIL_EXPLAIN'			=> 'Introduzir apenas se desejar alterar o endereço de email.',
 
 	'DELETE_POSTS'						=> 'Apagar as Mensagens',
@@ -76,7 +76,7 @@ $lang = array_merge($lang, [
 
 	'LAST_ACTIVE'						=> 'Últimos ativos',
 
-	'MOVE_POSTS_EXPLAIN'				=> 'Selecione o Fórum para o onde deseja mover todas as Mensagens que este Utilizador fez.',
+	'MOVE_POSTS_EXPLAIN'				=> 'Seleciona o Fórum para onde desejas mover todas as Mensagens que este Utilizador fez.',
 
 	'NO_SPECIAL_RANK'					=> 'Sem atribuição de classificação especial',
 	'NO_WARNINGS'						=> 'Nenhum Aviso.',
@@ -110,7 +110,7 @@ $lang = array_merge($lang, [
 	'USER_ADMIN_DEL_SIG'				=> 'Apagar Assinatura',
 	'USER_ADMIN_EXPLAIN'				=> 'Aqui podes alterar as informações dos Utilizadores. Para modificar as Permissões dos Utilizadores use o Sistema de Permissões de Utilizadores e Grupos.',
 	'USER_ADMIN_FORCE'				=> 'Forçar a Reativação',
-	'USER_ADMIN_LEAVE_NR'			=> 'Apague para um Novo Registo',
+	'USER_ADMIN_LEAVE_NR'			=> 'Apaga para um Novo Registo',
 	'USER_ADMIN_MOVE_POSTS'			=> 'Move todas as Mensagens',
 	'USER_ADMIN_SIG_REMOVED'		=> 'Assinatura removida com sucesso da Conta do Utilizador.',
 	'USER_ATTACHMENTS_REMOVED'		=> 'Todos os Anexos feitos por este Utilizador foram apagados com sucesso.',

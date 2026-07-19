@@ -225,7 +225,7 @@ $lang = array_merge($lang, [
 
 	'BACK'								=> 'Voltar',
 
-	'CONTAINER_EXCEPTION' 			=> 'O phpBB deparou-se com um erro ao construir o contentor, devido a uma extensão instalada. Por esse motivo, todas as extensões foram temporariamente desactivadas. Por favor, limpe a cache do seu fórum. Todas as extensões irão ser automaticamente de novo activadas assim que o erro do contentor seja resolvido. Caso este erro persista, por favor, visite <a href="https://www.phpbb.com/support">phpBB.com</a> para assistência.',
+	'CONTAINER_EXCEPTION' 			=> 'O phpBB deparou-se com um erro ao construir o contentor, devido a uma extensão instalada. Por esse motivo, todas as extensões foram temporariamente desactivadas. Por favor, limpe a cache do teu fórum. Todas as extensões irão ser automaticamente de novo activadas assim que o erro do contentor seja resolvido. Caso este erro persista, por favor, visita <a href="https://www.phpbb.com/support">phpBB.com</a> para assistência.',
 	'EXCEPTION'							=> 'Excepção',
 
 	'COLOUR_SWATCH'					=> 'Cores seguras de navegação',
@@ -245,7 +245,7 @@ $lang = array_merge($lang, [
 	'DOWNLOAD'							=> 'Transferir',
 	'DOWNLOAD_AS'						=> 'Descarregar como',
 	'DOWNLOAD_STORE'					=> 'Descarregar ou Guardar o Ficheiro',
-	'DOWNLOAD_STORE_EXPLAIN'		=> 'Deve descarregar directamente o Ficheiro ou guardá-lo na sua pasta.',
+	'DOWNLOAD_STORE_EXPLAIN'		=> 'Deves descarregar directamente o Ficheiro ou guardá-lo na tua pasta.',
 	'DOWNLOADS'							=> 'Transferências',
 
 	'EDIT'								=> 'Editar',
@@ -266,8 +266,8 @@ $lang = array_merge($lang, [
 	'LOAD_NOTIFICATIONS_EXPLAIN'	=> 'Mostrar a lista de notificações em cada página (normalmente no cabeçalho).',
 	'LOGGED_IN_AS'						=> 'Está ligado como:',
 	'LOGIN_ADMIN'						=> 'Para Administrar o Fórum, tem que ser um Utilizador validado.',
-	'LOGIN_ADMIN_CONFIRM'			=> 'Para Administrar o Fórum, tem de confirmar o seu acesso.',
-	'LOGIN_ADMIN_SUCCESS'			=> 'O seu Registo foi validado com sucesso. Vai ser redireccionado para o Painel de Administração.',
+	'LOGIN_ADMIN_CONFIRM'			=> 'Para Administrar o Fórum, tem de confirmar o teu acesso.',
+	'LOGIN_ADMIN_SUCCESS'			=> 'O teu Registo foi validado com sucesso. Vais ser redireccionado para o Painel de Administração.',
 	'LOOK_UP_FORUM'					=> 'Seleccione um Fórum',
 	'LOOK_UP_FORUMS_EXPLAIN'		=> 'Nesta opção pode seleccionar vários Fóruns. Pressione a tecla CTRL ou Shift para seleccionar um a um ou vários Fóruns.',
 
@@ -282,7 +282,7 @@ $lang = array_merge($lang, [
 	'NO_ADMIN'							=> 'Não está autorizado a Administrar este Fórum.',
 	'NO_EMAILS_DEFINED'				=> 'Sem endereços de email válidos encontrados.',
 	'NO_FILES_TO_DELETE'				=> 'Os anexos que seleccionou para eliminação não existem.',
-	'NO_PASSWORD_SUPPLIED'			=> 'Tem de indicar a sua senha para aceder ao Painel de Administração.',
+	'NO_PASSWORD_SUPPLIED'			=> 'Tens de indicar a tua senha para aceder ao Painel de Administração.',
 
 	'OFF'									=> 'Desactivado',
 	'ON'									=> 'Activado',
@@ -291,7 +291,7 @@ $lang = array_merge($lang, [
 	'PARSE_SMILIES'					=> 'Usar Emoções',
 	'PARSE_URLS'						=> 'Usar Atalhos',
 	'PERMISSIONS_TRANSFERRED'		=> 'Permissões Transferidas',
-	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> 'Actualmente está com as Permissões de %1$s. Pode navegar pelo Fórum com as Permissões deste Utilizador, mas só pode aceder ao Painel de Administração se este Utilizador tiver Permissões de Administrador. Em qualquer momento pode <a href="%2$s"><strong>regressar às suas Permissões</strong></a>.',
+	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> 'Actualmente estás com as Permissões de %1$s. Podes navegar pelo Fórum com as Permissões deste Utilizador, mas só podes aceder ao Painel de Administração se este Utilizador tiver Permissões de Administrador. Em qualquer momento podes <a href="%2$s"><strong>regressar às tuas Permissões</strong></a>.',
 	'PROCEED_TO_ACP'					=> '%sIr para o Painel de Administração%s',
 
 	'RELEASE_ANNOUNCEMENT'			=> 'Anúncio',
@@ -336,10 +336,10 @@ $lang = array_merge($lang, [
 
 // Logs
 $lang = array_merge($lang, [
-	'ACP_ADMIN_LOGS_EXPLAIN'		=> 'Esta é a lista das acções dos Administradores. Pode ordená-la por Utilizador, data, Endereço de IP ou Acção do Registo. Se tiver as permissões adequadas, pode limpar operações individuais ou todo o registo.',
-	'ACP_CRITICAL_LOGS_EXPLAIN'	=> 'Esta é a lista das acções realizadas pelo Fórum. Estes registos têm informações que permitem solucionar problemas específicos, por exemplo uma falha no envio de emails.  Pode ordená-la por Utilizador, data, IP ou acção. Se tiver as permissões adequadas, pode limpar operações individuais ou todo o registo.',
-	'ACP_MOD_LOGS_EXPLAIN'			=> 'Esta é a lista das acções dos Moderadores do Fórum. Pode ordená-la por Utilizador, data, Endereço de IP ou Acção do Registo. Se tiver as permissões adequadas, pode limpar operações individuais ou todo o registo.',
-	'ACP_USERS_LOGS_EXPLAIN'		=> 'Esta é a lista das acções dos Utilizadores do Fórum. Pode ordená-la por Utilizador, data, Endereço de IP ou Acção do Registo. Se tiver as permissões adequadas, pode limpar operações individuais ou todo o registo.',
+	'ACP_ADMIN_LOGS_EXPLAIN'		=> 'Esta é a lista das acções dos Administradores. Podes ordená-la por Utilizador, data, Endereço de IP ou Acção do Registo. Se tiveres as permissões adequadas, podes limpar operações individuais ou todo o registo.',
+	'ACP_CRITICAL_LOGS_EXPLAIN'	=> 'Esta é a lista das acções realizadas pelo Fórum. Estes registos têm informações que permitem solucionar problemas específicos, por exemplo uma falha no envio de emails.  Podes ordená-la por Utilizador, data, IP ou acção. Se tiveres as permissões adequadas, podes limpar operações individuais ou todo o registo.',
+	'ACP_MOD_LOGS_EXPLAIN'			=> 'Esta é a lista das acções dos Moderadores do Fórum. Podes ordená-la por Utilizador, data, Endereço de IP ou Acção do Registo. Se tiveres as permissões adequadas, podes limpar operações individuais ou todo o registo.',
+	'ACP_USERS_LOGS_EXPLAIN'		=> 'Esta é a lista das acções dos Utilizadores do Fórum. Podes ordená-la por Utilizador, data, Endereço de IP ou Acção do Registo. Se tiveres as permissões adequadas, podes limpar operações individuais ou todo o registo.',
 	'ALL_ENTRIES'						=> 'Todas as Entradas',
 
 	'DISPLAY_LOG'						=> 'Exibir Entradas anteriores',
@@ -353,7 +353,7 @@ $lang = array_merge($lang, [
 
 // Index page
 $lang = array_merge($lang, [
-	'ADMIN_INTRO'						=> 'Obrigado por usar o phpBB3 no seu Fórum. Esta página apresenta as Estatísticas Gerais do Fórum. À esquerda encontra os menus de acesso ao Painel de Administração. Cada um deles contém instruções de configuração.',
+	'ADMIN_INTRO'						=> 'Obrigado por usar o phpBB3 no teu Fórum. Esta página apresenta as Estatísticas Gerais do Fórum. À esquerda encontra os menus de acesso ao Painel de Administração. Cada um deles contém instruções de configuração.',
 	'ADMIN_LOG'							=> 'Registos da acções dos Administradores',
 	'ADMIN_LOG_INDEX_EXPLAIN'		=> 'Este registo mostra as últimas cinco acções dos Administradores. Uma cópia completa do registo está disponível no item apropriado do Menu ou seguindo o atalho abaixo.',
 	'AVATAR_DIR_SIZE'					=> 'Tamanho da pasta dos avatares',
@@ -366,15 +366,15 @@ $lang = array_merge($lang, [
 
 	// Environment configuration checks, mbstring related
 	'ERROR_MBSTRING_FUNC_OVERLOAD'						=> 'A função de sobrecarga não se encontra configurada correctamente',
-	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'				=> '<var>mbstring.func_overload</var> deve ser definido para 0 ou 4. Pode verificar o valor actual em <samp>informação PHP</samp>.',
+	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'				=> '<var>mbstring.func_overload</var> deve ser definido para 0 ou 4. Podes verificar o valor actual em <samp>informação PHP</samp>.',
 	'ERROR_MBSTRING_ENCODING_TRANSLATION'				=> 'A codificação de caracteres transparentes não se encontra configurada correctamente',
-	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN'	=> '<var>mbstring.encoding_translation</var> deve ser definido para 0. Pode verificar o valor actual em <samp>informação PHP</samp>.',
+	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN'	=> '<var>mbstring.encoding_translation</var> deve ser definido para 0. Podes verificar o valor actual em <samp>informação PHP</samp>.',
 	'ERROR_MBSTRING_HTTP_INPUT'							=> 'A conversão de entrada de caracteres via HTTP não se encontra configurada correctamente',
-	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'					=> '<var>mbstring.http_input</var> deve ser deixado vazio. Pode verificar o valor actual na página de <samp>informação PHP</samp>.',
+	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'					=> '<var>mbstring.http_input</var> deve ser deixado vazio. Podes verificar o valor actual na página de <samp>informação PHP</samp>.',
 	'ERROR_MBSTRING_HTTP_OUTPUT'							=> 'A conversão de saída de caracteres via HTTP não se encontra configurada correctamente',
-	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'				=> '<var>mbstring.http_output</var> deve ser deixado vazio. Pode verificar o valor actual na página de <samp>informação PHP</samp>.',
+	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'				=> '<var>mbstring.http_output</var> deve ser deixado vazio. Podes verificar o valor actual na página de <samp>informação PHP</samp>.',
 	'ERROR_DEFAULT_CHARSET'									=> 'O conjunto de caracteres padrão está configurado incorrectamente',
-	'ERROR_DEFAULT_CHARSET_EXPLAIN'						=> '<var>default_charset</var> deve ser definido para <samp>UTF-8</samp>. Pode verificar o valor actual na página de <samp>informação PHP</samp>.',
+	'ERROR_DEFAULT_CHARSET_EXPLAIN'						=> '<var>default_charset</var> deve ser definido para <samp>UTF-8</samp>. Podes verificar o valor actual na página de <samp>informação PHP</samp>.',
 
 	'FILES_PER_DAY'					=> 'Média de Anexos diários',
 	'FORUM_STATS'						=> 'Estatísticas do Fórum',
@@ -395,31 +395,31 @@ $lang = array_merge($lang, [
 	'POSTS_PER_DAY'					=> 'Média de Mensagens diárias',
 
 	'PURGE_CACHE'						=> 'Eliminar Cache',
-	'PURGE_CACHE_CONFIRM'			=> 'Tem a certeza que deseja eliminar a Cache?',
+	'PURGE_CACHE_CONFIRM'			=> 'Tens a certeza que desejas eliminar a Cache?',
 	'PURGE_CACHE_EXPLAIN'			=> 'Apagar a Cache, incluindo a dos Templates e de consulta à Base de Dados.',
 	'PURGE_CACHE_SUCCESS'			=> 'A Cache foi limpa com sucesso.',
 
 	'PURGE_SESSIONS'					=> 'Encerrar todas as sessões',
-	'PURGE_SESSIONS_CONFIRM'		=> 'Tem a certeza que desejar para encerrar todas as sessões? Esta acção encerra as sessões de todos os utilizadores.',
+	'PURGE_SESSIONS_CONFIRM'		=> 'Tens a certeza que desejas encerrar todas as sessões? Esta acção encerra as sessões de todos os utilizadores.',
 	'PURGE_SESSIONS_EXPLAIN'		=> 'Esta acção encerra a tabela de sessões, provocando a saída de todos os utilizadores.',
 	'PURGE_SESSIONS_SUCCESS'		=> 'Todas as sessões encerradas com sucesso.',
 
 	'RESET_DATE'						=> 'Reiniciar data de fundação do Fórum',
-	'RESET_DATE_CONFIRM'				=> 'Tem a certeza que deseja reiniciar a data de fundação do Fórum?',
+	'RESET_DATE_CONFIRM'				=> 'Tens a certeza que desejas reiniciar a data de fundação do Fórum?',
 	'RESET_DATE_SUCCESS'				=> 'Data de fundação do Fórum reiniciada com sucesso',
 	'RESET_ONLINE'						=> 'Reiniciar estatísticas dos utilizadores online',
-	'RESET_ONLINE_CONFIRM'			=> 'Tem a certeza que deseja reiniciar o contador do recorde de utilizadores online?',
+	'RESET_ONLINE_CONFIRM'			=> 'Tens a certeza que desejas reiniciar o contador do recorde de utilizadores online?',
 	'RESET_ONLINE_SUCCESS'			=> 'Recorde de utilizadores online reiniciado com sucesso',
 	'RESYNC_POSTCOUNTS'				=> 'Sincronizar contagem de Mensagens',
 	'RESYNC_POSTCOUNTS_EXPLAIN'	=> 'Apenas são consideradas as mensagens actuais.',
-	'RESYNC_POSTCOUNTS_CONFIRM'	=> 'Tem a certeza que deseja ressincronizar o contador de mensagens?',
+	'RESYNC_POSTCOUNTS_CONFIRM'	=> 'Tens a certeza que desejas ressincronizar o contador de mensagens?',
 	'RESYNC_POSTCOUNTS_SUCCESS'	=> 'Ressincronizar contador de mensagens',
 	'RESYNC_POST_MARKING'			=> 'Ressincronizar "Tópicos Marcados"',
-	'RESYNC_POST_MARKING_CONFIRM'	=> 'Tem a certeza que deseja sincronizar os "Tópicos Marcados"?',
+	'RESYNC_POST_MARKING_CONFIRM'	=> 'Tens a certeza que desejas sincronizar os "Tópicos Marcados"?',
 	'RESYNC_POST_MARKING_EXPLAIN'	=> '"Tópicos Marcados" são todos aqueles em que o utilizador tem mensagens. Esta opção desmarca todos os "Tópicos Marcados", remarcando os Tópicos com actividade nos últimos seis meses.',
 	'RESYNC_POST_MARKING_SUCCESS'	=> '"Tópicos Marcados" ressincronizar com sucesso',
 	'RESYNC_STATS'						=> 'Sincronizar Estatísticas',
-	'RESYNC_STATS_CONFIRM'			=> 'Tem a certeza que deseja ressincronizar as estatísticas?',
+	'RESYNC_STATS_CONFIRM'			=> 'Tens a certeza que desejas ressincronizar as estatísticas?',
 	'RESYNC_STATS_EXPLAIN'			=> 'Calcular o total de Mensagens, Tópicos, Utilizadores e Ficheiros.',
 	'RESYNC_STATS_SUCCESS'			=> 'Estatísticas ressincronizadas',
 	'RUN'								=> 'Sincronizar',
@@ -449,7 +449,7 @@ $lang = array_merge($lang, [
 	'VIEW_INACTIVE_USERS'			=> 'Ver Utilizadores Inactivos',
 
 	'WELCOME_PHPBB'					=> 'Bem-vindo ao phpBB',
-	'WRITABLE_CONFIG'					=> 'O ficheiro de configuração (config.php) está actualmente com Permissões de gravação. É altamente recomendável que modifique as Permissões do ficheiro para 640 ou 644 (leia: <a href="http://en.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php).',
+	'WRITABLE_CONFIG'					=> 'O ficheiro de configuração (config.php) está actualmente com Permissões de gravação. É altamente recomendável que modifique as Permissões do ficheiro para 640 ou 644 (lê: <a href="http://en.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php).',
 ]);
 
 // Inactive Users
@@ -462,7 +462,7 @@ $lang = array_merge($lang, [
 	'INACTIVE_REASON_REMIND'		=> 'Forçar Reactivação de Registo do Utilizador',
 	'INACTIVE_REASON_UNKNOWN'		=> 'Desconhecido',
 	'INACTIVE_USERS'					=> 'Utilizadores Inactivos',
-	'INACTIVE_USERS_EXPLAIN'		=> 'Esta é uma lista dos Utilizadores Registados, mas com os Registos ainda inactivos. Se desejar pode activar, excluir ou avisar (enviando um email) estes Utilizadores.',
+	'INACTIVE_USERS_EXPLAIN'		=> 'Esta é uma lista dos Utilizadores Registados, mas com os Registos ainda inactivos. Se desejares podes activar, excluir ou avisar (enviando um email) estes Utilizadores.',
 	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Lista dos 10 últimos Utilizadores Registados ainda inactivos. As Contas estão inactivas porque a sua activação está configurada para ser feita pelo próprio utilizador e estes ainda o não fizeram ou porque foram desactivadas. A lista completa está disponível através do item apropriado do menu ou clicando no atalho abaixo onde pode activar, excluir ou avisar (enviando um email) estes Utilizadores se desejar.',
 
 	'NO_INACTIVE_USERS'				=> 'Não há Utilizadores Inactivos',
@@ -479,7 +479,7 @@ $lang = array_merge($lang, [
 
 // Send statistics page
 $lang = array_merge($lang, [
-	'EXPLAIN_SEND_STATISTICS'		=> 'Por favor, envie informação acerca do seu servidor e configurações do Fórum para análise de estatística do phpBB. Toda a informação que possa identificá-lo a si ou ao seu website será removida - os dados são totalmente <strong>anónimos</strong>. Basearemos as nossas decisões sobre as futuras versões de phpBB com esta informação. As estatísticas serão publicamente disponibilizadas. Compartilharemos igualmente os dados com o projecto PHP, a linguagem de programação phpBB é baseada nele.',
+	'EXPLAIN_SEND_STATISTICS'		=> 'Por favor, envia informação acerca do teu servidor e configurações do Fórum para análise de estatística do phpBB. Toda a informação que possa identificá-lo a si ou ao teu website será removida - os dados são totalmente <strong>anónimos</strong>. Basearemos as nossas decisões sobre as futuras versões de phpBB com esta informação. As estatísticas serão publicamente disponibilizadas. Compartilharemos igualmente os dados com o projecto PHP, a linguagem de programação phpBB é baseada nele.',
 	'EXPLAIN_SHOW_STATISTICS'		=> 'Usando o botão abaixo pode visualizar todas as variáveis que serão transmitidas.',
 	'DONT_SEND_STATISTICS'			=> 'Clique aqui para entrar no ACP, se não deseja enviar as informações estatísticas para o phpBB.',
 	'GO_ACP_MAIN'						=> 'Ir para a página inicial do ACP',
@@ -487,7 +487,7 @@ $lang = array_merge($lang, [
 	'SEND_STATISTICS'					=> 'Enviar estatísticas',
 	'SEND_STATISTICS_LONG'			=> 'Enviar informações estatísticas',
 	'SHOW_STATISTICS'					=> 'Mostrar detalhes',
-	'THANKS_SEND_STATISTICS'		=> 'Obrigado por enviar as suas informações.',
+	'THANKS_SEND_STATISTICS'		=> 'Obrigado por enviar as tuas informações.',
 	'FAIL_SEND_STATISTICS'			=> 'O phpBB não conseguiu enviar as estatísticas',
 ]);
 
@@ -700,7 +700,7 @@ $lang = array_merge($lang, [
 	'LOG_U_ROLE_EDIT'							=> '<strong>Tarefa do Utilizador Editada</strong><br />» %s',
 	'LOG_U_ROLE_REMOVED'						=> '<strong>Tarefa do Utilizador Apagada</strong><br />» %s',
 
-	'LOG_PLUPLOAD_TIDY_FAILED'				=> '<strong>Não foi possível abrir %1$s para arrumação, verifique as permissões.</strong><br />Excepção: %2$s<br />Rastreio: %3$s',
+	'LOG_PLUPLOAD_TIDY_FAILED'				=> '<strong>Não foi possível abrir %1$s para arrumação, verifica as permissões.</strong><br />Excepção: %2$s<br />Rastreio: %3$s',
 
 	'LOG_PROFILE_FIELD_ACTIVATE'			=> '<strong>Campo do Perfil Activado</strong><br />» %s',
 	'LOG_PROFILE_FIELD_CREATE'				=> '<strong>Campo do Perfil Adicionado</strong><br />» %s',
@@ -738,8 +738,8 @@ $lang = array_merge($lang, [
 	'LOG_SEARCH_INDEX_REMOVED'				=> '<strong>Índice de busca excluído por</strong><br />» %s',
 	'LOG_SPHINX_ERROR'						=> '<strong>Erro de Sphinx</strong><br />» %s',
 
-	'LOG_SPAMHAUS_OPEN_RESOLVER'			=> 'A Spamhaus não permite consultas a partir de um resolvedor aberto. A verificação da lista negra foi desactivada. Para obter mais informações, consulte https://www.spamhaus.com/product/help-for-spamhaus-public-mirror-users/.',
-	'LOG_SPAMHAUS_VOLUME_LIMIT'			=> 'O limite de volume de consulta Spamhaus foi excedido. A verificação da lista negra foi desactivada. Para obter mais informações, consulte https://www.spamhaus.com/product/help-for-spamhaus-public-mirror-users/.',
+	'LOG_SPAMHAUS_OPEN_RESOLVER'			=> 'A Spamhaus não permite consultas a partir de um resolvedor aberto. A verificação da lista negra foi desactivada. Para obter mais informações, consulta https://www.spamhaus.com/product/help-for-spamhaus-public-mirror-users/.',
+	'LOG_SPAMHAUS_VOLUME_LIMIT'			=> 'O limite de volume de consulta Spamhaus foi excedido. A verificação da lista negra foi desactivada. Para obter mais informações, consulta https://www.spamhaus.com/product/help-for-spamhaus-public-mirror-users/.',
 
 	'LOG_STYLE_ADD'							=> '<strong>Template Adicionado</strong><br />» %s',
 	'LOG_STYLE_DELETE'						=> '<strong>Template Apagado</strong><br />» %s',

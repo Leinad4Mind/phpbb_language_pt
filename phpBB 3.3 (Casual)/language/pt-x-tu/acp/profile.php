@@ -45,7 +45,7 @@ $lang = array_merge($lang, [
 	'ALPHA_PUNCTUATION'					=> 'Alfanumérico com vírgulas, pontos, sublinhados e traços começando com uma letra',
 	'ALWAYS_TODAY'							=> 'Sempre a Data Atual',
 
-	'BOOL_ENTRIES_EXPLAIN'				=> 'Escreva as suas opções agora',
+	'BOOL_ENTRIES_EXPLAIN'				=> 'Escreve as tuas opções agora',
 	'BOOL_TYPE_EXPLAIN'					=> 'Defina o tipo, entre uma caixa de seleção (checkbox) ou botões de rádio (radio). Uma caixa só será apresentada se estiver marcada para um determinado Utilizador. Nesse caso a <strong>segunda</strong> opção de linguagem será utilizada. Os Botões de rádio são apresentados, independentemente dos seus valores.',
 
 	'CHANGED_PROFILE_FIELD'				=> 'O Campo do Perfil foi modificado com sucesso.',
@@ -77,9 +77,9 @@ $lang = array_merge($lang, [
 	'DISPLAY_ON_VT_EXPLAIN'				=> 'Caso esta opção esteja ativa, o campo irá ser exibido no mini-perfil na página de Tópicos.',
 	'DISPLAY_PROFILE_FIELD'				=> 'Exibir publicamente o campo do perfil',
 	'DISPLAY_PROFILE_FIELD_EXPLAIN'	=> 'O Campo do Perfil será visualizado nos Tópicos, Perfis e Lista de Membros, se isto estiver ativo com as configurações de carga.',
-	'DROPDOWN_ENTRIES_EXPLAIN'			=> 'Escreva as suas Opções agora, todas elas numa linha.',
+	'DROPDOWN_ENTRIES_EXPLAIN'			=> 'Escreve as tuas Opções agora, todas elas numa linha.',
 
-	'EDIT_DROPDOWN_LANG_EXPLAIN'		=> 'Por Favor, note que pode alterar os seus textos de Opções e também pode adicionar novas opções ao fim. Não é aconselhável adicionar novas Opções dentre outras opções existentes - isto pode resultar em opções defeituosas exibidas aos utilizadores. Isto pode também acontecer se apagar opções no meio de outras. Excluindo opções do fim, resultará em Utilizadores com este item revertido ao padrão inicial.',
+	'EDIT_DROPDOWN_LANG_EXPLAIN'		=> 'Por favor, nota que podes alterar os teus textos de Opções e também podes adicionar novas opções ao fim. Não é aconselhável adicionar novas Opções dentre outras opções existentes - isto pode resultar em opções defeituosas exibidas aos utilizadores. Isto pode também acontecer se apagares opções no meio de outras. Excluindo opções do fim, resultará em Utilizadores com este item revertido ao padrão inicial.',
 	'EMPTY_FIELD_IDENT'					=> 'Identificação do Campo vazia',
 	'EMPTY_USER_FIELD_NAME'				=> 'Por Favor, dê um Título ao Campo',
 	'ENTRIES'								=> 'Entradas',
@@ -103,7 +103,7 @@ $lang = array_merge($lang, [
 	'FIELD_STRING'							=> 'Campo de Texto Simples',
 	'FIELD_TEXT'							=> 'Área de Texto',
 	'FIELD_TYPE'							=> 'Tipo do Campo',
-	'FIELD_TYPE_EXPLAIN'					=> 'Não pode alterar o tipo de Perfil depois.',
+	'FIELD_TYPE_EXPLAIN'					=> 'Não podes alterar o tipo de Perfil depois.',
 	'FIELD_URL'								=> 'URL (Link)',
 	'FIELD_VALIDATION'					=> 'Validação do Campo',
 	'FIRST_OPTION'							=> 'Primeira Opção',
@@ -163,9 +163,9 @@ $lang = array_merge($lang, [
 	'STEP_3_EXPLAIN_EDIT'				=> 'Desde que tenha mais de um Idioma instalado, pode também alterar ou adicionar os itens de linguagem restantes. Se não o fizer, será usada a configuração de idioma padrão para esse campo de perfil personalizado.',
 	'STEP_3_TITLE_CREATE'				=> 'Definições do Idioma Restantes',
 	'STEP_3_TITLE_EDIT'					=> 'Definições do Idioma',
-	'STRING_DEFAULT_VALUE_EXPLAIN'	=> 'Escreva uma frase padrão a ser exibida, um valor padrão. Deixe em branco se não deseja ativar esta opção.',
+	'STRING_DEFAULT_VALUE_EXPLAIN'	=> 'Escreve uma frase padrão a ser exibida, um valor padrão. Deixa em branco se não desejas ativar esta opção.',
 
-	'TEXT_DEFAULT_VALUE_EXPLAIN'		=> 'Escreva um texto padrão a ser exibido, um valor padrão. Deixe em branco se não deseja ativar esta opção.',
+	'TEXT_DEFAULT_VALUE_EXPLAIN'		=> 'Escreve um texto padrão a ser exibido, um valor padrão. Deixa em branco se não desejas ativar esta opção.',
 	'TRANSLATE'								=> 'Traduzir',
 
 	'USER_FIELD_NAME'						=> 'Título do Campo será mostrado ao Utilizador',
