@@ -83,6 +83,7 @@ $lang = array_merge($lang, [
 
 	'INSTALL_PHPBB_INSTALLED'		=> 'O phpBB já está instalado.',
 	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'O phpBB ainda não está instalado.',
+	'INSTALL_RESTART'				=> 'Reinicie a instalação',
 ]);
 
 // Requirements translation
