@@ -102,9 +102,9 @@ $lang = array_merge($lang, [
 
 	'CODE'								=> 'Código',
 	'CURRENT_ICONS'					=> 'Ícones actuais',
-	'CURRENT_ICONS_EXPLAIN'			=> 'Escolha o que fazer com os ícones actualmente instalados.',
+	'CURRENT_ICONS_EXPLAIN'			=> 'Escolhe o que fazer com os ícones actualmente instalados.',
 	'CURRENT_SMILIES'					=> 'Emoções actuais',
-	'CURRENT_SMILIES_EXPLAIN'		=> 'Escolha o que fazer com as Emoções actualmente instaladas.',
+	'CURRENT_SMILIES_EXPLAIN'		=> 'Escolhe o que fazer com as Emoções actualmente instaladas.',
 
 	'DISPLAY_ON_POSTING'				=> 'Exibir na Mensagem',
 	'DISPLAY_POSTING'					=> 'Na Mensagem',
@@ -238,14 +238,14 @@ $lang = array_merge($lang, [
 	'RANK_IMAGE_IN_USE'				=> '(em uso)',
 	'RANK_MINIMUM'						=> 'Número Mínimo de Mensagens',
 	'RANK_REMOVED'						=> 'A classificação foi apagada com sucesso.',
-	'RANK_SPECIAL'						=> 'Escreva uma Classificação Especial',
+	'RANK_SPECIAL'						=> 'Escreve uma Classificação Especial',
 	'RANK_TITLE'						=> 'Título da Classificação',
 	'RANK_UPDATED'						=> 'A Classificação foi actualizada com sucesso.',
 ]);
 
 // Disallow Usernames
 $lang = array_merge($lang, [
-	'ACP_DISALLOW_EXPLAIN'			=> 'Aqui podes gerir os nomes cuja utilização é proibida. Utilize o asterisco (*) para facilitar a construção de nomes.',
+	'ACP_DISALLOW_EXPLAIN'			=> 'Aqui podes gerir os nomes cuja utilização é proibida. Utiliza o asterisco (*) para facilitar a construção de nomes.',
 	'ADD_DISALLOW_EXPLAIN'			=> 'Podes proibir nomes de utilizadores combinando o asterisco (*) com outros caracteres.',
 	'ADD_DISALLOW_TITLE'				=> 'Adicionar um Nome Proibido',
 

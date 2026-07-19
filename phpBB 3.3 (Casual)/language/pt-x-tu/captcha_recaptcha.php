@@ -57,7 +57,7 @@ $lang = array_merge($lang, [
 	'RECAPTCHA_V3_PRIVATE_EXPLAIN'	=> 'A tua chave secreta do reCAPTCHA v3. As chaves podem ser obtidas em <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>. Por favor, usa o reCAPTCHA v3.',
 
 	'RECAPTCHA_V3_DOMAIN'				=> 'Domínio solicitado',
-	'RECAPTCHA_V3_DOMAIN_EXPLAIN'		=> 'O domínio a ser usado para recuperar o script ao verificar a consulta.<br>Use <samp>recaptcha.net</samp> quando <samp>google.com</samp> não estiver acessível.',
+	'RECAPTCHA_V3_DOMAIN_EXPLAIN'		=> 'O domínio a ser usado para recuperar o script ao verificar a consulta.<br>Usa <samp>recaptcha.net</samp> quando <samp>google.com</samp> não estiver acessível.',
 
 	'RECAPTCHA_V3_METHOD'				=> 'Método de solicitação',
 	'RECAPTCHA_V3_METHOD_EXPLAIN'		=> 'O método a ser usado ao verificar a solicitação.<br>As opções desativadas não estão disponíveis nas tuas configurações.',

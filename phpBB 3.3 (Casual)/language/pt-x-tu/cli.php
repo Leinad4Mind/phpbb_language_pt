@@ -38,13 +38,13 @@ if (empty($lang) || !is_array($lang)) {
 $lang = array_merge($lang, [
 	'CLI_APCU_CACHE_NOTICE'					=> 'O cache do APCu deve ser limpo através do Painel de Controlo da Administração.',
 
-	'CLI_CONFIG_CANNOT_CACHED'				=> 'Defina esta opção se a opção de configuração muda com muita frequência para ser eficiente em cache.',
-	'CLI_CONFIG_CURRENT'						=> 'Valor atual configuração, use 0 e 1 para especificar valores booleanos',
+	'CLI_CONFIG_CANNOT_CACHED'				=> 'Define esta opção se a opção de configuração muda com muita frequência para ser eficiente em cache.',
+	'CLI_CONFIG_CURRENT'						=> 'Valor atual configuração, usa 0 e 1 para especificar valores booleanos',
 	'CLI_CONFIG_DELETE_SUCCESS'			=> 'Configuração eliminada com sucesso %s.',
-	'CLI_CONFIG_NEW'							=> 'Novo valor de configuração, use 0 e 1 para especificar valores booleanos',
+	'CLI_CONFIG_NEW'							=> 'Novo valor de configuração, usa 0 e 1 para especificar valores booleanos',
 	'CLI_CONFIG_NOT_EXISTS'					=> 'Configuração %s não existe',
 	'CLI_CONFIG_OPTION_NAME'				=> 'O nome da opção de configuração',
-	'CLI_CONFIG_PRINT_WITHOUT_NEWLINE'	=> 'Defina esta opção se o valor deve ser impresso sem uma nova linha no final.',
+	'CLI_CONFIG_PRINT_WITHOUT_NEWLINE'	=> 'Define esta opção se o valor deve ser impresso sem uma nova linha no final.',
 	'CLI_CONFIG_INCREMENT_BY'				=> 'Valor de incrementar de',
 	'CLI_CONFIG_INCREMENT_SUCCESS'		=> 'Configuração %s incrementada com sucesso',
 	'CLI_CONFIG_SET_FAILURE'				=> 'Não foi possível definir a configuração %s',
@@ -74,7 +74,7 @@ $lang = array_merge($lang, [
 	'CLI_DESCRIPTION_REPARSER_LIST'				=> 'Lista os tipos de texto que podem ser reanalisados.',
 	'CLI_DESCRIPTION_REPARSER_AVAILABLE'		=> 'Reanalisadores disponíveis:',
 	'CLI_DESCRIPTION_REPARSER_REPARSE'			=> 'Texto reanalisado guardado com o serviço atual de text_formatter.',
-	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'	=> 'Tipo de texto a reanalisar. Deixe em branco para reanalisar tudo.',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'	=> 'Tipo de texto a reanalisar. Deixa em branco para reanalisar tudo.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'		=> 'Sem quaisquer alterações, apenas veja o resultado que seria desta operação',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MIN'	=> 'ID do registo menor a ser processado',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MAX'	=> 'ID do registo maior a ser processado',
@@ -133,7 +133,7 @@ $lang = array_merge($lang, [
 	'CLI_FIXUP_FIX_LEFT_RIGHT_IDS_SUCCESS'			=> 'Correção da estrutura da árvore dos fóruns e dos módulos efetuada com sucesso.',
 	'CLI_FIXUP_UPDATE_HASH_BCRYPT_SUCCESS'			=> 'Senhas com hashes desatualizadas foram encriptadas por bcrypt com sucesso.',
 
-	'CLI_MIGRATION_NAME'						=> 'Nome da migração, incluindo o conjunto de nomes (utilize barras inclinadas ao invés de contra-barras para evitar problemas).',
+	'CLI_MIGRATION_NAME'						=> 'Nome da migração, incluindo o conjunto de nomes (utiliza barras inclinadas ao invés de contra-barras para evitar problemas).',
 	'CLI_MIGRATIONS_AVAILABLE'				=> 'Migrações disponíveis',
 	'CLI_MIGRATIONS_INSTALLED'				=> 'Migrações instaladas',
 	'CLI_MIGRATIONS_ONLY_AVAILABLE'		=> 'Mostrar apenas as migrações disponíveis',
@@ -170,9 +170,9 @@ $lang = array_merge($lang, [
 $lang = array_merge($lang, [
 	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' Opcionalmente pode especificar um nome de tarefa cron para executar apenas a tarefa cron especificada. ',
 	'CLI_HELP_USER_ACTIVATE'	=> 'Ativar conta de utilizador, ou desativar uma conta fazendo uso da opção <info>--deactivate</info>.
-Para enviar, opcionalmente, um email de ativação de conta para o utilizador, utilize a opção <info>--send-email</info>.',
+Para enviar, opcionalmente, um email de ativação de conta para o utilizador, utiliza a opção <info>--send-email</info>.',
 	'CLI_HELP_USER_ADD'			=> 'O comando <info>%command.name%</info> adiciona um novo utilizador:
 Caso este comando seja executado sem opções, será questionado para as introduzir.
-Para enviar, opcionalmente, um email ao novo utilizador, utilize a opção <info>--send-email</info>.',
+Para enviar, opcionalmente, um email ao novo utilizador, utiliza a opção <info>--send-email</info>.',
 	'CLI_HELP_USER_RECLEAN'		=> 'Ao reforçar a limpeza dos nomes dos utilizadores irá verificar e certificar-se que todos os nomes de utilizadores possuem versões limpas dos nomes de utilizadores guardadas. Nomes de utilizadores limpos significa que se encontram em minúsculas, normalizadas em NFC e transformadas em ASCII.',
 ]);

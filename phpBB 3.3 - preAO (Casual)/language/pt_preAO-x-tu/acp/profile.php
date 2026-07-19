@@ -46,7 +46,7 @@ $lang = array_merge($lang, [
 	'ALWAYS_TODAY'							=> 'Sempre a Data Actual',
 
 	'BOOL_ENTRIES_EXPLAIN'				=> 'Escreve as tuas opções agora',
-	'BOOL_TYPE_EXPLAIN'					=> 'Defina o tipo, entre uma caixa de selecção (checkbox) ou botões de rádio (radio). Uma caixa só será apresentada se estiver marcada para um determinado Utilizador. Nesse caso a <strong>segunda</strong> opção de linguagem será utilizada. Os Botões de rádio são apresentados, independentemente dos seus valores.',
+	'BOOL_TYPE_EXPLAIN'					=> 'Define o tipo, entre uma caixa de selecção (checkbox) ou botões de rádio (radio). Uma caixa só será apresentada se estiver marcada para um determinado Utilizador. Nesse caso a <strong>segunda</strong> opção de linguagem será utilizada. Os Botões de rádio são apresentados, independentemente dos seus valores.',
 
 	'CHANGED_PROFILE_FIELD'				=> 'O Campo do Perfil foi modificado com sucesso.',
 	'CHARS_ANY'								=> 'Qualquer carácter',
@@ -64,7 +64,7 @@ $lang = array_merge($lang, [
 	'DEFAULT_LANGUAGE_NOT_FILLED'		=> 'As entradas de linguagem para o Idioma Padrão não estão preenchidos para este Campo do Perfil.',
 	'DEFAULT_VALUE'						=> 'Valor Padrão',
 	'DELETE_PROFILE_FIELD'				=> 'Apagar Campo do Perfil',
-	'DELETE_PROFILE_FIELD_CONFIRM'	=> 'Deseja realmente Apagar este Campo do Perfil?',
+	'DELETE_PROFILE_FIELD_CONFIRM'	=> 'Desejas realmente Apagar este Campo do Perfil?',
 	'DISPLAY_AT_PROFILE'					=> 'Exibir no Painel de Utilizadores',
 	'DISPLAY_AT_PROFILE_EXPLAIN'		=> 'O Utilizador está autorizado a alterar este Campo do Perfil no Painel de Controlo do Utilizador.',
 	'DISPLAY_AT_REGISTER'				=> 'Exibir na tela de Registos',
@@ -163,9 +163,9 @@ $lang = array_merge($lang, [
 	'STEP_3_EXPLAIN_EDIT'				=> 'Desde que tenhas mais de um Idioma instalado, podes também alterar ou adicionar os itens de linguagem restantes. Se não o fizeres, será usada a configuração de idioma padrão para esse campo de perfil personalizado.',
 	'STEP_3_TITLE_CREATE'				=> 'Definições do Idioma Restantes',
 	'STEP_3_TITLE_EDIT'					=> 'Definições do Idioma',
-	'STRING_DEFAULT_VALUE_EXPLAIN'	=> 'Escreva uma frase padrão a ser exibida, um valor padrão. Deixe em branco se não deseja activar esta opção.',
+	'STRING_DEFAULT_VALUE_EXPLAIN'	=> 'Escreve uma frase padrão a ser exibida, um valor padrão. Deixa em branco se não desejas activar esta opção.',
 
-	'TEXT_DEFAULT_VALUE_EXPLAIN'		=> 'Escreva um texto padrão a ser exibido, um valor padrão. Deixe em branco se não deseja activar esta opção.',
+	'TEXT_DEFAULT_VALUE_EXPLAIN'		=> 'Escreve um texto padrão a ser exibido, um valor padrão. Deixa em branco se não desejas activar esta opção.',
 	'TRANSLATE'								=> 'Traduzir',
 
 	'USER_FIELD_NAME'						=> 'Título do Campo será mostrado ao Utilizador',

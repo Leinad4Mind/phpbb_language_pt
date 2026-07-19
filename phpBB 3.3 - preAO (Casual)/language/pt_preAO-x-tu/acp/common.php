@@ -266,9 +266,9 @@ $lang = array_merge($lang, [
 	'LOAD_NOTIFICATIONS_EXPLAIN'	=> 'Mostrar a lista de notificações em cada página (normalmente no cabeçalho).',
 	'LOGGED_IN_AS'						=> 'Está ligado como:',
 	'LOGIN_ADMIN'						=> 'Para Administrar o Fórum, tem que ser um Utilizador validado.',
-	'LOGIN_ADMIN_CONFIRM'			=> 'Para Administrar o Fórum, tem de confirmar o teu acesso.',
+	'LOGIN_ADMIN_CONFIRM'			=> 'Para administrar o Fórum, tens de confirmar o teu acesso.',
 	'LOGIN_ADMIN_SUCCESS'			=> 'O teu Registo foi validado com sucesso. Vais ser redireccionado para o Painel de Administração.',
-	'LOOK_UP_FORUM'					=> 'Seleccione um Fórum',
+	'LOOK_UP_FORUM'					=> 'Selecciona um Fórum',
 	'LOOK_UP_FORUMS_EXPLAIN'		=> 'Nesta opção pode seleccionar vários Fóruns. Pressione a tecla CTRL ou Shift para seleccionar um a um ou vários Fóruns.',
 
 	'MANAGE'								=> 'Administrar',
@@ -317,7 +317,7 @@ $lang = array_merge($lang, [
 	'UCP'									=> 'Painel de Controlo de Utilizadores',
 	'URL_INVALID'						=> 'O URL fornecido para a configuração “%1$s” é inválido.',
 	'URL_SCHEME_INVALID'				=> 'O esquema fornecido “%2$s” na configuração de separação por vírgula “%1$s” é inválido. O esquema deve começar com um caracter latino seguido por caracteres alfanuméricos, hífenes ou pontos.',
-	'USERNAMES_EXPLAIN'				=> 'Insira cada um dos Utilizadores em linhas separadas.',
+	'USERNAMES_EXPLAIN'				=> 'Insere cada um dos Utilizadores em linhas separadas.',
 	'USER_CONTROL_PANEL'				=> 'Painel de Utilizadores',
 
 	'UPDATE_NEEDED'					=> 'O Fórum não se encontra actualizado',
@@ -449,7 +449,7 @@ $lang = array_merge($lang, [
 	'VIEW_INACTIVE_USERS'			=> 'Ver Utilizadores Inactivos',
 
 	'WELCOME_PHPBB'					=> 'Bem-vindo ao phpBB',
-	'WRITABLE_CONFIG'					=> 'O ficheiro de configuração (config.php) está actualmente com Permissões de gravação. É altamente recomendável que modifique as Permissões do ficheiro para 640 ou 644 (lê: <a href="http://en.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php).',
+	'WRITABLE_CONFIG'					=> 'O ficheiro de configuração (config.php) está actualmente com Permissões de gravação. É altamente recomendável que modifiques as Permissões do ficheiro para 640 ou 644 (lê: <a href="http://en.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php).',
 ]);
 
 // Inactive Users
@@ -481,7 +481,7 @@ $lang = array_merge($lang, [
 $lang = array_merge($lang, [
 	'EXPLAIN_SEND_STATISTICS'		=> 'Por favor, envia informação acerca do teu servidor e configurações do Fórum para análise de estatística do phpBB. Toda a informação que possa identificá-lo a si ou ao teu website será removida - os dados são totalmente <strong>anónimos</strong>. Basearemos as nossas decisões sobre as futuras versões de phpBB com esta informação. As estatísticas serão publicamente disponibilizadas. Compartilharemos igualmente os dados com o projecto PHP, a linguagem de programação phpBB é baseada nele.',
 	'EXPLAIN_SHOW_STATISTICS'		=> 'Usando o botão abaixo pode visualizar todas as variáveis que serão transmitidas.',
-	'DONT_SEND_STATISTICS'			=> 'Clique aqui para entrar no ACP, se não deseja enviar as informações estatísticas para o phpBB.',
+	'DONT_SEND_STATISTICS'			=> 'Clica aqui para entrar no ACP, se não desejas enviar as informações estatísticas para o phpBB.',
 	'GO_ACP_MAIN'						=> 'Ir para a página inicial do ACP',
 	'HIDE_STATISTICS'					=> 'Esconder detalhes',
 	'SEND_STATISTICS'					=> 'Enviar estatísticas',

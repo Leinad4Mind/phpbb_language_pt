@@ -51,7 +51,7 @@ $lang = array_merge($lang, [
 	'CONTACT_ADMIN'			=> 'Contacte o Administrador',
 
 	'DEST_LANG'					=> 'Linguagem',
-	'DEST_LANG_EXPLAIN'		=> 'Seleccione a linguagem apropriada (se activada) para o destinatário desta mensagem.',
+	'DEST_LANG_EXPLAIN'		=> 'Selecciona a linguagem apropriada (se activada) para o destinatário desta mensagem.',
 
 	'EDIT_PROFILE'				=> 'Editar Perfil',
 
@@ -65,10 +65,10 @@ $lang = array_merge($lang, [
 	'EMPTY_NAME_EMAIL'		=> 'Tens que indicar o nome real do destinatário.',
 	'EMPTY_SENDER_EMAIL'		=> 'Tens que fornecer um endereço de email válido.',
 	'EMPTY_SENDER_NAME'		=> 'Tens que fornecer um nome.',
-	'EMPTY_SUBJECT_EMAIL'	=> 'Indique um assunto para o email',
+	'EMPTY_SUBJECT_EMAIL'	=> 'Indica um assunto para o email',
 	'EQUAL_TO'					=> 'Igual a',
 
-	'FIND_USERNAME_EXPLAIN'	=> 'Utilize este formulário para procurar Utilizadores. Não é necessário preencher todos os campos. Para dados parciais utiliza o *. Se indicar uma data, use o formato <kbd>YYYY-MM-DD</kbd> ex. <samp>2004-02-29</samp>. Nas caixas de selecção escreve um ou mais nomes de utilizador (são aceites vários Utilizadores).',
+	'FIND_USERNAME_EXPLAIN'	=> 'Utiliza este formulário para procurar Utilizadores. Não é necessário preencher todos os campos. Para dados parciais utiliza o *. Se indicar uma data, usa o formato <kbd>YYYY-MM-DD</kbd> ex. <samp>2004-02-29</samp>. Nas caixas de selecção escreve um ou mais nomes de utilizador (são aceites vários Utilizadores).',
 	'FLOOD_EMAIL_LIMIT'		=> 'Não podes enviar novo email tão rapidamente. Aguarda algum tempo e tenta novamente mais tarde.',
 
 	'GROUP_LEADER'				=> 'Líder do Grupo',

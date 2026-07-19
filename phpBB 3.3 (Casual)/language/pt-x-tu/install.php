@@ -48,7 +48,7 @@ $lang = array_merge($lang, [
 
 	// Support page
 	'SUPPORT_TITLE'			=> 'Suporte',
-	'SUPPORT_BODY'				=> 'Será fornecido gratuitamente suporte completo para a atual versão do phpBB3. Isto inclui:</p><ul><li>instalação</li><li>configuração</li><li>questões técnicas</li><li>problemas relativos a potenciais erros do software</li><li>atualização de versões Release Candidate (RC) para a última versão estável</li><li>conversão phpBB 2.0.x para phpBB3</li><li>conversão de outro software de fórum de discussão para phpBB3 (consulte o <a href="https://www.phpbb.com/community/viewforum.php?f=486">Conversores de fóruns</a>)</li></ul><p>Encorajamos os utilizadores que ainda têm versões beta do phpBB3 a converter a sua instalação para a versão mais recente.</p><h2>Extensões / Estilos</h2><p>Para questões relacionadas com extensões, por favor, posta no <a href="https://www.phpbb.com/community/viewforum.php?f=451">Fórum de Extensões</a>.<br />Para questões relacionadas com estilos, por favor, posta no <a href="https://www.phpbb.com/community/viewforum.php?f=471">Fórum de estilos</a>.<br /><br />Se a tua pergunta se refere a um pacote específico, por favor, escreve diretamente no tópico dedicado ao pacote.</p><h2>Obtendo Suporte</h2><p><a href="https://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">O pacote de boas-vindas phpBB</a><br /><a href="https://www.phpbb.com/support/">Secção de Suporte</a><br /><a href="https://www.phpbb.com/support/docs/en/3.2/ug/quickstart/">Guia rápido de iniciação</a><br /><br />Para garantires que te mantens atualizado com as últimas notícias e versões, subscreve a <a href="https://www.phpbb.com/support/">nossa mailing list</a>?<br /><br />',
+	'SUPPORT_BODY'				=> 'Será fornecido gratuitamente suporte completo para a atual versão do phpBB3. Isto inclui:</p><ul><li>instalação</li><li>configuração</li><li>questões técnicas</li><li>problemas relativos a potenciais erros do software</li><li>atualização de versões Release Candidate (RC) para a última versão estável</li><li>conversão phpBB 2.0.x para phpBB3</li><li>conversão de outro software de fórum de discussão para phpBB3 (consulta o <a href="https://www.phpbb.com/community/viewforum.php?f=486">Conversores de fóruns</a>)</li></ul><p>Encorajamos os utilizadores que ainda têm versões beta do phpBB3 a converter a sua instalação para a versão mais recente.</p><h2>Extensões / Estilos</h2><p>Para questões relacionadas com extensões, por favor, posta no <a href="https://www.phpbb.com/community/viewforum.php?f=451">Fórum de Extensões</a>.<br />Para questões relacionadas com estilos, por favor, posta no <a href="https://www.phpbb.com/community/viewforum.php?f=471">Fórum de estilos</a>.<br /><br />Se a tua pergunta se refere a um pacote específico, por favor, escreve diretamente no tópico dedicado ao pacote.</p><h2>Obtendo Suporte</h2><p><a href="https://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">O pacote de boas-vindas phpBB</a><br /><a href="https://www.phpbb.com/support/">Secção de Suporte</a><br /><a href="https://www.phpbb.com/support/docs/en/3.2/ug/quickstart/">Guia rápido de iniciação</a><br /><br />Para garantires que te mantens atualizado com as últimas notícias e versões, subscreve a <a href="https://www.phpbb.com/support/">nossa mailing list</a>?<br /><br />',
 
 	// License
 	'LICENSE_TITLE'			=> 'Licença Pública Geral',
@@ -200,14 +200,14 @@ $lang = array_merge($lang, [
 	'INST_ERR_PREFIX_TOO_LONG'			=> 'O prefixo indicado é muito comprido. O comprimento máximo é de %d caracteres.',
 	'INST_ERR_DB_NO_NAME'				=> 'Deves indicar uma Base de Dados',
 	'INST_ERR_DB_FORUM_PATH'			=> 'O ficheiro da Base de Dados indicado está dentro da estrutura de pastas do Fórum. Deverias pôr este ficheiro num local não acessível pela web.',
-	'INST_ERR_DB_CONNECT'				=> 'Não foi possível ligar à base de dados, leia a mensagem de erro em baixo',
+	'INST_ERR_DB_CONNECT'				=> 'Não foi possível ligar à base de dados, lê a mensagem de erro em baixo',
 	'INST_ERR_DB_NO_WRITABLE'			=> 'Tanto a base de dados como as pastas do fórum devem permitir a escrita.',
 	'INST_ERR_DB_NO_ERROR'				=> 'Nenhuma mensagem de erro foi reportada.',
 	'INST_ERR_PREFIX'						=> 'Já existem tabelas com o prefixo indicado. Por favor, escolhe outro prefixo.',
-	'INST_ERR_DB_NO_MYSQLI'				=> 'A versão do MySQL instalada nesta máquina é incompatível com a opção “MySQL com Extensão MySQLi” selecionada. Tente com uma outra opção “MySQL”.',
+	'INST_ERR_DB_NO_MYSQLI'				=> 'A versão do MySQL instalada nesta máquina é incompatível com a opção “MySQL com Extensão MySQLi” selecionada. Tenta com uma outra opção “MySQL”.',
 	'INST_ERR_DB_NO_SQLITE3'			=> 'A versão da extensão SQLite instalada é muito antiga, tens que atualizá-la para pelo menos 3.6.15.',
 	'INST_ERR_DB_NO_ORACLE'				=> 'A versão do Oracle instalada nesta máquina exige que definas o parâmetro <var>NLS_CHARACTERSET</var> para <var>UTF8</var>. Podes atualizar a tua instalação para uma posterior à 9.2+ ou alterar o teu parâmetro.',
-	'INST_ERR_DB_NO_POSTGRES'			=> 'A Base de Dados selecionada não foi criada na codificação <var>UNICODE</var> ou <var>UTF8</var>. Tente instalar uma Base de Dados com codificação<var>UNICODE</var> ou <var>UTF8</var>.',
+	'INST_ERR_DB_NO_POSTGRES'			=> 'A Base de Dados selecionada não foi criada na codificação <var>UNICODE</var> ou <var>UTF8</var>. Tenta instalar uma Base de Dados com codificação<var>UNICODE</var> ou <var>UTF8</var>.',
 	'INST_SCHEMA_FILE_NOT_WRITABLE'	=> 'O ficheiro de esquema não pode ser gravado',
 
 	//
@@ -218,7 +218,7 @@ $lang = array_merge($lang, [
 	// Package info
 	'PACKAGE_VERSION'					=> 'Versão do pacote instalado',
 	'UPDATE_INCOMPLETE'				=> 'A tua instalação do phpBB não foi atualizada corretamente.',
-	'UPDATE_INCOMPLETE_MORE'		=> 'Por favor, leia as informações abaixo para corrigir este erro.',
+	'UPDATE_INCOMPLETE_MORE'		=> 'Por favor, lê as informações abaixo para corrigir este erro.',
 	'UPDATE_INCOMPLETE_EXPLAIN'	=> '<h1>atualização incompleta</h1>
 
 <p>Percebemos que a última atualização da tua instalação do phpBB não foi concluída. Visita o <a href="%1$s" title="%1$s">script database_update</a>, verifica se <em>Atualizar apenas base de dados</em> está selecionado e clica em <strong>Enviar</strong>. Não te esqueças de apagar a pasta "install" depois de atualizar a base de dados com êxito.</p>',
@@ -227,7 +227,7 @@ $lang = array_merge($lang, [
 	// Server data
 	//
 	// Form labels
-	'UPGRADE_INSTRUCTIONS'		=> 'Encontra-se disponível uma nova versão <strong>%1$s</strong>. Por favor, leia o <a href="%2$s" title="%2$s"><strong>anúncio de lançamento</strong></a> para saber mais sobre o que oferece e como efetuar a atualização.',
+	'UPGRADE_INSTRUCTIONS'		=> 'Encontra-se disponível uma nova versão <strong>%1$s</strong>. Por favor, lê o <a href="%2$s" title="%2$s"><strong>anúncio de lançamento</strong></a> para saber mais sobre o que oferece e como efetuar a atualização.',
 	'SERVER_CONFIG'				=> 'Configuração do servidor',
 	'SCRIPT_PATH'					=> 'Pasta dos Ficheiros',
 	'SCRIPT_PATH_EXPLAIN'		=> 'A pasta onde os ficheiros do phpBB estão localizados no teu servidor, (Exemplo: <samp>/phpBB3</samp>).',
@@ -249,7 +249,7 @@ $lang = array_merge($lang, [
 	'REPORT_WAREZ'							=> 'A mensagem denunciada contém endereços ilegais ou de software pirateado.',
 	'REPORT_SPAM'							=> 'A mensagem denunciada tem apenas o propósito de anunciar um site ou um produto.',
 	'REPORT_OFF_TOPIC'					=> 'A mensagem denunciada é desnecessária, e não faz sentido.',
-	'REPORT_OTHER'							=> 'A mensagem denunciada não se encaixa em nenhuma outra categoria, use o campo de descrição para especificar uma.',
+	'REPORT_OTHER'							=> 'A mensagem denunciada não se encaixa em nenhuma outra categoria, usa o campo de descrição para especificar uma.',
 
 	'SMILIES_ARROW'						=> 'Seta',
 	'SMILIES_CONFUSED'					=> 'Confuso',
@@ -326,7 +326,7 @@ $lang = array_merge($lang, [
 	'SKIP_TASK'		=> 'Ignorar a tarefa“%s”',
 
 	'TASK_SERVICE_INSTALLER_MISSING'	=> 'Todos os serviços de tarefa do instalador devem começar com “installer”',
-	'TASK_CLASS_NOT_FOUND'				=> 'A definição do serviço da tarefa do instalador é inválida. O nome do serviço prestado“%1$s” class namespace que é esperado para “%2$s” . Para mais informações, por favor, consulte a documentação do task_interface.',
+	'TASK_CLASS_NOT_FOUND'				=> 'A definição do serviço da tarefa do instalador é inválida. O nome do serviço prestado“%1$s” class namespace que é esperado para “%2$s” . Para mais informações, por favor, consulta a documentação do task_interface.',
 
 	'INSTALLER_CONFIG_NOT_WRITABLE'	=> 'O ficheiro de instalação de configuração não tem permissão de escrita.',
 ]);
@@ -447,7 +447,7 @@ $lang = array_merge($lang, [
 
 	'DOWNLOAD'								=> 'Transferência',
 	'DOWNLOAD_CONFLICTS'					=> 'Transfira os valores em conflito para este ficheiro',
-	'DOWNLOAD_CONFLICTS_EXPLAIN'		=> 'Procure por &lt;&lt;&lt; para encontrar valores em conflito',
+	'DOWNLOAD_CONFLICTS_EXPLAIN'		=> 'Procura por &lt;&lt;&lt; para encontrar valores em conflito',
 	'DOWNLOAD_UPDATE_METHOD'			=> 'Transferir os Ficheiros modificados',
 'DOWNLOAD_UPDATE_METHOD_EXPLAIN'	=> 'Depois de transferires os Ficheiros deves descomprimi-los e enviá-los para a pasta raiz do teu phpBB. Envia os Ficheiros para os seus respetivos locais. Depois de enviares todos os Ficheiros, confere-os novamente clicando no botão abaixo.',
 

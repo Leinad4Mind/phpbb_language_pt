@@ -69,7 +69,7 @@ $lang = array_merge($lang, [
 
 	'MODULE_ERROR'							=> 'Ocorreu um erro durante a criação de um módulo: %s',
 	'MODULE_EXISTS'						=> 'Um módulo já existe: %s',
-	'MODULE_EXIST_MULTIPLE'				=> 'Vários módulos cujo módulo pai nome_da_linguagem já existem: %s. Tente usar chaves antes / depois para esclarecer o posicionamento do módulo',
+	'MODULE_EXIST_MULTIPLE'				=> 'Vários módulos cujo módulo pai nome_da_linguagem já existem: %s. Tenta usar chaves antes / depois para esclarecer o posicionamento do módulo',
 	'MODULE_INFO_FILE_NOT_EXIST'		=> 'Um ficheiro com informações do módulo necessário está em falta: %2$s',
 	'MODULE_NOT_EXIST'					=> 'Um módulo necessário não existe: %s',
 

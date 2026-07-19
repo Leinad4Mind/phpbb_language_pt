@@ -108,7 +108,7 @@ $lang = array_merge($lang, [
 	'FORUM_PASSWORD_MISMATCH'			=> 'As senhas não coincidem entre si.',
 	'FORUM_PRUNE_SETTINGS'				=> 'Configuração da Limpeza de Fóruns.',
 	'FORUM_PRUNE_SHADOW'					=> 'Ativar auto limpeza de Tópicos fantasma',
-	'FORUM_PRUNE_SHADOW_EXPLAIN'		=> 'Limpa o fórum de Tópicos fantasma, defina os parâmetros frequência/idade mais abaixo.',
+	'FORUM_PRUNE_SHADOW_EXPLAIN'		=> 'Limpa o fórum de Tópicos fantasma, define os parâmetros frequência/idade mais abaixo.',
 	'FORUM_RESYNCED'						=> 'O Fórum "%s" foi Ressincronizado com sucesso',
 	'FORUM_RULES_EXPLAIN'				=> 'As Regras são exibidas em qualquer página do Fórum selecionado.',
 	'FORUM_RULES_LINK'					=> 'Link para as Regras do Fórum',
@@ -123,7 +123,7 @@ $lang = array_merge($lang, [
 	'FORUM_TYPE'							=> 'Tipo de Fórum',
 	'FORUM_UPDATED'						=> 'A Configuração do Fórum foi atualizada com sucesso.',
 
-	'FORUM_WITH_SUBFORUMS_NOT_TO_LINK'	=> 'Está a tentar modificar um Fórum com Sub-fóruns para um atalho. Por favor, mova todos os Sub-fóruns deste Fórum antes de continuar, caso não mova os Sub-fóruns e faça a modificação para atalho todos os Sub-fóruns ficarão indisponíveis.',
+	'FORUM_WITH_SUBFORUMS_NOT_TO_LINK'	=> 'Estás a tentar modificar um Fórum com Sub-fóruns para um atalho. Por favor, move todos os Sub-fóruns deste Fórum antes de continuar, caso não movas os Sub-fóruns e fizeres a modificação para atalho todos os Sub-fóruns ficarão indisponíveis.',
 
 	'GENERAL_FORUM_SETTINGS'			=> 'Configuração Geral dos Fóruns',
 
@@ -147,7 +147,7 @@ $lang = array_merge($lang, [
 	'NO_PERMISSION_FORUM_ADD'			=> 'Não está autorizado a adicionar Fóruns.',
 	'NO_PERMISSION_FORUM_DELETE'		=> 'Não está autorizado a apagar Fóruns.',
 
-	'PARENT_IS_LINK_FORUM'				=> 'O Fórum Pai indicado está na forma de atalho. Fóruns em forma de atalho não podem ter Sub-fóruns, selecione um Fórum ou Categoria.',
+	'PARENT_IS_LINK_FORUM'				=> 'O Fórum Pai indicado está na forma de atalho. Fóruns em forma de atalho não podem ter Sub-fóruns, seleciona um Fórum ou Categoria.',
 	'PARENT_NOT_EXIST'					=> 'O Fórum Pai selecionado não existe.',
 	'PRUNE_ANNOUNCEMENTS'				=> 'Limpar Anúncios',
 	'PRUNE_STICKY'							=> 'Limpar Tópicos Fixos',

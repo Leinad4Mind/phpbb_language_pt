@@ -449,7 +449,7 @@ $lang = array_merge($lang, [
 	'VIEW_INACTIVE_USERS'			=> 'Ver Utilizadores Inativos',
 
 	'WELCOME_PHPBB'					=> 'Bem-vindo ao phpBB',
-	'WRITABLE_CONFIG'					=> 'O ficheiro de configuração (config.php) está atualmente com Permissões de gravação. É altamente recomendável que modifique as Permissões do ficheiro para 640 ou 644 (leia: <a href="http://en.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php).',
+	'WRITABLE_CONFIG'					=> 'O ficheiro de configuração (config.php) está atualmente com Permissões de gravação. É altamente recomendável que modifiques as Permissões do ficheiro para 640 ou 644 (lê: <a href="http://en.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php).',
 ]);
 
 // Inactive Users
@@ -700,7 +700,7 @@ $lang = array_merge($lang, [
 	'LOG_U_ROLE_EDIT'							=> '<strong>Tarefa do Utilizador Editada</strong><br />» %s',
 	'LOG_U_ROLE_REMOVED'						=> '<strong>Tarefa do Utilizador Apagada</strong><br />» %s',
 
-	'LOG_PLUPLOAD_TIDY_FAILED'				=> '<strong>Não foi possível abrir %1$s para arrumação, verifique as permissões.</strong><br />Exceção: %2$s<br />Rastreio: %3$s',
+	'LOG_PLUPLOAD_TIDY_FAILED'				=> '<strong>Não foi possível abrir %1$s para arrumação, verifica as permissões.</strong><br />Exceção: %2$s<br />Rastreio: %3$s',
 
 	'LOG_PROFILE_FIELD_ACTIVATE'			=> '<strong>Campo do Perfil Ativado</strong><br />» %s',
 	'LOG_PROFILE_FIELD_CREATE'				=> '<strong>Campo do Perfil Adicionado</strong><br />» %s',
@@ -738,8 +738,8 @@ $lang = array_merge($lang, [
 	'LOG_SEARCH_INDEX_REMOVED'				=> '<strong>Índice de busca excluído por</strong><br />» %s',
 	'LOG_SPHINX_ERROR'						=> '<strong>Erro de Sphinx</strong><br />» %s',
 
-	'LOG_SPAMHAUS_OPEN_RESOLVER'			=> 'A Spamhaus não permite consultas a partir de um resolvedor aberto. A verificação da lista negra foi desativada. Para obter mais informações, consulte https://www.spamhaus.com/product/help-for-spamhaus-public-mirror-users/.',
-	'LOG_SPAMHAUS_VOLUME_LIMIT'			=> 'O limite de volume de consulta Spamhaus foi excedido. A verificação da lista negra foi desativada. Para obter mais informações, consulte https://www.spamhaus.com/product/help-for-spamhaus-public-mirror-users/.',
+	'LOG_SPAMHAUS_OPEN_RESOLVER'			=> 'A Spamhaus não permite consultas a partir de um resolvedor aberto. A verificação da lista negra foi desativada. Para obter mais informações, consulta https://www.spamhaus.com/product/help-for-spamhaus-public-mirror-users/.',
+	'LOG_SPAMHAUS_VOLUME_LIMIT'			=> 'O limite de volume de consulta Spamhaus foi excedido. A verificação da lista negra foi desativada. Para obter mais informações, consulta https://www.spamhaus.com/product/help-for-spamhaus-public-mirror-users/.',
 
 	'LOG_STYLE_ADD'							=> '<strong>Template Adicionado</strong><br />» %s',
 	'LOG_STYLE_DELETE'						=> '<strong>Template Apagado</strong><br />» %s',

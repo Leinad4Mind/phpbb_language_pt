@@ -39,7 +39,7 @@ $lang = array_merge($lang, [
 	'ACP_FILES'							=> 'Administração de idiomas',
 	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'O gestor de idiomas permite instalar e desinstalar idiomas no Fórum. O Idioma pré-definido está marcado com um asterisco (*).',
 
-	'DELETE_LANGUAGE_CONFIRM'		=> 'Tem a certeza que deseja apagar “%s”?',
+	'DELETE_LANGUAGE_CONFIRM'		=> 'Tem a certeza que desejas apagar “%s”?',
 
 	'INSTALLED_LANGUAGE_PACKS'		=> 'Pacotes de idiomas instalados',
 
@@ -65,7 +65,7 @@ $lang = array_merge($lang, [
 
 	'NO_FILE_SELECTED'				=> 'Não foi seleccionado o Ficheiro de Linguagem.',
 	'NO_LANG_ID'						=> 'Não foi seleccionado um pacote de idioma.',
-	'NO_REMOVE_DEFAULT_LANG'		=> 'Não pode excluir o pacote de idioma Oficial<br />Se deseja excluir este pacote, altera o idioma Oficial do Fórum.',
+	'NO_REMOVE_DEFAULT_LANG'		=> 'Não pode excluir o pacote de idioma Oficial<br />Se desejas excluir este pacote, altera o idioma Oficial do Fórum.',
 	'NO_UNINSTALLED_LANGUAGE_PACKS'	=> 'Não há Pacotes de idiomas desinstalados',
 
 	'THOSE_MISSING_LANG_FILES'			=> 'Os Ficheiros seguintes estão ausentes da pasta %s de idiomas',

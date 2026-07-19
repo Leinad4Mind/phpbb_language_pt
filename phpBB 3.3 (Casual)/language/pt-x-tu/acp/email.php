@@ -42,7 +42,7 @@ $lang = array_merge($lang, [
 
 	'COMPOSE'						=> 'Compor',
 
-	'EMAIL_SEND_ERROR'			=> 'Ocorreu um ou mais erros enquanto enviava o email. Por Favor, verifique %sregisto do Erro%s para obter informações mais detalhadas.',
+	'EMAIL_SEND_ERROR'			=> 'Ocorreu um ou mais erros enquanto enviava o email. Por Favor, verifica %sregisto do Erro%s para obter informações mais detalhadas.',
 	'EMAIL_SENT'					=> 'O teu email foi enviado com sucesso.',
 	'EMAIL_SENT_QUEUE'			=> 'O teu email foi guardado na lista de envios pendentes.',
 

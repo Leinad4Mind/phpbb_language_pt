@@ -291,7 +291,7 @@ $lang = array_merge($lang, [
 	'ACP_FEED_TOPICS_ACTIVE'			=> 'Activar Feeds nos Tópicos activos',
 	'ACP_FEED_TOPICS_ACTIVE_EXPLAIN'	=> 'Activa Feeds nos "Tópicos activos”, exibindo os últimos Tópicos activos, incluindo as últimas mensagens.',
 	'ACP_FEED_NEWS'						=> 'Notícias Feed',
-	'ACP_FEED_NEWS_EXPLAIN'				=> 'Seleccione a primeira mensagem destes Fóruns. Seleccione nenhum Fórum para desactivar o Feed de notícias.<br>Seleccione múltiplos Fóruns clicando na tecla <samp>CTRL</samp> e clicando no Fórum.',
+	'ACP_FEED_NEWS_EXPLAIN'				=> 'Selecciona a primeira mensagem destes Fóruns. Selecciona nenhum Fórum para desactivar o Feed de notícias.<br>Selecciona múltiplos Fóruns clicando na tecla <samp>CTRL</samp> e clicando no Fórum.',
 
 	'ACP_FEED_OVERALL_FORUMS'				=> 'Activar Feed nos Fóruns',
 	'ACP_FEED_OVERALL_FORUMS_EXPLAIN'	=> 'Permite mostrar a lista de “Todos os Fóruns” com Feed.',
@@ -400,9 +400,9 @@ $lang = array_merge($lang, [
 	'LOAD_USER_ACTIVITY'						=> 'Mostra a actividade dos Utilizadores',
 	'LOAD_USER_ACTIVITY_EXPLAIN'			=> 'Mostra o Fórum/Tópico activo no Perfil do Utilizador e no Painel de Controlo do Utilizador. Recomenda-se desactivar em Fóruns com mais de um milhão de Mensagens.',
 	'LOAD_USER_ACTIVITY_LIMIT'				=> 'Limite de Mensagens da actividade do utilizador',
-	'LOAD_USER_ACTIVITY_LIMIT_EXPLAIN'			=> 'O tópico / fórum activo não será exibido para os utilizadores que tenham mais do que este número de mensagens. Defina o valor como 0 para desactivar o limite.',
+	'LOAD_USER_ACTIVITY_LIMIT_EXPLAIN'			=> 'O tópico / fórum activo não será exibido para os utilizadores que tenham mais do que este número de mensagens. Define o valor como 0 para desactivar o limite.',
 	'READ_NOTIFICATION_EXPIRE_DAYS'				=> 'Expiração da notificação de leitura',
-	'READ_NOTIFICATION_EXPIRE_DAYS_EXPLAIN'	=> 'Número de dias que irá decorrer antes que uma notificação de leitura seja automaticamente excluída. Defina o valor como 0 para fazer notificações permanentes.',
+	'READ_NOTIFICATION_EXPIRE_DAYS_EXPLAIN'	=> 'Número de dias que irá decorrer antes que uma notificação de leitura seja automaticamente excluída. Define o valor como 0 para fazer notificações permanentes.',
 	'RECOMPILE_STYLES'						=> 'Recompilar os componentes de Estilo (Templates)',
 	'RECOMPILE_STYLES_EXPLAIN'				=> 'Verificar por actualizações nos ficheiros de estilo no sistema de ficheiros e actualizar.',
 	'YES_ACCURATE_PM_BUTTON'				=> 'Activar indicador preciso de MPs nas páginas de tópicos',
@@ -428,9 +428,9 @@ $lang = array_merge($lang, [
 
 // Auth settings
 $lang = array_merge($lang, [
-	'ACP_AUTH_SETTINGS_EXPLAIN'			=> 'O phpBB suporta Plugins ou Módulos que permitem definir o método de autenticação dos Utilizadores que entram no Fórum. São disponibilizados três plugins: DB, LDAP e Apache. Nem todos os Módulos necessitam de informação adicional. Preencha apenas os campos relevantes para o método seleccionado.',
+	'ACP_AUTH_SETTINGS_EXPLAIN'			=> 'O phpBB suporta Plugins ou Módulos que permitem definir o método de autenticação dos Utilizadores que entram no Fórum. São disponibilizados três plugins: DB, LDAP e Apache. Nem todos os Módulos necessitam de informação adicional. Preenche apenas os campos relevantes para o método seleccionado.',
 
-	'AUTH_METHOD'								=> 'Seleccione um método de autenticação',
+	'AUTH_METHOD'								=> 'Selecciona um método de autenticação',
 
 	'AUTH_PROVIDER_OAUTH_ERROR_ELEMENT_MISSING'	=> 'Tem de indicar a key e o secret de cada OAuth service provider activado. É necessário apenas uma de cada OAuth service provider.',
 	'AUTH_PROVIDER_OAUTH_EXPLAIN'			=> 'Cada provedor de OAuth requer um segredo único e fundamental para se autenticar com o servidor externo. Este deve ser fornecido pelo serviço OAuth quando regista o teu site e deve ser inserido exactamente como fornecido.<br>Os serviços que não tenham uma chave e um segredo aqui inseridos não estarão disponíveis para serem usados pelos utilizadores do fórum. Tenha em atenção que o utilizador pode ainda registar-se e ligar-se usando a DB authentication plug-in.',
@@ -449,7 +449,7 @@ $lang = array_merge($lang, [
 	'LDAP_NO_EMAIL'							=> 'O Atributo de email especificado não existe.',
 	'LDAP_NO_IDENTITY'						=> 'Não foi possível encontrar uma identificação de Acesso para %s.',
 	'LDAP_PASSWORD'							=> 'Senha LDAP',
-	'LDAP_PASSWORD_EXPLAIN'					=> 'Deixe este campo em branco para acesso anónimo. Caso contrário preenche com a senha do Utilizador indicado. Necessário para Active Directory Servers.<br><em><strong>Aviso:</strong> Esta senha será armazenada como texto simples na Base de Dados, visível a todos que podem aceder à Base de Dados ou a quem pode ver esta página de configuração.</em>',
+	'LDAP_PASSWORD_EXPLAIN'					=> 'Deixa este campo em branco para acesso anónimo. Caso contrário preenche com a senha do Utilizador indicado. Necessário para Active Directory Servers.<br><em><strong>Aviso:</strong> Esta senha será armazenada como texto simples na Base de Dados, visível a todos que podem aceder à Base de Dados ou a quem pode ver esta página de configuração.</em>',
 	'LDAP_PORT'									=> 'Porta LDAP do Servidor',
 	'LDAP_PORT_EXPLAIN'						=> 'Opcionalmente pode definir uma porta para o Servidor LDAP que tem como padrão a porta 389.',
 	'LDAP_SERVER'								=> 'Nome do Servidor de LDAP',
@@ -457,7 +457,7 @@ $lang = array_merge($lang, [
 	'LDAP_UID'									=> 'LDAP uid',
 	'LDAP_UID_EXPLAIN'						=> 'Esta é a chave pela qual procurar para uma dada identificação de Utilizador. Igual a: uid, sn, etc.',
 	'LDAP_USER'									=> 'Nome de Utilizador LDAP',
-	'LDAP_USER_EXPLAIN'						=> 'Deixe em branco para acesso anónimo. Se preenchido o phpBB irá ligar ao Servidor LDAP com o nome de Utilizador indicado.',
+	'LDAP_USER_EXPLAIN'						=> 'Deixa em branco para acesso anónimo. Se preenchido o phpBB irá ligar ao Servidor LDAP com o nome de Utilizador indicado.',
 	'LDAP_USER_FILTER'						=> 'Filtro do Utilizador LDAP',
 	'LDAP_USER_FILTER_EXPLAIN'				=> 'Pode optar por aumentar o limite de objectos pesquisados com filtros adicionais. Por exemplo, <samp>objectClass=posixGroup</samp> deve resultar na utilização de <samp>(&amp;(uid=$username)(objectClass=posixGroup))</samp>.',
 ]);
@@ -526,7 +526,7 @@ $lang = array_merge($lang, [
 	'IP_VALID'									=> 'Verificação do IP da Sessão',
 	'IP_VALID_EXPLAIN'						=> 'Determina como é autenticado o IP do Utilizador. Todos comparam o endereço completo. A.B.C os primeiros x.x.x. A.B os primeiros x.x. Nenhum desactiva a verificação. Em endereços IPv6: A.B.C compara os primeiros quatro blocos. A.B os primeiros 3 blocos.',
 	'IP_LOGIN_LIMIT_MAX'						=> 'Número máximo de tentativas de acesso por endereço IP',
-	'IP_LOGIN_LIMIT_MAX_EXPLAIN'			=> 'Limite de tentativas de acesso permitido, a partir de um único endereço IP, antes da tarefa anti-spambot ser disparada. Digite 0 para impedir que a tarefa anti-spambot de ser desencadeada por endereços IP.',
+	'IP_LOGIN_LIMIT_MAX_EXPLAIN'			=> 'Limite de tentativas de acesso permitido, a partir de um único endereço IP, antes da tarefa anti-spambot ser disparada. Digita 0 para impedir que a tarefa anti-spambot de ser desencadeada por endereços IP.',
 	'IP_LOGIN_LIMIT_TIME'					=> 'Tempo de duração para tentativas de acesso por endereço IP',
 	'IP_LOGIN_LIMIT_TIME_EXPLAIN'			=> 'A permissão para tentar o acesso termina após este período.',
 	'IP_LOGIN_LIMIT_USE_FORWARDED'		=> 'Tentativas de acesso limitadas a valores <var>X_FORWARDED_FOR</var>',
@@ -619,7 +619,7 @@ $lang = array_merge($lang, [
 	'JAB_PASSWORD'								=> 'Senha Jabber',
 	'JAB_PASSWORD_EXPLAIN'					=> '<em><strong>Aviso:</strong> Esta senha será armazenada como texto simples na Base de Dados, visível a todos que podem aceder à Base de Dados ou a quem pode ver esta página de configuração.</em>',
 	'JAB_PORT'									=> 'Porta do Jabber',
-	'JAB_PORT_EXPLAIN'						=> 'Deixe em branco se souber que a porta usada é 5222. Caso contrário, coloca a porta correcta',
+	'JAB_PORT_EXPLAIN'						=> 'Deixa em branco se souber que a porta usada é 5222. Caso contrário, coloca a porta correcta',
 	'JAB_SERVER'								=> 'Servidor Jabber',
 	'JAB_SERVER_EXPLAIN'						=> 'Veja a lista de Servidores em %sjabber.org%s.',
 	'JAB_SETTINGS_CHANGED'					=> 'Configurações do Jabber alteradas com sucesso.',

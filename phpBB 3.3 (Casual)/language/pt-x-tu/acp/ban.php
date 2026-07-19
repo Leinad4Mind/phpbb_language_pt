@@ -41,7 +41,7 @@ $lang = array_merge($lang, [
 	'30_MINS'						=> '30 Minutos',
 	'6_HOURS'						=> '6 Horas',
 
-	'ACP_BAN_EXPLAIN'				=> 'Aqui podes fazer a Gestão dos Utilizadores expulsos por nome, endereço de IP, ou endereço de email. A expulsão impede o Utilizador de entrar no Fórum. Se desejar pode explicar o motivo da expulsão (3.000 caracteres). O motivo da expulsão será mostrado no registo do Administrador. A duração da expulsão também pode ser especificada. Se quiser que a expulsão termine numa data específica depois de outra especificação de tempo selecione <span style="text-decoration: underline;">Até -&gt;</span> para a longevidade da expulsão e introduza uma data no formato <kbd>YYYY-MM-DD</kbd>.',
+	'ACP_BAN_EXPLAIN'				=> 'Aqui podes fazer a Gestão dos Utilizadores expulsos por nome, endereço de IP, ou endereço de email. A expulsão impede o Utilizador de entrar no Fórum. Se desejar pode explicar o motivo da expulsão (3.000 caracteres). O motivo da expulsão será mostrado no registo do Administrador. A duração da expulsão também pode ser especificada. Se quiser que a expulsão termine numa data específica depois de outra especificação de tempo seleciona <span style="text-decoration: underline;">Até -&gt;</span> para a longevidade da expulsão e introduz uma data no formato <kbd>YYYY-MM-DD</kbd>.',
 
 	'BAN_EXCLUDE'					=> 'Apagar Expulsão',
 	'BAN_LENGTH'					=> 'Duração da Expulsão',
@@ -53,14 +53,14 @@ $lang = array_merge($lang, [
 
 	'EMAIL_BAN'							=> 'Expulsar um ou mais endereços de email',
 	'EMAIL_BAN_EXCLUDE_EXPLAIN'	=> 'Ativa esta opção para excluir emails da expulsão.',
-	'EMAIL_BAN_EXPLAIN'				=> 'Quando utilizar mais do que um endereço de email, separe-os por linha. Para selecionar endereços de email parciais, utilize asteriscos (*), como por exemplo, <samp>*@hotmail.com</samp>, <samp>*@*.domain.tld</samp>, etc.',
+	'EMAIL_BAN_EXPLAIN'				=> 'Quando utilizar mais do que um endereço de email, separe-os por linha. Para selecionar endereços de email parciais, utiliza asteriscos (*), como por exemplo, <samp>*@hotmail.com</samp>, <samp>*@*.domain.tld</samp>, etc.',
 	'EMAIL_NO_BANNED'					=> 'Não há emails expulsos',
 	'EMAIL_UNBAN'						=> 'Desbloquear um ou mais endereços de email',
 	'EMAIL_UNBAN_EXPLAIN'			=> 'Podes desbloquear múltiplos emails de uma só vez, usando a combinação apropriada do rato e teclado do teu computador. Emails excluídos têm uma marcação no fundo.',
 
 	'IP_BAN'							=> 'Expulsar um ou mais IPs',
 	'IP_BAN_EXCLUDE_EXPLAIN'	=> 'Ativa esta opção para excluir IPs da expulsão.',
-	'IP_BAN_EXPLAIN'				=> 'Para especificar diferentes IPs ou hostnames digite cada um numa nova linha. Para especificar uma range de endereços de IP separe o início e o fim com um hífen (-), para especificar uma wildcard use asterisco *.',
+	'IP_BAN_EXPLAIN'				=> 'Para especificar diferentes IPs ou hostnames digita cada um numa nova linha. Para especificar uma range de endereços de IP separe o início e o fim com um hífen (-), para especificar uma wildcard usa asterisco *.',
 	'IP_HOSTNAME'					=> 'Endereços IP ou hostnames',
 	'IP_NO_BANNED'					=> 'Não há endereços de IP expulsos',
 	'IP_UNBAN'						=> 'Desbloquear um ou mais endereços de IP',

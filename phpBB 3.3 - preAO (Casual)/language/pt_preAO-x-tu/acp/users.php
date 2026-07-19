@@ -76,7 +76,7 @@ $lang = array_merge($lang, [
 
 	'LAST_ACTIVE'						=> 'Últimos activos',
 
-	'MOVE_POSTS_EXPLAIN'				=> 'Seleccione o Fórum para o onde deseja mover todas as Mensagens que este Utilizador fez.',
+	'MOVE_POSTS_EXPLAIN'				=> 'Selecciona o Fórum para o onde desejas mover todas as Mensagens que este Utilizador fez.',
 
 	'NO_SPECIAL_RANK'					=> 'Sem atribuição de classificação especial',
 	'NO_WARNINGS'						=> 'Nenhum Aviso.',
@@ -108,9 +108,9 @@ $lang = array_merge($lang, [
 	'USER_ADMIN_DEL_OUTBOX'			=> 'Caixa de saída de Mensagens Privadas vazias',
 	'USER_ADMIN_DEL_POSTS'			=> 'Apagar todas as Mensagens',
 	'USER_ADMIN_DEL_SIG'				=> 'Apagar Assinatura',
-	'USER_ADMIN_EXPLAIN'				=> 'Aqui podes alterar as informações dos Utilizadores. Para modificar as Permissões dos Utilizadores use o Sistema de Permissões de Utilizadores e Grupos.',
+	'USER_ADMIN_EXPLAIN'				=> 'Aqui podes alterar as informações dos Utilizadores. Para modificar as Permissões dos Utilizadores usa o Sistema de Permissões de Utilizadores e Grupos.',
 	'USER_ADMIN_FORCE'				=> 'Forçar a Reactivação',
-	'USER_ADMIN_LEAVE_NR'			=> 'Apague para um Novo Registo',
+	'USER_ADMIN_LEAVE_NR'			=> 'Apaga para um Novo Registo',
 	'USER_ADMIN_MOVE_POSTS'			=> 'Move todas as Mensagens',
 	'USER_ADMIN_SIG_REMOVED'		=> 'Assinatura removida com sucesso da Conta do Utilizador.',
 	'USER_ATTACHMENTS_REMOVED'		=> 'Todos os Anexos feitos por este Utilizador foram apagados com sucesso.',

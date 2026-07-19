@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang)) {
 
 $lang = array_merge($lang, [
 	'PLUPLOAD_ADD_FILES'					=> 'Adicionar ficheiros',
-	'PLUPLOAD_ADD_FILES_TO_QUEUE'		=> 'Adicione ficheiros à fila de envio e clica no botão Iniciar.',
+	'PLUPLOAD_ADD_FILES_TO_QUEUE'		=> 'Adiciona ficheiros à fila de envio e clica no botão Iniciar.',
 	'PLUPLOAD_ALREADY_QUEUED'			=> '%s já está na fila.',
 	'PLUPLOAD_CLOSE'						=> 'Fechar',
 	'PLUPLOAD_DRAG'						=> 'Arraste ficheiros para aqui.',
@@ -64,7 +64,7 @@ $lang = array_merge($lang, [
 	'PLUPLOAD_IO_ERROR'					=> 'Erro IO.',
 	'PLUPLOAD_NOT_APPLICABLE'			=> 'N/A',
 	'PLUPLOAD_SECURITY_ERROR'			=> 'Erro de segurança.',
-	'PLUPLOAD_SELECT_FILES'				=> 'Seleccione os ficheiros',
+	'PLUPLOAD_SELECT_FILES'				=> 'Selecciona os ficheiros',
 	'PLUPLOAD_SIZE'						=> 'Tamanho',
 	'PLUPLOAD_SIZE_ERROR'				=> 'Erro no tamanho do ficheiro.',
 	'PLUPLOAD_STATUS'						=> 'Estado',

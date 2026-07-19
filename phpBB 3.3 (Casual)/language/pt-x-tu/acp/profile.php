@@ -46,7 +46,7 @@ $lang = array_merge($lang, [
 	'ALWAYS_TODAY'							=> 'Sempre a Data Atual',
 
 	'BOOL_ENTRIES_EXPLAIN'				=> 'Escreve as tuas opções agora',
-	'BOOL_TYPE_EXPLAIN'					=> 'Defina o tipo, entre uma caixa de seleção (checkbox) ou botões de rádio (radio). Uma caixa só será apresentada se estiver marcada para um determinado Utilizador. Nesse caso a <strong>segunda</strong> opção de linguagem será utilizada. Os Botões de rádio são apresentados, independentemente dos seus valores.',
+	'BOOL_TYPE_EXPLAIN'					=> 'Define o tipo, entre uma caixa de seleção (checkbox) ou botões de rádio (radio). Uma caixa só será apresentada se estiver marcada para um determinado Utilizador. Nesse caso a <strong>segunda</strong> opção de linguagem será utilizada. Os Botões de rádio são apresentados, independentemente dos seus valores.',
 
 	'CHANGED_PROFILE_FIELD'				=> 'O Campo do Perfil foi modificado com sucesso.',
 	'CHARS_ANY'								=> 'Qualquer carácter',
@@ -58,13 +58,13 @@ $lang = array_merge($lang, [
 	'CP_LANG_NAME'							=> 'Título do Campo que será mostrado ao Utilizador',
 	'CP_LANG_OPTIONS'						=> 'Opções',
 	'CREATE_NEW_FIELD'					=> 'Criar novo Campo',
-	'CUSTOM_FIELDS_NOT_TRANSLATED'	=> 'Os Campos do Perfil não foram totalmente traduzidos. Por Favor, escreva a informação solicitada clicando no atalho &quot;Traduzir&quot;.',
+	'CUSTOM_FIELDS_NOT_TRANSLATED'	=> 'Os Campos do Perfil não foram totalmente traduzidos. Por Favor, escreve a informação solicitada clicando no atalho &quot;Traduzir&quot;.',
 
 	'DEFAULT_ISO_LANGUAGE'				=> 'Idioma Padrão [%s]',
 	'DEFAULT_LANGUAGE_NOT_FILLED'		=> 'As entradas de linguagem para o Idioma Padrão não estão preenchidos para este Campo do Perfil.',
 	'DEFAULT_VALUE'						=> 'Valor Padrão',
 	'DELETE_PROFILE_FIELD'				=> 'Apagar Campo do Perfil',
-	'DELETE_PROFILE_FIELD_CONFIRM'	=> 'Deseja realmente Apagar este Campo do Perfil?',
+	'DELETE_PROFILE_FIELD_CONFIRM'	=> 'Desejas realmente Apagar este Campo do Perfil?',
 	'DISPLAY_AT_PROFILE'					=> 'Exibir no Painel de Utilizadores',
 	'DISPLAY_AT_PROFILE_EXPLAIN'		=> 'O Utilizador está autorizado a alterar este Campo do Perfil no Painel de Controlo do Utilizador.',
 	'DISPLAY_AT_REGISTER'				=> 'Exibir na tela de Registos',
@@ -93,7 +93,7 @@ $lang = array_merge($lang, [
 	'FIELD_DESCRIPTION_EXPLAIN'		=> 'A explicação para este Campo será mostrada ao Utilizador.',
 	'FIELD_DROPDOWN'						=> 'Menu Suspenso',
 	'FIELD_IDENT'							=> 'Identificação do Campo',
-	'FIELD_IDENT_ALREADY_EXIST'		=> 'A Identificação do Campo selecionada já existe. Por Favor, escolha outro nome.',
+	'FIELD_IDENT_ALREADY_EXIST'		=> 'A Identificação do Campo selecionada já existe. Por Favor, escolhe outro nome.',
 	'FIELD_IDENT_EXPLAIN'				=> 'A Identificação do Campo é um nome para identificar o Campo do Perfil com a Base de Dados e os Templates.',
 	'FIELD_INT'								=> 'Números',
 	'FIELD_IS_CONTACT'					=> 'Mostrar como campo de contacto',

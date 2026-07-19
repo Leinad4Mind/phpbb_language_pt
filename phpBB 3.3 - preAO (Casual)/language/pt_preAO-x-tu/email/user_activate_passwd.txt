@@ -2,7 +2,7 @@ Subject: Redefinição de senha da conta
 
 Olá, {USERNAME},
 
-Está a receber esta notificação porque solicitou a redefinição de senha esquecida relativa à tua conta em "{SITENAME}".
+Estás a receber esta notificação porque solicitou a redefinição de senha esquecida relativa à tua conta em "{SITENAME}".
 
 Para recuperar a tua senha, clica no endereço seguinte:
 

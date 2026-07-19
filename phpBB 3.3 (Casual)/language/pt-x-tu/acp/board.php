@@ -66,7 +66,7 @@ $lang = array_merge($lang, [
 	'SYSTEM_TIMEZONE'						=> 'Fuso horário do visitante',
 	'SYSTEM_TIMEZONE_EXPLAIN'			=> 'Fuso horário a mostrar a utilizadores não ligados (visitantes, motores de busca). Os utilizadores ligados definem o seu fuso horário durante o registo e podem alterá-lo no Painel de Controlo do Utilizador.',
 	'WARNINGS_EXPIRE'						=> 'Duração do aviso',
-	'WARNINGS_EXPIRE_EXPLAIN'			=> 'O número de dias que uma advertência permanece no Registo do Utilizador. Defina como 0 para advertência permanente.',
+	'WARNINGS_EXPIRE_EXPLAIN'			=> 'O número de dias que uma advertência permanece no Registo do Utilizador. Define como 0 para advertência permanente.',
 ]);
 
 // Board Features
@@ -226,7 +226,7 @@ $lang = array_merge($lang, [
 
 	'ACC_ACTIVATION'							=> 'Ativação de Conta',
 	'ACC_ACTIVATION_EXPLAIN'				=> 'Podes desativar os Registos ou definir se o novo Utilizador tem acesso imediato ao Fórum ou se é necessária uma confirmação.',
-	'ACC_ACTIVATION_WARNING'				=> 'Por favor, note que o método de ativação selecionado atualmente exige que o envio de emails esteja ativado, de outra forma de registo será desativado. Recomendamos que selecione um método de ativação diferente ou ative o envio de emails.',
+	'ACC_ACTIVATION_WARNING'				=> 'Por favor, note que o método de ativação selecionado atualmente exige que o envio de emails esteja ativado, de outra forma de registo será desativado. Recomendamos que seleciones um método de ativação diferente ou atives o envio de emails.',
 	'NEW_MEMBER_POST_LIMIT'					=> 'Limite das Mensagens dos Utilizadores Registados Recentemente',
 	'NEW_MEMBER_POST_LIMIT_EXPLAIN'		=> 'Os novos utilizadores entram para o Grupo <em>Utilizadores Registados Recentemente</em> até atingirem este número de mensagens. Podes usar este Grupo para impedir que usem as mensagens privadas ou para rever as suas mensagens. <strong>0 para desativar.</strong>',
 	'NEW_MEMBER_GROUP_DEFAULT'				=> 'Grupo de Utilizadores Registados Recentemente',
@@ -313,8 +313,8 @@ $lang = array_merge($lang, [
 	'CAPTCHA_GD'									=> 'Imagem GD',
 	'CAPTCHA_GD_3D'								=> 'Imagem GD 3D',
 	'CAPTCHA_GD_FOREGROUND_NOISE'				=> 'Ruído em primeiro plano',
-	'CAPTCHA_GD_EXPLAIN'							=> 'Use o GD para gerar uma imagem anti-spambot mais complexa.',
-	'CAPTCHA_GD_FOREGROUND_NOISE_EXPLAIN'	=> 'Use o ruído em primeiro plano para gerar uma imagem GD de mais difícil leitura.',
+	'CAPTCHA_GD_EXPLAIN'							=> 'Usa o GD para gerar uma imagem anti-spambot mais complexa.',
+	'CAPTCHA_GD_FOREGROUND_NOISE_EXPLAIN'	=> 'Usa o ruído em primeiro plano para gerar uma imagem GD de mais difícil leitura.',
 	'CAPTCHA_GD_X_GRID'							=> 'O ruído de fundo do eixo x',
 	'CAPTCHA_GD_X_GRID_EXPLAIN'				=> 'Utiliza esta configuração para gerar uma imagem mais complexa. 0 desativa o ruído de fundo no eixo X.',
 	'CAPTCHA_GD_Y_GRID'							=> 'O ruído de fundo do eixo y',
@@ -360,7 +360,7 @@ $lang = array_merge($lang, [
 	'COOKIE_PATH'								=> 'Caminho do Cookie',
 	'COOKIE_PATH_EXPLAIN'					=> 'Normalmente será o mesmo que o caminho do script ou apenas uma barra para tornar o cookie acessível em todo o domínio do site.',
 	'COOKIE_SECURE'							=> 'Cookie seguro',
-	'COOKIE_SECURE_EXPLAIN'					=> 'Se o Servidor funciona por SSL, mude para Ativado caso contrário, deixe-o Desativado. Estando Ativado sem funcionar por SSL poderá resultar em erros no Servidor durante os redirecionamentos.',
+	'COOKIE_SECURE_EXPLAIN'					=> 'Se o Servidor funciona por SSL, mude para Ativado caso contrário, deixa-o Desativado. Estando Ativado sem funcionar por SSL poderá resultar em erros no Servidor durante os redirecionamentos.',
 	'ONLINE_LENGTH'							=> 'Tempo limite para visualização online',
 	'ONLINE_LENGTH_EXPLAIN'					=> 'Tempo em minutos após o qual o Utilizador inativo não aparecerá na lista de Utilizadores online. Quanto menor, menos processamento exige.',
 	'SESSION_LENGTH'							=> 'Tempo da Sessão [ segundos ]',
@@ -400,9 +400,9 @@ $lang = array_merge($lang, [
 	'LOAD_USER_ACTIVITY'						=> 'Mostra a atividade dos Utilizadores',
 	'LOAD_USER_ACTIVITY_EXPLAIN'			=> 'Mostra o Fórum/Tópico ativo no Perfil do Utilizador e no Painel de Controlo do Utilizador. Recomenda-se desativar em Fóruns com mais de um milhão de Mensagens.',
 	'LOAD_USER_ACTIVITY_LIMIT'				=> 'Limite de Mensagens da atividade do utilizador',
-	'LOAD_USER_ACTIVITY_LIMIT_EXPLAIN'			=> 'O tópico / fórum ativo não será exibido para os utilizadores que tenham mais do que este número de mensagens. Defina o valor como 0 para desativar o limite.',
+	'LOAD_USER_ACTIVITY_LIMIT_EXPLAIN'			=> 'O tópico / fórum ativo não será exibido para os utilizadores que tenham mais do que este número de mensagens. Define o valor como 0 para desativar o limite.',
 	'READ_NOTIFICATION_EXPIRE_DAYS'				=> 'Expiração da notificação de leitura',
-	'READ_NOTIFICATION_EXPIRE_DAYS_EXPLAIN'	=> 'Número de dias que irá decorrer antes que uma notificação de leitura seja automaticamente excluída. Defina o valor como 0 para fazer notificações permanentes.',
+	'READ_NOTIFICATION_EXPIRE_DAYS_EXPLAIN'	=> 'Número de dias que irá decorrer antes que uma notificação de leitura seja automaticamente excluída. Define o valor como 0 para fazer notificações permanentes.',
 	'RECOMPILE_STYLES'						=> 'Recompilar os componentes de Estilo (Templates)',
 	'RECOMPILE_STYLES_EXPLAIN'				=> 'Verificar por atualizações nos ficheiros de estilo no sistema de ficheiros e atualizar.',
 	'YES_ACCURATE_PM_BUTTON'				=> 'Ativar indicador preciso de MPs nas páginas de tópicos',
@@ -428,7 +428,7 @@ $lang = array_merge($lang, [
 
 // Auth settings
 $lang = array_merge($lang, [
-	'ACP_AUTH_SETTINGS_EXPLAIN'			=> 'O phpBB suporta Plugins ou Módulos que permitem definir o método de autenticação dos Utilizadores que entram no Fórum. São disponibilizados três plugins: DB, LDAP e Apache. Nem todos os Módulos necessitam de informação adicional. Preencha apenas os campos relevantes para o método selecionado.',
+	'ACP_AUTH_SETTINGS_EXPLAIN'			=> 'O phpBB suporta Plugins ou Módulos que permitem definir o método de autenticação dos Utilizadores que entram no Fórum. São disponibilizados três plugins: DB, LDAP e Apache. Nem todos os Módulos necessitam de informação adicional. Preenche apenas os campos relevantes para o método selecionado.',
 
 	'AUTH_METHOD'								=> 'Seleciona um método de autenticação',
 
@@ -457,7 +457,7 @@ $lang = array_merge($lang, [
 	'LDAP_UID'									=> 'LDAP uid',
 	'LDAP_UID_EXPLAIN'						=> 'Esta é a chave pela qual procurar para uma dada identificação de Utilizador. Igual a: uid, sn, etc.',
 	'LDAP_USER'									=> 'Nome de Utilizador LDAP',
-	'LDAP_USER_EXPLAIN'						=> 'Deixe em branco para acesso anónimo. Se preenchido o phpBB irá ligar ao Servidor LDAP com o nome de Utilizador indicado.',
+	'LDAP_USER_EXPLAIN'						=> 'Deixa em branco para acesso anónimo. Se preenchido o phpBB irá ligar ao Servidor LDAP com o nome de Utilizador indicado.',
 	'LDAP_USER_FILTER'						=> 'Filtro do Utilizador LDAP',
 	'LDAP_USER_FILTER_EXPLAIN'				=> 'Podes optar por aumentar o limite de objetos pesquisados com filtros adicionais. Por exemplo, <samp>objectClass=posixGroup</samp> deve resultar na utilização de <samp>(&amp;(uid=$username)(objectClass=posixGroup))</samp>.',
 ]);
@@ -519,7 +519,7 @@ $lang = array_merge($lang, [
 	'FORCE_PASS_CHANGE_EXPLAIN'			=> 'Duração em dias da Senha de acesso ao Fórum. Após este prazo é pedido ao Utilizador que altere a sua Senha. 0 para desativar.',
 
 	'FORM_TIME_MAX'							=> 'Tempo máximo para enviar formas',
-	'FORM_TIME_MAX_EXPLAIN'					=> 'Tempo máximo para enviar formas. Use -1 para desativar. Note que uma forma pode vir a ser inválida se a sessão expirar.',
+	'FORM_TIME_MAX_EXPLAIN'					=> 'Tempo máximo para enviar formas. Usa -1 para desativar. Note que uma forma pode vir a ser inválida se a sessão expirar.',
 	'FORM_SID_GUESTS'							=> 'Formas de laço para Sessões de Visitantes',
 	'FORM_SID_GUESTS_EXPLAIN'				=> 'Se ativado, o símbolo do formulário emitido aos visitantes será de sessão exclusiva, podendo causar problemas com alguns ISPs.',
 	'FORWARDED_FOR_VALID'					=> 'Cabeçalho <var>X_FORWARDED_FOR</var> validado',
@@ -565,9 +565,9 @@ $lang = array_merge($lang, [
 	'CONTACT_EMAIL'							=> 'Endereço email de contacto',
 	'CONTACT_EMAIL_EXPLAIN'					=> 'Este endereço será usado sempre que é necessário um contacto específico, (spam, erro de saída, etc). Pode ser sempre utilizado como endereço para envio e respostas nos emails.',
 	'CONTACT_EMAIL_NAME'						=> 'Nome de Contacto',
-	'CONTACT_EMAIL_NAME_EXPLAIN'			=> 'Este é o nome do contacto que os destinatários dos e-mails vão ver. Se não quer ter um nome de contacto, deixe este campo em branco.',
+	'CONTACT_EMAIL_NAME_EXPLAIN'			=> 'Este é o nome do contacto que os destinatários dos e-mails vão ver. Se não quer ter um nome de contacto, deixa este campo em branco.',
 	'EMAIL_FORCE_SENDER'						=> 'Forçar Endereço de Email do Remetente',
-	'EMAIL_FORCE_SENDER_EXPLAIN'			=> 'Irá colocar no <samp>Endereço-de-Retorno</samp> o Email do Remetente, ao invés de usar o utilizador local e o nome do servidor. Esta configuração fica sem efeito caso use SMTP.<br><em><strong>Aviso:</strong> Requer que o utilizador que está a ser usado pelo servidor seja adicionado como confiável na configuração do sendmail.</em>',
+	'EMAIL_FORCE_SENDER_EXPLAIN'			=> 'Irá colocar no <samp>Endereço-de-Retorno</samp> o Email do Remetente, ao invés de usar o utilizador local e o nome do servidor. Esta configuração fica sem efeito caso usa SMTP.<br><em><strong>Aviso:</strong> Requer que o utilizador que está a ser usado pelo servidor seja adicionado como confiável na configuração do sendmail.</em>',
 	'EMAIL_PACKAGE_SIZE'						=> 'Tamanho do Pacote de email',
 	'EMAIL_PACKAGE_SIZE_EXPLAIN'			=> 'Número de emails enviados por pacote.',
 	'EMAIL_MAX_CHUNK_SIZE'					=> 'Número máximo de destinatários de email permitidos',
@@ -586,7 +586,7 @@ $lang = array_merge($lang, [
 	'SMTP_DIGEST_MD5'							=> 'DIGEST-MD5',
 	'SMTP_LOGIN'								=> 'LOGIN',
 	'SMTP_PASSWORD'							=> 'Senha do SMTP',
-	'SMTP_PASSWORD_EXPLAIN'					=> 'Só introduza a Senha se o Servidor de SMTP a pedir.<br><em><strong>Aviso:</strong> Esta senha será armazenada como texto simples na Base de Dados, visível a todos que podem aceder à Base de Dados ou a quem pode ver esta página de configuração.</em>',
+	'SMTP_PASSWORD_EXPLAIN'					=> 'Só introduz a Senha se o Servidor de SMTP a pedir.<br><em><strong>Aviso:</strong> Esta senha será armazenada como texto simples na Base de Dados, visível a todos que podem aceder à Base de Dados ou a quem pode ver esta página de configuração.</em>',
 	'SMTP_PLAIN'								=> 'PLAIN',
 	'SMTP_POP_BEFORE_SMTP'					=> 'POP-BEFORE-SMTP',
 	'SMTP_PORT'									=> 'Porta do Servidor de SMTP',
@@ -595,7 +595,7 @@ $lang = array_merge($lang, [
 	'SMTP_SERVER_EXPLAIN'					=> 'Não forneças um protocolo (<samp>ssl://</samp> ou <samp>tls://</samp>) a não ser que o teu host de email solicite que o faças.',
 	'SMTP_SETTINGS'							=> 'Configurações do SMTP',
 	'SMTP_USERNAME'							=> 'Nome de Utilizador SMTP',
-	'SMTP_USERNAME_EXPLAIN'					=> 'Só introduza um Nome se o Servidor de SMTP o pedir.',
+	'SMTP_USERNAME_EXPLAIN'					=> 'Só introduz um Nome se o Servidor de SMTP o pedir.',
 	'SMTP_VERIFY_PEER'						=> 'Verificar certificado SSL',
 	'SMTP_VERIFY_PEER_EXPLAIN'				=> 'Requer a verificação do certificado SSL usado pelo servidor SMTP.<br><em><strong>Aviso:</strong> Conectar pontos de rede com certificados SSL não verificados pode causar implicações de segurança.</em>',
 	'SMTP_VERIFY_PEER_NAME'					=> 'Verificar nome do ponto de rede SMTP',
@@ -620,7 +620,7 @@ $lang = array_merge($lang, [
 	'JAB_PASSWORD'								=> 'Senha Jabber',
 	'JAB_PASSWORD_EXPLAIN'					=> '<em><strong>Aviso:</strong> Esta senha será armazenada como texto simples na Base de Dados, visível a todos que podem aceder à Base de Dados ou a quem pode ver esta página de configuração.</em>',
 	'JAB_PORT'									=> 'Porta do Jabber',
-	'JAB_PORT_EXPLAIN'						=> 'Deixe em branco se souber que a porta usada é 5222. Caso contrário, coloque a porta correta',
+	'JAB_PORT_EXPLAIN'						=> 'Deixa em branco se souber que a porta usada é 5222. Caso contrário, coloca a porta correta',
 	'JAB_SERVER'								=> 'Servidor Jabber',
 	'JAB_SERVER_EXPLAIN'						=> 'Veja a lista de Servidores em %sjabber.org%s.',
 	'JAB_SETTINGS_CHANGED'					=> 'Configurações do Jabber alteradas com sucesso.',

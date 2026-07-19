@@ -2,7 +2,7 @@ Subject: Notificação de citação - "{TOPIC_TITLE}"
 
 Olá, {USERNAME},
 
-Está a receber esta notificação porque "{AUTHOR_NAME}" citou-te no Tópico "{TOPIC_TITLE}" em "{SITENAME}". Pode usar o endereço seguinte para ver a resposta.
+Estás a receber esta notificação porque "{AUTHOR_NAME}" citou-te no Tópico "{TOPIC_TITLE}" em "{SITENAME}". Pode usar o endereço seguinte para ver a resposta.
 
 Para ver a mensagem citada, clica no seguinte endereço:
 {U_VIEW_POST}

@@ -41,7 +41,7 @@ $lang = array_merge($lang, [
 	'ACP_BBCODES_EXPLAIN'			=> 'BBCode (Bulletin Board Code) é uma linguagem originalmente desenvolvida para phpBB. Permite configurar o que é, e como é exibido. Aqui é possível adicionar, editar e apagar BBCodes.',
 	'ADD_BBCODE'						=> 'Adicionar novo BBCode',
 
-	'BBCODE_DANGER'					=> 'O BBCode que está a tentar adicionar parece inseguro, tal como usar {TEXT} dentro de um atributo de HTML, ou seja, num contexto sensível. Esta é uma possível questão de segurança XSS, tente usar um tipo mais restritivo como {SIMPLETEXT} ou {INTTEXT}. Prossiga se compreende os riscos de segurança envolvidos e se considera inevitável o uso de {TEXT}.',
+	'BBCODE_DANGER'					=> 'O BBCode que está a tentar adicionar parece inseguro, tal como usar {TEXT} dentro de um atributo de HTML, ou seja, num contexto sensível. Esta é uma possível questão de segurança XSS, tenta usar um tipo mais restritivo como {SIMPLETEXT} ou {INTTEXT}. Prossiga se compreende os riscos de segurança envolvidos e se considera inevitável o uso de {TEXT}.',
 	'BBCODE_DANGER_PROCEED'			=> 'Continuar',
 
 	'BBCODE_ADDED'						=> 'O BBCode foi adicionado com sucesso.',
@@ -85,7 +85,7 @@ $lang = array_merge($lang, [
 		'EMAIL'				=> 'Um endereço de email válido',
 		'URL'					=> 'Uma URL válida utilizando qualquer protocolo permitido (http, ftp, etc. não pode ser utilizada para javascript). Se nenhum for concedido, “http://” é o prefixado para a sequência.',
 		'LOCAL_URL'			=> 'Uma URL local. O URL deve ser relativo à página do tópico e não pode conter o nome do servidor ou o protocolo, como as ligações são prefixados com “%s”',
-		'RELATIVE_URL'		=> 'Uma URL relativa. Pode combinar partes de uma URL, mas tenha cuidado: a URL completa é uma URL relativa válida. Quando quiser usar URLs relativas do seu fórum, use o token LOCAL_URL.',
+		'RELATIVE_URL'		=> 'Uma URL relativa. Pode combinar partes de uma URL, mas tenha cuidado: a URL completa é uma URL relativa válida. Quando quiser usar URLs relativas do seu fórum, usa o token LOCAL_URL.',
 		'COLOR'				=> 'Uma Cor de HTML, pode ser tanto na forma numérica <samp>#FF1234</samp> ou uma <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS colour keyword</a> assim como <samp>fuchsia</samp> ou <samp>InactiveBorder</samp>',
 	],
 ]);
@@ -276,7 +276,7 @@ $lang = array_merge($lang, [
 
 	'REASON_ADD'						=> 'Adicionar Razão para Denúncia/Negação',
 	'REASON_ADDED'						=> 'A Razão para Denúncia/Negação foi adicionada com sucesso.',
-	'REASON_ALREADY_EXIST'			=> 'O Título escrito já existe. Por Favor, escreva outro título para esta razão.',
+	'REASON_ALREADY_EXIST'			=> 'O Título escrito já existe. Por Favor, escreve outro título para esta razão.',
 	'REASON_DESCRIPTION'				=> 'Descrição da Razão',
 	'REASON_DESC_TRANSLATED'		=> 'Descrição da Razão exibida',
 	'REASON_EDIT'						=> 'Editar Razão para Denúncia/Negação',

@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang)) {
 
 $lang = array_merge($lang, [
 	'PLUPLOAD_ADD_FILES'					=> 'Adicionar ficheiros',
-	'PLUPLOAD_ADD_FILES_TO_QUEUE'		=> 'Adicione ficheiros à fila de envio e clique no botão Iniciar.',
+	'PLUPLOAD_ADD_FILES_TO_QUEUE'		=> 'Adiciona ficheiros à fila de envio e clica no botão Iniciar.',
 	'PLUPLOAD_ALREADY_QUEUED'			=> '%s já está na fila.',
 	'PLUPLOAD_CLOSE'						=> 'Fechar',
 	'PLUPLOAD_DRAG'						=> 'Arraste ficheiros para aqui.',

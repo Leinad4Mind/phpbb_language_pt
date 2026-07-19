@@ -41,9 +41,9 @@ $lang = array_merge($lang, [
 	'EXTENSIONS_ADMIN'			=> 'Gestão de Extensões',
 	'EXTENSIONS_EXPLAIN'			=> 'O Gestor de Extensões é uma ferramenta do phpBB que permite gerir todas as suas extensões e exibir as respetivas informações.',
 	'EXTENSION_INVALID_LIST'	=> 'A Extensão “%s” não é válida.<br />%s<br /><br />',
-	'EXTENSION_NOT_AVAILABLE'	=> 'A extensão selecionada não está disponível para este Fórum, por favor, verifique versões do phpBB e PHP permitidas (veja a página de detalhes).',
+	'EXTENSION_NOT_AVAILABLE'	=> 'A extensão selecionada não está disponível para este Fórum, por favor, verifica versões do phpBB e PHP permitidas (veja a página de detalhes).',
 	'EXTENSION_DIR_INVALID'		=> 'A extensão selecionada não pode ser ativada porque tem uma estrutura de pastas inválida.',
-	'EXTENSION_NOT_ENABLEABLE'	=> 'A extensão selecionada não pode ser ativada, por favor, verifique os requisitos do extensão.',
+	'EXTENSION_NOT_ENABLEABLE'	=> 'A extensão selecionada não pode ser ativada, por favor, verifica os requisitos do extensão.',
 	'EXTENSION_NOT_INSTALLED'	=> 'A extensão %s não está disponível. Verifica se instalaste corretamente.',
 
 	'DETAILS'						=> 'Detalhes',

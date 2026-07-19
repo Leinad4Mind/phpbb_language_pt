@@ -38,13 +38,13 @@ if (empty($lang) || !is_array($lang)) {
 // Common installer pages
 $lang = array_merge($lang, [
 	'INSTALL_PANEL'	=> 'Painel de Instalação',
-	'SELECT_LANG'		=> 'Seleccione o idioma',
+	'SELECT_LANG'		=> 'Selecciona o idioma',
 
 	'STAGE_INSTALL'	=> 'Instalando o phpBB',
 
 	// Introduction page
 	'INTRODUCTION_TITLE'		=> 'Introdução',
-	'INTRODUCTION_BODY'		=> 'Bem-vindo ao phpBB3!<br /><br />O phpBB® é a solução de fórum em código aberto mais utilizada no mundo. O phpBB3 é a última parcela de uma linha de pacotes iniciada em 2000. Como os seus Antecessores, o phpBB3 é rico em recursos, é fácil de usar e é totalmente suportado pela equipa do phpBB. O phpBB3 melhora tudo aquilo que fez o phpBB2 popular, e adiciona recursos geralmente solicitados que não estavam presentes nas versões anteriores. Esperamos que exceda as tuas expectativas.<br /><br />Este sistema de instalação irá guiá-lo através da instalação phpBB3, e a actualizar para a versão mais recente do phpBB3 de versões anteriores, bem como a conversão para phpBB3 a partir de um sistema de discussão diferente (incluindo phpBB2). Para obter mais informações, recomendamos que leias <a href="%1$s">o guia de instalação</a>.<br /><br />Para ler a licença phpBB3 ou aprender sobre a obtenção de suporte e a nossa posição sobre ele, por favor, selecciona as opções respectivas no menu lateral. Para continuar, selecciona a aba apropriada acima.',
+	'INTRODUCTION_BODY'		=> 'Bem-vindo ao phpBB3!<br /><br />O phpBB® é a solução de fórum em código aberto mais utilizada no mundo. O phpBB3 é a última parcela de uma linha de pacotes iniciada em 2000. Como os seus Antecessores, o phpBB3 é rico em recursos, é fácil de usar e é totalmente suportado pela equipa do phpBB. O phpBB3 melhora tudo aquilo que fez o phpBB2 popular, e adiciona recursos geralmente solicitados que não estavam presentes nas versões anteriores. Esperamos que excedas as tuas expectativas.<br /><br />Este sistema de instalação irá guiar-te através da instalação phpBB3, e a actualizar para a versão mais recente do phpBB3 de versões anteriores, bem como a conversão para phpBB3 a partir de um sistema de discussão diferente (incluindo phpBB2). Para obteres mais informações, recomendamos que leias <a href="%1$s">o guia de instalação</a>.<br /><br />Para ler a licença phpBB3 ou aprenderes sobre a obtenção de suporte e a nossa posição sobre ele, por favor, selecciona as opções respectivas no menu lateral. Para continuar, selecciona a aba apropriada acima.',
 
 	// Support page
 	'SUPPORT_TITLE'			=> 'Suporte',
@@ -145,9 +145,9 @@ $lang = array_merge($lang, [
 	'ADMIN_CONFIG'					=> 'Configuração de Administração',
 	'ADMIN_PASSWORD'				=> 'Senha do Administrador',
 	'ADMIN_PASSWORD_CONFIRM'	=> 'Confirmar senha de Administrador',
-	'ADMIN_PASSWORD_EXPLAIN'	=> 'Introduza uma palavra-passe com um comprimento entre 6 e 30 caracteres.',
+	'ADMIN_PASSWORD_EXPLAIN'	=> 'Introduz uma palavra-passe com um comprimento entre 6 e 30 caracteres.',
 	'ADMIN_USERNAME'				=> 'Nome de utilizador do Administrador',
-	'ADMIN_USERNAME_EXPLAIN'	=> 'Introduza um nome de utilizador com um comprimento entre 3 e 20 caracteres.',
+	'ADMIN_USERNAME_EXPLAIN'	=> 'Introduz um nome de utilizador com um comprimento entre 3 e 20 caracteres.',
 
 	// Errors
 	'INST_ERR_EMAIL_INVALID'		=> 'O endereço de e-mail indicado é inválido.',
@@ -175,7 +175,7 @@ $lang = array_merge($lang, [
 	'DB_CONFIG'					=> 'Configuração da Base de Dados',
 	'DBMS'						=> 'Tipo de Base de Dados',
 	'DB_HOST'					=> 'Nome do Servidor da Base de Dados / DSN',
-	'DB_HOST_EXPLAIN'			=> 'DSN significa Data Source Name e apenas é relevante para instalações ODBC. No PostgreSQL, use localhost para ligar ao servidor local através do domínio socket UNIX e 127.0.0.1 para conectar através do TCP. Para SQLite, insere o caminho completo para o ficheiro da tua Base de Dados.',
+	'DB_HOST_EXPLAIN'			=> 'DSN significa Data Source Name e apenas é relevante para instalações ODBC. No PostgreSQL, usa localhost para ligar ao servidor local através do domínio socket UNIX e 127.0.0.1 para conectar através do TCP. Para SQLite, insere o caminho completo para o ficheiro da tua Base de Dados.',
 	'DB_PORT'					=> 'Porta do Servidor da Base de Dados',
 	'DB_PORT_EXPLAIN'			=> 'Só indica se o Servidor utilizar outra que não a porta padrão.',
 	'DB_PASSWORD'				=> 'Senha da Base de Dados',
@@ -204,10 +204,10 @@ $lang = array_merge($lang, [
 	'INST_ERR_DB_NO_WRITABLE'			=> 'Tanto a base de dados como as pastas do fórum devem permitir a escrita.',
 	'INST_ERR_DB_NO_ERROR'				=> 'Nenhuma mensagem de erro foi reportada.',
 	'INST_ERR_PREFIX'						=> 'Já existem tabelas com o prefixo indicado. Por favor, escolhe outro prefixo.',
-	'INST_ERR_DB_NO_MYSQLI'				=> 'A versão do MySQL instalada nesta máquina é incompatível com a opção “MySQL com Extensão MySQLi” seleccionada. Tente com uma outra opção “MySQL”.',
+	'INST_ERR_DB_NO_MYSQLI'				=> 'A versão do MySQL instalada nesta máquina é incompatível com a opção “MySQL com Extensão MySQLi” seleccionada. Tenta com uma outra opção “MySQL”.',
 	'INST_ERR_DB_NO_SQLITE3'			=> 'A versão da extensão SQLite instalada é muito antiga, tens que actualizá-la para pelo menos 3.6.15.',
 	'INST_ERR_DB_NO_ORACLE'				=> 'A versão do Oracle instalada nesta máquina exige que definas o parâmetro <var>NLS_CHARACTERSET</var> para <var>UTF8</var>. Podes actualizar a tua instalação para uma posterior à 9.2+ ou alterar o teu parâmetro.',
-	'INST_ERR_DB_NO_POSTGRES'			=> 'A Base de Dados seleccionada não foi criada na codificação <var>UNICODE</var> ou <var>UTF8</var>. Tente instalar uma Base de Dados com codificação<var>UNICODE</var> ou <var>UTF8</var>.',
+	'INST_ERR_DB_NO_POSTGRES'			=> 'A Base de Dados seleccionada não foi criada na codificação <var>UNICODE</var> ou <var>UTF8</var>. Tenta instalar uma Base de Dados com codificação<var>UNICODE</var> ou <var>UTF8</var>.',
 	'INST_SCHEMA_FILE_NOT_WRITABLE'	=> 'O ficheiro de esquema não pode ser gravado',
 
 	//
@@ -236,7 +236,7 @@ $lang = array_merge($lang, [
 // Default database schema entries...
 $lang = array_merge($lang, [
 	'CONFIG_BOARD_EMAIL_SIG'			=> 'Atenciosamente, A Administração',
-	'CONFIG_SITE_DESC'					=> 'Escreva um pequeno texto a descrever o teu Fórum',
+	'CONFIG_SITE_DESC'					=> 'Escreve um pequeno texto a descrever o teu Fórum',
 	'CONFIG_SITENAME'						=> 'oseudomínio.com',
 
 	'DEFAULT_INSTALL_POST'				=> '<t>Esta é uma Mensagem de exemplo, (criada automaticamente durante a instalação) do teu novo Fórum phpBB3. Podes apagar esta Mensagem, o Tópico e o Fórum quando quiseres! Se tiveres alguma dúvida, sugestão ou comentário sobre esta tradução para português europeu do phpBB3x, consulta a comunidade phpBB Leinad4Mind. Da mesma forma, podes visitar-nos, se desejar fazer alguma observação sobre esta tradução e o acordo ortográfico da língua portuguesa. Estamos a construir uma Comunidade phpBB em Portugal. O contributo de todos é importante. O nosso compromisso é ajudar quem nos procura. Responderemos a todos os contactos tão rápido quanto possível. A tua participação é o maior incentivo que pode nos dar. A tradução deste Fórum respeita o acordo ortográfico da língua portuguesa em vigor desde Janeiro de 2009.</t>',
@@ -249,7 +249,7 @@ $lang = array_merge($lang, [
 	'REPORT_WAREZ'							=> 'A mensagem denunciada contém endereços ilegais ou de software pirateado.',
 	'REPORT_SPAM'							=> 'A mensagem denunciada tem apenas o propósito de anunciar um site ou um produto.',
 	'REPORT_OFF_TOPIC'					=> 'A mensagem denunciada é desnecessária, e não faz sentido.',
-	'REPORT_OTHER'							=> 'A mensagem denunciada não se encaixa em nenhuma outra categoria, use o campo de descrição para especificar uma.',
+	'REPORT_OTHER'							=> 'A mensagem denunciada não se encaixa em nenhuma outra categoria, usa o campo de descrição para especificar uma.',
 
 	'SMILIES_ARROW'						=> 'Seta',
 	'SMILIES_CONFUSED'					=> 'Confuso',
@@ -364,9 +364,9 @@ $lang = array_merge($lang, [
 			<li><strong class="error">Backup de todos os ficheiros e da base de dados.</strong></li>
 			<li>Vá à <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">Página de Transferências do phpBB.com</a> e descarregue o ficheiro do "Full Package".</li>
 			<li>Descompacte o ficheiro.</li>
-			<li>Apague o ficheiro <code class="inline">config.php</code> e as pastas <code class="inline">/images</code>, <code class="inline">/store</code> e <code class="inline">/files</code> <em>do pacote</em> (não do teu site).</li>
+			<li>Apaga o ficheiro <code class="inline">config.php</code> e as pastas <code class="inline">/images</code>, <code class="inline">/store</code> e <code class="inline">/files</code> <em>do pacote</em> (não do teu site).</li>
 			<li>Vá para o ACP, Configurações do Fórum e certifica-te de que o prosilver é o estilo predefinido. Caso não seja, define o prosilver como tal.</li>
-			<li>Apague as pastas <code class="inline">/vendor</code> e <code class="inline">/cache</code> da pasta raiz do fórum, no teu servidor.</li>
+			<li>Apaga as pastas <code class="inline">/vendor</code> e <code class="inline">/cache</code> da pasta raiz do fórum, no teu servidor.</li>
 			<li>Usando FTP ou SSH envia os ficheiros e pastas restantes (isto é, o CONTEÚDO restante da pasta phpBB3) para a pasta raiz da instalação do fórum no servidor, sobrescrevendo os ficheiros existentes. (Nota: tem cuidado para não apagar nenhuma extensão na pasta <code class="inline">/ext</code> quando fizer o envio do novo conteúdo do phpBB3.)</li>
 			<li><strong><a href="%1$s" title="%1$s">Agora inicie o processo de actualização, apontando o teu navegador para a pasta de instalação</a>.</strong></li>
 			<li>Segue as etapas para actualizar a base de dados e deixa que seja executado até a conclusão.</li>
@@ -375,8 +375,8 @@ $lang = array_merge($lang, [
 
 		<p>Agora tens um novo fórum actualizado que contém todos os teus utilizadores e mensagens. Tarefas complementares:</p>
 		<ul style="margin-left: 20px; font-size: 1.1em;">
-			<li>Actualize o teu pacote de idioma</li>
-			<li>Actualize o teu estilo<br /><br /></li>
+			<li>Actualiza o teu pacote de idioma</li>
+			<li>Actualiza o teu estilo<br /><br /></li>
 		</ul>
 
 		<h1>Como actualizar a tua instalação com o Pacote de Actualização Avançada</h1>
@@ -386,7 +386,7 @@ $lang = array_merge($lang, [
 		<ol style="margin-left: 20px; font-size: 1.1em;">
 			<li>Vá à <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">Página de Transferências do phpBB.com</a> e descarregue o ficheiro do "Advanced Update Package".</li>
 			<li>Descompacte o ficheiro.</li>
-			<li>Envie as pastas "install" e "vendor" descompactadas para a pasta raiz do teu phpBB (onde se encontra o ficheiro config.php).<br /><br /></li>
+			<li>Envia as pastas "install" e "vendor" descompactadas para a pasta raiz do teu phpBB (onde se encontra o ficheiro config.php).<br /><br /></li>
 		</ol>
 
 		<p>Depois de enviado, o teu fórum ficará inacessível aos utilizadores normais, caso a pasta de instalação que supostamente acaba de enviar esteja realmente presente.<br /><br />
@@ -424,7 +424,7 @@ $lang = array_merge($lang, [
 $lang = array_merge($lang, [
 	'UPDATE_FILES_NOT_FOUND'		=> 'Nenhuma pasta válida de actualização foi encontrada, por favor, certifica-te que enviou os ficheiros devidos.',
 
-	'NO_UPDATE_FILES_UP_TO_DATE'	=> 'A tua versão está actualizada. Não é necessário executar a ferramenta de actualização. Se deseja ter a certeza absoluta, verifica se enviou correctamente os Ficheiros de actualização.',
+	'NO_UPDATE_FILES_UP_TO_DATE'	=> 'A tua versão está actualizada. Não é necessário executar a ferramenta de actualização. Se desejas ter a certeza absoluta, verifica se enviou correctamente os Ficheiros de actualização.',
 	'OLD_UPDATE_FILES'				=> 'Os Ficheiros de actualização estão desactualizados. Os Ficheiros de actualização encontrados são do phpBB %1$s para o phpBB %2$s, mas a Última Versão do phpBB é a %3$s.',
 	'INCOMPATIBLE_UPDATE_FILES'	=> 'Os ficheiros de actualização encontrados são incompatíveis com a versão do phpBB instalada. A tua versão do phpBB é da %1$s e o Ficheiro de actualização é da versão %2$s para %3$s.',
 ]);
@@ -443,11 +443,11 @@ $lang = array_merge($lang, [
 	'ALL_FILES_DIFFED'		=> 'Todos os ficheiros modificados foram comparados.',
 
 	// File status
-	'UPDATE_CONTINUE_FILE_UPDATE'		=> 'Actualize ficheiros',
+	'UPDATE_CONTINUE_FILE_UPDATE'		=> 'Actualiza ficheiros',
 
 	'DOWNLOAD'								=> 'Transferência',
 	'DOWNLOAD_CONFLICTS'					=> 'Transfira os valores em conflito para este ficheiro',
-	'DOWNLOAD_CONFLICTS_EXPLAIN'		=> 'Procure por &lt;&lt;&lt; para encontrar valores em conflito',
+	'DOWNLOAD_CONFLICTS_EXPLAIN'		=> 'Procura por &lt;&lt;&lt; para encontrar valores em conflito',
 	'DOWNLOAD_UPDATE_METHOD'			=> 'Transferir os Ficheiros modificados',
 	'DOWNLOAD_UPDATE_METHOD_EXPLAIN'	=> 'Depois de transferires os Ficheiros deves descomprimi-los e enviá-los para a pasta raiz do teu phpBB. Envia os Ficheiros para os teus respectivos locais. Depois de enviares todos os Ficheiros, confere-os novamente clicando no botão abaixo.',
 
@@ -455,7 +455,7 @@ $lang = array_merge($lang, [
 	'FILE_DIFF_NOT_ALLOWED'			=> 'O ficheiro não se encontra disponível para ser verificado',
 	'FILE_USED'							=> 'A informação foi utilizada de',			// Single file
 	'FILES_CONFLICT'					=> 'Ficheiros em conflito',
-	'FILES_CONFLICT_EXPLAIN'		=> 'Os ficheiros seguintes apresentam alterações relativamente à versão anterior. Eventuais tentativas de alteração aos ficheiros poderiam criar conflitos. Investigue os conflitos e tenta resolvê-los manualmente ou continue a actualização ao seleccionar o método desejado. Se resolver os conflitos manualmente, faça nova verificação aos ficheiros depois de modificados. Pode seleccionar o método desejado para todos os Ficheiros. O primeiro irá resultar num Ficheiro onde as linhas em conflito do teu Ficheiro anterior serão perdidas, e o outro irá resultar na perda das modificações no novo ficheiro.',
+	'FILES_CONFLICT_EXPLAIN'		=> 'Os ficheiros seguintes apresentam alterações relativamente à versão anterior. Eventuais tentativas de alteração aos ficheiros poderiam criar conflitos. Investigue os conflitos e tenta resolvê-los manualmente ou continue a actualização ao seleccionar o método desejado. Se resolver os conflitos manualmente, faz nova verificação aos ficheiros depois de modificados. Pode seleccionar o método desejado para todos os Ficheiros. O primeiro irá resultar num Ficheiro onde as linhas em conflito do teu Ficheiro anterior serão perdidas, e o outro irá resultar na perda das modificações no novo ficheiro.',
 	'FILES_DELETED'					=> 'Ficheiros apagados',
 	'FILES_DELETED_EXPLAIN'			=> 'Os seguintes ficheiros não existem na nova versão. Esses ficheiros devem ser excluídos de tua instalação.',
 	'FILES_MODIFIED'					=> 'Ficheiros modificados',
@@ -478,7 +478,7 @@ $lang = array_merge($lang, [
 	'UPDATE_FILE_UPDATERS_HAVE_FAILED'	=> 'A actualização de ficheiros falhou. Não existe métodos alternativos disponíveis.',
 
 	'UPDATE_CONTINUE_UPDATE_PROCESS'		=> 'Continuar processo de actualização',
-	'UPDATE_RECHECK_UPDATE_FILES'			=> 'Verifique novamente os ficheiros',
+	'UPDATE_RECHECK_UPDATE_FILES'			=> 'Verifica novamente os ficheiros',
 ]);
 
 // Update database
@@ -518,7 +518,7 @@ $lang = array_merge($lang, [
 	// Start conversion
 	'SUB_INTRO'						=> 'Introdução',
 	'CONVERT_INTRO'				=> 'Bem-vindo ao phpBB Unified Convertor Framework',
-	'CONVERT_INTRO_BODY'			=> 'Aqui é possível importar dados de outros sistemas de Fóruns (instalados). A lista seguinte mostra os módulos de conversão disponíveis. Se não existe um conversor na lista para o código de Fórum que deseja converter, por favor, verifica no nosso site onde podem estar disponíveis outros conversores.',
+	'CONVERT_INTRO_BODY'			=> 'Aqui é possível importar dados de outros sistemas de Fóruns (instalados). A lista seguinte mostra os módulos de conversão disponíveis. Se não existe um conversor na lista para o código de Fórum que desejas converter, por favor, verifica no nosso site onde podem estar disponíveis outros conversores.',
 	'AVAILABLE_CONVERTORS'		=> 'Conversores Disponíveis',
 	'NO_CONVERTORS'				=> 'Não está disponível nenhum conversor',
 	'CONVERT_OPTIONS'				=> 'Opções',
@@ -529,11 +529,11 @@ $lang = array_merge($lang, [
 	// Settings
 	'STAGE_SETTINGS'				=> 'Configurações',
 	'TABLE_PREFIX_SAME'			=> 'O Prefixo das Tabelas tem que ser o usado pelo software que está convertendo.<br />» O prefixo de Tabela especificado foi %s',
-	'DEFAULT_PREFIX_IS'			=> 'O Conversor não encontrou as tabelas com o prefixo indicado. Verifique se as informações do Fórum estão corretas. O Prefixo Padrão para a tabela %1$s é <strong>%2$s</strong>',
-	'SPECIFY_OPTIONS'				=> 'Escolha as Opções de Conversão',
+	'DEFAULT_PREFIX_IS'			=> 'O Conversor não encontrou as tabelas com o prefixo indicado. Verifica se as informações do Fórum estão corretas. O Prefixo Padrão para a tabela %1$s é <strong>%2$s</strong>',
+	'SPECIFY_OPTIONS'				=> 'Escolhe as Opções de Conversão',
 	'FORUM_PATH'					=> 'Pasta do Fórum',
 	'FORUM_PATH_EXPLAIN'			=> 'Este é o caminho <strong>relativo</strong> no disco para o teu antigo fórum da <strong>raiz desta instalação do phpBB3</strong>.',
-	'REFRESH_PAGE'					=> 'Actualize a página para continuar a conversão',
+	'REFRESH_PAGE'					=> 'Actualiza a página para continuar a conversão',
 	'REFRESH_PAGE_EXPLAIN'		=> 'Se clicar em "Sim", o conversor irá actualizar a página para continuar a conversão até à etapa final. Se esta é uma conversão apenas de teste e para determinação de erros, clica em "Não".',
 
 	// Conversion
@@ -572,7 +572,7 @@ $lang = array_merge($lang, [
 
 	'COLLIDING_CLEAN_USERNAME'			=> '<strong>%s</strong> é o nome de utilizador limpo para:',
 	'COLLIDING_USER'						=> '» id do utilizador: <strong>%d</strong> nome de utilizador: <strong>%s</strong> (%d mensagens)',
-	'COLLIDING_USERNAMES_FOUND'		=> 'Nomes de utilizador duplicados foram encontrados no teu antigo fórum. Para concluir a conversão, exclua ou renomeia esses utilizadores para que haja apenas um utilizador no teu fórum antigo para cada nome de utilizador limpo.',
+	'COLLIDING_USERNAMES_FOUND'		=> 'Nomes de utilizador duplicados foram encontrados no teu antigo fórum. Para concluir a conversão, exclui ou renomeia esses utilizadores para que haja apenas um utilizador no teu fórum antigo para cada nome de utilizador limpo.',
 	'CONV_ERR_FATAL'						=> 'Erro fatal de conversão',
 	'CONV_ERROR_ATTACH_FTP_DIR'		=> 'O envio de anexos por FTP está activo no teu painel antigo. Desactive a opção de envio por FTP, crie uma pasta válida e envia todos os ficheiros de anexos para a nova pasta. Após concluir esta operação, reinicia o conversor.',
 	'CONV_ERROR_CONFIG_EMPTY'			=> 'Não foram encontradas informações de configuração válidas para a conversão.',
@@ -599,7 +599,7 @@ $lang = array_merge($lang, [
 	'CONV_ERROR_REPLACE_FORUM'			=> 'Não foi possível inserir um novo Fórum substituindo um Fórum antigo.',
 	'CONV_ERROR_USER_ACCESS'			=> 'Não foi possível adquirir as informações de autenticação dos utilizadores.',
 	'CONV_ERROR_WRONG_GROUP'			=> 'Erro no Grupo "%1$s" definido em %2$s.',
-	'CONV_OPTIONS_BODY'					=> 'Esta página precisa do acesso ao código do Fórum. Introduza os dados da Base de Dados; o conversor não irá mexer no código actual. O acesso ao código deve ser desactivado para evitar erros.',
+	'CONV_OPTIONS_BODY'					=> 'Esta página precisa do acesso ao código do Fórum. Introduz os dados da Base de Dados; o conversor não irá mexer no código actual. O acesso ao código deve ser desactivado para evitar erros.',
 	'CONV_SAVED_MESSAGES'				=> 'Mensagens Guardadas',
 
 	'PRE_CONVERT_COMPLETE'				=> 'Todos os passos da pré-conversão foram terminados com sucesso. Podes iniciar o processo de conversão. Por Favor, nota que deves ajustar algumas coisas manualmente. Depois da conversão, verifica as permissões atribuídas, reconstrua o índice de Pesquisa se necessário e verifica se os ficheiros foram copiados correctamente, como por exemplo os Avatares e as Emoções.',

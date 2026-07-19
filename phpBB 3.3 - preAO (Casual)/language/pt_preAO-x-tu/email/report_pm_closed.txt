@@ -8,6 +8,6 @@ Pode ver a mensagem privada denunciada clicando no seguinte link:
 
 {U_VIEW_MESSAGE}
 
-Solicitou ser notificado sobre este evento, lembre-se de que pode sempre optar por não ser notificado sobre relatórios de mensagens privadas fechadas, alterando a configuração apropriada no teu perfil.
+Solicitaste ser notificado sobre este evento, lembra-te de que podes sempre optar por não ser notificado sobre relatórios de mensagens privadas fechadas, alterando a configuração apropriada no teu perfil.
 
 {EMAIL_SIG}

@@ -58,6 +58,6 @@ $lang = array_merge($lang, [
 	'QUESTION_TEXT'				=> 'Pergunta',
 	'QUESTION_TEXT_EXPLAIN'		=> 'A pergunta feita ao utilizador.',
 
-	'QA_ERROR_MSG'					=> 'Preencha todos os campos e pelo menos uma resposta.',
+	'QA_ERROR_MSG'					=> 'Preenche todos os campos e pelo menos uma resposta.',
 	'QA_LAST_QUESTION'			=> 'Não podes apagar todas as perguntas, enquanto o plugin estiver ativo.',
 ]);

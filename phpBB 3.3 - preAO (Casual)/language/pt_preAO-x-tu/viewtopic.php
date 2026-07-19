@@ -65,7 +65,7 @@ $lang = array_merge($lang, [
 	'FULL_EDITOR'						=> 'Editor completo',
 
 	'LINKAGE_FORBIDDEN'				=> 'Não está autorizado a ver o atalho para esta página.',
-	'LOGIN_NOTIFY_TOPIC'				=> 'Foi notificado por este Tópico, ligue-se para vê-lo.',
+	'LOGIN_NOTIFY_TOPIC'				=> 'Foste notificado por este Tópico, liga-te para vê-lo.',
 	'LOGIN_VIEWTOPIC'					=> 'Tem que estar Registado e ligado para ver este Tópico.',
 
 	'MAKE_ANNOUNCE'					=> 'Alterar para “Anúncio”',

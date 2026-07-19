@@ -42,7 +42,7 @@ $lang = array_merge($lang, [
 	'CONFIRM_QUESTION_MISSING'	=> 'Não foi possível carregar as perguntas para o sistema de segurança. Por favor, contacta o administrador do fórum.',
 
 	'QUESTION_ANSWERS'			=> 'Respostas',
-	'ANSWERS_EXPLAIN'				=> 'Introduza respostas correctas, uma por linha.',
+	'ANSWERS_EXPLAIN'				=> 'Introduz respostas correctas, uma por linha.',
 	'CONFIRM_QUESTION'			=> 'Pergunta',
 
 	'ANSWER'							=> 'Resposta',
@@ -58,6 +58,6 @@ $lang = array_merge($lang, [
 	'QUESTION_TEXT'				=> 'Pergunta',
 	'QUESTION_TEXT_EXPLAIN'		=> 'A pergunta feita ao utilizador.',
 
-	'QA_ERROR_MSG'					=> 'Preencha todos os campos e pelo menos uma resposta.',
+	'QA_ERROR_MSG'					=> 'Preenche todos os campos e pelo menos uma resposta.',
 	'QA_LAST_QUESTION'			=> 'Não pode apagar todas as perguntas, enquanto o plugin estiver activo.',
 ]);

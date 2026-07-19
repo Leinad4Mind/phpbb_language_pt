@@ -38,13 +38,13 @@ if (empty($lang) || !is_array($lang)) {
 $lang = array_merge($lang, [
 	'CLI_APCU_CACHE_NOTICE'					=> 'O cache do APCu deve ser limpo através do Painel de Controlo da Administração.',
 
-	'CLI_CONFIG_CANNOT_CACHED'				=> 'Defina esta opção se a opção de configuração muda com muita frequência para ser eficiente em cache.',
-	'CLI_CONFIG_CURRENT'						=> 'Valor actual configuração, use 0 e 1 para especificar valores booleanos',
+	'CLI_CONFIG_CANNOT_CACHED'				=> 'Define esta opção se a opção de configuração muda com muita frequência para ser eficiente em cache.',
+	'CLI_CONFIG_CURRENT'						=> 'Valor actual configuração, usa 0 e 1 para especificar valores booleanos',
 	'CLI_CONFIG_DELETE_SUCCESS'			=> 'Configuração eliminada com sucesso %s.',
-	'CLI_CONFIG_NEW'							=> 'Novo valor de configuração, use 0 e 1 para especificar valores booleanos',
+	'CLI_CONFIG_NEW'							=> 'Novo valor de configuração, usa 0 e 1 para especificar valores booleanos',
 	'CLI_CONFIG_NOT_EXISTS'					=> 'Configuração %s não existe',
 	'CLI_CONFIG_OPTION_NAME'				=> 'O nome da opção de configuração',
-	'CLI_CONFIG_PRINT_WITHOUT_NEWLINE'	=> 'Defina esta opção se o valor deve ser impresso sem uma nova linha no final.',
+	'CLI_CONFIG_PRINT_WITHOUT_NEWLINE'	=> 'Define esta opção se o valor deve ser impresso sem uma nova linha no final.',
 	'CLI_CONFIG_INCREMENT_BY'				=> 'Valor de incrementar de',
 	'CLI_CONFIG_INCREMENT_SUCCESS'		=> 'Configuração %s incrementada com sucesso',
 	'CLI_CONFIG_SET_FAILURE'				=> 'Não foi possível definir a configuração %s',
@@ -74,7 +74,7 @@ $lang = array_merge($lang, [
 	'CLI_DESCRIPTION_REPARSER_LIST'				=> 'Lista os tipos de texto que podem ser reanalisados.',
 	'CLI_DESCRIPTION_REPARSER_AVAILABLE'		=> 'Reanalisadores disponíveis:',
 	'CLI_DESCRIPTION_REPARSER_REPARSE'			=> 'Texto reanalisado guardado com o serviço actual de text_formatter.',
-	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'	=> 'Tipo de texto a reanalisar. Deixe em branco para reanalisar tudo.',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'	=> 'Tipo de texto a reanalisar. Deixa em branco para reanalisar tudo.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'		=> 'Sem quaisquer alterações, apenas vê o resultado que seria desta operação',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MIN'	=> 'ID do registo menor a ser processado',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MAX'	=> 'ID do registo maior a ser processado',
@@ -157,7 +157,7 @@ $lang = array_merge($lang, [
 	'CLI_THUMBNAIL_NOTHING_TO_DELETE'	=> 'Sem miniaturas para apagar.',
 
 	'CLI_USER_ADD_SUCCESS'		=> 'Utilizador %s adicionado com sucesso.',
-	'CLI_USER_DELETE_CONFIRM'	=> 'Tem a certeza que deseja remover ‘%s’? [s/N]',
+	'CLI_USER_DELETE_CONFIRM'	=> 'Tem a certeza que desejas remover ‘%s’? [s/N]',
 	'CLI_USER_RECLEAN_START'	=> 'A limpar nomes de utilizadores',
 	'CLI_USER_RECLEAN_DONE'		=> [
 		0	=> 'Limpeza completa. Nenhum nome de utilizador precisava de ser limpo.',

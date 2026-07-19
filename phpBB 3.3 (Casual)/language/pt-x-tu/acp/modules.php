@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang)) {
 $lang = array_merge($lang, [
 	'ACP_MODULE_MANAGEMENT_EXPLAIN'	=> 'Aqui podes gerir todos os tipos de Módulos. O Painel de Administração tem uma estrutura de menus de três níveis (Categoria -> Categoria -> Módulo) diferente de outros que possuem uma estrutura de menu de dois níveis (Categoria -> Módulo) que precisam ser salvos. Tenha em atenção que deve testar os resultados já que pode auto bloquear-se se desativar ou apagar os Módulos responsáveis pela própria Gestão de Módulos.',
 	'ADD_MODULE'						=> 'Adicionar um Módulo',
-	'ADD_MODULE_CONFIRM'				=> 'Deseja realmente ADICIONAR este Módulo com o modo selecionado?',
+	'ADD_MODULE_CONFIRM'				=> 'Desejas realmente ADICIONAR este Módulo com o modo selecionado?',
 	'ADD_MODULE_TITLE'				=> 'Adicionar Módulos',
 
 	'CANNOT_REMOVE_MODULE'			=> 'Não é possível apagar este Módulo porque tem outros módulos agregados. Move ou elimina os módulos agregados e depois apaga-o.',
@@ -51,7 +51,7 @@ $lang = array_merge($lang, [
 
 	'DEACTIVATED_MODULE'				=> 'Módulo Desativado',
 	'DELETE_MODULE'					=> 'Apagar Módulo',
-	'DELETE_MODULE_CONFIRM'			=> 'Deseja realmente Apagar este Módulo?',
+	'DELETE_MODULE_CONFIRM'			=> 'Desejas realmente Apagar este Módulo?',
 
 	'EDIT_MODULE'						=> 'Editar Módulo',
 	'EDIT_MODULE_EXPLAIN'			=> 'Aqui podes definir as configurações dos Módulos.',
@@ -69,7 +69,7 @@ $lang = array_merge($lang, [
 	'MODULE_LANGNAME_EXPLAIN'		=> 'Escreve o nome do Módulo exibido. Utiliza a constante da Idioma se o nome for oferecido pelo Ficheiro de linguagem.',
 	'MODULE_TYPE'						=> 'Tipo de Módulo',
 
-	'NO_CATEGORY_TO_MODULE'			=> 'Não é possível transformar esta Categoria em Módulo. Por Favor, exclua ou mova todas as Crianças antes de efetuar esta ação.',
+	'NO_CATEGORY_TO_MODULE'			=> 'Não é possível transformar esta Categoria em Módulo. Por Favor, exclui ou move todas as Crianças antes de efetuar esta ação.',
 	'NO_MODULE'							=> 'Nenhum módulo foi encontrado.',
 	'NO_MODULE_ID'						=> 'A ID do Módulo não foi especificada.',
 	'NO_MODULE_LANGNAME'				=> 'O Nome do Idioma do Módulo não foi especificado.',

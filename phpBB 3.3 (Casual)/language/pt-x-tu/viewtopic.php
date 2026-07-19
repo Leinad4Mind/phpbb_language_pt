@@ -41,7 +41,7 @@ $lang = array_merge($lang, [
 	'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> 'Anexos foram desativados',
 
 	'BOOKMARK_ADDED'					=> 'Tópico adicionado aos Favoritos.',
-	'BOOKMARK_ERR'						=> 'Erro ao adicionar o Tópico aos favoritos. Por favor, tente novamente.',
+	'BOOKMARK_ERR'						=> 'Erro ao adicionar o Tópico aos favoritos. Por favor, tenta novamente.',
 	'BOOKMARK_REMOVED'				=> 'Tópico removido dos Favoritos.',
 	'BOOKMARK_TOPIC'					=> 'Adicionar Tópico aos Favoritos',
 	'BOOKMARK_TOPIC_REMOVE'			=> 'Remover Tópico dos Favoritos',
@@ -65,7 +65,7 @@ $lang = array_merge($lang, [
 	'FULL_EDITOR'						=> 'Editor completo',
 
 	'LINKAGE_FORBIDDEN'				=> 'Não está autorizado a ver o atalho para esta página.',
-	'LOGIN_NOTIFY_TOPIC'				=> 'Foi notificado por este Tópico, ligue-se para vê-lo.',
+	'LOGIN_NOTIFY_TOPIC'				=> 'Foste notificado por este Tópico, liga-te para vê-lo.',
 	'LOGIN_VIEWTOPIC'					=> 'Tens que estar Registado e ligado para ver este Tópico.',
 
 	'MAKE_ANNOUNCE'					=> 'Alterar para “Anúncio”',

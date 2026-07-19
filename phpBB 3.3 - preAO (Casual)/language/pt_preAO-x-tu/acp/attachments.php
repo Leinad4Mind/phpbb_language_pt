@@ -101,7 +101,7 @@ $lang = array_merge($lang, [
 	'EXT_GROUP_PLAIN_TEXT'				=> 'Texto simples',
 
 	'FILES_GONE'							=> 'Alguns dos anexos que seleccionaste para eliminar não existem. Eles podem já ter sido excluídos. Os anexos que existiam foram eliminados.',
-	'FILES_STATS_WRONG'					=> 'As estatísticas dos teus ficheiros são imprecisas e provavelmente precisam ser ressincronizadas. Valores actuais: Número de ficheiros = %1$d, tamanho total dos ficheiros = %2$s.<br />Clique %3$saqui%4$s para os ressincronizar.',
+	'FILES_STATS_WRONG'					=> 'As estatísticas dos teus ficheiros são imprecisas e provavelmente precisam ser ressincronizadas. Valores actuais: Número de ficheiros = %1$d, tamanho total dos ficheiros = %2$s.<br />Clica %3$saqui%4$s para os ressincronizar.',
 
 	'GO_TO_EXTENSIONS'					=> 'Vai para a Página de Gestão de Extensões',
 	'GROUP_NAME'							=> 'Nome do Grupo',

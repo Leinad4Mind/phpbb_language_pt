@@ -2,7 +2,7 @@
 Olá, {TO_USERNAME},
 
 
-A mensagem que se segue foi enviada para si de {FROM_USERNAME} através da tua conta em {SITENAME}.
+A mensagem que se segue foi enviada para ti de {FROM_USERNAME} através da tua conta em {SITENAME}.
 Se há material abusivo, "spam", ou comentários que considera ofensivos contacta o seguinte endereço:
 {BOARD_CONTACT}
 enviando este email completo, particularmente os cabeçalhos.

@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang)) {
 
 $lang = array_merge($lang, [
 	'ACP_ATTACHMENT_SETTINGS_EXPLAIN'	=> 'Aqui podes configurar as Opções Principais para os Anexos e Categorias Especiais associadas.',
-	'ACP_EXTENSION_GROUPS_EXPLAIN'		=> 'Aqui podes adicionar, excluir, modificar e desativar as Extensões. Consulte o Painel Gestor de Grupos de Extensões. Recomenda-se que não permita extensões de scripts (tipo: php, php3, php4, phtml, pl, cgi, py, rb, asp, aspx, entre outras...), por serem potencialmente perigosas.',
+	'ACP_EXTENSION_GROUPS_EXPLAIN'		=> 'Aqui podes adicionar, excluir, modificar e desativar as Extensões. Consulta o Painel Gestor de Grupos de Extensões. Recomenda-se que não permita extensões de scripts (tipo: php, php3, php4, phtml, pl, cgi, py, rb, asp, aspx, entre outras...), por serem potencialmente perigosas.',
 	'ACP_MANAGE_EXTENSIONS_EXPLAIN'		=> 'Aqui podes controlar as Extensões permitidas. Para ativares as tuas Extensões, consulta por favor, o Painel de Gestão dos Grupos das Extensões. Recomenda-se que não permitas extensões de scripts (tipo: php, php3, php4, phtml, pl, cgi, py, rb, asp, aspx, entre outras...), por serem potencialmente perigosas.',
 	'ACP_ORPHAN_ATTACHMENTS_EXPLAIN'		=> 'Estes são os Ficheiros que não estão associados a uma Mensagem.',
 	'ADD_EXTENSION'							=> 'Adicionar Extensão',
@@ -76,7 +76,7 @@ $lang = array_merge($lang, [
 
 	'DEFINE_ALLOWED_IPS'					=> 'Definir IPs/Servidores autorizados',
 	'DEFINE_DISALLOWED_IPS'				=> 'Definir IPs/Servidores proibidos',
-	'DOWNLOAD_ADD_IPS_EXPLAIN'			=> 'Para definir vários IPs ou Servidores diferentes, introduza cada um numa nova linha. Para definir uma faixa de endereços de IP separe o início e o fim com um hífen (-). Pode utilizar asteriscos (*)',
+	'DOWNLOAD_ADD_IPS_EXPLAIN'			=> 'Para definir vários IPs ou Servidores diferentes, introduz cada um numa nova linha. Para definir uma faixa de endereços de IP separe o início e o fim com um hífen (-). Pode utilizar asteriscos (*)',
 	'DOWNLOAD_REMOVE_IPS_EXPLAIN'		=> 'Podes remover (ou não-excluir) múltiplos endereços de IPs de uma única vez usando a combinação apropriada de rato e teclado para o teu computador e navegador. IPs apagados têm um fundo em azul.',
 	'DISPLAY_INLINED'						=> 'Mostrar Imagens',
 	'DISPLAY_INLINED_EXPLAIN'			=> 'Se escolher Não as imagens anexadas serão mostradas como atalhos.',
@@ -107,7 +107,7 @@ $lang = array_merge($lang, [
 	'GROUP_NAME'							=> 'Nome do Grupo',
 
 	'IMAGE_LINK_SIZE'						=> 'Dimensões para o atalho de Imagem',
-	'IMAGE_LINK_SIZE_EXPLAIN'			=> 'Mostra o anexo da imagem como um atalho se a imagem for maior que o selecionado, introduza 0px por 0px para desativar.',
+	'IMAGE_LINK_SIZE_EXPLAIN'			=> 'Mostra o anexo da imagem como um atalho se a imagem for maior que o selecionado, introduz 0px por 0px para desativar.',
 	'IMAGE_QUALITY'						=> 'Qualidade dos anexos de imagem enviados (apenas JPEG)',
 	'IMAGE_QUALITY_EXPLAIN'				=> 'Especifique um valor entre 50% (menor tamanho do ficheiro) e 90% (qualidade superior). Qualidade superior a 90% aumenta o tamanho do ficheiro e é desativada. A configuração será aplicada apenas se as dimensões máximas da imagem estiverem definidas para um valor diferente de 0px por 0px.',
 	'IMAGE_STRIP_METADATA'				=> 'Remover metadados de imagem (apenas JPEG)',
@@ -150,11 +150,11 @@ $lang = array_merge($lang, [
 	'SECURE_ALLOW_DENY'					=> 'Permitir/Negar lista',
 	'SECURE_ALLOW_DENY_EXPLAIN'		=> 'Permite ou nega a lista de endereços. Esta configuração aplica-se apenas aos Ficheiros para transferência.',
 	'SECURE_DOWNLOADS'					=> 'Ativar transferências seguras',
-	'SECURE_DOWNLOADS_EXPLAIN'			=> 'Com esta opção ativada, as transferências são autorizadas apenas para os IPs/hostnames por si definidos.',
+	'SECURE_DOWNLOADS_EXPLAIN'			=> 'Com esta opção ativada, as transferências são autorizadas apenas para os IPs/hostnames por ti definidos.',
 	'SECURE_DOWNLOAD_NOTICE'			=> 'As transferências seguras estão desativadas. A execução das opções abaixo depende da sua ativação.',
 	'SECURE_DOWNLOAD_UPDATE_SUCCESS'	=> 'A lista de IPs foi atualizada com sucesso.',
 	'SECURE_EMPTY_REFERRER'				=> 'Permitir origem em branco',
-	'SECURE_EMPTY_REFERRER_EXPLAIN'	=> 'A segurança das transferências é baseada na origem. Deseja permitir transferências que ocultam a origem?',
+	'SECURE_EMPTY_REFERRER_EXPLAIN'	=> 'A segurança das transferências é baseada na origem. Desejas permitir transferências que ocultam a origem?',
 	'SETTINGS_CAT_IMAGES'				=> 'Configuração de Categorias de Imagens',
 	'SPECIAL_CATEGORY'					=> 'Categoria Especial',
 	'SPECIAL_CATEGORY_EXPLAIN'			=> 'Categorias Especiais diferenciam-se na forma como são apresentadas dentro da Mensagem.',

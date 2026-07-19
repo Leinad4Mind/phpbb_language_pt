@@ -39,7 +39,7 @@ if (empty($lang) || !is_array($lang)) {
 $lang = array_merge($lang, [
 	'TERMS_OF_USE_CONTENT'	=> 'Ao entrar em “%1$s” (doravante “nós”, “nosso”, “%1$s”, “%2$s”), concordas sujeitar-te aos termos seguintes. Se não concordas em sujeitar-te aos termos seguintes, por favor, não entres e/ou utilizes “%1$s”. Nós podemos mudar estes termos a qualquer momento e vamos fazer o nosso melhor para te manter informado. No entanto, seria prudente rever regularmente estes termos. O uso continuado de “%1$s” significa que concordas em ser legalmente sujeito a estes termos quando são atualizados e/ou alterados.
 	<br><br>
-	Os nossos Fóruns são desenvolvidos pelo phpBB (doravante “eles”, “software phpBB”, “www.phpbb.com”, “Grupo phpBB”, “Equipa phpBB”) que é um sistema de comunidades virtuais sujeito à “<a href="http://opensource.org/licenses/gpl-2.0.php">GNU General Public License v2</a>” (doravante “GPL”) que pode ser transferido a partir de <a href="https://www.phpbb.com/">www.phpbb.com</a>. O software phpBB apenas facilita discussões através da Internet. O Grupo phpBB não é responsável pelo conteúdo que nós permitimos e/ou impedimos e/ou pela conduta permitida. Para mais informações sobre o phpBB, consulte: <a href="https://www.phpbb.com/">https://www.phpbb.com/</a>.
+	Os nossos Fóruns são desenvolvidos pelo phpBB (doravante “eles”, “software phpBB”, “www.phpbb.com”, “Grupo phpBB”, “Equipa phpBB”) que é um sistema de comunidades virtuais sujeito à “<a href="http://opensource.org/licenses/gpl-2.0.php">GNU General Public License v2</a>” (doravante “GPL”) que pode ser transferido a partir de <a href="https://www.phpbb.com/">www.phpbb.com</a>. O software phpBB apenas facilita discussões através da Internet. O Grupo phpBB não é responsável pelo conteúdo que nós permitimos e/ou impedimos e/ou pela conduta permitida. Para mais informações sobre o phpBB, consulta: <a href="https://www.phpbb.com/">https://www.phpbb.com/</a>.
 	<br><br>
 	Comprometes-te a não colocar qualquer mensagem abusiva, obscena, vulgar, insultuosa, de ódio, ameaçadora, sexualmente tendenciosa ou qualquer outro material que possa violar qualquer lei seja do teu país, o país onde “%1$s” está alojado ou lei Internacional. Fazer isso pode levar-te a ser banido de imediato e permanentemente, e, se for necessário, com notificação da nossa parte ao teu Provedor de Internet. O endereço IP de todas as mensagens são registados para ajudar a implementar estas condições. Concordas que “%1$s” tem o direito de remover, editar, mover ou encerrar qualquer tópico, a qualquer momento, caso este considere necessário. Como utilizador aceitas que as informações que forneceste acima sejam guardadas numa Base de Dados. Apesar desta informação não ser divulgada a terceiros sem o teu consentimento, o “%1$s” ou o phpBB não podem ser responsabilizados por qualquer atentado Hacker, que possam expor essa informação.
 	',
@@ -508,7 +508,7 @@ $lang = array_merge($lang, [
 	'TO_ADD_MASS'							=> 'Adicionar destinatários',
 	'TO_ADD_GROUPS'						=> 'Adicionar grupos',
 	'TOO_MANY_RECIPIENTS'				=> 'Tentaste enviar uma mensagem privada a demasiados destinatários.',
-	'TOO_MANY_REGISTERS'					=> 'Excedeu o número máximo de tentativas de Registo para esta sessão. Tente novamente mais tarde.',
+	'TOO_MANY_REGISTERS'					=> 'Excedeu o número máximo de tentativas de Registo para esta sessão. Tenta novamente mais tarde.',
 
 	'UCP'									=> 'Painel de Controlo do Utilizador',
 	'UCP_ACTIVATE'						=> 'Ativar Registo',
