@@ -81,7 +81,7 @@ $lang = array_merge($lang, [
 	'NO_LEADERS'							=> 'Não é Líder de nenhum Grupo.',
 	'NOT_LEADER_OF_GROUP'				=> 'A acção seleccionada não pode ser realizada porque não é Líder do Grupo seleccionado.',
 	'NOT_MEMBER_OF_GROUP'				=> 'A operação desejada não pode ser realizada porque não é Utilizador deste Grupo.',
-	'NOT_RESIGN_FROM_DEFAULT_GROUP'	=> 'Não está autorizado a sair do teu Grupo Padrão.',
+	'NOT_RESIGN_FROM_DEFAULT_GROUP'	=> 'Não estás autorizado a sair do teu Grupo Padrão.',
 
 	'PRIMARY_GROUP'						=> 'Grupo Primário',
 

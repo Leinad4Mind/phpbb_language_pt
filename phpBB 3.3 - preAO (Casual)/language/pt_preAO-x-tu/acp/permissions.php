@@ -46,7 +46,7 @@ $lang = array_merge($lang, [
 		<p>Gestão, controlo e aplicação das Permissões de acesso aos fóruns. As Permissões estão dividias em Permissões de Fóruns, Permissões dos Moderadores nos Fóruns, Permissões dos utilizadores nos Fóruns e Permissões dos Grupos nos Fóruns.</p>
 
 		<h2>3 - Categorias das Permissões</h2>
-		<p>Gestão, controlo e aplicação das Permissões às categorias. As Permissões estão divididas em 4 grupos, Categorias dos Administradores, Categorias dos Moderadores, Categorias dos Utilizadores e Categorias dos Fóruns. As categorias padrão cobrem a Administração do Fórum. Pode editar cada uma das categorias, para adicionar ou excluir tarefas se o desejar ou achar necessário.</p>
+<p>Gestão, controlo e aplicação das Permissões às categorias. As Permissões estão divididas em 4 grupos, Categorias dos Administradores, Categorias dos Moderadores, Categorias dos Utilizadores e Categorias dos Fóruns. As categorias padrão cobrem a Administração do Fórum. Podes editar cada uma das categorias, para adicionares ou excluíres tarefas se o desejares ou achares necessário.</p>
 
 		<h2>4 - Cenário das Permissões</h2>
 		<p>Dá uma visão global das Permissões atribuídas a Utilizadores, Moderadores (locais e globais), Administradores ou Fóruns.</p>
@@ -110,7 +110,7 @@ $lang = array_merge($lang, [
 	'APPLY_PERMISSIONS_EXPLAIN'	=> 'As Permissões e tarefas definidas para este item serão apenas aplicadas a este item e todos os itens marcados.',
 	'AUTH_UPDATED'						=> 'As Permissões foram actualizadas com sucesso.',
 
-	'COPY_PERMISSIONS_CONFIRM'					=> 'Tens a certeza que pretendes prosseguir com esta operação? Por favor, fica ciente que isto irá sobrescrever quaisquer permissões existentes nos alvos seleccionados.',
+	'COPY_PERMISSIONS_CONFIRM'					=> 'Tens a certeza que pretendes prosseguir com esta operação? Tem em atenção que isto irá substituir quaisquer permissões existentes nos alvos seleccionados.',
 	'COPY_PERMISSIONS_FORUM_FROM_EXPLAIN'	=> 'Selecciona o Fórum cujas Permissões pretende copiar.',
 	'COPY_PERMISSIONS_FORUM_TO_EXPLAIN'		=> 'Selecciona o Fórum cujas Permissões pretende definir.',
 	'COPY_PERMISSIONS_FROM'						=> 'Copiar Permissões de',
@@ -138,13 +138,13 @@ $lang = array_merge($lang, [
 
 	'NO_AUTH_SETTING_FOUND'			=> 'A Configuração de Permissões não foi definida.',
 	'NO_ROLE_ASSIGNED'				=> 'Sem Tarefas atribuídas',
-	'NO_ROLE_ASSIGNED_EXPLAIN'		=> 'A Configuração para esta Tarefa não alterou as Permissões na direita. Se desejas desactivar/excluir todas as Permissões deve utilizar o atalho "Tudo <strong>Não</strong>".',
+	'NO_ROLE_ASSIGNED_EXPLAIN'		=> 'A Configuração para esta Tarefa não alterou as Permissões na direita. Se desejares desactivar/excluir todas as Permissões deves utilizar o atalho "Tudo <strong>Não</strong>".',
 	'NO_ROLE_AVAILABLE'				=> 'Sem Tarefas Disponíveis',
 	'NO_ROLE_NAME_SPECIFIED'		=> 'Deves inserir o nome da Categoria',
 	'NO_ROLE_SELECTED'				=> 'A Tarefa não foi encontrada.',
-	'NO_USER_GROUP_SELECTED'		=> 'Não seleccionou nenhum Utilizador ou Grupo.',
+	'NO_USER_GROUP_SELECTED'		=> 'Não seleccionaste nenhum Utilizador ou Grupo.',
 
-	'ONLY_FORUM_DEFINED'				=> 'Apenas seleccionou Fóruns. Selecciona pelo menos um Utilizador ou um Grupo.',
+	'ONLY_FORUM_DEFINED'				=> 'Apenas seleccionaste Fóruns. Selecciona pelo menos um Utilizador ou um Grupo.',
 
 	'PERMISSION_APPLIED_TO_ALL'	=> 'As Tarefas e Permissões também serão aplicadas a todos os objectos seleccionados',
 	'PLUS_SUBFORUMS'					=> '+ Sub-fóruns',
@@ -208,7 +208,7 @@ $lang = array_merge($lang, [
 	'ROLE_DESCRIPTION_USER_STANDARD'			=> 'Pode utilizar a maior parte das funções do Utilizador. Não pode alterar o nome do utilizador ou o Intervalo de Segurança.',
 	'ROLE_DESCRIPTION_USER_NEW_MEMBER'		=> 'A função dos membros do Grupo Especial de Utilizadores Registados Recentemente. Contém permissões <strong>Nunca</strong> para bloquear recursos aos novos utilizadores.',
 
-	'ROLE_DESCRIPTION_EXPLAIN'					=> 'Pode fazer uma pequena descrição das Permissões desta Categoria. O Texto será mostrado na lista das Categorias.',
+	'ROLE_DESCRIPTION_EXPLAIN'					=> 'Podes fazer uma pequena descrição das Permissões desta Categoria. O Texto será mostrado na lista das Categorias.',
 	'ROLE_DESCRIPTION_LONG'						=> 'A Descrição da tarefa é muito grande. Por Favor, limita o teu texto a 4000 caracteres.',
 	'ROLE_DETAILS'									=> 'Detalhes da tarefa',
 	'ROLE_EDIT_SUCCESS'							=> 'A Tarefa foi editada com sucesso.',
@@ -232,16 +232,16 @@ $lang = array_merge($lang, [
 	'TRACE_GLOBAL_SETTING'						=> '%s (global)',
 	'TRACE_GROUP_NEVER_TOTAL_NEVER'			=> 'A Permissão do Grupo está assinalada como <strong>NUNCA</strong> como o resultado total, então o resultado antigo foi salvo.',
 	'TRACE_GROUP_NEVER_TOTAL_NEVER_LOCAL'	=> 'A Permissão do Grupo para este Fórum está assinalada como <strong>NUNCA</strong>, então o antigo resultado total foi salvo.',
-	'TRACE_GROUP_NEVER_TOTAL_NO'				=> 'A Permissão do Grupo está assinalada como <strong>NUNCA</strong> que torna-se o novo valor total porque ainda não estava assinalado (assinale <strong>NÃO</strong>).',
-	'TRACE_GROUP_NEVER_TOTAL_NO_LOCAL'		=> 'A Permissão do Grupo para este Fórum está assinalada como <strong>NUNCA</strong> que vem a ser o novo valor total porque isto ainda não havia sido determinado (assinale <strong>NÃO</strong>).',
+	'TRACE_GROUP_NEVER_TOTAL_NO'				=> 'A Permissão do Grupo está assinalada como <strong>NUNCA</strong> que torna-se o novo valor total porque ainda não estava assinalado (assinala <strong>NÃO</strong>).',
+	'TRACE_GROUP_NEVER_TOTAL_NO_LOCAL'		=> 'A Permissão do Grupo para este Fórum está assinalada como <strong>NUNCA</strong> que vem a ser o novo valor total porque isto ainda não havia sido determinado (assinala <strong>NÃO</strong>).',
 	'TRACE_GROUP_NEVER_TOTAL_YES'				=> 'A Permissão do Grupo está assinalada como <strong>NUNCA</strong> que substitui o total <strong>SIM</strong> para um <strong>NUNCA</strong> para este utilizador.',
 	'TRACE_GROUP_NEVER_TOTAL_YES_LOCAL'		=> 'A Permissão do Grupo para este Fórum está assinalada como <strong>NUNCA</strong> que substitui o total <strong>SIM</strong> para um <strong>NUNCA</strong> a este Utilizador.',
 	'TRACE_GROUP_NO'								=> 'A Permissão está assinalada como <strong>NÃO</strong> para este Grupo, o antigo valor total foi salvo.',
 	'TRACE_GROUP_NO_LOCAL'						=> 'A Permissão do Grupo está assinalada como <strong>NÃO</strong>, o antigo valor total foi salvo.',
 	'TRACE_GROUP_YES_TOTAL_NEVER'				=> 'A Permissão do Grupo está assinalada como <strong>SIM</strong> mas o total <strong>NUNCA</strong> não pode ser substituído.',
 	'TRACE_GROUP_YES_TOTAL_NEVER_LOCAL'		=> 'A Permissão do Grupo está assinalada como <strong>SIM</strong> mas o total <strong>NUNCA</strong> não pode ser substituído.',
-	'TRACE_GROUP_YES_TOTAL_NO'					=> 'A Permissão do Grupo está assinalada como <strong>SIM</strong> que torna-se o novo valor total porque ainda não estava assinalado (assinale <strong>NÃO</strong>).',
-	'TRACE_GROUP_YES_TOTAL_NO_LOCAL'			=> 'A Permissão do Grupo está assinalada como <strong>SIM</strong> que se torna um novo valor total pois ainda não estava definido (assinale <strong>NÃO</strong>).',
+	'TRACE_GROUP_YES_TOTAL_NO'					=> 'A Permissão do Grupo está assinalada como <strong>SIM</strong> que torna-se o novo valor total porque ainda não estava assinalado (assinala <strong>NÃO</strong>).',
+	'TRACE_GROUP_YES_TOTAL_NO_LOCAL'			=> 'A Permissão do Grupo está assinalada como <strong>SIM</strong> que se torna um novo valor total pois ainda não estava definido (assinala <strong>NÃO</strong>).',
 	'TRACE_GROUP_YES_TOTAL_YES'				=> 'A Permissão do Grupo está assinalada como <strong>SIM</strong> e a permissão total já está assinalada como <strong>SIM</strong>, então o resultado total foi salvo.',
 	'TRACE_GROUP_YES_TOTAL_YES_LOCAL'		=> 'A Permissão do Grupo para este Fórum está assinalada como <strong>SIM</strong> e a permissão total já está assinalada como <strong>SIM</strong>, então o antigo resultado total foi salvo.',
 	'TRACE_PERMISSION'							=> 'Permissão de Cópia - %s',

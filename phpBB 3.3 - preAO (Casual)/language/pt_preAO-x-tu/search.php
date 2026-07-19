@@ -57,18 +57,18 @@ $lang = array_merge($lang, [
 
 	'JUMP_TO_POST'					=> 'Ir para a mensagem',
 
-	'LOGIN_EXPLAIN_EGOSEARCH'		=> 'É necessário que esteja registado para visualizar os Tópicos.',
-	'LOGIN_EXPLAIN_UNREADSEARCH'	=> 'É necessário que esteja registado e autenticado para ver as tuas mensagens lidas.',
-	'LOGIN_EXPLAIN_NEWPOSTS'		=> 'É necessário que esteja registado e autenticado para ver novas mensagens desde tua última visita.',
+	'LOGIN_EXPLAIN_EGOSEARCH'		=> 'É necessário que estejas registado para visualizares os Tópicos.',
+	'LOGIN_EXPLAIN_UNREADSEARCH'	=> 'É necessário que estejas registado e autenticado para ver as tuas mensagens lidas.',
+	'LOGIN_EXPLAIN_NEWPOSTS'		=> 'É necessário que estejas registado e autenticado para ver novas mensagens desde a tua última visita.',
 
 	'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> [
-		1	=> 'Especificou muitas palavras para a pesquisa. Por favor, não insiras mais do que %1$d palavra.',
-		2	=> 'Especificou muitas palavras para a pesquisa. Por favor, não insiras mais do que %1$d palavras.',
+		1	=> 'Especificaste muitas palavras para a pesquisa. Por favor, não insiras mais do que %1$d palavra.',
+		2	=> 'Especificaste muitas palavras para a pesquisa. Por favor, não insiras mais do que %1$d palavras.',
 	],
 
-	'NO_KEYWORDS'					=> 'Tem que especificar pelo menos uma palavra para a pesquisa. Cada palavra tem que conter no mínimo %s caracteres e não pode conter mais do que %s caracteres.',
+	'NO_KEYWORDS'					=> 'Tens que especificar pelo menos uma palavra para a pesquisa. Cada palavra tem que conter no mínimo %s caracteres e não pode conter mais do que %s caracteres.',
 	'NO_RECENT_SEARCHES'			=> 'Sem procuras recentes',
-	'NO_SEARCH'						=> 'Não está autorizado a usar a pesquisa.',
+	'NO_SEARCH'						=> 'Não estás autorizado a usar a pesquisa.',
 	'NO_SEARCH_RESULTS'			=> 'Não foi encontrado nenhum resultado.',
 	'NO_SEARCH_LOAD'				=> 'Desculpe, mas não pode usar, de momento, a pesquisa. O servidor encontra-se sobrecarregado. Por favor, tenta novamente mais tarde.',
 	'NO_SEARCH_TIME'		=> [
@@ -118,7 +118,7 @@ $lang = array_merge($lang, [
 	'SPHINX_SEARCH_FAILED_LOG'	=> 'Desculpe, a pesquisa não pôde ser executada. Mais informações sobre esta falha foram registadas no log de erros.',
 
 	'TOO_FEW_AUTHOR_CHARS'	=> [
-		1	=> 'Tem que especificar pelo menos %d carácter dos nomes dos autores.',
-		2	=> 'Tem que especificar pelo menos %d caracteres dos nomes dos autores.',
+		1	=> 'Tens que especificar pelo menos %d carácter dos nomes dos autores.',
+		2	=> 'Tens que especificar pelo menos %d caracteres dos nomes dos autores.',
 	],
 ]);

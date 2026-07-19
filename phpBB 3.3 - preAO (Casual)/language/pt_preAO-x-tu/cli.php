@@ -75,7 +75,7 @@ $lang = array_merge($lang, [
 	'CLI_DESCRIPTION_REPARSER_AVAILABLE'		=> 'Reanalisadores disponíveis:',
 	'CLI_DESCRIPTION_REPARSER_REPARSE'			=> 'Texto reanalisado guardado com o serviço actual de text_formatter.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'	=> 'Tipo de texto a reanalisar. Deixa em branco para reanalisar tudo.',
-	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'		=> 'Sem quaisquer alterações, apenas vê o resultado que seria desta operação',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'		=> 'Sem quaisquer alterações, vê apenas o resultado desta operação',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MIN'	=> 'ID do registo menor a ser processado',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MAX'	=> 'ID do registo maior a ser processado',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'	=> 'Número aproximado de registos a serem processados de cada vez',
@@ -157,7 +157,7 @@ $lang = array_merge($lang, [
 	'CLI_THUMBNAIL_NOTHING_TO_DELETE'	=> 'Sem miniaturas para apagar.',
 
 	'CLI_USER_ADD_SUCCESS'		=> 'Utilizador %s adicionado com sucesso.',
-	'CLI_USER_DELETE_CONFIRM'	=> 'Tem a certeza que desejas remover ‘%s’? [s/N]',
+	'CLI_USER_DELETE_CONFIRM'	=> 'Tens a certeza que desejas remover ‘%s’? [s/N]',
 	'CLI_USER_RECLEAN_START'	=> 'A limpar nomes de utilizadores',
 	'CLI_USER_RECLEAN_DONE'		=> [
 		0	=> 'Limpeza completa. Nenhum nome de utilizador precisava de ser limpo.',

@@ -55,7 +55,7 @@ $lang = array_merge($lang, [
 
 	// Install page
 	'INSTALL_INTRO'			=> 'Bem-vindo à Instalação',
-	'INSTALL_INTRO_BODY'		=> 'Esta opção permite instalar o phpBB.</p><p>Durante o processo de instalação necessitarás de introduzir as configurações da tua Base de Dados. Se não as conheces, obtém-as junto do fornecedor do Servidor de Alojamento. Necessitarás igualmente de conhecer:</p>
+	'INSTALL_INTRO_BODY'		=> 'Esta opção permite instalar o phpBB.</p><p>Durante o processo de instalação necessitarás de introduzir as configurações da tua Base de Dados. Se não as conheces, obtém-nas junto do fornecedor do Servidor de Alojamento. Necessitarás igualmente de conhecer:</p>
 
 	<ul>
 		<li>O Tipo da Base de Dados - a Base de Dados que irá utilizar.</li>
@@ -362,7 +362,7 @@ $lang = array_merge($lang, [
 
 		<ol style="margin-left: 20px; font-size: 1.1em;">
 			<li><strong class="error">Backup de todos os ficheiros e da base de dados.</strong></li>
-			<li>Vá à <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">Página de Transferências do phpBB.com</a> e descarregue o ficheiro do "Full Package".</li>
+			<li>Vai à <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">Página de Transferências do phpBB.com</a> e descarrega o ficheiro do "Full Package".</li>
 			<li>Descompacta o ficheiro.</li>
 <li>Apaga o ficheiro <code class="inline">config.php</code> e as pastas <code class="inline">/images</code>, <code class="inline">/store</code> e <code class="inline">/files</code> <em>do pacote</em> (não do teu site).</li>
 <li>Vai para o ACP, Configurações do Fórum e certifica-te de que o prosilver é o estilo predefinido. Caso não seja, define o prosilver como tal.</li>
@@ -384,7 +384,7 @@ $lang = array_merge($lang, [
 <p>O pacote de atualização Avançada é recomendado para utilizadores experientes apenas se os ficheiros originais do phpBB tenham sido modificados na tua instalação. Também podes atualizar a tua instalação usando os métodos listados no documento INSTALL.html. As etapas para atualizares o phpBB3 via pacote de atualização avançada são as seguintes:</p>
 
 		<ol style="margin-left: 20px; font-size: 1.1em;">
-			<li>Vá à <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">Página de Transferências do phpBB.com</a> e descarregue o ficheiro do "Advanced Update Package".</li>
+			<li>Vai à <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">Página de Transferências do phpBB.com</a> e descarrega o ficheiro do "Advanced Update Package".</li>
 			<li>Descompacta o ficheiro.</li>
 <li>Envia as pastas "install" e "vendor" descompactadas para a pasta raiz do teu phpBB (onde se encontra o ficheiro config.php).<br /><br /></li>
 		</ol>
@@ -422,7 +422,7 @@ $lang = array_merge($lang, [
 
 // Requirements messages
 $lang = array_merge($lang, [
-	'UPDATE_FILES_NOT_FOUND'		=> 'Nenhuma pasta válida de atualização foi encontrada, por favor, certifique-se que enviou os ficheiros devidos.',
+	'UPDATE_FILES_NOT_FOUND'		=> 'Nenhuma pasta válida de atualização foi encontrada. Por favor, certifica-te de que enviaste os ficheiros devidos.',
 
 'NO_UPDATE_FILES_UP_TO_DATE'	=> 'A tua versão está atualizada. Não é necessário executar a ferramenta de atualização. Se desejas ter a certeza absoluta, verifica se enviaste corretamente os Ficheiros de atualização.',
 	'OLD_UPDATE_FILES'				=> 'Os Ficheiros de atualização estão desatualizados. Os Ficheiros de atualização encontrados são do phpBB %1$s para o phpBB %2$s, mas a Última Versão do phpBB é a %3$s.',
@@ -494,7 +494,7 @@ $lang = array_merge($lang, [
 $lang = array_merge($lang, [
 	// Common converter messages
 	'CONVERT_NOT_EXIST'			=> 'O Conversor selecionado não existe',
-'DEV_NO_TEST_FILE'			=> 'Não foi especificado um valor para a variável ficheiro_teste no conversor. Se és utilizador deste conversor, e não deverias estar a ver este erro, por favor, contacta o autor do conversor. Se és o autor do conversor, deves especificar o nome de um ficheiro que exista no Fórum de destino para que seja possível a verificação da pasta.',
+'DEV_NO_TEST_FILE'			=> 'Não foi especificado um valor para a variável ficheiro_teste no conversor. Se és utilizador deste conversor e não deverias estar a ver este erro, por favor, contacta o autor do conversor. Se és o autor do conversor, deves especificar o nome de um ficheiro que exista no Fórum de destino para que seja possível a verificação da pasta.',
 'COULD_NOT_FIND_PATH'		=> 'Não foi possível encontrar o local para o teu Fórum anterior. Por favor, verifica as tuas configurações e tenta novamente.<br />» O local especificado foi %s',
 	'CONFIG_PHPBB_EMPTY'			=> 'A variável de configuração do phpBB3 para “%s” está vazia.',
 

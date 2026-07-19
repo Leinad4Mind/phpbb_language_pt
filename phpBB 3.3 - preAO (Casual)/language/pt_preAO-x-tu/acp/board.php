@@ -48,7 +48,7 @@ $lang = array_merge($lang, [
 	'DEFAULT_STYLE'						=> 'Estilo Padrão',
 	'DEFAULT_STYLE_EXPLAIN'				=> 'Estilo padrão para novos Utilizadores.',
 	'DISABLE_BOARD'						=> 'Desactivar o Fórum',
-	'DISABLE_BOARD_EXPLAIN'				=> 'O Fórum fica inacessível aos utilizadores que não sejam Administradores ou Moderadores. Pode justificar o fecho temporário introduzindo uma mensagem até 255 caracteres',
+	'DISABLE_BOARD_EXPLAIN'				=> 'O Fórum fica inacessível aos utilizadores que não sejam Administradores ou Moderadores. Podes justificar o fecho temporário introduzindo uma mensagem até 255 caracteres',
 	'DISPLAY_LAST_SUBJECT'				=> 'Mostrar assunto da última mensagem adicionado na lista do fórum',
 	'DISPLAY_LAST_SUBJECT_EXPLAIN'	=> 'O assunto da última mensagem será mostrado na lista de fóruns com um link para a mensagem. Não são mostrados assuntos relativos a fóruns protegidos por senha ou inacessíveis ao utilizador.',
 	'DISPLAY_UNAPPROVED_POSTS'			=> 'Exibir mensagens não aprovadas para o autor',
@@ -105,7 +105,7 @@ $lang = array_merge($lang, [
 
 // Avatar Settings
 $lang = array_merge($lang, [
-	'ACP_AVATAR_SETTINGS_EXPLAIN'	=> 'Os Avatares são pequenas imagens que o Utilizador pode usar para ser identificado no Fórum. Dependendo do Estilo usado, o Avatar é mostrado normalmente acima do nome do Utilizador na visualização dos Tópicos. Aqui podes definir como os Utilizadores podem usar os seus Avatares. Para enviar Avatares, a Pasta abaixo já tem que estar criada e certificares-te que o Servidor pode gravar Ficheiros nela. O limite do tamanho da imagem do Avatar é válido apenas para Avatares enviados, não se aplicando a imagens utilizadas de outros sites.',
+	'ACP_AVATAR_SETTINGS_EXPLAIN'	=> 'Os Avatares são pequenas imagens que o Utilizador pode usar para ser identificado no Fórum. Dependendo do Estilo usado, o Avatar é mostrado normalmente acima do nome do Utilizador na visualização dos Tópicos. Aqui podes definir como os Utilizadores podem usar os seus Avatares. Para enviar Avatares, a Pasta abaixo já tem de estar criada e o Servidor tem de poder gravar Ficheiros nela. O limite do tamanho da imagem do Avatar é válido apenas para Avatares enviados, não se aplicando a imagens utilizadas de outros sites.',
 
 	'ALLOW_AVATARS'					=> 'Activar avatares',
 	'ALLOW_AVATARS_EXPLAIN'			=> 'Permitir o uso normal de avatares;<br>Caso desactives o uso normal de avatares ou um uso de avatares, os avatares desactivados deixarão de ser visíveis no Fórum, embora os utilizadores possam transferir os seus próprios avatares no Painel de Controlo do Utilizador.',
@@ -226,7 +226,7 @@ $lang = array_merge($lang, [
 
 	'ACC_ACTIVATION'							=> 'Activação de Conta',
 	'ACC_ACTIVATION_EXPLAIN'				=> 'Podes desactivar os Registos ou definir se o novo Utilizador tem acesso imediato ao Fórum ou se é necessária uma confirmação.',
-	'ACC_ACTIVATION_WARNING'				=> 'Por favor, nota que o método de activação seleccionado actualmente exige que o envio de emails esteja activado, caso contrário o registo continuará desactivado. Recomendamos que selecciones um método de activação diferente ou actives o envio de emails.',
+	'ACC_ACTIVATION_WARNING'				=> 'Por favor, tem em atenção que o método de activação seleccionado actualmente exige que o envio de emails esteja activado, de outra forma de registo será desactivado. Recomendamos que selecciones um método de activação diferente ou actives o envio de emails.',
 	'NEW_MEMBER_POST_LIMIT'					=> 'Limite das Mensagens dos Utilizadores Registados Recentemente',
 	'NEW_MEMBER_POST_LIMIT_EXPLAIN'		=> 'Os novos utilizadores entram para o Grupo <em>Utilizadores Registados Recentemente</em> até atingirem este número de mensagens. Podes usar este Grupo para impedir que usem as mensagens privadas ou para reveres as suas mensagens. <strong>0 para desactivar.</strong>',
 	'NEW_MEMBER_GROUP_DEFAULT'				=> 'Grupo de Utilizadores Registados Recentemente',
@@ -335,7 +335,7 @@ $lang = array_merge($lang, [
 	'CAPTCHA_SELECT'								=> 'Plugins instalados',
 	'CAPTCHA_SELECT_EXPLAIN'					=> 'O menu mostra os plugins instalados. A cinzento estão os indisponíveis, porque precisam de configuração prévia.',
 	'CAPTCHA_CONFIGURE'							=> 'Configurar plugins',
-	'CAPTCHA_CONFIGURE_EXPLAIN'				=> 'Altere as definições do plugin seleccionado.',
+	'CAPTCHA_CONFIGURE_EXPLAIN'				=> 'Altera as definições do plugin seleccionado.',
 	'CONFIGURE'										=> 'Configuração',
 	'CAPTCHA_NO_OPTIONS'							=> 'Este plugin não tem opções de configuração.',
 
@@ -349,7 +349,7 @@ $lang = array_merge($lang, [
 
 // Cookie Settings
 $lang = array_merge($lang, [
-	'ACP_COOKIE_SETTINGS_EXPLAIN'			=> 'Estas configurações definem os dados usados nos cookies enviados aos navegadores dos Utilizadores. Na maioria dos casos os valores predefinidos são suficientes. Se os alterar faça-o com cuidado. Qualquer incorrecção impede os Utilizadores de acederem ao Fórum. Se verificar que os utilizadores não conseguem entrar ou sair da sua conta, visita <strong><a href="https://www.phpbb.com/support/go/cookie-settings/">phpBB.com Knowledge Base - Corrigindo configurações de Cookies Incorretas</a></strong>.',
+	'ACP_COOKIE_SETTINGS_EXPLAIN'			=> 'Estas configurações definem os dados usados nos cookies enviados aos navegadores dos Utilizadores. Na maioria dos casos os valores predefinidos são suficientes. Se os alterares faz-o com cuidado. Qualquer incorreção impede os Utilizadores de acederem ao Fórum. Se verificares que os utilizadores não conseguem entrar ou sair da sua conta, visita <strong><a href="https://www.phpbb.com/support/go/cookie-settings/">phpBB.com Knowledge Base - Corrigindo configurações de Cookies Incorrectas</a></strong>.',
 
 	'COOKIE_DOMAIN'							=> 'Domínio do Cookie',
 	'COOKIE_DOMAIN_EXPLAIN'					=> 'Na maioria dos casos o domínio do cookie é opcional. Deixa em branco em caso de dúvida.<br><br> No caso de teres o fórum integrado com outro software ou de teres múltiplos domínios, então, para determinares o domínio do cookie, deverás fazer o seguinte. Caso tenhas algo como <i>exemplo.pt</i> e <i>forum.exemplo.pt</i>, ou talvez <i>forum.exemplo.pt</i> e <i>blog.exemplo.pt</i>. Remove os subdomínios até que reste o domínio principal, <i>exemplo.pt</i>. Agora adiciona um ponto final em frente ao domínio, ou seja, ficaria: .exemplo.pt (repara no ponto final no início).',
@@ -360,7 +360,7 @@ $lang = array_merge($lang, [
 	'COOKIE_PATH'								=> 'Caminho do Cookie',
 	'COOKIE_PATH_EXPLAIN'					=> 'Normalmente será o mesmo que o caminho do script ou apenas uma barra para tornar o cookie acessível em todo o domínio do site.',
 	'COOKIE_SECURE'							=> 'Cookie seguro',
-	'COOKIE_SECURE_EXPLAIN'					=> 'Se o Servidor funciona por SSL, muda para Activado caso contrário, deixa-o Desactivado. Estando Activado sem funcionar por SSL poderá resultar em erros no Servidor durante os redireccionamentos.',
+	'COOKIE_SECURE_EXPLAIN'					=> 'Se o Servidor funcionar por SSL, muda para Activado; caso contrário, deixa-o Desactivado. Estando Activado sem funcionar por SSL poderá resultar em erros no Servidor durante os redirecionamentos.',
 	'ONLINE_LENGTH'							=> 'Tempo limite para visualização online',
 	'ONLINE_LENGTH_EXPLAIN'					=> 'Tempo em minutos após o qual o Utilizador inactivo não aparecerá na lista de Utilizadores online. Quanto menor, menos processamento exige.',
 	'SESSION_LENGTH'							=> 'Tempo da Sessão [ segundos ]',
@@ -372,7 +372,7 @@ $lang = array_merge($lang, [
 	'ACP_CONTACT_SETTINGS_EXPLAIN'		=> 'Aqui podes activar e desactivar a página de contacto e adicionar o texto que será exibido.',
 
 	'CONTACT_US_ENABLE'						=> 'Activar página de contacto',
-	'CONTACT_US_ENABLE_EXPLAIN'			=> 'Esta página permite aos utilizadores enviarem emails para os administradores do fórum. Tenha em atenção que a opção do correio eletrónico do fórum tem de estar activa. Poderá encontrar essa opção em Geral &gt; Comunicação do Cliente &gt; Configuração de Email.',
+	'CONTACT_US_ENABLE_EXPLAIN'			=> 'Esta página permite aos utilizadores enviarem emails para os administradores do fórum. Tem em atenção que a opção do correio electrónico do fórum tem de estar activa. Poderás encontrar essa opção em Geral &gt; Comunicação do Cliente &gt; Configuração de Email.',
 
 	'CONTACT_US_INFO'							=> 'Informação para contacto',
 	'CONTACT_US_INFO_EXPLAIN'				=> 'A mensagem é mostrada na página de contacto',
@@ -382,7 +382,7 @@ $lang = array_merge($lang, [
 
 // Load Settings
 $lang = array_merge($lang, [
-	'ACP_LOAD_SETTINGS_EXPLAIN'			=> 'Aqui podes activar e desactivar certas funções do Fórum que podem reduzir o total de processamento pedido. Para a maioria dos Servidores não é necessário desactivar nenhuma função. No entanto, em certos sistemas ou em ambientes de hospedagem compartilhada pode ser benéfico se desactivar alguns recursos que não sejam realmente necessários. Pode também especificar limites para a carga do sistema e activar sessões, além das quais o Fórum sairá do ar.',
+	'ACP_LOAD_SETTINGS_EXPLAIN'			=> 'Aqui podes activar e desactivar certas funções do Fórum que podem reduzir o total de processamento pedido. Para a maioria dos Servidores não é necessário desactivar nenhuma função. No entanto, em certos sistemas ou em ambientes de hospedagem compartilhada, pode ser útil desactivares alguns recursos que não sejam realmente necessários. Podes também especificar limites para a carga do sistema e activar sessões, além das quais o Fórum sairá do ar.',
 
 	'ALLOW_CDN'									=> 'Permitir o uso de redes de entrega de conteúdo de terceiros',
 	'ALLOW_CDN_EXPLAIN'						=> 'Se esta configuração for activada, alguns ficheiros podem ser colocados em servidores externos em vez do teu próprio servidor. Isso reduz o consumo da largura de banda da rede usada pelo teu servidor, mas pode representar um problema de privacidade em alguns países. Numa instalação padrão do phpBB, isso inclui carregar “jQuery” e o tipo de letra “Open Sans” da rede de entrega de conteúdo da Google. Isso também se aplica ao tipo de letra “Font Awesome”, que o phpBB e algumas extensões usam para renderizar ícones.',
@@ -432,19 +432,19 @@ $lang = array_merge($lang, [
 
 	'AUTH_METHOD'								=> 'Selecciona um método de autenticação',
 
-	'AUTH_PROVIDER_OAUTH_ERROR_ELEMENT_MISSING'	=> 'Tem de indicar a key e o secret de cada OAuth service provider activado. É necessário apenas uma de cada OAuth service provider.',
-	'AUTH_PROVIDER_OAUTH_EXPLAIN'			=> 'Cada provedor de OAuth requer um segredo único e fundamental para se autenticar com o servidor externo. Este deve ser fornecido pelo serviço OAuth quando regista o teu site e deve ser inserido exactamente como fornecido.<br>Os serviços que não tenham uma chave e um segredo aqui inseridos não estarão disponíveis para serem usados pelos utilizadores do fórum. Tenha em atenção que o utilizador pode ainda registar-se e ligar-se usando a DB authentication plug-in.',
+	'AUTH_PROVIDER_OAUTH_ERROR_ELEMENT_MISSING'	=> 'Tens de indicar a key e o secret de cada OAuth service provider activado. É necessário apenas uma de cada OAuth service provider.',
+	'AUTH_PROVIDER_OAUTH_EXPLAIN'			=> 'Cada provedor de OAuth requer um segredo único e fundamental para se autenticar com o servidor externo. Este deve ser fornecido pelo serviço OAuth quando registas o teu site e deve ser inserido exatamente como fornecido.<br>Os serviços que não tenham uma chave e um segredo aqui inseridos não estarão disponíveis para serem usados pelos utilizadores do fórum. Tem em atenção que o utilizador pode ainda registar-se e ligar-se usando a DB authentication plug-in.',
 	'AUTH_PROVIDER_OAUTH_KEY'				=> 'Key',
 	'AUTH_PROVIDER_OAUTH_TITLE'			=> 'OAuth',
 	'AUTH_PROVIDER_OAUTH_SECRET'			=> 'Secret',
 
-	'APACHE_SETUP_BEFORE_USE'				=> 'Tem que configurar a autenticação no Apache antes de mudar para este método de autenticação. Certifique-se de que o nome do Utilizador usado para a autenticação Apache seja a mesma que o seu nome de Utilizador no phpBB. A autenticação Apache apenas pode ser utilizada com o mod_php (com uma versão CGI não funciona).',
+	'APACHE_SETUP_BEFORE_USE'				=> 'Tens que configurar a autenticação no Apache antes de mudar para este método de autenticação. Certifica-te de que o nome do Utilizador usado para a autenticação Apache seja a mesma que o teu nome de Utilizador no phpBB. A autenticação Apache apenas pode ser utilizada com o mod_php (com uma versão CGI não funciona).',
 
 	'LDAP'										=> 'LDAP',
 	'LDAP_DN'									=> 'LDAP base <var>dn</var>',
 	'LDAP_DN_EXPLAIN'							=> 'Este é o Nome Distinto (dn), determinando a informação do Utilizador, Exemplo: o=Minha Companhia, c=EU.',
 	'LDAP_EMAIL'								=> 'Atributo do email LDAP',
-	'LDAP_EMAIL_EXPLAIN'						=> 'Atribui automaticamente ao nome de seu atributo de entrada de email do Utilizador (se existir um) o email ao novo Utilizador. Se deixar em branco, resulta num endereço de email vazio para os Utilizadores que entrem pela primeira vez ao Fórum.',
+	'LDAP_EMAIL_EXPLAIN'						=> 'Indica o nome do atributo LDAP de email do Utilizador, se existir, para atribuir automaticamente o email aos novos Utilizadores. Se deixares o campo em branco, os Utilizadores que entrarem no Fórum pela primeira vez ficarão sem endereço de email.',
 	'LDAP_INCORRECT_USER_PASSWORD'		=> 'As ligações para o Servidor LDAP falharam com nome de Utilizador e senha indicados.',
 	'LDAP_NO_EMAIL'							=> 'O Atributo de email especificado não existe.',
 	'LDAP_NO_IDENTITY'						=> 'Não foi possível encontrar uma identificação de Acesso para %s.',
@@ -459,7 +459,7 @@ $lang = array_merge($lang, [
 	'LDAP_USER'									=> 'Nome de Utilizador LDAP',
 	'LDAP_USER_EXPLAIN'						=> 'Deixa em branco para acesso anónimo. Se preenchido o phpBB irá ligar ao Servidor LDAP com o nome de Utilizador indicado.',
 	'LDAP_USER_FILTER'						=> 'Filtro do Utilizador LDAP',
-	'LDAP_USER_FILTER_EXPLAIN'				=> 'Pode optar por aumentar o limite de objectos pesquisados com filtros adicionais. Por exemplo, <samp>objectClass=posixGroup</samp> deve resultar na utilização de <samp>(&amp;(uid=$username)(objectClass=posixGroup))</samp>.',
+	'LDAP_USER_FILTER_EXPLAIN'				=> 'Podes optar por aumentar o limite de objectos pesquisados com filtros adicionais. Por exemplo, <samp>objectClass=posixGroup</samp> deve resultar na utilização de <samp>(&amp;(uid=$username)(objectClass=posixGroup))</samp>.',
 ]);
 
 // Server Settings
@@ -498,7 +498,7 @@ $lang = array_merge($lang, [
 
 // Security Settings
 $lang = array_merge($lang, [
-	'ACP_SECURITY_SETTINGS_EXPLAIN'		=> 'Aqui configura-se as opções relacionadas às Sessões e Acesso.',
+	'ACP_SECURITY_SETTINGS_EXPLAIN'		=> 'Aqui podes configurar as opções relacionadas com as Sessões e o Acesso.',
 
 	'ALL'											=> 'Todos',
 	'ALLOW_AUTOLOGIN'							=> 'Permitir acesso automático ("Lembrar o meu acesso")',
@@ -510,7 +510,7 @@ $lang = array_merge($lang, [
 	'BROWSER_VALID'							=> 'Validação do navegador',
 	'BROWSER_VALID_EXPLAIN'					=> 'Activa a validação do navegador em cada sessão, aumentando a segurança.',
 	'CHECK_DNSBL'								=> 'Verifica se o IP está na lista de DNS bloqueados',
-	'CHECK_DNSBL_EXPLAIN'					=> 'Se activado, os endereços IP dos Utilizadores são verificados nos serviços DNSBL quando forem enviadas Mensagens ou criadas Contas de Utilizador: <a href="http://spamcop.net">spamcop.net</a> e <a href="http://www.spamhaus.org">www.spamhaus.org</a>. Essa operação pode tornar-se demorada, dependendo da configuração do Servidor. Nesse caso, ou se acusar falsamente endereços de IP, desactiva esta opção.',
+	'CHECK_DNSBL_EXPLAIN'					=> 'Se activado, os endereços IP dos Utilizadores são verificados nos serviços DNSBL quando forem enviadas Mensagens ou criadas Contas de Utilizador: <a href="http://spamcop.net">spamcop.net</a> e <a href="http://www.spamhaus.org">www.spamhaus.org</a>. Essa operação pode tornar-se demorada, dependendo da configuração do Servidor. Nesse caso, ou se assinalar endereços de IP incorrectamente, desactiva esta opção.',
 	'CLASS_B'									=> 'A.B',
 	'CLASS_C'									=> 'A.B.C',
 	'EMAIL_CHECK_MX'							=> 'Verificar se o Domínio é um registo MX válido',
@@ -518,7 +518,7 @@ $lang = array_merge($lang, [
 	'FORCE_PASS_CHANGE'						=> 'Força a mudança de Senha',
 	'FORCE_PASS_CHANGE_EXPLAIN'			=> 'Duração em dias da Senha de acesso ao Fórum. Após este prazo é pedido ao Utilizador que altere a sua Senha. 0 para desactivar.',
 	'FORM_TIME_MAX'							=> 'Tempo máximo para enviar formas',
-	'FORM_TIME_MAX_EXPLAIN'					=> 'Tempo máximo para enviar formas. Usa -1 para desactivar. Nota que uma forma pode vir a ser inválida se a sessão expirar.',
+	'FORM_TIME_MAX_EXPLAIN'					=> 'Tempo máximo para enviar formas. Usa -1 para desactivar. Tem em atenção que um formulário pode tornar-se inválido se a sessão expirar.',
 	'FORM_SID_GUESTS'							=> 'Formas de laço para Sessões de Visitantes',
 	'FORM_SID_GUESTS_EXPLAIN'				=> 'Se activado, o símbolo do formulário emitido aos visitantes será de sessão exclusiva, podendo causar problemas com alguns ISPs.',
 	'FORWARDED_FOR_VALID'					=> 'Cabeçalho <var>X_FORWARDED_FOR</var> validado',
@@ -553,7 +553,7 @@ $lang = array_merge($lang, [
 
 // Email Settings
 $lang = array_merge($lang, [
-	'ACP_EMAIL_SETTINGS_EXPLAIN'			=> 'Esta informação é usada quando o Fórum envia emails aos Utilizadores. Certifica-te que usas um email válido. Qualquer Mensagem incorrecta não será entregue neste endereço. Se o teu serviço de hospedagem não oferece um serviço nativo de email baseado no PHP, pode enviar mensagens através de SMTP. É necessário um Servidor adequado, não especifiques qualquer nome antigo aqui! Se o servidor requer autenticação, introduz os nomes e senhas necessários. Tem em atenção que apenas é usada a autenticação básica. Implementações de autenticações diferentes não estão disponíveis.',
+	'ACP_EMAIL_SETTINGS_EXPLAIN'			=> 'Esta informação é usada quando o Fórum envia emails aos Utilizadores. Certifica-te que usas um email válido. Qualquer Mensagem incorrecta não será entregue neste endereço. Se o teu serviço de hospedagem não oferece um serviço nativo de email baseado no PHP, podes enviar mensagens através de SMTP. É necessário um Servidor adequado, não especifiques qualquer nome antigo aqui! Se o servidor requer autenticação, introduz os nomes e senhas necessários. Tem em atenção que apenas é usada a autenticação básica. Implementações de autenticações diferentes não estão disponíveis.',
 
 	'ADMIN_EMAIL'								=> 'Endereço de Email do Remetente',
 	'ADMIN_EMAIL_EXPLAIN'					=> 'Será utilizado o endereço do remetente em todos os emails. Este é o email padrão do Fórum para contacto e envio de emails pelo sistema phpBB. Será sempre usado como o endereço de email do <samp>Remetente</samp>',
@@ -564,17 +564,17 @@ $lang = array_merge($lang, [
 	'CONTACT_EMAIL'							=> 'Endereço email de contacto',
 	'CONTACT_EMAIL_EXPLAIN'					=> 'Este endereço será usado sempre que é necessário um contacto específico, (spam, erro de saída, etc). Pode ser sempre utilizado como endereço para envio e respostas nos emails.',
 	'CONTACT_EMAIL_NAME'						=> 'Nome de Contacto',
-	'CONTACT_EMAIL_NAME_EXPLAIN'			=> 'Este é o nome do contacto que os destinatários dos e-mails vão ver. Se não quer ter um nome de contacto, deixa este campo em branco.',
+	'CONTACT_EMAIL_NAME_EXPLAIN'			=> 'Este é o nome do contacto que os destinatários dos e-mails vão ver. Se não quiseres ter um nome de contacto, deixa este campo em branco.',
 	'EMAIL_FORCE_SENDER'						=> 'Forçar Endereço de Email do Remetente',
-	'EMAIL_FORCE_SENDER_EXPLAIN'			=> 'Irá colocar no <samp>Endereço-de-Retorno</samp> o Email do Remetente, ao invés de usar o utilizador local e o nome do servidor. Esta configuração fica sem efeito caso use SMTP.<br><em><strong>Aviso:</strong> Requer que o utilizador que está a ser usado pelo servidor seja adicionado como confiável na configuração do sendmail.</em>',
+	'EMAIL_FORCE_SENDER_EXPLAIN'			=> 'Irá colocar no <samp>Endereço-de-Retorno</samp> o Email do Remetente, ao invés de usar o utilizador local e o nome do servidor. Esta configuração fica sem efeito caso uses SMTP.<br><em><strong>Aviso:</strong> Requer que o utilizador que está a ser usado pelo servidor seja adicionado como confiável na configuração do sendmail.</em>',
 	'EMAIL_PACKAGE_SIZE'						=> 'Tamanho do Pacote de email',
 	'EMAIL_PACKAGE_SIZE_EXPLAIN'			=> 'Número de emails enviados por pacote.',
 	'EMAIL_MAX_CHUNK_SIZE'					=> 'Número máximo de destinatários de email permitidos',
-	'EMAIL_MAX_CHUNK_SIZE_EXPLAIN'		=> 'Se necessário, configure-o para não exceder o número máximo de destinatários que o servidor de email permitirá numa mensagem de email.',
+	'EMAIL_MAX_CHUNK_SIZE_EXPLAIN'		=> 'Se necessário, configura este valor para não exceder o número máximo de destinatários permitido pelo servidor numa mensagem de email.',
 	'EMAIL_SIG'									=> 'Assinatura de Email',
 	'EMAIL_SIG_EXPLAIN'						=> 'Este texto será anexado a todos os emails que o Fórum enviar.',
 	'ENABLE_EMAIL'								=> 'Correio electrónico do Fórum',
-	'ENABLE_EMAIL_EXPLAIN'					=> 'Se estiver definido como desactivado não poderá ser enviado correio electrónico através do Fórum. <em>Nota que a activação e configuração de contas requer que esta função esteja activada. Desactivar esta função impedirá que a activação de novas contas seja feita pelo “Utilizador” ou “Administrador”.</em>',
+	'ENABLE_EMAIL_EXPLAIN'					=> 'Se estiver definido como desactivado não poderá ser enviado correio electrónico através do Fórum. <em>Tem em atenção que a activação e configuração de contas requer que esta função esteja activada. Desactivar esta função impedirá que a activação de novas contas seja feita pelo “Utilizador” ou “Administrador”.</em>',
 	'SEND_TEST_EMAIL'							=> 'Enviar email de teste',
 	'SEND_TEST_EMAIL_EXPLAIN'				=> 'Irá ser enviado um email, para efeitos de teste, para o endereço definido na tua conta.',
 	'SMTP_ALLOW_SELF_SIGNED'				=> 'Permitir certificados SSL autoassinados',
@@ -589,9 +589,9 @@ $lang = array_merge($lang, [
 	'SMTP_PLAIN'								=> 'PLAIN',
 	'SMTP_POP_BEFORE_SMTP'					=> 'POP-BEFORE-SMTP',
 	'SMTP_PORT'									=> 'Porta do Servidor de SMTP',
-	'SMTP_PORT_EXPLAIN'						=> 'Mude apenas se tiver a certeza de que teu Servidor de SMTP está numa porta diferente.',
+	'SMTP_PORT_EXPLAIN'						=> 'Muda apenas se tiveres a certeza de que o teu Servidor de SMTP está numa porta diferente.',
 	'SMTP_SERVER'								=> 'Endereço do servidor de SMTP',
-	'SMTP_SERVER_EXPLAIN'					=> 'Não forneça um protocolo (<samp>ssl://</samp> ou <samp>tls://</samp>) a não ser que o teu host de email solicite que o faça.',
+	'SMTP_SERVER_EXPLAIN'					=> 'Não forneças um protocolo (<samp>ssl://</samp> ou <samp>tls://</samp>) a não ser que o teu host de email solicite que o faças.',
 	'SMTP_SETTINGS'							=> 'Configurações do SMTP',
 	'SMTP_USERNAME'							=> 'Nome de Utilizador SMTP',
 	'SMTP_USERNAME_EXPLAIN'					=> 'Só introduz um Nome se o Servidor de SMTP o pedir.',
@@ -599,34 +599,34 @@ $lang = array_merge($lang, [
 	'SMTP_VERIFY_PEER_EXPLAIN'				=> 'Requer a verificação do certificado SSL usado pelo servidor SMTP.<br><em><strong>Aviso:</strong> Conectar pontos de rede com certificados SSL não verificados pode causar implicações de segurança.</em>',
 	'SMTP_VERIFY_PEER_NAME'					=> 'Verificar nome do ponto de rede SMTP',
 	'SMTP_VERIFY_PEER_NAME_EXPLAIN'		=> 'Requer verificação do nome do ponto de rede para os servidores SMTP que usem conexões SSL / TLS.<br><em><strong>Aviso:</strong> Conectar a pontos de rede não verificados pode causar implicações de segurança.</em>',
-	'TEST_EMAIL_SENT'							=> 'O email de teste foi enviado.<br>Caso não o receba, por favor, verifica a tua configuração.<br><br>Caso necessite de assistência, visita o <a href="https://www.phpbb.com/community/">Fórum Oficial de Suporte phpBB</a> (Em inglês) ou o <a href="https://leinad4mind.top/forum">Fórum Oficial Português de Suporte phpBB</a>.',
+	'TEST_EMAIL_SENT'							=> 'O email de teste foi enviado.<br>Caso não o recebas, por favor, verifica a tua configuração.<br><br>Caso necessites de assistência, visita o <a href="https://www.phpbb.com/community/">Fórum Oficial de Suporte phpBB</a> (Em inglês) ou o <a href="https://leinad4mind.top/forum">Fórum Oficial Português de Suporte phpBB</a>.',
 
 	'USE_SMTP'									=> 'Usar um Servidor de SMTP para enviar emails',
-	'USE_SMTP_EXPLAIN'						=> 'Marque “Sim” se quer ou tem que enviar os emails recorrendo a um Servidor SMTP em vez da função de email do Servidor.',
+	'USE_SMTP_EXPLAIN'						=> 'Marca “Sim” se quiseres ou tiveres de enviar os emails recorrendo a um Servidor SMTP em vez da função de email do Servidor.',
 ]);
 
 // Jabber settings
 $lang = array_merge($lang, [
-	'ACP_JABBER_SETTINGS_EXPLAIN'			=> 'Aqui podes activar e controlar o uso do Jabber para Mensagens Instantâneas e Notícias. Jabber é um Protocolo código-aberto e por isso mesmo disponível a qualquer pessoa interessada. Alguns Servidores de Jabber incluem Gateways e transportes que permitem que contactes Utilizadores em outras redes. Nem todos os servidores oferecem todos os transportes, e mudanças nos protocolos podem evitar operações de transportes. Nota que pode levar muitos segundos até à actualização dos detalhes da conta de Jabber, então não interrompas a execução dos procedimentos enquanto não estiver completo!',
+	'ACP_JABBER_SETTINGS_EXPLAIN'			=> 'Aqui podes activar e controlar o uso do Jabber para Mensagens Instantâneas e Notícias. Jabber é um Protocolo código-aberto e por isso mesmo disponível a qualquer pessoa interessada. Alguns Servidores de Jabber incluem Gateways e transportes que permitem que contactes Utilizadores em outras redes. Nem todos os servidores oferecem todos os transportes, e mudanças nos protocolos podem evitar operações de transportes. Tem em atenção que a actualização dos detalhes da conta de Jabber pode demorar vários segundos, por isso não interrompas o processo enquanto não estiver concluído!',
 
 	'JAB_ALLOW_SELF_SIGNED'					=> 'Permitir certificados SSL autoassinados',
 	'JAB_ALLOW_SELF_SIGNED_EXPLAIN'		=> 'Permite conexões ao servidor Jabber com certificado SSL autoassinado.<br><em><strong>Aviso:</strong> Permitir certificados SSL autoassinados pode causar implicações de segurança.</em>',
 	'JAB_ENABLE'								=> 'Activa Jabber',
 	'JAB_ENABLE_EXPLAIN'						=> 'Activar o uso de Mensagens e Avisos Jabber.',
-	'JAB_GTALK_NOTE'							=> 'Por favor, nota que o GTalk não irá funcionar porque a função <samp>dns_get_record</samp> não pôde ser encontrada. Esta função não se encontra disponível no PHP4, e não é implementada nas plataformas do Windows. Isto não é executável actualmente em sistemas BSD-based, incluindo o Mac OS.',
+	'JAB_GTALK_NOTE'							=> 'Por favor, tem em atenção que o GTalk não irá funcionar porque a função <samp>dns_get_record</samp> não pôde ser encontrada. Esta função não se encontra disponível no PHP4, e não é implementada nas plataformas do Windows. Isto não é executável actualmente em sistemas BSD-based, incluindo o Mac OS.',
 	'JAB_PACKAGE_SIZE'						=> 'Tamanho do pacote de Jabber',
 	'JAB_PACKAGE_SIZE_EXPLAIN'				=> 'Este é o número de Mensagens enviadas num pacote. Se for 0, a Mensagem será enviada imediatamente e não será colocada em fila de espera para posterior envio.',
 	'JAB_PASSWORD'								=> 'Senha Jabber',
 	'JAB_PASSWORD_EXPLAIN'					=> '<em><strong>Aviso:</strong> Esta senha será armazenada como texto simples na Base de Dados, visível a todos que podem aceder à Base de Dados ou a quem pode ver esta página de configuração.</em>',
 	'JAB_PORT'									=> 'Porta do Jabber',
-	'JAB_PORT_EXPLAIN'						=> 'Deixa em branco se souber que a porta usada é 5222. Caso contrário, coloca a porta correcta',
+	'JAB_PORT_EXPLAIN'						=> 'Deixa em branco se souberes que a porta usada é 5222. Caso contrário, coloca a porta correcta',
 	'JAB_SERVER'								=> 'Servidor Jabber',
-	'JAB_SERVER_EXPLAIN'						=> 'Veja a lista de Servidores em %sjabber.org%s.',
+	'JAB_SERVER_EXPLAIN'						=> 'Vê a lista de Servidores em %sjabber.org%s.',
 	'JAB_SETTINGS_CHANGED'					=> 'Configurações do Jabber alteradas com sucesso.',
 	'JAB_USE_SSL'								=> 'Usar SSL para se ligar',
 	'JAB_USE_SSL_EXPLAIN'					=> 'Se activado, será tentado efectuar-se uma ligação segura. A porta Jabber será alterada para 5223 se a porta 5222 tiver sido indicada.',
 	'JAB_USERNAME'								=> 'Nome de Utilizador Jabber ou JID',
-	'JAB_USERNAME_EXPLAIN'					=> 'Especifique um nome de utilizador registado ou um JID válido. O nome de utilizador não será verificado. Se especificares o nome de utilizador, o JID usado será o nome de utilizador e o servidor aquele especificado acima. Caso contrário, especifica um JID válido, por exemplo utilizador@jabber.org.',
+	'JAB_USERNAME_EXPLAIN'					=> 'Especifica um nome de utilizador registado ou um JID válido. O nome de utilizador não será verificado. Se especificares o nome de utilizador, o JID usado será o nome de utilizador e o servidor aquele especificado acima. Caso contrário, especifica um JID válido, por exemplo utilizador@jabber.org.',
 	'JAB_VERIFY_PEER'							=> 'Verificar certificado SSL',
 	'JAB_VERIFY_PEER_EXPLAIN'				=> 'Requer a verificação do certificado SSL usado pelo servidor Jabber.<br><em><strong>Aviso:</strong> Conectar pontos de rede com certificados SSL não verificados pode causar implicações de segurança.</em>',
 	'JAB_VERIFY_PEER_NAME'					=> 'Verificar nome do ponto de rede Jabber',

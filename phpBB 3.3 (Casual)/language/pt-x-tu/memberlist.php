@@ -105,8 +105,8 @@ $lang = array_merge($lang, [
 
 	'NO_CONTACT_FORM'			=> 'O formulário de contacto do administrador foi desativado.',
 	'NO_CONTACT_PAGE'			=> 'A página de contacto do administrador foi desativada.',
-	'NO_EMAIL'					=> 'Não está autorizado a enviar email a este Utilizador.',
-	'NO_VIEW_USERS'			=> 'Não está autorizado a ver a lista de Utilizadores ou Perfis.',
+	'NO_EMAIL'					=> 'Não estás autorizado a enviar email a este Utilizador.',
+	'NO_VIEW_USERS'			=> 'Não estás autorizado a ver a lista de Utilizadores ou Perfis.',
 
 	'ORDER'						=> 'Ordenar',
 	'OTHER'						=> 'Outro',

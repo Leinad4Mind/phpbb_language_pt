@@ -53,7 +53,7 @@ $lang = array_merge($lang, [
 
 		<br />
 
-		<p>Para mais informações sobre a configuração e a Gestão de Permissões no phpBB3, veja a secção <a href="https://www.phpbb.com/support/docs/en/3.3/ug/quickstart/permissions/">Setting permissions of our Quick Start Guide</a>.</p>
+		<p>Para mais informações sobre a configuração e a Gestão de Permissões no phpBB3, vê a secção <a href="https://www.phpbb.com/support/docs/en/3.3/ug/quickstart/permissions/">Setting permissions of our Quick Start Guide</a>.</p>
 	',
 
 	'ACL_NEVER'					=> 'Nunca',
@@ -83,13 +83,13 @@ $lang = array_merge($lang, [
 	'ACP_FORUM_PERMISSIONS_COPY_EXPLAIN'		=> 'Aqui podes copiar as Permissões dum Fórum atribuindo-as a um ou mais Fóruns.',
 	'ACP_GLOBAL_MODERATORS_EXPLAIN'				=> 'Aqui podes configurar Permissões de Moderadores Globais para Utilizadores e Grupos. Estes são Moderadores normais, exceto se tiverem acesso a todos Fóruns.',
 	'ACP_GROUPS_FORUM_PERMISSIONS_EXPLAIN'		=> 'Aqui podes configurar Permissões de Fóruns para Grupos.',
-	'ACP_GROUPS_PERMISSIONS_EXPLAIN'				=> 'Aqui podes configurar as Permissões Globais dos Grupos - Permissões dos Utilizadores, Permissões Globais e Permissões Administrativas. As Permissões dos Utilizadores incluem o uso de Avatares, envio de Mensagens Privadas, etc. Permissões Globais como a Aprovação de Mensagens, Gestão de Tópicos, Gestão de Expulsões, etc. Por último, as Permissões Administrativas como a alteração de Permissões, definição de BBCodes, Gestão de Fóruns, etc. As Permissões dos Utilizadores individuais apenas devem ser alteradas em ocasiões muito especificas. Adiciona os Utilizadores a um Grupo e altere as permissões do Grupo.',
+	'ACP_GROUPS_PERMISSIONS_EXPLAIN'				=> 'Aqui podes configurar as Permissões Globais dos Grupos - Permissões dos Utilizadores, Permissões Globais e Permissões Administrativas. As Permissões dos Utilizadores incluem o uso de Avatares, envio de Mensagens Privadas, etc. Permissões Globais como a Aprovação de Mensagens, Gestão de Tópicos, Gestão de Expulsões, etc. Por último, as Permissões Administrativas como a alteração de Permissões, definição de BBCodes, Gestão de Fóruns, etc. As Permissões dos Utilizadores individuais apenas devem ser alteradas em ocasiões muito especificas. Adiciona os Utilizadores a um Grupo e altera as permissões do Grupo.',
 	'ACP_ADMIN_ROLES_EXPLAIN'						=> 'Aqui podes criar e configurar as Categorias dos Administradores. Cada Categoria tem as Permissões definidas pelo conjunto de funções selecionadas. Alterando uma função, altera as Permissões dos itens associados.',
 	'ACP_FORUM_ROLES_EXPLAIN'						=> 'Aqui podes criar e configurar as Categorias de acesso aos Fóruns. Cada Categoria tem as Permissões definidas pelo conjunto de funções selecionadas. Alterando uma função, altera as Permissões dos itens associados.',
 	'ACP_MOD_ROLES_EXPLAIN'							=> 'Aqui podes criar e configurar as Categorias dos Moderadores. Cada Categoria tem as Permissões definidas pelo conjunto de funções selecionadas. Alterando uma função, altera as Permissões dos itens associados.',
 	'ACP_USER_ROLES_EXPLAIN'						=> 'Aqui podes criar e configurar as Categorias dos Utilizadores. Cada Categoria tem as Permissões definidas pelo conjunto de funções selecionadas. Alterando uma função, altera as Permissões dos itens associados.',
 	'ACP_USERS_FORUM_PERMISSIONS_EXPLAIN'		=> 'Aqui podes configurar as Permissões de Fóruns para Utilizadores.',
-	'ACP_USERS_PERMISSIONS_EXPLAIN'				=> 'Aqui podes configurar as Permissões Globais para Utilizadores. As Permissões de Utilizadores incluem autorização do uso de Avatares, envio de Mensagens Privadas, etc; Permissões Globais como a aprovação de mensagens, gestão de Tópicos, gestão de Expulsões etc; Por último, as Permissões Administrativas como a alteração de permissões, definição de BBCodes, gestão de Fóruns e etc. Para alterar estas configurações para um grande número de Utilizadores, o sistema de permissões de grupos é o método mais aconselhável. As Permissões dos Utilizadores individuais apenas devem ser alteradas em ocasiões muito especificas. Adiciona os Utilizadores a um Grupo e altere as permissões do Grupo.',
+	'ACP_USERS_PERMISSIONS_EXPLAIN'				=> 'Aqui podes configurar as Permissões Globais para Utilizadores. As Permissões de Utilizadores incluem autorização do uso de Avatares, envio de Mensagens Privadas, etc; Permissões Globais como a aprovação de mensagens, gestão de Tópicos, gestão de Expulsões etc; Por último, as Permissões Administrativas como a alteração de permissões, definição de BBCodes, gestão de Fóruns e etc. Para alterar estas configurações para um grande número de Utilizadores, o sistema de permissões de grupos é o método mais aconselhável. As Permissões dos Utilizadores individuais apenas devem ser alteradas em ocasiões muito especificas. Adiciona os Utilizadores a um Grupo e altera as permissões do Grupo.',
 	'ACP_VIEW_ADMIN_PERMISSIONS_EXPLAIN'		=> 'Permissões Administrativas dos Utilizadores e/ou Grupos selecionados.',
 	'ACP_VIEW_GLOBAL_MOD_PERMISSIONS_EXPLAIN'	=> 'Permissões de Moderador Global dos Utilizadores e/ou Grupos selecionados.',
 	'ACP_VIEW_FORUM_PERMISSIONS_EXPLAIN'		=> 'Permissões dos Utilizadores e/ou Grupos nos Fóruns selecionadas.',
@@ -110,7 +110,7 @@ $lang = array_merge($lang, [
 	'APPLY_PERMISSIONS_EXPLAIN'	=> 'As Permissões e tarefas definidas para este item serão apenas aplicadas a este item e todos os itens marcados.',
 	'AUTH_UPDATED'						=> 'As Permissões foram atualizadas com sucesso.',
 
-'COPY_PERMISSIONS_CONFIRM'					=> 'Tens a certeza que pretendes prosseguir com esta operação? Por favor, fica ciente que isto irá sobrescrever quaisquer permissões existentes nos alvos selecionados.',
+'COPY_PERMISSIONS_CONFIRM'					=> 'Tens a certeza que pretendes prosseguir com esta operação? Tem em atenção que isto irá substituir quaisquer permissões existentes nos alvos selecionados.',
 'COPY_PERMISSIONS_FORUM_FROM_EXPLAIN'	=> 'Seleciona o Fórum cujas Permissões pretendes copiar.',
 'COPY_PERMISSIONS_FORUM_TO_EXPLAIN'		=> 'Seleciona o Fórum cujas Permissões pretendes definir.',
 	'COPY_PERMISSIONS_FROM'						=> 'Copiar Permissões de',
@@ -232,16 +232,16 @@ $lang = array_merge($lang, [
 	'TRACE_GLOBAL_SETTING'						=> '%s (global)',
 	'TRACE_GROUP_NEVER_TOTAL_NEVER'			=> 'A Permissão do Grupo está assinalada como <strong>NUNCA</strong> como o resultado total, então o resultado antigo foi salvo.',
 	'TRACE_GROUP_NEVER_TOTAL_NEVER_LOCAL'	=> 'A Permissão do Grupo para este Fórum está assinalada como <strong>NUNCA</strong>, então o antigo resultado total foi salvo.',
-	'TRACE_GROUP_NEVER_TOTAL_NO'				=> 'A Permissão do Grupo está assinalada como <strong>NUNCA</strong> que torna-se o novo valor total porque ainda não estava assinalado (assinale <strong>NÃO</strong>).',
-	'TRACE_GROUP_NEVER_TOTAL_NO_LOCAL'		=> 'A Permissão do Grupo para este Fórum está assinalada como <strong>NUNCA</strong> que vem a ser o novo valor total porque isto ainda não havia sido determinado (assinale <strong>NÃO</strong>).',
+	'TRACE_GROUP_NEVER_TOTAL_NO'				=> 'A Permissão do Grupo está assinalada como <strong>NUNCA</strong> que torna-se o novo valor total porque ainda não estava assinalado (assinala <strong>NÃO</strong>).',
+	'TRACE_GROUP_NEVER_TOTAL_NO_LOCAL'		=> 'A Permissão do Grupo para este Fórum está assinalada como <strong>NUNCA</strong> que vem a ser o novo valor total porque isto ainda não havia sido determinado (assinala <strong>NÃO</strong>).',
 	'TRACE_GROUP_NEVER_TOTAL_YES'				=> 'A Permissão do Grupo está assinalada como <strong>NUNCA</strong> que substitui o total <strong>SIM</strong> para um <strong>NUNCA</strong> para este utilizador.',
 	'TRACE_GROUP_NEVER_TOTAL_YES_LOCAL'		=> 'A Permissão do Grupo para este Fórum está assinalada como <strong>NUNCA</strong> que substitui o total <strong>SIM</strong> para um <strong>NUNCA</strong> a este Utilizador.',
 	'TRACE_GROUP_NO'								=> 'A Permissão está assinalada como <strong>NÃO</strong> para este Grupo, o antigo valor total foi salvo.',
 	'TRACE_GROUP_NO_LOCAL'						=> 'A Permissão do Grupo está assinalada como <strong>NÃO</strong>, o antigo valor total foi salvo.',
 	'TRACE_GROUP_YES_TOTAL_NEVER'				=> 'A Permissão do Grupo está assinalada como <strong>SIM</strong> mas o total <strong>NUNCA</strong> não pode ser substituído.',
 	'TRACE_GROUP_YES_TOTAL_NEVER_LOCAL'		=> 'A Permissão do Grupo está assinalada como <strong>SIM</strong> mas o total <strong>NUNCA</strong> não pode ser substituído.',
-	'TRACE_GROUP_YES_TOTAL_NO'					=> 'A Permissão do Grupo está assinalada como <strong>SIM</strong> que torna-se o novo valor total porque ainda não estava assinalado (assinale <strong>NÃO</strong>).',
-	'TRACE_GROUP_YES_TOTAL_NO_LOCAL'			=> 'A Permissão do Grupo está assinalada como <strong>SIM</strong> que se torna um novo valor total pois ainda não estava definido (assinale <strong>NÃO</strong>).',
+	'TRACE_GROUP_YES_TOTAL_NO'					=> 'A Permissão do Grupo está assinalada como <strong>SIM</strong> que torna-se o novo valor total porque ainda não estava assinalado (assinala <strong>NÃO</strong>).',
+	'TRACE_GROUP_YES_TOTAL_NO_LOCAL'			=> 'A Permissão do Grupo está assinalada como <strong>SIM</strong> que se torna um novo valor total pois ainda não estava definido (assinala <strong>NÃO</strong>).',
 	'TRACE_GROUP_YES_TOTAL_YES'				=> 'A Permissão do Grupo está assinalada como <strong>SIM</strong> e a permissão total já está assinalada como <strong>SIM</strong>, então o resultado total foi salvo.',
 	'TRACE_GROUP_YES_TOTAL_YES_LOCAL'		=> 'A Permissão do Grupo para este Fórum está assinalada como <strong>SIM</strong> e a permissão total já está assinalada como <strong>SIM</strong>, então o antigo resultado total foi salvo.',
 	'TRACE_PERMISSION'							=> 'Permissão de Cópia - %s',

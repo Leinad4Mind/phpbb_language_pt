@@ -6,7 +6,7 @@ Estás a receber esta notificação porque estás a observar "{FORUM_NAME}" em "
 
 {U_FORUM}
 
-Para deixar de observar este fórum, clica no endereço "Parar de Observar Fórum" que pode encontrar no fórum anterior, ou clica no seguinte endereço:
+Para deixar de observar este fórum, clica no endereço "Parar de Observar Fórum" que podes encontrar no fórum anterior, ou clica no seguinte endereço:
 
 {U_STOP_WATCHING_FORUM}
 

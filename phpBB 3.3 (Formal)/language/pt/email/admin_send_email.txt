@@ -1,11 +1,11 @@
 
-Este email foi enviado pelo Administrador de "{SITENAME}". Se há material abusivo, spam, ou comentários que consideras ofensivos contacta o seguinte endereço:
+Este email foi enviado pelo Administrador de "{SITENAME}". Se houver material abusivo, spam ou comentários que considere ofensivos, contacte o seguinte endereço:
 
 {CONTACT_EMAIL}
 
 Inclua este email completo (particularmente os cabeçalhos). 
 
-A mensagem enviada que te foi enviada é a seguinte:
+A mensagem que lhe foi enviada é a seguinte:
 
 {MESSAGE}
 

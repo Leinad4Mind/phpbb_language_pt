@@ -36,16 +36,16 @@ if (empty($lang) || !is_array($lang)) {
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, [
-	'ACP_SEARCH_INDEX_EXPLAIN'					=> 'Aqui podes gerir os índices de pesquisa do Fórum. Desde que normalmente utiliza apenas um modo de pesquisa deve apagar todos os outros. Depois de alterar algumas das configurações da pesquisa (e.g. o número mínimo/máximo de caracteres) é preciso recriar o índice para que as novas configurações se tornem efectivas.',
-	'ACP_SEARCH_SETTINGS_EXPLAIN'				=> 'Aqui podes definir o modo de pesquisa que será utilizado para a execução deste Sistema. Pode configurar várias opções que podem influenciar em quantos processos estas acções serão solicitadas. Algumas destas configurações são as mesmas para todos os modos de pesquisa.',
+	'ACP_SEARCH_INDEX_EXPLAIN'					=> 'Aqui podes gerir os índices de pesquisa do Fórum. Como normalmente utilizas apenas um modo de pesquisa, deves apagar todos os outros. Depois de alterares algumas das configurações da pesquisa (por exemplo, o número mínimo ou máximo de caracteres), é preciso recriar o índice para que as novas configurações se tornem efetivas.',
+	'ACP_SEARCH_SETTINGS_EXPLAIN'				=> 'Aqui podes definir o modo de pesquisa que será utilizado para a execução deste Sistema. Podes configurar várias opções que podem influenciar em quantos processos estas ações serão solicitadas. Algumas destas configurações são as mesmas para todos os modos de pesquisa.',
 
 	'COMMON_WORD_THRESHOLD'						=> 'Limite de palavras comuns',
 	'COMMON_WORD_THRESHOLD_EXPLAIN'			=> 'Palavras que estão incluídas em grande percentagem em todas as Mensagens, são consideradas comuns. As palavras comuns são ignoradas nas pesquisas. Escreve zero para desactivar esta opção. Apenas terá efeito se possuir mais de 100 Mensagens.',
-	'CONFIRM_SEARCH_BACKEND'					=> 'Desejas alterar o modo de pesquisa? Depois de modificar o teu modo de pesquisa, deverá criar um novo índice para o novo modo seleccionado. Se não planeia voltar ao teu modo de pesquisa antigo, poderá excluí-lo.',
+	'CONFIRM_SEARCH_BACKEND'					=> 'Desejas alterar o modo de pesquisa? Depois de modificares o teu modo de pesquisa, deverás criar um novo índice para o novo modo seleccionado. Se não planeias voltar ao teu modo de pesquisa antigo, poderás excluí-lo.',
 	'CONTINUE_DELETING_INDEX'					=> 'Continuar processo de exclusão de índice',
-	'CONTINUE_DELETING_INDEX_EXPLAIN'		=> 'Um processo de exclusão de índice foi iniciado. Para aceder à página de índice da pesquisa novamente deve completar o processo ou cancelá-lo.',
+	'CONTINUE_DELETING_INDEX_EXPLAIN'		=> 'Um processo de exclusão de índice foi iniciado. Para voltares a aceder à página de índice da pesquisa, deves completar o processo ou cancelá-lo.',
 	'CONTINUE_INDEXING'							=> 'Continuar com o processo de indexar anterior',
-	'CONTINUE_INDEXING_EXPLAIN'				=> 'Um processo de criação de índice foi iniciado. Para aceder à página de índice da pesquisa novamente deve completar o processo ou cancelá-lo.',
+	'CONTINUE_INDEXING_EXPLAIN'				=> 'Um processo de criação de índice foi iniciado. Para voltares a aceder à página de índice da pesquisa, deves completar o processo ou cancelá-lo.',
 	'CREATE_INDEX'									=> 'Criar Índice',
 
 	'DEFAULT_SEARCH_RETURN_CHARS'				=> 'Número de caracteres retornados por padrão',
@@ -71,21 +71,21 @@ $lang = array_merge($lang, [
 	'FULLTEXT_POSTGRES_MIN_WORD_LEN_EXPLAIN'	=> 'Palavras com pelo menos esta quantidade de caracteres serão incluídas na consulta à Base de Dados.',
 	'FULLTEXT_POSTGRES_MAX_WORD_LEN_EXPLAIN'	=> 'Palavras que não ultrapassem este número de caracteres serão incluídas na consulta à Base de Dados.',
 
-	'FULLTEXT_SPHINX_CONFIGURE'					=> 'Configure as definições seguintes para gerar o ficheiro sphinx',
+	'FULLTEXT_SPHINX_CONFIGURE'					=> 'Configura as definições seguintes para gerar o ficheiro sphinx',
 	'FULLTEXT_SPHINX_DATA_PATH'					=> 'Caminho para a pasta de dados',
-	'FULLTEXT_SPHINX_DATA_PATH_EXPLAIN'			=> 'Será usado para armazenar os índices e ficheiros de log. Deve criar essa pasta fora das pastas acessíveis na web. (tem de ter uma barra)',
+	'FULLTEXT_SPHINX_DATA_PATH_EXPLAIN'			=> 'Será usado para armazenar os índices e ficheiros de log. Deves criar essa pasta fora das pastas acessíveis na web. (tem de ter uma barra)',
 	'FULLTEXT_SPHINX_DELTA_POSTS'					=> 'Número de mensagens actualizadas frequentemente no índice "delta" (ou diário)',
 	'FULLTEXT_SPHINX_HOST'							=> 'Servidor de pesquisa Sphinx daemon',
 	'FULLTEXT_SPHINX_HOST_EXPLAIN'				=> 'Servidor onde funciona a pesquisa sphinx daemon. Deixa em branco para usar por defeito localhost',
 	'FULLTEXT_SPHINX_INDEXER_MEM_LIMIT'			=> 'Limite de memória do indexador',
-	'FULLTEXT_SPHINX_INDEXER_MEM_LIMIT_EXPLAIN'	=> 'Deve ser sempre inferior à memória RAM disponível. Caso existam problemas regulares de desempenho, estes podem ser causados pelo indexador que poderá estar a consumir muitos recursos. Reduza a quantidade de memória disponível para o indexador.',
+	'FULLTEXT_SPHINX_INDEXER_MEM_LIMIT_EXPLAIN'	=> 'Deve ser sempre inferior à memória RAM disponível. Caso existam problemas regulares de desempenho, estes podem ser causados pelo indexador que poderá estar a consumir muitos recursos. Reduz a quantidade de memória disponível para o indexador.',
 	'FULLTEXT_SPHINX_MAIN_POSTS'					=> 'Número de mensagens do índice principal',
 	'FULLTEXT_SPHINX_PORT'							=> 'Porta da pesquisa Sphinx daemon',
 	'FULLTEXT_SPHINX_PORT_EXPLAIN'				=> 'Porta usada pela servidor onde funciona a pesquisa sphinx daemon. Deixa em branco para usar por defeito a porta 9312 da API Sphinx',
 	'FULLTEXT_SPHINX_WRONG_DATABASE'				=> 'A pesquisa sphinx para phpBB apenas suporta MySQL e PostgreSQL.',
 	'FULLTEXT_SPHINX_CONFIG_FILE'					=> 'Ficheiro de configuração Sphinx',
-	'FULLTEXT_SPHINX_CONFIG_FILE_EXPLAIN'		=> 'O conteúdo gerado pelo ficheiro de configuração sphinx. Estes dados têm que ser colados no sphinx.conf usado pela pesquisa sphinx daemon. Substitua os espaços em [dbuser] e [dbpassword], pelas credenciais de acesso à tua Base de Dados.',
-	'FULLTEXT_SPHINX_NO_CONFIG_DATA'				=> 'O caminho da pasta de dados sphinx não está definido. Por favor define-o para gerar o ficheiro de configuração.',
+	'FULLTEXT_SPHINX_CONFIG_FILE_EXPLAIN'		=> 'O conteúdo gerado pelo ficheiro de configuração sphinx. Estes dados têm que ser colados no sphinx.conf usado pela pesquisa sphinx daemon. Substitui os espaços em [dbuser] e [dbpassword], pelas credenciais de acesso à tua Base de Dados.',
+	'FULLTEXT_SPHINX_NO_CONFIG_DATA'				=> 'O caminho da pasta de dados sphinx não está definido. Por favor, define-o para gerar o ficheiro de configuração.',
 
 	'GENERAL_SEARCH_SETTINGS'				=> 'Configurações Gerais da Pesquisa',
 	'GO_TO_SEARCH_INDEX'						=> 'Ir à página inicial da Pesquisa',

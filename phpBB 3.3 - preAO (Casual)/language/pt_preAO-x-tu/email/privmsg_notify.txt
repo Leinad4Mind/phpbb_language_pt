@@ -1,4 +1,4 @@
-Subject: Recebeu uma nova Mensagem Privada
+Subject: Recebeste uma nova Mensagem Privada
 
 Olá, {USERNAME},
 
@@ -10,6 +10,6 @@ Podes ver a tua nova mensagem clicando no seguinte endereço:
 
 {U_VIEW_MESSAGE}
 
-Pediste para ser notificado de novas mensagens privadas. Podes optar por não ser notificado de novas mensagens alterando a configuração no teu perfil.
+Pediste para seres notificado de novas mensagens privadas. Podes optar por não seres notificado de novas mensagens alterando a configuração no teu perfil.
 
 {EMAIL_SIG}

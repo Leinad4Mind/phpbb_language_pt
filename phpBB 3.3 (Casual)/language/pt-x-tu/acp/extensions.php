@@ -39,9 +39,9 @@ $lang = array_merge($lang, [
 	'EXTENSION'						=> 'Extensão',
 	'EXTENSIONS'					=> 'Extensões',
 	'EXTENSIONS_ADMIN'			=> 'Gestão de Extensões',
-	'EXTENSIONS_EXPLAIN'			=> 'O Gestor de Extensões é uma ferramenta do phpBB que permite gerir todas as suas extensões e exibir as respetivas informações.',
+	'EXTENSIONS_EXPLAIN'			=> 'O Gestor de Extensões é uma ferramenta do phpBB que permite gerir todas as tuas extensões e exibir as respetivas informações.',
 	'EXTENSION_INVALID_LIST'	=> 'A Extensão “%s” não é válida.<br />%s<br /><br />',
-	'EXTENSION_NOT_AVAILABLE'	=> 'A extensão selecionada não está disponível para este Fórum, por favor, verifica versões do phpBB e PHP permitidas (veja a página de detalhes).',
+	'EXTENSION_NOT_AVAILABLE'	=> 'A extensão selecionada não está disponível para este Fórum, por favor, verifica versões do phpBB e PHP permitidas (vê a página de detalhes).',
 	'EXTENSION_DIR_INVALID'		=> 'A extensão selecionada não pode ser ativada porque tem uma estrutura de pastas inválida.',
 	'EXTENSION_NOT_ENABLEABLE'	=> 'A extensão selecionada não pode ser ativada, por favor, verifica os requisitos do extensão.',
 	'EXTENSION_NOT_INSTALLED'	=> 'A extensão %s não está disponível. Verifica se instalaste corretamente.',
@@ -57,7 +57,7 @@ $lang = array_merge($lang, [
 
 	'EXTENSION_DELETE_DATA_EXPLAIN'	=> 'Apagar dados de uma extensão remove todos os dados e configurações. Os ficheiros da extensão são mantidas para que possa ser ativada novamente.',
 	'EXTENSION_DISABLE_EXPLAIN'		=> 'Desativar uma extensão mantém ficheiros, dados e configurações, mas remove qualquer funcionalidade adicional da extensão.',
-	'EXTENSION_ENABLE_EXPLAIN'			=> 'Ativar uma extensão permite usá-la no seu Fórum.',
+	'EXTENSION_ENABLE_EXPLAIN'			=> 'Ativar uma extensão permite usá-la no teu Fórum.',
 
 	'EXTENSION_DELETE_DATA_IN_PROGRESS'	=> 'Os dados da extensão estão a ser apagados. Por favor, não deixes ou atualizes esta página até a tarefa estar concluída.',
 	'EXTENSION_DISABLE_IN_PROGRESS'		=> 'A extensão está a ser desativada. Por favor, não deixes ou atualizes esta página até a tarefa estar concluída.',
@@ -90,7 +90,7 @@ $lang = array_merge($lang, [
 			<li>Apaga os ficheiros da extensão do sistema de ficheiros</li>
 		</ol>',
 
-	'EXTENSION_DELETE_DATA_CONFIRM'		=> 'Tens a certeza que desejas excluir os dados associados à “%s”?<br /><br />Se continuar remove todos os dados e configurações. Esta ação não é reversível!',
+	'EXTENSION_DELETE_DATA_CONFIRM'		=> 'Tens a certeza que desejas excluir os dados associados à “%s”?<br /><br />Se continuares, serão removidos todos os dados e configurações. Esta ação não é reversível!',
 	'EXTENSION_DISABLE_CONFIRM'			=> 'Tens a certeza que desejas desativar a extensão “%s”?',
 	'EXTENSION_ENABLE_CONFIRM'				=> 'Tens a certeza que desejas ativar a extensão “%s”?',
 	'EXTENSION_FORCE_UNSTABLE_CONFIRM'	=> 'Tens a certeza que desejas forçar o uso de versões instáveis?',
@@ -127,7 +127,7 @@ $lang = array_merge($lang, [
 	'FORCE_UNSTABLE'							=> 'Verifica sempre se há versões instáveis',
 	'EXTENSIONS_VERSION_CHECK_SETTINGS'	=> 'Configurações de verificação de versão',
 
-	'BROWSE_EXTENSIONS_DATABASE'			=> 'Navegue na base de dados de extensões',
+	'BROWSE_EXTENSIONS_DATABASE'			=> 'Navega na base de dados de extensões',
 
 	'META_FIELD_NOT_SET'		=> 'O Meta Campo obrigatório %s não foi definido.',
 	'META_FIELD_INVALID'		=> 'O Meta Campo %s é inválido.',

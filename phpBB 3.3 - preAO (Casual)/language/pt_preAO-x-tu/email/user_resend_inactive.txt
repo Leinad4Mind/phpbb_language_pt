@@ -2,7 +2,7 @@ Subject: Bem-vindo ao Fórum {SITENAME}
 
 {WELCOME_MSG}
 
-LEIA ATENTAMENTE este email e guarde-o para consultas posteriores.
+LÊ ATENTAMENTE este email e guarda-o para consultas posteriores.
 
 A informação da tua conta é a seguinte:
 ==============================================
@@ -12,10 +12,10 @@ Utilizador: {USERNAME}
 Por favor, visita o seguinte endereço para activares a tua conta:
 {U_ACTIVATE}
 
-A tua senha foi armazenada na nossa Base de Dados de forma segura e não pode ser recuperada. No caso de a esquecer, poderá redefini-la, usando o endereço de e-mail associado à tua conta.
+A tua senha foi armazenada na nossa Base de Dados de forma segura e não pode ser recuperada. No caso de a esqueceres, poderás redefini-la, usando o endereço de e-mail associado à tua conta.
 
 {USERNAME}, obrigado pelo teu registo em "{SITENAME}".
-Participe activamente. A tua colaboração é fundamental para todos nós.
+Participa activamente. A tua colaboração é fundamental para todos nós.
 
 
 {EMAIL_SIG}

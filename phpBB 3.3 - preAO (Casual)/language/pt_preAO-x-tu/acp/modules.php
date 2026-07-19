@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang)) {
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, [
-	'ACP_MODULE_MANAGEMENT_EXPLAIN'	=> 'Aqui podes gerir todos os tipos de Módulos. O Painel de Administração tem uma estrutura de menus de três níveis (Categoria -> Categoria -> Módulo) diferente de outros que possuem uma estrutura de menu de dois níveis (Categoria -> Módulo) que precisam ser salvos. Tenha em atenção que deve testar os resultados já que pode auto bloquear-se se desactivar ou apagar os Módulos responsáveis pela própria Gestão de Módulos.',
+	'ACP_MODULE_MANAGEMENT_EXPLAIN'	=> 'Aqui podes gerir todos os tipos de Módulos. O Painel de Administração tem uma estrutura de menus de três níveis (Categoria -> Categoria -> Módulo) diferente de outros que possuem uma estrutura de menu de dois níveis (Categoria -> Módulo) que precisam ser salvos. Tem em atenção que deves testar os resultados, já que te podes bloquear se desactivares ou apagares os Módulos responsáveis pela própria Gestão de Módulos.',
 	'ADD_MODULE'						=> 'Adicionar um Módulo',
 	'ADD_MODULE_CONFIRM'				=> 'Desejas realmente ADICIONAR este Módulo com o modo seleccionado?',
 	'ADD_MODULE_TITLE'				=> 'Adicionar Módulos',

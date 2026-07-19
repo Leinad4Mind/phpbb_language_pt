@@ -55,7 +55,7 @@ $lang = array_merge($lang, [
 
 	// Install page
 	'INSTALL_INTRO'			=> 'Bem-vindo à Instalação',
-	'INSTALL_INTRO_BODY'		=> 'Esta opção permite instalar o phpBB.</p><p>Durante o processo de instalação necessitará de introduzir as configurações da tua Base de Dados. Se não as conhece, obtenha-as junto do fornecedor do Servidor de Alojamento. Necessitará igualmente de conhecer:</p>
+	'INSTALL_INTRO_BODY'		=> 'Esta opção permite instalar o phpBB.</p><p>Durante o processo de instalação necessitarás de introduzir as configurações da tua Base de Dados. Se não as conheces, obtém-nas junto do fornecedor do Servidor de Alojamento. Necessitarás igualmente de conhecer:</p>
 
 	<ul>
 		<li>O Tipo da Base de Dados - a Base de Dados que irá utilizar.</li>
@@ -126,7 +126,7 @@ $lang = array_merge($lang, [
 
 // General error messages
 $lang = array_merge($lang, [
-	'INST_ERR_MISSING_DATA'		=> 'Tem que preencher todos os campos deste bloco.',
+	'INST_ERR_MISSING_DATA'		=> 'Tens que preencher todos os campos deste bloco.',
 
 	'TIMEOUT_DETECTED_TITLE'	=> 'O instalador detectou um tempo limite',
 	'TIMEOUT_DETECTED_MESSAGE'	=> 'O instalador detectou um tempo limite, podes tentar actualizar a página, o que pode levar a corrupção de dados. Sugerimos que aumentes as tuas configurações de tempo limite ou tentes usar o CLI.',
@@ -198,7 +198,7 @@ $lang = array_merge($lang, [
 	'INST_ERR_NO_DB'						=> 'Não foi possível carregar o módulo PHP para o tipo de Base de Dados seleccionado',
 	'INST_ERR_DB_INVALID_PREFIX'		=> 'O prefixo digitado é inválido. Deve começar com uma letra e deve conter apenas letras, números e sublinhados.',
 	'INST_ERR_PREFIX_TOO_LONG'			=> 'O prefixo indicado é muito comprido. O comprimento máximo é de %d caracteres.',
-	'INST_ERR_DB_NO_NAME'				=> 'Deve indicar uma Base de Dados',
+	'INST_ERR_DB_NO_NAME'				=> 'Deves indicar uma Base de Dados',
 	'INST_ERR_DB_FORUM_PATH'			=> 'O ficheiro da Base de Dados indicado está dentro da estrutura de pastas do Fórum. Deveria pôr este ficheiro num local não acessível pela web.',
 	'INST_ERR_DB_CONNECT'				=> 'Não foi possível ligar à base de dados, lê a mensagem de erro em baixo',
 	'INST_ERR_DB_NO_WRITABLE'			=> 'Tanto a base de dados como as pastas do fórum devem permitir a escrita.',
@@ -221,7 +221,7 @@ $lang = array_merge($lang, [
 	'UPDATE_INCOMPLETE_MORE'		=> 'Por favor, lê as informações abaixo para corrigir este erro.',
 	'UPDATE_INCOMPLETE_EXPLAIN'	=> '<h1>actualização incompleta</h1>
 
-		<p>Percebemos que a última actualização da tua instalação do phpBB não foi concluída. Visita o <a href="%1$s" title="%1$s">script database_update</a>, verifica se <em>Actualizar apenas base de dados</em> está seleccionado e clica em <strong>Enviar</strong>. Não se esqueça de apagar a pasta "install" depois de actualizar a base de dados com êxito.</p>',
+		<p>Percebemos que a última actualização da tua instalação do phpBB não foi concluída. Visita o <a href="%1$s" title="%1$s">script database_update</a>, verifica se <em>Actualizar apenas base de dados</em> está seleccionado e clica em <strong>Enviar</strong>. Não te esqueças de apagar a pasta "install" depois de actualizar a base de dados com êxito.</p>',
 
 	//
 	// Server data
@@ -239,7 +239,7 @@ $lang = array_merge($lang, [
 	'CONFIG_SITE_DESC'					=> 'Escreve um pequeno texto a descrever o teu Fórum',
 	'CONFIG_SITENAME'						=> 'oseudomínio.com',
 
-	'DEFAULT_INSTALL_POST'				=> '<t>Esta é uma Mensagem de exemplo, (criada automaticamente durante a instalação) do teu novo Fórum phpBB3. Podes apagar esta Mensagem, o Tópico e o Fórum quando quiseres! Se tiveres alguma dúvida, sugestão ou comentário sobre esta tradução para português europeu do phpBB3x, consulta a comunidade phpBB Leinad4Mind. Da mesma forma, podes visitar-nos, se desejar fazer alguma observação sobre esta tradução e o acordo ortográfico da língua portuguesa. Estamos a construir uma Comunidade phpBB em Portugal. O contributo de todos é importante. O nosso compromisso é ajudar quem nos procura. Responderemos a todos os contactos tão rápido quanto possível. A tua participação é o maior incentivo que pode nos dar. A tradução deste Fórum respeita o acordo ortográfico da língua portuguesa em vigor desde Janeiro de 2009.</t>',
+	'DEFAULT_INSTALL_POST'				=> '<t>Esta é uma Mensagem de exemplo, (criada automaticamente durante a instalação) do teu novo Fórum phpBB3. Podes apagar esta Mensagem, o Tópico e o Fórum quando quiseres! Se tiveres alguma dúvida, sugestão ou comentário sobre esta tradução para português europeu do phpBB3x, consulta a comunidade phpBB Leinad4Mind. Da mesma forma, podes visitar-nos, se desejares fazer alguma observação sobre esta tradução e o acordo ortográfico da língua portuguesa. Estamos a construir uma Comunidade phpBB em Portugal. O contributo de todos é importante. O nosso compromisso é ajudar quem nos procura. Responderemos a todos os contactos tão rápido quanto possível. A tua participação é o maior incentivo que nos podes dar. A tradução deste Fórum respeita o acordo ortográfico da língua portuguesa em vigor desde Janeiro de 2009.</t>',
 
 	'FORUMS_FIRST_CATEGORY'				=> 'A minha primeira Categoria',
 	'FORUMS_TEST_FORUM_DESC'			=> 'Este é um Fórum de Testes.',
@@ -347,52 +347,52 @@ $lang = array_merge($lang, [
 // Common updater messages
 $lang = array_merge($lang, [
 	'UPDATE_INSTALLATION'			=> 'Actualizar a instalação do phpBB',
-	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Com esta opção, é possível actualizar a instalação do phpBB para a última versão.<br />Durante o processo, todos os ficheiros serão verificados. Podes rever todas as diferenças e ficheiros antes da actualização.<br /><br />A própria actualização do ficheiro pode ser realizada de duas maneiras.</p><h2>actualização Manual</h2><p>Com esta actualização, apenas transfere a tua selecção pessoal dos ficheiros modificados, e para teres certeza de que não perderás as modificações do teu ficheiro, deves finalizar. Depois de teres transferido este pacote, deves manualmente enviar os ficheiros para as tuas respectivas pastas. Em seguida, podes fazer a verificação dos ficheiros novamente para ver se os moveste correctamente.</p><h2>actualização automática com FTP</h2><p>Este método é similar ao primeiro, mas não precisas descarregar os ficheiros modificados e enviá-los para o servidor. Isto será executado de forma automática. Para utilizares este método, tens que saber os dados da tua conta no servidor de FTP se isso for pedido. Depois de pronto, será redireccionado para nova verificação dos ficheiros para ter a certeza de que tudo foi actualizado correctamente.<br /><br />',
+	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Com esta opção, é possível actualizar a instalação do phpBB para a última versão.<br />Durante o processo, todos os ficheiros serão verificados. Podes rever todas as diferenças e ficheiros antes da actualização.<br /><br />A própria actualização do ficheiro pode ser realizada de duas maneiras.</p><h2>actualização Manual</h2><p>Com esta actualização, apenas transferes a tua seleção pessoal dos ficheiros modificados, e para teres a certeza de que não perderás as modificações do teu ficheiro, deves finalizar. Depois de teres transferido este pacote, deves manualmente enviar os ficheiros para as suas respectivas pastas. Em seguida, podes fazer a verificação dos ficheiros novamente para ver se os moveste correctamente.</p><h2>actualização automática com FTP</h2><p>Este método é similar ao primeiro, mas não precisas de descarregar os ficheiros modificados e enviá-los para o servidor. Isto será executado de forma automática. Para utilizares este método, tens que saber os dados da tua conta no servidor de FTP se isso for pedido. Depois de pronto, serás redirecionado para nova verificação dos ficheiros para teres a certeza de que tudo foi actualizado correctamente.<br /><br />',
 	'UPDATE_INSTRUCTIONS'			=> '
 
 		<h1>Anúncio de lançamento</h1>
 
-		<p>Por Favor, lê O Anúncio do Lançamento Oficial da Nova Versão antes de continuar o processo de actualização, poderá encontrar informações importantes. Também encontrará disponíveis os atalhos para transferência do pacote, bem como o registo das alterações.</p>
+<p>Por Favor, lê o Anúncio do Lançamento Oficial da Nova Versão antes de continuares o processo de actualização, poderás encontrar informações importantes. Também encontrarás disponíveis os atalhos para transferência do pacote, bem como o registo das alterações.</p>
 
 		<br />
 
-		<h1>Como actualizar a tua instalação com o Pacote Completo (Full Package)</h1>
+<h1>Como actualizar a tua instalação com o Pacote Completo (Full Package)</h1>
 
-		<p>O método recomendado de actualizar a tua instalação é via pacote completo. Caso os ficheiros originais do phpBB tenham sido modificados na tua instalação, poderás desejar usar o pacote de actualização avançada para evitar perder essas alterações. Também podes actualizar a tua instalação por outros métodos listados no INSTALL.html. As etapas para actualizar o phpBB3 via pacote completo são as seguintes:</p>
+<p>O método recomendado de actualizares a tua instalação é via pacote completo. Caso os ficheiros originais do phpBB tenham sido modificados na tua instalação, poderás desejar usar o pacote de actualização avançada para evitar perder essas alterações. Também podes actualizar a tua instalação por outros métodos listados no INSTALL.html. As etapas para actualizares o phpBB3 via pacote completo são as seguintes:</p>
 
 		<ol style="margin-left: 20px; font-size: 1.1em;">
 			<li><strong class="error">Backup de todos os ficheiros e da base de dados.</strong></li>
-			<li>Vá à <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">Página de Transferências do phpBB.com</a> e descarregue o ficheiro do "Full Package".</li>
-			<li>Descompacte o ficheiro.</li>
-			<li>Apaga o ficheiro <code class="inline">config.php</code> e as pastas <code class="inline">/images</code>, <code class="inline">/store</code> e <code class="inline">/files</code> <em>do pacote</em> (não do teu site).</li>
-			<li>Vá para o ACP, Configurações do Fórum e certifica-te de que o prosilver é o estilo predefinido. Caso não seja, define o prosilver como tal.</li>
-			<li>Apaga as pastas <code class="inline">/vendor</code> e <code class="inline">/cache</code> da pasta raiz do fórum, no teu servidor.</li>
-			<li>Usando FTP ou SSH envia os ficheiros e pastas restantes (isto é, o CONTEÚDO restante da pasta phpBB3) para a pasta raiz da instalação do fórum no servidor, sobrescrevendo os ficheiros existentes. (Nota: tem cuidado para não apagar nenhuma extensão na pasta <code class="inline">/ext</code> quando fizer o envio do novo conteúdo do phpBB3.)</li>
-			<li><strong><a href="%1$s" title="%1$s">Agora inicie o processo de actualização, apontando o teu navegador para a pasta de instalação</a>.</strong></li>
-			<li>Segue as etapas para actualizar a base de dados e deixa que seja executado até a conclusão.</li>
-			<li>Usando FTP ou SSH apaga a pasta <code class="inline">/install</code> da pasta raiz da instalação do fórum no servidor.<br /><br /></li>
+			<li>Vai à <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">Página de Transferências do phpBB.com</a> e descarrega o ficheiro do "Full Package".</li>
+			<li>Descompacta o ficheiro.</li>
+<li>Apaga o ficheiro <code class="inline">config.php</code> e as pastas <code class="inline">/images</code>, <code class="inline">/store</code> e <code class="inline">/files</code> <em>do pacote</em> (não do teu site).</li>
+<li>Vai para o ACP, Configurações do Fórum e certifica-te de que o prosilver é o estilo predefinido. Caso não seja, define o prosilver como tal.</li>
+<li>Apaga as pastas <code class="inline">/vendor</code> e <code class="inline">/cache</code> da pasta raiz do fórum, no teu servidor.</li>
+<li>Usando FTP ou SSH envia os ficheiros e pastas restantes (isto é, o CONTEÚDO restante da pasta phpBB3) para a pasta raiz da instalação do fórum no servidor, sobrescrevendo os ficheiros existentes. (Nota: tem cuidado para não apagares nenhuma extensão na pasta <code class="inline">/ext</code> quando fizeres o envio do novo conteúdo do phpBB3.)</li>
+<li><strong><a href="%1$s" title="%1$s">Agora inicia o processo de actualização, apontando o teu navegador para a pasta de instalação</a>.</strong></li>
+<li>Segue as etapas para actualizares a base de dados e deixa que seja executado até a conclusão.</li>
+<li>Usando FTP ou SSH apaga a pasta <code class="inline">/install</code> da pasta raiz da instalação do fórum no servidor.<br /><br /></li>
 		</ol>
 
-		<p>Agora tens um novo fórum actualizado que contém todos os teus utilizadores e mensagens. Tarefas complementares:</p>
+<p>Agora tens um novo fórum actualizado que contém todos os teus utilizadores e mensagens. Tarefas complementares:</p>
 		<ul style="margin-left: 20px; font-size: 1.1em;">
-			<li>Actualiza o teu pacote de idioma</li>
-			<li>Actualiza o teu estilo<br /><br /></li>
+<li>Actualiza o teu pacote de idioma</li>
+<li>Actualiza o teu estilo<br /><br /></li>
 		</ul>
 
-		<h1>Como actualizar a tua instalação com o Pacote de Actualização Avançada</h1>
+<h1>Como actualizar a tua instalação com o Pacote de Actualização Avançada</h1>
 
-		<p>O pacote de actualização Avançada é recomendado para utilizadores experientes apenas se os ficheiros originais do phpBB tenham sido modificados na tua instalação. Também podes actualizar a tua instalação usando os métodos listados no documento INSTALL.html. As etapas para actualizar o phpBB3 via pacote de actualização avançada são as seguintes:</p>
+<p>O pacote de actualização Avançada é recomendado para utilizadores experientes apenas se os ficheiros originais do phpBB tenham sido modificados na tua instalação. Também podes actualizar a tua instalação usando os métodos listados no documento INSTALL.html. As etapas para actualizares o phpBB3 via pacote de actualização avançada são as seguintes:</p>
 
 		<ol style="margin-left: 20px; font-size: 1.1em;">
-			<li>Vá à <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">Página de Transferências do phpBB.com</a> e descarregue o ficheiro do "Advanced Update Package".</li>
-			<li>Descompacte o ficheiro.</li>
-			<li>Envia as pastas "install" e "vendor" descompactadas para a pasta raiz do teu phpBB (onde se encontra o ficheiro config.php).<br /><br /></li>
+			<li>Vai à <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">Página de Transferências do phpBB.com</a> e descarrega o ficheiro do "Advanced Update Package".</li>
+			<li>Descompacta o ficheiro.</li>
+<li>Envia as pastas "install" e "vendor" descompactadas para a pasta raiz do teu phpBB (onde se encontra o ficheiro config.php).<br /><br /></li>
 		</ol>
 
-		<p>Depois de enviado, o teu fórum ficará inacessível aos utilizadores normais, caso a pasta de instalação que supostamente acaba de enviar esteja realmente presente.<br /><br />
-		<strong><a href="%1$s" title="%1$s">Agora inicie o Processo de actualização inserindo no teu navegador o endereço da pasta /install</a>.</strong><br />
+<p>Depois de enviado, o teu fórum ficará inacessível aos utilizadores normais, caso a pasta de instalação que supostamente acabaste de enviar esteja realmente presente.<br /><br />
+<strong><a href="%1$s" title="%1$s">Agora inicia o Processo de actualização inserindo no teu navegador o endereço da pasta /install</a>.</strong><br />
 		<br />
-		Em seguida será conduzido ao longo do processo de actualização. Será avisado quando a actualização estiver concluída.
+Em seguida serás conduzido ao longo do processo de actualização. Serás avisado quando a actualização estiver concluída.
 		</p>
 	',
 ]);
@@ -422,9 +422,9 @@ $lang = array_merge($lang, [
 
 // Requirements messages
 $lang = array_merge($lang, [
-	'UPDATE_FILES_NOT_FOUND'		=> 'Nenhuma pasta válida de actualização foi encontrada, por favor, certifica-te que enviou os ficheiros devidos.',
+	'UPDATE_FILES_NOT_FOUND'		=> 'Nenhuma pasta válida de actualização foi encontrada. Por favor, certifica-te de que enviaste os ficheiros devidos.',
 
-	'NO_UPDATE_FILES_UP_TO_DATE'	=> 'A tua versão está actualizada. Não é necessário executar a ferramenta de actualização. Se desejas ter a certeza absoluta, verifica se enviou correctamente os Ficheiros de actualização.',
+	'NO_UPDATE_FILES_UP_TO_DATE'	=> 'A tua versão está actualizada. Não é necessário executar a ferramenta de actualização. Se desejas ter a certeza absoluta, verifica se enviaste correctamente os Ficheiros de actualização.',
 	'OLD_UPDATE_FILES'				=> 'Os Ficheiros de actualização estão desactualizados. Os Ficheiros de actualização encontrados são do phpBB %1$s para o phpBB %2$s, mas a Última Versão do phpBB é a %3$s.',
 	'INCOMPATIBLE_UPDATE_FILES'	=> 'Os ficheiros de actualização encontrados são incompatíveis com a versão do phpBB instalada. A tua versão do phpBB é da %1$s e o Ficheiro de actualização é da versão %2$s para %3$s.',
 ]);
@@ -455,7 +455,7 @@ $lang = array_merge($lang, [
 	'FILE_DIFF_NOT_ALLOWED'			=> 'O ficheiro não se encontra disponível para ser verificado',
 	'FILE_USED'							=> 'A informação foi utilizada de',			// Single file
 	'FILES_CONFLICT'					=> 'Ficheiros em conflito',
-	'FILES_CONFLICT_EXPLAIN'		=> 'Os ficheiros seguintes apresentam alterações relativamente à versão anterior. Eventuais tentativas de alteração aos ficheiros poderiam criar conflitos. Investigue os conflitos e tenta resolvê-los manualmente ou continue a actualização ao seleccionar o método desejado. Se resolver os conflitos manualmente, faz nova verificação aos ficheiros depois de modificados. Pode seleccionar o método desejado para todos os Ficheiros. O primeiro irá resultar num Ficheiro onde as linhas em conflito do teu Ficheiro anterior serão perdidas, e o outro irá resultar na perda das modificações no novo ficheiro.',
+	'FILES_CONFLICT_EXPLAIN'		=> 'Os ficheiros seguintes apresentam alterações relativamente à versão anterior. Eventuais tentativas de alteração aos ficheiros poderiam criar conflitos. Investiga os conflitos e tenta resolvê-los manualmente ou continua a actualização ao seleccionares o método desejado. Se resolveres os conflitos manualmente, faz nova verificação aos ficheiros depois de modificados. Podes seleccionar o método desejado para todos os Ficheiros. O primeiro irá resultar num Ficheiro onde as linhas em conflito do teu Ficheiro anterior serão perdidas, e o outro irá resultar na perda das modificações no novo ficheiro.',
 	'FILES_DELETED'					=> 'Ficheiros apagados',
 	'FILES_DELETED_EXPLAIN'			=> 'Os seguintes ficheiros não existem na nova versão. Esses ficheiros devem ser excluídos de tua instalação.',
 	'FILES_MODIFIED'					=> 'Ficheiros modificados',
@@ -494,7 +494,7 @@ $lang = array_merge($lang, [
 $lang = array_merge($lang, [
 	// Common converter messages
 	'CONVERT_NOT_EXIST'			=> 'O Conversor seleccionado não existe',
-	'DEV_NO_TEST_FILE'			=> 'Não foi especificado um valor para a variável ficheiro_teste no conversor. Se é utilizador deste conversor, e não deveria estar a ver este erro, por favor, contacta o autor do conversor. Se és o autor do conversor, deves especificar o nome de um ficheiro que exista no Fórum de destino para que seja possível a verificação da pasta.',
+	'DEV_NO_TEST_FILE'			=> 'Não foi especificado um valor para a variável ficheiro_teste no conversor. Se és utilizador deste conversor e não deverias estar a ver este erro, por favor, contacta o autor do conversor. Se és o autor do conversor, deves especificar o nome de um ficheiro que exista no Fórum de destino para que seja possível a verificação da pasta.',
 	'COULD_NOT_FIND_PATH'		=> 'Não foi possível encontrar o local para o teu Fórum anterior. Por favor, verifica as tuas configurações e tenta novamente.<br />» O local especificado foi %s',
 	'CONFIG_PHPBB_EMPTY'			=> 'A variável de configuração do phpBB3 para “%s” está vazia.',
 
@@ -510,7 +510,7 @@ $lang = array_merge($lang, [
 	// Conversion in progress
 	'CATEGORY'						=> 'Categoria',
 	'CONTINUE_CONVERT'			=> 'Continuar a conversão',
-	'CONTINUE_CONVERT_BODY'		=> 'Foi detectada uma tentativa prévia de conversão. Deve escolher entre iniciar uma nova conversão ou continuar a conversão interrompida.',
+	'CONTINUE_CONVERT_BODY'		=> 'Foi detectada uma tentativa prévia de conversão. Deves escolher entre iniciar uma nova conversão ou continuar a conversão interrompida.',
 	'CONVERT_NEW_CONVERSION'	=> 'Nova conversão',
 	'CONTINUE_OLD_CONVERSION'	=> 'Continuar a actualização interrompida',
 	'POST_ID'						=> 'ID da mensagem',
@@ -560,7 +560,7 @@ $lang = array_merge($lang, [
 	'SYNC_TOPIC_ID'				=> 'A sincronizar Tópicos a partir do <var>topic_id</var> $1%s ao $2%s.',
 	'PROCESS_LAST'					=> 'Executando as últimas instruções',
 	'UPDATE_TOPICS_POSTED'		=> 'Gerando informações de Tópicos enviados',
-	'UPDATE_TOPICS_POSTED_ERR'	=> 'Algum erro ocorreu enquanto as informações dos Tópicos eram geradas. Pode tentar novamente esta etapa no Painel de Administração quando a conversão estiver completa.',
+	'UPDATE_TOPICS_POSTED_ERR'	=> 'Algum erro ocorreu enquanto as informações dos Tópicos eram geradas. Podes tentar novamente esta etapa no Painel de Administração quando a conversão estiver completa.',
 	'CONTINUE_LAST'				=> 'Continuar com esta actualização',
 	'CLEAN_VERIFY'					=> 'A limpar e a verificar a estrutura final',
 	'NOT_UNDERSTAND'				=> 'Não foi possível entender %s #%d, tabela %s ("%s")',
@@ -574,7 +574,7 @@ $lang = array_merge($lang, [
 	'COLLIDING_USER'						=> '» id do utilizador: <strong>%d</strong> nome de utilizador: <strong>%s</strong> (%d mensagens)',
 	'COLLIDING_USERNAMES_FOUND'		=> 'Nomes de utilizador duplicados foram encontrados no teu antigo fórum. Para concluir a conversão, exclui ou renomeia esses utilizadores para que haja apenas um utilizador no teu fórum antigo para cada nome de utilizador limpo.',
 	'CONV_ERR_FATAL'						=> 'Erro fatal de conversão',
-	'CONV_ERROR_ATTACH_FTP_DIR'		=> 'O envio de anexos por FTP está activo no teu painel antigo. Desactive a opção de envio por FTP, crie uma pasta válida e envia todos os ficheiros de anexos para a nova pasta. Após concluir esta operação, reinicia o conversor.',
+	'CONV_ERROR_ATTACH_FTP_DIR'		=> 'O envio de anexos por FTP está activo no teu painel antigo. Desactiva a opção de envio por FTP, cria uma pasta válida e envia todos os ficheiros de anexos para a nova pasta. Após concluíres esta operação, reinicia o conversor.',
 	'CONV_ERROR_CONFIG_EMPTY'			=> 'Não foram encontradas informações de configuração válidas para a conversão.',
 	'CONV_ERROR_FORUM_ACCESS'			=> 'Não foi possível aceder às informações do Fórum.',
 	'CONV_ERROR_GET_CATEGORIES'		=> 'Não foi possível adquirir as categorias.',

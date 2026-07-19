@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang)) {
 
 $lang = array_merge($lang, [
 	'ACP_ATTACHMENT_SETTINGS_EXPLAIN'	=> 'Aqui podes configurar as Opções Principais para os Anexos e Categorias Especiais associadas.',
-	'ACP_EXTENSION_GROUPS_EXPLAIN'		=> 'Aqui podes adicionar, excluir, modificar e desativar as Extensões. Consulta o Painel Gestor de Grupos de Extensões. Recomenda-se que não permita extensões de scripts (tipo: php, php3, php4, phtml, pl, cgi, py, rb, asp, aspx, entre outras...), por serem potencialmente perigosas.',
+	'ACP_EXTENSION_GROUPS_EXPLAIN'		=> 'Aqui podes adicionar, excluir, modificar e desativar as Extensões. Consulta o Painel Gestor de Grupos de Extensões. Recomenda-se que não permitas extensões de scripts (tipo: php, php3, php4, phtml, pl, cgi, py, rb, asp, aspx, entre outras...), por serem potencialmente perigosas.',
 	'ACP_MANAGE_EXTENSIONS_EXPLAIN'		=> 'Aqui podes controlar as Extensões permitidas. Para ativares as tuas Extensões, consulta por favor, o Painel de Gestão dos Grupos das Extensões. Recomenda-se que não permitas extensões de scripts (tipo: php, php3, php4, phtml, pl, cgi, py, rb, asp, aspx, entre outras...), por serem potencialmente perigosas.',
 	'ACP_ORPHAN_ATTACHMENTS_EXPLAIN'		=> 'Estes são os Ficheiros que não estão associados a uma Mensagem.',
 	'ADD_EXTENSION'							=> 'Adicionar Extensão',
@@ -76,8 +76,8 @@ $lang = array_merge($lang, [
 
 	'DEFINE_ALLOWED_IPS'					=> 'Definir IPs/Servidores autorizados',
 	'DEFINE_DISALLOWED_IPS'				=> 'Definir IPs/Servidores proibidos',
-	'DOWNLOAD_ADD_IPS_EXPLAIN'			=> 'Para definir vários IPs ou Servidores diferentes, introduz cada um numa nova linha. Para definir uma faixa de endereços de IP separe o início e o fim com um hífen (-). Pode utilizar asteriscos (*)',
-	'DOWNLOAD_REMOVE_IPS_EXPLAIN'		=> 'Podes remover (ou não-excluir) múltiplos endereços de IPs de uma única vez usando a combinação apropriada de rato e teclado para o teu computador e navegador. IPs apagados têm um fundo em azul.',
+	'DOWNLOAD_ADD_IPS_EXPLAIN'			=> 'Para definir vários IPs ou Servidores diferentes, introduz cada um numa nova linha. Para definir uma faixa de endereços de IP, separa o início e o fim com um hífen (-). Podes utilizar asteriscos (*)',
+	'DOWNLOAD_REMOVE_IPS_EXPLAIN'		=> 'Podes remover (ou não-excluir) múltiplos endereços de IPs de uma única vez ao usar a combinação apropriada de rato e teclado para o teu computador e navegador. IPs apagados têm um fundo em azul.',
 	'DISPLAY_INLINED'						=> 'Mostrar Imagens',
 	'DISPLAY_INLINED_EXPLAIN'			=> 'Se escolher Não as imagens anexadas serão mostradas como atalhos.',
 	'DISPLAY_ORDER'						=> 'Ordem de visualização dos Anexos',
@@ -100,16 +100,16 @@ $lang = array_merge($lang, [
 	'EXT_GROUP_IMAGES'					=> 'Imagens',
 	'EXT_GROUP_PLAIN_TEXT'				=> 'Texto simples',
 
-	'FILES_GONE'							=> 'Alguns dos anexos que selecionou para eliminar não existem. Eles podem já ter sido excluídos. Os anexos que existiam foram eliminados.',
+	'FILES_GONE'							=> 'Alguns dos anexos que selecionaste para eliminar não existem. Eles podem já ter sido excluídos. Os anexos que existiam foram eliminados.',
 	'FILES_STATS_WRONG'					=> 'As estatísticas dos teus ficheiros são imprecisas e provavelmente precisam ser ressincronizadas. Valores atuais: Número de ficheiros = %1$d, tamanho total dos ficheiros = %2$s.<br />Clica %3$saqui%4$s para os ressincronizar.',
 
-	'GO_TO_EXTENSIONS'					=> 'Vá para a Tela de Gestão de Extensões',
+	'GO_TO_EXTENSIONS'					=> 'Vai para a Página de Gestão de Extensões',
 	'GROUP_NAME'							=> 'Nome do Grupo',
 
 	'IMAGE_LINK_SIZE'						=> 'Dimensões para o atalho de Imagem',
 	'IMAGE_LINK_SIZE_EXPLAIN'			=> 'Mostra o anexo da imagem como um atalho se a imagem for maior que o selecionado, introduz 0px por 0px para desativar.',
 	'IMAGE_QUALITY'						=> 'Qualidade dos anexos de imagem enviados (apenas JPEG)',
-	'IMAGE_QUALITY_EXPLAIN'				=> 'Especifique um valor entre 50% (menor tamanho do ficheiro) e 90% (qualidade superior). Qualidade superior a 90% aumenta o tamanho do ficheiro e é desativada. A configuração será aplicada apenas se as dimensões máximas da imagem estiverem definidas para um valor diferente de 0px por 0px.',
+	'IMAGE_QUALITY_EXPLAIN'				=> 'Especifica um valor entre 50% (menor tamanho do ficheiro) e 90% (qualidade superior). Qualidade superior a 90% aumenta o tamanho do ficheiro e é desativada. A configuração será aplicada apenas se as dimensões máximas da imagem estiverem definidas para um valor diferente de 0px por 0px.',
 	'IMAGE_STRIP_METADATA'				=> 'Remover metadados de imagem (apenas JPEG)',
 	'IMAGE_STRIP_METADATA_EXPLAIN'	=> 'Remover metadados EXIF p.ex. nome do autor, coordenadas GPS e detalhes da câmara. A configuração será aplicada apenas se as dimensões máximas da imagem estiverem definidas para um valor diferente de 0px por 0px.',
 
@@ -136,8 +136,8 @@ $lang = array_merge($lang, [
 	'NO_EXT_GROUP_SPECIFIED'			=> 'Grupo de Extensão não especificado.',
 	'NO_FILE_CAT'							=> 'Nenhum',
 	'NO_IMAGE'								=> 'Sem imagem',
-	'NO_UPLOAD_DIR'						=> 'A pasta de envio (upload) que indicou não existe.',
-	'NO_WRITE_UPLOAD'						=> 'A pasta que indicou não permite gravação. Por favor, altere as permissões para permitir a escrita nele.',
+	'NO_UPLOAD_DIR'						=> 'A pasta de envio (upload) que indicaste não existe.',
+	'NO_WRITE_UPLOAD'						=> 'A pasta que indicaste não permite gravação. Por favor, altera as permissões para permitir a escrita nela.',
 
 	'ONLY_ALLOWED_IN_PM'					=> 'Apenas autorizar nas Mensagens Privadas',
 	'ORDER_ALLOW_DENY'					=> 'Permitir',
@@ -164,10 +164,10 @@ $lang = array_merge($lang, [
 
 	'UPLOADING_FILES'						=> 'A Enviar Ficheiros',
 	'UPLOADING_FILE_TO'					=> 'A Enviar Ficheiro "%1$s" à Mensagem Nº %2$d...',
-	'UPLOAD_DENIED_FORUM'				=> 'Não tem Permissão para enviar Ficheiros para o Fórum "%s".',
+	'UPLOAD_DENIED_FORUM'				=> 'Não tens Permissão para enviar Ficheiros para o Fórum "%s".',
 	'UPLOAD_DIR'							=> 'Pasta de Anexos',
-	'UPLOAD_DIR_EXPLAIN'					=> 'Pasta onde os anexos são guardados. Se mudar esta pasta tendo já anexos nela, deve mudar manualmente esses anexos para o novo local.',
+	'UPLOAD_DIR_EXPLAIN'					=> 'Pasta onde os anexos são guardados. Se mudares esta pasta quando já tiveres anexos nela, deves mudar manualmente esses anexos para o novo local.',
 	'UPLOAD_ICON'							=> 'Ícone de envio',
-	'UPLOAD_NOT_DIR'						=> 'O local para envio de Ficheiros que indicou não parece ser uma pasta.',
+	'UPLOAD_NOT_DIR'						=> 'O local para envio de Ficheiros que indicaste não parece ser uma pasta.',
 	'UPLOAD_POST_NOT_EXIST'				=> 'O ficheiro “%1$s” não pode ser carregado na mensagem número %2$d porque a mensagem não existe.',
 ]);

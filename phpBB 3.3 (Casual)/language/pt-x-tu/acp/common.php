@@ -269,7 +269,7 @@ $lang = array_merge($lang, [
 	'LOGIN_ADMIN_CONFIRM'			=> 'Para Administrar o Fórum, tens de confirmar o teu acesso.',
 	'LOGIN_ADMIN_SUCCESS'			=> 'O teu Registo foi validado com sucesso. Vais ser redirecionado para o Painel de Administração.',
 	'LOOK_UP_FORUM'					=> 'Seleciona um Fórum',
-	'LOOK_UP_FORUMS_EXPLAIN'		=> 'Nesta opção pode selecionar vários Fóruns. Pressione a tecla CTRL ou Shift para selecionar um a um ou vários Fóruns.',
+	'LOOK_UP_FORUMS_EXPLAIN'		=> 'Nesta opção, podes selecionar vários Fóruns. Mantém premida a tecla CTRL ou Shift para selecionares um ou vários Fóruns.',
 
 	'MANAGE'								=> 'Administrar',
 	'MENU_TOGGLE'						=> 'Ocultar ou mostrar o Menu lateral',
@@ -279,9 +279,9 @@ $lang = array_merge($lang, [
 	'MOVE_UP'							=> 'Mover - Cima',
 
 	'NOTIFY'								=> 'Aviso',
-	'NO_ADMIN'							=> 'Não está autorizado a Administrar este Fórum.',
+	'NO_ADMIN'							=> 'Não estás autorizado a Administrar este Fórum.',
 	'NO_EMAILS_DEFINED'				=> 'Sem endereços de email válidos encontrados.',
-	'NO_FILES_TO_DELETE'				=> 'Os anexos que selecionou para eliminação não existem.',
+	'NO_FILES_TO_DELETE'				=> 'Os anexos que selecionaste para eliminação não existem.',
 	'NO_PASSWORD_SUPPLIED'			=> 'Tens de indicar a tua senha para aceder ao Painel de Administração.',
 
 	'OFF'									=> 'Desativado',
@@ -329,17 +329,17 @@ $lang = array_merge($lang, [
 
 // PHP info
 $lang = array_merge($lang, [
-	'ACP_PHP_INFO_EXPLAIN'			=> 'Esta página mostra informações da versão do PHP instalada neste servidor, incluindo detalhes dos módulos carregados, variáveis disponíveis e as configurações padrão. Esta informação pode ser necessária quando forem detetados erros. Alguns servidores podem limitar, por medida de segurança, as informações exibidas. Mantenha estas informações reservadas exceto quando questionado pela <a href="https://www.phpbb.com/about/team/">membros da equipa oficial</a> no Fórum de Suporte.',
+	'ACP_PHP_INFO_EXPLAIN'			=> 'Esta página mostra informações da versão do PHP instalada neste servidor, incluindo detalhes dos módulos carregados, variáveis disponíveis e as configurações padrão. Esta informação pode ser necessária quando forem detetados erros. Alguns servidores podem limitar, por medida de segurança, as informações exibidas. Mantém estas informações reservadas, exceto quando os membros da <a href="https://www.phpbb.com/about/team/">equipa oficial</a> te pedirem que as partilhes no Fórum de Suporte.',
 
 	'NO_PHPINFO_AVAILABLE'			=> 'As informações do PHP não podem ser determinadas. O Phpinfo() foi desativado por medidas de segurança.',
 ]);
 
 // Logs
 $lang = array_merge($lang, [
-	'ACP_ADMIN_LOGS_EXPLAIN'		=> 'Esta é a lista das ações dos Administradores. Pode ordená-la por Utilizador, data, Endereço de IP ou Ação do Registo. Se tiver as permissões adequadas, pode limpar operações individuais ou todo o registo.',
-	'ACP_CRITICAL_LOGS_EXPLAIN'	=> 'Esta é a lista das ações realizadas pelo Fórum. Estes registos têm informações que permitem solucionar problemas específicos, por exemplo uma falha no envio de emails.  Pode ordená-la por Utilizador, data, IP ou ação. Se tiver as permissões adequadas, pode limpar operações individuais ou todo o registo.',
-	'ACP_MOD_LOGS_EXPLAIN'			=> 'Esta é a lista das ações dos Moderadores do Fórum. Pode ordená-la por Utilizador, data, Endereço de IP ou Ação do Registo. Se tiver as permissões adequadas, pode limpar operações individuais ou todo o registo.',
-	'ACP_USERS_LOGS_EXPLAIN'		=> 'Esta é a lista das ações dos Utilizadores do Fórum. Pode ordená-la por Utilizador, data, Endereço de IP ou Ação do Registo. Se tiver as permissões adequadas, pode limpar operações individuais ou todo o registo.',
+	'ACP_ADMIN_LOGS_EXPLAIN'		=> 'Esta é a lista das ações dos Administradores. Podes ordená-la por Utilizador, data, Endereço de IP ou Ação do Registo. Se tiveres as permissões adequadas, podes limpar operações individuais ou todo o registo.',
+	'ACP_CRITICAL_LOGS_EXPLAIN'	=> 'Esta é a lista das ações realizadas pelo Fórum. Estes registos têm informações que permitem solucionar problemas específicos, por exemplo uma falha no envio de emails.  Podes ordená-la por Utilizador, data, IP ou ação. Se tiveres as permissões adequadas, podes limpar operações individuais ou todo o registo.',
+	'ACP_MOD_LOGS_EXPLAIN'			=> 'Esta é a lista das ações dos Moderadores do Fórum. Podes ordená-la por Utilizador, data, Endereço de IP ou Ação do Registo. Se tiveres as permissões adequadas, podes limpar operações individuais ou todo o registo.',
+	'ACP_USERS_LOGS_EXPLAIN'		=> 'Esta é a lista das ações dos Utilizadores do Fórum. Podes ordená-la por Utilizador, data, Endereço de IP ou Ação do Registo. Se tiveres as permissões adequadas, podes limpar operações individuais ou todo o registo.',
 	'ALL_ENTRIES'						=> 'Todas as Entradas',
 
 	'DISPLAY_LOG'						=> 'Exibir Entradas anteriores',
@@ -366,15 +366,15 @@ $lang = array_merge($lang, [
 
 	// Environment configuration checks, mbstring related
 	'ERROR_MBSTRING_FUNC_OVERLOAD'						=> 'A função de sobrecarga não se encontra configurada corretamente',
-	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'				=> '<var>mbstring.func_overload</var> deve ser definido para 0 ou 4. Pode verificar o valor atual em <samp>informação PHP</samp>.',
+	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'				=> '<var>mbstring.func_overload</var> deve ser definido para 0 ou 4. Podes verificar o valor atual em <samp>informação PHP</samp>.',
 	'ERROR_MBSTRING_ENCODING_TRANSLATION'				=> 'A codificação de caracteres transparentes não se encontra configurada corretamente',
-	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN'	=> '<var>mbstring.encoding_translation</var> deve ser definido para 0. Pode verificar o valor atual em <samp>informação PHP</samp>.',
+	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN'	=> '<var>mbstring.encoding_translation</var> deve ser definido para 0. Podes verificar o valor atual em <samp>informação PHP</samp>.',
 	'ERROR_MBSTRING_HTTP_INPUT'							=> 'A conversão de entrada de caracteres via HTTP não se encontra configurada corretamente',
-	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'					=> '<var>mbstring.http_input</var> deve ser deixado vazio. Pode verificar o valor atual na página de <samp>informação PHP</samp>.',
+	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'					=> '<var>mbstring.http_input</var> deve ser deixado vazio. Podes verificar o valor atual na página de <samp>informação PHP</samp>.',
 	'ERROR_MBSTRING_HTTP_OUTPUT'							=> 'A conversão de saída de caracteres via HTTP não se encontra configurada corretamente',
-	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'				=> '<var>mbstring.http_output</var> deve ser deixado vazio. Pode verificar o valor atual na página de <samp>informação PHP</samp>.',
+	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'				=> '<var>mbstring.http_output</var> deve ser deixado vazio. Podes verificar o valor atual na página de <samp>informação PHP</samp>.',
 	'ERROR_DEFAULT_CHARSET'									=> 'O conjunto de caracteres padrão está configurado incorretamente',
-	'ERROR_DEFAULT_CHARSET_EXPLAIN'						=> '<var>default_charset</var> deve ser definido para <samp>UTF-8</samp>. Pode verificar o valor atual na página de <samp>informação PHP</samp>.',
+	'ERROR_DEFAULT_CHARSET_EXPLAIN'						=> '<var>default_charset</var> deve ser definido para <samp>UTF-8</samp>. Podes verificar o valor atual na página de <samp>informação PHP</samp>.',
 
 	'FILES_PER_DAY'					=> 'Média de Anexos diários',
 	'FORUM_STATS'						=> 'Estatísticas do Fórum',
@@ -427,7 +427,7 @@ $lang = array_merge($lang, [
 	'STATISTIC'							=> 'Estatísticas',
 	'STATISTIC_RESYNC_OPTIONS'		=> 'Sincronizar ou reiniciar as estatísticas',
 
-	'TIMEZONE_INVALID'				=> 'O fuso horário que selecionou é inválido',
+	'TIMEZONE_INVALID'				=> 'O fuso horário que selecionaste é inválido',
 	'TIMEZONE_SELECTED'				=> '(selecionado atualmente)',
 	'TOPICS_PER_DAY'					=> 'Média de Tópicos diários',
 
@@ -463,7 +463,7 @@ $lang = array_merge($lang, [
 	'INACTIVE_REASON_UNKNOWN'		=> 'Desconhecido',
 	'INACTIVE_USERS'					=> 'Utilizadores Inativos',
 	'INACTIVE_USERS_EXPLAIN'		=> 'Esta é uma lista dos Utilizadores Registados, mas com os Registos ainda inativos. Se desejares podes ativar, excluir ou avisar (enviando um email) estes Utilizadores.',
-	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Lista dos 10 últimos Utilizadores Registados ainda inativos. As Contas estão inativas porque a sua ativação está configurada para ser feita pelo próprio utilizador e estes ainda o não fizeram ou porque foram desativadas. A lista completa está disponível através do item apropriado do menu ou clicando no atalho abaixo onde pode ativar, excluir ou avisar (enviando um email) estes Utilizadores se desejar.',
+	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Lista dos 10 últimos Utilizadores Registados ainda inativos. As Contas estão inativas porque a sua ativação está configurada para ser feita pelo próprio utilizador e estes ainda o não fizeram ou porque foram desativadas. A lista completa está disponível através do item apropriado do menu ou clicando no atalho abaixo onde podes ativar, excluir ou avisar (enviando um email) estes Utilizadores se desejares.',
 
 	'NO_INACTIVE_USERS'				=> 'Não há Utilizadores Inativos',
 

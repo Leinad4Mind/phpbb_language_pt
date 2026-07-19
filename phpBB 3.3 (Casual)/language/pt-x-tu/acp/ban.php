@@ -41,7 +41,7 @@ $lang = array_merge($lang, [
 	'30_MINS'						=> '30 Minutos',
 	'6_HOURS'						=> '6 Horas',
 
-	'ACP_BAN_EXPLAIN'				=> 'Aqui podes fazer a Gestão dos Utilizadores expulsos por nome, endereço de IP, ou endereço de email. A expulsão impede o Utilizador de entrar no Fórum. Se desejar pode explicar o motivo da expulsão (3.000 caracteres). O motivo da expulsão será mostrado no registo do Administrador. A duração da expulsão também pode ser especificada. Se quiser que a expulsão termine numa data específica depois de outra especificação de tempo seleciona <span style="text-decoration: underline;">Até -&gt;</span> para a longevidade da expulsão e introduz uma data no formato <kbd>YYYY-MM-DD</kbd>.',
+	'ACP_BAN_EXPLAIN'				=> 'Aqui podes fazer a Gestão dos Utilizadores expulsos por nome, endereço de IP, ou endereço de email. A expulsão impede o Utilizador de entrar no Fórum. Se desejares, podes explicar o motivo da expulsão (3.000 caracteres). O motivo da expulsão será mostrado no registo do Administrador. A duração da expulsão também pode ser especificada. Se quiseres que a expulsão termine numa data específica depois de outra especificação de tempo seleciona <span style="text-decoration: underline;">Até -&gt;</span> para a longevidade da expulsão e introduz uma data no formato <kbd>YYYY-MM-DD</kbd>.',
 
 	'BAN_EXCLUDE'					=> 'Apagar Expulsão',
 	'BAN_LENGTH'					=> 'Duração da Expulsão',

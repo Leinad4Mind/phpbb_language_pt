@@ -48,7 +48,7 @@ $lang = array_merge($lang, [
 	'ANSWER'							=> 'Resposta',
 	'EDIT_QUESTION'				=> 'Editar Pergunta',
 	'QUESTIONS'						=> 'Perguntas',
-	'QUESTIONS_EXPLAIN'			=> 'Para cada submissão ao formulário, onde activou o plugin Q&amp;A, será feita uma das perguntas aqui definidas. Para usar este plugin deve definir pelo menos uma pergunta no idioma padrão. As perguntas devem ser de fácil resposta para o teu público alvo, mas sem excederem a capacidade de pesquisa do spambot no Google™. Serão obtidos melhores resultados se usar mais do que uma pergunta e as alterar com regularidade. Active a confirmação rigorosa se a tua pergunta se baseia em maiúsculas e minúsculas, pontuação ou espaços em branco.',
+	'QUESTIONS_EXPLAIN'			=> 'Para cada submissão ao formulário, onde activaste o plugin Q&amp;A, será feita uma das perguntas aqui definidas. Para usares este plugin deves definir pelo menos uma pergunta no idioma padrão. As perguntas devem ser de fácil resposta para o teu público alvo, mas sem excederem a capacidade de pesquisa do spambot no Google™. Serão obtidos melhores resultados se usares mais do que uma pergunta e as alterares com regularidade. Activa a confirmação rigorosa se a tua pergunta se baseia em maiúsculas e minúsculas, pontuação ou espaços em branco.',
 	'QUESTION_DELETED'			=> 'Pergunta excluída',
 	'QUESTION_LANG'				=> 'Idioma',
 	'QUESTION_LANG_EXPLAIN'		=> 'O idioma desta questão e das respostas é escrito em.',
@@ -59,5 +59,5 @@ $lang = array_merge($lang, [
 	'QUESTION_TEXT_EXPLAIN'		=> 'A pergunta feita ao utilizador.',
 
 	'QA_ERROR_MSG'					=> 'Preenche todos os campos e pelo menos uma resposta.',
-	'QA_LAST_QUESTION'			=> 'Não pode apagar todas as perguntas, enquanto o plugin estiver activo.',
+	'QA_LAST_QUESTION'			=> 'Não podes apagar todas as perguntas, enquanto o plugin estiver activo.',
 ]);

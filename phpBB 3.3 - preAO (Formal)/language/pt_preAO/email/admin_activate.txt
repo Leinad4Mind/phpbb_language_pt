@@ -2,12 +2,12 @@ Subject: Novo utilizador registado
 
 Olá;
 
-Uma conta em nome de "{USERNAME}" foi desactivada ou criada de novo. Deverás verificar os teus dados (se necessário) e activá-la.
+Uma conta em nome de "{USERNAME}" foi desactivada ou criada de novo. Deverá verificar os dados, se necessário, e activá-la.
 
-Podes ver o Perfil do Utilizador no seguinte endereço:
+Pode ver o Perfil do Utilizador no seguinte endereço:
 {U_USER_DETAILS}
 
-Podes activar imediatamente a conta no seguinte endereço:
+Pode activar imediatamente a conta no seguinte endereço:
 {U_ACTIVATE}
 
 {EMAIL_SIG}

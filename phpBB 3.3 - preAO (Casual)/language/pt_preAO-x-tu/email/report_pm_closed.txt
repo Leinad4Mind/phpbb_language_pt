@@ -2,12 +2,12 @@ Subject: Denúncia de mensagem privada fechada - "{SUBJECT}"
 
 Olá {USERNAME},
 
-A tua Denúncia sobre a mensagem privada "{SUBJECT}" por "{AUTHOR_NAME}" em {SITENAME} foi vista e tratada por um moderador ou por um administrador. A denúncia foi posteriormente fechada. Se tiver mais perguntas entre em contacto {CLOSER_NAME} com uma mensagem privada.
+A tua Denúncia sobre a mensagem privada "{SUBJECT}" por "{AUTHOR_NAME}" em {SITENAME} foi vista e tratada por um moderador ou por um administrador. A denúncia foi posteriormente fechada. Se tiveres mais perguntas entra em contacto {CLOSER_NAME} com uma mensagem privada.
 
-Pode ver a mensagem privada denunciada clicando no seguinte link:
+Podes ver a mensagem privada denunciada clicando no seguinte link:
 
 {U_VIEW_MESSAGE}
 
-Solicitaste ser notificado sobre este evento, lembra-te de que podes sempre optar por não ser notificado sobre relatórios de mensagens privadas fechadas, alterando a configuração apropriada no teu perfil.
+Solicitaste ser notificado sobre este evento, lembra-te de que podes sempre optar por não seres notificado sobre relatórios de mensagens privadas fechadas, alterando a configuração apropriada no teu perfil.
 
 {EMAIL_SIG}

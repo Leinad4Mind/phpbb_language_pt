@@ -37,17 +37,17 @@ if (empty($lang) || !is_array($lang)) {
 
 // User pruning
 $lang = array_merge($lang, [
-	'ACP_PRUNE_USERS_EXPLAIN'		=> 'Esta secção permite excluir ou desactivar Utilizadores do Fórum. As contas podem ser filtradas de várias maneiras: pela contagem de mensagens, actividade mais recente, etc. Os critérios podem ser combinados para determinar as contas afectadas. Por exemplo, pode seleccionar os Utilizadores com menos de 10 mensagens, inactivos de 01/01/2002. Usa um * como complemento para campos de texto. Alternativamente, pode não usar a selecção por critérios, introduzindo a lista de Utilizadores (um por linha) no campo de texto. Tenha cuidado com este recurso! Depois de excluir um Utilizador não é possível reverter a acção.',
+	'ACP_PRUNE_USERS_EXPLAIN'		=> 'Esta secção permite excluir ou desactivar Utilizadores do Fórum. As contas podem ser filtradas de várias maneiras: pela contagem de mensagens, actividade mais recente, etc. Os critérios podem ser combinados para determinar as contas afectadas. Por exemplo, podes seleccionar os Utilizadores com menos de 10 mensagens, inativos de 01/01/2002. Usa um * como complemento para campos de texto. Alternativamente, podes não usar a seleção por critérios, introduzindo a lista de Utilizadores (um por linha) no campo de texto. Tem cuidado com este recurso! Depois de excluíres um Utilizador não é possível reverter a ação.',
 
 	'CRITERIA'							=> 'Critérios',
 
 	'DEACTIVATE_DELETE'				=> 'Desactivar ou apagar',
-	'DEACTIVATE_DELETE_EXPLAIN'	=> 'Escolher se quer desactivar Utilizadores ou excluí-los totalmente. Por favor, nota que os Utilizadores excluídos não podem ser restaurados!',
+	'DEACTIVATE_DELETE_EXPLAIN'	=> 'Escolhe se queres desactivar Utilizadores ou excluí-los totalmente. Tem em atenção que os Utilizadores excluídos não podem ser restaurados!',
 	'DELETE_USERS'						=> 'Apagar',
 	'DELETE_USER_POSTS'				=> 'Apagar Mensagens Limpas',
 	'DELETE_USER_POSTS_EXPLAIN'	=> 'Não é possível apagar as Mensagens de Utilizadores eliminados',
 
-	'JOINED_EXPLAIN'					=> 'Escrever uma Data em formato <kbd>YYYY-MM-DD</kbd>. Pode usar ambos os campos para definir um intervalo, ou deixar em branco para um intervalo aberto de datas.',
+	'JOINED_EXPLAIN'					=> 'Escreve uma Data no formato <kbd>YYYY-MM-DD</kbd>. Podes usar ambos os campos para definir um intervalo, ou deixar em branco para um intervalo aberto de datas.',
 
 	'LAST_ACTIVE_EXPLAIN'			=> 'Introduz a data no formato <kbd>YYYY-MM-DD</kbd>. Introduz <kbd>0000-00-00</kbd> para seleccionar Utilizadores que nunca entraram, as condições <em>Antes</em> e <em>Depois</em> serão ignoradas.',
 
@@ -55,8 +55,8 @@ $lang = array_merge($lang, [
 	'PRUNE_USERS_GROUP_EXPLAIN'	=> 'Limite de utilizadores no grupo seleccionado.',
 	'PRUNE_USERS_GROUP_NONE'		=> 'Todos os grupos',
 	'PRUNE_USERS_LIST'				=> 'Limpeza automática de Utilizadores',
-	'PRUNE_USERS_LIST_DELETE'		=> 'Se seleccionar este critério, os Utilizadores terão as suas contas removidas.',
-	'PRUNE_USERS_LIST_DEACTIVATE'	=> 'Se seleccionar este critério, os Utilizadores terão as suas contas desactivadas.',
+	'PRUNE_USERS_LIST_DELETE'		=> 'Se seleccionares este critério, os Utilizadores terão as suas contas removidas.',
+	'PRUNE_USERS_LIST_DEACTIVATE'	=> 'Se seleccionares este critério, os Utilizadores terão as suas contas desactivadas.',
 
 	'SELECT_USERS_EXPLAIN'			=> 'Digita aqui utilizadores, que serão utilizados de preferência nos critérios acima. Fundadores não podem ser apagados.',
 
@@ -69,7 +69,7 @@ $lang = array_merge($lang, [
 
 // Forum Pruning
 $lang = array_merge($lang, [
-	'ACP_PRUNE_FORUMS_EXPLAIN'		=> 'Aqui podes apagar qualquer Tópico que não tem sido respondido ou visualizado dentro do número de dias seleccionado. Se não escreveres um número, então todos os Tópicos serão apagados. Nota que esta operação não excluirá Tópicos com Votações em Curso ou Tópicos Fixos e Anúncios.',
+	'ACP_PRUNE_FORUMS_EXPLAIN'		=> 'Aqui podes apagar qualquer Tópico que não tenha sido respondido ou visualizado dentro do número de dias seleccionado. Se não escreveres um número, todos os Tópicos serão apagados. Tem em atenção que esta operação não excluirá Tópicos com Votações em Curso ou Tópicos Fixos e Anúncios.',
 
 	'FORUM_PRUNE'						=> 'Limpeza',
 
@@ -82,7 +82,7 @@ $lang = array_merge($lang, [
 	'PRUNE_ANNOUNCEMENTS'			=> 'Limpar Anúncios',
 	'PRUNE_FINISHED_POLLS'			=> 'Limpar Votações Encerradas',
 	'PRUNE_FINISHED_POLLS_EXPLAIN'	=> 'Apagar Tópicos com Votações concluídas',
-	'PRUNE_FORUM_CONFIRM'			=> 'Tem a certeza que desejas activar a limpeza automática nos Fóruns seleccionados com as configurações especificadas? Os Tópicos e Mensagens apagados não podem ser recuperados.',
+	'PRUNE_FORUM_CONFIRM'			=> 'Tens a certeza que desejas activar a limpeza automática nos Fóruns seleccionados com as configurações especificadas? Os Tópicos e Mensagens apagados não podem ser recuperados.',
 	'PRUNE_NOT_POSTED'				=> 'Dias desde o último enviado',
 	'PRUNE_NOT_VIEWED'				=> 'Dias desde o último visualizado',
 	'PRUNE_OLD_POLLS'					=> 'Limpar votações Antigas',

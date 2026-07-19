@@ -57,7 +57,7 @@ $lang = array_merge($lang, [
 
 	'JUMP_TO_POST'					=> 'Ir para a mensagem',
 
-	'LOGIN_EXPLAIN_EGOSEARCH'		=> 'É necessário que esteja registado para visualizar os Tópicos.',
+	'LOGIN_EXPLAIN_EGOSEARCH'		=> 'É necessário que estejas registado para visualizares os Tópicos.',
 	'LOGIN_EXPLAIN_UNREADSEARCH'	=> 'É necessário que estejas registado e autenticado para ver as tuas mensagens lidas.',
 	'LOGIN_EXPLAIN_NEWPOSTS'		=> 'É necessário que estejas registado e autenticado para ver novas mensagens desde a tua última visita.',
 
@@ -68,7 +68,7 @@ $lang = array_merge($lang, [
 
 	'NO_KEYWORDS'					=> 'Tens que especificar pelo menos uma palavra para a pesquisa. Cada palavra tem que conter no mínimo %s caracteres e não pode conter mais do que %s caracteres.',
 	'NO_RECENT_SEARCHES'			=> 'Sem procuras recentes',
-	'NO_SEARCH'						=> 'Não está autorizado a usar a pesquisa.',
+	'NO_SEARCH'						=> 'Não estás autorizado a usar a pesquisa.',
 	'NO_SEARCH_RESULTS'			=> 'Não foi encontrado nenhum resultado.',
 	'NO_SEARCH_LOAD'				=> 'Desculpe, mas não pode usar, de momento, a pesquisa. O servidor encontra-se sobrecarregado. Por favor, tenta novamente mais tarde.',
 	'NO_SEARCH_TIME'		=> [

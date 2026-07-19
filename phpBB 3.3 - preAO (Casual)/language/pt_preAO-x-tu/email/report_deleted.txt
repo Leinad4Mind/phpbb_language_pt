@@ -7,7 +7,7 @@ A tua Denúncia sobre a mensagem "{POST_SUBJECT}" no Tópico "{TOPIC_TITLE}" em 
 
 
 Obrigado, {USERNAME}.
-Continue a participar activamente.
+Continua a participar activamente.
 A tua colaboração é fundamental para todos nós.
 
 

@@ -39,7 +39,7 @@ $lang = array_merge($lang, [
 	'ACP_FILES'							=> 'Administração de idiomas',
 	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'O gestor de idiomas permite instalar e desinstalar idiomas no Fórum. O Idioma pré-definido está marcado com um asterisco (*).',
 
-	'DELETE_LANGUAGE_CONFIRM'		=> 'Tem a certeza que desejas apagar “%s”?',
+	'DELETE_LANGUAGE_CONFIRM'		=> 'Tens a certeza que desejas apagar “%s”?',
 
 	'INSTALLED_LANGUAGE_PACKS'		=> 'Pacotes de idiomas instalados',
 
@@ -48,7 +48,7 @@ $lang = array_merge($lang, [
 	'LANGUAGE_PACK_DELETED'			=> 'O Pacote de idioma “%s” foi removido com sucesso. Foi atribuído o idioma padrão a todos os utilizadores que usavam essa linguagem.',
 	'LANGUAGE_PACK_DETAILS'			=> 'Detalhes do Pacote de idiomas',
 	'LANGUAGE_PACK_INSTALLED'		=> 'O Pacote de idiomas %s foi instalado com sucesso.',
-	'LANGUAGE_PACK_CPF_UPDATE'		=> 'A informação dos campos de perfil personalizado foi copiada do idioma padrão. Altere se necessário.',
+	'LANGUAGE_PACK_CPF_UPDATE'		=> 'A informação dos campos de perfil personalizado foi copiada do idioma padrão. Altera-a se necessário.',
 	'LANGUAGE_PACK_ISO'				=> 'ISO',
 	'LANGUAGE_PACK_LOCALNAME'		=> 'Nome do Local',
 	'LANGUAGE_PACK_NAME'				=> 'Nome',
@@ -65,7 +65,7 @@ $lang = array_merge($lang, [
 
 	'NO_FILE_SELECTED'				=> 'Não foi seleccionado o Ficheiro de Linguagem.',
 	'NO_LANG_ID'						=> 'Não foi seleccionado um pacote de idioma.',
-	'NO_REMOVE_DEFAULT_LANG'		=> 'Não pode excluir o pacote de idioma Oficial<br />Se desejas excluir este pacote, altera o idioma Oficial do Fórum.',
+	'NO_REMOVE_DEFAULT_LANG'		=> 'Não podes excluir o pacote de idioma Oficial<br />Se desejares excluir este pacote, altera o idioma Oficial do Fórum.',
 	'NO_UNINSTALLED_LANGUAGE_PACKS'	=> 'Não há Pacotes de idiomas desinstalados',
 
 	'THOSE_MISSING_LANG_FILES'			=> 'Os Ficheiros seguintes estão ausentes da pasta %s de idiomas',

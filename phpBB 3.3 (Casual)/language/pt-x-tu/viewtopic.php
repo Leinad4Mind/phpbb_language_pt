@@ -51,7 +51,7 @@ $lang = array_merge($lang, [
 	'DELETE_TOPIC'						=> 'Eliminar Tópico',
 	'DELETED_INFORMATION'			=> 'Apagado por %1$s em %2$s',
 	'DISAPPROVE'						=> 'Reprovar',
-	'DOWNLOAD_NOTICE'					=> 'Não tem Permissão para ver os ficheiros anexados nesta mensagem.',
+	'DOWNLOAD_NOTICE'					=> 'Não tens Permissão para ver os ficheiros anexados nesta mensagem.',
 
 	'EDITED_TIMES_TOTAL'	=> [
 		1	=> 'Última edição por %2$s em %3$s, editado %1$d vez no total.',
@@ -64,7 +64,7 @@ $lang = array_merge($lang, [
 	'FORK_TOPIC'						=> 'Copiar Tópico',
 	'FULL_EDITOR'						=> 'Editor completo',
 
-	'LINKAGE_FORBIDDEN'				=> 'Não está autorizado a ver o atalho para esta página.',
+	'LINKAGE_FORBIDDEN'				=> 'Não estás autorizado a ver o atalho para esta página.',
 	'LOGIN_NOTIFY_TOPIC'				=> 'Foste notificado por este Tópico, liga-te para vê-lo.',
 	'LOGIN_VIEWTOPIC'					=> 'Tens que estar Registado e ligado para ver este Tópico.',
 
@@ -79,17 +79,17 @@ $lang = array_merge($lang, [
 	'MISSING_INLINE_ATTACHMENT'	=> 'O ficheiro <strong>%s</strong> não está disponível',
 	'MOVE_TOPIC'						=> 'Mover Tópico',
 
-	'NO_ATTACHMENT_SELECTED'		=> 'Não selecionou nenhum Ficheiro para transferência.',
+	'NO_ATTACHMENT_SELECTED'		=> 'Não selecionaste nenhum Ficheiro para transferência.',
 	'NO_NEWER_TOPICS'					=> 'Não há Tópicos novos neste Fórum.',
 	'NO_OLDER_TOPICS'					=> 'Não há Tópicos antigos neste Fórum.',
 	'NO_UNREAD_POSTS'					=> 'Não há Mensagens novas não lidas neste Tópico.',
 	'NO_VOTE_OPTION'					=> 'Deves selecionar uma opção para votar.',
 	'NO_VOTES'							=> 'Sem votos',
-	'NO_AUTH_PRINT_TOPIC'			=> 'Não está autorizado a imprimir tópicos.',
+	'NO_AUTH_PRINT_TOPIC'			=> 'Não estás autorizado a imprimir tópicos.',
 
 	'POLL_ENDED_AT'					=> 'Votação encerrada em %s',
 	'POLL_RUN_TILL'					=> 'A votação será encerrada em %s',
-	'POLL_VOTED_OPTION'				=> 'Votou nesta opção',
+	'POLL_VOTED_OPTION'				=> 'Votaste nesta opção',
 	'POST_DELETED_RESTORE'			=> 'Esta mensagem foi excluída. Pode ser restaurada.',
 	'PRINT_TOPIC'						=> 'Versão para impressão',
 

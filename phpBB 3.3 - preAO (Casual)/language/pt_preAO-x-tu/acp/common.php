@@ -269,7 +269,7 @@ $lang = array_merge($lang, [
 	'LOGIN_ADMIN_CONFIRM'			=> 'Para administrar o Fórum, tens de confirmar o teu acesso.',
 	'LOGIN_ADMIN_SUCCESS'			=> 'O teu Registo foi validado com sucesso. Vais ser redireccionado para o Painel de Administração.',
 	'LOOK_UP_FORUM'					=> 'Selecciona um Fórum',
-	'LOOK_UP_FORUMS_EXPLAIN'		=> 'Nesta opção pode seleccionar vários Fóruns. Pressione a tecla CTRL ou Shift para seleccionar um a um ou vários Fóruns.',
+	'LOOK_UP_FORUMS_EXPLAIN'		=> 'Nesta opção, podes seleccionar vários Fóruns. Mantém premida a tecla CTRL ou Shift para seleccionares um ou vários Fóruns.',
 
 	'MANAGE'								=> 'Administrar',
 	'MENU_TOGGLE'						=> 'Ocultar ou mostrar o Menu lateral',
@@ -279,9 +279,9 @@ $lang = array_merge($lang, [
 	'MOVE_UP'							=> 'Mover - Cima',
 
 	'NOTIFY'								=> 'Aviso',
-	'NO_ADMIN'							=> 'Não está autorizado a Administrar este Fórum.',
+	'NO_ADMIN'							=> 'Não estás autorizado a Administrar este Fórum.',
 	'NO_EMAILS_DEFINED'				=> 'Sem endereços de email válidos encontrados.',
-	'NO_FILES_TO_DELETE'				=> 'Os anexos que seleccionou para eliminação não existem.',
+	'NO_FILES_TO_DELETE'				=> 'Os anexos que seleccionaste para eliminação não existem.',
 	'NO_PASSWORD_SUPPLIED'			=> 'Tens de indicar a tua senha para aceder ao Painel de Administração.',
 
 	'OFF'									=> 'Desactivado',
@@ -329,17 +329,17 @@ $lang = array_merge($lang, [
 
 // PHP info
 $lang = array_merge($lang, [
-	'ACP_PHP_INFO_EXPLAIN'			=> 'Esta página mostra informações da versão do PHP instalada neste servidor, incluindo detalhes dos módulos carregados, variáveis disponíveis e as configurações padrão. Esta informação pode ser necessária quando forem detectados erros. Alguns servidores podem limitar, por medida de segurança, as informações exibidas. Mantenha estas informações reservadas excepto quando questionado pela <a href="https://www.phpbb.com/about/team/">membros da equipa oficial</a> no Fórum de Suporte.',
+	'ACP_PHP_INFO_EXPLAIN'			=> 'Esta página mostra informações da versão do PHP instalada neste servidor, incluindo detalhes dos módulos carregados, variáveis disponíveis e as configurações padrão. Esta informação pode ser necessária quando forem detectados erros. Alguns servidores podem limitar, por medida de segurança, as informações exibidas. Mantém estas informações reservadas, exceto quando os membros da <a href="https://www.phpbb.com/about/team/">equipa oficial</a> te pedirem que as partilhes no Fórum de Suporte.',
 
 	'NO_PHPINFO_AVAILABLE'			=> 'As informações do PHP não podem ser determinadas. O Phpinfo() foi desactivado por medidas de segurança.',
 ]);
 
 // Logs
 $lang = array_merge($lang, [
-	'ACP_ADMIN_LOGS_EXPLAIN'		=> 'Esta é a lista das acções dos Administradores. Podes ordená-la por Utilizador, data, Endereço de IP ou Acção do Registo. Se tiveres as permissões adequadas, podes limpar operações individuais ou todo o registo.',
-	'ACP_CRITICAL_LOGS_EXPLAIN'	=> 'Esta é a lista das acções realizadas pelo Fórum. Estes registos têm informações que permitem solucionar problemas específicos, por exemplo uma falha no envio de emails.  Podes ordená-la por Utilizador, data, IP ou acção. Se tiveres as permissões adequadas, podes limpar operações individuais ou todo o registo.',
-	'ACP_MOD_LOGS_EXPLAIN'			=> 'Esta é a lista das acções dos Moderadores do Fórum. Podes ordená-la por Utilizador, data, Endereço de IP ou Acção do Registo. Se tiveres as permissões adequadas, podes limpar operações individuais ou todo o registo.',
-	'ACP_USERS_LOGS_EXPLAIN'		=> 'Esta é a lista das acções dos Utilizadores do Fórum. Podes ordená-la por Utilizador, data, Endereço de IP ou Acção do Registo. Se tiveres as permissões adequadas, podes limpar operações individuais ou todo o registo.',
+	'ACP_ADMIN_LOGS_EXPLAIN'		=> 'Esta é a lista das ações dos Administradores. Podes ordená-la por Utilizador, data, Endereço de IP ou Ação do Registo. Se tiveres as permissões adequadas, podes limpar operações individuais ou todo o registo.',
+	'ACP_CRITICAL_LOGS_EXPLAIN'	=> 'Esta é a lista das ações realizadas pelo Fórum. Estes registos têm informações que permitem solucionar problemas específicos, por exemplo uma falha no envio de emails.  Podes ordená-la por Utilizador, data, IP ou ação. Se tiveres as permissões adequadas, podes limpar operações individuais ou todo o registo.',
+	'ACP_MOD_LOGS_EXPLAIN'			=> 'Esta é a lista das ações dos Moderadores do Fórum. Podes ordená-la por Utilizador, data, Endereço de IP ou Ação do Registo. Se tiveres as permissões adequadas, podes limpar operações individuais ou todo o registo.',
+	'ACP_USERS_LOGS_EXPLAIN'		=> 'Esta é a lista das ações dos Utilizadores do Fórum. Podes ordená-la por Utilizador, data, Endereço de IP ou Ação do Registo. Se tiveres as permissões adequadas, podes limpar operações individuais ou todo o registo.',
 	'ALL_ENTRIES'						=> 'Todas as Entradas',
 
 	'DISPLAY_LOG'						=> 'Exibir Entradas anteriores',
@@ -427,7 +427,7 @@ $lang = array_merge($lang, [
 	'STATISTIC'							=> 'Estatísticas',
 	'STATISTIC_RESYNC_OPTIONS'		=> 'Sincronizar ou reiniciar as estatísticas',
 
-	'TIMEZONE_INVALID'				=> 'O fuso horário que seleccionou é inválido',
+	'TIMEZONE_INVALID'				=> 'O fuso horário que seleccionaste é inválido',
 	'TIMEZONE_SELECTED'				=> '(seleccionado actualmente)',
 	'TOPICS_PER_DAY'					=> 'Média de Tópicos diários',
 
@@ -463,7 +463,7 @@ $lang = array_merge($lang, [
 	'INACTIVE_REASON_UNKNOWN'		=> 'Desconhecido',
 	'INACTIVE_USERS'					=> 'Utilizadores Inactivos',
 	'INACTIVE_USERS_EXPLAIN'		=> 'Esta é uma lista dos Utilizadores Registados, mas com os Registos ainda inactivos. Se desejares podes activar, excluir ou avisar (enviando um email) estes Utilizadores.',
-	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Lista dos 10 últimos Utilizadores Registados ainda inactivos. As Contas estão inactivas porque a sua activação está configurada para ser feita pelo próprio utilizador e estes ainda o não fizeram ou porque foram desactivadas. A lista completa está disponível através do item apropriado do menu ou clicando no atalho abaixo onde pode activar, excluir ou avisar (enviando um email) estes Utilizadores se desejar.',
+	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Lista dos 10 últimos Utilizadores Registados ainda inativos. As Contas estão inativas porque a sua activação está configurada para ser feita pelo próprio utilizador e estes ainda o não fizeram ou porque foram desactivadas. A lista completa está disponível através do item apropriado do menu ou clicando no atalho abaixo onde podes activar, excluir ou avisar (enviando um email) estes Utilizadores se desejares.',
 
 	'NO_INACTIVE_USERS'				=> 'Não há Utilizadores Inactivos',
 
@@ -479,7 +479,7 @@ $lang = array_merge($lang, [
 
 // Send statistics page
 $lang = array_merge($lang, [
-	'EXPLAIN_SEND_STATISTICS'		=> 'Por favor, envia informação acerca do teu servidor e configurações do Fórum para análise de estatística do phpBB. Toda a informação que possa identificá-lo a si ou ao teu website será removida - os dados são totalmente <strong>anónimos</strong>. Basearemos as nossas decisões sobre as futuras versões de phpBB com esta informação. As estatísticas serão publicamente disponibilizadas. Compartilharemos igualmente os dados com o projecto PHP, a linguagem de programação phpBB é baseada nele.',
+	'EXPLAIN_SEND_STATISTICS'		=> 'Por favor, envia informação acerca do teu servidor e configurações do Fórum para análise de estatística do phpBB. Toda a informação que possa identificar-te ou ao teu website será removida - os dados são totalmente <strong>anónimos</strong>. Basearemos as nossas decisões sobre as futuras versões de phpBB com esta informação. As estatísticas serão publicamente disponibilizadas. Compartilharemos igualmente os dados com o projecto PHP, a linguagem de programação phpBB é baseada nele.',
 	'EXPLAIN_SHOW_STATISTICS'		=> 'Usando o botão abaixo pode visualizar todas as variáveis que serão transmitidas.',
 	'DONT_SEND_STATISTICS'			=> 'Clica aqui para entrar no ACP, se não desejas enviar as informações estatísticas para o phpBB.',
 	'GO_ACP_MAIN'						=> 'Ir para a página inicial do ACP',

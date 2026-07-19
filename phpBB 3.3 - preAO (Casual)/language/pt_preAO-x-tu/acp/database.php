@@ -50,7 +50,7 @@ $lang = array_merge($lang, [
 	'DATABASE'						=> 'Ferramentas da Base de Dados',
 	'DATA_ONLY'						=> 'Só Dados',
 	'DELETE_BACKUP'				=> 'Apagar Cópia de Segurança',
-	'DELETE_SELECTED_BACKUP'	=> 'Tem a certeza que desejas apagar a Cópia de Segurança da Base de Dados seleccionada?',
+	'DELETE_SELECTED_BACKUP'	=> 'Tens a certeza que desejas apagar a Cópia de Segurança da Base de Dados seleccionada?',
 	'DESELECT_ALL'					=> 'Desmarcar todas',
 	'DOWNLOAD_BACKUP'				=> 'Transferir Cópia de Segurança',
 
@@ -60,7 +60,7 @@ $lang = array_merge($lang, [
 
 	'RESTORE_FAILURE'				=> 'O Ficheiro da Cópia de Segurança deve estar corrompido.',
 	'RESTORE_OPTIONS'				=> 'Opções de restauração',
-	'RESTORE_SELECTED_BACKUP'	=> 'Tem a certeza que desejas restaurar a Cópia de Segurança seleccionada?',
+	'RESTORE_SELECTED_BACKUP'	=> 'Tens a certeza que desejas restaurar a Cópia de Segurança seleccionada?',
 	'RESTORE_SUCCESS'				=> 'A Base de Dados foi restaurada com sucesso.<br /><br />O Fórum deverá estar de acordo com o momento em que a cópia de segurança foi feita.',
 
 	'SELECT_ALL'					=> 'Marcar todas',
@@ -71,5 +71,5 @@ $lang = array_merge($lang, [
 	'STORE_LOCAL'					=> 'Guardar na pasta /store do Fórum',
 
 	'TABLE_SELECT'					=> 'Selecção de Tabelas',
-	'TABLE_SELECT_ERROR'			=> 'Deve seleccionar pelo menos uma Tabela.',
+	'TABLE_SELECT_ERROR'			=> 'Deves seleccionar pelo menos uma Tabela.',
 ]);

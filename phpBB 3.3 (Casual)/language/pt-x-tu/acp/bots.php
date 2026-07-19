@@ -62,8 +62,8 @@ $lang = array_merge($lang, [
 	'BOT_STYLE_EXPLAIN'		=> 'O estilo usado para o Fórum pelo Motor de Busca.',
 	'BOT_UPDATED'				=> 'Motor de Busca existente atualizado com sucesso.',
 
-	'ERR_BOT_AGENT_MATCHES_UA'	=> 'O agente do motor de busca que escolheu é semelhante ao que está a usar atualmente. Por favor ajuste o agente para este Motor de Busca.',
-	'ERR_BOT_NO_IP'				=> 'O IP que forneceu é inválido ou o hostname não pode ser resolvido.',
+	'ERR_BOT_AGENT_MATCHES_UA'	=> 'O agente do motor de busca que escolheste é semelhante ao que estás a usar atualmente. Por favor, ajusta o agente deste Motor de Busca.',
+	'ERR_BOT_NO_IP'				=> 'O IP que forneceste é inválido ou o hostname não pode ser resolvido.',
 	'ERR_BOT_NO_MATCHES'			=> 'Tens que indicar pelo menos uma descrição do navegador ou um IP para o parâmetro.',
 
 	'NO_BOT'						=> 'O Motor de Busca selecionado não existe.',

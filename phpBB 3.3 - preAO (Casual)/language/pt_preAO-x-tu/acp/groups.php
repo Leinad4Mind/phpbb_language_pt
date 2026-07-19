@@ -36,10 +36,10 @@ if (empty($lang) || !is_array($lang)) {
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, [
-	'ACP_GROUPS_MANAGE_EXPLAIN'		=> 'Aqui podes criar, configurar e eliminar Grupos. Pode ainda escolher os Líderes dos Grupos, especificar o seu estado (Aberto ou Fechado) e atribuir um Nome e uma Descrição ao Grupo.',
+	'ACP_GROUPS_MANAGE_EXPLAIN'		=> 'Aqui podes criar, configurar e eliminar Grupos. Podes ainda escolher os Líderes dos Grupos, especificar o respectivo estado (Aberto ou Fechado) e atribuir um Nome e uma Descrição ao Grupo.',
 	'ADD_GROUP_CATEGORY'					=> 'Adicionar Categoria',
 	'ADD_USERS'								=> 'Adicionar Utilizadores',
-	'ADD_USERS_EXPLAIN'					=> 'Aqui podes adicionar novos Membros ao Grupo. Deve indicar se é o Grupo Padrão dos Utilizadores seleccionados. Pode seleccionar os Líderes do Grupo. Escreve apenas um Utilizador por linha.',
+	'ADD_USERS_EXPLAIN'					=> 'Aqui podes adicionar novos Membros ao Grupo. Deves indicar se é o Grupo Padrão dos Utilizadores seleccionados. Podes seleccionar os Líderes do Grupo. Escreve apenas um Utilizador por linha.',
 
 	'COPY_PERMISSIONS'					=> 'Copiar Permissões de',
 	'COPY_PERMISSIONS_EXPLAIN'			=> 'Uma vez criadas, o Grupo terá as mesmas Permissões que seleccionar aqui.',
@@ -57,8 +57,8 @@ $lang = array_merge($lang, [
 	'GROUP_COLOR'							=> 'Cor do Grupo',
 	'GROUP_COLOR_EXPLAIN'				=> 'Selecciona a cor dos Utilizadores do Grupo. Deixa em branco se não desejas activar esta opção.',
 	'GROUP_CONFIRM_ADD_USERS'			=> [
-		1	=> 'Tem a certeza que desejas adicionar o utilizador %2$s ao Grupo?',
-		2	=> 'Tem a certeza que desejas adicionar os utilizadores %2$s ao Grupo?',
+		1	=> 'Tens a certeza que desejas adicionar o utilizador %2$s ao Grupo?',
+		2	=> 'Tens a certeza que desejas adicionar os utilizadores %2$s ao Grupo?',
 	],
 	'GROUP_CREATED'						=> 'O Grupo seleccionado foi criado com sucesso.',
 	'GROUP_DEFAULT'						=> 'Selecciona este como Grupo Padrão para este Utilizador.',
@@ -78,9 +78,9 @@ $lang = array_merge($lang, [
 	'GROUP_LEADERS_ADDED'				=> 'Novos Líderes adicionados com sucesso.',
 	'GROUP_LEGEND'							=> 'Exibir o Grupo na Legenda',
 	'GROUP_LIST'							=> 'Utilizadores actuais',
-	'GROUP_LIST_EXPLAIN'					=> 'Esta é uma lista completa de todos os Membros actuais com Direcção Geral neste Grupo. Pode apagar Utilizadores (excepto em certos Grupos especiais) ou adicionar novos como pode ver.',
+	'GROUP_LIST_EXPLAIN'					=> 'Esta é uma lista completa de todos os Membros atuais com Direção Geral neste Grupo. Podes apagar Utilizadores (exceto em certos Grupos especiais) ou adicionar novos.',
 	'GROUP_MEMBERS'						=> 'Membros do Grupo',
-	'GROUP_MEMBERS_EXPLAIN'				=> 'Esta é uma lista completa dos Membros deste Grupo. Inclui secções separadas para Líderes, pendentes e Membros actuais. Neste Painel pode configurar os gestores deste Grupo e as suas tarefas. Para apagar um Líder sem retirá-lo do Grupo, usa a Opção Demitir Líder. Para promover um Membro do Grupo a Líder selecciona Promover Líder.',
+	'GROUP_MEMBERS_EXPLAIN'				=> 'Esta é uma lista completa dos Membros deste Grupo. Inclui secções separadas para Líderes, pendentes e Membros atuais. Neste Painel podes configurar os gestores deste Grupo e as suas tarefas. Para apagar um Líder sem o retirar do Grupo, usa a opção Demitir Líder. Para promover um Membro do Grupo a Líder, selecciona Promover Líder.',
 	'GROUP_MESSAGE_LIMIT'				=> 'Limite de Mensagens Privadas do Grupo por Pasta',
 	'GROUP_MESSAGE_LIMIT_EXPLAIN'		=> 'Esta configuração substitui o limite de mensagens de cada pasta por Utilizador. O valor definido é o valor máximo de entre todos os grupos do utilizador.<br />Coloca a 0 para substituir globalmente a configuração de todos os utilizadores deste grupo.',
 	'GROUP_MODS_ADDED'					=> 'Os Moderadores do Grupo foram adicionados com sucesso.',
@@ -126,7 +126,7 @@ $lang = array_merge($lang, [
 	'NO_GROUPS_ADDED'						=> 'Ainda não há nenhum Grupo adicionado.',
 	'NO_GROUPS_CREATED'					=> 'Ainda não há Grupos.',
 	'NO_PERMISSIONS'						=> 'Não Copiar Permissões',
-	'NO_USERS'								=> 'Não especificou nenhum Utilizador.',
+	'NO_USERS'								=> 'Não especificaste nenhum Utilizador.',
 	'NO_USERS_ADDED'						=> 'Não foram adicionados Utilizadores a este Grupo.',
 	'NO_VALID_USERS'						=> 'Não entrou com nenhum Utilizador com Permissões para usar esta opção.',
 
@@ -150,7 +150,7 @@ $lang = array_merge($lang, [
 	'USERS_APPROVED'						=> 'Os Utilizadores seleccionados foram aprovados com sucesso.',
 	'USER_DEFAULT'							=> 'Utilizador Padrão',
 	'USER_DEF_GROUPS'						=> 'Grupos Criados pelo Administrador',
-	'USER_DEF_GROUPS_EXPLAIN'			=> 'Pode gerir as Permissões dos Membros destes Grupos. Editar as Configurações ou eliminar o Grupo.',
+	'USER_DEF_GROUPS_EXPLAIN'			=> 'Podes gerir as Permissões dos Membros destes Grupos. Editar as Configurações ou eliminar o Grupo.',
 	'USER_GROUP_DEFAULT'					=> 'Grupo Padrão',
 	'USER_GROUP_DEFAULT_EXPLAIN'		=> 'Ao seleccionar SIM será este o Grupo Padrão dos Utilizadores.',
 	'USER_GROUP_LEADER'					=> 'Líder do Grupo',

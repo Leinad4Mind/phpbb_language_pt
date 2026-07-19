@@ -42,7 +42,7 @@ $lang = array_merge($lang, [
 	'BAN_ALREADY_ENTERED'			=> 'A expulsão já tinha sido previamente informada. A lista de expulsões não foi atualizada.',
 	'BAN_SUCCESSFUL'					=> 'Expulso com sucesso!',
 
-	'CANNOT_BAN_ANONYMOUS'			=> 'Não tem permissão para eliminar a conta Visitantes. As Permissões dos Visitantes podem ser definidas no separador Permissões.',
+	'CANNOT_BAN_ANONYMOUS'			=> 'Não tens permissão para eliminar a conta Visitantes. As Permissões dos Visitantes podem ser definidas no separador Permissões.',
 	'CANNOT_BAN_FOUNDER'				=> 'Não podes expulsar Fundadores.',
 	'CANNOT_BAN_YOURSELF'			=> 'Não podes auto expulsar-te.',
 	'CANNOT_DEACTIVATE_BOT'			=> 'Não podes desativar contas de Motores de Busca. Desativa o Motor de Busca.',
@@ -56,7 +56,7 @@ $lang = array_merge($lang, [
 	'CANNOT_REMOVE_YOURSELF'		=> 'Não podes remover a tua própria conta.',
 	'CANNOT_SET_FOUNDER_IGNORED'	=> 'Não podes promover os Utilizadores ignorados a Fundadores.',
 	'CANNOT_SET_FOUNDER_INACTIVE'	=> 'Tens que ativar os Utilizadores antes de os promover a Fundadores, apenas Utilizadores ativos podem ser promovidos.',
-	'CONFIRM_EMAIL_EXPLAIN'			=> 'Introduzir apenas se desejar alterar o endereço de email.',
+	'CONFIRM_EMAIL_EXPLAIN'			=> 'Introduz apenas se desejares alterar o endereço de email.',
 
 	'DELETE_POSTS'						=> 'Apagar as Mensagens',
 	'DELETE_USER'						=> 'Apagar Utilizador',
@@ -80,7 +80,7 @@ $lang = array_merge($lang, [
 
 	'NO_SPECIAL_RANK'					=> 'Sem atribuição de classificação especial',
 	'NO_WARNINGS'						=> 'Nenhum Aviso.',
-	'NOT_MANAGE_FOUNDER'				=> 'Tentou gerir um Utilizador Fundador do Fórum. Apenas Fundadores podem gerir outros Fundadores.',
+	'NOT_MANAGE_FOUNDER'				=> 'Tentaste gerir um Utilizador Fundador do Fórum. Apenas Fundadores podem gerir outros Fundadores.',
 
 	'QUICK_TOOLS'						=> 'Ferramentas Rápidas',
 
@@ -119,7 +119,7 @@ $lang = array_merge($lang, [
 	'USER_AVATAR_TYPE_NOT_ALLOWED'	=> 'O avatar atual não pode ser exibido porque não é permitido.',
 	'USER_CUSTOM_PROFILE_FIELDS'	=> 'Campos de Perfil Personalizados',
 	'USER_DELETED'						=> 'Utilizador apagado com sucesso.',
-	'USER_GROUP_ADD'					=> 'Adiciona Utilizador ao Grupo',
+	'USER_GROUP_ADD'					=> 'Adicionar Utilizador ao Grupo',
 	'USER_GROUP_NORMAL'				=> 'Grupos de Utilizadores Normal é um membro de',
 	'USER_GROUP_PENDING'				=> 'O Utilizador tem a inscrição pendente nos Grupos',
 	'USER_GROUP_SPECIAL'				=> 'O Utilizador é Membro dos Grupos pré-definidos',

@@ -442,9 +442,9 @@ $lang = array_merge($lang, [
 	'VERSIONCHECK_INVALID_ENTRY'	=> 'A informação da última versão contém uma entrada não suportada.',
 	'VERSIONCHECK_INVALID_URL'		=> 'A informação da última versão contém um URL inválido.',
 	'VERSIONCHECK_INVALID_VERSION'	=> 'A informação da última versão contém uma versão inválida.',
-	'VERSION_NOT_UP_TO_DATE_ACP'		=> 'A tua instalação do phpBB não está atualizada.<br />Abaixo está um link para o anúncio de lançamento, que contém mais informações, bem como as instruções sobre como atualizar.',
-	'VERSION_NOT_UP_TO_DATE_TITLE'	=> 'A tua instalação do phpBB não está atualizada.',
-	'VERSION_UP_TO_DATE_ACP'		=> 'A tua instalação do phpBB está atualizada. Não há atualizações disponíveis de momento.',
+	'VERSION_NOT_UP_TO_DATE_ACP'		=> 'A sua instalação do phpBB não está atualizada.<br />Abaixo está um link para o anúncio de lançamento, que contém mais informações, bem como as instruções sobre como atualizar.',
+	'VERSION_NOT_UP_TO_DATE_TITLE'	=> 'A sua instalação do phpBB não está atualizada.',
+	'VERSION_UP_TO_DATE_ACP'		=> 'A sua instalação do phpBB está atualizada. Não há atualizações disponíveis de momento.',
 	'VIEW_ADMIN_LOG'					=> 'Ver registos do Administrador',
 	'VIEW_INACTIVE_USERS'			=> 'Ver Utilizadores Inativos',
 

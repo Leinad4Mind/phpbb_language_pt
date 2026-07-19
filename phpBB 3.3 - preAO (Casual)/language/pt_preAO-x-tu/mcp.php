@@ -128,12 +128,12 @@ $lang = array_merge($lang, [
 	'LOCK_POST_POST'					=> 'Bloquear Mensagem',
 	'LOCK_POST_POST_CONFIRM'		=> 'Tens a certeza que queres bloquear esta Mensagem?(Não poderás editá-la futuramente)',
 	'LOCK_POST_POSTS'					=> 'Bloquear Mensagens seleccionadas',
-	'LOCK_POST_POSTS_CONFIRM'		=> 'Tens a certeza que desejas bloquear as Mensagens seleccionadas?(Não poderá editá-las futuramente)',
+	'LOCK_POST_POSTS_CONFIRM'		=> 'Tens a certeza que desejas bloquear as Mensagens seleccionadas?(Não poderás editá-las futuramente)',
 	'LOCK_TOPIC_CONFIRM'				=> 'Tens a certeza que desejas bloquear este Tópico?',
 	'LOCK_TOPICS'						=> 'Bloquear Tópicos seleccionados',
 	'LOCK_TOPICS_CONFIRM'			=> 'Tens a certeza que desejas bloquear todos os Tópicos seleccionados?',
 	'LOGS_CURRENT_TOPIC'				=> 'A exibir os registos de:',
-	'LOGIN_EXPLAIN_MCP'				=> 'Para moderar este Fórum tens que entrar.',
+	'LOGIN_EXPLAIN_MCP'				=> 'Para moderares este Fórum tens de entrar.',
 	'LOGVIEW_VIEWPOST'				=> 'Mostrar mensagem',
 	'LOGVIEW_VIEWTOPIC'				=> 'Mostrar Tópico',
 	'LOGVIEW_VIEWLOGS'				=> 'Mostrar registo do Tópico',
@@ -204,9 +204,9 @@ $lang = array_merge($lang, [
 	'MCP_QUEUE_UNAPPROVED_TOPICS'				=> 'Tópicos para aprovação',
 	'MCP_QUEUE_UNAPPROVED_TOPICS_EXPLAIN'	=> 'Lista de Tópicos que aguardam aprovação para se tornarem visíveis aos Utilizadores.',
 	'MCP_QUEUE_DELETED_POSTS'					=> 'Mensagens excluídas',
-	'MCP_QUEUE_DELETED_POSTS_EXPLAIN'		=> 'Esta é uma lista de todas as mensagens excluídas. Pode restaurar ou apagar permanentemente todas as mensagens.',
+	'MCP_QUEUE_DELETED_POSTS_EXPLAIN'		=> 'Esta é uma lista de todas as mensagens excluídas. Podes restaurar ou apagar permanentemente todas as mensagens.',
 	'MCP_QUEUE_DELETED_TOPICS'					=> 'Tópicos excluídos',
-	'MCP_QUEUE_DELETED_TOPICS_EXPLAIN'		=> 'Esta é uma lista de todos os tópicos excluídos. Pode restaurar ou apagar permanentemente todos os tópicos.',
+	'MCP_QUEUE_DELETED_TOPICS_EXPLAIN'		=> 'Esta é uma lista de todos os tópicos excluídos. Podes restaurar ou apagar permanentemente todos os tópicos.',
 
 	'MCP_VIEW_USER'						=> 'Ver avisos dum Utilizador específico',
 
@@ -285,7 +285,7 @@ $lang = array_merge($lang, [
 	'POST_DELETED_SUCCESS'				=> 'A mensagem seleccionada foi apagada da base de dados com sucesso.',
 	'POST_DISAPPROVED_SUCCESS'			=> 'A mensagem seleccionada foi reprovada com sucesso.',
 	'POST_LOCKED_SUCCESS'				=> 'A mensagem seleccionada foi bloqueada com sucesso.',
-	'POST_NOT_EXIST'						=> 'A mensagem que solicitou não existe.',
+	'POST_NOT_EXIST'						=> 'A mensagem que solicitaste não existe.',
 	'POST_REPORTED_SUCCESS'				=> 'A mensagem foi relatada com sucesso.',
 	'POST_RESTORED_SUCCESS'				=> 'Esta mensagem foi restaurada com sucesso.',
 	'POST_UNLOCKED_SUCCESS'				=> 'A mensagem foi desbloqueada com sucesso.',
@@ -409,12 +409,12 @@ $lang = array_merge($lang, [
 
 	'WARNED_USERS'						=> 'Utilizadores avisados',
 	'WARNED_USERS_EXPLAIN'			=> 'Lista de Utilizadores com avisos activos.',
-	'WARNING_PM_BODY'					=> 'O seguinte é um aviso emitido para si por um Administrador ou Moderador do Fórum.[quote]%s[quote]',
+	'WARNING_PM_BODY'					=> 'O seguinte é um aviso emitido para ti por um Administrador ou Moderador do Fórum.[quote]%s[quote]',
 	'WARNING_PM_SUBJECT'				=> 'Avisos emitidos',
 	'WARNING_POST_DEFAULT'			=> 'Este é um aviso a respeito da(s) tua(s) seguinte(s) Mensagens: %s.',
 	'NO_WARNINGS'						=> 'Não há avisos.',
 
-	'YOU_SELECTED_TOPIC'				=> 'Seleccionou o Tópico de número %d: %s.',
+	'YOU_SELECTED_TOPIC'				=> 'Seleccionaste o Tópico número %d: %s.',
 
 	'report_reasons'					=> [
 		'TITLE'							=> [

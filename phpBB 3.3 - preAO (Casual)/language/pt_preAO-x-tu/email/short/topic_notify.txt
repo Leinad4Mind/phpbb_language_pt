@@ -4,7 +4,7 @@ Olá, {USERNAME},
 
 Estás a receber esta notificação porque estás a observar o Tópico "{TOPIC_TITLE}" em "{SITENAME}". Este Tópico recebeu uma resposta<!-- IF AUTHOR_NAME !== '' --> por {AUTHOR_NAME}<!-- ENDIF --> desde a tua última visita. Podes usar o endereço abaixo para ler as respostas, não serão enviadas mais notificações até que visites o tópico.
 
-Para ver o que há de novo desde tua última visita, clica no seguinte endereço:
+Para ver o que há de novo desde a tua última visita, clica no seguinte endereço:
 {U_NEWEST_POST}
 
 Para ver o tópico, clica no seguinte endereço:

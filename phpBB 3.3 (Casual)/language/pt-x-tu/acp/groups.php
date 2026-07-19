@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang)) {
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, [
-	'ACP_GROUPS_MANAGE_EXPLAIN'		=> 'Aqui podes criar, configurar e eliminar Grupos. Pode ainda escolher os Líderes dos Grupos, especificar o seu estado (Aberto ou Fechado) e atribuir um Nome e uma Descrição ao Grupo.',
+	'ACP_GROUPS_MANAGE_EXPLAIN'		=> 'Aqui podes criar, configurar e eliminar Grupos. Podes ainda escolher os Líderes dos Grupos, especificar o respetivo estado (Aberto ou Fechado) e atribuir um Nome e uma Descrição ao Grupo.',
 	'ADD_GROUP_CATEGORY'					=> 'Adicionar Categoria',
 	'ADD_USERS'								=> 'Adicionar Utilizadores',
 	'ADD_USERS_EXPLAIN'					=> 'Aqui podes adicionar novos Membros ao Grupo. Deves indicar se é o Grupo Padrão dos Utilizadores selecionados. Podes selecionar os Líderes do Grupo. Escreve apenas um Utilizador por linha.',
@@ -78,9 +78,9 @@ $lang = array_merge($lang, [
 	'GROUP_LEADERS_ADDED'				=> 'Novos Líderes adicionados com sucesso.',
 	'GROUP_LEGEND'							=> 'Exibir o Grupo na Legenda',
 	'GROUP_LIST'							=> 'Utilizadores atuais',
-	'GROUP_LIST_EXPLAIN'					=> 'Esta é uma lista completa de todos os Membros atuais com Direção Geral neste Grupo. Pode apagar Utilizadores (exceto em certos Grupos especiais) ou adicionar novos como pode ver.',
+	'GROUP_LIST_EXPLAIN'					=> 'Esta é uma lista completa de todos os Membros atuais com Direção Geral neste Grupo. Podes apagar Utilizadores (exceto em certos Grupos especiais) ou adicionar novos.',
 	'GROUP_MEMBERS'						=> 'Membros do Grupo',
-	'GROUP_MEMBERS_EXPLAIN'				=> 'Esta é uma lista completa dos Membros deste Grupo. Inclui secções separadas para Líderes, pendentes e Membros atuais. Neste Painel pode configurar os gestores deste Grupo e as suas tarefas. Para apagar um Líder sem retirá-lo do Grupo, usa a Opção Demitir Líder. Para promover um Membro do Grupo a Líder seleciona Promover Líder.',
+	'GROUP_MEMBERS_EXPLAIN'				=> 'Esta é uma lista completa dos Membros deste Grupo. Inclui secções separadas para Líderes, pendentes e Membros atuais. Neste Painel podes configurar os gestores deste Grupo e as suas tarefas. Para apagar um Líder sem o retirar do Grupo, usa a opção Demitir Líder. Para promover um Membro do Grupo a Líder, seleciona Promover Líder.',
 	'GROUP_MESSAGE_LIMIT'				=> 'Limite de Mensagens Privadas do Grupo por Pasta',
 	'GROUP_MESSAGE_LIMIT_EXPLAIN'		=> 'Esta configuração substitui o limite de mensagens privadas por pasta do Utilizador. O valor definido é o valor máximo de entre todos os grupos do utilizador.<br />Coloca a 0 para substituir globalmente a configuração de todos os utilizadores deste grupo.',
 	'GROUP_MODS_ADDED'					=> 'Os Moderadores do Grupo foram adicionados com sucesso.',
@@ -126,7 +126,7 @@ $lang = array_merge($lang, [
 	'NO_GROUPS_ADDED'						=> 'Ainda não há nenhum Grupo adicionado.',
 	'NO_GROUPS_CREATED'					=> 'Ainda não há Grupos.',
 	'NO_PERMISSIONS'						=> 'Não Copiar Permissões',
-	'NO_USERS'								=> 'Não especificou nenhum Utilizador.',
+	'NO_USERS'								=> 'Não especificaste nenhum Utilizador.',
 	'NO_USERS_ADDED'						=> 'Não foram adicionados Utilizadores a este Grupo.',
 	'NO_VALID_USERS'						=> 'Não entrou com nenhum Utilizador com Permissões para usar esta opção.',
 

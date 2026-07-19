@@ -498,7 +498,7 @@ $lang = array_merge($lang, [
 
 // Security Settings
 $lang = array_merge($lang, [
-	'ACP_SECURITY_SETTINGS_EXPLAIN'		=> 'Aqui configura as opções relacionadas às Sessões e Acesso.',
+	'ACP_SECURITY_SETTINGS_EXPLAIN'		=> 'Aqui pode configurar as opções relacionadas com as Sessões e o Acesso.',
 
 	'ALL'											=> 'Todos',
 	'ALLOW_AUTOLOGIN'							=> 'Permitir acesso automático ("Lembrar o meu acesso")',

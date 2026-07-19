@@ -45,7 +45,7 @@ $lang = array_merge($lang, [
 	'ATTACH_COMMENT_NO_EMOJIS'	=> 'O comentário do anexo contém caracteres proibidos (Emoji).',
 	'ATTACH_DISK_FULL'			=> 'Não existe espaço livre suficiente no servidor onde se encontra este fórum para enviar o anexo.',
 	'ATTACH_QUOTA_REACHED'		=> 'A cota máxima de anexos para este painel foi alcançada.',
-	'ATTACH_SIG'					=> 'Anexar a minha assinatura (pode alterar a assinatura no Painel de Controlo do Utilizador)',
+	'ATTACH_SIG'					=> 'Anexar a minha assinatura (podes alterar a assinatura no Painel de Controlo do Utilizador)',
 
 	'BBCODE_A_HELP'				=> 'Anexo enviado: [attachment=]nome do Ficheiro.ext[/attachment]',
 	'BBCODE_B_HELP'				=> 'Texto em Negrito: [b]texto[/b]  (alt+b)',
@@ -86,7 +86,7 @@ $lang = array_merge($lang, [
 	'DELETE_FILE'					=> 'Apagar Ficheiro',
 	'DELETE_MESSAGE'				=> 'Apagar Mensagem',
 	'DELETE_MESSAGE_CONFIRM'	=> 'Tens a certeza que desejas apagar esta Mensagem?',
-	'DELETE_OWN_POSTS'			=> 'Só pode apagar as tuas Mensagens.',
+	'DELETE_OWN_POSTS'			=> 'Só podes apagar as tuas Mensagens.',
 	'DELETE_PERMANENTLY'			=> 'Eliminar',
 	'DELETE_POST_CONFIRM'					=> 'Tens a certeza que desejas apagar esta mensagem?',
 	'DELETE_POST_PERMANENTLY_CONFIRM'	=> 'Tens a certeza que desejas eliminar <strong>permanentemente</strong> esta mensagem?',
@@ -112,8 +112,8 @@ $lang = array_merge($lang, [
 	'DISABLE_SMILIES'				=> 'Desactivar as Emoções',
 	'DISALLOWED_CONTENT'			=> 'O envio foi rejeitado porque o ficheiro enviado foi identificado como potencialmente malicioso.',
 	'DISALLOWED_EXTENSION'		=> 'A extensão %s não é permitida.',
-	'DRAFT_LOADED'					=> 'Rascunho carregado, pode terminar a tua Mensagem. O rascunho será apagado ao enviar a Mensagem.',
-	'DRAFT_LOADED_PM'				=> 'Rascunho carregado, pode terminar a tua Mensagem Privada. O teu rascunho será apagado ao enviar a Mensagem Privada.',
+	'DRAFT_LOADED'					=> 'Rascunho carregado, podes terminar a tua Mensagem. O rascunho será apagado ao enviares a Mensagem.',
+	'DRAFT_LOADED_PM'				=> 'Rascunho carregado, podes terminar a tua Mensagem Privada. O teu rascunho será apagado ao enviares a Mensagem Privada.',
 	'DRAFT_SAVED'					=> 'Rascunho guardado com sucesso.',
 	'DRAFT_TITLE'					=> 'Título do rascunho',
 
@@ -151,7 +151,7 @@ $lang = array_merge($lang, [
 	'LOGIN_EXPLAIN_REPLY'			=> 'Tens que ligar-te para responder Tópicos neste Fórum.',
 
 	'MAX_ATTACHMENT_FILESIZE'	=> 'Tamanho máximo de ficheiro por anexo: %s.',
-	'MAX_FONT_SIZE_EXCEEDED'	=> 'Só pode usar tipos de letra até ao tamanho %d.',
+	'MAX_FONT_SIZE_EXCEEDED'	=> 'Só podes usar tipos de letra até ao tamanho %d.',
 	'MAX_FLASH_HEIGHT_EXCEEDED'	=> [
 		1	=> 'O teu ficheiro flash só pode ter até %d píxel de altura.',
 		2	=> 'Os teus ficheiros flash só podem ter até %d píxeis de altura.',
@@ -198,12 +198,12 @@ $lang = array_merge($lang, [
 	'POLL_MAX_OPTIONS_EXPLAIN'	=> 'Este é o número de opções que cada Utilizador poderá votar.',
 	'POLL_OPTIONS'					=> 'Opções da votação',
 	'POLL_OPTIONS_EXPLAIN'		=> [
-		1	=> 'Coloca uma opção por linha. Não pode colocar mais do que <strong>%d</strong> opção.',
-		2	=> 'Coloca uma opção por linha. Não pode colocar mais do que <strong>%d</strong> opções.',
+		1	=> 'Coloca uma opção por linha. Não podes colocar mais do que <strong>%d</strong> opção.',
+		2	=> 'Coloca uma opção por linha. Não podes colocar mais do que <strong>%d</strong> opções.',
 	],
 	'POLL_OPTIONS_EDIT_EXPLAIN'		=> [
-		1	=> 'Coloca uma opção por linha. Não pode colocar mais do que <strong>%d</strong> opção. Se adicionar ou remover opções, os votos anteriores serão apagados.',
-		2	=> 'Coloca uma opção por linha. Não pode colocar mais do que <strong>%d</strong> opções. Se adicionar ou remover opções, os votos anteriores serão apagados.',
+		1	=> 'Coloca uma opção por linha. Não podes colocar mais do que <strong>%d</strong> opção. Se adicionares ou removeres opções, os votos anteriores serão apagados.',
+		2	=> 'Coloca uma opção por linha. Não podes colocar mais do que <strong>%d</strong> opções. Se adicionares ou removeres opções, os votos anteriores serão apagados.',
 	],
 	'POLL_QUESTION'				=> 'Pergunta da votação',
 	'POLL_TITLE_TOO_LONG'		=> 'O Título da votação deve conter no máximo 100 caracteres.',
@@ -216,7 +216,7 @@ $lang = array_merge($lang, [
 	'POST_CONFIRM_EXPLAIN'		=> 'Para evitar Mensagens automáticas, o fórum exige que digites o código de confirmação. O código é mostrado na imagem abaixo. Se não consegues ver a imagem, por favor contacta o %sAdministrador%s.',
 	'POST_DELETED'					=> 'A Mensagem foi apagada com sucesso.',
 	'POST_EDITED'					=> 'A Mensagem foi editada com sucesso.',
-	'POST_EDITED_MOD'				=> 'A Mensagem foi editada mas necessita de ser aprovada por um Moderador antes de se tornar visível. Será avisado quando a tua Mensagem for aprovada.',
+	'POST_EDITED_MOD'				=> 'A Mensagem foi editada mas necessita de ser aprovada por um Moderador antes de se tornar visível. Serás avisado quando a tua Mensagem for aprovada.',
 	'POST_GLOBAL'					=> 'Anúncio Global',
 	'POST_ICON'						=> 'Ícone da Mensagem',
 	'POST_NORMAL'					=> 'Normal',
@@ -250,8 +250,8 @@ $lang = array_merge($lang, [
 
 	'TOO_FEW_CHARS'				=> 'A Mensagem contém poucos caracteres.',
 	'TOO_FEW_CHARS_LIMIT'		=> [
-		1	=> 'Tem que inserir pelo menos %1$d carácter.',
-		2	=> 'Tem que inserir pelo menos %1$d caracteres.',
+		1	=> 'Tens que inserir pelo menos %1$d carácter.',
+		2	=> 'Tens que inserir pelo menos %1$d caracteres.',
 	],
 	'TOO_FEW_POLL_OPTIONS'		=> 'A votação tem que ter pelo menos duas opções.',
 	'TOO_MANY_ATTACHMENTS'		=> 'Não podes adicionar outro anexo, o limite é de %d anexos.',
@@ -259,7 +259,7 @@ $lang = array_merge($lang, [
 	'TOO_MANY_CHARS_LIMIT'		=> [
 		2	=> 'O número máximo de caracteres permitidos é de %1$d.',
 	],
-	'TOO_MANY_POLL_OPTIONS'		=> 'Tentou inserir muitas opções de votação.',
+	'TOO_MANY_POLL_OPTIONS'		=> 'Tentaste inserir muitas opções de votação.',
 	'TOO_MANY_SMILIES'			=> 'A Mensagem contém muitas Emoções. O número máximo de Emoções permitidas é de %d.',
 	'TOO_MANY_URLS'				=> 'A Mensagem contém muitas URLs. O número máximo de URLs permitidas é de %d.',
 	'TOO_MANY_USER_OPTIONS'		=> 'Não podes especificar mais opções por Utilizador do que na votação.',

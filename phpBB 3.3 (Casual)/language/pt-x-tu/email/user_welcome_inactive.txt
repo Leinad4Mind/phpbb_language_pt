@@ -2,7 +2,7 @@ Subject: Bem-vindo ao Fórum {SITENAME}
 
 {WELCOME_MSG}
 
-LEIA ATENTAMENTE este email e guarde-o para consultas posteriores.
+LÊ ATENTAMENTE este email e guarda-o para consultas posteriores.
 
 A informação da tua conta é a seguinte:
 ==============================================

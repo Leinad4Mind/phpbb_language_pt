@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang)) {
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, [
-	'ACP_STYLES_EXPLAIN'				=> 'O gestor de estilos permite alterar estilos existentes, apagar, desinstalar, reinstalar e instalar novos. Também pode ver como será o teu estilo usando a função de pré-visualização. É mostrado o número de utilizadores de cada estilo. No entanto, a função Sobrepor Estilo do Utilizador, não reflecte esta contagem. De salientar também que não pode desinstalar o estilo “<strong>prosilver</strong>”, pois é o estilo pai padrão e principal do phpBB.',
+	'ACP_STYLES_EXPLAIN'				=> 'O gestor de estilos permite alterar estilos existentes, apagar, desinstalar, reinstalar e instalar novos. Também podes ver como será o teu estilo usando a função de pré-visualização. É mostrado o número de utilizadores de cada estilo. No entanto, a função Sobrepor Estilo do Utilizador, não reflete esta contagem. De salientar também que não podes desinstalar o estilo “<strong>prosilver</strong>”, pois é o estilo pai padrão e principal do phpBB.',
 
 	'CANNOT_BE_INSTALLED'			=> 'Não pode ser instalado',
 	'CONFIRM_UNINSTALL_STYLES'		=> 'Tens a certeza de que desejas desinstalar os estilos seleccionados?',
@@ -51,7 +51,7 @@ $lang = array_merge($lang, [
 	'INHERITING_FROM'					=> 'Herdar de',
 	'INSTALL_STYLE'					=> 'Instalar Estilo',
 	'INSTALL_STYLES'					=> 'Instalar Estilos',
-	'INSTALL_STYLES_EXPLAIN'		=> 'Aqui podes instalar um novo Estilo e elementos correspondentes. Se já tem instalados os elementos relevantes do Estilo serão substituídos. Alguns Estilos necessitam que os elementos do Estilo já estejam instalados. Se tentar instalar um Estilo e os seus elementos ainda não estiverem instalados será avisado.',
+	'INSTALL_STYLES_EXPLAIN'		=> 'Aqui podes instalar um novo Estilo e elementos correspondentes. Se já tiveres instalados os elementos relevantes do Estilo serão substituídos. Alguns Estilos necessitam que os elementos do Estilo já estejam instalados. Se tentares instalar um Estilo e os seus elementos ainda não estiverem instalados serás avisado.',
 	'INVALID_STYLE_ID'				=> 'A ID do estilo inválida.',
 
 	'NO_MATCHING_STYLES_FOUND'		=> 'Nenhum estilo coincide com a tua query.',
@@ -86,5 +86,5 @@ $lang = array_merge($lang, [
 	'UNINSTALL_PROSILVER'			=> 'Não podes desinstalar o estilo “prosilver”.',
 	'UNINSTALL_DEFAULT'				=> 'Não é possível desinstalar o estilo padrão.',
 
-	'BROWSE_STYLES_DATABASE'		=> 'Visite o repositório de estilos',
+	'BROWSE_STYLES_DATABASE'		=> 'Visita o repositório de estilos',
 ]);

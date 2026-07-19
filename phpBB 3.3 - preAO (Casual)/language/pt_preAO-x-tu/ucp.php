@@ -44,13 +44,13 @@ $lang = array_merge($lang, [
 	Comprometes-te a não colocar qualquer mensagem abusiva, obscena, vulgar, insultuosa, de ódio, ameaçadora, sexualmente tendenciosa ou qualquer outro material que possa violar qualquer lei seja do teu país, o país onde “%1$s” está alojado ou lei Internacional. Fazer isso pode levar-te a ser banido de imediato e permanentemente, e, se for necessário, com notificação da nossa parte ao teu Provedor de Internet. O endereço IP de todas as mensagens são registados para ajudar a implementar estas condições. Concordas que “%1$s” tem o direito de remover, editar, mover ou encerrar qualquer tópico, a qualquer momento, caso este considere necessário. Como utilizador aceitas que as informações que forneceste acima sejam guardadas numa Base de Dados. Apesar desta informação não ser divulgada a terceiros sem o teu consentimento, o “%1$s” ou o phpBB não podem ser responsabilizados por qualquer atentado Hacker, que possa expor essa informação.
 	',
 
-	'PRIVACY_POLICY'		=> 'Esta política explica em detalhe como “%1$s” juntamente com as suas empresas afiliadas (doravante "nós", "nosso", “%1$s”, “%2$s”) e o phpBB (doravante “eles”, “phpBB software”, “www.phpbb.com”, “Grupo phpBB”, “Equipas phpBB”) utilizam a informação recolhida durante as tuas sessões online (doravante denominada “a tua informação”).
+	'PRIVACY_POLICY'		=> 'Esta política explica em detalhe como “%1$s” juntamente com as tuas empresas afiliadas (doravante "nós", "nosso", “%1$s”, “%2$s”) e o phpBB (doravante “eles”, “phpBB software”, “www.phpbb.com”, “Grupo phpBB”, “Equipas phpBB”) utilizam a informação recolhida durante as tuas sessões online (doravante denominada “a tua informação”).
 	<br><br>
-	Recolheremos informações tuas de duas formas. A primeira, ao navegares no “%1$s” fará com que o Software phpBB crie cookies que são pequenos ficheiros de texto, transferidos temporariamente pelos navegadores web para o teu computador. Os dois primeiros cookies têm a identificação do utilizador (doravante denominado “user-id”) e um identificador de sessão anónima (doravante “session-id”), assinado automaticamente para ti pelo software phpBB. O terceiro cookie será criado sempre que tenhas tópicos lidos em “%1$s” e é usado para registar os tópicos lidos, aumentando assim a tua experiência como utilizador.
+	Recolheremos informações tuas de duas formas. A primeira, ao navegares no “%1$s” farás com que o Software phpBB crie cookies que são pequenos ficheiros de texto, transferidos temporariamente pelos navegadores web para o teu computador. Os dois primeiros cookies têm a identificação do utilizador (doravante denominado “user-id”) e um identificador de sessão anónima (doravante “session-id”), assinado automaticamente para ti pelo software phpBB. O terceiro cookie será criado sempre que tenhas tópicos lidos em “%1$s” e é usado para registar os tópicos lidos, aumentando assim a tua experiência como utilizador.
 	<br><br>
-	Podem também ser criados cookies externos ao software phpBB enquanto navegas no “%1$s”, ainda que estes sejam externos o âmbito destes cookies é proteger as páginas criadas pelo Software phpBB. A segunda maneira de recolher informações tuas é através das mensagens que partilhas connosco. Esta recolha pode fazer-se mas não está limitada a: mensagens enquanto utilizador anónimo (doravante “mensagens anónimas”), registando-te em “%1$s” (doravante denominado “a tua conta”) e através das mensagens enviadas por ti depois do registo e quando ligado (doravante “as tuas mensagens”).
+	Podem também ser criados cookies externos ao software phpBB enquanto navegares no “%1$s”, ainda que estes sejam externos o âmbito destes cookies é proteger as páginas criadas pelo Software phpBB. A segunda maneira de recolher informações tuas é através das mensagens que partilhas connosco. Esta recolha pode fazer-se mas não está limitada a: mensagens enquanto utilizador anónimo (doravante “mensagens anónimas”), registando-te em “%1$s” (doravante denominado “a tua conta”) e através das mensagens enviadas por ti depois do registo e quando ligado (doravante “as tuas mensagens”).
 	<br><br>
-	A tua conta deverá ter no mínimo um nome único (doravante “o teu nome de utilizador”), uma senha pessoal utilizada para entrares na tua conta (doravante, “a tua senha”) e um endereço pessoal de email válido (doravante “o teu email”). As informações da tua conta em “%1$s” são protegidas pelas leis de protecção de dados aplicáveis no nosso país. Qualquer outra informação além do teu nome de utilizador, da tua senha e do teu endereço de email solicitados pelo “%1$s” durante o processo de registo, é obrigatória ou opcional, segundo o critério de “%1$s”. Em todo o caso, tens a opção de escolher as informações da tua conta que serão publicadas. Além disso, dentro da tua conta, podes optar por receber, ou não, os emails gerados automaticamente pelo software phpBB.
+	A tua conta deverá ter no mínimo um nome único (doravante “o teu nome de utilizador”), uma senha pessoal utilizada para entrar na tua conta (doravante, “a tua senha”) e um endereço pessoal de email válido (doravante “o teu email”). As informações da tua conta em “%1$s” são protegidas pelas leis de protecção de dados aplicáveis no nosso país. Qualquer outra informação além do teu nome de utilizador, da tua senha e do teu endereço de email solicitados pelo “%1$s” durante o processo de registo, é obrigatória ou opcional, segundo o critério de “%1$s”. Em todo o caso, tens a opção de escolher as informações da tua conta que serão publicadas. Além disso, dentro da tua conta, podes optar por receber, ou não, os emails gerados automaticamente pelo software phpBB.
 	<br><br>
 	A tua senha é encriptada (via hash) para que seja segura. No entanto, recomendamos que não utilizes a mesma senha em vários sítios diferentes. A senha é um meio para entrares na tua conta em “%1$s”, então, por favor, guarda-a com cuidado e em nenhuma circunstância alguém relacionado com “%1$s”, phpBB ou um terceiro, tem legitimidade para te pedir a senha. Se esqueceres a senha da tua conta, podes usar a opção “Esqueci-me da senha” providenciada pelo software phpBB. Este processo pede-te o nome de utilizador e email, para o phpBB gerar uma nova senha e reactivar o teu registo.
 	',
@@ -64,9 +64,9 @@ $lang = array_merge($lang, [
 	'ACCOUNT_ADDED'						=> 'Obrigado por se registar, a tua conta foi criada.',
 	'ACCOUNT_COPPA'						=> 'A tua conta foi criada. Para ser Aprovada é necessário a autorização do teu Encarregado de Educação. Para mais detalhes verifica o teu endereço de email.',
 	'ACCOUNT_EMAIL_CHANGED'				=> 'A tua conta foi actualizada. Neste Fórum as alterações de email requerem a reactivação. A chave de activação foi enviada para o teu novo endereço de email. Para mais detalhes verifica o teu endereço de email.',
-	'ACCOUNT_EMAIL_CHANGED_ADMIN'		=> 'A tua conta foi actualizada. Neste Fórum as alterações de email requerem a reactivação por um administrador. Receberá um email quando a tua conta for reactivada.',
+	'ACCOUNT_EMAIL_CHANGED_ADMIN'		=> 'A tua conta foi actualizada. Neste Fórum as alterações de email requerem a reactivação por um administrador. Receberás um email quando a tua conta for reactivada.',
 	'ACCOUNT_INACTIVE'					=> 'A tua conta foi criada com sucesso. A Chave de Activação foi enviada para o endereço de email que indicaste durante o teu Registo. Ao receberes o email procede à Activação da tua conta. Só então poderás entrar no Fórum. Se não receberes o email na tua caixa de entrada verifica a caixa de lixo electrónico. Pode levar algum tempo para obter o e-mail , dependendo do teu provedor de e-mail.',
-	'ACCOUNT_INACTIVE_ADMIN'			=> 'A tua conta foi criada. Neste Fórum a activação da conta é realizada pelo Administrador. Foi-te enviado um email que o informará de Activar a tua conta. Será informado após tal, mantenha-se atento ao teu email.',
+	'ACCOUNT_INACTIVE_ADMIN'			=> 'A tua conta foi criada. Neste Fórum a activação da conta é realizada pelo Administrador. Foi-te enviado um email que te informará de Activar a tua conta. Serás informado após tal, mantém-te atento ao teu email.',
 	'ACTIVATION_EMAIL_SENT'				=> 'O email de activação foi enviado para o teu endereço de email.',
 	'ACTIVATION_EMAIL_SENT_ADMIN'		=> 'O email de activação foi enviado para o Administrador.',
 	'ADD'										=> 'Adicionar',
@@ -85,20 +85,20 @@ $lang = array_merge($lang, [
 	'ALLOW_PM'								=> 'Autorizar o envio de Mensagens Privadas',
 	'ALLOW_PM_EXPLAIN'					=> 'Administradores/Moderadores podem sempre enviar-te Mensagens Privadas.',
 	'ALREADY_ACTIVATED'					=> 'O teu registo já foi activado.',
-	'ATTACHMENTS_EXPLAIN'				=> 'Esta é uma lista dos anexos que enviou para este Fórum.',
+	'ATTACHMENTS_EXPLAIN'				=> 'Esta é uma lista dos anexos que enviaste para este Fórum.',
 	'ATTACHMENTS_DELETED'				=> 'Anexos Apagados.',
 	'ATTACHMENT_DELETED'					=> 'Anexo Apagado.',
 	'ATTACHMENT_LOCKED'					=> 'Este tópico está bloqueado. Não podes remover o anexo.',
 	'AUTOLOGIN_SESSION_KEYS_DELETED'	=> 'As chaves de acesso "Lembrar-me" seleccionadas foram apagadas com sucesso.',
 	'AVATAR_CATEGORY'						=> 'Categoria',
 	'AVATAR_DRIVER_GRAVATAR_TITLE'	=> 'Gravatar',
-	'AVATAR_DRIVER_GRAVATAR_EXPLAIN'	=> 'Gravatar é um serviço que permite que tenhas o mesmo avatar em vários sites. Visita <a href="http://www.gravatar.com/">Gravatar</a> para mais informações.',
+	'AVATAR_DRIVER_GRAVATAR_EXPLAIN'	=> 'Gravatar é um serviço que te permite ter o mesmo avatar em vários sites. Visita <a href="http://www.gravatar.com/">Gravatar</a> para mais informações.',
 	'AVATAR_DRIVER_LOCAL_TITLE'		=> 'Galeria de avatar',
 	'AVATAR_DRIVER_LOCAL_EXPLAIN'		=> 'Podes escolher o teu avatar a partir de um conjunto de avatares disponíveis localmente.',
 	'AVATAR_DRIVER_REMOTE_TITLE'		=> 'Avatar remoto',
 	'AVATAR_DRIVER_REMOTE_EXPLAIN'	=> 'Link para imagens Avatar de outro site.',
 	'AVATAR_DRIVER_UPLOAD_TITLE'		=> 'Carregar avatar',
-	'AVATAR_DRIVER_UPLOAD_EXPLAIN'	=> 'Carregue o teu próprio avatar personalizado.',
+	'AVATAR_DRIVER_UPLOAD_EXPLAIN'	=> 'Carrega o teu próprio avatar personalizado.',
 	'AVATAR_EXPLAIN'						=> 'Dimensões máximas; largura: %1$s, altura: %2$s, tamanho do ficheiro: %3$.2f KiB.',
 	'AVATAR_EXPLAIN_NO_FILESIZE'		=> 'Dimensões máximas; largura: %1$s, altura: %2$s',
 	'AVATAR_FEATURES_DISABLED'			=> 'A função de Avatar está desactivada.',
@@ -120,7 +120,7 @@ $lang = array_merge($lang, [
 	'BOARD_STYLE'							=> 'O Estilo do meu Painel',
 	'BOARD_TIMEZONE'						=> 'Fuso Horário',
 	'BOOKMARKS'								=> 'Favoritos',
-	'BOOKMARKS_EXPLAIN'					=> 'Esta é a tua lista de Favoritos. Para remover da lista um Favorito, selecciona a caixa correspondente e carregue no botão Apagar Favoritos Marcados.',
+	'BOOKMARKS_EXPLAIN'					=> 'Esta é a tua lista de Favoritos. Para remover da lista um Favorito, selecciona a caixa correspondente e carrega no botão Apagar Favoritos Marcados.',
 	'BOOKMARKS_DISABLED'					=> 'Favoritos foram desactivados.',
 	'BOOKMARKS_REMOVED'					=> 'Os Favoritos seleccionados foram apagados com sucesso.',
 
@@ -143,14 +143,14 @@ $lang = array_merge($lang, [
 	'CONFIRM_PASSWORD_EXPLAIN'			=> 'Preencher apenas se pretender alterar a Senha Actual.',
 	'COPPA_BIRTHDAY'						=> 'Neste Fórum o Registo de Utilizadores menores de 13 anos necessita da Aprovação do Encarregado de Educação. Se tens menos de 13 anos o Registo só será Aprovado pelo Administrador do Fórum depois do teu Encarregado de Educação enviar a autorização para a tua participação. Para continuar com o Registo, selecciona a opção correcta, de acordo com a tua idade.',
 	'COPPA_COMPLIANCE'					=> 'De acordo com a COPPA',
-	'COPPA_EXPLAIN'						=> 'Ao clicar em enviar, criará a tua conta. No entanto, só será activada quando o teu Encarregado de Educação ou o responsável legal autorizar a tua participação no Fórum. Para isso receberá um email com mais detalhes.',
+	'COPPA_EXPLAIN'						=> 'Ao clicares em enviar, criarás a tua conta. No entanto, só será activada quando o teu Encarregado de Educação ou o responsável legal autorizar a tua participação no Fórum. Para isso receberás um email com mais detalhes.',
 	'CREATE_FOLDER'						=> 'Adicionar Pasta',
 	'CURRENT_IMAGE'						=> 'Imagem Actual',
 	'CURRENT_PASSWORD'					=> 'Senha Actual',
 	'CURRENT_PASSWORD_EXPLAIN'			=> 'Para alterar o teu endereço de email ou nome de utilizador, tens que inserir a tua senha actual.',
 	'CURRENT_CHANGE_PASSWORD_EXPLAIN'	=> 'Para alterar a senha, o endereço de email ou o teu nome de utilizador, tens que inserir a tua senha actual.',
-	'CUR_PASSWORD_EMPTY'					=> 'Não digitou a senha actual.',
-	'CUR_PASSWORD_ERROR'					=> 'A Senha actual que escreveu está incorrecta.',
+	'CUR_PASSWORD_EMPTY'					=> 'Não digitaste a senha actual.',
+	'CUR_PASSWORD_ERROR'					=> 'A Senha actual que escreveste está incorrecta.',
 	'CUSTOM_DATEFORMAT'					=> 'Personalizar',
 
 	'DEFAULT_ACTION'						=> 'Acção Padrão',
@@ -174,7 +174,7 @@ $lang = array_merge($lang, [
 	'DELETE_MESSAGE_CONFIRM'			=> 'Tens a certeza que desejas apagar esta Mensagem Privada?',
 	'DELETE_MESSAGES_IN_FOLDER'			=> 'Apagar todas as Mensagens dentro de pasta removida',
 	'DELETE_RULE'							=> 'Apagar Regra',
-	'DELETE_RULE_CONFIRM'				=> 'Tens a certeza que desejas Apagar está regra?',
+	'DELETE_RULE_CONFIRM'				=> 'Tens a certeza que desejas Apagar esta regra?',
 	'DEMOTE_SELECTED'						=> 'Remover o seleccionado',
 	'DISABLE_CENSORS'						=> 'Permitir Palavras Censuradas',
 	'DISPLAY_GALLERY'						=> 'Mostrar Galeria',
@@ -185,8 +185,8 @@ $lang = array_merge($lang, [
 
 	'EDIT_DRAFT_EXPLAIN'					=> 'Aqui podes editar o teu rascunho. Os rascunhos não contêm anexos e informações de votações.',
 	'EMAIL_BANNED_EMAIL'					=> 'Não é permitido utilizar o endereço de email indicado.',
-	'EMAIL_NOT_UNIQUE'					=> 'O endereço de email introduzido está a ser usado por vários utilizadores. Terá também de especificar o nome de utilizador.',
-	'EMAIL_REMIND'							=> 'Este deve ser o endereço de email que indicou ao registar-se.',
+	'EMAIL_NOT_UNIQUE'					=> 'O endereço de email introduzido está a ser usado por vários utilizadores. Terás também de especificar o nome de utilizador.',
+	'EMAIL_REMIND'							=> 'Este deve ser o endereço de email que indicaste ao registares-te.',
 	'EMAIL_TAKEN_EMAIL'					=> 'Este endereço de email já está em uso.',
 	'EMPTY_DRAFT'							=> 'Deves escrever uma mensagem antes de enviar as tuas alterações.',
 	'EMPTY_DRAFT_TITLE'					=> 'O Rascunho tem que ter um Título.',
@@ -259,7 +259,7 @@ $lang = array_merge($lang, [
 	'GLOBAL_ANNOUNCEMENT'				=> 'Anúncio Global',
 
 	'GRAVATAR_AVATAR_EMAIL'				=> 'Email Gravatar',
-	'GRAVATAR_AVATAR_EMAIL_EXPLAIN'	=> 'Endereço de email que usou no registo da tua conta em <a href="http://www.gravatar.com/">Gravatar</a>.',
+	'GRAVATAR_AVATAR_EMAIL_EXPLAIN'	=> 'Endereço de email que usaste no registo da tua conta em <a href="http://www.gravatar.com/">Gravatar</a>.',
 	'GRAVATAR_AVATAR_SIZE'				=> 'Dimensões do Avatar',
 	'GRAVATAR_AVATAR_SIZE_EXPLAIN'	=> 'Especifique a largura e a altura do avatar, deixa em branco para tentar verificação automática.',
 
@@ -285,7 +285,7 @@ $lang = array_merge($lang, [
 	'LINK_REMOTE_SIZE_EXPLAIN'			=> 'Especifique a Largura e Altura do Avatar. Deixa espaço em branco para tentar a verificação automática.',
 	'LOGIN_EXPLAIN_UCP'					=> 'Tens que estar ligado para entrar no Painel de Controlo do Utilizador.',
 	'LOGIN_LINK'							=> 'Entre ou regista-te, usando um serviço externo à tua conta, no Fórum',
-	'LOGIN_LINK_EXPLAIN'					=> 'Tentou entrar usando um serviço externo que ainda não está associado a uma conta deste fórum. Associe-se a uma conta existente ou crie uma nova conta.',
+	'LOGIN_LINK_EXPLAIN'					=> 'Tentaste entrar usando um serviço externo que ainda não está associado a uma conta deste fórum. Associa-o a uma conta existente ou cria uma nova conta.',
 	'LOGIN_LINK_MISSING_DATA'			=> 'Os dados necessários para associar a tua conta a um serviço externo não estão disponíveis. Reinicie o processo.',
 	'LOGIN_LINK_NO_DATA_PROVIDED'		=> 'Não foi fornecido nenhum dado para associar a tua conta externa à conta do Fórum. Se o problema persistir contacta um administrador do Fórum.',
 	'LOGIN_KEY'								=> 'Chave de acesso',
@@ -320,7 +320,7 @@ $lang = array_merge($lang, [
 
 	'NEW_FOLDER_NAME'					=> 'Nome da nova Pasta',
 	'NEW_PASSWORD'						=> 'Nova Senha',
-	'NEW_PASSWORD_CONFIRM_EMPTY'	=> 'Não digitou a Senha de confirmação.',
+	'NEW_PASSWORD_CONFIRM_EMPTY'	=> 'Não digitaste a Senha de confirmação.',
 	'NEW_PASSWORD_ERROR'				=> 'As Senhas indicadas não coincidem.',
 
 	'NOTIFICATIONS_MARK_ALL_READ'				=> 'Marcar todas as notificações como lidas',
@@ -389,7 +389,7 @@ $lang = array_merge($lang, [
 
 	'NO_BCC_RECIPIENT'					=> 'Nenhum',
 	'NO_BOOKMARKS'							=> 'Não tens Favoritos.',
-	'NO_BOOKMARKS_SELECTED'				=> 'Não seleccionou nenhum favorito.',
+	'NO_BOOKMARKS_SELECTED'				=> 'Não seleccionaste nenhum favorito.',
 	'NO_EDIT_READ_MESSAGE'				=> 'A mensagem privada não pode ser editada porque já foi lida.',
 	'NO_EMAIL_USER'						=> 'O Nome de Utilizador/Endereço de email indicados não foram encontrados.',
 	'NO_FOES'								=> 'Não tens Inimigos definidos.',
@@ -404,12 +404,12 @@ $lang = array_merge($lang, [
 	'NO_OLDER_PM'							=> 'Nenhuma Mensagem Antiga.',
 	'NO_PASSWORD_SUPPLIED'				=> 'Não podes entrar sem uma senha.',
 	'NO_RECIPIENT'							=> 'Nenhum Destinatário Definido.',
-	'NO_RESET_TOKEN'						=> 'Não solicitou o token para redefinição de senha.',
+	'NO_RESET_TOKEN'						=> 'Não solicitaste o token para redefinição de senha.',
 	'NO_RULES_DEFINED'					=> 'Não há Regras Definidas.',
 	'NO_SAVED_DRAFTS'						=> 'Não há rascunhos guardados.',
 	'NO_TO_RECIPIENT'						=> 'Nenhum',
 	'NO_WATCHED_FORUMS'					=> 'Não estás a observar nenhum Fórum.',
-	'NO_WATCHED_SELECTED'				=> 'Não seleccionou nenhum Tópico ou Fórum Observado.',
+	'NO_WATCHED_SELECTED'				=> 'Não seleccionaste nenhum Tópico ou Fórum Observado.',
 	'NO_WATCHED_TOPICS'					=> 'Não estás a observar nenhum Tópico.',
 
 	'PASS_TYPE_ALPHA_EXPLAIN'			=> 'A senha deve ter no mínimo %1$s caracteres e possuir letras maiúsculas e minúsculas e números.',
@@ -419,7 +419,7 @@ $lang = array_merge($lang, [
 	'PASSWORD'								=> 'Senha',
 	'PASSWORD_ACTIVATED'					=> 'A tua Nova Senha foi activada.',
 	'PASSWORD_RESET'						=> 'A tua senha foi redefinida com sucesso.',
-	'PASSWORD_RESET_LINK_SENT'			=> 'Se a tua conta existir, um link para redefinição de senha foi enviado para o teu endereço de e-mail registado. Se não receber um e-mail, pode ser porque esteja banido, tua conta não está activada, solicitou várias redefinições de senha em um curto período de tempo ou não tem permissão para alterar tua senha. Entre em contacto com o Administrador se algum desses motivos se aplicar. Além disso, verifica o teu filtro de spam.',
+	'PASSWORD_RESET_LINK_SENT'			=> 'Se a tua conta existir, um link para redefinição de senha foi enviado para o teu endereço de e-mail registado. Se não receberes um e-mail, pode ser porque estejas banido, a tua conta não está activada, solicitaste várias redefinições de senha num curto período de tempo ou não tens permissão para alterar a tua senha. Entra em contacto com o Administrador se algum desses motivos se aplicar. Além disso, verifica o teu filtro de spam.',
 	'PERMISSIONS_RESTORED'				=> 'As tuas permissões originais foram restauradas com sucesso.',
 	'PERMISSIONS_TRANSFERRED'			=> 'As Permissões foram transferidas do <strong>%s</strong> com sucesso. Agora, podes navegar com as Permissões do Utilizador. <br>As Permissões de Administrador não foram transferidas. Podes voltar as tuas Permissões originais em qualquer momento.',
 	'PM_DISABLED'							=> 'As Mensagens Privadas estão inactivas.',
@@ -448,7 +448,7 @@ $lang = array_merge($lang, [
 	'PREFERENCES_UPDATED'				=> 'As tuas Preferências foram actualizadas.',
 	'PROFILE_INFO_NOTICE'				=> 'Estas informações serão visíveis por todos os Utilizadores. Verifica se desejas incluir os teus dados pessoais. Todos os campos marcados com (*) são de preenchimento obrigatório.',
 	'PROFILE_UPDATED'						=> 'O teu Perfil foi actualizado.',
-	'PROFILE_AUTOLOGIN_KEYS'			=> 'As chaves de acesso “Lembrar-me” permitem que entre automaticamente quando visita o fórum. Caso desligue, essa chave de acesso é apagada apenas no computador onde decidiu se desligar. Poderá ver aqui todas as chaves de acesso criadas noutros computadores.',
+	'PROFILE_AUTOLOGIN_KEYS'			=> 'As chaves de acesso “Lembrar-me” permitem-te entrar automaticamente quando visitas o fórum. Quando te desligas, a chave de acesso só é apagada no computador onde terminaste a sessão. Podes ver aqui todas as chaves de acesso criadas noutros computadores.',
 	'PROFILE_NO_AUTOLOGIN_KEYS'		=> 'Não existem chaves de acesso “Lembrar-me” guardadas.',
 
 	'RECIPIENT'								=> 'Destinatário',
@@ -468,7 +468,7 @@ $lang = array_merge($lang, [
 	'REPLY_TO_ALL'							=> 'Responder ao remetente e a todos os destinatários.',
 	'REPORT_PM'								=> 'Denunciar mensagem privada',
 	'RESET_PASSWORD'						=> 'Redefinir senha',
-	'RESET_TOKEN_EXPIRED_OR_INVALID'	=> 'O token para redefinir a senha que forneceu é inválido ou expirou.',
+	'RESET_TOKEN_EXPIRED_OR_INVALID'	=> 'O token para redefinir a senha que forneceste é inválido ou expirou.',
 	'RESIGN_SELECTED'						=> 'Retirar seleccionado',
 	'RETURN_FOLDER'						=> 'Clica %1$sAqui%2$s para voltar à Pasta',
 	'RETURN_UCP'							=> 'Clica %saqui%s para voltar ao Painel de Controlo do Utilizador',
@@ -501,14 +501,14 @@ $lang = array_merge($lang, [
 
 	'TIMEZONE'								=> 'Fuso Horário',
 	'TIMEZONE_DATE_SUGGESTION'			=> 'Sugestão: %s',
-	'TIMEZONE_INVALID'					=> 'O fuso horário que seleccionou é inválido.',
+	'TIMEZONE_INVALID'					=> 'O fuso horário que seleccionaste é inválido.',
 	'TO'										=> 'Para',
 	'TO_MASS'								=> 'Destinatários',
 	'TO_ADD'									=> 'Adicionar destinatário',
 	'TO_ADD_MASS'							=> 'Adicionar destinatários',
 	'TO_ADD_GROUPS'						=> 'Adicionar grupos',
-	'TOO_MANY_RECIPIENTS'				=> 'Tentou enviar uma mensagem privada a demasiados destinatários.',
-	'TOO_MANY_REGISTERS'					=> 'Excedeu o número máximo de tentativas de Registo para esta sessão. Tenta novamente mais tarde.',
+	'TOO_MANY_RECIPIENTS'				=> 'Tentaste enviar uma mensagem privada a demasiados destinatários.',
+	'TOO_MANY_REGISTERS'					=> 'Excedeste o número máximo de tentativas de Registo para esta sessão. Tenta novamente mais tarde.',
 
 	'UCP'									=> 'Painel de Controlo do Utilizador',
 	'UCP_ACTIVATE'						=> 'Activar Registo',
@@ -535,7 +535,7 @@ $lang = array_merge($lang, [
 	'UCP_MAIN_FRONT'					=> 'Página Principal',
 	'UCP_MAIN_SUBSCRIBED'			=> 'Administrar Observações',
 
-	'UCP_NO_ATTACHMENTS'				=> 'Não enviou nenhum anexo.',
+	'UCP_NO_ATTACHMENTS'				=> 'Não enviaste nenhum anexo.',
 
 	'UCP_NOTIFICATION_LIST'					=> 'Gerir notificações',
 	'UCP_NOTIFICATION_LIST_EXPLAIN'		=> 'Aqui podes ver todas as notificações prévias.',
@@ -584,9 +584,9 @@ $lang = array_merge($lang, [
 	'USERNAME_LETTER_NUM_EXPLAIN'				=> 'Tem que ter entre %1$s e %2$s, apenas letras ou números.',
 	'USERNAME_LETTER_NUM_SPACERS_EXPLAIN'	=> 'Tem que ter entre %1$s e %2$s, letras, números, espaço ou +-[].',
 	'USERNAME_CHARS_ANY_EXPLAIN'				=> 'Tem que ter entre %1$s e %2$s.',
-	'USERNAME_TAKEN_USERNAME'					=> 'O Nome de utilizador que escolheu já existe.',
-	'USERNAME_DISALLOWED_USERNAME'			=> 'O Nome de Utilizador que escolheu foi proibido ou contém uma palavra censurada. Escolhe um diferente.',
-	'USER_NOT_FOUND_OR_INACTIVE'				=> 'O Nome de utilizador que escreveu não pode ser encontrado ou está inactivo.',
+	'USERNAME_TAKEN_USERNAME'					=> 'O Nome de utilizador que escolheste já existe.',
+	'USERNAME_DISALLOWED_USERNAME'			=> 'O Nome de Utilizador que escolheste foi proibido ou contém uma palavra censurada. Escolhe um diferente.',
+	'USER_NOT_FOUND_OR_INACTIVE'				=> 'O Nome de utilizador que escreveste não pode ser encontrado ou está inativo.',
 
 	'VIEW_AVATARS'						=> 'Mostrar Avatares',
 	'VIEW_EDIT'							=> 'Ver/Editar',
@@ -612,10 +612,10 @@ $lang = array_merge($lang, [
 	'VIEW_POSTS_DIR'						=> 'Mostrar opções de ordenação de Mensagens',
 	'VIEW_POSTS_KEY'						=> 'Mostrar Mensagens Ordenadas por',
 
-	'WATCHED_EXPLAIN'						=> 'Esta é a lista de Fóruns e Tópicos que estás a observar. Será avisado de novas Mensagens em cada um deles. Para cancelar a observação, selecciona o Fórum ou Tópico e pressione o botão <em>Parar de observar seleccionados</em>.',
+	'WATCHED_EXPLAIN'						=> 'Esta é a lista de Fóruns e Tópicos que estás a observar. Serás avisado de novas Mensagens em cada um deles. Para cancelar a observação, selecciona o Fórum ou Tópico e pressiona o botão <em>Parar de observar seleccionados</em>.',
 	'WATCHED_FORUMS'						=> 'Fóruns observados',
 	'WATCHED_TOPICS'						=> 'Tópicos observados',
-	'WRONG_ACTIVATION'					=> 'O código de Activação que forneceu não coincide com o da Base de Dados.',
+	'WRONG_ACTIVATION'					=> 'O código de Activação que forneceste não coincide com o da Base de Dados.',
 
 	'YOUR_DETAILS'							=> 'A tua Actividade',
 	'YOUR_FOES'								=> 'Os teus Inimigos',
@@ -654,7 +654,7 @@ $lang = array_merge($lang, [
 		'TO_ME'							=> 'Para mim',
 	],
 
-	'GROUPS_EXPLAIN'					=> 'Os Grupos de Utilizadores permitem melhorar a gestão dos membros do Fórum. Logo de início será colocado num grupo específico, que será o teu Grupo Padrão. Este grupo define como poderá aparecer aos outros utilizadores, por exemplo a cor do teu Nome, Avatar, Classificação, etc. Dependendo de como o administrador o definiu, poderá ser-te permitido alterar o teu grupo Padrão. Poderá também ser mudado de Grupo ou ser-te permitido juntar-se a outros Grupos. Alguns grupos poderão dar-te permissões adicionais para ver outros conteúdos ou ter capacidades acrescidas.',
+	'GROUPS_EXPLAIN'					=> 'Os Grupos de Utilizadores permitem melhorar a gestão dos membros do Fórum. Logo de início serás colocado num grupo específico, que será o teu Grupo Padrão. Este grupo define como poderás aparecer aos outros utilizadores, por exemplo a cor do teu Nome, Avatar, Classificação, etc. Dependendo de como o administrador o definiu, poderá ser-te permitido alterar o teu grupo Padrão. Poderás também ser mudado de Grupo ou ser-te permitido juntares-te a outros Grupos. Alguns grupos poderão dar-te permissões adicionais para ver outros conteúdos ou ter capacidades acrescidas.',
 	'GROUP_LEADER'						=> 'Liderança',
 	'GROUP_MEMBER'						=> 'Inscrito',
 	'GROUP_PENDING'					=> 'Inscrição pendente',

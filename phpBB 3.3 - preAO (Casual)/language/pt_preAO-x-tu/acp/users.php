@@ -37,14 +37,14 @@ if (empty($lang) || !is_array($lang)) {
 
 $lang = array_merge($lang, [
 	'ADMIN_SIG_PREVIEW'				=> 'Pré-visualização da Assinatura',
-	'AT_LEAST_ONE_FOUNDER'			=> 'Não pode mudar este Fundador para um Utilizador normal. É necessário ter no mínimo um Fundador para este Fórum. Se quer mudar a situação deste Fundador, promova outro Utilizador à condição de Fundador primeiro.',
+	'AT_LEAST_ONE_FOUNDER'			=> 'Não podes mudar este Fundador para um Utilizador normal. É necessário ter no mínimo um Fundador para este Fórum. Se queres mudar a situação deste Fundador, promove outro Utilizador à condição de Fundador primeiro.',
 
 	'BAN_ALREADY_ENTERED'			=> 'A expulsão já tinha sido previamente informada. A lista de expulsões não foi actualizada.',
 	'BAN_SUCCESSFUL'					=> 'Expulso com sucesso!',
 
-	'CANNOT_BAN_ANONYMOUS'			=> 'Não tem permissão para eliminar a conta Visitantes. As Permissões dos Visitantes podem ser definidas no separador Permissões.',
-	'CANNOT_BAN_FOUNDER'				=> 'Não pode expulsar Fundadores.',
-	'CANNOT_BAN_YOURSELF'			=> 'Não pode auto expulsar-se.',
+	'CANNOT_BAN_ANONYMOUS'			=> 'Não tens permissão para eliminar a conta Visitantes. As Permissões dos Visitantes podem ser definidas no separador Permissões.',
+	'CANNOT_BAN_FOUNDER'				=> 'Não podes expulsar Fundadores.',
+	'CANNOT_BAN_YOURSELF'			=> 'Não podes auto expulsar-te.',
 	'CANNOT_DEACTIVATE_BOT'			=> 'Não podes desactivar contas de Motores de Busca. Desactiva o Motor de Busca.',
 	'CANNOT_DEACTIVATE_FOUNDER'	=> 'Não podes desactivar contas de Fundador.',
 	'CANNOT_DEACTIVATE_YOURSELF'	=> 'Não podes desactivar a tua própria conta.',
@@ -55,8 +55,8 @@ $lang = array_merge($lang, [
 	'CANNOT_REMOVE_FOUNDER'			=> 'Não tens permissão para remover contas de fundador.',
 	'CANNOT_REMOVE_YOURSELF'		=> 'Não podes remover a tua própria conta.',
 	'CANNOT_SET_FOUNDER_IGNORED'	=> 'Não podes promover os Utilizadores ignorados a Fundadores.',
-	'CANNOT_SET_FOUNDER_INACTIVE'	=> 'Tem que activar os Utilizadores antes de os promover a Fundadores, apenas Utilizadores activos podem ser promovidos.',
-	'CONFIRM_EMAIL_EXPLAIN'			=> 'Introduzir apenas se desejar alterar o endereço de email.',
+	'CANNOT_SET_FOUNDER_INACTIVE'	=> 'Tens que activar os Utilizadores antes de os promover a Fundadores, apenas Utilizadores activos podem ser promovidos.',
+	'CONFIRM_EMAIL_EXPLAIN'			=> 'Introduz apenas se desejares alterar o endereço de email.',
 
 	'DELETE_POSTS'						=> 'Apagar as Mensagens',
 	'DELETE_USER'						=> 'Apagar Utilizador',
@@ -80,7 +80,7 @@ $lang = array_merge($lang, [
 
 	'NO_SPECIAL_RANK'					=> 'Sem atribuição de classificação especial',
 	'NO_WARNINGS'						=> 'Nenhum Aviso.',
-	'NOT_MANAGE_FOUNDER'				=> 'Tentou gerir um Utilizador Fundador do Fórum. Apenas Fundadores podem gerir outros Fundadores.',
+	'NOT_MANAGE_FOUNDER'				=> 'Tentaste gerir um Utilizador Fundador do Fórum. Apenas Fundadores podem gerir outros Fundadores.',
 
 	'QUICK_TOOLS'						=> 'Ferramentas Rápidas',
 
@@ -119,7 +119,7 @@ $lang = array_merge($lang, [
 	'USER_AVATAR_TYPE_NOT_ALLOWED'	=> 'O avatar actual não pode ser exibido porque não é permitido.',
 	'USER_CUSTOM_PROFILE_FIELDS'	=> 'Campos de Perfil Personalizados',
 	'USER_DELETED'						=> 'Utilizador apagado com sucesso.',
-	'USER_GROUP_ADD'					=> 'Adiciona Utilizador ao Grupo',
+	'USER_GROUP_ADD'					=> 'Adicionar Utilizador ao Grupo',
 	'USER_GROUP_NORMAL'				=> 'Grupos de Utilizadores Normal é um membro de',
 	'USER_GROUP_PENDING'				=> 'O Utilizador tem a inscrição pendente nos Grupos',
 	'USER_GROUP_SPECIAL'				=> 'O Utilizador é Membro dos Grupos pré-definidos',

@@ -5,12 +5,12 @@ Olá, {USERNAME},
 
 O teu Tópico "{TOPIC_TITLE}" em {SITENAME} foi aprovado.
 
-Pode vê-lo no seguinte endereço:
+Podes vê-lo no seguinte endereço:
 {U_VIEW_TOPIC}
 
 
 Obrigado, {USERNAME}.
-Continue a participar activamente.
+Continua a participar activamente.
 A tua colaboração é fundamental para todos nós.
 
 

@@ -4,7 +4,7 @@ Olá, {USERNAME},
 
 Estás a receber esta notificação porque um dos teus tópicos favoritos, "{TOPIC_TITLE}" em "{SITENAME}", recebeu uma resposta desde a tua última visita. Podes usar o endereço abaixo para ler as respostas feitas, não mais serão enviadas notificações até que visites o tópico.
 
-Para ver o que há de novo desde tua última visita, clica no seguinte endereço:
+Para ver o que há de novo desde a tua última visita, clica no seguinte endereço:
 {U_NEWEST_POST}
 
 Para ver o tópico, clica no seguinte endereço:
@@ -13,7 +13,7 @@ Para ver o tópico, clica no seguinte endereço:
 Para ver o fórum, clica no seguinte endereço:
 {U_FORUM}
 
-Para não receber mais notificações relativas a respostas aos favoritos, por favor, actualiza tuas configurações de notificação aqui:
+Para não receberes mais notificações relativas a respostas aos teus favoritos, por favor, actualiza as tuas configurações de notificação aqui:
 
 {U_NOTIFICATION_SETTINGS}
 

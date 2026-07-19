@@ -2,7 +2,7 @@ Subject: Bem-vindo ao Fórum {SITENAME}
 
 {WELCOME_MSG}
 
-Em conformidade com o COPPA, a tua conta está inactiva.
+Em conformidade com o COPPA, a tua conta está inativa.
 
 Por favor, imprime esta mensagem, obtém a assinatura, com a data, dos teus pais ou tutor e envia por:
 

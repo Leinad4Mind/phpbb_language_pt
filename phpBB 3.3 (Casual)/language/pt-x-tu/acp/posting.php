@@ -41,34 +41,34 @@ $lang = array_merge($lang, [
 	'ACP_BBCODES_EXPLAIN'			=> 'BBCode (Bulletin Board Code) é uma linguagem originalmente desenvolvida para phpBB. Permite configurar o que é, e como é exibido. Aqui é possível adicionar, editar e apagar BBCodes.',
 	'ADD_BBCODE'						=> 'Adicionar novo BBCode',
 
-	'BBCODE_DANGER'					=> 'O BBCode que está a tentar adicionar parece inseguro, tal como usar {TEXT} dentro de um atributo de HTML, ou seja, num contexto sensível. Esta é uma possível questão de segurança XSS, tenta usar um tipo mais restritivo como {SIMPLETEXT} ou {INTTEXT}. Prossiga se compreende os riscos de segurança envolvidos e se considera inevitável o uso de {TEXT}.',
+	'BBCODE_DANGER'					=> 'O BBCode que estás a tentar adicionar parece inseguro, tal como usar {TEXT} dentro de um atributo de HTML, ou seja, num contexto sensível. Esta é uma possível questão de segurança XSS, tenta usar um tipo mais restritivo como {SIMPLETEXT} ou {INTTEXT}. Prossegue se compreenderes os riscos de segurança envolvidos e considerares inevitável o uso de {TEXT}.',
 	'BBCODE_DANGER_PROCEED'			=> 'Continuar',
 
 	'BBCODE_ADDED'						=> 'O BBCode foi adicionado com sucesso.',
 	'BBCODE_EDITED'					=> 'O BBCode foi editado com sucesso.',
 	'BBCODE_DELETED'					=> 'O BBCode foi apagado com sucesso.',
-	'BBCODE_NOT_EXIST'				=> 'O BBCode que selecionou não existe.',
+	'BBCODE_NOT_EXIST'				=> 'O BBCode que selecionaste não existe.',
 	'BBCODE_HELPLINE'					=> 'Linha de Ajuda',
 	'BBCODE_HELPLINE_EXPLAIN'		=> 'Neste Campo deve ser inserido o texto mostrado quando se coloca o cursor sobre o BBCode.',
 	'BBCODE_HELPLINE_TEXT'			=> 'Texto da Linha de Ajuda',
-	'BBCODE_HELPLINE_TOO_LONG'		=> 'A linha de ajuda que escreveu é muito longa.',
+	'BBCODE_HELPLINE_TOO_LONG'		=> 'A linha de ajuda que escreveste é muito longa.',
 
 	'BBCODE_INVALID_TAG_NAME'		=> 'O Nome da TAG de BBCode selecionado já existe.',
-	'BBCODE_INVALID'					=> 'A construção do seu BBCode é invalido.',
-	'BBCODE_INVALID_TEMPLATE'		=> 'A template do seu BBCode é inválido.',
+	'BBCODE_INVALID'					=> 'A construção do teu BBCode é inválida.',
+	'BBCODE_INVALID_TEMPLATE'		=> 'O modelo do teu BBCode é inválido.',
 	'BBCODE_TAG'						=> 'TAG',
 	'BBCODE_TAG_TOO_LONG'			=> 'O Nome da TAG selecionado é muito grande.',
 	'BBCODE_TAG_DEF_TOO_LONG'		=> 'A Definição da TAG escrita é muito grande. Por Favor, reescreva de forma mais curta.',
 	'BBCODE_USAGE'						=> 'Uso do BBCode',
 	'BBCODE_USAGE_EXAMPLE'			=> '[highlight={COLOR}]{TEXT}[/highlight]<br /><br />[font={SIMPLETEXT1}]{SIMPLETEXT2}[/font]',
-	'BBCODE_USAGE_EXPLAIN'			=> 'Aqui podes definir como utilizar o BBCode. Substitua qualquer variável inserida pelo símbolo correspondente (%sleia as instruções%s).',
+	'BBCODE_USAGE_EXPLAIN'			=> 'Aqui podes definir como utilizar o BBCode. Substitui qualquer variável inserida pelo símbolo correspondente (%sleia as instruções%s).',
 
 	'EXAMPLE'							=> 'Exemplo:',
 	'EXAMPLES'							=> 'Exemplos:',
 
 	'HTML_REPLACEMENT'				=> 'Substituição do HTML',
 	'HTML_REPLACEMENT_EXAMPLE'		=> '&lt;span style="background-color: {COLOR};">{TEXT}&lt;/span&gt;<br /><br />&lt;span style="font-family: {SIMPLETEXT1};">{SIMPLETEXT2}&lt;/span&gt;',
-	'HTML_REPLACEMENT_EXPLAIN'		=> 'Aqui podes definir a substituição padrão do HTML. Não se esqueça de colocar os símbolos utilizados acima!',
+	'HTML_REPLACEMENT_EXPLAIN'		=> 'Aqui podes definir a substituição padrão do HTML. Não te esqueças de colocar os símbolos utilizados acima!',
 
 	'TOKEN'								=> 'Símbolo',
 	'TOKENS'								=> 'Símbolos',
@@ -85,15 +85,15 @@ $lang = array_merge($lang, [
 		'EMAIL'				=> 'Um endereço de email válido',
 		'URL'					=> 'Uma URL válida utilizando qualquer protocolo permitido (http, ftp, etc. não pode ser utilizada para javascript). Se nenhum for concedido, “http://” é o prefixado para a sequência.',
 		'LOCAL_URL'			=> 'Uma URL local. O URL deve ser relativo à página do tópico e não pode conter o nome do servidor ou o protocolo, como as ligações são prefixados com “%s”',
-		'RELATIVE_URL'		=> 'Uma URL relativa. Pode combinar partes de uma URL, mas tenha cuidado: a URL completa é uma URL relativa válida. Quando quiser usar URLs relativas do seu fórum, usa o token LOCAL_URL.',
+		'RELATIVE_URL'		=> 'Uma URL relativa. Podes combinar partes de uma URL, mas tem cuidado: a URL completa é uma URL relativa válida. Quando quiseres usar URLs relativas do teu fórum, usa o token LOCAL_URL.',
 		'COLOR'				=> 'Uma Cor de HTML, pode ser tanto na forma numérica <samp>#FF1234</samp> ou uma <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS colour keyword</a> assim como <samp>fuchsia</samp> ou <samp>InactiveBorder</samp>',
 	],
 ]);
 
 // Smilies and topic icons
 $lang = array_merge($lang, [
-	'ACP_ICONS_EXPLAIN'				=> 'Aqui podes adicionar, editar e apagar os ícones que os Utilizador terão disponíveis para adicionar nos Tópicos e Mensagens. Estes ícones são exibidos geralmente perto do Título dos Tópicos na lista de Fóruns, ou o título do Tópico na lista de Tópicos. Também pode instalar e criar Pacotes de Ícones novos.',
-	'ACP_SMILIES_EXPLAIN'			=> 'Emoções ou Smilies são tipicamente pequenas, às vezes imagens animadas utilizadas para mostrar alguma emoção ou sentimento. Aqui podes adicionar, editar e apagar as Emoções que os Utilizadores terão disponíveis nos Tópicos e Mensagens Privadas. Também pode instalar e criar Pacotes de Emoções.',
+	'ACP_ICONS_EXPLAIN'				=> 'Aqui podes adicionar, editar e apagar os ícones que os Utilizador terão disponíveis para adicionar nos Tópicos e Mensagens. Estes ícones são exibidos geralmente perto do Título dos Tópicos na lista de Fóruns, ou o título do Tópico na lista de Tópicos. Também podes instalar e criar Pacotes de Ícones novos.',
+	'ACP_SMILIES_EXPLAIN'			=> 'Emoções ou Smilies são tipicamente pequenas, às vezes imagens animadas utilizadas para mostrar alguma emoção ou sentimento. Aqui podes adicionar, editar e apagar as Emoções que os Utilizadores terão disponíveis nos Tópicos e Mensagens Privadas. Também podes instalar e criar Pacotes de Emoções.',
 	'ADD_SMILIES'						=> 'Adicionar Múltiplas Emoções',
 	'ADD_SMILEY_CODE'					=> 'Adicionar Código Adicional à Emoção',
 	'ADD_ICONS'							=> 'Adicionar Ícones Múltiplos',
@@ -114,9 +114,9 @@ $lang = array_merge($lang, [
 	'EDIT_SMILIES'						=> 'Editar Emoções',
 	'EMOTION'							=> 'Emoção',
 	'EXPORT_ICONS'						=> 'Exportar e descarregar Pacote de ícones (smilies.pak)',
-	'EXPORT_ICONS_EXPLAIN'			=> '%sClicando neste atalho, as configurações para os seus ícones instalados serão compactadas para <samp>icons.pak</samp> que uma vez descarregado pode ser utilizado para criar um ficheiro <samp>.zip</samp> ou <samp>.tgz</samp> contendo todos os seus ícones mais este ficheiro de configuração<samp>icons.pak</samp>%s.',
+	'EXPORT_ICONS_EXPLAIN'			=> '%sClicando neste atalho, as configurações dos teus ícones instalados serão compactadas para <samp>icons.pak</samp> que uma vez descarregado pode ser utilizado para criar um ficheiro <samp>.zip</samp> ou <samp>.tgz</samp> contendo todos os teus ícones mais este ficheiro de configuração<samp>icons.pak</samp>%s.',
 	'EXPORT_SMILIES'					=> 'Exportar e descarregar um pack de Emoções',
-	'EXPORT_SMILIES_EXPLAIN'		=> '%sClicando neste atalho, os ícones de emoções instalados será compactado para <samp>smilies.pak</samp> que uma vez descarregado pode ser utilizado para criar um ficheiro <samp>.zip</samp> ou <samp>.tgz</samp> contendo todas as suas emoções mais este ficheiro de configuração<samp>smilies.pak</samp>%s.',
+	'EXPORT_SMILIES_EXPLAIN'		=> '%sClicando neste atalho, os ícones de emoções instalados será compactado para <samp>smilies.pak</samp> que uma vez descarregado pode ser utilizado para criar um ficheiro <samp>.zip</samp> ou <samp>.tgz</samp> contendo todas as tuas emoções mais este ficheiro de configuração<samp>smilies.pak</samp>%s.',
 
 	'FIRST'								=> 'Primeiro',
 
@@ -152,11 +152,11 @@ $lang = array_merge($lang, [
 
 	'NO_ICONS_ADD'						=> 'Não há ícones disponíveis para adicionar.',
 	'NO_ICONS_EDIT'					=> 'Não há ícones disponíveis para modificar.',
-	'NO_ICONS_EXPORT'					=> 'Não tem ícones para Criar um Pacote.',
+	'NO_ICONS_EXPORT'					=> 'Não tens ícones para criar um Pacote.',
 	'NO_ICONS_PAK'						=> 'Não foi encontrado nenhum Pacote de ícones.',
 	'NO_SMILIES_ADD'					=> 'Não há Emoções disponíveis para adicionar.',
 	'NO_SMILIES_EDIT'					=> 'Não há Emoções disponíveis para modificar.',
-	'NO_SMILIES_EXPORT'				=> 'Não tem Emoções para criar um Pacote.',
+	'NO_SMILIES_EXPORT'				=> 'Não tens Emoções para criar um Pacote.',
 	'NO_SMILIES_PAK'					=> 'Não foi encontrado nenhum Pacote de Emoções.',
 
 	'PAK_FILE_NOT_READABLE'			=> 'Não é possível ler o ficheiro <samp>.pak</samp>.',
@@ -223,7 +223,7 @@ $lang = array_merge($lang, [
 
 // Ranks
 $lang = array_merge($lang, [
-	'ACP_RANKS_EXPLAIN'				=> 'Aqui poderá adicionar, editar, visualizar e apagar classificações. Pode também criar classificações personalizadas que podem ser aplicados a um Utilizador nas Ferramentas de Administração de Utilizadores.',
+	'ACP_RANKS_EXPLAIN'				=> 'Aqui podes adicionar, editar, visualizar e apagar classificações. Podes também criar classificações personalizadas que podem ser aplicados a um Utilizador nas Ferramentas de Administração de Utilizadores.',
 	'ADD_RANK'							=> 'Adicionar nova classificação',
 
 	'MUST_SELECT_RANK'				=> 'Tens de selecionar uma classificação.',
@@ -261,18 +261,18 @@ $lang = array_merge($lang, [
 
 // Reasons
 $lang = array_merge($lang, [
-	'ACP_REASONS_EXPLAIN'			=> 'Aqui podes gerir as razões utilizadas em denúncias e mensagens negativas quando desaprovando mensagens. Existe uma razão padrão (marcada com um (*)) em que não pode apagar, esta razão é normalmente utilizada para mensagens Personalizadas se não possuírem motivos plausíveis.',
+	'ACP_REASONS_EXPLAIN'			=> 'Aqui podes gerir as razões utilizadas em denúncias e mensagens negativas quando desaprovando mensagens. Existe uma razão padrão (marcada com um (*)) que não podes apagar, esta razão é normalmente utilizada para mensagens Personalizadas se não possuírem motivos plausíveis.',
 	'ADD_NEW_REASON'					=> 'Adicionar nova Razão',
 	'AVAILABLE_TITLES'				=> 'Títulos de Razões Locais Disponíveis',
 
 	'IS_NOT_TRANSLATED'				=> 'A Razão <strong>não</strong> foi encontrada.',
 	'IS_NOT_TRANSLATED_EXPLAIN'	=> 'A Razão <strong>não</strong> foi encontrada. Se desejas estabelecer a forma local, especifica a chave correta através dos ficheiros de linguagem do Fórum de razões para denúncias.',
 	'IS_TRANSLATED'					=> 'A Razão foi encontrada.',
-	'IS_TRANSLATED_EXPLAIN'			=> 'A Razão foi encontrada. Se o título que escreveu aqui for especificado com os ficheiros de linguagem do Fórum de razões para denúncias, a forma localizada para o título e a descrição serão utilizadas.',
+	'IS_TRANSLATED_EXPLAIN'			=> 'A Razão foi encontrada. Se o título que escreveste aqui for especificado com os ficheiros de linguagem do Fórum de razões para denúncias, a forma localizada para o título e a descrição serão utilizadas.',
 
 	'NO_REASON'							=> 'A Razão não pôde ser encontrada.',
 	'NO_REASON_INFO'					=> 'O Título e a Descrição para esta Razão devem ser escritos.',
-	'NO_REMOVE_DEFAULT_REASON'		=> 'Não está autorizado a apagar a Razão Padrão "Outros".',
+	'NO_REMOVE_DEFAULT_REASON'		=> 'Não estás autorizado a apagar a Razão Padrão "Outros".',
 
 	'REASON_ADD'						=> 'Adicionar Razão para Denúncia/Negação',
 	'REASON_ADDED'						=> 'A Razão para Denúncia/Negação foi adicionada com sucesso.',

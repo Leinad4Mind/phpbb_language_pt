@@ -4,12 +4,12 @@ Olá, {USERNAME},
 
 Devido a uma alteração do teu Perfil em {SITENAME} o registo necessita de ser reactivado.
 
-Para isso deverá proceder à tua activação no endereço seguinte:
+Para isso deverás proceder à tua activação no endereço seguinte:
 {U_ACTIVATE}
 
 
 {USERNAME}, obrigado pelo teu registo em "{SITENAME}".
-Participe activamente. A tua colaboração é fundamental para todos nós.
+Participa activamente. A tua colaboração é fundamental para todos nós.
 
 
 {EMAIL_SIG}
