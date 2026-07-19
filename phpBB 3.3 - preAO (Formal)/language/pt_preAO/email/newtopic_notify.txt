@@ -6,6 +6,9 @@ Está a observar o "{FORUM_NAME}" em "{SITENAME}". Este fórum tem um novo tópi
 
 Pode vê-lo no seguinte endereço:
 {U_FORUM}
+
+Para ver o novo tópico, clique no seguinte endereço:
+{U_TOPIC}
 Não receberá mais notificações enquanto não visitar este Fórum.
 
 

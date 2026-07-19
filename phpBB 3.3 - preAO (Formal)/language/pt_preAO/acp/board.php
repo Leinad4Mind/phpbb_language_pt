@@ -349,7 +349,7 @@ $lang = array_merge($lang, [
 
 // Cookie Settings
 $lang = array_merge($lang, [
-	'ACP_COOKIE_SETTINGS_EXPLAIN'			=> 'Estas configurações definem os dados usados nos cookies enviados aos navegadores dos Utilizadores. Na maioria dos casos os valores predefinidos são suficientes. Se os alterar faça-o com cuidado. Qualquer incorrecção impede os Utilizadores de acederem ao Fórum. Se verificar que os utilizadores não conseguem entrar ou sair da sua conta, visite <strong><a href="https://www.phpbb.com/support/go/cookie-settings/">phpBB.com Knowledge Base - Corrigindo configurações de Cookies Incorretas</a></strong>.',
+	'ACP_COOKIE_SETTINGS_EXPLAIN'			=> 'Estas configurações definem os dados usados nos cookies enviados aos navegadores dos Utilizadores. Na maioria dos casos os valores predefinidos são suficientes. Se os alterar faça-o com cuidado. Qualquer incorrecção impede os Utilizadores de acederem ao Fórum. Se verificar que os utilizadores não conseguem entrar ou sair da sua conta, visite <strong><a href="https://www.phpbb.com/support/go/cookie-settings">phpBB.com Knowledge Base - Corrigindo configurações de Cookies Incorretas</a></strong>.',
 
 	'COOKIE_DOMAIN'							=> 'Domínio do Cookie',
 	'COOKIE_DOMAIN_EXPLAIN'					=> 'Na maioria dos casos o domínio do cookie é opcional. Deixe em branco em caso de dúvida.<br><br> No caso de ter o fórum integrado com outro software ou de ter múltiplos domínios, então, para determinar o domínio do cookie, deverá fazer o seguinte. Caso tenha algo como <i>exemplo.pt</i> e <i>forum.exemplo.pt</i>, ou talvez <i>forum.exemplo.pt</i> e <i>blog.exemplo.pt</i>. Remova os subdomínios até que reste o domínio principal, <i>exemplo.pt</i>. Agora adicione um ponto final em frente ao domínio, ou seja, ficaria: .exemplo.pt (repare no ponto final no início).',
@@ -599,7 +599,7 @@ $lang = array_merge($lang, [
 	'SMTP_VERIFY_PEER_EXPLAIN'				=> 'Requer a verificação do certificado SSL usado pelo servidor SMTP.<br><em><strong>Aviso:</strong> Conectar pontos de rede com certificados SSL não verificados pode causar implicações de segurança.</em>',
 	'SMTP_VERIFY_PEER_NAME'					=> 'Verificar nome do ponto de rede SMTP',
 	'SMTP_VERIFY_PEER_NAME_EXPLAIN'		=> 'Requer verificação do nome do ponto de rede para os servidores SMTP que usem conexões SSL / TLS.<br><em><strong>Aviso:</strong> Conectar a pontos de rede não verificados pode causar implicações de segurança.</em>',
-	'TEST_EMAIL_SENT'							=> 'O email de teste foi enviado.<br>Caso não o receba, por favor, verifique a sua configuração.<br><br>Caso necessite de assistência, visite o <a href="https://www.phpbb.com/community/">Fórum Oficial de Suporte phpBB</a> (Em inglês) ou o <a href="https://leinad4mind.top/forum">Fórum Oficial Português de Suporte phpBB</a>.',
+	'TEST_EMAIL_SENT'							=> 'O email de teste foi enviado.<br>Caso não o receba, por favor, verifique a sua configuração.<br><br>Caso necessite de assistência, visite o <a href="https://www.phpbb.com/community/">Fórum Oficial de Suporte phpBB</a> (em inglês) ou leinad4mind.top/forum (em português).',
 
 	'USE_SMTP'									=> 'Usar um Servidor de SMTP para enviar emails',
 	'USE_SMTP_EXPLAIN'						=> 'Marque “Sim” se quer ou tem que enviar os emails recorrendo a um Servidor SMTP em vez da função de email do Servidor.',

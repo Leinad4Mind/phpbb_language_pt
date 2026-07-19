@@ -7,11 +7,6 @@ Estás a receber esta notificação porque um dos teus tópicos favoritos, "{TOP
 Para ver o que há de novo desde a tua última visita, clica no seguinte endereço:
 {U_NEWEST_POST}
 
-Para ver o tópico, clica no seguinte endereço:
-{U_TOPIC}
-
-Para ver o fórum, clica no seguinte endereço:
-{U_FORUM}
 
 Para não receberes mais notificações relativas a respostas aos teus favoritos, por favor, atualiza as tuas configurações de notificação aqui:
 

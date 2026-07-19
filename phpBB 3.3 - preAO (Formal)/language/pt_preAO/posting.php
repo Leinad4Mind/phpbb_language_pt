@@ -257,6 +257,7 @@ $lang = array_merge($lang, [
 	'TOO_MANY_ATTACHMENTS'		=> 'Não pode adicionar outro anexo, o limite é de %d anexos.',
 	'TOO_MANY_CHARS'				=> 'A Mensagem contém muitos caracteres.',
 	'TOO_MANY_CHARS_LIMIT'		=> [
+		1	=> 'O número máximo de caracteres permitidos é de %1$d.',
 		2	=> 'O número máximo de caracteres permitidos é de %1$d.',
 	],
 	'TOO_MANY_POLL_OPTIONS'		=> 'Tentou inserir muitas opções de votação.',

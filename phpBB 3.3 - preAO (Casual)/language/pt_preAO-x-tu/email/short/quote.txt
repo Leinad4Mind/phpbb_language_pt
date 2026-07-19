@@ -7,11 +7,6 @@ Estás a receber esta notificação porque "{AUTHOR_NAME}" citou-te no Tópico "
 Para ver a mensagem citada, clica no seguinte endereço:
 {U_VIEW_POST}
 
-Para ver o tópico, clica no seguinte endereço:
-{U_TOPIC}
-
-Para ver o fórum, clica no seguinte endereço:
-{U_FORUM}
 
 Para não receberes notificações de respostas com citações tuas, por favor, actualiza as tuas configurações de notificação aqui:
 

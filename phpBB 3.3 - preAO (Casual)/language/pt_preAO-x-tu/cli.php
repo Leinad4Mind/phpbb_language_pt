@@ -76,6 +76,7 @@ $lang = array_merge($lang, [
 	'CLI_DESCRIPTION_REPARSER_REPARSE'			=> 'Texto reanalisado guardado com o serviço actual de text_formatter.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'	=> 'Tipo de texto a reanalisar. Deixa em branco para reanalisar tudo.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'		=> 'Sem quaisquer alterações, vê apenas o resultado desta operação',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_FORCE_BBCODE'	=> 'Reanalisar todos os BBCodes sem excepção. Note que todos os BBCodes anteriormente desactivados serão reprocessados, activados e totalmente apresentados.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MIN'	=> 'ID do registo menor a ser processado',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MAX'	=> 'ID do registo maior a ser processado',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'	=> 'Número aproximado de registos a serem processados de cada vez',
@@ -109,6 +110,8 @@ $lang = array_merge($lang, [
 	'CLI_DESCRIPTION_USER_ADD_OPTION_NOTIFY'		=> 'Enviar email de activação da conta para o novo utilizador (não enviado por defeito)',
 	'CLI_DESCRIPTION_USER_DELETE'						=> 'Remover a conta de utilizador.',
 	'CLI_DESCRIPTION_USER_DELETE_USERNAME'			=> 'Nome de Utilizador do utilizador a remover',
+	'CLI_DESCRIPTION_USER_DELETE_ID'				=> 'Remover contas de utilizador por ID.',
+	'CLI_DESCRIPTION_USER_DELETE_ID_OPTION_ID'	=> 'IDs dos utilizadores a remover',
 	'CLI_DESCRIPTION_USER_DELETE_OPTION_POSTS'	=> 'Remover todas as mensagens do utilizador. Sem esta opção, as mensagens do utilizador serão mantidas.',
 	'CLI_DESCRIPTION_USER_RECLEAN'					=> 'Reforçar limpeza dos nomes de utilizadores.',
 
@@ -158,6 +161,10 @@ $lang = array_merge($lang, [
 
 	'CLI_USER_ADD_SUCCESS'		=> 'Utilizador %s adicionado com sucesso.',
 	'CLI_USER_DELETE_CONFIRM'	=> 'Tens a certeza que desejas remover ‘%s’? [s/N]',
+	'CLI_USER_DELETE_ID_CONFIRM'	=> 'Tens a certeza de que desejas remover os utilizadores com os IDs ‘%s’? [s/N]',
+	'CLI_USER_DELETE_ID_SUCCESS'	=> 'IDs de utilizador removidos com sucesso.',
+	'CLI_USER_DELETE_ID_START'		=> 'A remover utilizadores por ID',
+	'CLI_USER_DELETE_NONE'			=> 'Não foi removido nenhum utilizador por ID.',
 	'CLI_USER_RECLEAN_START'	=> 'A limpar nomes de utilizadores',
 	'CLI_USER_RECLEAN_DONE'		=> [
 		0	=> 'Limpeza completa. Nenhum nome de utilizador precisava de ser limpo.',

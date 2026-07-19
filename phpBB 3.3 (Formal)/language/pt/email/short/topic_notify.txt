@@ -7,11 +7,6 @@ Está a receber esta notificação porque está a observar o Tópico "{TOPIC_TIT
 Para ver o que há de novo desde sua última visita, clique no seguinte endereço:
 {U_NEWEST_POST}
 
-Para ver o tópico, clique no seguinte endereço:
-{U_TOPIC}
-
-Para ver o fórum, clique no seguinte endereço:
-{U_FORUM}
 
 Para deixar de observar este Tópico clique em "Parar de Observar Tópico" encontrado na parte inferior do tópico acima, ou clique no seguinte endereço:
 

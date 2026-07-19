@@ -111,15 +111,19 @@ $lang = array_merge($lang, [
 	'SEARCH_GUEST_INTERVAL'					=> 'Intervalo de Segurança nas pesquisas dos Visitantes',
 	'SEARCH_GUEST_INTERVAL_EXPLAIN'		=> 'Número em segundos que um Visitante tem que esperar entre pesquisas. Se um visitante pesquisar todos os outros têm esperar até que o Intervalo de Segurança termine.',
 	'SEARCH_INDEX_CREATE_REDIRECT'		=> [
+		1	=> 'Estão indexadas todas as mensagens até à mensagem id %2$d, %1$d das quais foi indexada neste processo.',
 		2	=> 'Estão indexadas todas as mensagens até à mensagem id %2$d, %1$d das quais já estavam indexadas neste processo.',
 	],
 	'SEARCH_INDEX_CREATE_REDIRECT_RATE'	=> [
+		1	=> 'A taxa atual de indexação é de aproximadamente %1$.1f mensagem por segundo.',
 		2	=> 'A taxa atual de indexação é de aproximadamente %1$.1f mensagens por segundo.',
 	],
 	'SEARCH_INDEX_DELETE_REDIRECT'		=> [
-		2	=> 'Todas as mensagens até à mensagem cujo id é %2$d foram eliminadas do índice de pesquisa, %1$d das quais já estavam indexadas neste processo.',
+		1	=> 'Todas as mensagens até à mensagem cujo id é %2$d foram eliminadas do índice de pesquisa, %1$d das quais foi eliminada neste processo.',
+		2	=> 'Todas as mensagens até à mensagem cujo id é %2$d foram eliminadas do índice de pesquisa, %1$d das quais foram eliminadas neste processo.',
 	],
 	'SEARCH_INDEX_DELETE_REDIRECT_RATE'		=> [
+		1	=> 'A taxa atual de eliminação é de aproximadamente %1$.1f mensagem por segundo.',
 		2	=> 'A taxa atual de eliminação é de aproximadamente %1$.1f mensagens por segundo.',
 	],
 	'SEARCH_INDEX_CREATED'					=> 'Todas as Mensagens foram indexadas na Base de Dados com sucesso.',

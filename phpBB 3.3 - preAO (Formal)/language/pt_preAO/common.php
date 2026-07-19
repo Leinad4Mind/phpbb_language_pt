@@ -40,11 +40,11 @@ if (empty($lang) || !is_array($lang)) {
 //
 
 $lang = array_merge($lang, [
-	'TRANSLATION_INFO'				=> 'Traduzido por: <a href="https://leinad4mind.top/forum">Leinad4Mind</a>',
+	'TRANSLATION_INFO'				=> 'Traduzido por: Leinad4Mind — https://leinad4mind.top/forum',
 	'DIRECTION'							=> 'ltr',
 	'DATE_FORMAT'						=> '|d M Y|',	// 01 Jan 2007 (with Relactive days enabled)
 	'DATETIME_FORMAT'					=> '|d M Y, H:i|',	// 01 Jan 2007, 13:37 (with Relactive days enabled)
-	'USER_LANG'							=> 'pt-preao',
+	'USER_LANG'							=> 'pt-preAO',
 
 	// You can define different rules for the determination of plural forms here.
 	// See https://area51.phpbb.com/docs/dev/3.3.x/language/plurals.html for more information
@@ -136,7 +136,7 @@ $lang = array_merge($lang, [
 	'BOARD_BAN_TIME'						=> 'Foi expulso deste Fórum até %1$s.<br /><br />Por favor, contacte o %2$sAdministrador%3$s para mais informações.',
 	'BOARD_DISABLE'						=> 'Este Fórum está, de momento, indisponível.',
 	'BOARD_DISABLED'						=> 'Este Fórum está actualmente desactivado.',
-	'BOARD_UNAVAILABLE'					=> 'Este Fórum não se encontra disponível neste momento.<br />Por Favor, tente novamente mais tarde.',
+	'BOARD_UNAVAILABLE'					=> 'Este Fórum não se encontra disponível neste momento. Por favor, tente novamente mais tarde.',
 	'BROWSING_FORUM'						=> 'Utilizadores a ver este Fórum: %1$s',
 	'BROWSING_FORUM_GUESTS'	=> [
 		1	=> 'Utilizadores neste fórum: %2$s e %1$d visitante',
@@ -356,6 +356,7 @@ $lang = array_merge($lang, [
 	'HIDE_ME'							=> 'Ocultar o meu estado nesta sessão',
 	'HOURS'								=> 'Horas',
 	'HOME'								=> 'Página Principal',
+	'HTTP_HANDLER_NOT_FOUND'			=> 'Não foi possível concluir a operação porque a extensão cURL do PHP e a definição allow_url_fopen do php.ini estão desactivadas e não foi encontrado outro processador HTTP.',
 
 	'ICQ'									=> 'ICQ',
 	'IF'									=> 'Se',
@@ -480,6 +481,7 @@ $lang = array_merge($lang, [
 	// A, B, C and others replied...
 	'NOTIFICATION_BOOKMARK'				=> [
 		1	=> '<strong>Resposta</strong> de %1$s no Tópico em observação:',
+		2	=> '<strong>Respostas</strong> de %1$s no Tópico em observação:',
 	],
 	'NOTIFICATION_FORUM'					=> '<em>Fórum:</em> %1$s',
 	'NOTIFICATION_GROUP_REQUEST'		=> '<strong>Pedido de adesão</strong> de %1$s ao Grupo %2$s.',
@@ -488,12 +490,14 @@ $lang = array_merge($lang, [
 	'NOTIFICATION_PM'						=> '<strong>Mensagem Privada</strong> de %1$s:',
 	'NOTIFICATION_POST'					=> [
 		1	=> '<strong>Resposta</strong> de %1$s ao Tópico:',
+		2	=> '<strong>Respostas</strong> de %1$s ao Tópico:',
 	],
 	'NOTIFICATION_POST_APPROVED'		=> '<strong>Mensagem aprovada</strong>:',
 	'NOTIFICATION_POST_DISAPPROVED'	=> '<strong>Mensagem não aprovada</strong>:',
 	'NOTIFICATION_POST_IN_QUEUE'		=> '<strong>Aprovação de Mensagem</strong> pedida por %1$s:',
 	'NOTIFICATION_QUOTE'					=> [
 		1	=> '<strong>Citação</strong> de %1$s em:',
+		2	=> '<strong>Citações</strong> de %1$s em:',
 	],
 	'NOTIFICATION_REFERENCE'			=> '"%1$s"',
 	'NOTIFICATION_REASON'				=> '<em>Razão:</em> %1$s.',
@@ -510,6 +514,7 @@ $lang = array_merge($lang, [
 	// Used in conjunction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	'NOTIFICATION_MANY_OTHERS'			=> 'outros',
 	'NOTIFICATION_X_OTHERS'				=> [
+		1	=> '%d outro',
 		2	=> '%d outros',
 	],
 	'NOTIFY_ADMIN'							=> 'Por favor, notifique o Administrador ou webmaster deste Fórum.',
@@ -829,13 +834,16 @@ $lang = array_merge($lang, [
 	'TOPIC_POLL'		=> 'Este Tópico tem uma votação.',
 	'TOTAL_POSTS'		=> 'Total de mensagens',
 	'TOTAL_POSTS_COUNT'	=> [
+		1	=> 'Total de mensagens <strong>%d</strong>',
 		2	=> 'Total de mensagens <strong>%d</strong>',
 	],
 	'TOPIC_REPORTED'	=> 'Este tópico foi denunciado',
 	'TOTAL_TOPICS'		=> [
+		1	=> 'Total de tópicos <strong>%d</strong>',
 		2	=> 'Total de tópicos <strong>%d</strong>',
 	],
 	'TOTAL_USERS'		=> [
+		1	=> 'Total de membros <strong>%d</strong>',
 		2	=> 'Total de membros <strong>%d</strong>',
 	],
 	'TRACKED_PHP_ERROR'					=> 'Erros PHP encontrados: %s',
