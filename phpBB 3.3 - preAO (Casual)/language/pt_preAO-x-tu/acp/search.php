@@ -40,7 +40,7 @@ $lang = array_merge($lang, [
 	'ACP_SEARCH_SETTINGS_EXPLAIN'				=> 'Aqui podes definir o modo de pesquisa que será utilizado para a execução deste Sistema. Podes configurar várias opções que podem influenciar em quantos processos estas ações serão solicitadas. Algumas destas configurações são as mesmas para todos os modos de pesquisa.',
 
 	'COMMON_WORD_THRESHOLD'						=> 'Limite de palavras comuns',
-	'COMMON_WORD_THRESHOLD_EXPLAIN'			=> 'Palavras que estão incluídas em grande percentagem em todas as Mensagens, são consideradas comuns. As palavras comuns são ignoradas nas pesquisas. Escreve zero para desactivar esta opção. Apenas terá efeito se possuir mais de 100 Mensagens.',
+	'COMMON_WORD_THRESHOLD_EXPLAIN'			=> 'Palavras que estão incluídas em grande percentagem em todas as Mensagens são consideradas comuns. As palavras comuns são ignoradas nas pesquisas. Escreve zero para desactivar esta opção. Esta opção só terá efeito se o Fórum tiver mais de 100 Mensagens.',
 	'CONFIRM_SEARCH_BACKEND'					=> 'Desejas alterar o modo de pesquisa? Depois de modificares o teu modo de pesquisa, deverás criar um novo índice para o novo modo seleccionado. Se não planeias voltar ao teu modo de pesquisa antigo, poderás excluí-lo.',
 	'CONTINUE_DELETING_INDEX'					=> 'Continuar processo de exclusão de índice',
 	'CONTINUE_DELETING_INDEX_EXPLAIN'		=> 'Um processo de exclusão de índice foi iniciado. Para voltares a aceder à página de índice da pesquisa, deves completar o processo ou cancelá-lo.',
@@ -131,7 +131,7 @@ $lang = array_merge($lang, [
 	'SEARCH_STORE_RESULTS_EXPLAIN'		=> 'A Cache dos resultados da pesquisa irá expirar após este tempo, em segundos. Escreve 0 se desejas desactivar esta opção.',
 	'SEARCH_TYPE'								=> 'Modo de pesquisa',
 	'SEARCH_TYPE_EXPLAIN'					=> 'O phpBB permite-te seleccionar o modo que será utilizado para a pesquisa de textos nos conteúdos da mensagem. Por padrão, será utilizado apenas o próprio sistema de pesquisas por textos completos.',
-	'SWITCHED_SEARCH_BACKEND'				=> 'O modo de pesquisa foi seleccionado com sucesso. Agora, para utilizá-lo terá que certificar-se da existência de um índice para o modo escolhido.',
+	'SWITCHED_SEARCH_BACKEND'				=> 'O modo de pesquisa foi seleccionado com sucesso. Agora, para o utilizares, terás de te certificar da existência de um índice para o modo escolhido.',
 
 	'TOTAL_WORDS'								=> 'Número Total de Palavras indexadas',
 	'TOTAL_MATCHES'							=> 'Número Total de Palavras indexadas para relações de Mensagens',

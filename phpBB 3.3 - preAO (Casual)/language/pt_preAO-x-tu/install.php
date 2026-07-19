@@ -534,7 +534,7 @@ $lang = array_merge($lang, [
 	'FORUM_PATH'					=> 'Pasta do Fórum',
 	'FORUM_PATH_EXPLAIN'			=> 'Este é o caminho <strong>relativo</strong> no disco para o teu antigo fórum da <strong>raiz desta instalação do phpBB3</strong>.',
 	'REFRESH_PAGE'					=> 'Actualiza a página para continuar a conversão',
-	'REFRESH_PAGE_EXPLAIN'		=> 'Se clicar em "Sim", o conversor irá actualizar a página para continuar a conversão até à etapa final. Se esta é uma conversão apenas de teste e para determinação de erros, clica em "Não".',
+	'REFRESH_PAGE_EXPLAIN'		=> 'Se clicares em "Sim", o conversor irá actualizar a página para continuar a conversão até à etapa final. Se esta é uma conversão apenas de teste e para determinação de erros, clica em "Não".',
 
 	// Conversion
 	'STAGE_IN_PROGRESS'			=> 'Conversão em andamento',

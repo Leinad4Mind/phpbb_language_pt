@@ -42,7 +42,7 @@ $lang = array_merge($lang, [
 	'ADD_USERS_EXPLAIN'					=> 'Aqui podes adicionar novos Membros ao Grupo. Deves indicar se é o Grupo Padrão dos Utilizadores selecionados. Podes selecionar os Líderes do Grupo. Escreve apenas um Utilizador por linha.',
 
 	'COPY_PERMISSIONS'					=> 'Copiar Permissões de',
-	'COPY_PERMISSIONS_EXPLAIN'			=> 'Uma vez criadas, o Grupo terá as mesmas Permissões que selecionar aqui.',
+	'COPY_PERMISSIONS_EXPLAIN'			=> 'Uma vez criado, o Grupo terá as mesmas Permissões que selecionares aqui.',
 	'CREATE_GROUP'							=> 'Criar um Grupo',
 
 	'GROUPS_NO_MEMBERS'					=> 'O Grupo selecionado não tem Membros',
@@ -134,7 +134,7 @@ $lang = array_merge($lang, [
 
 	'SELECT_GROUP'							=> 'Seleciona um Grupo',
 	'SPECIAL_GROUPS'						=> 'Grupos Pré-Definidos',
-	'SPECIAL_GROUPS_EXPLAIN'			=> 'São os Grupos Básicos do phpBB. Não podem ser apagados ou modificados. Porém, pode adicionar membros a estes Grupos e modificar as Configurações de cada um dos Grupos.',
+	'SPECIAL_GROUPS_EXPLAIN'			=> 'São os Grupos Básicos do phpBB. Não podem ser apagados ou modificados. Porém, podes adicionar membros a estes Grupos e modificar as configurações de cada um deles.',
 
 	'TEAMPAGE'								=> 'Página da Equipa',
 	'TEAMPAGE_DISP_ALL'					=> 'Todos os membros',

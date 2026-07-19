@@ -265,7 +265,7 @@ $lang = array_merge($lang, [
 	'LOAD_NOTIFICATIONS'				=> 'Mostrar notificações',
 	'LOAD_NOTIFICATIONS_EXPLAIN'	=> 'Mostrar a lista de notificações em cada página (normalmente no cabeçalho).',
 	'LOGGED_IN_AS'						=> 'Está ligado como:',
-	'LOGIN_ADMIN'						=> 'Para Administrar o Fórum, tem que ser um Utilizador validado.',
+	'LOGIN_ADMIN'						=> 'Para administrares o Fórum, tens de ser um Utilizador validado.',
 	'LOGIN_ADMIN_CONFIRM'			=> 'Para administrar o Fórum, tens de confirmar o teu acesso.',
 	'LOGIN_ADMIN_SUCCESS'			=> 'O teu Registo foi validado com sucesso. Vais ser redireccionado para o Painel de Administração.',
 	'LOOK_UP_FORUM'					=> 'Selecciona um Fórum',
@@ -480,7 +480,7 @@ $lang = array_merge($lang, [
 // Send statistics page
 $lang = array_merge($lang, [
 	'EXPLAIN_SEND_STATISTICS'		=> 'Por favor, envia informação acerca do teu servidor e configurações do Fórum para análise de estatística do phpBB. Toda a informação que possa identificar-te ou ao teu website será removida - os dados são totalmente <strong>anónimos</strong>. Basearemos as nossas decisões sobre as futuras versões de phpBB com esta informação. As estatísticas serão publicamente disponibilizadas. Compartilharemos igualmente os dados com o projecto PHP, a linguagem de programação phpBB é baseada nele.',
-	'EXPLAIN_SHOW_STATISTICS'		=> 'Usando o botão abaixo pode visualizar todas as variáveis que serão transmitidas.',
+	'EXPLAIN_SHOW_STATISTICS'		=> 'Com o botão abaixo podes visualizar todas as variáveis que serão transmitidas.',
 	'DONT_SEND_STATISTICS'			=> 'Clica aqui para entrar no ACP, se não desejas enviar as informações estatísticas para o phpBB.',
 	'GO_ACP_MAIN'						=> 'Ir para a página inicial do ACP',
 	'HIDE_STATISTICS'					=> 'Esconder detalhes',

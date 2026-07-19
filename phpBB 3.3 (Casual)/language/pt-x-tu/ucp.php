@@ -140,7 +140,7 @@ $lang = array_merge($lang, [
 	'VC_REFRESH_EXPLAIN'					=> 'Se não consegues ler o código podes pedir um novo clicando no botão.',
 
 	'CONFIRM_PASSWORD'					=> 'Confirma a tua Nova Senha',
-	'CONFIRM_PASSWORD_EXPLAIN'			=> 'Preencher apenas se pretenderes alterar a Senha Atual.',
+	'CONFIRM_PASSWORD_EXPLAIN'			=> 'Preenche apenas se pretenderes alterar a Senha Atual.',
 	'COPPA_BIRTHDAY'						=> 'Neste Fórum o Registo de Utilizadores menores de 13 anos necessita da Aprovação do Encarregado de Educação. Se tens menos de 13 anos o Registo só será Aprovado pelo Administrador do Fórum depois do teu Encarregado de Educação enviar a autorização para a tua participação. Para continuar com o Registo, seleciona a opção correta, de acordo com a tua idade.',
 	'COPPA_COMPLIANCE'					=> 'De acordo com a COPPA',
 	'COPPA_EXPLAIN'						=> 'Ao clicares em enviar, criarás a tua conta. No entanto, só será ativada quando o teu Encarregado de Educação ou o responsável legal autorizar a tua participação no Fórum. Para isso receberás um email com mais detalhes.',
@@ -291,7 +291,7 @@ $lang = array_merge($lang, [
 	'LOGIN_KEY'								=> 'Chave de acesso',
 	'LOGIN_TIME'							=> 'Hora de acesso',
 	'LOGIN_REDIRECT'						=> 'A tua sessão foi iniciada.',
-	'LOGOUT_FAILED'						=> 'A tua sessão não foi encerrada. Se continuares a ter este problema contacta um Administrador.',
+	'LOGOUT_FAILED'						=> 'A tua sessão não foi encerrada. Se continuares a ter este problema, contacta um Administrador.',
 	'LOGOUT_REDIRECT'						=> 'A tua sessão foi encerrada.',
 
 	'MARK_IMPORTANT'						=> 'Marcar/Desmarcar como Importante',
@@ -335,7 +335,7 @@ $lang = array_merge($lang, [
 	'NOTIFICATION_METHOD_JABBER'				=> 'Jabber',
 	'NOTIFICATION_TYPE'							=> 'Tipo de Notificação',
 	'NOTIFICATION_TYPE_BOOKMARK'				=> 'Alguém respondeu a um tópico que adicionaste aos teus favoritos',
-	'NOTIFICATION_TYPE_GROUP_REQUEST'		=> 'Alguém pediu para se juntar ao grupo que lidera',
+	'NOTIFICATION_TYPE_GROUP_REQUEST'		=> 'Alguém pediu para se juntar ao grupo que lideras',
 	'NOTIFICATION_TYPE_FORUM'					=> 'Alguém respondeu a um tópico num fórum que estás a observar',
 	'NOTIFICATION_TYPE_IN_MODERATION_QUEUE'	=> 'Uma mensagem ou tópico precisa de aprovação',
 	'NOTIFICATION_TYPE_MODERATION_QUEUE'		=> 'Os teus tópicos/mensagens foram aprovados ou desaprovados por um moderador',

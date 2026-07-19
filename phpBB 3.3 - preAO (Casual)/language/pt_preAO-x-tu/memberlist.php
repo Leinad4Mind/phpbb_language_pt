@@ -68,7 +68,7 @@ $lang = array_merge($lang, [
 	'EMPTY_SUBJECT_EMAIL'	=> 'Indica um assunto para o email',
 	'EQUAL_TO'					=> 'Igual a',
 
-	'FIND_USERNAME_EXPLAIN'	=> 'Utiliza este formulário para procurar Utilizadores. Não é necessário preencher todos os campos. Para dados parciais utiliza o *. Se indicar uma data, usa o formato <kbd>YYYY-MM-DD</kbd> ex. <samp>2004-02-29</samp>. Nas caixas de selecção escreve um ou mais nomes de utilizador (são aceites vários Utilizadores).',
+	'FIND_USERNAME_EXPLAIN'	=> 'Utiliza este formulário para procurar Utilizadores. Não é necessário preencher todos os campos. Para dados parciais utiliza o *. Se indicares uma data, usa o formato <kbd>YYYY-MM-DD</kbd> ex. <samp>2004-02-29</samp>. Nas caixas de selecção escreve um ou mais nomes de utilizador (são aceites vários Utilizadores).',
 	'FLOOD_EMAIL_LIMIT'		=> 'Não podes enviar novo email tão rapidamente. Aguarda algum tempo e tenta novamente mais tarde.',
 
 	'GROUP_LEADER'				=> 'Líder do Grupo',

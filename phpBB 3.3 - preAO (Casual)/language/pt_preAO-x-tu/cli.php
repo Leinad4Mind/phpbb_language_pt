@@ -89,7 +89,7 @@ $lang = array_merge($lang, [
 	'CLI_DESCRIPTION_THUMBNAIL_RECREATE'		=> 'Recriar todas as miniaturas.',
 
 	'CLI_DESCRIPTION_UPDATE_CHECK'						=> 'Verificar se o fórum esta actualizado.',
-	'CLI_DESCRIPTION_UPDATE_CHECK_ARGUMENT_1'			=> 'Nome da extensão a verificar(se seleccionar todos, verificará todas as extensões)',
+	'CLI_DESCRIPTION_UPDATE_CHECK_ARGUMENT_1'			=> 'Nome da extensão a verificar (se seleccionares "todos", serão verificadas todas as extensões)',
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_CACHE'		=> 'Executar comando de verificação com cache.',
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_STABILITY'	=> 'Executar comando escolhendo para verificar somente versões estáveis ou instáveis.',
 

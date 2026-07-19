@@ -354,7 +354,7 @@ $lang = array_merge($lang, [
 	'SPLIT_TOPIC_ALL_CONFIRM'		=> 'Tens a certeza que desejas dividir este Tópico?',
 	'SPLIT_TOPIC_BEYOND'				=> 'Dividir o Tópico em Mensagens selecionadas',
 	'SPLIT_TOPIC_BEYOND_CONFIRM'	=> 'Tens a certeza que desejas dividir este Tópico na Mensagem selecionada?',
-	'SPLIT_TOPIC_EXPLAIN'			=> 'Neste formulário pode dividir um Tópico em dois, ao selecionar as Mensagens do novo Tópico.',
+	'SPLIT_TOPIC_EXPLAIN'			=> 'Neste formulário podes dividir um Tópico em dois, selecionando as Mensagens do novo Tópico.',
 
 	'THIS_PM_IP'						=> 'IP para esta Mensagem Privada',
 	'THIS_POST_IP'						=> 'IP para esta Mensagem',

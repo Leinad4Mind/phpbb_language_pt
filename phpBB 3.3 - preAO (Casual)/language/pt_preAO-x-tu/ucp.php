@@ -58,10 +58,10 @@ $lang = array_merge($lang, [
 
 // Common language entries
 $lang = array_merge($lang, [
-	'ACCOUNT_ACTIVE'						=> 'A tua conta foi activada. Obrigado por se registar.',
+	'ACCOUNT_ACTIVE'						=> 'A tua conta foi activada. Obrigado por te registares.',
 	'ACCOUNT_ACTIVE_ADMIN'				=> 'A conta foi activada.',
 	'ACCOUNT_ACTIVE_PROFILE'			=> 'A tua conta foi reactivada com sucesso.',
-	'ACCOUNT_ADDED'						=> 'Obrigado por se registar, a tua conta foi criada.',
+	'ACCOUNT_ADDED'						=> 'Obrigado por te registares, a tua conta foi criada.',
 	'ACCOUNT_COPPA'						=> 'A tua conta foi criada. Para ser Aprovada é necessário a autorização do teu Encarregado de Educação. Para mais detalhes verifica o teu endereço de email.',
 	'ACCOUNT_EMAIL_CHANGED'				=> 'A tua conta foi actualizada. Neste Fórum as alterações de email requerem a reactivação. A chave de activação foi enviada para o teu novo endereço de email. Para mais detalhes verifica o teu endereço de email.',
 	'ACCOUNT_EMAIL_CHANGED_ADMIN'		=> 'A tua conta foi actualizada. Neste Fórum as alterações de email requerem a reactivação por um administrador. Receberás um email quando a tua conta for reactivada.',
@@ -140,7 +140,7 @@ $lang = array_merge($lang, [
 	'VC_REFRESH_EXPLAIN'					=> 'Se não consegues ler o código podes pedir um novo clicando no botão.',
 
 	'CONFIRM_PASSWORD'					=> 'Confirma a tua Nova Senha',
-	'CONFIRM_PASSWORD_EXPLAIN'			=> 'Preencher apenas se pretender alterar a Senha Actual.',
+	'CONFIRM_PASSWORD_EXPLAIN'			=> 'Preenche apenas se pretenderes alterar a Senha Actual.',
 	'COPPA_BIRTHDAY'						=> 'Neste Fórum o Registo de Utilizadores menores de 13 anos necessita da Aprovação do Encarregado de Educação. Se tens menos de 13 anos o Registo só será Aprovado pelo Administrador do Fórum depois do teu Encarregado de Educação enviar a autorização para a tua participação. Para continuar com o Registo, selecciona a opção correcta, de acordo com a tua idade.',
 	'COPPA_COMPLIANCE'					=> 'De acordo com a COPPA',
 	'COPPA_EXPLAIN'						=> 'Ao clicares em enviar, criarás a tua conta. No entanto, só será activada quando o teu Encarregado de Educação ou o responsável legal autorizar a tua participação no Fórum. Para isso receberás um email com mais detalhes.',
@@ -291,7 +291,7 @@ $lang = array_merge($lang, [
 	'LOGIN_KEY'								=> 'Chave de acesso',
 	'LOGIN_TIME'							=> 'Hora de acesso',
 	'LOGIN_REDIRECT'						=> 'A tua sessão foi iniciada.',
-	'LOGOUT_FAILED'						=> 'A tua sessão não foi encerrada. Se continuar tendo este problema contacta um Administrador.',
+	'LOGOUT_FAILED'						=> 'A tua sessão não foi encerrada. Se continuares a ter este problema, contacta um Administrador.',
 	'LOGOUT_REDIRECT'						=> 'A tua sessão foi encerrada.',
 
 	'MARK_IMPORTANT'						=> 'Marcar/Desmarcar como Importante',
@@ -335,7 +335,7 @@ $lang = array_merge($lang, [
 	'NOTIFICATION_METHOD_JABBER'				=> 'Jabber',
 	'NOTIFICATION_TYPE'							=> 'Tipo de Notificação',
 	'NOTIFICATION_TYPE_BOOKMARK'				=> 'Alguém respondeu a um tópico que adicionaste aos teus favoritos',
-	'NOTIFICATION_TYPE_GROUP_REQUEST'		=> 'Alguém pediu para se juntar ao grupo que lidera',
+	'NOTIFICATION_TYPE_GROUP_REQUEST'		=> 'Alguém pediu para se juntar ao grupo que lideras',
 	'NOTIFICATION_TYPE_FORUM'					=> 'Alguém respondeu a um tópico num fórum que estás a observar',
 	'NOTIFICATION_TYPE_IN_MODERATION_QUEUE'	=> 'Uma mensagem ou tópico precisa de aprovação',
 	'NOTIFICATION_TYPE_MODERATION_QUEUE'		=> 'Os teus tópicos/mensagens foram aprovados ou desaprovados por um moderador',

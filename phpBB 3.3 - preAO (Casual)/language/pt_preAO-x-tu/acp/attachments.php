@@ -79,7 +79,7 @@ $lang = array_merge($lang, [
 	'DOWNLOAD_ADD_IPS_EXPLAIN'			=> 'Para definir vários IPs ou Servidores diferentes, introduz cada um numa nova linha. Para definir uma faixa de endereços de IP, separa o início e o fim com um hífen (-). Podes utilizar asteriscos (*)',
 	'DOWNLOAD_REMOVE_IPS_EXPLAIN'		=> 'Podes remover (ou não-excluir) múltiplos endereços de IPs de uma única vez ao usar a combinação apropriada de rato e teclado para o teu computador e navegador. IPs apagados têm um fundo em azul.',
 	'DISPLAY_INLINED'						=> 'Mostrar Imagens',
-	'DISPLAY_INLINED_EXPLAIN'			=> 'Se escolheres Não as imagens anexadas serão mostradas como atalhos.',
+	'DISPLAY_INLINED_EXPLAIN'			=> 'Se escolheres Não, as imagens anexadas serão mostradas como atalhos.',
 	'DISPLAY_ORDER'						=> 'Ordem de visualização dos Anexos',
 	'DISPLAY_ORDER_EXPLAIN'				=> 'Os anexos são ordenados pela hora de envio.',
 
