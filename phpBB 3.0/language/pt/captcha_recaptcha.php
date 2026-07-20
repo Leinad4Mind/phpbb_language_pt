@@ -6,7 +6,7 @@
  *
  * @package language
  * @version 1.0.9
- * @Traduzido por: https://leinad4mind.top/forum - segundo as normas do Acordo Ortográfico
+ * @Traduzido por: http://www.phpbb-pt.com & https://leinad4mind.top/forum - segundo as normas do Acordo Ortográfico
  * @copyright (c) 2009 phpBB Group
  * @license http://opensource.org/licenses/gpl-license.php GNU Public License
  * 
