@@ -113,7 +113,7 @@ $lang = array_merge($lang, array(
 	'CONV_ERROR_REPLACE_FORUM'			=> 'Não foi possível inserir um novo Fórum substituindo um Fórum antigo.',
 	'CONV_ERROR_USER_ACCESS'			=> 'Não foi possível adquirir as informações de autenticação dos utilizadores.',
 	'CONV_ERROR_WRONG_GROUP'			=> 'Erro no Grupo "%1$s" definido em %2$s.',
-	'CONV_OPTIONS_BODY'					=> 'Esta página precisa do acesso ao código do Fórum. Introduza os dados da Base de Dados; o conversor não irá mexer no código atual. O acesso ao código deve ser desactivado para evitar erros.',
+	'CONV_OPTIONS_BODY'					=> 'Esta página precisa do acesso ao código do Fórum. Introduza os dados da Base de Dados; o conversor não irá mexer no código actual. O acesso ao código deve ser desactivado para evitar erros.',
 	'CONV_SAVED_MESSAGES'				=> 'Mensagens Guardadas',
 
 	'COULD_NOT_COPY'					=> 'Não foi possível copiar o ficheiro <strong>%1$s</strong> para <strong>%2$s</strong><br /><br />Verifique se a pasta de destino existe e tem permissão de escrita no Servidor.',
@@ -137,7 +137,7 @@ $lang = array_merge($lang, array(
 	'DB_USERNAME'						=> 'Nome de Utilizador da Base de Dados',
 	'DB_TEST'							=> 'Teste da ligação',
 	'DEFAULT_LANG'						=> 'Idioma padrão do Fórum',
-	'DEFAULT_PREFIX_IS'					=> 'O Conversor não encontrou as tabelas com o prefixo indicado. Verifique se as informações do Fórum estão corretas. O Prefixo Padrão para a tabela %1$s é <strong>%2$s</strong>',
+	'DEFAULT_PREFIX_IS'					=> 'O Conversor não encontrou as tabelas com o prefixo indicado. Verifique se as informações do Fórum estão correctas. O Prefixo Padrão para a tabela %1$s é <strong>%2$s</strong>',
 	'DEV_NO_TEST_FILE'					=> 'Não foi especificado um valor para a variável ficheiro_teste no conversor. Se é utilizador deste conversor, e não deveria estar vendo este erro, por favor, contacte o autor do conversor. Se é o autor do conversor, deve especificar o nome de um ficheiro que exista no Fórum de destino para que seja possível a verificação da pasta.',
 	'DIRECTORIES_AND_FILES'				=> 'Configuração de Ficheiro e Pasta',
 	'DISABLE_KEYS'						=> 'A desactivar chaves',
@@ -292,7 +292,7 @@ $lang = array_merge($lang, array(
 	'PCRE_UTF_SUPPORT'					=> 'Suporte a PCRE UTF-8',
 	'PCRE_UTF_SUPPORT_EXPLAIN'			=> 'O phpBB <strong>não</strong> funcionará se a sua instalação do PHP não for compilada com suporte a UTF-8 na extensão PCRE.',
 	'PHP_GETIMAGESIZE_SUPPORT'			=> 'Função do PHP getimagesize() está disponível',
-	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'	=> '<strong>Essencial</strong> - Para o funcionamento correto do phpBB, é necessário que esta função seja disponível.',
+	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'	=> '<strong>Essencial</strong> - Para o funcionamento correcto do phpBB, é necessário que esta função seja disponível.',
 	'PHP_OPTIONAL_MODULE'				=> 'Módulos Opcionais',
 	'PHP_OPTIONAL_MODULE_EXPLAIN'		=> '<strong>Opcional</strong> - Estes módulos ou aplicações são opcionais, não sendo necessários para a utilização do phpBB 3.0. No entanto, se os tiver, obterá maiores funcionalidades.',
 	'PHP_SUPPORTED_DB'					=> 'Bases de Dados suportadas',
@@ -395,7 +395,7 @@ $lang = array_merge($lang, array(
 	'CURRENT_VERSION'					=> 'Versão Actual',
 
 	'DATABASE_TYPE'						=> 'Base de Dados',
-	'DATABASE_UPDATE_INFO_OLD'			=> 'O Ficheiro de actualização da Base de Dados na pasta de instalação está desactualizado. Por favor, certifique-se de ter enviado a versão correta do Ficheiro.',
+	'DATABASE_UPDATE_INFO_OLD'			=> 'O Ficheiro de actualização da Base de Dados na pasta de instalação está desactualizado. Por favor, certifique-se de ter enviado a versão correcta do Ficheiro.',
 	'DELETE_USER_REMOVE'				=> 'Apagar Utilizador e as suas Mensagens',
 	'DELETE_USER_RETAIN'				=> 'Apagar Utilizador mas deixar as suas Mensagens',
 	'DESTINATION'						=> 'Ficheiro de destino',
@@ -467,7 +467,7 @@ $lang = array_merge($lang, array(
 	'NO_ERRORS'							=> 'Sem Erros',
 	'NO_UPDATE_FILES'					=> 'Sem actualização para os ficheiros seguintes',
 	'NO_UPDATE_FILES_EXPLAIN'			=> 'Os ficheiros seguintes são novos ou modificados, mas a pasta em que eles normalmente se encontram não foi encontrada na sua instalação. Se esta lista contém Ficheiros para as pastas como /language ou /styles que tenha alterado, a sua estrutura de pastas e a Actualização deverão ficar incompletas.',
-	'NO_UPDATE_FILES_OUTDATED'			=> 'Nenhuma pasta de actualização válida foi encontrada, por favor, certifique-se de ter enviado correctamente os Ficheiros.<br /><br />A sua Instalação <strong>não</strong> está pronta. As actualizações estão disponíveis para a sua Versão do phpBB %1$s, por favor, visite <a href="https://www.phpbb.com/downloads/" rel="external">https://www.phpbb.com/downloads/</a> para descarregar o pacote correto para actualizar da Versão %2$s para a Versão %3$s.',
+	'NO_UPDATE_FILES_OUTDATED'			=> 'Nenhuma pasta de actualização válida foi encontrada, por favor, certifique-se de ter enviado correctamente os Ficheiros.<br /><br />A sua Instalação <strong>não</strong> está pronta. As actualizações estão disponíveis para a sua Versão do phpBB %1$s, por favor, visite <a href="https://www.phpbb.com/downloads/" rel="external">https://www.phpbb.com/downloads/</a> para descarregar o pacote correcto para actualizar da Versão %2$s para a Versão %3$s.',
 	'NO_UPDATE_FILES_UP_TO_DATE'		=> 'A sua versão está pronta. Não é necessário executar a ferramenta de actualização. Se deseja ter a absoluta certeza, verifique se enviou correctamente os Ficheiros de Actualização.',
 	'NO_UPDATE_INFO'					=> 'A Informação do Ficheiro de actualização não foi encontrada',
 	'NO_UPDATES_REQUIRED'				=> 'Não há alterações a fazer',
@@ -535,7 +535,7 @@ $lang = array_merge($lang, array(
 		<p>O Método recomendado para a actualização da sua instalação apenas indica as seguintes etapas:</p> 
 
 		<ul style="margin-left: 20px; font-size: 1.1em;"> 
-			<li>Vá à <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">phpBB.com downloads page</a> e descarregue o "Pacote de Actualização do phpBB" correto.<br /><br /></li> 
+			<li>Vá à <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">phpBB.com downloads page</a> e descarregue o "Pacote de Actualização do phpBB" correcto.<br /><br /></li>
 			<li>Descompacte o Ficheiro.<br /><br /></li> 
 			<li>Envie a Pasta de Instalação completamente descompactada para o seu Servidor (onde o seu Ficheiro config.php se encontra).<br /><br /></li> 
 		</ul> 

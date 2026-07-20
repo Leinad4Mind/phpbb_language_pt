@@ -55,7 +55,6 @@ $lang = array_merge($lang, array(
 
 	'BBCODE_INVALID_TAG_NAME'		=> 'O Nome da TAG de BBCode seleccionado já existe.',
 	'BBCODE_INVALID'				=> 'A construção do seu BBCode é invalido.',
-	'BBCODE_OPEN_ENDED_TAG'			=> 'O BBCode personalizado deve conter uma TAG de início e outra de fim.',
 	'BBCODE_TAG'					=> 'TAG',
 	'BBCODE_TAG_TOO_LONG'			=> 'O Nome da TAG seleccionado é muito grande.',
 	'BBCODE_TAG_DEF_TOO_LONG'		=> 'A Definição da TAG escrita é muito grande. Por Favor, reescreva de forma mais curta.',

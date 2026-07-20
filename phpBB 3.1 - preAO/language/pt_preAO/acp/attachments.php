@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang)) {
 $lang = array_merge($lang, array(
 	'ACP_ATTACHMENT_SETTINGS_EXPLAIN'	=> 'Aqui pode configurar as Opções Principais para os Anexos e Categorias Especiais associadas.',
 	'ACP_EXTENSION_GROUPS_EXPLAIN'		=> 'Aqui pode adicionar, excluir, modificar e desactivar as Extensões. Consulte o Painel Gestor de Grupos de Extensões. Recomenda-se que não permita extensões de scripts (tipo: php, php3, php4, phtml, pl, cgi, py, rb, asp, aspx, entre outras...), por serem potencialmente perigosas.',
-	'ACP_MANAGE_EXTENSIONS_EXPLAIN'		=> 'Aqui pode controlar as Extensões permitidas. Para ativar as suas Extensões, consulte por favor o Painel de Gestão dos Grupos das Extensões. Recomenda-se que não permita extensões de scripts (tipo: php, php3, php4, phtml, pl, cgi, py, rb, asp, aspx, entre outras...), por serem potencialmente perigosas.',
+	'ACP_MANAGE_EXTENSIONS_EXPLAIN'		=> 'Aqui pode controlar as Extensões permitidas. Para activar as suas Extensões, consulte por favor o Painel de Gestão dos Grupos das Extensões. Recomenda-se que não permita extensões de scripts (tipo: php, php3, php4, phtml, pl, cgi, py, rb, asp, aspx, entre outras...), por serem potencialmente perigosas.',
 	'ACP_ORPHAN_ATTACHMENTS_EXPLAIN'	=> 'Estes são os Ficheiros que não estão associados a uma Mensagem.',
 	'ADD_EXTENSION'						=> 'Adicionar Extensão',
 	'ADD_EXTENSION_GROUP'				=> 'Adicionar Grupo de Extensões',

@@ -42,6 +42,7 @@ $lang = array_merge($lang, array(
 
 	'BACKUP_DELETE'				=> 'O Ficheiro da Cópia de Segurança foi apagado com sucesso.',
 	'BACKUP_INVALID'			=> 'O Ficheiro seleccionado para a Cópia de Segurança é inválido.',
+	'BACKUP_NOT_SUPPORTED'		=> 'A Cópia de Segurança seleccionada não é suportada.',
 	'BACKUP_OPTIONS'			=> 'Opções da Cópia de Segurança',
 	'BACKUP_SUCCESS'			=> 'O Ficheiro da Cópia de Segurança foi criado com sucesso.',
 	'BACKUP_TYPE'				=> 'Tipo de Cópia de Segurança',

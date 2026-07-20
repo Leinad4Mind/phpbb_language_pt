@@ -408,7 +408,7 @@ $lang = array_merge($lang, array(
 
 // Server Settings 
 $lang = array_merge($lang, array(
-	'ACP_SERVER_SETTINGS_EXPLAIN'			=> 'Aqui são definidas as configurações dos Servidores e Domínios. Certifique-se de que os dados estão correto. Eventuais erros resultarão em emails contendo informações incorrectas. Quando introduzir o domínio, inclua o http:// ou outro protocolo. Altere apenas o número da Porta do Servidor se souber que seu Servidor usa um valor diferente, a Porta 80 é usada na maioria dos casos.',
+	'ACP_SERVER_SETTINGS_EXPLAIN'			=> 'Aqui são definidas as configurações dos Servidores e Domínios. Certifique-se de que os dados estão correcto. Eventuais erros resultarão em emails contendo informações incorrectas. Quando introduzir o domínio, inclua o http:// ou outro protocolo. Altere apenas o número da Porta do Servidor se souber que seu Servidor usa um valor diferente, a Porta 80 é usada na maioria dos casos.',
 
 	'ENABLE_GZIP'							=> 'Activa Compressão GZip',
 	'ENABLE_GZIP_EXPLAIN'					=> 'Conteúdo gerado será comprimido antes de enviado ao utilizador. Isto pode reduzir o tráfego na rede, mas irá aumentar o uso do CPU no servidor e cliente. Requer a utilização da extensão PHP zlib.',
@@ -536,7 +536,7 @@ $lang = array_merge($lang, array(
 	'JAB_PASSWORD'							=> 'Senha Jabber',
 	'JAB_PASSWORD_EXPLAIN'					=> '<em><strong>Aviso:</strong> Esta senha será armazenada como texto simples na Base de Dados, visível a todos que podem aceder à Base de Dados ou a quem pode ver esta página de configuração.</em>',
 	'JAB_PORT'								=> 'Porta do Jabber',
-	'JAB_PORT_EXPLAIN'						=> 'Deixe em branco se souber que a porta usada é 5222. Caso contrário, coloque a porta correta',
+	'JAB_PORT_EXPLAIN'						=> 'Deixe em branco se souber que a porta usada é 5222. Caso contrário, coloque a porta correcta',
 	'JAB_SERVER'							=> 'Servidor Jabber',
 	'JAB_SERVER_EXPLAIN'					=> 'Veja a lista de Servidores em %sjabber.org%s.',
 	'JAB_SETTINGS_CHANGED'					=> 'Configurações do Jabber alteradas com sucesso.',

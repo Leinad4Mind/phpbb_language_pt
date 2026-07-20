@@ -57,7 +57,7 @@ $help = array(
 	),
 	array(
 		0	=> 'Registei-me mas não consigo entrar!',
-		1	=> 'Verifique se escreve correctamente o Nome de Utilizador e a Senha.  Se tem a certeza de que estão correctos tenha em atenção um de dois factores. Se a função COPPA (Children\'s Online Privacy Protection Act) estiver activa no Fórum e assinalou a uma idade inferior a 13 anos durante o Registo, então tem que seguir as instruções que recebeu. Se não é este o seu caso, então o seu Registo ainda não se encontra-se activado. Alguns Fóruns obrigam à activação dos novos Registos. A Activação tanto pode ser feita pelo Administrador como pelo próprio Utilizador, que neste último caso receberá um email para esse efeito. Esta informação é fornecida aos novos Utilizadores durante o Registo. Se recebeu um email, siga as suas instruções. Se não recebeu nenhum email pode ter escrito incorrectamente o endereço de email ou então está considerado como spam pelo seu cliente de email. Se tem certeza que o endereço de email que forneceu é válido e correto, tente contactar o Administrador do Fórum.',
+		1	=> 'Verifique se escreve correctamente o Nome de Utilizador e a Senha.  Se tem a certeza de que estão correctos tenha em atenção um de dois factores. Se a função COPPA (Children\'s Online Privacy Protection Act) estiver activa no Fórum e assinalou a uma idade inferior a 13 anos durante o Registo, então tem que seguir as instruções que recebeu. Se não é este o seu caso, então o seu Registo ainda não se encontra-se activado. Alguns Fóruns obrigam à activação dos novos Registos. A Activação tanto pode ser feita pelo Administrador como pelo próprio Utilizador, que neste último caso receberá um email para esse efeito. Esta informação é fornecida aos novos Utilizadores durante o Registo. Se recebeu um email, siga as suas instruções. Se não recebeu nenhum email pode ter escrito incorrectamente o endereço de email ou então está considerado como spam pelo seu cliente de email. Se tem certeza que o endereço de email que forneceu é válido e correcto, tente contactar o Administrador do Fórum.',
 	),
 	array(
 		0	=> 'Registei-me e já entrei anteriormente mas agora não!',
@@ -85,7 +85,7 @@ $help = array(
 	),
 	array(
 		0	=> 'A Data e Hora estão erradas!',
-		1	=> 'Provavelmente as datas estão corretas, pode acontecer que esteja a visualizar as horas de um Fuso Horário diferente do seu. Pode alterar o Fuso Horário do Fórum no seu Perfil na opção Fuso Horário Seleccione [GMT] Dublin, Edinburgh, Iceland, Lisboa, London, Casablanca. A mudança do Fuso Horário só é permitida aos Utilizadores Registados.',
+		1	=> 'Provavelmente as datas estão correctas, pode acontecer que esteja a visualizar as horas de um Fuso Horário diferente do seu. Pode alterar o Fuso Horário do Fórum no seu Perfil na opção Fuso Horário Seleccione [GMT] Dublin, Edinburgh, Iceland, Lisboa, London, Casablanca. A mudança do Fuso Horário só é permitida aos Utilizadores Registados.',
 	),
 	array(
 		0	=> 'Alterei o Fuso Horário, mas a Data e Hora continuam erradas!',

@@ -255,7 +255,7 @@ $lang = array_merge($lang, array(
 	'AVAILABLE_TITLES'				=> 'Títulos de Razões Locais Disponíveis',
 
 	'IS_NOT_TRANSLATED'				=> 'A Razão <strong>não</strong> foi encontrada.',
-	'IS_NOT_TRANSLATED_EXPLAIN'		=> 'A Razão <strong>não</strong> foi encontrada. Se deseja estabelecer a forma local, especifique a chave correta através dos ficheiros de linguagem do Fórum de razões para denúncias.',
+	'IS_NOT_TRANSLATED_EXPLAIN'		=> 'A Razão <strong>não</strong> foi encontrada. Se deseja estabelecer a forma local, especifique a chave correcta através dos ficheiros de linguagem do Fórum de razões para denúncias.',
 	'IS_TRANSLATED'					=> 'A Razão foi encontrada.',
 	'IS_TRANSLATED_EXPLAIN'			=> 'A Razão foi encontrada. Se o título que escreveu aqui for especificado com os ficheiros de linguagem do Fórum de razões para denúncias, a forma localizada para o título e a descrição serão utilizadas.',
 

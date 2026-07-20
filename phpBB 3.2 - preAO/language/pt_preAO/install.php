@@ -382,7 +382,7 @@ $lang = array_merge($lang, array(
 		<p>O pacote de actualização automática é recomendado apenas se os ficheiros originais do phpBB tenham sido modificados na sua instalação. Também pode actualizar a sua instalação usando os métodos listados no documento INSTALL.html. As etapas para actualizar o phpBB3 automaticamente são:</p>
 
 		<ol style="margin-left: 20px; font-size: 1.1em;">
-			<li>Vá à <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">Página de Transferências do phpBB.com</a> e descarregue o "Pacote de actualização do phpBB" correto.<br /><br /></li>
+			<li>Vá à <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">Página de Transferências do phpBB.com</a> e descarregue o "Pacote de actualização do phpBB" correcto.<br /><br /></li>
 			<li>Descompacte o Ficheiro.<br /><br /></li>
 			<li>Envie as pastas "install" e "vendor" descompactadas para a pasta raiz do seu phpBB (onde se encontra o ficheiro config.php).<br /><br /></li>
 		</ol>
@@ -525,7 +525,7 @@ $lang = array_merge($lang, array(
 	// Settings
 	'STAGE_SETTINGS'			=> 'Configurações',
 	'TABLE_PREFIX_SAME'			=> 'O Prefixo das Tabelas tem que ser o usado pelo software que está convertendo.<br />» O prefixo de Tabela especificado foi %s',
-	'DEFAULT_PREFIX_IS'			=> 'O Conversor não encontrou as tabelas com o prefixo indicado. Verifique se as informações do Fórum estão corretas. O Prefixo Padrão para a tabela %1$s é <strong>%2$s</strong>',
+	'DEFAULT_PREFIX_IS'			=> 'O Conversor não encontrou as tabelas com o prefixo indicado. Verifique se as informações do Fórum estão correctas. O Prefixo Padrão para a tabela %1$s é <strong>%2$s</strong>',
 	'SPECIFY_OPTIONS'			=> 'Escolha as Opções de Conversão',
 	'FORUM_PATH'				=> 'Pasta do Fórum',
 	'FORUM_PATH_EXPLAIN'		=> 'Este é o caminho <strong>relativo</strong> no disco para o seu antigo fórum da <strong>raiz desta instalação do phpBB3</strong>.',

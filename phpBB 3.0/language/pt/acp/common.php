@@ -270,7 +270,7 @@ $lang = array_merge($lang, array(
 	'PROCEED_TO_ACP'					=> '%sIr para o Painel de Administração%s',
 
 	'REMIND'						=> 'Lembrar',
-	'RESYNC'						=> 'Re-Sincronizar',
+	'RESYNC'						=> 'Ressincronizar',
 	'RETURN_TO'						=> 'Voltar a',
 
 	'SELECT_ANONYMOUS'				=> 'Selecionar Utilizador Anónimo',

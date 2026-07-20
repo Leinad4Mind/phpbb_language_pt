@@ -100,7 +100,7 @@ $synonyms = array(
 	'irrelevante'			=> 'sem importância',
 
 	'jan'					=> 'janeiro',
-	'jóias'					=> 'bijuteria',
+	'joias'					=> 'bijuteria',
 	'julgamento'			=> 'sentença',
 
 	'km'					=> 'quilómetro',
@@ -124,14 +124,14 @@ $synonyms = array(
 	'ok'					=> 'correto',
 	'omissão'				=> 'falta',
 	'organizar'				=> 'arrumar',
-	'optimizar'				=> 'ótimo',
+	'otimizar'				=> 'ótimo',
 
 	'país'					=> 'não',
 	'paleografia'			=> 'decifrar',
 	'paleolítico'			=> 'idade da pedra',
 	'paleontologia'			=> 'fósseis',
 	'paleontólogo'			=> 'paleontologista',
-	'paleozóico'			=> 'era primária',
+	'paleozoico'			=> 'era primária',
 	'panfleto'				=> 'bilhete',
 	'paralelo'				=> 'semelhante',
 	'parlamento'			=> 'assembleia',

@@ -78,6 +78,7 @@ $lang = array_merge($lang, array(
 	'ACL_U_SAVEDRAFTS'	=> 'Pode guardar rascunhos',
 	'ACL_U_CHGCENSORS'	=> 'Pode desactivar a censura de palavras',
 	'ACL_U_SIG'			=> 'Pode usar assinaturas',
+	'ACL_U_EMOJI'		=> 'Pode usar emoji e texto enriquecido no título de Tópico',
 
 	'ACL_U_SENDPM'		=> 'Pode enviar mensagens privadas',
 	'ACL_U_MASSPM'		=> 'Pode enviar mensagens para vários utilizadores',

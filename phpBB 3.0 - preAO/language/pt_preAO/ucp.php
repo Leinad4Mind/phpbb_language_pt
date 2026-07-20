@@ -130,7 +130,7 @@ $lang = array_merge($lang, array(
 
 	'CONFIRM_PASSWORD'					=> 'Confirme a sua Senha',
 	'CONFIRM_PASSWORD_EXPLAIN'			=> 'Só se alterar a Senha actual.',
-	'COPPA_BIRTHDAY'					=> 'Neste Fórum o Registo de Utilizadores menores de 13 anos necessita da Aprovação do Encarregado de Educação. Se tem menos de 13 anos o Registo só será Aprovado pelo Administrador do Fórum depois do seu Encarregado de Educação enviar a autorização para a sua participação. Para continuar com o Registo, seleccione a opção correta, de acordo com a sua idade.',
+	'COPPA_BIRTHDAY'					=> 'Neste Fórum o Registo de Utilizadores menores de 13 anos necessita da Aprovação do Encarregado de Educação. Se tem menos de 13 anos o Registo só será Aprovado pelo Administrador do Fórum depois do seu Encarregado de Educação enviar a autorização para a sua participação. Para continuar com o Registo, seleccione a opção correcta, de acordo com a sua idade.',
 	'COPPA_COMPLIANCE'					=> 'De acordo com a COPPA',
 	'COPPA_EXPLAIN'						=> 'Ao clicar em enviar, criará a sua conta. No entanto, só será activada quando o seu Encarregado de Educação ou o responsável legal autorizar a sua participação no Fórum. Para isso receberá um email com mais detalhes.',
 	'CREATE_FOLDER'						=> 'Adicionar Pasta',

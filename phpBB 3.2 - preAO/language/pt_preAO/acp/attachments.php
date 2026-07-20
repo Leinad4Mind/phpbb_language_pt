@@ -138,7 +138,6 @@ $lang = array_merge($lang, array(
 	'NO_EXT_GROUP_SPECIFIED'			=> 'Grupo de Extensão não especificado.',
 	'NO_FILE_CAT'						=> 'Nenhum',
 	'NO_IMAGE'							=> 'Sem imagem',
-	'NO_THUMBNAIL_SUPPORT'				=> 'O suporte às miniaturas (imagem reduzida) encontra-se desactivado. Para activar esta funcionalidade é necessário a extensão GD ou imagemagick instalado. Nenhum dos dois foi encontrado.',
 	'NO_UPLOAD_DIR'						=> 'A pasta de envio (upload) que indicou não existe.',
 	'NO_WRITE_UPLOAD'					=> 'A pasta que indicou não permite gravação. Por favor, altere as permissões para permitir a escrita nele.',
 
@@ -150,7 +149,6 @@ $lang = array_merge($lang, array(
 	'REMOVE_DISALLOWED_IPS'				=> 'Remover ou retirar exclusão a IPs/hostnames proibidos',
 	'RESYNC_FILES_STATS_CONFIRM'		=> 'Tem a certeza que deseja ressincronizar estatísticas de ficheiros?',
 
-	'SEARCH_IMAGICK'					=> 'Localizar ImageMagick',
 	'SECURE_ALLOW_DENY'					=> 'Permitir/Negar lista',
 	'SECURE_ALLOW_DENY_EXPLAIN'			=> 'Permite ou nega a lista de endereços. Esta configuração aplica-se apenas aos Ficheiros para transferência.',
 	'SECURE_DOWNLOADS'					=> 'Activar transferências seguras',
