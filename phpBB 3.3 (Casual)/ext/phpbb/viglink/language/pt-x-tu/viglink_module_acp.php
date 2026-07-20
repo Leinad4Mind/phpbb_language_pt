@@ -18,7 +18,7 @@ if (!defined('IN_PHPBB')) {
 }
 
 if (empty($lang) || !is_array($lang)) {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang)) {
 // ’ » “ ” …
 //
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_VIGLINK_SETTINGS'			=> 'Configurações do VigLink',
 	'ACP_VIGLINK_SETTINGS_EXPLAIN'	=> 'O VigLink é um serviço de terceiros que monetiza discretamente os links publicados pelos utilizadores do teu fórum sem afetar a experiência do utilizador. Quando os utilizadores clicam nos seus links externos para produtos ou serviços e acabam por comprar algo, os comerciantes pagam à VigLink uma comissão, na qual uma percentagem é doada para o projeto phpBB. Ao optares por ativar o VigLink e doar os recursos ao projeto phpBB, estarás a apoiar a nossa organização de código aberto e a garantir a continuidade da segurança financeira.',
 	'ACP_VIGLINK_SETTINGS_CHANGE'	=> 'Podes alterar estas configurações a qualquer momento no painel “<a href="%1$s">Configurações do VigLink</a>” .',
@@ -51,4 +51,4 @@ $lang = array_merge($lang, array(
 	'ACP_VIGLINK_CLAIM_EXPLAIN'		=> 'Podes reivindicar os ganhos, do teu fórum, de links monetários VigLink, em vez de doar os ganhos para o projeto phpBB. Para gerir as configurações da tua conta, inscreve-te em "VigLink Convert" ao clicar em "Converter conta".',
 	'ACP_VIGLINK_CONVERT_ACCOUNT'	=> 'Converter conta',
 	'ACP_VIGLINK_NO_CONVERT_LINK'	=> 'Não foi possível recuperar o link da conta de conversão do VigLink.',
-));
+]);

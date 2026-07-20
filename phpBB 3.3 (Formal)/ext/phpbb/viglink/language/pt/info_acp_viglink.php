@@ -18,7 +18,7 @@ if (!defined('IN_PHPBB')) {
 }
 
 if (empty($lang) || !is_array($lang)) {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang)) {
 // ’ » “ ” …
 //
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_VIGLINK_SETTINGS'		=> 'Configurações do VigLink',
 	'LOG_VIGLINK_CHECK_FAIL'	=> '<strong>As configurações do VigLink não puderam ser verificadas pelo phpBB.com</strong>: %s',
-));
+]);
