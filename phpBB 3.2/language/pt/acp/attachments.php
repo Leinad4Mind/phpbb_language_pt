@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* This file is part of the phpBB Forum Software package.
-*
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
-* @Traduzido por: http://www.phpbb-pt.com - segundo as normas do Acordo Ortográfico
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * This file is part of the phpBB Forum Software package.
+ *
+ * @copyright (c) phpBB Limited <https://www.phpbb.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * For full copyright and license information, please see
+ * the docs/CREDITS.txt file.
+ * @Traduzido por: https://leinad4mind.top/forum - segundo as normas do Acordo Ortográfico
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -96,7 +95,7 @@ $lang = array_merge($lang, array(
 	'EXTENSION_GROUP_DELETED'			=> 'Grupo de Extensões apagado com sucesso.',
 	'EXTENSION_GROUP_EXIST'				=> 'Grupo de Extensões %s já existe.',
 
-	'EXT_GROUP_ARCHIVES'				=> 'Arquivos',
+	'EXT_GROUP_ARCHIVES'				=> 'Ficheiros',
 	'EXT_GROUP_DOCUMENTS'				=> 'Documentos',
 	'EXT_GROUP_DOWNLOADABLE_FILES'		=> 'Ficheiros para Transferência',
 	'EXT_GROUP_FLASH_FILES'				=> 'Ficheiros Flash',
@@ -111,6 +110,10 @@ $lang = array_merge($lang, array(
 
 	'IMAGE_LINK_SIZE'					=> 'Dimensões para o atalho de Imagem',
 	'IMAGE_LINK_SIZE_EXPLAIN'			=> 'Mostra o anexo da imagem como um atalho se a imagem for maior que o selecionado, introduza 0px por 0px para desativar.',
+	'IMAGE_QUALITY'						=> 'Qualidade dos anexos de imagem enviados (apenas JPEG)',
+	'IMAGE_QUALITY_EXPLAIN'				=> 'Especifique um valor entre 50% (menor tamanho do ficheiro) e 90% (qualidade superior). Qualidade superior a 90% aumenta o tamanho do ficheiro e é desativada. A configuração será aplicada apenas se as dimensões máximas da imagem estiverem definidas para um valor diferente de 0px por 0px.',
+	'IMAGE_STRIP_METADATA'				=> 'Remover metadados de imagem (apenas JPEG)',
+	'IMAGE_STRIP_METADATA_EXPLAIN'		=> 'Remover metadados EXIF p.ex. nome do autor, coordenadas GPS e detalhes da câmara. A configuração será aplicada apenas se as dimensões máximas da imagem estiverem definidas para um valor diferente de 0px por 0px.',
 
 	'MAX_ATTACHMENTS'					=> 'Máximo de anexos por Mensagem',
 	'MAX_ATTACHMENTS_PM'				=> 'Máximo de anexos por Mensagem Privada',
@@ -129,6 +132,8 @@ $lang = array_merge($lang, array(
 	'NOT_ASSIGNED'						=> 'Não atribuído',
 	'NO_ATTACHMENTS'					=> 'Nenhum anexo encontrado para este período.',
 	'NO_EXT_GROUP'						=> 'Nenhum',
+	'NO_EXT_GROUP_ALLOWED_PM'			=> 'Não há <a href="%s">grupos de extensões permitidos</a> para mensagens privadas.',
+	'NO_EXT_GROUP_ALLOWED_POST'			=> 'Não há <a href="%s">grupos de extensões permitidos</a> para mensagens.',
 	'NO_EXT_GROUP_NAME'					=> 'Nome do Grupo não foi selecionado',
 	'NO_EXT_GROUP_SPECIFIED'			=> 'Grupo de Extensão não especificado.',
 	'NO_FILE_CAT'						=> 'Nenhum',
@@ -140,14 +145,14 @@ $lang = array_merge($lang, array(
 	'ORDER_ALLOW_DENY'					=> 'Permitir',
 	'ORDER_DENY_ALLOW'					=> 'Negar',
 
-	'REMOVE_ALLOWED_IPS'				=> 'Remover ou não exclui IPs/Servidores autorizados',
-	'REMOVE_DISALLOWED_IPS'				=> 'Remover ou não exclui IPs/Servidores proibidos',
+	'REMOVE_ALLOWED_IPS'					=> 'Remover ou retirar exclusão a IPs/hostnames autorizados',
+	'REMOVE_DISALLOWED_IPS'				=> 'Remover ou retirar exclusão a IPs/hostnames proibidos',
 	'RESYNC_FILES_STATS_CONFIRM'		=> 'Tem a certeza que deseja ressincronizar estatísticas de ficheiros?',
 
 	'SECURE_ALLOW_DENY'					=> 'Permitir/Negar lista',
 	'SECURE_ALLOW_DENY_EXPLAIN'			=> 'Permite ou nega a lista de endereços. Esta configuração aplica-se apenas aos Ficheiros para transferência.',
 	'SECURE_DOWNLOADS'					=> 'Ativar transferências seguras',
-	'SECURE_DOWNLOADS_EXPLAIN'			=> 'Com esta opção ativada, as transferências são autorizadas apenas para os IPs/Servidores por si definidos.',
+	'SECURE_DOWNLOADS_EXPLAIN'			=> 'Com esta opção ativada, as transferências são autorizadas apenas para os IPs/hostnames por si definidos.',
 	'SECURE_DOWNLOAD_NOTICE'			=> 'As transferências seguras estão desativadas. A execução das opções abaixo depende da sua ativação.',
 	'SECURE_DOWNLOAD_UPDATE_SUCCESS'	=> 'A lista de IPs foi atualizada com sucesso.',
 	'SECURE_EMPTY_REFERRER'				=> 'Permitir origem em branco',

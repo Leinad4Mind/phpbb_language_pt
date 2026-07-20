@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* This file is part of the phpBB Forum Software package.
-*
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
-* @Traduzido por: http://www.phpbb-pt.com - segundo pré-Acordo Ortográfico
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * This file is part of the phpBB Forum Software package.
+ *
+ * @copyright (c) phpBB Limited <https://www.phpbb.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * For full copyright and license information, please see
+ * the docs/CREDITS.txt file.
+ * @Traduzido por: https://leinad4mind.top/forum - segundo pré-Acordo Ortográfico
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -41,7 +40,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'					=> 'Traduzido por phpBB Portugal',
+	'TRANSLATION_INFO'					=> 'Traduzido por phpBB Leinad4Mind',
 	'DIRECTION'							=> 'ltr',
 	'DATE_FORMAT'						=> '|d M Y|',	// 01 Jan 2007 (with Relative days enabled)
 	'DATETIME_FORMAT'					=> '|d M Y, H:i|',	// 01 Jan 2007, 13:37 (with Relative days enabled)
@@ -114,7 +113,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_URL_NOT_FOUND'				=> 'O Ficheiro indicado não foi encontrado.',
 	'AVATAR_WRONG_FILESIZE'				=> 'O tamanho do Avatar deve estar entre 0 e %1$d %2$s.',
 	'AVATAR_WRONG_SIZE'					=> 'O avatar submetido tem %5$s de largura e %6$s de altura. Avatares devem ter pelo menos %1$s de largura e %2$s de altura, e não maiores do que %3$s de largura %4$s de altura.',
-	
+
 	'BACK_TO_TOP'						=> 'Topo',
 	'BACK_TO_PREV'						=> 'Voltar à página anterior',
 	'BAN_TRIGGERED_BY_EMAIL'			=> 'O seu endereço de email foi banido do Fórum.',
@@ -217,7 +216,7 @@ $lang = array_merge($lang, array(
 	'ERR_JAB_CONNECT'					=> 'Não foi possível fazer a ligação ao servidor Jabber.',
 	'ERR_UNABLE_TO_LOGIN'				=> 'Ocorreu um erro no acesso. Nome de Utilizador ou Senha incorrectos.',
 	'ERR_UNWATCHING'					=> 'Um erro ocorreu durante o cancelamento da subscrição.',
-	'ERR_WATCHING'						=> 'Um erro ocorreu durante a subscrição.',	
+	'ERR_WATCHING'						=> 'Um erro ocorreu durante a subscrição.',
 	'ERR_WRONG_PATH_TO_PHPBB'			=> 'O local do script phpBB indicado parece não ser válido.',
 	'ERROR'								=> 'Erro',
 	'EXPAND_VIEW'						=> 'Ver mais detalhes',
@@ -384,7 +383,7 @@ $lang = array_merge($lang, array(
 	'LOGOUT_USER'						=> 'Sair [ %s ]',
 	'LOG_ME_IN'							=> 'Lembrar-me',
 
-	'MAIN'								=> 'Principal',	
+	'MAIN'								=> 'Principal',
 	'MARK'								=> 'Marcar',
 	'MARK_ALL'							=> 'Marcar Todos',
 	'MARK_ALL_READ'						=> 'Marcar todos como lidos',
@@ -470,7 +469,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TOPIC_IN_QUEUE'		=> '<strong>Aprovação do Tópico</strong> pedida por %1$s:',
 	'NOTIFICATION_TYPE_NOT_EXIST'		=> 'A notificação do tipo "%s" falta no sistema de ficheiros.',
 	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '<strong>Aprovação necessária</strong> do Utilizador Registado Recentemente: “%1$s”',
-	// Used in conjuction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
+	// Used in conjunction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	'NOTIFICATION_MANY_OTHERS'			=> 'outros',
 	'NOTIFICATION_X_OTHERS'				=> array(
 		2	=> '%d outros',
@@ -528,8 +527,8 @@ $lang = array_merge($lang, array(
 		0								=> 'Nenhuma mensagem na lista',		// 0
 		1								=> '1 mensagem na lista',		// 1
 		2								=> '%d mensagens na lista',		// 2+
-	),	
-	
+	),
+
 	'OCCUPATION'							=> 'Ocupação',
 	'OFFLINE'							=> 'Desligado',
 	'ONLINE'							=> 'Ligado',
@@ -1400,7 +1399,7 @@ $lang = array_merge($lang, array(
 	),
 
 	// The value is only an example and will get replaced by the current time on view 
-	'dateformats'						=> array( 
+	'dateformats'						=> array(
 		'd M Y, H:i'					=> '01 Jan 2008, 17:37',
 		'd M Y H:i'						=> '01 Jan 2008 17:37',
 		'M jS, \'y, H:i'				=> 'Jan 1st, \'07, 17:37',

@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* acp_permissions [Português Pré-AO]
-*
-* @package language
-* @version 1.0.9
-* @Traduzido por: http://www.phpbb-pt.com - segundo pré-Acordo Ortográfico
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* 
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * acp_permissions [Português Pré-AO]
+ *
+ * @package language
+ * @version 1.0.9
+ * @Traduzido por: https://leinad4mind.top/forum - segundo pré-Acordo Ortográfico
+ * @copyright (c) 2005 phpBB Group
+ * @license http://opensource.org/licenses/gpl-license.php GNU Public License
+ * 
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -148,7 +147,7 @@ $lang = array_merge($lang, array(
 	'ONLY_FORUM_DEFINED'			=> 'Apenas seleccionou Fóruns. Seleccione pelo menos um Utilizador ou um Grupo.',
 
 	'PERMISSION_APPLIED_TO_ALL'		=> 'As Tarefas e Permissões também serão aplicadas a todos os objectos seleccionados',
-	'PLUS_SUBFORUMS'				=> '+ Subfóruns',
+	'PLUS_SUBFORUMS'				=> '+ Sub-fóruns',
 
 	'REMOVE_PERMISSIONS'			=> 'Eliminar Permissões',
 	'REMOVE_ROLE'					=> 'Eliminar Tarefa',
@@ -183,7 +182,7 @@ $lang = array_merge($lang, array(
 	'ROLE_USER_NOPM'				=> 'Utilizador Sem Mensagens Privadas',
 	'ROLE_USER_STANDARD'			=> 'Utilizador Padrão',
 	'ROLE_USER_NEW_MEMBER'			=> 'Características do Utilizador Registado Recentemente',
-	
+
 	'ROLE_DESCRIPTION_ADMIN_FORUM'			=> 'Tem acesso às funções de Gestão e Permissões de Fóruns.',
 	'ROLE_DESCRIPTION_ADMIN_FULL'			=> 'Tem acesso a todas as funções administrativas neste Fórum. Recomendado para Fundadores.',
 	'ROLE_DESCRIPTION_ADMIN_STANDARD'		=> 'Tem acesso às funções administrativas, mas não às relacionadas com o Servidor ou o Sistema.',
@@ -220,7 +219,7 @@ $lang = array_merge($lang, array(
 	'SELECTED_FORUM_NOT_EXIST'				=> 'Os Fóruns seleccionados não existem.',
 	'SELECTED_GROUP_NOT_EXIST'				=> 'Os Grupos seleccionados não existem.',
 	'SELECTED_USER_NOT_EXIST'				=> 'Os Utilizadores seleccionados não existem.',
-	'SELECT_FORUM_SUBFORUM_EXPLAIN'			=> 'Nesta opção, seleccionando um Fórum incluirá todos os seus Subfóruns.',
+	'SELECT_FORUM_SUBFORUM_EXPLAIN'			=> 'Nesta opção, ao seleccionar um Fórum incluirá todos os seus Sub-fóruns.',
 	'SELECT_ROLE'							=> 'Seleccionar Tarefa',
 	'SELECT_TYPE'							=> 'Seleccionar Tipo',
 	'SET_PERMISSIONS'						=> 'Dar Permissões',
@@ -285,5 +284,3 @@ $lang = array_merge($lang, array(
 	'WRONG_PERMISSION_TYPE'					=> 'Foi seleccionado o tipo de permissão errada.',
 	'WRONG_PERMISSION_SETTING_FORMAT'		=> 'As configurações da permissão estão num formato errado, o phpBB não as consegue processar correctamente.',
 ));
-
-?>

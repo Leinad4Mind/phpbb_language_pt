@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* ucp [Português Pré-AO]
-*
-* @package language
-* @version 1.0.9
-* @Traduzido por: http://www.phpbb-pt.com - segundo pré-Acordo Ortográfico
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* 
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * ucp [Português Pré-AO]
+ *
+ * @package language
+ * @version 1.0.9
+ * @Traduzido por: https://leinad4mind.top/forum - segundo pré-Acordo Ortográfico
+ * @copyright (c) 2005 phpBB Group
+ * @license http://opensource.org/licenses/gpl-license.php GNU Public License
+ * 
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -53,11 +52,11 @@ $lang = array_merge($lang, array(
 	<br />
 	A sua senha é encriptada (a one-way hash) para que seja segura. No entanto, recomendamos que não utilize a mesma senha em vários sítios diferentes. A senha é um meio para entrar na sua conta em “%1$s”, então por favor guarde-a com cuidado e em nenhuma circunstância alguém relacionado com “%1$s”, phpBB ou um terceiro, tem legitimidade para lhe pedir a senha. Se esquecer a senha da sua conta, pode usar a opção “Esqueci-me da senha” oferecida pelo software phpBB. Este processo pede-lhe o nome de utilizador e email, para o phpBB gerar uma nova senha e reactivar o seu registo.<br />
 	',
-)); 
+));
 
 
 // Common language entries 
-$lang = array_merge($lang, array( 
+$lang = array_merge($lang, array(
 	'ACCOUNT_ACTIVE'					=> 'O seu Registo foi activado.',
 	'ACCOUNT_ACTIVE_ADMIN'				=> 'O seu Registo foi activado.',
 	'ACCOUNT_ACTIVE_PROFILE'			=> 'A sua conta foi reactivada com sucesso.',
@@ -128,10 +127,10 @@ $lang = array_merge($lang, array(
 	'CONFIRM_EXPLAIN'					=> 'Para prevenir Registos automáticos de "espiões" é necessário introduzir um código de confirmação. O código é exibido na imagem que deverá ver em baixo. Se tem alguma deficiência visual, e não pode ler o código, por favor, contacte o %sAdministrador do Fórum%s.',
 	'VC_REFRESH'						=> 'Alterar Código de Confirmação',
 	'VC_REFRESH_EXPLAIN'				=> 'Se não consegue ler o código pode pedir um novo clicando no botão.',
-	
+
 	'CONFIRM_PASSWORD'					=> 'Confirme a sua Senha',
 	'CONFIRM_PASSWORD_EXPLAIN'			=> 'Só se alterar a Senha actual.',
-	'COPPA_BIRTHDAY'					=> 'Neste Fórum o Registo de Utilizadores menores de 13 anos necessita da Aprovação do Encarregado de Educação. Se tem menos de 13 anos o Registo só será Aprovado pelo Administrador do Fórum depois do seu Encarregado de Educação enviar a autorização para a sua participação. Para continuar com o Registo, seleccione a opção correta, de acordo com a sua idade.',
+	'COPPA_BIRTHDAY'					=> 'Neste Fórum o Registo de Utilizadores menores de 13 anos necessita da Aprovação do Encarregado de Educação. Se tem menos de 13 anos o Registo só será Aprovado pelo Administrador do Fórum depois do seu Encarregado de Educação enviar a autorização para a sua participação. Para continuar com o Registo, seleccione a opção correcta, de acordo com a sua idade.',
 	'COPPA_COMPLIANCE'					=> 'De acordo com a COPPA',
 	'COPPA_EXPLAIN'						=> 'Ao clicar em enviar, criará a sua conta. No entanto, só será activada quando o seu Encarregado de Educação ou o responsável legal autorizar a sua participação no Fórum. Para isso receberá um email com mais detalhes.',
 	'CREATE_FOLDER'						=> 'Adicionar Pasta',
@@ -332,7 +331,7 @@ $lang = array_merge($lang, array(
 	'NO_SAVED_DRAFTS'					=> 'Não há rascunhos arquivados.',
 	'NO_TO_RECIPIENT'					=> 'Nenhum',
 	'NO_WATCHED_FORUMS'					=> 'Não está a observar nenhum Fórum.',
-	'NO_WATCHED_SELECTED'				=> 'Não seleccionou nenhum Tópico ou Fórum Observado.',	
+	'NO_WATCHED_SELECTED'				=> 'Não seleccionou nenhum Tópico ou Fórum Observado.',
 	'NO_WATCHED_TOPICS'					=> 'Não está a observar nenhum Tópico.',
 
 	'PASS_TYPE_ALPHA_EXPLAIN'			=> 'Deve ter entre %1$d e %2$d caracteres. Tem que incluir letras maiúsculas e minúsculas e números.',
@@ -560,5 +559,3 @@ $lang = array_merge($lang, array(
 	'NO_PENDING'						=> 'Este Grupo não tem Utilizadores Pendentes',
 	'NO_NONMEMBER'						=> 'Nenhum Grupo de Visitantes',
 ));
-
-?>

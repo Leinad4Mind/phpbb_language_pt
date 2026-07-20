@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* groups [Português]
-*
-* @package language
-* @version 1.0.9
-* @Traduzido por: http://www.phpbb-pt.com - segundo as normas do Acordo Ortográfico
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* 
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * groups [Português]
+ *
+ * @package language
+ * @version 1.0.9
+ * @Traduzido por: https://leinad4mind.top/forum - segundo as normas do Acordo Ortográfico
+ * @copyright (c) 2005 phpBB Group
+ * @license http://opensource.org/licenses/gpl-license.php GNU Public License
+ * 
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -87,11 +86,9 @@ $lang = array_merge($lang, array(
 	'PRIMARY_GROUP'						=> 'Grupo Primário',
 
 	'REMOVE_SELECTED'					=> 'Remover Selecionado',
-	
+
 	'USER_GROUP_CHANGE'					=> 'Do grupo “%1$s” para “%2$s”',
 	'USER_GROUP_DEMOTE'					=> 'Líder do Grupo',
 	'USER_GROUP_DEMOTE_CONFIRM'			=> 'Tem a certeza de que deseja tornar-se Líder do Grupo Selecionado?',
 	'USER_GROUP_DEMOTED'				=> 'Tornou-se Líder do Grupo com sucesso.',
 ));
-
-?>

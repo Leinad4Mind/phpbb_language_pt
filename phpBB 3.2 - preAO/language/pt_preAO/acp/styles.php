@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* This file is part of the phpBB Forum Software package.
-*
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
-* @Traduzido por: http://www.phpbb-pt.com - segundo pré-Acordo Ortográfico
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * This file is part of the phpBB Forum Software package.
+ *
+ * @copyright (c) phpBB Limited <https://www.phpbb.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * For full copyright and license information, please see
+ * the docs/CREDITS.txt file.
+ * @Traduzido por: https://leinad4mind.top/forum - segundo pré-Acordo Ortográfico
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -80,9 +79,11 @@ $lang = array_merge($lang, array(
 	'STYLE_UNINSTALL'				=> 'Desinstalar',
 	'STYLE_UNINSTALL_DEPENDENT'		=> 'O estilo "%s" não pode ser desinstalado porque há um ou mais estilos secundários.',
 	'STYLE_UNINSTALLED'				=> 'O estilo "%s" foi desinstalado com sucesso.',
+	'STYLE_PHPBB_VERSION'			=> 'Versão do phpBB',
 	'STYLE_USED_BY'					=> 'Usado por (incluindo Motor de Busca)',
 	'STYLE_VERSION'					=> 'Versão do Estilo',
 
+	'UNINSTALL_PROSILVER'			=> 'Não pode desinstalar o estilo “prosilver”.',
 	'UNINSTALL_DEFAULT'				=> 'Não é possível desinstalar o estilo padrão.',
 
 	'BROWSE_STYLES_DATABASE'	=> 'Visite o repositório de estilos',

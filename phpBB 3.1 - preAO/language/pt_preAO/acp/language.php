@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* This file is part of the phpBB Forum Software package.
-*
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
-* @Traduzido por: http://www.phpbb-pt.com - segundo pré-Acordo Ortográfico
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * This file is part of the phpBB Forum Software package.
+ *
+ * @copyright (c) phpBB Limited <https://www.phpbb.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * For full copyright and license information, please see
+ * the docs/CREDITS.txt file.
+ * @Traduzido por: https://leinad4mind.top/forum - segundo pré-Acordo Ortográfico
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -45,7 +44,7 @@ $lang = array_merge($lang, array(
 	'INSTALLED_LANGUAGE_PACKS'		=> 'Pacotes de idiomas instalados',
 
 	'LANGUAGE_DETAILS_UPDATED'		=> 'A Configuração dos idiomas foi actualizada com sucesso.',
-	'LANGUAGE_PACK_ALREADY_INSTALLED'=> 'O Pacote de idiomas já se encontra instalado.',
+	'LANGUAGE_PACK_ALREADY_INSTALLED' => 'O Pacote de idiomas já se encontra instalado.',
 	'LANGUAGE_PACK_DELETED'			=> 'O Pacote de idioma “%s” foi removido com sucesso. Foi atribuído o idioma padrão a todos os utilizadores que usavam essa linguagem.',
 	'LANGUAGE_PACK_DETAILS'			=> 'Detalhes do Pacote de idiomas',
 	'LANGUAGE_PACK_INSTALLED'		=> 'O Pacote de idiomas %s foi instalado com sucesso.',

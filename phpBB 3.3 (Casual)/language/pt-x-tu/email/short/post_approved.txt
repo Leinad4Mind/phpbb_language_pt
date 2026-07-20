@@ -1,0 +1,19 @@
+Subject: {POST_SUBJECT} - Mensagem aprovada
+
+Olá, {USERNAME},
+
+A tua mensagem "{POST_SUBJECT}" em {SITENAME} foi aprovada por um Moderador ou Administrador do Fórum.
+
+Vê a Mensagem no seguinte endereço:
+{U_VIEW_POST}
+
+Vê o Tópico no seguinte endereço:
+{U_VIEW_TOPIC}
+
+
+Obrigado, {USERNAME}.
+Continua a participar ativamente.
+A tua colaboração é fundamental para todos nós.
+
+
+{EMAIL_SIG}

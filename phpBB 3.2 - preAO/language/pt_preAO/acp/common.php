@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* This file is part of the phpBB Forum Software package.
-*
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
-* @Traduzido por: http://www.phpbb-pt.com - segundo pré-Acordo Ortográfico
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * This file is part of the phpBB Forum Software package.
+ *
+ * @copyright (c) phpBB Limited <https://www.phpbb.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * For full copyright and license information, please see
+ * the docs/CREDITS.txt file.
+ * @Traduzido por: https://leinad4mind.top/forum - segundo pré-Acordo Ortográfico
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -225,14 +224,14 @@ $lang = array_merge($lang, array(
 	'ADM_LOGGED_OUT'				=> 'Saiu com sucesso do ACP',
 
 	'BACK'							=> 'Voltar',
-	
+
 	'CANNOT_CHANGE_FILE_GROUP'		=> 'Incapaz de alterar grupo de ficheiros',
-	'CANNOT_CHANGE_FILE_PERMISSIONS'=> 'Incapaz de alterar permissões de ficheiros',
+	'CANNOT_CHANGE_FILE_PERMISSIONS' => 'Incapaz de alterar permissões de ficheiros',
 	'CANNOT_COPY_FILES'				=> 'Incapaz de copiar ficheiros',
 	'CANNOT_CREATE_SYMLINK'			=> 'Incapaz de criar um link simbólico',
 	'CANNOT_DELETE_FILES'			=> 'Incapaz de apagar ficheiros do sistema',
 	'CANNOT_DUMP_FILE'				=> 'Incapaz de colocar ficheiro',
-	'CANNOT_MIRROR_DIRECTORY'		=> 'Incapaz de criar uma cópia de um directório',
+	'CANNOT_MIRROR_DIRECTORY'		=> 'Incapaz de criar uma cópia de uma pasta',
 	'CANNOT_RENAME_FILE'			=> 'Incapaz de renomear um ficheiro do sistema',
 	'CANNOT_TOUCH_FILES'			=> 'Incapaz de determinar se um ficheiro existe',
 
@@ -314,7 +313,7 @@ $lang = array_merge($lang, array(
 	'SELECT_OPTION'					=> 'Seleccionar Opção',
 
 	'SETTING_TOO_LOW'				=> 'O valor escrito para a configuração "%1$s" é muito baixo. O valor mínimo permitido é %2$d.',
-	'SETTING_TOO_BIG'				=> 'O valor escrito para a configuração "%1$s" é muito alto. O valor máximo permitido é %2$d.',	
+	'SETTING_TOO_BIG'				=> 'O valor escrito para a configuração "%1$s" é muito alto. O valor máximo permitido é %2$d.',
 	'SETTING_TOO_LONG'				=> 'O valor escrito para a configuração "%1$s" é muito longo. O comprimento máximo permitido é %2$d.',
 	'SETTING_TOO_SHORT'				=> 'O valor escrito para a configuração "%1$s" é muito curto. O comprimento mínimo permitido é %2$d.',
 
@@ -325,6 +324,7 @@ $lang = array_merge($lang, array(
 	'TOTAL_SIZE'					=> 'Tamanho total',
 
 	'UCP'							=> 'Painel de Controlo de Utilizadores',
+	'URL_INVALID'					=> 'O URL fornecido para a configuração “%1$s” é inválido.',
 	'USERNAMES_EXPLAIN'				=> 'Insira cada um dos Utilizadores em linhas separadas.',
 	'USER_CONTROL_PANEL'			=> 'Painel de Utilizadores',
 
@@ -343,7 +343,7 @@ $lang = array_merge($lang, array(
 ));
 
 // Logs
-$lang = array_merge($lang, array( 
+$lang = array_merge($lang, array(
 	'ACP_ADMIN_LOGS_EXPLAIN'		=> 'Esta é a lista das acções dos Administradores. Pode ordená-la por Utilizador, data, Endereço de IP ou Acção do Registo. Se tiver as permissões adequadas, pode limpar operações individuais ou todo o registo.',
 	'ACP_CRITICAL_LOGS_EXPLAIN'		=> 'Esta é a lista das acções realizadas pelo Fórum. Estes registos têm informações que permitem solucionar problemas específicos, por exemplo uma falha no envio de emails.  Pode ordená-la por Utilizador, data, IP ou acção. Se tiver as permissões adequadas, pode limpar operações individuais ou todo o registo.',
 	'ACP_MOD_LOGS_EXPLAIN'			=> 'Esta é a lista das acções dos Moderadores do Fórum. Pode ordená-la por Utilizador, data, Endereço de IP ou Acção do Registo. Se tiver as permissões adequadas, pode limpar operações individuais ou todo o registo.',
@@ -372,7 +372,7 @@ $lang = array_merge($lang, array(
 	'DATABASE_SERVER_INFO'			=> 'Servidor da Base de Dados',
 	'DATABASE_SIZE'					=> 'Tamanho da Base de Dados',
 
-	// Enviroment configuration checks, mbstring related
+	// Environment configuration checks, mbstring related
 	'ERROR_MBSTRING_FUNC_OVERLOAD'					=> 'A função de sobrecarga não se encontra configurada correctamente',
 	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'			=> '<var>mbstring.func_overload</var> deve ser definido para 0 ou 4. Pode verificar o valor actual em <samp>informação PHP</samp>.',
 	'ERROR_MBSTRING_ENCODING_TRANSLATION'			=> 'A codificação de caracteres transparentes não se encontra configurada correctamente',
@@ -552,6 +552,7 @@ $lang = array_merge($lang, array(
 	'LOG_BBCODE_ADD'						=> '<strong>BBCode Adicionado</strong><br />» %s',
 	'LOG_BBCODE_EDIT'						=> '<strong>BBCode Editado</strong><br />» %s',
 	'LOG_BBCODE_DELETE'						=> '<strong>BBCode Apagado</strong><br />» %s',
+	'LOG_BBCODE_CONFIGURATION_ERROR'		=> '<strong>Erro durante a configuração do BBCode</strong>: %1$s<br />» %2$s',
 
 	'LOG_BOT_ADDED'							=> '<strong>Motor de Busca Adicionado</strong><br />» %s',
 	'LOG_BOT_DELETE'						=> '<strong>Motor de Busca Apagado</strong><br />» %s',
@@ -628,7 +629,7 @@ $lang = array_merge($lang, array(
 	'LOG_ERROR_JABBER'						=> '<strong>Erro de Jabber</strong><br />» %s',
 	'LOG_ERROR_EMAIL'						=> '<strong>Erro no email</strong><br />» %s',
 	'LOG_ERROR_CAPTCHA'						=> '<strong>Erro no CAPTCHA</strong><br />» %s',
-	
+
 	'LOG_FORUM_ADD'							=> '<strong>Criar um novo Fórum</strong><br />» %s',
 	'LOG_FORUM_COPIED_PERMISSIONS'			=> '<strong>Permissões do Fórum copiadas</strong> de %1$s<br />» %2$s',
 	'LOG_FORUM_DEL_FORUM'					=> '<strong>Fórum apagado</strong><br />» %s',

@@ -1,21 +1,21 @@
 <?php
-/**
-*
-* This file is part of the phpBB Forum Software package.
-*
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
-* @Traduzido por: http://www.phpbb-pt.com - segundo pré-Acordo Ortográfico
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * This file is part of the phpBB Forum Software package.
+ *
+ * @copyright (c) phpBB Limited <https://www.phpbb.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * For full copyright and license information, please see
+ * the docs/CREDITS.txt file.
+ * @Traduzido por: https://leinad4mind.top/forum - segundo pré-Acordo Ortográfico
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
@@ -46,11 +46,11 @@ $help = array(
 	),
 	array(
 		0 => 'Porque não me posso registar?',
-		1 => 'A COPPA (Childrens Online Privacy Protection Act) é uma Lei de 1998 dos EUA que exige uma autorização para guardar as informações relativas a menores de 13 anos de idade.',
+		1 => 'A COPPA (Children\'s Online Privacy Protection Act) é uma Lei de 1998 dos EUA que exige uma autorização para guardar as informações relativas a menores de 13 anos de idade.',
 	),
 	array(
 		0 => 'Registei-me mas não consigo entrar!',
-		1 => 'Verifique se escreveu correctamente o Nome de Utilizador e a Senha.  Se tem a certeza de que estão correctos tenha em atenção um de dois factores. Se a função COPPA (Childrens Online Privacy Protection Act) estiver activa no Fórum e assinalou uma idade inferior a 13 anos durante o Registo, então tem que seguir as instruções que recebeu. Se não é este o seu caso, então o seu Registo ainda não se encontra activado. Alguns Fóruns obrigam à activação dos novos Registos. A Activação tanto pode ser feita pelo Administrador como pelo próprio Utilizador, que neste último caso receberá um email para esse efeito. Esta informação é fornecida aos novos Utilizadores durante o Registo. Se recebeu um email, siga as suas instruções. Se não recebeu nenhum email pode ter escrito incorrectamente o endereço de email ou então está considerado como spam pelo seu cliente de email. Se tem certeza que o endereço de email que forneceu é válido e correcto, tente contactar o Administrador do Fórum.'
+		1 => 'Verifique se escreveu correctamente o Nome de Utilizador e a Senha.  Se tem a certeza de que estão correctos tenha em atenção um de dois factores. Se a função COPPA (Children\'s Online Privacy Protection Act) estiver activa no Fórum e assinalou uma idade inferior a 13 anos durante o Registo, então tem que seguir as instruções que recebeu. Se não é este o seu caso, então o seu Registo ainda não se encontra activado. Alguns Fóruns obrigam à activação dos novos Registos. A Activação tanto pode ser feita pelo Administrador como pelo próprio Utilizador, que neste último caso receberá um email para esse efeito. Esta informação é fornecida aos novos Utilizadores durante o Registo. Se recebeu um email, siga as suas instruções. Se não recebeu nenhum email pode ter escrito incorrectamente o endereço de email ou então está considerado como spam pelo seu cliente de email. Se tem certeza que o endereço de email que forneceu é válido e correcto, tente contactar o Administrador do Fórum.'
 	),
 	array(
 		0 => 'Porque não consigo entrar no Fórum?',
@@ -174,7 +174,7 @@ $help = array(
 	),
 	array(
 		0	=> 'O que é BBCode?',
-		1	=> 'O BBCode é uma implementação especial do HTML. A possibilidade usar BBCode nas mensagens é determinada pelo Administrador do Fórum. Adicionalmente, pode poderá desactivar o BBCode em cada mensagem, seleccionando Desactivar BBCode nesta Mensagem abaixo da caixa principal de cada mensagem. BBCode por si mesmo é similar em estilo ao HTML, as Etiquetas (TAGs) são incluídas entre parêntesis rectos, como por [exemplo], em vez de &lt;exemplo&gt; proporcionando uma maior facilidade na formatação dos textos e mensagens dentro do Fórum. Para mais informações, consulte o Guia BBCode, acessível através de um atalho no Painel de Mensagens.',
+		1	=> 'O BBCode é uma implementação especial do HTML. A possibilidade usar BBCode nas mensagens é determinada pelo Administrador do Fórum. Adicionalmente, pode poderá desactivar o BBCode em cada mensagem, ao seleccionar Desactivar BBCode nesta Mensagem abaixo da caixa principal de cada mensagem. BBCode por si mesmo é similar em estilo ao HTML, as Etiquetas (TAGs) são incluídas entre parêntesis rectos, como por [exemplo], em vez de &lt;exemplo&gt; proporcionando uma maior facilidade na formatação dos textos e mensagens dentro do Fórum. Para mais informações, consulte o Guia BBCode, acessível através de um atalho no Painel de Mensagens.',
 	),
 	array(
 		0	=> 'Posso usar HTML?',
@@ -337,7 +337,7 @@ $help = array(
 		0	=> '--',
 		1	=> 'Sobre o Sistema phpBB3',
 	),
-		array(
+	array(
 		0	=> 'Quem Escreveu o phpBB?',
 		1	=> 'Este Software é produzido, publicado e com direitos reservados pelo <a href="https://www.phpbb.com/">phpBB Limited</a>. Está disponível sob a licença GNU - General Public Licence e pode ser distribuído gratuitamente.',
 	),

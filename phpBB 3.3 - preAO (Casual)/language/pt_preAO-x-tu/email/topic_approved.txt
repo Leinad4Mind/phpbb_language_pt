@@ -1,0 +1,18 @@
+Subject: Tópico aprovado - {TOPIC_TITLE}
+
+Olá, {USERNAME},
+
+
+O teu Tópico "{TOPIC_TITLE}" em {SITENAME} foi aprovado.
+
+Podes vê-lo no seguinte endereço:
+{U_VIEW_TOPIC}
+
+
+Obrigado, {USERNAME}.
+Continua a participar activamente.
+A tua colaboração é fundamental para todos nós.
+
+
+
+{EMAIL_SIG}

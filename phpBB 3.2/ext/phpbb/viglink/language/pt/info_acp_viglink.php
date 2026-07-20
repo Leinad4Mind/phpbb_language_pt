@@ -1,24 +1,23 @@
 <?php
-/**
-*
-* VigLink extension for the phpBB Forum Software package.
-*
-* @copyright (c) 2014 phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-* @Traduzido por: http://www.phpbb-pt.com - segundo as normas do Acordo Ortográfico
-*
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * VigLink extension for the phpBB Forum Software package.
+ *
+ * @copyright (c) 2014 phpBB Limited <https://www.phpbb.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ * @Traduzido por: https://leinad4mind.top/forum - segundo as normas do Acordo Ortográfico
+ *
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 

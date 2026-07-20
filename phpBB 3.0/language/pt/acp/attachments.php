@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* acp_attachments [Português]
-*
-* @package language
-* @version 1.0.9
-* @Traduzido por: http://www.phpbb-pt.com - segundo as normas do Acordo Ortográfico
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* 
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * acp_attachments [Português]
+ *
+ * @package language
+ * @version 1.0.9
+ * @Traduzido por: https://leinad4mind.top/forum - segundo as normas do Acordo Ortográfico
+ * @copyright (c) 2005 phpBB Group
+ * @license http://opensource.org/licenses/gpl-license.php GNU Public License
+ * 
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -98,15 +97,15 @@ $lang = array_merge($lang, array(
 	'EXTENSION_GROUP_DELETED'			=> 'Grupo de Extensões apagado com sucesso.',
 	'EXTENSION_GROUP_EXIST'				=> 'Grupo de Extensões %s já existe.',
 
-    'EXT_GROUP_ARCHIVES'				=> 'Arquivos',
-    'EXT_GROUP_DOCUMENTS'				=> 'Documentos',
-    'EXT_GROUP_DOWNLOADABLE_FILES'		=> 'Ficheiros para Transferência',
-    'EXT_GROUP_FLASH_FILES'				=> 'Ficheiros Flash',
-    'EXT_GROUP_IMAGES'					=> 'Imagens',
-    'EXT_GROUP_PLAIN_TEXT'				=> 'Texto simples',
-    'EXT_GROUP_QUICKTIME_MEDIA'			=> 'Quicktime Média',
-    'EXT_GROUP_REAL_MEDIA'				=> 'Real Média',
-    'EXT_GROUP_WINDOWS_MEDIA'			=> 'Windows Média',
+	'EXT_GROUP_ARCHIVES'				=> 'Ficheiros',
+	'EXT_GROUP_DOCUMENTS'				=> 'Documentos',
+	'EXT_GROUP_DOWNLOADABLE_FILES'		=> 'Ficheiros para Transferência',
+	'EXT_GROUP_FLASH_FILES'				=> 'Ficheiros Flash',
+	'EXT_GROUP_IMAGES'					=> 'Imagens',
+	'EXT_GROUP_PLAIN_TEXT'				=> 'Texto simples',
+	'EXT_GROUP_QUICKTIME_MEDIA'			=> 'Quicktime Média',
+	'EXT_GROUP_REAL_MEDIA'				=> 'Real Média',
+	'EXT_GROUP_WINDOWS_MEDIA'			=> 'Windows Média',
 
 	'GO_TO_EXTENSIONS'					=> 'Vá para a Tela de Gestão de Extensões',
 	'GROUP_NAME'						=> 'Nome do Grupo',
@@ -137,21 +136,21 @@ $lang = array_merge($lang, array(
 	'NO_FILE_CAT'						=> 'Nenhum',
 	'NO_IMAGE'							=> 'Sem imagem',
 	'NO_THUMBNAIL_SUPPORT'				=> 'O suporte às miniaturas (imagem reduzida) encontra-se desativado. Para ativar esta funcionalidade é necessário a extensão GD ou imagemagick instalado. Nenhum dos dois foi encontrado.',
-	'NO_UPLOAD_DIR'						=> 'A diretoria de envio (upload) que indicou não existe.',
-	'NO_WRITE_UPLOAD'					=> 'A diretoria que indicou não permite gravação. Por favor, altere as permissões para permitir a escrita nele.',
+	'NO_UPLOAD_DIR'						=> 'A pasta de envio (upload) que indicou não existe.',
+	'NO_WRITE_UPLOAD'					=> 'A pasta que indicou não permite gravação. Por favor, altere as permissões para permitir a escrita nele.',
 
 	'ONLY_ALLOWED_IN_PM'				=> 'Apenas autorizar nas Mensagens Privadas',
 	'ORDER_ALLOW_DENY'					=> 'Permitir',
 	'ORDER_DENY_ALLOW'					=> 'Negar',
 
-	'REMOVE_ALLOWED_IPS'				=> 'Remover ou não exclui IPs/Servidores autorizados',
-	'REMOVE_DISALLOWED_IPS'				=> 'Remover ou não exclui IPs/Servidores proibidos',
+	'REMOVE_ALLOWED_IPS'					=> 'Remover ou retirar exclusão a IPs/hostnames autorizados',
+	'REMOVE_DISALLOWED_IPS'				=> 'Remover ou retirar exclusão a IPs/hostnames proibidos',
 
 	'SEARCH_IMAGICK'					=> 'Localizar ImageMagick',
 	'SECURE_ALLOW_DENY'					=> 'Permitir/Negar lista',
 	'SECURE_ALLOW_DENY_EXPLAIN'			=> 'Permite ou nega a lista de endereços. Esta configuração aplica-se apenas aos Ficheiros para transferência.',
 	'SECURE_DOWNLOADS'					=> 'Ativar transferências seguras',
-	'SECURE_DOWNLOADS_EXPLAIN'			=> 'Com esta opção ativada, as transferências são autorizadas apenas para os IPs/Servidores por si definidos.',
+	'SECURE_DOWNLOADS_EXPLAIN'			=> 'Com esta opção ativada, as transferências são autorizadas apenas para os IPs/hostnames por si definidos.',
 	'SECURE_DOWNLOAD_NOTICE'			=> 'As transferências seguras estão desativadas. A execução das opções abaixo depende da sua ativação.',
 	'SECURE_DOWNLOAD_UPDATE_SUCCESS'	=> 'A lista de IPs foi atualizada com sucesso.',
 	'SECURE_EMPTY_REFERRER'				=> 'Permitir origem em branco',
@@ -166,10 +165,8 @@ $lang = array_merge($lang, array(
 	'UPLOADING_FILES'					=> 'A Enviar Ficheiros',
 	'UPLOADING_FILE_TO'					=> 'A Enviar Ficheiro "%1$s" à Mensagem Nº %2$d...',
 	'UPLOAD_DENIED_FORUM'				=> 'Não tem Permissão para enviar Ficheiros para o Fórum "%s".',
-	'UPLOAD_DIR'						=> 'Diretoria de Anexos',
-	'UPLOAD_DIR_EXPLAIN'				=> 'Diretoria de arquivo dos anexos. Se mudar esta diretoria tendo já anexos nela, deve mudar manualmente esses anexos para o novo local.',
+	'UPLOAD_DIR'						=> 'Pasta de Anexos',
+	'UPLOAD_DIR_EXPLAIN'				=> 'Pasta de ficheiro dos anexos. Se mudar esta pasta tendo já anexos nela, deve mudar manualmente esses anexos para o novo local.',
 	'UPLOAD_ICON'						=> 'Ícone de envio',
-	'UPLOAD_NOT_DIR'					=> 'O local para envio de Ficheiros que indicou não parece ser uma diretoria.',
+	'UPLOAD_NOT_DIR'					=> 'O local para envio de Ficheiros que indicou não parece ser uma pasta.',
 ));
-
-?>

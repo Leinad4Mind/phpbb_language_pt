@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* viewtopic [Português Pré-AO]
-*
-* @package language
-* @version 1.0.9
-* @Traduzido por: http://www.phpbb-pt.com - segundo pré-Acordo Ortográfico
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* 
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * viewtopic [Português Pré-AO]
+ *
+ * @package language
+ * @version 1.0.9
+ * @Traduzido por: https://leinad4mind.top/forum - segundo pré-Acordo Ortográfico
+ * @copyright (c) 2005 phpBB Group
+ * @license http://opensource.org/licenses/gpl-license.php GNU Public License
+ * 
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -61,7 +60,7 @@ $lang = array_merge($lang, array(
 
 	'FILE_NOT_FOUND_404'				=> 'O Ficheiro <strong>%s</strong> não existe.',
 	'FORK_TOPIC'						=> 'Copiar Tópico',
-	'FULL_EDITOR'						=> 'Editor completo',	
+	'FULL_EDITOR'						=> 'Editor completo',
 
 	'LINKAGE_FORBIDDEN'					=> 'Não está autorizado a ver o atalho para esta página.',
 	'LOGIN_NOTIFY_TOPIC'				=> 'Foi notificado por este Tópico, ligue-se para vê-lo.',
@@ -112,7 +111,5 @@ $lang = array_merge($lang, array(
 	'VISIT_WEBSITE'						=> 'Visitar o sítio web do Utilizador',
 	'VOTE_SUBMITTED'					=> 'O seu voto foi registado.',
 	'VOTE_CONVERTED'					=> 'Não é possível alterar votos.',
-	
-));
 
-?>
+));

@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* acp_styles [Português Pré-AO]
-*
-* @package language
-* @version 1.0.9
-* @Traduzido por: http://www.phpbb-pt.com - segundo pré-Acordo Ortográfico
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* 
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * acp_styles [Português Pré-AO]
+ *
+ * @package language
+ * @version 1.0.9
+ * @Traduzido por: https://leinad4mind.top/forum - segundo pré-Acordo Ortográfico
+ * @copyright (c) 2005 phpBB Group
+ * @license http://opensource.org/licenses/gpl-license.php GNU Public License
+ * 
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -85,7 +84,7 @@ $lang = array_merge($lang, array(
 	'DELETE_THEME'					=> 'Apagar Tema',
 	'DELETE_THEME_EXPLAIN'			=> 'Aqui pode remover o Tema seleccionado da Base de Dados.  Por favor, note que não é possível anular esta acção. Deve exportar primeiro o Conjunto de Imagens para possível uso futuro.',
 	'DETAILS'						=> 'Detalhes',
-	'DIMENSIONS_EXPLAIN'			=> 'Seleccionando Sim aqui irá incluir os parâmetros de largura/altura.',
+	'DIMENSIONS_EXPLAIN'			=> 'Ao seleccionar Sim aqui irá incluir os parâmetros de largura/altura.',
 
 
 	'EDIT_DETAILS_IMAGESET'			=> 'Editar detalhes do Conjunto de Imagens',
@@ -99,7 +98,7 @@ $lang = array_merge($lang, array(
 	'EDIT_IMAGESET'					=> 'Editar Conjunto de Imagens',
 	'EDIT_IMAGESET_EXPLAIN'			=> 'Aqui pode editar as imagens individuais no qual define o conjunto de imagens. Também pode especificar dimensões para esta imagem. Dimensões são opcionais, especificá-los pode superar determinadas edições de renderização em alguns navegadores. Não especificando-os reduz um pouco o tamanho do registo na Base de Dados.',
 	'EDIT_TEMPLATE'					=> 'Editar Template',
-	'EDIT_TEMPLATE_EXPLAIN'			=> 'Aqui pode editar seu conjunto Template directamente. Por favor, lembre-se que essas edições são permanentes e não podem serem desfeitas depois de enviadas. Se o PHP puder gravar ficheiros de templates na sua directoria de estilos algumas alterações aqui serão gravaras directamente nos ficheiros. Se o PHP não puder gravar estes ficheiros serão copiados para a Base de Dados e todas as alterações serão reflectidas apenas lá. Por favor, tenha cuidado ao editar o seu template, lembre-se de fechar todas as variáveis de termos de substituição {XXXX} e indicações condicionais.',
+	'EDIT_TEMPLATE_EXPLAIN'			=> 'Aqui pode editar seu conjunto Template directamente. Por favor, lembre-se que essas edições são permanentes e não podem serem desfeitas depois de enviadas. Se o PHP puder gravar ficheiros de templates na sua pasta de estilos algumas alterações aqui serão gravaras directamente nos ficheiros. Se o PHP não puder gravar estes ficheiros serão copiados para a Base de Dados e todas as alterações serão reflectidas apenas lá. Por favor, tenha cuidado ao editar o seu template, lembre-se de fechar todas as variáveis de termos de substituição {XXXX} e indicações condicionais.',
 	'EDIT_TEMPLATE_STORED_DB'		=> 'O ficheiro de Template não pode ser gravado mas o conjunto Template foi armazenado na Base de Dados contendo o ficheiro modificado.',
 	'EDIT_THEME'					=> 'Editar Tema',
 	'EDIT_THEME_EXPLAIN'			=> 'Aqui pode editar o Tema seleccionado, trocando cores, imagens, etc.',
@@ -107,7 +106,7 @@ $lang = array_merge($lang, array(
 	'EDIT_THEME_STORE_PARSED'		=> 'O Tema requer que o seu stylesheet esteja analisado gramaticalmente. Isto só é possível se estiver armazenado na Base de Dados.',
 	'EDITOR_DISABLED'				=> 'O Editor de Templates encontra-se desactivado.',
 	'EXPORT'						=> 'Exportar',
-	
+
 	'FOREGROUND'					=> 'Primeiro Plano',
 	'FONT_COLOUR'					=> 'Cor da Fonte',
 	'FONT_FACE'						=> 'Fonte',
@@ -137,7 +136,7 @@ $lang = array_merge($lang, array(
 	'IMAGESET_ERR_NOT_IMAGESET'		=> 'O Ficheiro que especificou não contém um Conjunto de Imagens válido.',
 	'IMAGESET_ERR_STYLE_NAME'		=> 'Tem que indicar um nome para este Conjunto de Imagens.',
 	'IMAGESET_EXPORT'				=> 'Exportar Conjunto de Imagens',
-	'IMAGESET_EXPORT_EXPLAIN'		=> 'Aqui pode exportar um Conjunto de Imagens no formulário de Ficheiro. Este Ficheiro deve conter todas os dados necessários para instalar o Conjunto de Imagens noutro Fórum. Deve seleccionar para transferir o Ficheiro directamente ou colocá-lo na pasta de arquivo para transferir depois por FTP.',
+	'IMAGESET_EXPORT_EXPLAIN'		=> 'Aqui pode exportar um Conjunto de Imagens no formulário de Ficheiro. Este Ficheiro deve conter todas os dados necessários para instalar o Conjunto de Imagens noutro Fórum. Deve seleccionar para transferir o Ficheiro directamente ou colocá-lo na pasta de ficheiro para transferir depois por FTP.',
 	'IMAGESET_EXPORTED'				=> 'Conjunto de Imagens exportado com sucesso e armazenado em %s.',
 	'IMAGESET_NAME'					=> 'Nome do Conjunto de Imagens',
 	'IMAGESET_REFRESHED'			=> 'Conjunto de Imagens actualizado com sucesso.',
@@ -145,7 +144,7 @@ $lang = array_merge($lang, array(
 	'ITALIC'						=> 'Itálico',
 
 	'IMG_CAT_BUTTONS'				=> 'Botões Localizados',
-	'IMG_CAT_CUSTOM'				=> 'Imagens Customizadas',
+	'IMG_CAT_CUSTOM'				=> 'Imagens Personalizadas',
 	'IMG_CAT_FOLDERS'				=> 'Ícones de Tópico',
 	'IMG_CAT_FORUMS'				=> 'Ícones de Fórum',
 	'IMG_CAT_ICONS'					=> 'Ícones Gerais',
@@ -165,12 +164,12 @@ $lang = array_merge($lang, array(
 	'IMG_FORUM_LINK'				=> 'Fórum Link',
 	'IMG_FORUM_READ'				=> 'Fórum',
 	'IMG_FORUM_READ_LOCKED'			=> 'Fórum Bloqueado',
-	'IMG_FORUM_READ_SUBFORUM'		=> 'Subfórum',
+	'IMG_FORUM_READ_SUBFORUM'		=> 'Sub-fórum',
 	'IMG_FORUM_UNREAD'				=> 'Fórum com Mensagens não lidas',
 	'IMG_FORUM_UNREAD_LOCKED'		=> 'Fórum Bloqueado com Mensagens não lidas',
-	'IMG_FORUM_UNREAD_SUBFORUM'		=> 'Subfórum com Mensagens não lidas',
-	'IMG_SUBFORUM_READ'				=> 'Subfórum',
-	'IMG_SUBFORUM_UNREAD'			=> 'Subfórum com Mensagens não lidas',
+	'IMG_FORUM_UNREAD_SUBFORUM'		=> 'Sub-fórum com Mensagens não lidas',
+	'IMG_SUBFORUM_READ'				=> 'Sub-fórum',
+	'IMG_SUBFORUM_UNREAD'			=> 'Sub-fórum com Mensagens não lidas',
 
 	'IMG_TOPIC_MOVED'				=> 'Tópico movido',
 
@@ -204,7 +203,7 @@ $lang = array_merge($lang, array(
 	'IMG_ANNOUNCE_UNREAD'			=> 'Anúncio mensagens não lidas',
 	'IMG_ANNOUNCE_UNREAD_MINE'		=> 'Anúncio definido para não lidas',
 	'IMG_ANNOUNCE_UNREAD_LOCKED'	=> 'Anúncio Bloqueado mensagens não lidas',
-	'IMG_ANNOUNCE_UNREAD_LOCKED_MINE'=> 'Anúncio Bloqueado definido para não lidas',
+	'IMG_ANNOUNCE_UNREAD_LOCKED_MINE' => 'Anúncio Bloqueado definido para não lidas',
 
 	'IMG_GLOBAL_READ'				=> 'Global',
 	'IMG_GLOBAL_READ_MINE'			=> 'Global definido para',
@@ -293,7 +292,7 @@ $lang = array_merge($lang, array(
 
 	'LINE_SPACING'					=> 'Espaçamento da Linha',
 	'LOCALISED_IMAGES'				=> 'Localizado',
-	'LOCATION_DISABLED_EXPLAIN'		=> 'Esta configuração é hereditária e não pode ser modificada.',	
+	'LOCATION_DISABLED_EXPLAIN'		=> 'Esta configuração é hereditária e não pode ser modificada.',
 
 	'NO_CLASS'						=> 'Não há nenhuma classe na folha de estilos.',
 	'NO_IMAGESET'					=> 'Não há nenhum Conjunto de Imagens no Sistema de Ficheiros.',
@@ -360,7 +359,7 @@ $lang = array_merge($lang, array(
 	'STYLE_ERR_NOT_STYLE'			=> 'O ficheiro importado ou enviado não contém um ficheiro válido de Estilo.',
 	'STYLE_ERR_STYLE_NAME'			=> 'Tem que especificar um nome para este Estilo.',
 	'STYLE_EXPORT'					=> 'Exportar Estilo',
-	'STYLE_EXPORT_EXPLAIN'			=> 'Aqui pode exportar um Estilo no Formulário de Ficheiro. Um Estilo não precisa conter todos os elementos mas deve conter pelo menos um. Por exemplo, se tivesse criado um novo Tema e Conjunto de Imagens para um Template, pode exportar o Tema e o Conjunto de Imagens e omitir o Template. Deve seleccionar entre transferir o Ficheiro directamente ou enviá-lo para a sua pasta de arquivo para transferir depois por FTP.',
+	'STYLE_EXPORT_EXPLAIN'			=> 'Aqui pode exportar um Estilo no Formulário de Ficheiro. Um Estilo não precisa conter todos os elementos mas deve conter pelo menos um. Por exemplo, se tivesse criado um novo Tema e Conjunto de Imagens para um Template, pode exportar o Tema e o Conjunto de Imagens e omitir o Template. Deve seleccionar entre transferir o Ficheiro directamente ou enviá-lo para a sua pasta de ficheiro para transferir depois por FTP.',
 	'STYLE_EXPORTED'				=> 'Estilo exportado com sucesso e armazenado em %s.',
 	'STYLE_IMAGESET'				=> 'Conjunto de Imagens',
 	'STYLE_NAME'					=> 'Nome do Estilo',
@@ -381,7 +380,7 @@ $lang = array_merge($lang, array(
 	'TEMPLATE_EDITOR'				=> 'Template editor código HTML',
 	'TEMPLATE_EDITOR_HEIGHT'		=> 'Altura do editor de Template',
 	'TEMPLATE_ERR_ARCHIVE'			=> 'Por favor, seleccione um método de Ficheiro.',
-	'TEMPLATE_ERR_CACHE_READ'		=> 'A directoria de cache usada para armazenar as versões em cache dos Ficheiros de Template não pode ser aberta.',
+	'TEMPLATE_ERR_CACHE_READ'		=> 'A pasta de cache usada para armazenar as versões em cache dos Ficheiros de Template não pode ser aberta.',
 	'TEMPLATE_ERR_COPY_LONG'		=> 'O copyright não pode ter mais que 60 caracteres.',
 	'TEMPLATE_ERR_NAME_CHARS'		=> 'O nome do Template pode conter apenas caracteres alfanuméricos, -, +, _ e espaço.',
 	'TEMPLATE_ERR_NAME_EXIST'		=> 'Já existe um Conjunto de Template com o mesmo nome.',
@@ -390,20 +389,20 @@ $lang = array_merge($lang, array(
 	'TEMPLATE_ERR_REQUIRED_OR_INCOMPLETE' => 'O novo Template escolhido requer o Template %s para ser instalado e não herdando de si mesmo.',
 	'TEMPLATE_ERR_STYLE_NAME'		=> 'Tem que especificar um nome válido para este template.',
 	'TEMPLATE_EXPORT'				=> 'Exportar Templates',
-	'TEMPLATE_EXPORT_EXPLAIN'		=> 'Aqui pode exportar um Conjunto de Templates no Formulário de um Ficheiro. Este Ficheiro deve conter todos os Ficheiros necessários para instalar os Templates em outros Fóruns. Pode seleccionar para transferir o Ficheiro directamente ou colocá-lo na sua pasta de arquivo para transferir depois por FTP.',
+	'TEMPLATE_EXPORT_EXPLAIN'		=> 'Aqui pode exportar um Conjunto de Templates no Formulário de um Ficheiro. Este Ficheiro deve conter todos os Ficheiros necessários para instalar os Templates em outros Fóruns. Pode seleccionar para transferir o Ficheiro directamente ou colocá-lo na sua pasta de ficheiro para transferir depois por FTP.',
 	'TEMPLATE_EXPORTED'				=> 'Templates exportados com sucesso e armazenados em %s.',
 	'TEMPLATE_FILE'					=> 'Ficheiro de Template',
 	'TEMPLATE_FILE_UPDATED'			=> 'Ficheiro de Template actualizado com sucesso.',
-	'TEMPLATE_INHERITS'				=> 'Este Template tem heranças de %s e então não pode ter uma configuração de arquivo diferente como um Super Template.',
+	'TEMPLATE_INHERITS'				=> 'Este Template tem heranças de %s e então não pode ter uma configuração de ficheiro diferente como um Super Template.',
 	'TEMPLATE_LOCATION'				=> 'Armazenar Templates em',
 	'TEMPLATE_LOCATION_EXPLAIN'		=> 'Imagens são sempre armazenadas no Sistema de Ficheiros.',
 	'TEMPLATE_NAME'					=> 'Nome do Template',
-	'TEMPLATE_FILE_NOT_WRITABLE'	=> 'Não foi possível gravar o arquivo do estilo %s. Por favor, confira as permissões para o directório e respectivos ficheiros.',
+	'TEMPLATE_FILE_NOT_WRITABLE'	=> 'Não foi possível gravar o ficheiro do estilo %s. Por favor, confira as permissões para o directório e respectivos ficheiros.',
 	'TEMPLATE_REFRESHED'			=> 'Template actualizado com sucesso.',
 
 	'THEME_ADDED'					=> 'Novo Tema adicionado no Sistema de Ficheiros.',
 	'THEME_ADDED_DB'				=> 'Novo Tema adicionado à Base de Dados.',
-	'THEME_CLASS_ADDED'				=> 'Classe customizada adicionada com sucesso.',
+	'THEME_CLASS_ADDED'				=> 'Classe personalizada adicionada com sucesso.',
 	'THEME_DELETED'					=> 'Tema apagado com sucesso.',
 	'THEME_DELETED_FS'				=> 'Tema removido da Base de Dados mas os Ficheiros ainda estão no Sistema de Ficheiros.',
 	'THEME_DETAILS_UPDATED'			=> 'Detalhes do Tema actualizado com sucesso.',
@@ -420,7 +419,7 @@ $lang = array_merge($lang, array(
 	'THEME_ERR_STYLE_NAME'			=> 'Tem que fornecer um nome para este tema.',
 	'THEME_FILE'					=> 'Ficheiro de Tema',
 	'THEME_EXPORT'					=> 'Exportar Tema',
-	'THEME_EXPORT_EXPLAIN'			=> 'Aqui pode exportar um Tema no Formulário ou Ficheiro. Este arquivo deve conter todas as informações necessárias para instalar o Tema noutro Fórum. Pode seleccionar entre transferir o Ficheiro directamente ou colocá-lo na sua pasta de arquivo para transferir depois por FTP.',
+	'THEME_EXPORT_EXPLAIN'			=> 'Aqui pode exportar um Tema no Formulário ou Ficheiro. Este ficheiro deve conter todas as informações necessárias para instalar o Tema noutro Fórum. Pode seleccionar entre transferir o Ficheiro directamente ou colocá-lo na sua pasta de ficheiro para transferir depois por FTP.',
 	'THEME_EXPORTED'				=> 'Tema exportado com sucesso e armazenado em %s.',
 	'THEME_LOCATION'				=> 'Armazenar folha de Estilo em',
 	'THEME_LOCATION_EXPLAIN'		=> 'Imagens são sempre armazenadas no Sistema de Ficheiros.',
@@ -436,5 +435,3 @@ $lang = array_merge($lang, array(
 	'UNSET'							=> 'Indefinido',
 
 ));
-
-?>

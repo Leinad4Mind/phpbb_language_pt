@@ -1,0 +1,15 @@
+Subject: Notificação de resposta ao Tópico - "{TOPIC_TITLE}"
+
+Olá, {USERNAME},
+
+Estás a receber esta notificação porque um dos teus tópicos favoritos, "{TOPIC_TITLE}" em "{SITENAME}", recebeu uma resposta desde a tua última visita. Podes usar o endereço abaixo para ler as respostas feitas, não mais serão enviadas notificações até que visites o tópico.
+
+Para ver o que há de novo desde a tua última visita, clica no seguinte endereço:
+{U_NEWEST_POST}
+
+
+Para não receberes mais notificações relativas a respostas aos teus favoritos, por favor, actualiza as tuas configurações de notificação aqui:
+
+{U_NOTIFICATION_SETTINGS}
+
+{EMAIL_SIG}

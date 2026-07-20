@@ -1,0 +1,19 @@
+Subject: {POST_SUBJECT} - Denúncia Fechada
+
+Olá, {USERNAME},
+
+
+A sua denúncia da Mensagem "{POST_SUBJECT}" de "{AUTHOR_NAME}" no Tópico "{TOPIC_TITLE}" em {SITENAME} foi vista e fechada por um Moderador ou um Administrador.
+Se tem mais perguntas a este respeito, contacte o Utilizador {CLOSER_NAME} por Mensagem Privada.
+
+Pode ver a mensagem denunciada no seguinte endereço:
+{U_VIEW_POST}
+
+
+Obrigado, {USERNAME}.
+Continue a participar ativamente.
+A sua colaboração é fundamental para todos nós.
+
+
+
+{EMAIL_SIG}

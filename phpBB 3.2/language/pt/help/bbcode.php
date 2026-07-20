@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* This file is part of the phpBB Forum Software package.
-*
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
-* @Traduzido por: http://www.phpbb-pt.com - segundo as normas do Acordo Ortográfico
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * This file is part of the phpBB Forum Software package.
+ *
+ * @copyright (c) phpBB Limited <https://www.phpbb.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * For full copyright and license information, please see
+ * the docs/CREDITS.txt file.
+ * @Traduzido por: https://leinad4mind.top/forum - segundo as normas do Acordo Ortográfico
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -73,6 +72,6 @@ $lang = array_merge($lang, array(
 	'HELP_BBCODE_TEXT_BASIC_QUESTION'	=> 'Formatar o texto: Negrito, Itálico e Sublinhado.',
 	'HELP_BBCODE_TEXT_COLOR_ANSWER'		=> 'Para alterar a cor ou o tamanho do texto as seguintes tags podem ser usadas. Tenha em mente que a forma como aparecerá no monitor depende do navegador e do sistema: <ul><li>Para modificar a cor do texto use a tag <strong>[color=][/color]</strong>.Pode usar o nome inglês para especificar um nome de uma cor conhecida (red, blue, yellow, etc.) ou o valor hexadecimal (#FFFFFF, #000000, etc.). Por exemplo para criar texto a vermelho use: <br /><br /><strong>[color=red]</strong>Olá!<strong>[/color]</strong><br /><br />ou<br /><br /><strong>[color=#FF0000]</strong>Olá!<strong>[/color]</strong><br /><br />Também pode usar <span style="color:red">Olá!</span></li><br /><li>Alterar o tamanho do texto pode ser feita de uma forma similar, usando <strong>[size=][/size]</strong>. Esta tag está dependente do modelo que o utilizador está a usar, mas o formato recomendado é um valor numérico representando o tamanho de texto em píxeis, começando em 20 (tão pequeno) até 200 (enorme) por padrão. Por exemplo:<br /><br /><strong>[size=30]</strong>Pequeno<strong>[/size]</strong><br /><br />será apresentado <span style="font-size:30%;">PEQUENO</span><br /><br />enquanto que:<br /><br /><strong>[size=200]</strong>GRANDE!<strong>[/size]</strong><br /><br />SERÁ <span style="font-size:200%;">GRANDE!</span></li></ul>',
 	'HELP_BBCODE_TEXT_COLOR_QUESTION'	=> 'Modificar a cor e o tamanho do texto',
-	'HELP_BBCODE_TEXT_COMBINE_ANSWER'	=> 'Sim, é claro que pode, por exemplo, para obter a atenção de alguém poderá escrever:<br /><br /><strong>[size=200][color=red][b]</strong>OLHE PARA MIM!<strong>[/b][/color][/size]</strong><br /><br />que irá aparecer <span style="color:red;font-size:200%;"><strong>OLHE PARA MIM!</strong></span><br /><br />Nós não recomendamos que use grandes lotes de texto parecidos com isto! Lembre-se que depende de si, o autor da mensagem, assegurar que os códigos sejam colocados corretamente. Por exemplo, o seguinte está incorreto:<br /><br /><strong>[b][u]</strong>Isto é errado<strong>[/b][/u]</strong>' ,
+	'HELP_BBCODE_TEXT_COMBINE_ANSWER'	=> 'Sim, é claro que pode, por exemplo, para obter a atenção de alguém poderá escrever:<br /><br /><strong>[size=200][color=red][b]</strong>OLHE PARA MIM!<strong>[/b][/color][/size]</strong><br /><br />que irá aparecer <span style="color:red;font-size:200%;"><strong>OLHE PARA MIM!</strong></span><br /><br />Nós não recomendamos que use grandes lotes de texto parecidos com isto! Lembre-se que depende de si, o autor da mensagem, assegurar que os códigos sejam colocados corretamente. Por exemplo, o seguinte está incorreto:<br /><br /><strong>[b][u]</strong>Isto é errado<strong>[/b][/u]</strong>',
 	'HELP_BBCODE_TEXT_COMBINE_QUESTION'	=> 'Posso juntar tags?',
 ));

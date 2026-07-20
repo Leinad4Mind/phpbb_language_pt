@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* This file is part of the phpBB Forum Software package.
-*
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
-* @Traduzido por: http://www.phpbb-pt.com - segundo as normas do Acordo Ortográfico
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * This file is part of the phpBB Forum Software package.
+ *
+ * @copyright (c) phpBB Limited <https://www.phpbb.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * For full copyright and license information, please see
+ * the docs/CREDITS.txt file.
+ * @Traduzido por: https://leinad4mind.top/forum - segundo as normas do Acordo Ortográfico
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -99,7 +98,7 @@ $lang = array_merge($lang, array(
 	'EXTENSION_GROUP_DELETED'			=> 'Grupo de Extensões apagado com sucesso.',
 	'EXTENSION_GROUP_EXIST'				=> 'Grupo de Extensões %s já existe.',
 
-	'EXT_GROUP_ARCHIVES'				=> 'Arquivos',
+	'EXT_GROUP_ARCHIVES'				=> 'Ficheiros',
 	'EXT_GROUP_DOCUMENTS'				=> 'Documentos',
 	'EXT_GROUP_DOWNLOADABLE_FILES'		=> 'Ficheiros para Transferência',
 	'EXT_GROUP_FLASH_FILES'				=> 'Ficheiros Flash',
@@ -149,15 +148,15 @@ $lang = array_merge($lang, array(
 	'ORDER_ALLOW_DENY'					=> 'Permitir',
 	'ORDER_DENY_ALLOW'					=> 'Negar',
 
-	'REMOVE_ALLOWED_IPS'				=> 'Remover ou não exclui IPs/Servidores autorizados',
-	'REMOVE_DISALLOWED_IPS'				=> 'Remover ou não exclui IPs/Servidores proibidos',
+	'REMOVE_ALLOWED_IPS'					=> 'Remover ou retirar exclusão a IPs/hostnames autorizados',
+	'REMOVE_DISALLOWED_IPS'				=> 'Remover ou retirar exclusão a IPs/hostnames proibidos',
 	'RESYNC_FILES_STATS_CONFIRM'		=> 'Tem a certeza que deseja ressincronizar estatísticas de ficheiros?',
 
 	'SEARCH_IMAGICK'					=> 'Localizar ImageMagick',
 	'SECURE_ALLOW_DENY'					=> 'Permitir/Negar lista',
 	'SECURE_ALLOW_DENY_EXPLAIN'			=> 'Permite ou nega a lista de endereços. Esta configuração aplica-se apenas aos Ficheiros para transferência.',
 	'SECURE_DOWNLOADS'					=> 'Ativar transferências seguras',
-	'SECURE_DOWNLOADS_EXPLAIN'			=> 'Com esta opção ativada, as transferências são autorizadas apenas para os IPs/Servidores por si definidos.',
+	'SECURE_DOWNLOADS_EXPLAIN'			=> 'Com esta opção ativada, as transferências são autorizadas apenas para os IPs/hostnames por si definidos.',
 	'SECURE_DOWNLOAD_NOTICE'			=> 'As transferências seguras estão desativadas. A execução das opções abaixo depende da sua ativação.',
 	'SECURE_DOWNLOAD_UPDATE_SUCCESS'	=> 'A lista de IPs foi atualizada com sucesso.',
 	'SECURE_EMPTY_REFERRER'				=> 'Permitir origem em branco',

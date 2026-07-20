@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* acp_groups [Português]
-*
-* @package language
-* @version 1.0.9
-* @Traduzido por: http://www.phpbb-pt.com - segundo as normas do Acordo Ortográfico
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* 
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * acp_groups [Português]
+ *
+ * @package language
+ * @version 1.0.9
+ * @Traduzido por: https://leinad4mind.top/forum - segundo as normas do Acordo Ortográfico
+ * @copyright (c) 2005 phpBB Group
+ * @license http://opensource.org/licenses/gpl-license.php GNU Public License
+ * 
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -76,7 +75,7 @@ $lang = array_merge($lang, array(
 	'GROUP_LEGEND'						=> 'Exibir o Grupo na Legenda',
 	'GROUP_LIST'						=> 'Utilizadores atuais',
 	'GROUP_LIST_EXPLAIN'				=> 'Esta é uma lista completa de todos os Membros atuais com Direção Geral neste Grupo. Pode apagar Utilizadores (exceto em certos Grupos especiais) ou adicionar novos como pode ver.',
-    'GROUP_MAX_RECIPIENTS'				=> 'Limite de destinatários por Mensagem Privada',
+	'GROUP_MAX_RECIPIENTS'				=> 'Limite de destinatários por Mensagem Privada',
 	'GROUP_MAX_RECIPIENTS_EXPLAIN'		=> 'Se definido 0, serão usadas as Configurações Gerais do Painel.',
 	'GROUP_OPTIONS_SAVE'			=> 'Opções do Grupo alargadas',
 	'GROUP_MEMBERS'						=> 'Membros do Grupo',
@@ -129,5 +128,3 @@ $lang = array_merge($lang, array(
 	'USER_GROUP_DEFAULT_EXPLAIN'		=> 'Selecionando SIM será este o Grupo Padrão dos Utilizadores.',
 	'USER_GROUP_LEADER'					=> 'Líder do Grupo',
 ));
-
-?>

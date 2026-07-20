@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* This file is part of the phpBB Forum Software package.
-*
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
-* @Traduzido por: http://www.phpbb-pt.com - segundo as normas do Acordo Ortográfico
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * This file is part of the phpBB Forum Software package.
+ *
+ * @copyright (c) phpBB Limited <https://www.phpbb.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * For full copyright and license information, please see
+ * the docs/CREDITS.txt file.
+ * @Traduzido por: https://leinad4mind.top/forum - segundo as normas do Acordo Ortográfico
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -112,7 +111,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_REMOTE'					=> 'Ativar Avatar Remoto',
 	'ALLOW_REMOTE_EXPLAIN'			=> 'Os Avatares utilizados de outros sítios web.',
 	'ALLOW_REMOTE_UPLOAD'			=> 'Permitir o envio de avatar remoto',
-	'ALLOW_REMOTE_UPLOAD_EXPLAIN'	=> 'Permitir o envio de avatares de um outro sítio.',	
+	'ALLOW_REMOTE_UPLOAD_EXPLAIN'	=> 'Permitir o envio de avatares de um outro sítio.',
 	'ALLOW_UPLOAD'					=> 'Ativar o envio de Avatar',
 	'AVATAR_GALLERY_PATH'			=> 'Caminho da pasta da Galeria de Avatares',
 	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'Caminho da pasta desde a raiz do phpBB, para Galeria de Avatares: Exemplo: <samp>images/avatares/gallery</samp>.<br />Pontos duplos como <samp>../</samp> serão retirados do caminho por razões de segurança.',
@@ -136,7 +135,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_FORWARD_PM'				=> 'Permitir reencaminhamento das Mensagens Privadas',
 	'ALLOW_IMG_PM'					=> 'Permitir o uso do BBCode IMG',
 	'ALLOW_MASS_PM'					=> 'Permitir envio de Mensagens Privadas para múltiplos Utilizadores e Grupos',
-	'ALLOW_MASS_PM_EXPLAIN'			=> 'O envio para Grupos pode ser ajustado individualmente de acordo com a página de configurações do Grupo.',	
+	'ALLOW_MASS_PM_EXPLAIN'			=> 'O envio para Grupos pode ser ajustado individualmente de acordo com a página de configurações do Grupo.',
 	'ALLOW_PRINT_PM'				=> 'Permitir a impressão das Mensagem Privadas',
 	'ALLOW_QUOTE_PM'				=> 'Permitir citar nas Mensagens Privadas',
 	'ALLOW_SIG_PM'					=> 'Permitir assinaturas nas Mensagens Privadas',
@@ -232,7 +231,7 @@ $lang = array_merge($lang, array(
 	'ACC_DISABLE'						=> 'Desativar Registos',
 	'ACC_NONE'							=> 'Nenhuma',
 	'ACC_USER'							=> 'Utilizador',
-//	'ACC_USER_ADMIN'					=> 'User + Admin',
+	//	'ACC_USER_ADMIN'					=> 'User + Admin',
 	'ALLOW_EMAIL_REUSE'					=> 'Ativar duplicação de emails',
 	'ALLOW_EMAIL_REUSE_EXPLAIN'			=> 'O mesmo email pode ser usado no Registo de vários Utilizadores.',
 	'COPPA'								=> 'COPPA',
@@ -392,7 +391,7 @@ $lang = array_merge($lang, array(
 	'LOAD_CPF_VIEWPROFILE'					=> 'Mostra os campos Personalizados no Perfil dos Utilizadores',
 	'LOAD_CPF_VIEWTOPIC'					=> 'Mostra os campos Personalizados nos Tópicos',
 	'LOAD_USER_ACTIVITY'					=> 'Mostra a atividade dos Utilizadores',
-	'LOAD_USER_ACTIVITY_EXPLAIN'			=> 'Mostra o Fórum/Tópico ativo no Perfil do Utilizador e no Painel de Controle do Utilizador. Recomenda-se desativar em Fóruns com mais de um milhão de Mensagens.',
+	'LOAD_USER_ACTIVITY_EXPLAIN'			=> 'Mostra o Fórum/Tópico ativo no Perfil do Utilizador e no Painel de Controlo do Utilizador. Recomenda-se desativar em Fóruns com mais de um milhão de Mensagens.',
 	'READ_NOTIFICATION_EXPIRE_DAYS'			=> 'Expiração da notificação de leitura',
 	'READ_NOTIFICATION_EXPIRE_DAYS_EXPLAIN' => 'Número de dias que irá decorrer antes que uma notificação de leitura seja automaticamente excluída. Defina o valor como 0 para fazer notificações permanentes.',
 	'RECOMPILE_STYLES'						=> 'Recompilar os componentes de Estilo (Templates)',

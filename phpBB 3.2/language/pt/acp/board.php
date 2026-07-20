@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* This file is part of the phpBB Forum Software package.
-*
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
-* @Traduzido por: http://www.phpbb-pt.com - segundo as normas do Acordo Ortográfico
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * This file is part of the phpBB Forum Software package.
+ *
+ * @copyright (c) phpBB Limited <https://www.phpbb.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * For full copyright and license information, please see
+ * the docs/CREDITS.txt file.
+ * @Traduzido por: https://leinad4mind.top/forum - segundo as normas do Acordo Ortográfico
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -111,14 +110,14 @@ $lang = array_merge($lang, array(
 	'ALLOW_GRAVATAR'				=> 'Ativar Avatares de Gravatar',
 	'ALLOW_LOCAL'					=> 'Permitir Galeria de Avatares',
 	'ALLOW_REMOTE'					=> 'Ativar Avatar Remoto',
-	'ALLOW_REMOTE_EXPLAIN'			=> 'Os Avatares utilizados de outros sítios web.<br><em><strong class="error">Aviso:</strong> A ativação desse recurso pode permitir que os usuários verifiquem a existência de arquivos e serviços que só podem ser acessados na rede local.</em>',
+	'ALLOW_REMOTE_EXPLAIN'			=> 'Os Avatares utilizados de outros sítios web.<br><em><strong class="error">Aviso:</strong> A ativação desse recurso pode permitir que os usuários verifiquem a existência de ficheiros e serviços que só podem ser acessados na rede local.</em>',
 	'ALLOW_REMOTE_UPLOAD'			=> 'Permitir o envio de avatar remoto',
-	'ALLOW_REMOTE_UPLOAD_EXPLAIN'	=> 'Permitir o envio de avatares de um outro sítio.<br><em><strong class="error">Aviso:</strong> A ativação desse recurso pode permitir que os usuários verifiquem a existência de arquivos e serviços que só podem ser acessados na rede local.</em>',
+	'ALLOW_REMOTE_UPLOAD_EXPLAIN'	=> 'Permitir o envio de avatares de um outro sítio.<br><em><strong class="error">Aviso:</strong> A ativação desse recurso pode permitir que os usuários verifiquem a existência de ficheiros e serviços que só podem ser acessados na rede local.</em>',
 	'ALLOW_UPLOAD'					=> 'Ativar o envio de Avatar',
 	'AVATAR_GALLERY_PATH'			=> 'Caminho da pasta da Galeria de Avatares',
 	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'Caminho da pasta desde a raiz do phpBB, para a Galeria de Avatares: Exemplo: <samp>images/avatares/gallery</samp>.<br>Pontos duplos como <samp>../</samp> serão retirados do caminho por razões de segurança.',
 	'AVATAR_STORAGE_PATH'			=> 'Caminho da pasta onde os Avatares são guardados',
-	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'Caminho da pasta desde a raiz do phpBB, para o envio de Avatares. Exemplo: <samp>images/avatares/upload</samp>.<br>O Envio de Avatares <strong>não ficará disponível</strong> se a pasta não for gravável.<br>Pontos duplos como <samp>../</samp> serão retirados do caminho por razões de segurança.',
+	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'Caminho da pasta desde a raiz do phpBB, para o envio de Avatares. Exemplo: <samp>images/avatares/upload</samp>.<br>O Envio de Avatares <strong>não ficará disponível</strong> se a pasta não tiver permissões de escrita.<br>Pontos duplos como <samp>../</samp> serão retirados do caminho por razões de segurança.',
 	'MAX_AVATAR_SIZE'				=> 'Dimensões Máximas do Avatar',
 	'MAX_AVATAR_SIZE_EXPLAIN'		=> '(Altura x Largura em píxeis).',
 	'MAX_FILESIZE'					=> 'Tamanho Máximo do Ficheiro Avatar',
@@ -137,7 +136,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_FORWARD_PM'				=> 'Permitir reencaminhamento das Mensagens Privadas',
 	'ALLOW_IMG_PM'					=> 'Permitir o uso do BBCode IMG',
 	'ALLOW_MASS_PM'					=> 'Permitir envio de Mensagens Privadas para múltiplos Utilizadores e Grupos',
-	'ALLOW_MASS_PM_EXPLAIN'			=> 'O envio para Grupos pode ser ajustado individualmente de acordo com a página de configurações do Grupo.',	
+	'ALLOW_MASS_PM_EXPLAIN'			=> 'O envio para Grupos pode ser ajustado individualmente de acordo com a página de configurações do Grupo.',
 	'ALLOW_PRINT_PM'				=> 'Permitir a impressão das Mensagem Privadas',
 	'ALLOW_QUOTE_PM'				=> 'Permitir citar nas Mensagens Privadas',
 	'ALLOW_SIG_PM'					=> 'Permitir assinaturas nas Mensagens Privadas',
@@ -183,10 +182,10 @@ $lang = array_merge($lang, array(
 	'MAX_POLL_OPTIONS'				=> 'Número máximo de opções em votações',
 	'MAX_POST_FONT_SIZE'			=> 'Tamanho máximo do tipo de letra nas Mensagens',
 	'MAX_POST_FONT_SIZE_EXPLAIN'	=> 'Tamanho máximo da letra numa mensagem. 0 = ilimitado.',
-	'MAX_POST_IMG_HEIGHT'			=> 'Altura máxima das imagens por Mensagem',
-	'MAX_POST_IMG_HEIGHT_EXPLAIN'	=> 'Altura máxima das imagens/flash nas Mensagens. 0 = ilimitado.',
-	'MAX_POST_IMG_WIDTH'			=> 'Largura máxima das imagens por Mensagem',
-	'MAX_POST_IMG_WIDTH_EXPLAIN'	=> 'Largura máxima das imagens/flash nas Mensagens 0 = ilimitado.',
+	'MAX_POST_IMG_HEIGHT'			=> 'Altura máxima do flash por Mensagem',
+	'MAX_POST_IMG_HEIGHT_EXPLAIN'	=> 'Altura máxima dos ficheiros flash nas Mensagens. 0 = ilimitado.',
+	'MAX_POST_IMG_WIDTH'			=> 'Largura máxima do flash por Mensagem',
+	'MAX_POST_IMG_WIDTH_EXPLAIN'	=> 'Largura máxima dos ficheiros flash nas Mensagens 0 = ilimitado.',
 	'MAX_POST_URLS'					=> 'Número máximo de URLs por Mensagem',
 	'MAX_POST_URLS_EXPLAIN'			=> 'Número máximo de URLs que podem ser inseridas numa mensagem. 0 = ilimitadas.',
 	'MIN_CHAR_LIMIT'				=> 'Mínimo de caracteres por Mensagem',
@@ -235,7 +234,7 @@ $lang = array_merge($lang, array(
 	'ACC_DISABLE'						=> 'Desativar Registos',
 	'ACC_NONE'							=> 'Nenhuma',
 	'ACC_USER'							=> 'Utilizador',
-//	'ACC_USER_ADMIN'					=> 'User + Admin',
+	//	'ACC_USER_ADMIN'					=> 'User + Admin',
 	'ALLOW_EMAIL_REUSE'					=> 'Ativar duplicação de emails',
 	'ALLOW_EMAIL_REUSE_EXPLAIN'			=> 'O mesmo email pode ser usado no Registo de vários Utilizadores.',
 	'COPPA'								=> 'COPPA',
@@ -397,7 +396,7 @@ $lang = array_merge($lang, array(
 	'LOAD_CPF_VIEWPROFILE'					=> 'Mostra os campos Personalizados no Perfil dos Utilizadores',
 	'LOAD_CPF_VIEWTOPIC'					=> 'Mostra os campos Personalizados nos Tópicos',
 	'LOAD_USER_ACTIVITY'					=> 'Mostra a atividade dos Utilizadores',
-	'LOAD_USER_ACTIVITY_EXPLAIN'			=> 'Mostra o Fórum/Tópico ativo no Perfil do Utilizador e no Painel de Controle do Utilizador. Recomenda-se desativar em Fóruns com mais de um milhão de Mensagens.',
+	'LOAD_USER_ACTIVITY_EXPLAIN'			=> 'Mostra o Fórum/Tópico ativo no Perfil do Utilizador e no Painel de Controlo do Utilizador. Recomenda-se desativar em Fóruns com mais de um milhão de Mensagens.',
 	'LOAD_USER_ACTIVITY_LIMIT'				=> 'Limite de Mensagens da atividade do utilizador',
 	'LOAD_USER_ACTIVITY_LIMIT_EXPLAIN'		=> 'O tópico / fórum ativo não será exibido para os utilizadores que tenham mais do que este número de mensagens. Defina o valor como 0 para desativar o limite.',
 	'READ_NOTIFICATION_EXPIRE_DAYS'			=> 'Expiração da notificação de leitura',

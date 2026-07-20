@@ -1,0 +1,19 @@
+Subject: Notificação de resposta ao Tópico - "{TOPIC_TITLE}"
+
+Olá, {USERNAME},
+
+O tópico "{TOPIC_TITLE}" que marcou como favorito recebeu uma nova resposta desde a sua última visita em "{SITENAME}". Não serão enviadas mais notificações enquanto não visitar este tópico.
+
+Se desejar visualizar a mensagem mais recente, clique no seguinte endereço:
+{U_NEWEST_POST}
+
+Para ver o tópico, clique no seguinte endereço:
+{U_TOPIC}
+
+Para ver o fórum, clique no seguinte endereço:
+{U_FORUM}
+
+Para deixar de receber notificações relacionadas com respostas aos seus favoritos, por favor, atualize as suas configurações de notificação aqui:
+{U_NOTIFICATION_SETTINGS}
+
+{EMAIL_SIG}

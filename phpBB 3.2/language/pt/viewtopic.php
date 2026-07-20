@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* This file is part of the phpBB Forum Software package.
-*
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
-* @Traduzido por: http://www.phpbb-pt.com - segundo as normas do Acordo Ortográfico
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * This file is part of the phpBB Forum Software package.
+ *
+ * @copyright (c) phpBB Limited <https://www.phpbb.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * For full copyright and license information, please see
+ * the docs/CREDITS.txt file.
+ * @Traduzido por: https://leinad4mind.top/forum - segundo as normas do Acordo Ortográfico
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -48,8 +47,6 @@ $lang = array_merge($lang, array(
 	'BOOKMARK_TOPIC_REMOVE'				=> 'Remover Tópico dos Favoritos',
 	'BUMPED_BY'							=> 'Ressuscitado pela última vez por %1$s em %2$s.',
 	'BUMP_TOPIC'						=> 'Ressuscitar Tópico',
-
-	'CODE'								=> 'Código',
 
 	'DELETE_TOPIC'						=> 'Eliminar Tópico',
 	'DELETED_INFORMATION'				=> 'Apagado por %1$s em %2$s',
@@ -98,7 +95,6 @@ $lang = array_merge($lang, array(
 
 	'QUICK_MOD'							=> 'Ferramentas Rápidas',
 	'QUICKREPLY'						=> 'Resposta Rápida',
-	'QUOTE'								=> 'Citar',
 
 	'REPLY_TO_TOPIC'					=> 'Responder a este Tópico',
 	'RESTORE'							=> 'Restaurar',

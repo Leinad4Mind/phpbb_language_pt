@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* This file is part of the phpBB Forum Software package.
-*
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
-* @Traduzido por: http://www.phpbb-pt.com - segundo as normas do Acordo Ortográfico
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * This file is part of the phpBB Forum Software package.
+ *
+ * @copyright (c) phpBB Limited <https://www.phpbb.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * For full copyright and license information, please see
+ * the docs/CREDITS.txt file.
+ * @Traduzido por: https://leinad4mind.top/forum - segundo as normas do Acordo Ortográfico
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -119,7 +118,7 @@ $lang = array_merge($lang, array(
 	'HELP_FAQ_LOGIN_CANNOT_LOGIN_ANYMORE_ANSWER'	=> 'É possível que o administrador tenha excluído o seu registo por algum motivo. Além disso, há administradores que removem registos de utilizadores que nunca colocaram mensagens, de modo a reduzir o tamanho da Base de Dados. Se isso aconteceu, tente registar-se novamente e ser participativo no fórum.',
 	'HELP_FAQ_LOGIN_CANNOT_LOGIN_ANYMORE_QUESTION'	=> 'Registei-me e já entrei anteriormente, mas agora não consigo!',
 	'HELP_FAQ_LOGIN_CANNOT_LOGIN_QUESTION'	=> 'Porque não consigo entrar no Fórum?',
-	'HELP_FAQ_LOGIN_CANNOT_REGISTER_ANSWER'	=> 'A COPPA (Childrens Online Privacy Protection Act) é uma Lei de 1998 dos EUA que exige uma autorização para guardar as informações relativas a menores de 13 anos de idade.',
+	'HELP_FAQ_LOGIN_CANNOT_REGISTER_ANSWER'	=> 'A COPPA (Children\'s Online Privacy Protection Act) é uma Lei de 1998 dos EUA que exige uma autorização para guardar as informações relativas a menores de 13 anos de idade.',
 	'HELP_FAQ_LOGIN_CANNOT_REGISTER_QUESTION'	=> 'Porque não me posso registar?',
 	'HELP_FAQ_LOGIN_COPPA_ANSWER'	=> 'COPPA, ou Lei de Proteção da Privacidade Online Infantil de 1998,  é uma Lei dos EUA que exige uma autorização dos encarregados de educação, ou de um responsável legal, para guardar as informações relativas a menores de 13 anos de idade. Caso não saiba se isso se aplica a si, obtenha aconselhamento legal. Por favor, esteja ciente de que nem o phpBB Limited nem o fundador deste fórum o pode aconselhar em termos legais, à exceção da questão “Quem devo contactar em caso de abusos e/ou assuntos legais relacionados com este fórum?”.',
 	'HELP_FAQ_LOGIN_COPPA_QUESTION'	=> 'O que significa COPPA?',
@@ -128,7 +127,7 @@ $lang = array_merge($lang, array(
 	'HELP_FAQ_LOGIN_LOST_PASSWORD_ANSWER'	=> 'A sua Senha não pode ser recuperada, no entanto pode pedir uma nova. Proceda como que se estivesse a entrar no Fórum pela primeira vez. Clique em Entrar e em seguida em Esqueci-me da senha. Siga as instruções, e voltará a entrar no Fórum em poucos minutos, com uma Senha nova.',
 	'HELP_FAQ_LOGIN_LOST_PASSWORD_QUESTION'	=> 'Esqueci-me da minha Senha, e agora?',
 	'HELP_FAQ_LOGIN_REGISTER_ANSWER'	=> 'Compete ao administrador do fórum decidir se para poder criar mensagens, o registo é obrigatório. No entanto; o registo dá-lhe acesso a ferramentas adicionais não disponíveis aos visitantes, como definir imagens de avatar, mensagens privadas, e-mail de outros utilizadores, subscrição de Grupos, etc. Leva apenas alguns minutos para se registar, daí ser recomendável que o faça.',
-	'HELP_FAQ_LOGIN_REGISTER_CONFIRM_ANSWER'	=> 'Verifique se escreveu corretamente o Nome de Utilizador e a Senha.  Se tem a certeza de que estão corretos tenha em atenção um de dois fatores. Se a função COPPA (Childrens Online Privacy Protection Act) estiver ativa no Fórum e assinalou uma idade inferior a 13 anos durante o Registo, então tem que seguir as instruções que recebeu. Se não é este o seu caso, então o seu Registo ainda não se encontra ativado. Alguns Fóruns obrigam à ativação dos novos Registos. A Ativação tanto pode ser feita pelo Administrador como pelo próprio Utilizador, que neste último caso receberá um email para esse efeito. Esta informação é fornecida aos novos Utilizadores durante o Registo. Se recebeu um email, siga as suas instruções. Se não recebeu nenhum email pode ter escrito incorretamente o endereço de email ou então está considerado como spam pelo seu cliente de email. Se tem certeza que o endereço de email que forneceu é válido e correto, tente contactar o Administrador do Fórum.',
+	'HELP_FAQ_LOGIN_REGISTER_CONFIRM_ANSWER'	=> 'Verifique se escreveu corretamente o Nome de Utilizador e a Senha.  Se tem a certeza de que estão corretos tenha em atenção um de dois fatores. Se a função COPPA (Children\'s Online Privacy Protection Act) estiver ativa no Fórum e assinalou uma idade inferior a 13 anos durante o Registo, então tem que seguir as instruções que recebeu. Se não é este o seu caso, então o seu Registo ainda não se encontra ativado. Alguns Fóruns obrigam à ativação dos novos Registos. A Ativação tanto pode ser feita pelo Administrador como pelo próprio Utilizador, que neste último caso receberá um email para esse efeito. Esta informação é fornecida aos novos Utilizadores durante o Registo. Se recebeu um email, siga as suas instruções. Se não recebeu nenhum email pode ter escrito incorretamente o endereço de email ou então está considerado como spam pelo seu cliente de email. Se tem certeza que o endereço de email que forneceu é válido e correto, tente contactar o Administrador do Fórum.',
 	'HELP_FAQ_LOGIN_REGISTER_CONFIRM_QUESTION'	=> 'Registei-me mas não consigo entrar!',
 	'HELP_FAQ_LOGIN_REGISTER_QUESTION'	=> 'Por que motivo tenho de me registar?',
 

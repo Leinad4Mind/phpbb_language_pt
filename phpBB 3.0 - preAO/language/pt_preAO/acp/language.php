@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* acp_language [Português Pré-AO]
-*
-* @package language
-* @version 1.0.9
-* @Traduzido por: http://www.phpbb-pt.com - segundo pré-Acordo Ortográfico
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* 
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * acp_language [Português Pré-AO]
+ *
+ * @package language
+ * @version 1.0.9
+ * @Traduzido por: https://leinad4mind.top/forum - segundo pré-Acordo Ortográfico
+ * @copyright (c) 2005 phpBB Group
+ * @license http://opensource.org/licenses/gpl-license.php GNU Public License
+ * 
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -43,7 +42,7 @@ $lang = array_merge($lang, array(
 	'EMAIL_FILES'					=> 'Email Templates',
 
 	'FILE_CONTENTS'					=> 'Ficheiros arquivados',
-	'FILE_FROM_STORAGE'				=> 'Ficheiros da Pasta de arquivo',
+	'FILE_FROM_STORAGE'				=> 'Ficheiros da Pasta de ficheiro',
 
 	'HELP_FILES'					=> 'Ficheiros de Ajuda',
 
@@ -53,10 +52,10 @@ $lang = array_merge($lang, array(
 
 	'LANGUAGE_DETAILS_UPDATED'		=> 'A Configuração dos idiomas foi actualizada com sucesso.',
 	'LANGUAGE_ENTRIES'				=> 'Tradução de instruções',
-	'LANGUAGE_ENTRIES_EXPLAIN'		=> 'Aqui pode alterar os pacotes de idiomas existentes ou não traduzidos.<br /><strong>Nota:</strong> Depois de efectuar as modificações clique em Enviar e Descarregar Ficheiro O mesmo será colocado na directoria /store.<br /> Estas alterações só serão visíveis depois de substituir os ficheiros no servidor.',
+	'LANGUAGE_ENTRIES_EXPLAIN'		=> 'Aqui pode alterar os pacotes de idiomas existentes ou não traduzidos.<br /><strong>Nota:</strong> Depois de efectuar as modificações clique em Enviar e Descarregar Ficheiro O mesmo será colocado na pasta /store.<br /> Estas alterações só serão visíveis depois de substituir os ficheiros no servidor.',
 	'LANGUAGE_FILES'				=> 'Ficheiros dos idiomas',
 	'LANGUAGE_KEY'					=> 'Chave de Linguagem',
-	'LANGUAGE_PACK_ALREADY_INSTALLED'=> 'O Pacote de idiomas já se encontra instalado.',
+	'LANGUAGE_PACK_ALREADY_INSTALLED' => 'O Pacote de idiomas já se encontra instalado.',
 	'LANGUAGE_PACK_DELETED'			=> 'O Pacote de idiomas <strong>%s</strong> foi apagado com sucesso. O idiomas Oficial do Fórum foi actualizado para todos os Membros que estão a usá-lo.',
 	'LANGUAGE_PACK_DETAILS'			=> 'Detalhes do Pacote de idiomas',
 	'LANGUAGE_PACK_INSTALLED'		=> 'O Pacote de idiomas <strong>%s</strong> foi instalado com sucesso.',
@@ -81,7 +80,7 @@ $lang = array_merge($lang, array(
 	'NO_REMOVE_DEFAULT_LANG'		=> 'Não pode excluir o pacote de idioma Oficial<br />Se deseja excluir este pacote, altere o idioma Oficial do Fórum.',
 	'NO_UNINSTALLED_LANGUAGE_PACKS'	=> 'Sem Pacotes de idiomas desinstalados',
 
-	'REMOVE_FROM_STORAGE_FOLDER'	=> 'Excluir da Pasta de arquivo',
+	'REMOVE_FROM_STORAGE_FOLDER'	=> 'Excluir da Pasta de ficheiro',
 
 	'SELECT_DOWNLOAD_FORMAT'		=> 'Seleccionar método de Transferência',
 	'SUBMIT_AND_DOWNLOAD'			=> 'Enviar e Descarregar Ficheiro',
@@ -100,5 +99,3 @@ $lang = array_merge($lang, array(
 
 	'WRONG_LANGUAGE_FILE'			=> 'O Ficheiro seleccionado é inválido.',
 ));
-
-?>

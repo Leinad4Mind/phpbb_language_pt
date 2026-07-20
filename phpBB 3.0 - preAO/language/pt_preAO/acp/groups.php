@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* acp_groups [Português Pré-AO]
-*
-* @package language
-* @version 1.0.9
-* @Traduzido por: http://www.phpbb-pt.com - segundo pré-Acordo Ortográfico
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* 
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * acp_groups [Português Pré-AO]
+ *
+ * @package language
+ * @version 1.0.9
+ * @Traduzido por: https://leinad4mind.top/forum - segundo pré-Acordo Ortográfico
+ * @copyright (c) 2005 phpBB Group
+ * @license http://opensource.org/licenses/gpl-license.php GNU Public License
+ * 
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -76,7 +75,7 @@ $lang = array_merge($lang, array(
 	'GROUP_LEGEND'						=> 'Exibir o Grupo na Legenda',
 	'GROUP_LIST'						=> 'Utilizadores actuais',
 	'GROUP_LIST_EXPLAIN'				=> 'Esta é uma lista completa de todos os Membros actuais com Direcção Geral neste Grupo. Pode apagar Utilizadores (excepto em certos Grupos especiais) ou adicionar novos como pode ver.',
-    'GROUP_MAX_RECIPIENTS'				=> 'Limite de destinatários por Mensagem Privada',
+	'GROUP_MAX_RECIPIENTS'				=> 'Limite de destinatários por Mensagem Privada',
 	'GROUP_MAX_RECIPIENTS_EXPLAIN'		=> 'Se definido 0, serão usadas as Configurações Gerais do Painel.',
 	'GROUP_OPTIONS_SAVE'				=> 'Opções do Grupo alargadas',
 	'GROUP_MEMBERS'						=> 'Membros do Grupo',
@@ -93,7 +92,7 @@ $lang = array_merge($lang, array(
 	'GROUP_PROMOTE'						=> 'Promover a Líder do Grupo',
 	'GROUP_RANK'						=> 'Classificação do Grupo',
 	'GROUP_RECEIVE_PM'					=> 'Grupo autorizado a receber Mensagens Privadas',
-	'GROUP_RECEIVE_PM_EXPLAIN'			=> 'Os Grupos ocultos não podem receber mensagens, mesmo seleccionando esta opção.',
+	'GROUP_RECEIVE_PM_EXPLAIN'			=> 'Os Grupos ocultos não podem receber mensagens, mesmo ao seleccionar esta opção.',
 	'GROUP_REQUEST'						=> 'Inscrição',
 	'GROUP_SETTINGS_SAVE'				=> 'Configurações do Grupo',
 	'GROUP_TYPE'						=> 'Estado do Grupo',
@@ -126,8 +125,6 @@ $lang = array_merge($lang, array(
 	'USER_DEF_GROUPS'					=> 'Grupos Criados pelo Administrador',
 	'USER_DEF_GROUPS_EXPLAIN'			=> 'Pode gerir as Permissões dos Membros destes Grupos. Editar as Configurações ou eliminar o Grupo.',
 	'USER_GROUP_DEFAULT'				=> 'Grupo Padrão',
-	'USER_GROUP_DEFAULT_EXPLAIN'		=> 'Seleccionando SIM será este o Grupo Padrão dos Utilizadores.',
+	'USER_GROUP_DEFAULT_EXPLAIN'		=> 'Ao seleccionar SIM será este o Grupo Padrão dos Utilizadores.',
 	'USER_GROUP_LEADER'					=> 'Líder do Grupo',
 ));
-
-?>

@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* This file is part of the phpBB Forum Software package.
-*
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
-* @Traduzido por: http://www.phpbb-pt.com - segundo pré-Acordo Ortográfico
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * This file is part of the phpBB Forum Software package.
+ *
+ * @copyright (c) phpBB Limited <https://www.phpbb.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * For full copyright and license information, please see
+ * the docs/CREDITS.txt file.
+ * @Traduzido por: https://leinad4mind.top/forum - segundo pré-Acordo Ortográfico
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -43,6 +42,7 @@ $lang = array_merge($lang, array(
 	'ADD_POLL'						=> 'Criar Votação',
 	'ADD_POLL_EXPLAIN'				=> 'Se não deseja adicionar uma votação ao Tópico deixe os campos em branco.',
 	'ALREADY_DELETED'				=> 'Esta Mensagem já foi apagada.',
+	'ATTACH_COMMENT_NO_EMOJIS'		=> 'O comentário do anexo contém caracteres proibidos (Emoji).',
 	'ATTACH_DISK_FULL'				=> 'Não existe espaço livre suficiente no servidor onde se encontra este fórum para enviar o anexo.',
 	'ATTACH_QUOTA_REACHED'			=> 'A cota máxima de anexos para este painel foi alcançada.',
 	'ATTACH_SIG'					=> 'Anexar a minha assinatura (pode alterar a assinatura no Painel de Controlo do Utilizador)',
@@ -145,6 +145,7 @@ $lang = array_merge($lang, array(
 	'LOAD_DRAFT_EXPLAIN'			=> 'Seleccione o rascunho. Tenha em atenção que ao seleccionar um rascunho o mesmo deixará de ficar guardado. No entanto pode voltar a guardar a mensagem, criando um novo rascunho. Pode ver, editar e apagar rascunhos no Painel de Controlo do Utilizador.',
 	'LOGIN_EXPLAIN_BUMP'			=> 'Tem que ligar-se para ressuscitar Tópicos neste Fórum.',
 	'LOGIN_EXPLAIN_DELETE'			=> 'Tem que ligar-se para apagar Mensagens neste Fórum.',
+	'LOGIN_EXPLAIN_SOFT_DELETE'		=> 'Tem que ligar-se para apagar provisoriamente Mensagens neste Fórum.',
 	'LOGIN_EXPLAIN_POST'			=> 'Tem que ligar-se para enviar Mensagens neste Fórum.',
 	'LOGIN_EXPLAIN_QUOTE'			=> 'Tem que ligar-se para citar Mensagens neste Fórum.',
 	'LOGIN_EXPLAIN_REPLY'			=> 'Tem que ligar-se para responder Tópicos neste Fórum.',

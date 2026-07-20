@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* recaptcha [Português Pré-AO]
-*
-* @package language
-* @version 1.0.9
-* @Traduzido por: http://www.phpbb-pt.com - segundo pré-Acordo Ortográfico
-* @copyright (c) 2009 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* 
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * recaptcha [Português Pré-AO]
+ *
+ * @package language
+ * @version 1.0.9
+ * @Traduzido por: https://leinad4mind.top/forum - segundo pré-Acordo Ortográfico
+ * @copyright (c) 2009 phpBB Group
+ * @license http://opensource.org/licenses/gpl-license.php GNU Public License
+ * 
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -40,7 +39,7 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_LANG'				=> 'pt',
 	'RECAPTCHA_NOT_AVAILABLE'		=> 'Para usar o reCaptcha tem que criar uma conta em <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha',
-	'RECAPTCHA_INCORRECT'			=> 'O código inserido não é o correto.',
+	'RECAPTCHA_INCORRECT'			=> 'O código inserido não é o correcto.',
 
 	'RECAPTCHA_PUBLIC'				=> 'Chave pública reCaptcha',
 	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'A sua Chave pública reCaptcha. Obtenha uma em <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
@@ -49,5 +48,3 @@ $lang = array_merge($lang, array(
 
 	'RECAPTCHA_EXPLAIN'				=> 'No sentido de evitar registos automáticos, é necessário que entre ambas as palavras indicadas no campo de texto abaixo.',
 ));
-
-?>

@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* posting [Português]
-*
-* @package language
-* @version 1.0.9
-* @Traduzido por: http://www.phpbb-pt.com - segundo as normas do Acordo Ortográfico
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* 
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * posting [Português]
+ *
+ * @package language
+ * @version 1.0.9
+ * @Traduzido por: https://leinad4mind.top/forum - segundo as normas do Acordo Ortográfico
+ * @copyright (c) 2005 phpBB Group
+ * @license http://opensource.org/licenses/gpl-license.php GNU Public License
+ * 
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -55,7 +54,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_IS_OFF'					=> '%sBBCode%s está <em>DESLIGADO</em>',
 	'BBCODE_IS_ON'					=> '%sBBCode%s está <em>LIGADO</em>',
 	'BBCODE_I_HELP'					=> 'Texto em Itálico: [i]texto[/i]  (alt+i)',
-	'BBCODE_L_HELP'					=> 'Lista: [list][*]texto[/list]', 
+	'BBCODE_L_HELP'					=> 'Lista: [list][*]texto[/list]',
 	'BBCODE_LISTITEM_HELP'			=> 'Listar Itens: [*]texto',
 	'BBCODE_O_HELP'					=> 'Lista Ordenada: e.g. [list=1][*]Primeiro Ponto[/list] ou [list=a][*]Ponto a[/list]',
 	'BBCODE_P_HELP'					=> 'Inserir imagem: [img]http://url_da_imagem[/img]  (alt+p)',
@@ -224,5 +223,3 @@ $lang = array_merge($lang, array(
 	'WRONG_FILESIZE'				=> 'O Ficheiro é muito grande. O máximo permitido é %1$d %2$s.',
 	'WRONG_SIZE'					=> 'A imagem deve ter pelo menos %1$d píxeis de largura, %2$d píxeis de altura e no máximo %3$d píxeis de largura e %4$d píxeis de altura. A imagem enviada tem %5$d píxeis de largura e %6$d píxeis de altura.',
 ));
-
-?>

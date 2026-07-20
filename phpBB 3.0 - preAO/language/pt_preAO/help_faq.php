@@ -1,20 +1,20 @@
 <?php
-/**
-*
-* help_faq [Português Pré-AO]
-*
-* @package language
-* @version 1.0.9
-* @Traduzido por: http://www.phpbb-pt.com - segundo pré-Acordo Ortográfico
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* 
-*/
 
 /**
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * help_faq [Português Pré-AO]
+ *
+ * @package language
+ * @version 1.0.9
+ * @Traduzido por: https://leinad4mind.top/forum - segundo pré-Acordo Ortográfico
+ * @copyright (c) 2005 phpBB Group
+ * @license http://opensource.org/licenses/gpl-license.php GNU Public License
+ * 
+ */
+
+/**
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
@@ -57,7 +57,7 @@ $help = array(
 	),
 	array(
 		0	=> 'Registei-me mas não consigo entrar!',
-		1	=> 'Verifique se escreve correctamente o Nome de Utilizador e a Senha.  Se tem a certeza de que estão correctos tenha em atenção um de dois factores. Se a função COPPA (Childrens Online Privacy Protection Act) estiver activa no Fórum e assinalou a uma idade inferior a 13 anos durante o Registo, então tem que seguir as instruções que recebeu. Se não é este o seu caso, então o seu Registo ainda não se encontra-se activado. Alguns Fóruns obrigam à activação dos novos Registos. A Activação tanto pode ser feita pelo Administrador como pelo próprio Utilizador, que neste último caso receberá um email para esse efeito. Esta informação é fornecida aos novos Utilizadores durante o Registo. Se recebeu um email, siga as suas instruções. Se não recebeu nenhum email pode ter escrito incorrectamente o endereço de email ou então está considerado como spam pelo seu cliente de email. Se tem certeza que o endereço de email que forneceu é válido e correto, tente contactar o Administrador do Fórum.',
+		1	=> 'Verifique se escreve correctamente o Nome de Utilizador e a Senha.  Se tem a certeza de que estão correctos tenha em atenção um de dois factores. Se a função COPPA (Children\'s Online Privacy Protection Act) estiver activa no Fórum e assinalou a uma idade inferior a 13 anos durante o Registo, então tem que seguir as instruções que recebeu. Se não é este o seu caso, então o seu Registo ainda não se encontra-se activado. Alguns Fóruns obrigam à activação dos novos Registos. A Activação tanto pode ser feita pelo Administrador como pelo próprio Utilizador, que neste último caso receberá um email para esse efeito. Esta informação é fornecida aos novos Utilizadores durante o Registo. Se recebeu um email, siga as suas instruções. Se não recebeu nenhum email pode ter escrito incorrectamente o endereço de email ou então está considerado como spam pelo seu cliente de email. Se tem certeza que o endereço de email que forneceu é válido e correcto, tente contactar o Administrador do Fórum.',
 	),
 	array(
 		0	=> 'Registei-me e já entrei anteriormente mas agora não!',
@@ -65,7 +65,7 @@ $help = array(
 	),
 	array(
 		0	=> 'O que é COPPA?',
-		1	=> 'A COPPA (Childrens Online Privacy Protection Act) é uma Lei de 1998 dos EUA que exige uma autorização para guardar as informações relativas a menores de 13 anos de idade.',
+		1	=> 'A COPPA (Children\'s Online Privacy Protection Act) é uma Lei de 1998 dos EUA que exige uma autorização para guardar as informações relativas a menores de 13 anos de idade.',
 	),
 	array(
 		0	=> 'Por que não consigo Registar-me?',
@@ -85,7 +85,7 @@ $help = array(
 	),
 	array(
 		0	=> 'A Data e Hora estão erradas!',
-		1	=> 'Provavelmente as datas estão corretas, pode acontecer que esteja a visualizar as horas de um Fuso Horário diferente do seu. Pode alterar o Fuso Horário do Fórum no seu Perfil na opção Fuso Horário Seleccione [GMT] Dublin, Edinburgh, Iceland, Lisboa, London, Casablanca. A mudança do Fuso Horário só é permitida aos Utilizadores Registados.',
+		1	=> 'Provavelmente as datas estão correctas, pode acontecer que esteja a visualizar as horas de um Fuso Horário diferente do seu. Pode alterar o Fuso Horário do Fórum no seu Perfil na opção Fuso Horário Seleccione [GMT] Dublin, Edinburgh, Iceland, Lisboa, London, Casablanca. A mudança do Fuso Horário só é permitida aos Utilizadores Registados.',
 	),
 	array(
 		0	=> 'Alterei o Fuso Horário, mas a Data e Hora continuam erradas!',
@@ -111,10 +111,10 @@ $help = array(
 		0	=> '--',
 		1	=> 'Sobre as Mensagens',
 	),
-   array( 
-      0 => 'Como posso enviar uma mensagem?', 
-      1 => 'Para enviar um novo Tópico num Fórum, clique no botão relevante das páginas dos Fóruns e Tópicos. Deverá registar-se antes de enviar uma mensagem. Uma lista de suas permissões de cada Fórum está disponível no fundo das páginas dos Fóruns e Tópicos. Exemplo: Pode criar novos Tópicos, votações, etc.' 
-   ), 
+	array(
+		0 => 'Como posso enviar uma mensagem?',
+		1 => 'Para enviar um novo Tópico num Fórum, clique no botão relevante das páginas dos Fóruns e Tópicos. Deverá registar-se antes de enviar uma mensagem. Uma lista de suas permissões de cada Fórum está disponível no fundo das páginas dos Fóruns e Tópicos. Exemplo: Pode criar novos Tópicos, votações, etc.'
+	),
 	array(
 		0	=> 'Como crio um Tópico no Fórum?',
 		1	=> 'Isso é fácil, clique no botão Novo Tópico ou Responder. Estes botões só são visíveis nas situações em que está autorizado a fazê-lo.',
@@ -145,7 +145,7 @@ $help = array(
 	),
 	array(
 		0	=> 'Por que não consigo anexar ficheiros?',
-		1	=> 'Em algumas secções, anexar ficheiros pode estar restrito a alguns Utilizadores ou Grupos. Para anexar um arquivo, tem que ter de uma autorização especial. Apenas o Moderador do Fórum e os Administradores podem lhe dar esse acesso. Por Favor, contacte-os.',
+		1	=> 'Em algumas secções, anexar ficheiros pode estar restrito a alguns Utilizadores ou Grupos. Para anexar um ficheiro, tem que ter de uma autorização especial. Apenas o Moderador do Fórum e os Administradores podem lhe dar esse acesso. Por Favor, contacte-os.',
 	),
 	array(
 		0	=> 'Por que recebi uma Advertência?',
@@ -173,7 +173,7 @@ $help = array(
 	),
 	array(
 		0	=> 'O que é BBCode?',
-		1	=> 'O BBCode é uma implementação especial do HTML. A possibilidade usar BBCode nas mensagens é determinada pelo Administrador do Fórum. Adicionalmente, pode poderá desactivar o BBCode em cada mensagem, seleccionando Desactivar BBCode nesta Mensagem abaixo da caixa principal de cada mensagem. BBCode por si mesmo é similar em estilo ao HTML, as Etiquetas (TAGs) são incluídas entre parênteses rectos, como por [exemplo], em vez de &lt;exemplo&gt; proporcionando uma maior facilidade na formatação dos textos e mensagens dentro do Fórum. Para mais informações, consulte o Guia BBCode, acessível através de um atalho no Painel de Mensagens.',
+		1	=> 'O BBCode é uma implementação especial do HTML. A possibilidade usar BBCode nas mensagens é determinada pelo Administrador do Fórum. Adicionalmente, pode poderá desactivar o BBCode em cada mensagem, ao seleccionar Desactivar BBCode nesta Mensagem abaixo da caixa principal de cada mensagem. BBCode por si mesmo é similar em estilo ao HTML, as Etiquetas (TAGs) são incluídas entre parênteses rectos, como por [exemplo], em vez de &lt;exemplo&gt; proporcionando uma maior facilidade na formatação dos textos e mensagens dentro do Fórum. Para mais informações, consulte o Guia BBCode, acessível através de um atalho no Painel de Mensagens.',
 	),
 	array(
 		0	=> 'Posso usar HTML?',
@@ -338,7 +338,7 @@ $help = array(
 	),
 	array(
 		0	=> 'Quem traduziu o phpBB3?',
-		1	=> 'O phpBB3 foi traduzido para a Língua Portuguesa por phpBB Portugal, sendo esta tradução de distribuição livre e gratuita. Se encontrar erros ou incorrecções, ou ainda, se tiver alguma sugestão a fazer visite-nos em phpBB Portugal. Agradecemos antecipadamente a sua visita e as contribuições que entender dar-nos, prometendo analisá-las cuidadosamente e dar-lhe resposta tão breve quanto possível.',
+		1	=> 'O phpBB3 foi traduzido para a Língua Portuguesa por phpBB Leinad4Mind, sendo esta tradução de distribuição livre e gratuita. Se encontrar erros ou incorrecções, ou ainda, se tiver alguma sugestão a fazer visite-nos em phpBB Leinad4Mind. Agradecemos antecipadamente a sua visita e as contribuições que entender dar-nos, prometendo analisá-las cuidadosamente e dar-lhe resposta tão breve quanto possível.',
 	),
 	array(
 		0	=> 'Por que não existe a Função X?',
@@ -349,5 +349,3 @@ $help = array(
 		1	=> 'Contacte o Administrador deste Fórum. Veja no canto superior direito da imagem encontrará um atalho para a lista de Utilizadores onde está o Administrador. Envie-lhe uma Mensagem Privada a expor o assunto.',
 	),
 );
-
-?>

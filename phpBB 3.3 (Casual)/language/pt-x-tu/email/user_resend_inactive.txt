@@ -1,0 +1,21 @@
+Subject: Bem-vindo ao Fórum {SITENAME}
+
+{WELCOME_MSG}
+
+LÊ ATENTAMENTE este email e guarda-o para consultas posteriores.
+
+A informação da tua conta é a seguinte:
+==============================================
+Utilizador: {USERNAME}
+==============================================
+
+Por favor, visita o seguinte endereço para ativares a tua conta:
+{U_ACTIVATE}
+
+A tua senha foi armazenada na nossa Base de Dados de forma segura e não pode ser recuperada. No caso de a esqueceres, poderás redefini-la, usando o endereço de e-mail associado à tua conta.
+
+{USERNAME}, obrigado pelo teu registo em "{SITENAME}".
+Participa ativamente. A tua colaboração é fundamental para todos nós.
+
+
+{EMAIL_SIG}

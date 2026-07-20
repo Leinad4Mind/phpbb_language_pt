@@ -1,25 +1,24 @@
 <?php
+
 /**
-*
-* acp_posting [Português]
-*
-* @package language
-* @version 1.0.9
-* @Traduzido por: http://www.phpbb-pt.com - segundo as normas do Acordo Ortográfico
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* 
-*/
+ *
+ * acp_posting [Português]
+ *
+ * @package language
+ * @version 1.0.9
+ * @Traduzido por: https://leinad4mind.top/forum - segundo as normas do Acordo Ortográfico
+ * @copyright (c) 2005 phpBB Group
+ * @license http://opensource.org/licenses/gpl-license.php GNU Public License
+ * 
+ */
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -49,11 +48,11 @@ $lang = array_merge($lang, array(
 	'BBCODE_HELPLINE'				=> 'Linha de Ajuda',
 	'BBCODE_HELPLINE_EXPLAIN'		=> 'Neste Campo deve ser inserido o texto mostrado quando se coloca o cursor sobre o BBCode.',
 	'BBCODE_HELPLINE_TEXT'			=> 'Texto da Linha de Ajuda',
-	'BBCODE_HELPLINE_TOO_LONG'		=> 'A linha de ajuda que escreveu é muito longa.',	
+	'BBCODE_HELPLINE_TOO_LONG'		=> 'A linha de ajuda que escreveu é muito longa.',
 
 	'BBCODE_INVALID_TAG_NAME'		=> 'O Nome da TAG de BBCode selecionado já existe.',
 	'BBCODE_INVALID'				=> 'A construção do seu BBCode é invalido.',
-	'BBCODE_OPEN_ENDED_TAG'			=> 'O BBCode customizado deve conter uma TAG de início e outra de fim.',
+	'BBCODE_OPEN_ENDED_TAG'			=> 'O BBCode personalizado deve conter uma TAG de início e outra de fim.',
 	'BBCODE_TAG'					=> 'TAG',
 	'BBCODE_TAG_TOO_LONG'			=> 'O Nome da TAG selecionado é muito grande.',
 	'BBCODE_TAG_DEF_TOO_LONG'		=> 'A Definição da TAG escrita é muito grande. Por Favor, reescreva de forma mais curta.',
@@ -70,7 +69,7 @@ $lang = array_merge($lang, array(
 
 	'TOKEN'							=> 'Símbolo',
 	'TOKENS'						=> 'Símbolos',
-	'TOKENS_EXPLAIN'				=> 'Os Símbolos são campos especiais a serem adicionados pelos Utilizadores. Mas estes apenas serão válidos se tiverem as definições correspondentes. Se necessário, pode numerá-los adicionando um número como o último carácter: Exemplo: {Utilizador}, {Utilizador1}.<br /> <br />Pode ainda utilizar estes Símbolos com qualquer sequência de linguagem presente na diretoria /language como esta: {L_<em>&lt;STRINGNAME&gt;</em>} onde <em>&lt;STRINGNAME&gt;</em> é o nome da sequência traduzida que deseja adicionar. Por exemplo, {L_WROTE} será exibido como “Escreveu” ou traduzido de acordo com a localidade do Utilizador.<br /><br /><strong>Tenha em atenção que apenas os Símbolos listados abaixo podem ser utilizados com os BBCodes personalizados.</strong>',
+	'TOKENS_EXPLAIN'				=> 'Os Símbolos são campos especiais a serem adicionados pelos Utilizadores. Mas estes apenas serão válidos se tiverem as definições correspondentes. Se necessário, pode numerá-los adicionando um número como o último carácter: Exemplo: {Utilizador}, {Utilizador1}.<br /> <br />Pode ainda utilizar estes Símbolos com qualquer sequência de linguagem presente na pasta /language como esta: {L_<em>&lt;STRINGNAME&gt;</em>} onde <em>&lt;STRINGNAME&gt;</em> é o nome da sequência traduzida que deseja adicionar. Por exemplo, {L_WROTE} será exibido como “Escreveu” ou traduzido de acordo com a localidade do Utilizador.<br /><br /><strong>Tenha em atenção que apenas os Símbolos listados abaixo podem ser utilizados com os BBCodes personalizados.</strong>',
 
 	'TOKEN_DEFINITION'				=> 'O que é que isto pode ser?',
 	'TOO_MANY_BBCODES'				=> 'Não pode criar mais BBCodes. Elimine alguns BBCodes para poder criar outros.',
@@ -79,7 +78,7 @@ $lang = array_merge($lang, array(
 		'TEXT'			=> 'Qualquer texto, incluindo caracteres estrangeiros, números, etc ... Não deve usar o símbolo TEXT em tags HTML. Em vez disso tente usar intText ou SimpleText.',
 		'SIMPLETEXT'	=> 'Caracteres do alfabeto latino (A-Z), números, espaços, vírgulas, pontos, menos, mais, hífen e sublinhado.',
 		'INTTEXT'		=> 'Caracteres Unicode, números, espaços, vírgulas, pontos, menos, mais, hífen, underscore e espaços em branco.',
-        'IDENTIFIER'    => 'Caracteres do alfabeto latino (A-Z), números, hífen e underline',
+		'IDENTIFIER'    => 'Caracteres do alfabeto latino (A-Z), números, hífen e underline',
 		'NUMBER'		=> 'Qualquer Séries de Dígitos',
 		'EMAIL'			=> 'Um endereço de email válido',
 		'URL'			=> 'Uma URL válida utilizando qualquer protocolo (http, ftp, etc. não pode ser utilizada para javascript). Se nenhum for concedido, “http://” é o prefixado para a sequência.',
@@ -90,7 +89,7 @@ $lang = array_merge($lang, array(
 ));
 
 // Smilies and topic icons 
-$lang = array_merge($lang, array( 
+$lang = array_merge($lang, array(
 	'ACP_ICONS_EXPLAIN'				=> 'Aqui pode adicionar, editar e apagar os ícones que os Utilizador terão disponíveis para adicionar nos Tópicos e Mensagens. Estes ícones são exibidos geralmente perto do Título dos Tópicos na lista de Fóruns, ou o título do Tópico na lista de Tópicos. Também pode instalar e criar Pacotes de Ícones novos.',
 	'ACP_SMILIES_EXPLAIN'			=> 'Emoções ou Smilies são tipicamente pequenas, às vezes imagens animadas utilizadas para mostrar alguma emoção ou sentimento. Aqui pode adicionar, editar e apagar as Emoções que os Utilizadores terão disponíveis nos Tópicos e Mensagens Privadas. Também pode instalar e criar Pacotes de Emoções.',
 	'ADD_SMILIES'					=> 'Adicionar Múltiplas Emoções',
@@ -141,7 +140,7 @@ $lang = array_merge($lang, array(
 	'ICONS_URL'						=> 'Ficheiro de imagem do ícone',
 	'ICONS_WIDTH'					=> 'Largura do Ícone',
 	'IMPORT_ICONS'					=> 'Instalar Pacote de ícones',
-	'IMPORT_SMILIES'				=> 'Instalar Pacote de Emoções',	
+	'IMPORT_SMILIES'				=> 'Instalar Pacote de Emoções',
 
 	'KEEP_ALL'						=> 'Guardar Todas',
 
@@ -173,7 +172,7 @@ $lang = array_merge($lang, array(
 	'SMILIE_NO_EMOTION'				=> 'A Emoção "%s" foi ignorada, como se nenhuma emoção tivesse sido escrita.',
 	'SMILIE_NO_FILE'				=> 'A Emoção “%s” foi ignorada, porque falta o ficheiro.',
 	'SMILIES_NONE_EDITED'			=> 'Não há Emoções disponíveis para modificar.',
-	'SMILIES_ONE_EDITED'			=> 'A Emoção foi atualizada com sucesso.',	
+	'SMILIES_ONE_EDITED'			=> 'A Emoção foi atualizada com sucesso.',
 	'SMILIES_EDITED'				=> 'As Emoções foram atualizadas com sucesso.',
 	'SMILIES_EMOTION'				=> 'Emoção',
 	'SMILIES_HEIGHT'				=> 'Altura da Emoção',
@@ -189,14 +188,14 @@ $lang = array_merge($lang, array(
 	'TOO_MANY_SMILIES'				=> 'O limite de %d emoções foi atingido.',
 
 	'WRONG_PAK_TYPE'				=> 'O Pacote selecionado não tem as informações necessárias',
-)); 
+));
 
 // Word censors 
-$lang = array_merge($lang, array( 
+$lang = array_merge($lang, array(
 	'ACP_WORDS_EXPLAIN'				=> 'Aqui pode adicionar, editar e apagar palavras que serão automaticamente censuradas no Fórum. Adicionando esta opção, os visitantes continuarão a poder registar-se com Nomes de utilizadores contendo estas palavras. Podem ser utilizados asteriscos (*) aumentando as possibilidades de abranger variações de uma mesma palavra. Por exemplo, testa* abrangerá testar e detesta.',
 	'ADD_WORD'						=> 'Adicionar nova Palavra',
 
- 	'EDIT_WORD'						=> 'Editar Palavra Censurada',
+	'EDIT_WORD'						=> 'Editar Palavra Censurada',
 	'ENTER_WORD'					=> 'Tem que escrever uma palavra e a sua substituição.',
 
 	'NO_WORD'						=> 'Não foi selecionada nenhuma palavra para poder ser editada.',
@@ -209,10 +208,10 @@ $lang = array_merge($lang, array(
 	'WORD_ADDED'					=> 'A Palavra Censurada foi adicionada com sucesso.',
 	'WORD_REMOVED'					=> 'A Palavra Censurada foi apagada com sucesso.',
 	'WORD_UPDATED'					=> 'A Palavra Censurada foi atualizada com sucesso.',
-)); 
+));
 
 // Ranks 
-$lang = array_merge($lang, array( 
+$lang = array_merge($lang, array(
 	'ACP_RANKS_EXPLAIN'				=> 'Aqui poderá adicionar, editar, visualizar e apagar classificações. Pode também criar classificações personalizadas que podem ser aplicados a um Utilizador nas Ferramentas de Administração de Utilizadores.',
 	'ADD_RANK'						=> 'Adicionar nova classificação',
 
@@ -231,10 +230,10 @@ $lang = array_merge($lang, array(
 	'RANK_SPECIAL'					=> 'Escreva uma Classificação Especial',
 	'RANK_TITLE'					=> 'Título da Classificação',
 	'RANK_UPDATED'					=> 'A Classificação foi atualizada com sucesso.',
-)); 
+));
 
 // Disallow Usernames 
-$lang = array_merge($lang, array( 
+$lang = array_merge($lang, array(
 	'ACP_DISALLOW_EXPLAIN'			=> 'Aqui pode gerir os nomes cuja utilização é proibida. Utilize o asterisco (*) para facilitar a construção de nomes.',
 	'ADD_DISALLOW_EXPLAIN'			=> 'Introduza o nome que deseja proibir. Use os asteriscos (*) cuidadosamente.',
 	'ADD_DISALLOW_TITLE'			=> 'Adicionar um Nome Proibido',
@@ -247,10 +246,10 @@ $lang = array_merge($lang, array(
 
 	'NO_DISALLOWED'					=> 'Não há Nomes Proibidos',
 	'NO_USERNAME_SPECIFIED'			=> 'O Nome Proibido não foi selecionado.',
-)); 
+));
 
 // Reasons 
-$lang = array_merge($lang, array( 
+$lang = array_merge($lang, array(
 	'ACP_REASONS_EXPLAIN'			=> 'Aqui pode gerir as razões utilizadas em denúncias e mensagens negativas quando desaprovando mensagens. Existe uma razão padrão (marcada com um (*)) em que não pode apagar, esta razão é normalmente utilizada para mensagens Personalizadas se não possuírem motivos plausíveis.',
 	'ADD_NEW_REASON'				=> 'Adicionar nova Razão',
 	'AVAILABLE_TITLES'				=> 'Títulos de Razões Locais Disponíveis',
@@ -278,5 +277,3 @@ $lang = array_merge($lang, array(
 
 	'USED_IN_REPORTS'				=> 'Utilizado em Denúncias',
 ));
-
-?>

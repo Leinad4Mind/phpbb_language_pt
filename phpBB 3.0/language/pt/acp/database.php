@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* acp_database [Português]
-*
-* @package language
-* @version 1.0.9
-* @Traduzido por: http://www.phpbb-pt.com - segundo as normas do Acordo Ortográfico
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* 
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * acp_database [Português]
+ *
+ * @package language
+ * @version 1.0.9
+ * @Traduzido por: https://leinad4mind.top/forum - segundo as normas do Acordo Ortográfico
+ * @copyright (c) 2005 phpBB Group
+ * @license http://opensource.org/licenses/gpl-license.php GNU Public License
+ * 
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -38,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 
 // Database Backup/Restore
 $lang = array_merge($lang, array(
-	'ACP_BACKUP_EXPLAIN'		=> 'Aqui pode fazer Cópias de Segurança da Base de Dados do Fórum. Os ficheiros podem ser guardados na diretoria /store, ou pode transferi-los para o seu computador. Dependendo das configurações do Servidor, o ficheiro poderá ser comprimido em diversos formatos.',
+	'ACP_BACKUP_EXPLAIN'		=> 'Aqui pode fazer Cópias de Segurança da Base de Dados do Fórum. Os ficheiros podem ser guardados na pasta /store, ou pode transferi-los para o seu computador. Dependendo das configurações do Servidor, o ficheiro poderá ser comprimido em diversos formatos.',
 	'ACP_RESTORE_EXPLAIN'		=> 'Esta operação recuperará todas as Tabelas da Base de Dados do phpBB incluídas no Ficheiro. Se o Servidor suportar compressão de Ficheiros de texto gzip ou bzip2 a descompressão será automática. <strong>ATENÇÃO</strong> A Base da Dados atual, e toda a informação nela contida, será substituída. A reposição dos dados poderá demorar, aguarde até que o processo esteja concluído.',
 
 	'BACKUP_DELETE'				=> 'O Ficheiro da Cópia de Segurança foi apagado com sucesso.',
@@ -68,11 +67,9 @@ $lang = array_merge($lang, array(
 	'START_BACKUP'				=> 'Iniciar a Cópia de Segurança',
 	'START_RESTORE'				=> 'Iniciar restauração',
 	'STORE_AND_DOWNLOAD'		=> 'Armazenar e descarregar',
-	'STORE_LOCAL'				=> 'Guardar na diretoria /store do Fórum',
+	'STORE_LOCAL'				=> 'Guardar na pasta /store do Fórum',
 	'STRUCTURE_ONLY'			=> 'Só estrutura',
 
 	'TABLE_SELECT'				=> 'Seleção de Tabelas',
 	'TABLE_SELECT_ERROR'		=> 'Deve selecionar pelo menos uma Tabela.',
 ));
-
-?>

@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* This file is part of the phpBB Forum Software package.
-*
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
-* @Traduzido por: http://www.phpbb-pt.com - segundo pré-Acordo Ortográfico
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * This file is part of the phpBB Forum Software package.
+ *
+ * @copyright (c) phpBB Limited <https://www.phpbb.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * For full copyright and license information, please see
+ * the docs/CREDITS.txt file.
+ * @Traduzido por: https://leinad4mind.top/forum - segundo pré-Acordo Ortográfico
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -41,7 +40,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'					=> 'Traduzido por: <a href="http://www.phpbb-pt.com">phpBB Portugal</a>',
+	'TRANSLATION_INFO'					=> 'Traduzido por: <a href="http://www.phpbb-pt.com">phpBB Leinad4Mind</a>',
 	'DIRECTION'							=> 'ltr',
 	'DATE_FORMAT'						=> '|d M Y|',	// 01 Jan 2007 (with Relactive days enabled)
 	'DATETIME_FORMAT'					=> '|d M Y, H:i|',	// 01 Jan 2007, 13:37 (with Relactive days enabled)
@@ -91,6 +90,7 @@ $lang = array_merge($lang, array(
 	'ATTACHED_IMAGE_NOT_IMAGE'			=> 'O Ficheiro de imagem que anexou é inválido',
 	'AUTHOR'							=> 'Autor',
 	'AUTH_NO_PROFILE_CREATED'			=> 'Não foi possível criar o Perfil do Utilizador.',
+	'AUTH_PROVIDER_OAUTH_ERROR_ALREADY_LINKED'				=> 'Este serviço externo já está associado a outra conta do Fórum.',
 	'AUTH_PROVIDER_OAUTH_ERROR_INVALID_ENTRY'				=> 'A entrada da Base de Dados é inválida.',
 	'AUTH_PROVIDER_OAUTH_ERROR_INVALID_SERVICE_TYPE'		=> 'O tipo de serviço enviado à rotina de tratamento de serviços "OAuth" é inválido.',
 	'AUTH_PROVIDER_OAUTH_ERROR_SERVICE_NOT_CREATED'			=> 'O serviço OAuth não foi criado',
@@ -166,6 +166,7 @@ $lang = array_merge($lang, array(
 	),
 	'COLLAPSE_VIEW'						=> 'Recolher vista',
 	'CLOSE_WINDOW'						=> 'Fechar Janela',
+	'CODE'								=> 'Código',
 	'COLOUR_SWATCH'						=> 'Paleta de Cores',
 	'COLON'								=> ':',
 	'COMMA_SEPARATOR'					=> ', ',	// Comma used to join lists into a single string, use localised comma if appropriate, eg: Ideographic or Arabic
@@ -203,6 +204,7 @@ $lang = array_merge($lang, array(
 	'DISPLAY_MESSAGES'					=> 'Mostrar mensagens anteriores',
 	'DISPLAY_POSTS'						=> 'Mostrar mensagens anteriores',
 	'DISPLAY_TOPICS'					=> 'Mostrar Tópicos anteriores',
+	'DOMAIN_NO_MX_RECORD_EMAIL'			=> 'O Domínio do endereço de email indicado é inválido.',
 	'DOWNLOADED'						=> 'Transferido',
 	'DOWNLOADING_FILE'					=> 'A Transferir ficheiro',
 	'DOWNLOAD_COUNTS'		=> array(
@@ -228,7 +230,7 @@ $lang = array_merge($lang, array(
 	'ERR_JAB_CONNECT'					=> 'Não foi possível fazer a ligação ao servidor Jabber.',
 	'ERR_UNABLE_TO_LOGIN'				=> 'Ocorreu um erro no acesso. Nome de Utilizador ou Senha incorrectos.',
 	'ERR_UNWATCHING'					=> 'Um erro ocorreu durante o cancelamento da subscrição.',
-	'ERR_WATCHING'						=> 'Um erro ocorreu durante a subscrição.',	
+	'ERR_WATCHING'						=> 'Um erro ocorreu durante a subscrição.',
 	'ERR_WRONG_PATH_TO_PHPBB'			=> 'O local do script phpBB indicado parece não ser válido.',
 	'ERROR'								=> 'Erro',
 	'EXPAND_VIEW'						=> 'Ver mais detalhes',
@@ -396,7 +398,7 @@ $lang = array_merge($lang, array(
 	'LOGOUT_USER'						=> 'Sair [ %s ]',
 	'LOG_ME_IN'							=> 'Lembrar-me',
 
-	'MAIN'								=> 'Principal',	
+	'MAIN'								=> 'Principal',
 	'MARK'								=> 'Marcar',
 	'MARK_ALL'							=> 'Marcar Todos',
 	'MARK_ALL_READ'						=> 'Marcar todos como lidos',
@@ -483,7 +485,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TOPIC_IN_QUEUE'		=> '<strong>Aprovação do Tópico</strong> pedida por %1$s:',
 	'NOTIFICATION_TYPE_NOT_EXIST'		=> 'A notificação do tipo "%s" falta no sistema de ficheiros.',
 	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '<strong>Aprovação necessária</strong> do Utilizador Registado Recentemente: “%1$s”',
-	// Used in conjuction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
+	// Used in conjunction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	'NOTIFICATION_MANY_OTHERS'			=> 'outros',
 	'NOTIFICATION_X_OTHERS'				=> array(
 		2	=> '%d outros',
@@ -518,7 +520,8 @@ $lang = array_merge($lang, array(
 	'NO_POSTS_TIME_FRAME'				=> 'Não existem mensagens neste Tópico no prazo seleccionado.',
 	'NO_FEED_ENABLED'					=> 'Os Feeds não estão disponíveis neste Fórum.',
 	'NO_FEED'							=> 'O Feed solicitado não está disponível.',
-	'NO_STYLE_DATA'						=> 'Não foi possível obter os dados do estilo',
+	'NO_STYLE_DATA'						=> 'Não foi possível obter os dados do estilo para user_style %s e defini-los para user_id %s',
+	'NO_STYLE_CFG'						=> 'Não foi possível obter o ficheiro de configuração do estilo para: %s',
 	'NO_SUBJECT'						=> 'Sem assunto.',
 	'NO_SUCH_SEARCH_MODULE'				=> 'A Pesquisa especificada não existe.',
 	'NO_SUPPORTED_AUTH_METHODS'			=> 'Nenhum método de autenticação suportado.',
@@ -541,8 +544,8 @@ $lang = array_merge($lang, array(
 		0								=> 'Nenhuma mensagem na lista',		// 0
 		1								=> '1 mensagem na lista',		// 1
 		2								=> '%d mensagens na lista',		// 2+
-	),	
-	
+	),
+
 	'OCCUPATION'							=> 'Ocupação',
 	'OFFLINE'							=> 'Desligado',
 	'ONLINE'							=> 'Ligado',
@@ -614,6 +617,7 @@ $lang = array_merge($lang, array(
 	'PROFILE'							=> 'Painel de Controlo do Utilizador',
 
 	'QUICK_LINKS'						=> 'Links rápidos',
+	'QUOTE'								=> 'Citar',
 
 	'RANK'								=> 'Classificação',
 	'READING_FORUM'						=> 'Ver Tópicos em %s',
@@ -780,6 +784,10 @@ $lang = array_merge($lang, array(
 	'TOPIC_REVIEW'						=> 'Rever o Tópico',
 	'TOPIC_TITLE'						=> 'Título do Tópico',
 	'TOPIC_UNAPPROVED'					=> 'Este Tópico ainda não foi aprovado.',
+	'TOPIC_UNAPPROVED_FORUM'	=> array(
+		1	=> 'Tópico aguarda por aprovação',
+		2	=> 'Tópicos aguardam por aprovação',
+	),
 	'TOPIC_DELETED'						=> 'Este Tópico foi apagado.',
 	'TOTAL_ATTACHMENTS'					=> 'Anexo(s)',
 	'TOTAL_LOGS'		=> array(
@@ -1417,7 +1425,7 @@ $lang = array_merge($lang, array(
 	),
 
 	// The value is only an example and will get replaced by the current time on view 
-	'dateformats'						=> array( 
+	'dateformats'						=> array(
 		'd M Y, H:i'					=> '01 Jan 2008, 17:37',
 		'd M Y H:i'						=> '01 Jan 2008 17:37',
 		'M jS, \'y, H:i'				=> 'Jan 1st, \'07, 17:37',

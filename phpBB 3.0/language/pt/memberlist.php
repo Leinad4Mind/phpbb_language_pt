@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* memberlist [Português]
-*
-* @package language
-* @version 1.0.9
-* @Traduzido por: http://www.phpbb-pt.com - segundo as normas do Acordo Ortográfico
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* 
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * memberlist [Português]
+ *
+ * @package language
+ * @version 1.0.9
+ * @Traduzido por: https://leinad4mind.top/forum - segundo as normas do Acordo Ortográfico
+ * @copyright (c) 2005 phpBB Group
+ * @license http://opensource.org/licenses/gpl-license.php GNU Public License
+ * 
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -85,7 +84,7 @@ $lang = array_merge($lang, array(
 	'IM_MSNM_CONNECT'			=> 'O MSNM não está ligado.\nTem que iniciar o MSNM para continuar.',
 	'IM_NAME'					=> 'Seu nome',
 	'IM_NO_DATA'				=> 'Não existe informação de contacto para este utilizador.',
-	'IM_NO_JABBER'				=> 'Enviar mensagens Jabber não é suportado neste Servidor. Tem que ter um cliente Jabber instalado no seu sistema para contatar o destinatário.',
+	'IM_NO_JABBER'				=> 'Enviar mensagens Jabber não é suportado neste Servidor. Tem que ter um cliente Jabber instalado no seu sistema para contactar o destinatário.',
 	'IM_RECIPIENT'				=> 'Destinatário',
 	'IM_SEND'					=> 'Enviar Mensagem',
 	'IM_SEND_MESSAGE'			=> 'Enviar Mensagem',
@@ -146,5 +145,3 @@ $lang = array_merge($lang, array(
 
 	'WWW'						=> 'Sítio web',
 ));
-
-?>

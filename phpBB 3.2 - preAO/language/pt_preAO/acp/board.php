@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* This file is part of the phpBB Forum Software package.
-*
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
-* @Traduzido por: http://www.phpbb-pt.com - segundo pré-Acordo Ortográfico
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * This file is part of the phpBB Forum Software package.
+ *
+ * @copyright (c) phpBB Limited <https://www.phpbb.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * For full copyright and license information, please see
+ * the docs/CREDITS.txt file.
+ * @Traduzido por: https://leinad4mind.top/forum - segundo pré-Acordo Ortográfico
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -113,7 +112,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_REMOTE'					=> 'Activar Avatar Remoto',
 	'ALLOW_REMOTE_EXPLAIN'			=> 'Os Avatares utilizados de outros sítios web.',
 	'ALLOW_REMOTE_UPLOAD'			=> 'Permitir o envio de avatar remoto',
-	'ALLOW_REMOTE_UPLOAD_EXPLAIN'	=> 'Permitir o envio de avatares de um outro sítio.',	
+	'ALLOW_REMOTE_UPLOAD_EXPLAIN'	=> 'Permitir o envio de avatares de um outro sítio.',
 	'ALLOW_UPLOAD'					=> 'Activar o envio de Avatar',
 	'AVATAR_GALLERY_PATH'			=> 'Caminho da pasta da Galeria de Avatares',
 	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'Caminho da pasta desde a raiz do phpBB, para a Galeria de Avatares: Exemplo: <samp>images/avatares/gallery</samp>.<br>Pontos duplos como <samp>../</samp> serão retirados do caminho por razões de segurança.',
@@ -137,7 +136,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_FORWARD_PM'				=> 'Permitir reencaminhamento das Mensagens Privadas',
 	'ALLOW_IMG_PM'					=> 'Permitir o uso do BBCode IMG',
 	'ALLOW_MASS_PM'					=> 'Permitir envio de Mensagens Privadas para múltiplos Utilizadores e Grupos',
-	'ALLOW_MASS_PM_EXPLAIN'			=> 'O envio para Grupos pode ser ajustado individualmente de acordo com a página de configurações do Grupo.',	
+	'ALLOW_MASS_PM_EXPLAIN'			=> 'O envio para Grupos pode ser ajustado individualmente de acordo com a página de configurações do Grupo.',
 	'ALLOW_PRINT_PM'				=> 'Permitir a impressão das Mensagem Privadas',
 	'ALLOW_QUOTE_PM'				=> 'Permitir citar nas Mensagens Privadas',
 	'ALLOW_SIG_PM'					=> 'Permitir assinaturas nas Mensagens Privadas',
@@ -183,10 +182,10 @@ $lang = array_merge($lang, array(
 	'MAX_POLL_OPTIONS'				=> 'Número máximo de opções em votações',
 	'MAX_POST_FONT_SIZE'			=> 'Tamanho máximo do tipo de letra nas Mensagens',
 	'MAX_POST_FONT_SIZE_EXPLAIN'	=> 'Tamanho máximo da letra numa mensagem. 0 = ilimitado.',
-	'MAX_POST_IMG_HEIGHT'			=> 'Altura máxima das imagens por Mensagem',
-	'MAX_POST_IMG_HEIGHT_EXPLAIN'	=> 'Altura máxima das imagens/flash nas Mensagens. 0 = ilimitado.',
-	'MAX_POST_IMG_WIDTH'			=> 'Largura máxima das imagens por Mensagem',
-	'MAX_POST_IMG_WIDTH_EXPLAIN'	=> 'Largura máxima das imagens/flash nas Mensagens 0 = ilimitado.',
+	'MAX_POST_IMG_HEIGHT'			=> 'Altura máxima do flash por Mensagem',
+	'MAX_POST_IMG_HEIGHT_EXPLAIN'	=> 'Altura máxima dos ficheiros flash nas Mensagens. 0 = ilimitado.',
+	'MAX_POST_IMG_WIDTH'			=> 'Largura máxima do flash por Mensagem',
+	'MAX_POST_IMG_WIDTH_EXPLAIN'	=> 'Largura máxima dos ficheiros flash nas Mensagens 0 = ilimitado.',
 	'MAX_POST_URLS'					=> 'Número máximo de URLs por Mensagem',
 	'MAX_POST_URLS_EXPLAIN'			=> 'Número máximo de URLs que podem ser inseridas numa mensagem. 0 = ilimitadas.',
 	'MIN_CHAR_LIMIT'				=> 'Mínimo de caracteres por Mensagem',
@@ -235,7 +234,7 @@ $lang = array_merge($lang, array(
 	'ACC_DISABLE'						=> 'Desactivar Registos',
 	'ACC_NONE'							=> 'Nenhuma',
 	'ACC_USER'							=> 'Utilizador',
-//	'ACC_USER_ADMIN'					=> 'User + Admin',
+	//	'ACC_USER_ADMIN'					=> 'User + Admin',
 	'ALLOW_EMAIL_REUSE'					=> 'Activar duplicação de emails',
 	'ALLOW_EMAIL_REUSE_EXPLAIN'			=> 'O mesmo email pode ser usado no Registo de vários Utilizadores.',
 	'COPPA'								=> 'COPPA',
@@ -397,7 +396,7 @@ $lang = array_merge($lang, array(
 	'LOAD_CPF_VIEWPROFILE'					=> 'Mostra os campos Personalizados no Perfil dos Utilizadores',
 	'LOAD_CPF_VIEWTOPIC'					=> 'Mostra os campos Personalizados nos Tópicos',
 	'LOAD_USER_ACTIVITY'					=> 'Mostra a actividade dos Utilizadores',
-	'LOAD_USER_ACTIVITY_EXPLAIN'			=> 'Mostra o Fórum/Tópico activo no Perfil do Utilizador e no Painel de Controle do Utilizador. Recomenda-se desactivar em Fóruns com mais de um milhão de Mensagens.',
+	'LOAD_USER_ACTIVITY_EXPLAIN'			=> 'Mostra o Fórum/Tópico activo no Perfil do Utilizador e no Painel de Controlo do Utilizador. Recomenda-se desactivar em Fóruns com mais de um milhão de Mensagens.',
 	'LOAD_USER_ACTIVITY_LIMIT'				=> 'Limite de Mensagens da actividade do utilizador',
 	'LOAD_USER_ACTIVITY_LIMIT_EXPLAIN'		=> 'O tópico / fórum activo não será exibido para os utilizadores que tenham mais do que este número de mensagens. Defina o valor como 0 para desactivar o limite.',
 	'READ_NOTIFICATION_EXPIRE_DAYS'			=> 'Expiração da notificação de leitura',
@@ -472,7 +471,7 @@ $lang = array_merge($lang, array(
 	'ICONS_PATH'							=> 'Caminho para Ficheiro de Ícones',
 	'ICONS_PATH_EXPLAIN'					=> 'Caminho desde a raiz do phpBB. Exemplo: images/icons.',
 	'MOD_REWRITE_ENABLE'					=> 'Activar URL Rewriting',
-	'MOD_REWRITE_ENABLE_EXPLAIN' 			=> 'Quando activado, as URLs que contenham ’app.php’ serão reescritas para remover o nome do ficheiro (ou seja, app.php/foo transforma-se em /foo). <strong>O mod_rewrite tem que estar activado no Servidor Apache. Activando esta opção sem o mod_rewrite, poderá comprometer o funcionamento do seu Fórum.</strong>',
+	'MOD_REWRITE_ENABLE_EXPLAIN' 			=> 'Quando activado, as URLs que contenham ’app.php’ serão reescritas para remover o nome do ficheiro (ou seja, app.php/foo transforma-se em /foo). <strong>O mod_rewrite tem que estar activado no Servidor Apache. Ao activar esta opção sem o mod_rewrite, poderá comprometer o funcionamento do seu Fórum.</strong>',
 	'MOD_REWRITE_DISABLED'					=> 'O módulo <strong>mod_rewrite</strong> está desactivado no seu servidor web Apache. Active o módulo ou entre em contacto com seu serviço de hospedagem web, para activar este recurso.',
 	'MOD_REWRITE_INFORMATION_UNAVAILABLE' 	=> 'É impossível determinar se este servidor suporta regravação de URL. A configuração pode estar activada, mas se a regravação não estiver disponível os caminhos gerados por este fórum (para uso em links) podem não funcionar. Contacte o seu fornecedor de hospedagem web, se não tiver a certeza se pode ou não activar com segurança este recurso.',
 	'PATH_SETTINGS'							=> 'Configurações do Caminho de Pastas',
@@ -525,13 +524,13 @@ $lang = array_merge($lang, array(
 	'IP_VALID'								=> 'Verificação do IP da Sessão',
 	'IP_VALID_EXPLAIN'						=> 'Determina como é autenticado o IP do Utilizador. Todos comparam o endereço completo. A.B.C os primeiros x.x.x. A.B os primeiros x.x. Nenhum desactiva a verificação. Em endereços IPv6: A.B.C compara os primeiros quatro blocos. A.B os primeiros 3 blocos.',
 	'IP_LOGIN_LIMIT_MAX'					=> 'Número máximo de tentativas de acesso por endereço IP',
-	'IP_LOGIN_LIMIT_MAX_EXPLAIN'			=> 'Limite de tentativas de acesso permitido, a partir de um único endereço IP, antes da tarefa anti-spambot ser accionada. Digite 0 para impedir que a tarefa anti-spambot de ser desencadeada por endereços IP.',
+	'IP_LOGIN_LIMIT_MAX_EXPLAIN'			=> 'Limite de tentativas de acesso permitido, a partir de um único endereço IP, antes da tarefa anti-spambot ser disparada. Digite 0 para impedir que a tarefa anti-spambot de ser desencadeada por endereços IP.',
 	'IP_LOGIN_LIMIT_TIME'					=> 'Tempo de duração para tentativas de acesso por endereço IP',
 	'IP_LOGIN_LIMIT_TIME_EXPLAIN'			=> 'A permissão para tentar o acesso termina após este período.',
 	'IP_LOGIN_LIMIT_USE_FORWARDED'			=> 'Tentativas de acesso limitadas a valores <var>X_FORWARDED_FOR</var>',
 	'IP_LOGIN_LIMIT_USE_FORWARDED_EXPLAIN'	=> 'Em vez de limitar as tentativas de acesso pelo endereço IP, são limitadas por valores <var>X_FORWARDED_FOR</var>. <br><em><strong>Aviso:</strong> Só active esta opção se o servidor proxy fornecer valores <var>X_FORWARDED_FOR</var> confiáveis.</em>',
 	'MAX_LOGIN_ATTEMPTS'					=> 'Número máximo de tentativas de acesso',
-	'MAX_LOGIN_ATTEMPTS_EXPLAIN'			=> 'Após este número de acessos inválidos, o Utilizador terá que fazer a tarefa anti-spambot. Digite 0 para impedir que a tarefa anti-spambot seja accionada para contas de utilizador distintas.',
+	'MAX_LOGIN_ATTEMPTS_EXPLAIN'			=> 'Após este número de acessos inválidos, o Utilizador terá que fazer a tarefa anti-spambot. Digite 0 para impedir que a tarefa anti-spambot seja disparada para contas de utilizador distintas.',
 	'NO_IP_VALIDATION'						=> 'Nenhum',
 	'NO_REF_VALIDATION'						=> 'Nenhum',
 	'PASSWORD_TYPE'							=> 'Complexidade da Senha',
@@ -568,14 +567,16 @@ $lang = array_merge($lang, array(
 	'EMAIL_FORCE_SENDER_EXPLAIN'			=> 'Irá colocar no <samp>Endereço-de-Retorno</samp> o Email do Remetente, ao invés de usar o utilizador local e o nome do servidor. Esta configuração fica sem efeito caso use SMTP.<br><em><strong>Aviso:</strong> Requer que o utilizador que está a ser usado pelo servidor seja adicionado como confiável na configuração do sendmail.</em>',
 	'EMAIL_PACKAGE_SIZE'					=> 'Tamanho do Pacote de email',
 	'EMAIL_PACKAGE_SIZE_EXPLAIN'			=> 'Número de emails enviados por pacote.',
+	'EMAIL_MAX_CHUNK_SIZE'					=> 'Número máximo de destinatários de correio electrónico permitidos',
+	'EMAIL_MAX_CHUNK_SIZE_EXPLAIN'			=> 'Se necessário, defina este valor de modo a não exceder o número máximo de destinatários permitido pelo servidor de correio electrónico numa só mensagem.',
 	'EMAIL_SIG'								=> 'Assinatura de Email',
 	'EMAIL_SIG_EXPLAIN'						=> 'Este texto será anexado a todos os emails que o Fórum enviar.',
 	'ENABLE_EMAIL'							=> 'Correio electrónico do Fórum',
 	'ENABLE_EMAIL_EXPLAIN'					=> 'Se estiver definido como desactivado não poderá ser enviado correio electrónico através do Fórum. <em>Note que a activação e configuração de contas requer que esta função esteja activada. Desactivar esta função impedirá que a activação de novas contas seja feita pelo “Utilizador” ou “Administrador”.</em>',
 	'SEND_TEST_EMAIL'						=> 'Enviar email de teste',
 	'SEND_TEST_EMAIL_EXPLAIN'				=> 'Irá ser enviado um email, para efeitos de teste, para o endereço definido na sua conta.',
-	'SMTP_ALLOW_SELF_SIGNED'				=> 'Permitir certificados SSL auto-assinados',
-	'SMTP_ALLOW_SELF_SIGNED_EXPLAIN'		=> 'Permite conexões ao servidor SMTP com certificado SSL auto-assinado.<br><em><strong>Aviso:</strong> Permitir certificados SSL auto-assinados pode causar implicações de segurança.</em>',
+	'SMTP_ALLOW_SELF_SIGNED'				=> 'Permitir certificados SSL autoassinados',
+	'SMTP_ALLOW_SELF_SIGNED_EXPLAIN'		=> 'Permite conexões ao servidor SMTP com certificado SSL autoassinado.<br><em><strong>Aviso:</strong> Permitir certificados SSL autoassinados pode causar implicações de segurança.</em>',
 	'SMTP_AUTH_METHOD'						=> 'Método de Autenticação para o SMTP',
 	'SMTP_AUTH_METHOD_EXPLAIN'				=> 'Apenas usado se um Nome/Senha é atribuído, pergunte ao seu ISP se não sabe que método usa.',
 	'SMTP_CRAM_MD5'							=> 'CRAM-MD5',
@@ -606,8 +607,8 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACP_JABBER_SETTINGS_EXPLAIN'			=> 'Aqui pode activar e controlar o uso do Jabber para Mensagens Instantâneas e Notícias. Jabber é um Protocolo código-aberto e por isso mesmo disponível a qualquer pessoa interessada. Alguns Servidores de Jabber incluem Gateways e transportes que permitem que contacte Utilizadores em outras redes. Nem todos os servidores oferecem todos os transportes, e mudanças nos protocolos podem evitar operações de transportes. Note que pode levar muitos segundos até à actualização dos detalhes da conta de Jabber, então não interrompa a execução dos procedimentos enquanto não estiver completo!',
 
-	'JAB_ALLOW_SELF_SIGNED'					=> 'Permitir certificados SSL auto-assinados',
-	'JAB_ALLOW_SELF_SIGNED_EXPLAIN'			=> 'Permite conexões ao servidor Jabber com certificado SSL auto-assinado.<br><em><strong>Aviso:</strong> Permitir certificados SSL auto-assinados pode causar implicações de segurança.</em>',
+	'JAB_ALLOW_SELF_SIGNED'					=> 'Permitir certificados SSL autoassinados',
+	'JAB_ALLOW_SELF_SIGNED_EXPLAIN'			=> 'Permite conexões ao servidor Jabber com certificado SSL autoassinado.<br><em><strong>Aviso:</strong> Permitir certificados SSL autoassinados pode causar implicações de segurança.</em>',
 	'JAB_ENABLE'							=> 'Activa Jabber',
 	'JAB_ENABLE_EXPLAIN'					=> 'Activar o uso de Mensagens e Avisos Jabber.',
 	'JAB_GTALK_NOTE'						=> 'Por favor, note que o GTalk não irá funcionar porque a função <samp>dns_get_record</samp> não pôde ser encontrada. Esta função não se encontra disponível no PHP4, e não é implementada nas plataformas do Windows. Isto não é executável actualmente em sistemas BSD-based, incluindo o Mac OS.',

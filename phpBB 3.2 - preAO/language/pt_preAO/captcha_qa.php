@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* This file is part of the phpBB Forum Software package.
-*
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
-* @Traduzido por: http://www.phpbb-pt.com - segundo pré-Acordo Ortográfico
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * This file is part of the phpBB Forum Software package.
+ *
+ * @copyright (c) phpBB Limited <https://www.phpbb.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * For full copyright and license information, please see
+ * the docs/CREDITS.txt file.
+ * @Traduzido por: https://leinad4mind.top/forum - segundo pré-Acordo Ortográfico
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -49,7 +48,7 @@ $lang = array_merge($lang, array(
 	'ANSWER'					=> 'Resposta',
 	'EDIT_QUESTION'				=> 'Editar Pergunta',
 	'QUESTIONS'					=> 'Perguntas',
-	'QUESTIONS_EXPLAIN'			=> 'Para cada submissão ao formulário, onde ativou o plugin Q&amp;A, será feita uma das perguntas aqui definidas. Para usar este plugin deve definir pelo menos uma pergunta no idioma padrão. As perguntas devem ser de fácil resposta para o seu público alvo, mas sem excederem a capacidade de pesquisa do spambot no Google™. Apenas uma única pergunta apropriada é necessária. Se começar a receber registos de spam, a pergunta deve ser alterada. Ative a seleção rigorosa se a sua pergunta depender de caso misto, pontuação ou espaço em branco.',
+	'QUESTIONS_EXPLAIN'			=> 'Para cada submissão ao formulário, onde activou o plugin Q&amp;A, será feita uma das perguntas aqui definidas. Para usar este plugin deve definir pelo menos uma pergunta no idioma padrão. As perguntas devem ser de fácil resposta para o seu público alvo, mas sem excederem a capacidade de pesquisa do spambot no Google™. Apenas uma única pergunta apropriada é necessária. Se começar a receber registos de spam, a pergunta deve ser alterada. Active a selecção rigorosa se a sua pergunta depender de caso misto, pontuação ou espaço em branco.',
 	'QUESTION_DELETED'			=> 'Pergunta excluída',
 	'QUESTION_LANG'				=> 'Idioma',
 	'QUESTION_LANG_EXPLAIN'		=> 'O idioma desta questão e das respostas é escrito em.',

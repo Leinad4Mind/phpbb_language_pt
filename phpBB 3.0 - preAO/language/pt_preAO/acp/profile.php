@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* acp_profile [Português Pré-AO]
-*
-* @package language
-* @version 1.0.9
-* @Traduzido por: http://www.phpbb-pt.com - segundo pré-Acordo Ortográfico
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* 
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * acp_profile [Português Pré-AO]
+ *
+ * @package language
+ * @version 1.0.9
+ * @Traduzido por: https://leinad4mind.top/forum - segundo pré-Acordo Ortográfico
+ * @copyright (c) 2005 phpBB Group
+ * @license http://opensource.org/licenses/gpl-license.php GNU Public License
+ * 
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -98,7 +97,7 @@ $lang = array_merge($lang, array(
 	'FIRST_OPTION'					=> 'Primeira Opção',
 
 	'HIDE_PROFILE_FIELD'			=> 'Campo de Perfil Invisível',
-	'HIDE_PROFILE_FIELD_EXPLAIN'	=> 'Apenas Administradores e Moderadores podem visualizar/preencher este Campo. Se esta opção estiver ativa, o Campo será exibido apenas no Perfil dos Utilizadores.',
+	'HIDE_PROFILE_FIELD_EXPLAIN'	=> 'Apenas Administradores e Moderadores podem visualizar/preencher este Campo. Se esta opção estiver activa, o Campo será exibido apenas no Perfil dos Utilizadores.',
 
 	'INVALID_CHARS_FIELD_IDENT'		=> 'A Identificação do Campo pode conter apenas a-z e _',
 	'INVALID_FIELD_IDENT_LEN'		=> 'A Identificação do Campo pode conter apenas 17 caracteres',
@@ -155,5 +154,3 @@ $lang = array_merge($lang, array(
 
 	'VISIBILITY_OPTION'				=> 'Opção de Visibilidade',
 ));
-
-?>

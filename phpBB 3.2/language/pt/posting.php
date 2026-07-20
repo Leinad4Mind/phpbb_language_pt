@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* This file is part of the phpBB Forum Software package.
-*
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
-* @Traduzido por: http://www.phpbb-pt.com - segundo as normas do Acordo Ortográfico
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * This file is part of the phpBB Forum Software package.
+ *
+ * @copyright (c) phpBB Limited <https://www.phpbb.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * For full copyright and license information, please see
+ * the docs/CREDITS.txt file.
+ * @Traduzido por: https://leinad4mind.top/forum - segundo as normas do Acordo Ortográfico
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -146,7 +145,7 @@ $lang = array_merge($lang, array(
 	'LOAD_DRAFT_EXPLAIN'			=> 'Selecione o rascunho. Tenha em atenção que ao selecionar um rascunho o mesmo deixará de ficar guardado. No entanto pode voltar a guardar a mensagem, criando um novo rascunho. Pode ver, editar e apagar rascunhos no Painel de Controlo do Utilizador.',
 	'LOGIN_EXPLAIN_BUMP'			=> 'Tem que ligar-se para ressuscitar Tópicos neste Fórum.',
 	'LOGIN_EXPLAIN_DELETE'			=> 'Tem que ligar-se para apagar Mensagens neste Fórum.',
-	'LOGIN_EXPLAIN_SOFT_DELETE'		=> 'Tem que fazer o login para excluir as postagens deste fórum.',
+	'LOGIN_EXPLAIN_SOFT_DELETE'		=> 'Tem que fazer o login para excluir as mensagens deste fórum.',
 	'LOGIN_EXPLAIN_POST'			=> 'Tem que ligar-se para enviar Mensagens neste Fórum.',
 	'LOGIN_EXPLAIN_QUOTE'			=> 'Tem que ligar-se para citar Mensagens neste Fórum.',
 	'LOGIN_EXPLAIN_REPLY'			=> 'Tem que ligar-se para responder Tópicos neste Fórum.',

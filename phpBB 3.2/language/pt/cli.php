@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* This file is part of the phpBB Forum Software package.
-*
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
-* @Traduzido por: http://www.phpbb-pt.com - segundo as normas do Acordo Ortográfico
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * This file is part of the phpBB Forum Software package.
+ *
+ * @copyright (c) phpBB Limited <https://www.phpbb.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * For full copyright and license information, please see
+ * the docs/CREDITS.txt file.
+ * @Traduzido por: https://leinad4mind.top/forum - segundo as normas do Acordo Ortográfico
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -37,6 +36,8 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
+	'CLI_APCU_CACHE_NOTICE'				=> 'O cache do APCu deve ser limpo através do Painel de Controlo da Administração.',
+
 	'CLI_CONFIG_CANNOT_CACHED'			=> 'Defina esta opção se a opção de configuração muda com muita frequência para ser eficiente em cache.',
 	'CLI_CONFIG_CURRENT'				=> 'Valor atual configuração, use 0 e 1 para especificar valores booleanos',
 	'CLI_CONFIG_DELETE_SUCCESS'			=> 'Configuração eliminada com sucesso %s.',
@@ -126,7 +127,7 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSION_UPDATE_FAILURE'		=> 'Não foi possível atualizar a extensão %s',
 	'CLI_EXTENSION_UPDATE_SUCCESS'		=> 'A extensão %s foi atualizada com sucesso',
 	'CLI_EXTENSION_NOT_FOUND'			=> 'Não foram encontradas Extensões.',
-	'CLI_EXTENSION_NOT_ENABLEABLE'		=> 'A Extensão %s não é ativável.',
+	'CLI_EXTENSION_NOT_ENABLEABLE'		=> 'A Extensão %s não é possível de ativar.',
 	'CLI_EXTENSIONS_AVAILABLE'			=> 'Disponível',
 	'CLI_EXTENSIONS_DISABLED'			=> 'Desativado',
 	'CLI_EXTENSIONS_ENABLED'			=> 'Ativado',
@@ -166,7 +167,7 @@ $lang = array_merge($lang, array(
 		1	=> 'Limpeza completa. %d nome de utilizador limpo.',
 		2	=> 'Limpeza completa. %d nomes de utilizadores limpos.',
 	],
-	));
+));
 
 // Additional help for commands.
 $lang = array_merge($lang, array(
@@ -177,4 +178,4 @@ Para enviar, opcionalmente, um email de ativação de conta para o utilizador, u
 Caso este comando seja executado sem opções, será questionado para as introduzir.
 Para enviar, opcionalmente, um email ao novo utilizador, utilize a opção <info>--send-email</info>.',
 	'CLI_HELP_USER_RECLEAN'		=> 'Ao reforçar a limpeza dos nomes dos utilizadores irá verificar e certificar-se que todos os nomes de utilizadores possuem versões limpas dos nomes de utilizadores guardadas. Nomes de utilizadores limpos significa que se encontram em minúsculas, normalizadas em NFC e transformadas em ASCII.',
-	));
+));

@@ -1,0 +1,67 @@
+<?php
+
+/**
+ *
+ * This file is part of the phpBB Forum Software package.
+ *
+ * @copyright (c) phpBB Limited <https://www.phpbb.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * For full copyright and license information, please see
+ * the docs/CREDITS.txt file.
+ * @Traduzido por: https://leinad4mind.top/forum -segundo pré-Acordo Ortográfico (Versão Casual)
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
+	exit;
+}
+
+if (empty($lang) || !is_array($lang)) {
+	$lang = [];
+}
+
+// DEVELOPERS PLEASE NOTE
+//
+// All language files should use UTF-8 as their encoding and the files must not contain a BOM.
+//
+// Placeholders can now contain order information, e.g. instead of
+// 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
+// translators to re-order the output of data while ensuring it remains correct
+//
+// You do not need this where single placeholders are used, e.g. 'Message %d' is fine
+// equally where a string contains only two placeholders which are used to wrap text
+// in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
+
+// Email settings
+$lang = array_merge($lang, [
+	'ACP_MASS_EMAIL_EXPLAIN'	=> 'Aqui podes enviar um email a todos os teus Utilizadores ou aos Utilizadores de um determinado Grupo <strong>que tenham a opção de receber emails activada</strong>. Para isso, uma mensagem será enviada ao endereço de email do administrador a informar, com uma cópia a todos os membros. A configuração padrão apenas inclui 20 destinatários por mensagem, sendo que para mais destinatários mais emails serão enviados. Se estás a enviar mensagens a um grande grupo de Utilizadores, por favor, sê paciente e não feches a página durante o envio. É normal que o envio em massa de mensagens leve algum tempo: Serás avisado quando o processo terminar.',
+	'ALL_USERS'						=> 'Todos os Utilizadores',
+
+	'COMPOSE'						=> 'Compor',
+
+	'EMAIL_SEND_ERROR'			=> 'Ocorreu um ou mais erros enquanto enviava o email. Por Favor, verifica %sregisto do Erro%s para obter informações mais detalhadas.',
+	'EMAIL_SENT'					=> 'O teu email foi enviado com sucesso.',
+	'EMAIL_SENT_QUEUE'			=> 'O teu email foi guardado na lista de envios pendentes.',
+
+	'LOG_SESSION'					=> 'Activa o registo dos envios',
+
+	'SEND_IMMEDIATELY'			=> 'Enviar imediatamente',
+	'SEND_TO_GROUP'				=> 'Enviar para Grupo',
+	'SEND_TO_USERS'				=> 'Enviar para Utilizadores',
+	'SEND_TO_USERS_EXPLAIN'		=> 'Escrevendo nomes aqui, sobrescreve qualquer grupo seleccionado acima. Escreve apenas um nome de Utilizador por linha.',
+
+	'MAIL_BANNED'					=> 'Utilizadores Banidos',
+	'MAIL_BANNED_EXPLAIN'		=> 'Quando enviares um email em massa, podes optar por o enviar ou não aos Utilizadores Banidos.',
+	'MAIL_HIGH_PRIORITY'			=> 'Alta',
+	'MAIL_LOW_PRIORITY'			=> 'Baixa',
+	'MAIL_NORMAL_PRIORITY'		=> 'Normal',
+	'MAIL_PRIORITY'				=> 'Prioridade do email',
+	'MASS_MESSAGE'					=> 'A tua Mensagem',
+	'MASS_MESSAGE_EXPLAIN'		=> 'A mensagem só pode conter texto puro. Todos os códigos serão removidos ao enviar.',
+
+	'NO_EMAIL_MESSAGE'			=> 'Tens que introduzir uma mensagem.',
+	'NO_EMAIL_SUBJECT'			=> 'A tua mensagem tem que ter um assunto.',
+]);

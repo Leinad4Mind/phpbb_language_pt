@@ -1,26 +1,25 @@
 <?php
-/**
-*
-* This file is part of the phpBB Forum Software package.
-*
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-* For full copyright and license information, please see
-* the docs/CREDITS.txt file.
-* @Traduzido por: http://www.phpbb-pt.com - segundo pré-Acordo Ortográfico
-*/
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
+ *
+ * This file is part of the phpBB Forum Software package.
+ *
+ * @copyright (c) phpBB Limited <https://www.phpbb.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * For full copyright and license information, please see
+ * the docs/CREDITS.txt file.
+ * @Traduzido por: https://leinad4mind.top/forum - segundo pré-Acordo Ortográfico
+ */
+
+/**
+ * DO NOT CHANGE
+ */
+if (!defined('IN_PHPBB')) {
 	exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
+if (empty($lang) || !is_array($lang)) {
 	$lang = array();
 }
 
@@ -52,11 +51,10 @@ $lang = array_merge($lang, array(
 	'BBCODE_HELPLINE'				=> 'Linha de Ajuda',
 	'BBCODE_HELPLINE_EXPLAIN'		=> 'Neste Campo deve ser inserido o texto mostrado quando se coloca o cursor sobre o BBCode.',
 	'BBCODE_HELPLINE_TEXT'			=> 'Texto da Linha de Ajuda',
-	'BBCODE_HELPLINE_TOO_LONG'		=> 'A linha de ajuda que escreveu é muito longa.',	
+	'BBCODE_HELPLINE_TOO_LONG'		=> 'A linha de ajuda que escreveu é muito longa.',
 
 	'BBCODE_INVALID_TAG_NAME'		=> 'O Nome da TAG de BBCode seleccionado já existe.',
 	'BBCODE_INVALID'				=> 'A construção do seu BBCode é invalido.',
-	'BBCODE_OPEN_ENDED_TAG'			=> 'O BBCode personalizado deve conter uma TAG de início e outra de fim.',
 	'BBCODE_TAG'					=> 'TAG',
 	'BBCODE_TAG_TOO_LONG'			=> 'O Nome da TAG seleccionado é muito grande.',
 	'BBCODE_TAG_DEF_TOO_LONG'		=> 'A Definição da TAG escrita é muito grande. Por Favor, reescreva de forma mais curta.',
@@ -203,7 +201,7 @@ $lang = array_merge($lang, array(
 ));
 
 // Word censors 
-$lang = array_merge($lang, array( 
+$lang = array_merge($lang, array(
 	'ACP_WORDS_EXPLAIN'				=> 'Aqui pode adicionar, editar e apagar palavras que serão automaticamente censuradas no Fórum. Adicionando esta opção, os visitantes continuarão a poder registar-se com Nomes de utilizadores contendo estas palavras. Podem ser utilizados asteriscos (*) aumentando as possibilidades de abranger variações de uma mesma palavra. Por exemplo, testa* abrangerá testar e detesta.',
 	'ADD_WORD'						=> 'Adicionar nova Palavra',
 
