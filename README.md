@@ -4,7 +4,7 @@ Tradução Portuguesa (PT-PT) phpBB versão 2.1.12 - phpBB 3.1.12
 
 Tradução Portuguesa (PT-PT) phpBB versão 3.2.11 - phpBB 3.2.11
 
-Tradução Portuguesa (PT-PT) phpBB versão 4.3.16 - phpBB 3.3.16
+Tradução Portuguesa (PT-PT) phpBB versão 4.3.17 - phpBB 3.3.17
 
 ------------
 * Tradução segundo as normas do Acordo Ortográfico (Formal)
