@@ -44,7 +44,7 @@ $lang = array_merge($lang, [
 	'DIRECTION'							=> 'ltr',
 	'DATE_FORMAT'						=> '|d M Y|',	// 01 Jan 2007 (with Relactive days enabled)
 	'DATETIME_FORMAT'					=> '|d M Y, H:i|',	// 01 Jan 2007, 13:37 (with Relactive days enabled)
-	'USER_LANG'							=> 'pt-preAO',
+	'USER_LANG'							=> 'pt-preao',
 
 	// You can define different rules for the determination of plural forms here.
 	// See https://area51.phpbb.com/docs/dev/3.3.x/language/plurals.html for more information
