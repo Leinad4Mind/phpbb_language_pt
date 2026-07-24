@@ -1,0 +1,27 @@
+{
+    "name": "leinad4mind/phpbb-language-pt",
+    "description": "phpBB Forum Software Portuguese language",
+    "type": "phpbb-language",
+    "version": "3.2.11",
+    "homepage": "https://github.com/phpbb-pt/phpbb_language_pt",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Leinad4Mind",
+            "homepage": "https://github.com/phpbb-pt/phpbb_language_pt"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/phpbb-pt/phpbb_language_pt/issues"
+    },
+    "extra": {
+        "language-iso": "pt",
+        "english-name": "Portuguese",
+        "local-name": "Português",
+        "phpbb-version": ">=3.2.0,<3.3.0",
+        "direction": "ltr",
+        "user-lang": "pt-pt",
+        "plural-rule": 1,
+        "recaptcha-lang": "pt-PT"
+    }
+}
