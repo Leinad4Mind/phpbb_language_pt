@@ -90,7 +90,7 @@ $lang = array_merge($lang, array(
 	'POLL_ENDED_AT'						=> 'Votação encerrada em %s',
 	'POLL_RUN_TILL'						=> 'A votação será encerrada em %s',
 	'POLL_VOTED_OPTION'					=> 'Votou nesta opção',
-	'POST_DELETED_RESTORE'				=> 'Esta mensagem foi excluída. Pode ser restaurada.',
+	'POST_DELETED_RESTORE'				=> 'Esta mensagem foi apagada. Pode ser restaurada.',
 	'PRINT_TOPIC'						=> 'Versão para impressão',
 
 	'QUICK_MOD'							=> 'Ferramentas Rápidas',

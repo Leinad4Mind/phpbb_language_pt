@@ -151,7 +151,7 @@ $lang = array_merge($lang, array(
 	'POLL_MAX_OPTIONS_EXPLAIN'		=> 'Este é o número de opções que cada Utilizador pode selecionar quando votar.',
 	'POLL_OPTIONS'					=> 'Opções da votação',
 	'POLL_OPTIONS_EXPLAIN'			=> 'Escreva uma opção de voto por linha. Não pode exceder <strong>%d</strong> opções.',
-	'POLL_OPTIONS_EDIT_EXPLAIN'		=> 'Escreva uma opção de voto por linha. Não pode exceder <strong>%d</strong> opções. Excluindo ou adicionando opções reiniciará a votação.',
+	'POLL_OPTIONS_EDIT_EXPLAIN'		=> 'Escreva uma opção de voto por linha. Não pode exceder <strong>%d</strong> opções. Remover ou adicionar opções reiniciará a votação.',
 	'POLL_QUESTION'					=> 'Pergunta da votação',
 	'POLL_TITLE_TOO_LONG'			=> 'O Título da votação deve conter no máximo 100 caracteres.',
 	'POLL_TITLE_COMP_TOO_LONG'		=> 'O Título da votação é muito longo, considerar remoção de BBCodes ou Emoções.',
@@ -188,7 +188,7 @@ $lang = array_merge($lang, array(
 	'SMILIES_ARE_ON'				=> 'Emoções estão <em>Ligadas</em>',
 	'STICKY_ANNOUNCE_TIME_LIMIT'	=> 'Tempo limite do Fixo/Anúncio',
 	'STICK_TOPIC_FOR'				=> 'Fixar Tópico por',
-	'STICK_TOPIC_FOR_EXPLAIN'		=> 'Digite 0 ou deixe em branco para manter Fixo/Anúncio por tempo indeterminado. Por favor note que este número é relativo à data da colocação da mensagem.',
+	'STICK_TOPIC_FOR_EXPLAIN'		=> 'Introduza 0 ou deixe em branco para manter Fixo/Anúncio por tempo indeterminado. Por favor note que este número é relativo à data da colocação da mensagem.',
 	'STYLES_TIP'					=> 'Dica: Estilos podem ser aplicados a textos selecionados.',
 
 	'TOO_FEW_CHARS'					=> 'A Mensagem contém poucos caracteres.',

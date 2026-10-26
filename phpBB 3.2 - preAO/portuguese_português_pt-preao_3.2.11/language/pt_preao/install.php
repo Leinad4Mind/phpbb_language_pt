@@ -40,7 +40,7 @@ $lang = array_merge($lang, array(
 	'INSTALL_PANEL'	=> 'Painel de Instalação',
 	'SELECT_LANG'	=> 'Seleccione o idioma',
 
-	'STAGE_INSTALL'	=> 'Instalando o phpBB',
+	'STAGE_INSTALL'	=> 'A instalar o phpBB',
 
 	// Introduction page
 	'INTRODUCTION_TITLE'	=> 'Introdução',
@@ -114,7 +114,7 @@ $lang = array_merge($lang, array(
 	'PHP_XML_SUPPORT'					=> 'Suporte PHP XML/DOM',
 	'PHP_XML_SUPPORT_EXPLAIN'			=> 'Para que o phpBB funcione correctamente, a extensão PHP XML/DOM precisa estar disponível.',
 	'PHP_SUPPORTED_DB'					=> 'Bancos de dados suportados',
-	'PHP_SUPPORTED_DB_EXPLAIN'			=> 'Você deve ter suporte para pelo menos um banco de dados compatível dentro do PHP. Se nenhum módulo de banco de dados for mostrado como disponível, você deve entrar em contacto com seu provedor de hospedagem ou revisar a documentação de instalação relevante do PHP para obter orientação.',
+	'PHP_SUPPORTED_DB_EXPLAIN'			=> 'Deve ter suporte para pelo menos uma base de dados compatível dentro do PHP. Se nenhum módulo da base de dados for mostrado como disponível, deve entrar em contacto com o seu provedor de hospedagem ou rever a documentação de instalação relevante do PHP para obter orientação.',
 
 	'RETEST_REQUIREMENTS'	=> 'Teste de novo os requisitos',
 
@@ -126,7 +126,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR_MISSING_DATA'		=> 'Tem que preencher todos os campos deste bloco.',
 
 	'TIMEOUT_DETECTED_TITLE'	=> 'O instalador detectou um tempo limite',
-	'TIMEOUT_DETECTED_MESSAGE'	=> 'O instalador detectou um tempo limite, você pode tentar actualizar a página, o que pode levar a corrupção de dados. Sugerimos que você aumente suas configurações de tempo limite ou tente usar o CLI.',
+	'TIMEOUT_DETECTED_MESSAGE'	=> 'O instalador detectou um tempo limite. Pode tentar actualizar a página, o que pode levar à corrupção de dados. Sugerimos que aumente as suas configurações de tempo limite ou que tente usar o CLI.',
 ));
 
 // Data obtaining translations
@@ -194,7 +194,7 @@ $lang = array_merge($lang, array(
 	// Errors
 	'INST_ERR_DB'					=> 'Erro de instalação da Base de Dados',
 	'INST_ERR_NO_DB'				=> 'Não foi possível carregar o módulo PHP para o tipo de Base de Dados seleccionado',
-	'INST_ERR_DB_INVALID_PREFIX'	=> 'O prefixo digitado é inválido. Deve começar com uma letra e deve conter apenas letras, números e sublinhados.',
+	'INST_ERR_DB_INVALID_PREFIX'	=> 'O prefixo introduzido é inválido. Deve começar com uma letra e deve conter apenas letras, números e sublinhados.',
 	'INST_ERR_PREFIX_TOO_LONG'		=> 'O prefixo indicado é muito comprido. O comprimento máximo é de %d caracteres.',
 	'INST_ERR_DB_NO_NAME'			=> 'Deve indicar uma Base de Dados',
 	'INST_ERR_DB_FORUM_PATH'		=> 'O ficheiro da Base de Dados indicado está dentro da estrutura de pastas do Fórum. Deveria pôr este ficheiro num local não acessível pela web.',
@@ -455,7 +455,7 @@ $lang = array_merge($lang, array(
 	'FILES_CONFLICT'				=> 'Ficheiros em conflito',
 	'FILES_CONFLICT_EXPLAIN'		=> 'Os ficheiros seguintes apresentam alterações relativamente à versão anterior. Eventuais tentativas de alteração aos ficheiros poderiam criar conflitos. Investigue os conflitos e tente resolvê-los manualmente ou continue a actualização ao seleccionar o método desejado. Se resolver os conflitos manualmente, faça nova verificação aos ficheiros depois de modificados. Pode seleccionar o método desejado para todos os Ficheiros. O primeiro irá resultar num Ficheiro onde as linhas em conflito do seu Ficheiro anterior serão perdidas, e o outro irá resultar na perda das modificações no novo ficheiro.',
 	'FILES_DELETED'						=> 'Ficheiros apagados',
-	'FILES_DELETED_EXPLAIN'				=> 'Os seguintes ficheiros não existem na nova versão. Esses ficheiros devem ser excluídos de sua instalação.',
+	'FILES_DELETED_EXPLAIN'				=> 'Os seguintes ficheiros não existem na nova versão. Esses ficheiros devem ser apagados da sua instalação.',
 	'FILES_MODIFIED'					=> 'Ficheiros modificados',
 	'FILES_MODIFIED_EXPLAIN'			=> 'Os ficheiros seguintes apresentam alterações relativamente à versão anterior. O novo ficheiro actualizado, resultará da fusão das modificações com o ficheiro actual.',
 	'FILES_NEW'						=> 'Novos ficheiros',
@@ -524,7 +524,7 @@ $lang = array_merge($lang, array(
 
 	// Settings
 	'STAGE_SETTINGS'			=> 'Configurações',
-	'TABLE_PREFIX_SAME'			=> 'O Prefixo das Tabelas tem que ser o usado pelo software que está convertendo.<br />» O prefixo de Tabela especificado foi %s',
+	'TABLE_PREFIX_SAME'			=> 'O Prefixo das Tabelas tem que ser o usado pelo software que está a converter.<br />» O prefixo de Tabela especificado foi %s',
 	'DEFAULT_PREFIX_IS'			=> 'O Conversor não encontrou as tabelas com o prefixo indicado. Verifique se as informações do Fórum estão correctas. O Prefixo Padrão para a tabela %1$s é <strong>%2$s</strong>',
 	'SPECIFY_OPTIONS'			=> 'Escolha as Opções de Conversão',
 	'FORUM_PATH'				=> 'Pasta do Fórum',
@@ -536,10 +536,10 @@ $lang = array_merge($lang, array(
 	'STAGE_IN_PROGRESS'			=> 'Conversão em andamento',
 
 	'AUTHOR_NOTES'				=> 'Notas do Autor<br />» %s',
-	'STARTING_CONVERT'			=> 'Iniciando o Processo da Conversão',
-	'CONFIG_CONVERT'			=> 'Convertendo a configuração',
+	'STARTING_CONVERT'			=> 'A iniciar o Processo da Conversão',
+	'CONFIG_CONVERT'			=> 'A converter a configuração',
 	'DONE'						=> 'Terminado',
-	'PREPROCESS_STEP'			=> 'Executando as funções de pré-processamento',
+	'PREPROCESS_STEP'			=> 'A executar as funções de pré-processamento',
 	'FILLING_TABLE'				=> 'A preencher a tabela <strong>%s</strong>',
 	'FILLING_TABLES'			=> 'A preencher tabelas',
 	'DB_ERR_INSERT'				=> 'Erro ao processar a query <code>INSERT</code>.',
@@ -554,8 +554,8 @@ $lang = array_merge($lang, array(
 	'SYNC_POST_COUNT_ID'		=> 'A sincronizar contador de Mensagens para <var>entry</var> %1$s para %2$s.',
 	'SYNC_TOPICS'				=> 'A iniciar sincronização de Tópicos',
 	'SYNC_TOPIC_ID'				=> 'A sincronizar Tópicos a partir do <var>topic_id</var> $1%s ao $2%s.',
-	'PROCESS_LAST'				=> 'Executando as últimas instruções',
-	'UPDATE_TOPICS_POSTED'		=> 'Gerando informações de Tópicos enviados',
+	'PROCESS_LAST'				=> 'A executar as últimas instruções',
+	'UPDATE_TOPICS_POSTED'		=> 'A gerar informações de Tópicos enviados',
 	'UPDATE_TOPICS_POSTED_ERR'	=> 'Algum erro ocorreu enquanto as informações dos Tópicos eram geradas. Pode tentar novamente esta etapa no Painel de Administração quando a conversão estiver completa.',
 	'CONTINUE_LAST'				=> 'Continuar com esta actualização',
 	'CLEAN_VERIFY'				=> 'A limpar e a verificar a estrutura final',

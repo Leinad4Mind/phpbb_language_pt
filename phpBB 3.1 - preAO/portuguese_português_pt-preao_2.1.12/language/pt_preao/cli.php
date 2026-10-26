@@ -87,5 +87,5 @@ $lang = array_merge($lang, array(
 
 // Additional help for commands.
 $lang = array_merge($lang, array(
-	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' Opcionalmente você pode especificar um nome de tarefa cron para executar apenas a tarefa cron especificado. ',
+	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' Opcionalmente pode especificar um nome de tarefa cron para executar apenas a tarefa cron especificada. ',
 ));

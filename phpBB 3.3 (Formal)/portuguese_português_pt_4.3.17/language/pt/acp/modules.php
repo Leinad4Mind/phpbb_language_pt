@@ -69,7 +69,7 @@ $lang = array_merge($lang, [
 	'MODULE_LANGNAME_EXPLAIN'		=> 'Escreva o nome do Módulo exibido. Utilize a constante da Idioma se o nome for oferecido pelo Ficheiro de linguagem.',
 	'MODULE_TYPE'						=> 'Tipo de Módulo',
 
-	'NO_CATEGORY_TO_MODULE'			=> 'Não é possível transformar esta Categoria em Módulo. Por Favor, exclua ou mova todas as Crianças antes de efetuar esta ação.',
+	'NO_CATEGORY_TO_MODULE'			=> 'Não é possível transformar esta Categoria em Módulo. Por favor, apague ou mova todos os itens dependentes desta Categoria antes de efetuar esta ação.',
 	'NO_MODULE'							=> 'Nenhum módulo foi encontrado.',
 	'NO_MODULE_ID'						=> 'A ID do Módulo não foi especificada.',
 	'NO_MODULE_LANGNAME'				=> 'O Nome do Idioma do Módulo não foi especificado.',

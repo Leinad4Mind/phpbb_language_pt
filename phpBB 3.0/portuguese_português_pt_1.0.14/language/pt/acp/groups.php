@@ -125,6 +125,6 @@ $lang = array_merge($lang, array(
 	'USER_DEF_GROUPS'					=> 'Grupos Criados pelo Administrador',
 	'USER_DEF_GROUPS_EXPLAIN'			=> 'Pode gerir as Permissões dos Membros destes Grupos. Editar as Configurações ou eliminar o Grupo.',
 	'USER_GROUP_DEFAULT'				=> 'Grupo Padrão',
-	'USER_GROUP_DEFAULT_EXPLAIN'		=> 'Selecionando SIM será este o Grupo Padrão dos Utilizadores.',
+	'USER_GROUP_DEFAULT_EXPLAIN'		=> 'Ao selecionar SIM será este o Grupo Padrão dos Utilizadores.',
 	'USER_GROUP_LEADER'					=> 'Líder do Grupo',
 ));

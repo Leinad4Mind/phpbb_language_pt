@@ -77,10 +77,10 @@ $lang = array_merge($lang, array(
 
 	'NO_FILE_SELECTED'				=> 'Não foi selecionado o Ficheiro de Linguagem.',
 	'NO_LANG_ID'					=> 'Não foi selecionado um pacote de idioma.',
-	'NO_REMOVE_DEFAULT_LANG'		=> 'Não pode excluir o pacote de idioma Oficial<br />Se deseja excluir este pacote, altere o idioma Oficial do Fórum.',
+	'NO_REMOVE_DEFAULT_LANG'		=> 'Não pode remover o pacote de idioma Oficial<br />Se deseja remover este pacote, altere o idioma Oficial do Fórum.',
 	'NO_UNINSTALLED_LANGUAGE_PACKS'	=> 'Sem Pacotes de idiomas desinstalados',
 
-	'REMOVE_FROM_STORAGE_FOLDER'	=> 'Excluir da Pasta de ficheiro',
+	'REMOVE_FROM_STORAGE_FOLDER'	=> 'Remover da pasta de armazenamento',
 
 	'SELECT_DOWNLOAD_FORMAT'		=> 'Selecionar método de Transferência',
 	'SUBMIT_AND_DOWNLOAD'			=> 'Enviar e Descarregar Ficheiro',

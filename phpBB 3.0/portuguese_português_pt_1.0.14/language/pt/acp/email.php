@@ -51,7 +51,7 @@ $lang = array_merge($lang, array(
 	'SEND_IMMEDIATELY'			=> 'Enviar imediatamente',
 	'SEND_TO_GROUP'				=> 'Enviar para Grupo',
 	'SEND_TO_USERS'				=> 'Enviar para Utilizadores',
-	'SEND_TO_USERS_EXPLAIN'		=> 'Escrevendo nomes aqui, sobrescreve qualquer grupo selecionado acima. Escreva apenas um nome de Utilizador por linha.',
+	'SEND_TO_USERS_EXPLAIN'		=> 'Ao escrever nomes aqui, sobrescreve qualquer grupo selecionado acima. Escreva apenas um nome de Utilizador por linha.',
 
 	'MAIL_BANNED'				=> 'Utilizadores Banidos',
 	'MAIL_BANNED_EXPLAIN'		=> 'Quando envia um email em massa, pode optar por enviar ou não, aos Utilizadores Banidos.',

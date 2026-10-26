@@ -41,7 +41,7 @@ $lang = array_merge($lang, array(
 
 	'COMMON_WORD_THRESHOLD'					=> 'Limite de palavras comuns',
 	'COMMON_WORD_THRESHOLD_EXPLAIN'			=> 'Palavras que estão incluídas em grande percentagem em todas as Mensagens, são consideradas comuns. As palavras comuns são ignoradas nas pesquisas. Escreva zero para desativar esta opção. Apenas terá efeito se possuir mais de 100 Mensagens.',
-	'CONFIRM_SEARCH_BACKEND'				=> 'Deseja alterar o modo de pesquisa? Depois de modificar o seu modo de pesquisa, deverá criar um novo índice para o novo modo selecionado. Se não planeia voltar ao seu modo de pesquisa antigo, poderá excluí-lo.',
+	'CONFIRM_SEARCH_BACKEND'				=> 'Deseja alterar o modo de pesquisa? Depois de modificar o seu modo de pesquisa, deverá criar um novo índice para o novo modo selecionado. Se não planeia voltar ao seu modo de pesquisa antigo, poderá apagar o índice do modo antigo.',
 	'CONTINUE_DELETING_INDEX'				=> 'Continuar processo de exclusão de índice',
 	'CONTINUE_DELETING_INDEX_EXPLAIN'		=> 'Um processo de exclusão de índice foi iniciado. Para aceder à página de índice da pesquisa novamente deve completar o processo ou cancelá-lo.',
 	'CONTINUE_INDEXING'						=> 'Continuar com o processo de indexar anterior',
@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 	'CREATE_INDEX'							=> 'Criar Índice',
 
 	'DELETE_INDEX'							=> 'Apagar Índice',
-	'DELETING_INDEX_IN_PROGRESS'			=> 'Excluindo o Índice em progresso',
+	'DELETING_INDEX_IN_PROGRESS'			=> 'A apagar o Índice...',
 	'DELETING_INDEX_IN_PROGRESS_EXPLAIN'	=> 'A pesquisa está a apagar os Índices. Esta ação pode levar alguns minutos.',
 
 	'FULLTEXT_MYSQL_INCOMPATIBLE_VERSION'	=> 'O modo de pesquisa de textos completos do MySQL pode apenas ser utilizado com o MySQL4 ou superiores.',

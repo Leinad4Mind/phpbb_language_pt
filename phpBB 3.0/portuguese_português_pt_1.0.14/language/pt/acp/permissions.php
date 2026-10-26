@@ -46,7 +46,7 @@ $lang = array_merge($lang, array(
 		<p>Aqui pode controlar o acesso Básico ao Fórum. As Permissões estão dividias em Permissões de Fóruns, Moderadores de Fóruns, Permissões de Utilizadores em Fóruns e Permissões de Grupos em Fóruns.</p>
 
 		<h2>3 - Tarefas de Permissão</h2>
-		<p>Aqui pode criar diferentes tarefas de Permissão para os diversos tipos de Permissões existentes. As configurações padrão devem cobrir a Administração do Fórum, entretanto com uma das quatro divisões, deve ainda pode adicionar/editar/excluir configurações se assim desejar ou achar necessário.</p>
+		<p>Aqui pode criar diferentes tarefas de Permissão para os diversos tipos de Permissões existentes. As configurações padrão devem cobrir a Administração do Fórum, entretanto com uma das quatro divisões, pode ainda adicionar/editar/remover configurações se assim desejar ou achar necessário.</p>
 
 		<h2>4 - Máscaras de Permissões</h2>
 		<p>Aqui pode ver as Permissões atribuídas a Utilizadores, Moderadores (locais e globais), Administradores ou Fóruns.</p>
@@ -73,7 +73,7 @@ $lang = array_merge($lang, array(
 	'ACL_TYPE_LOCAL_F_'		=> 'Permissões de Fóruns',
 
 	'ACL_NO'				=> 'Não',
-	'ACL_VIEW'				=> 'Vendo as Permissões',
+	'ACL_VIEW'				=> 'A ver as Permissões',
 	'ACL_VIEW_EXPLAIN'		=> 'Aqui pode ver as Permissões dos Utilizadores/Grupos. Um quadrado vermelho indica que o Utilizador/Grupo não tem a Permissão, um quadrado verde indica que o Utilizador/Grupo tem a Permissão.',
 	'ACL_YES'				=> 'Sim',
 
@@ -138,7 +138,7 @@ $lang = array_merge($lang, array(
 
 	'NO_AUTH_SETTING_FOUND'			=> 'A Configuração de Permissões não foi definida.',
 	'NO_ROLE_ASSIGNED'				=> 'Sem Tarefas atribuídas',
-	'NO_ROLE_ASSIGNED_EXPLAIN'		=> 'A Configuração para esta Tarefa não alterou as Permissões na direita. Se deseja desativar/excluir todas as Permissões deve utilizar o atalho "Tudo <samp>Não</samp>".',
+	'NO_ROLE_ASSIGNED_EXPLAIN'		=> 'A Configuração para esta Tarefa não alterou as Permissões na direita. Se deseja desativar/remover todas as Permissões deve utilizar o atalho "Tudo <samp>Não</samp>".',
 	'NO_ROLE_AVAILABLE'				=> 'Sem Tarefas Disponíveis',
 	'NO_ROLE_NAME_SPECIFIED'		=> 'Deve inserir o nome da Categoria',
 	'NO_ROLE_SELECTED'				=> 'A Tarefa não foi encontrada.',
@@ -151,11 +151,11 @@ $lang = array_merge($lang, array(
 
 	'REMOVE_PERMISSIONS'			=> 'Eliminar Permissões',
 	'REMOVE_ROLE'					=> 'Eliminar Tarefa',
-	'RESULTING_PERMISSION'			=> 'Resultando Permissão',
+	'RESULTING_PERMISSION'			=> 'Permissão resultante',
 	'ROLE'							=> 'Tarefa',
 	'ROLE_ADD_SUCCESS'				=> 'A Tarefa foi adicionada com sucesso.',
 	'ROLE_ASSIGNED_TO'				=> 'Os Utilizadores/Grupos foram atribuídos a %s',
-	'ROLE_DELETED'					=> 'A Tarefa foi excluída com sucesso.',
+	'ROLE_DELETED'					=> 'A Tarefa foi apagada com sucesso.',
 	'ROLE_DESCRIPTION'				=> 'Descrição',
 
 	'ROLE_ADMIN_FORUM'				=> 'Administrador de Fóruns',

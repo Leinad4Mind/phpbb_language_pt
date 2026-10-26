@@ -93,7 +93,7 @@ $lang = array_merge($lang, array(
 	'DISPLAY_OPTIONS'					=> 'Opções de exibição',
 
 	'EMPTY_REPORT'						=> 'Tem que introduzir uma descrição quando utiliza este motivo.',
-	'EMPTY_TOPICS_REMOVED_WARNING'		=> 'Um ou mais Tópicos foram excluídos da Base de Dados porque eram ou tornaram-se vazios.',
+	'EMPTY_TOPICS_REMOVED_WARNING'		=> 'Um ou mais Tópicos foram removidos da Base de Dados porque eram ou tornaram-se vazios.',
 
 	'FEEDBACK'							=> 'Relatório',
 	'FORK'								=> 'Copiar',
@@ -210,7 +210,7 @@ $lang = array_merge($lang, array(
 	'MCP_WARN_USER'						=> 'Avisar Utilizador',
 
 	'MERGE_POSTS_CONFIRM'				=> 'Deseja fundir as Mensagens selecionadas?',
-	'MERGE_TOPIC_EXPLAIN'				=> 'Use este formulário para fundir Mensagens com Tópicos. Depois de fundidas, as mensagens comportam-se como se tiverem sido enviadas originalmente para o Tópico.<br />Digite a ID do Tópico de destino da mensagem ou clique em Escolher Tópico e procure-o na lista.',
+	'MERGE_TOPIC_EXPLAIN'				=> 'Use este formulário para fundir Mensagens com Tópicos. Depois de fundidas, as mensagens comportam-se como se tiverem sido enviadas originalmente para o Tópico.<br />Introduza a ID do Tópico de destino da mensagem ou clique em Escolher Tópico e procure-o na lista.',
 	'MERGE_TOPIC_ID'					=> 'ID do Tópico de destino',
 	'MERGE_TOPICS'						=> 'Fundir Tópicos',
 	'MERGE_TOPICS_CONFIRM'				=> 'Tem a certeza que deseja fundir os Tópicos selecionados?',
@@ -326,7 +326,7 @@ $lang = array_merge($lang, array(
 	'SPLIT_TOPIC_ALL_CONFIRM'			=> 'Tem a certeza que deseja dividir este Tópico?',
 	'SPLIT_TOPIC_BEYOND'				=> 'Dividir o Tópico em Mensagens selecionadas',
 	'SPLIT_TOPIC_BEYOND_CONFIRM'		=> 'Tem a certeza que deseja cortar este Tópico na Mensagem selecionada?',
-	'SPLIT_TOPIC_EXPLAIN'				=> 'Usando este formulário pode dividir um Tópico em dois, selecionando as Mensagens do novo Tópico.',
+	'SPLIT_TOPIC_EXPLAIN'				=> 'Ao usar este formulário pode dividir um Tópico em dois, selecionando as Mensagens do novo Tópico.',
 
 	'THIS_PM_IP'						=> 'IP para esta Mensagem Privada',
 	'THIS_POST_IP'						=> 'IP para esta Mensagem',

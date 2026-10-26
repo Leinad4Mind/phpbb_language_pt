@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang)) {
 
 $lang = array_merge($lang, [
 	'ACP_ATTACHMENT_SETTINGS_EXPLAIN'	=> 'Configurar as Opções Principais para os Anexos e Categorias Especiais associadas.',
-	'ACP_EXTENSION_GROUPS_EXPLAIN'		=> 'Aqui podes adicionar, excluir, modificar e desactivar as Extensões. Consulta o Painel Gestor de Grupos de Extensões. Recomenda-se que não permitas extensões de scripts (tipo: php, php3, php4, phtml, pl, cgi, py, rb, asp, aspx, entre outras...), por serem potencialmente perigosas.',
+	'ACP_EXTENSION_GROUPS_EXPLAIN'		=> 'Aqui podes adicionar, apagar, modificar e desactivar as Extensões. Consulta o Painel Gestor de Grupos de Extensões. Recomenda-se que não permitas extensões de scripts (tipo: php, php3, php4, phtml, pl, cgi, py, rb, asp, aspx, entre outras...), por serem potencialmente perigosas.',
 	'ACP_MANAGE_EXTENSIONS_EXPLAIN'		=> 'Controlar as Extensões permitidas. Para activar as tuas Extensões, consulta, por favor, o Painel de Gestão dos Grupos das Extensões. Recomendamos que não permitas extensões de scripts (tipo: php, php3, php4, phtml, pl, cgi, py, rb, asp, aspx, entre outras...), por serem potencialmente perigosas.',
 	'ACP_ORPHAN_ATTACHMENTS_EXPLAIN'		=> 'Estes são os Ficheiros que não estão associados a uma Mensagem.',
 	'ADD_EXTENSION'							=> 'Adicionar Extensão',
@@ -77,14 +77,14 @@ $lang = array_merge($lang, [
 	'DEFINE_ALLOWED_IPS'					=> 'Definir IPs/Servidores autorizados',
 	'DEFINE_DISALLOWED_IPS'				=> 'Definir IPs/Servidores proibidos',
 	'DOWNLOAD_ADD_IPS_EXPLAIN'			=> 'Para definir vários IPs ou Servidores diferentes, introduz cada um numa nova linha. Para definir uma faixa de endereços de IP, separa o início e o fim com um hífen (-). Podes utilizar asteriscos (*)',
-	'DOWNLOAD_REMOVE_IPS_EXPLAIN'		=> 'Podes remover (ou não-excluir) múltiplos endereços de IPs de uma única vez ao usar a combinação apropriada de rato e teclado para o teu computador e navegador. IPs apagados têm um fundo em azul.',
+	'DOWNLOAD_REMOVE_IPS_EXPLAIN'		=> 'Podes remover (ou não-excluir) múltiplos endereços de IPs de uma única vez ao usar a combinação apropriada de rato e teclado do teu computador e navegador. IPs excluídos têm um fundo em azul.',
 	'DISPLAY_INLINED'						=> 'Mostrar Imagens',
 	'DISPLAY_INLINED_EXPLAIN'			=> 'Se escolheres Não, as imagens anexadas serão mostradas como atalhos.',
 	'DISPLAY_ORDER'						=> 'Ordem de visualização dos Anexos',
 	'DISPLAY_ORDER_EXPLAIN'				=> 'Os anexos são ordenados pela hora de envio.',
 
 	'EDIT_EXTENSION_GROUP'				=> 'Editar Grupo de Extensões',
-	'EXCLUDE_ENTERED_IP'					=> 'Activa para excluir o IP/Servidor digitado.',
+	'EXCLUDE_ENTERED_IP'					=> 'Activa para excluir o IP/Servidor introduzido.',
 	'EXCLUDE_FROM_ALLOWED_IP'			=> 'Excluir IP dos IPs/Servidores autorizados',
 	'EXCLUDE_FROM_DISALLOWED_IP'		=> 'Excluir IP dos IPs/Servidores proibidos',
 	'EXTENSIONS_UPDATED'					=> 'Extensões actualizadas com sucesso.',
@@ -100,7 +100,7 @@ $lang = array_merge($lang, [
 	'EXT_GROUP_IMAGES'					=> 'Imagens',
 	'EXT_GROUP_PLAIN_TEXT'				=> 'Texto simples',
 
-	'FILES_GONE'							=> 'Alguns dos anexos que seleccionaste para eliminar não existem. Eles podem já ter sido excluídos. Os anexos que existiam foram eliminados.',
+	'FILES_GONE'							=> 'Alguns dos anexos que seleccionaste para eliminar não existem. Podem já ter sido eliminados. Os anexos que existiam foram eliminados.',
 	'FILES_STATS_WRONG'					=> 'As estatísticas dos teus ficheiros são imprecisas e provavelmente precisam ser ressincronizadas. Valores actuais: Número de ficheiros = %1$d, tamanho total dos ficheiros = %2$s.<br />Clica %3$saqui%4$s para os ressincronizar.',
 
 	'GO_TO_EXTENSIONS'					=> 'Vai para a Página de Gestão de Extensões',

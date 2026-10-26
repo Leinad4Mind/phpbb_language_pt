@@ -46,7 +46,7 @@ $lang = array_merge($lang, array(
 		<p>Gestão, controlo e aplicação das Permissões de acesso aos fóruns. As Permissões estão dividias em Permissões de Fóruns, Permissões dos Moderadores nos Fóruns, Permissões dos utilizadores nos Fóruns e Permissões dos Grupos nos Fóruns.</p>
 
 		<h2>3 - Categorias das Permissões</h2>
-		<p>Gestão, controlo e aplicação das Permissões às categorias. As Permissões estão divididas em 4 grupos, Categorias dos Administradores, Categorias dos Moderadores, Categorias dos Utilizadores e Categorias dos Fóruns. As categorias padrão cobrem a Administração do Fórum. Pode editar cada uma das categorias, para adicionar ou excluir tarefas se o desejar ou achar necessário.</p>
+		<p>Gestão, controlo e aplicação das Permissões às categorias. As Permissões estão divididas em 4 grupos, Categorias dos Administradores, Categorias dos Moderadores, Categorias dos Utilizadores e Categorias dos Fóruns. As categorias padrão cobrem a Administração do Fórum. Pode editar cada uma das categorias, para adicionar ou remover tarefas se o desejar ou achar necessário.</p>
 
 		<h2>4 - Cenário das Permissões</h2>
 		<p>Dá uma visão global das Permissões atribuídas a Utilizadores, Moderadores (locais e globais), Administradores ou Fóruns.</p>
@@ -138,7 +138,7 @@ $lang = array_merge($lang, array(
 
 	'NO_AUTH_SETTING_FOUND'			=> 'A Configuração de Permissões não foi definida.',
 	'NO_ROLE_ASSIGNED'				=> 'Sem Tarefas atribuídas',
-	'NO_ROLE_ASSIGNED_EXPLAIN'		=> 'A Configuração para esta Tarefa não alterou as Permissões na direita. Se deseja desativar/excluir todas as Permissões deve utilizar o atalho "Tudo <strong>Não</strong>".',
+	'NO_ROLE_ASSIGNED_EXPLAIN'		=> 'A Configuração para esta Tarefa não alterou as Permissões na direita. Se deseja desativar/remover todas as Permissões deve utilizar o atalho "Tudo <strong>Não</strong>".',
 	'NO_ROLE_AVAILABLE'				=> 'Sem Tarefas Disponíveis',
 	'NO_ROLE_NAME_SPECIFIED'		=> 'Deve inserir o nome da Categoria',
 	'NO_ROLE_SELECTED'				=> 'A Tarefa não foi encontrada.',
@@ -151,11 +151,11 @@ $lang = array_merge($lang, array(
 
 	'REMOVE_PERMISSIONS'			=> 'Eliminar Permissões',
 	'REMOVE_ROLE'					=> 'Eliminar Tarefa',
-	'RESULTING_PERMISSION'			=> 'Resultando Permissão',
+	'RESULTING_PERMISSION'			=> 'Permissão resultante',
 	'ROLE'							=> 'Tarefa',
 	'ROLE_ADD_SUCCESS'				=> 'A Tarefa foi adicionada com sucesso.',
 	'ROLE_ASSIGNED_TO'				=> 'Utilizadores/Grupos da Categoria %s',
-	'ROLE_DELETED'					=> 'A Tarefa foi excluída com sucesso.',
+	'ROLE_DELETED'					=> 'A Tarefa foi apagada com sucesso.',
 	'ROLE_DESCRIPTION'				=> 'Descrição',
 
 	'ROLE_ADMIN_FORUM'				=> 'Administrador de Fóruns',

@@ -64,7 +64,7 @@ $lang = array_merge($lang, array(
 
 	'FORCE_REACTIVATION_SUCCESS'	=> 'A Reativação foi forçada com sucesso.',
 	'FOUNDER'						=> 'Fundador',
-	'FOUNDER_EXPLAIN'				=> 'Fundadores não podem ser Banidos, Excluídos ou Alterados por membros não Fundadores.',
+	'FOUNDER_EXPLAIN'				=> 'Fundadores não podem ser Banidos, Apagados ou Alterados por membros não Fundadores.',
 
 	'GROUP_APPROVE'					=> 'Aprovar Membro',
 	'GROUP_DEFAULT'					=> 'Padrão',
@@ -125,11 +125,11 @@ $lang = array_merge($lang, array(
 	'USER_GROUP_SPECIAL'			=> 'O Utilizador é Membro dos Grupos pré-definidos',
 	'USER_LIFTED_NR'				=> 'Removido com sucesso o novo utilizador registado recentemente.',
 	'USER_NO_ATTACHMENTS'			=> 'Não existem Ficheiros a exibir.',
-	'USER_NO_POSTS_TO_DELETE'		=> 'O utilizador não tem mensagens para reter ou excluir.',
+	'USER_NO_POSTS_TO_DELETE'		=> 'O utilizador não tem mensagens para reter ou apagar.',
 	'USER_OUTBOX_EMPTIED'			=> 'Apagado com sucesso a mensagem privada da caixa de saída.',
 	'USER_OUTBOX_EMPTY'				=> 'A caixa de saída de mensagens privadas está agora vazia.',
 	'USER_OVERVIEW_UPDATED'			=> 'Detalhes do Utilizador foram atualizados.',
-	'USER_POSTS_DELETED'			=> 'As Mensagens do Utilizador foram excluídas com sucesso.',
+	'USER_POSTS_DELETED'			=> 'As Mensagens do Utilizador foram apagadas com sucesso.',
 	'USER_POSTS_MOVED'				=> 'As Mensagens dos Utilizadores foram movidas com sucesso.',
 	'USER_PREFS_UPDATED'			=> 'As preferências do Utilizador foram atualizadas.',
 	'USER_PROFILE'					=> 'Perfil do Utilizador',

@@ -40,7 +40,7 @@ $lang = array_merge($lang, [
 	'INSTALL_PANEL'	=> 'Painel de Instalação',
 	'SELECT_LANG'		=> 'Selecione o idioma',
 
-	'STAGE_INSTALL'	=> 'Instalando o phpBB',
+	'STAGE_INSTALL'	=> 'A instalar o phpBB',
 
 	// Introduction page
 	'INTRODUCTION_TITLE'		=> 'Introdução',
@@ -129,7 +129,7 @@ $lang = array_merge($lang, [
 	'INST_ERR_MISSING_DATA'		=> 'Tem que preencher todos os campos deste bloco.',
 
 	'TIMEOUT_DETECTED_TITLE'	=> 'O instalador detetou um tempo limite',
-	'TIMEOUT_DETECTED_MESSAGE'	=> 'O instalador detetou um tempo limite, você pode tentar atualizar a página, o que pode levar a corrupção de dados. Sugerimos que você aumente suas configurações de tempo limite ou tente usar o CLI.',
+	'TIMEOUT_DETECTED_MESSAGE'	=> 'O instalador detetou um tempo limite. Pode tentar atualizar a página, o que pode levar à corrupção de dados. Sugerimos que aumente as suas configurações de tempo limite ou que tente usar o CLI.',
 ]);
 
 // Data obtaining translations
@@ -196,7 +196,7 @@ $lang = array_merge($lang, [
 	// Errors
 	'INST_ERR_DB'							=> 'Erro de instalação da Base de Dados',
 	'INST_ERR_NO_DB'						=> 'Não foi possível carregar o módulo PHP para o tipo de Base de Dados selecionado',
-	'INST_ERR_DB_INVALID_PREFIX'		=> 'O prefixo digitado é inválido. Deve começar com uma letra e deve conter apenas letras, números e sublinhados.',
+	'INST_ERR_DB_INVALID_PREFIX'		=> 'O prefixo introduzido é inválido. Deve começar com uma letra e deve conter apenas letras, números e sublinhados.',
 	'INST_ERR_PREFIX_TOO_LONG'			=> 'O prefixo indicado é muito comprido. O comprimento máximo é de %d caracteres.',
 	'INST_ERR_DB_NO_NAME'				=> 'Deve indicar uma Base de Dados',
 	'INST_ERR_DB_FORUM_PATH'			=> 'O ficheiro da Base de Dados indicado está dentro da estrutura de pastas do Fórum. Deveria pôr este ficheiro num local não acessível pela web.',
@@ -457,7 +457,7 @@ $lang = array_merge($lang, [
 	'FILES_CONFLICT'					=> 'Ficheiros em conflito',
 	'FILES_CONFLICT_EXPLAIN'		=> 'Os ficheiros seguintes apresentam alterações relativamente à versão anterior. Eventuais tentativas de alteração aos ficheiros poderiam criar conflitos. Investigue os conflitos e tente resolvê-los manualmente ou continue a atualização ao selecionar o método desejado. Se resolver os conflitos manualmente, faça nova verificação aos ficheiros depois de modificados. Pode selecionar o método desejado para todos os Ficheiros. O primeiro irá resultar num Ficheiro onde as linhas em conflito do seu Ficheiro anterior serão perdidas, e o outro irá resultar na perda das modificações no novo ficheiro.',
 	'FILES_DELETED'					=> 'Ficheiros apagados',
-	'FILES_DELETED_EXPLAIN'			=> 'Os seguintes ficheiros não existem na nova versão. Esses ficheiros devem ser excluídos de sua instalação.',
+	'FILES_DELETED_EXPLAIN'			=> 'Os seguintes ficheiros não existem na nova versão. Esses ficheiros devem ser apagados da sua instalação.',
 	'FILES_MODIFIED'					=> 'Ficheiros modificados',
 	'FILES_MODIFIED_EXPLAIN'		=> 'Os ficheiros seguintes apresentam alterações relativamente à versão anterior. O novo ficheiro atualizado, resultará da fusão das modificações com o ficheiro atual.',
 	'FILES_NEW'							=> 'Novos ficheiros',
@@ -528,7 +528,7 @@ $lang = array_merge($lang, [
 
 	// Settings
 	'STAGE_SETTINGS'				=> 'Configurações',
-	'TABLE_PREFIX_SAME'			=> 'O Prefixo das Tabelas tem que ser o usado pelo software que está convertendo.<br />» O prefixo de Tabela especificado foi %s',
+	'TABLE_PREFIX_SAME'			=> 'O Prefixo das Tabelas tem que ser o usado pelo software que está a converter.<br />» O prefixo de Tabela especificado foi %s',
 	'DEFAULT_PREFIX_IS'			=> 'O Conversor não encontrou as tabelas com o prefixo indicado. Verifique se as informações do Fórum estão corretas. O Prefixo Padrão para a tabela %1$s é <strong>%2$s</strong>',
 	'SPECIFY_OPTIONS'				=> 'Escolha as Opções de Conversão',
 	'FORUM_PATH'					=> 'Pasta do Fórum',
@@ -540,10 +540,10 @@ $lang = array_merge($lang, [
 	'STAGE_IN_PROGRESS'			=> 'Conversão em andamento',
 
 	'AUTHOR_NOTES'					=> 'Notas do Autor<br />» %s',
-	'STARTING_CONVERT'			=> 'Iniciando o Processo da Conversão',
-	'CONFIG_CONVERT'				=> 'Convertendo a configuração',
+	'STARTING_CONVERT'			=> 'A iniciar o Processo da Conversão',
+	'CONFIG_CONVERT'				=> 'A converter a configuração',
 	'DONE'							=> 'Terminado',
-	'PREPROCESS_STEP'				=> 'Executando as funções de pré-processamento',
+	'PREPROCESS_STEP'				=> 'A executar as funções de pré-processamento',
 	'FILLING_TABLE'				=> 'A preencher a tabela <strong>%s</strong>',
 	'FILLING_TABLES'				=> 'A preencher tabelas',
 	'DB_ERR_INSERT'				=> 'Erro ao processar a query <code>INSERT</code>.',
@@ -558,8 +558,8 @@ $lang = array_merge($lang, [
 	'SYNC_POST_COUNT_ID'			=> 'A sincronizar contador de Mensagens para <var>entry</var> %1$s para %2$s.',
 	'SYNC_TOPICS'					=> 'A iniciar sincronização de Tópicos',
 	'SYNC_TOPIC_ID'				=> 'A sincronizar Tópicos a partir do <var>topic_id</var> $1%s ao $2%s.',
-	'PROCESS_LAST'					=> 'Executando as últimas instruções',
-	'UPDATE_TOPICS_POSTED'		=> 'Gerando informações de Tópicos enviados',
+	'PROCESS_LAST'					=> 'A executar as últimas instruções',
+	'UPDATE_TOPICS_POSTED'		=> 'A gerar informações de Tópicos enviados',
 	'UPDATE_TOPICS_POSTED_ERR'	=> 'Algum erro ocorreu enquanto as informações dos Tópicos eram geradas. Pode tentar novamente esta etapa no Painel de Administração quando a conversão estiver completa.',
 	'CONTINUE_LAST'				=> 'Continuar com esta atualização',
 	'CLEAN_VERIFY'					=> 'A limpar e a verificar a estrutura final',
@@ -572,7 +572,7 @@ $lang = array_merge($lang, [
 
 	'COLLIDING_CLEAN_USERNAME'			=> '<strong>%s</strong> é o nome de utilizador limpo para:',
 	'COLLIDING_USER'						=> '» id do utilizador: <strong>%d</strong> nome de utilizador: <strong>%s</strong> (%d mensagens)',
-	'COLLIDING_USERNAMES_FOUND'		=> 'Nomes de utilizador duplicados foram encontrados no seu antigo fórum. Para concluir a conversão, exclua ou renomeie esses utilizadores para que haja apenas um utilizador no seu fórum antigo para cada nome de utilizador limpo.',
+	'COLLIDING_USERNAMES_FOUND'		=> 'Nomes de utilizador duplicados foram encontrados no seu antigo fórum. Para concluir a conversão, apague ou renomeie esses utilizadores para que haja apenas um utilizador no seu fórum antigo para cada nome de utilizador limpo.',
 	'CONV_ERR_FATAL'						=> 'Erro fatal de conversão',
 	'CONV_ERROR_ATTACH_FTP_DIR'		=> 'O envio de anexos por FTP está ativo no seu painel antigo. Desative a opção de envio por FTP, crie uma pasta válida e envie todos os ficheiros de anexos para a nova pasta. Após concluir esta operação, reinicie o conversor.',
 	'CONV_ERROR_CONFIG_EMPTY'			=> 'Não foram encontradas informações de configuração válidas para a conversão.',

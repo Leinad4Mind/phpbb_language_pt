@@ -50,7 +50,7 @@ $help = array(
 	),
 	array(
 		0 => 'Registei-me mas não consigo entrar!',
-		1 => 'Verifique se escreveu corretamente o Nome de Utilizador e a Senha.  Se tem a certeza de que estão corretos tenha em atenção um de dois fatores. Se a função COPPA (Children\'s Online Privacy Protection Act) estiver ativa no Fórum e assinalou uma idade inferior a 13 anos durante o Registo, então tem que seguir as instruções que recebeu. Se não é este o seu caso, então o seu Registo ainda não se encontra ativado. Alguns Fóruns obrigam à ativação dos novos Registos. A Ativação tanto pode ser feita pelo Administrador como pelo próprio Utilizador, que neste último caso receberá um email para esse efeito. Esta informação é fornecida aos novos Utilizadores durante o Registo. Se recebeu um email, siga as suas instruções. Se não recebeu nenhum email pode ter escrito incorretamente o endereço de email ou então está considerado como spam pelo seu cliente de email. Se tem certeza que o endereço de email que forneceu é válido e correto, tente contactar o Administrador do Fórum.'
+		1 => 'Verifique se escreveu corretamente o Nome de Utilizador e a Senha.  Se tem a certeza de que estão corretos tenha em atenção um de dois fatores. Se a função COPPA (Children\'s Online Privacy Protection Act) estiver ativa no Fórum e assinalou uma idade inferior a 13 anos durante o Registo, então tem que seguir as instruções que recebeu. Se não é este o seu caso, então o seu Registo ainda não se encontra ativado. Alguns Fóruns obrigam à ativação dos novos Registos. A Ativação tanto pode ser feita pelo Administrador como pelo próprio Utilizador, que neste último caso receberá um email para esse efeito. Esta informação é fornecida aos novos Utilizadores durante o Registo. Se recebeu um email, siga as suas instruções. Se não recebeu nenhum email pode ter escrito incorretamente o endereço de email ou então está considerado como spam pelo seu cliente de email. Se tem a certeza que o endereço de email que forneceu é válido e correto, tente contactar o Administrador do Fórum.'
 	),
 	array(
 		0 => 'Porque não consigo entrar no Fórum?',
@@ -58,7 +58,7 @@ $help = array(
 	),
 	array(
 		0 => 'Registei-me e já entrei anteriormente, mas agora não consigo!',
-		1 => 'É possível que o administrador tenha excluído o seu registo por algum motivo. Além disso, há administradores que removem registos de utilizadores que nunca colocaram mensagens, de modo a reduzir o tamanho da Base de Dados. Se isso aconteceu, tente registar-se novamente e ser participativo no fórum.'
+		1 => 'É possível que o administrador tenha apagado o seu registo por algum motivo. Além disso, há administradores que removem registos de utilizadores que nunca colocaram mensagens, de modo a reduzir o tamanho da Base de Dados. Se isso aconteceu, tente registar-se novamente e ser participativo no fórum.'
 	),
 	array(
 		0 => 'Esqueci-me da minha Senha, e agora?',
@@ -86,7 +86,7 @@ $help = array(
 	),
 	array(
 		0 => 'A Data e Hora estão erradas!',
-		1 => 'Se tem certeza de ter definido o fuso horário corretamente e a hora continua errada, então o horário definido no relógio do servidor está incorreto. Por favor, contacte o administrador para corrigir o problema.'
+		1 => 'Se tem a certeza de ter definido o fuso horário corretamente e a hora continua errada, então o horário definido no relógio do servidor está incorreto. Por favor, contacte o administrador para corrigir o problema.'
 	),
 	array(
 		0 => 'Alterei o Fuso Horário, mas a Data e Hora continuam erradas!',
@@ -122,7 +122,7 @@ $help = array(
 	),
 	array(
 		0 => 'Como posso editar ou apagar uma Mensagem?',
-		1 => 'A menos que seja Administrador ou Moderador, apenas pode editar ou excluir as suas próprias mensagens. Pode editar a mensagem clicando no botão de edição. Por vezes, apenas o poderá fazer por um período limitado de tempo, após o envio da mensagem. Caso alguém tenha já respondido, encontrará um pequeno texto abaixo da mensagem que reporta o número de vezes que a editou, juntamente com a data e a hora. Isto não aparece apenas caso alguém não tenha respondido. Não aparecerá igualmente se um Administrador ou Moderador editarem a mensagem, embora possam deixar uma nota informar o critério que justificou a edição. Por favor note que os Utilizadores normais não podem apagar uma mensagem após alguém já ter respondido.'
+		1 => 'A menos que seja Administrador ou Moderador, apenas pode editar ou apagar as suas próprias mensagens. Pode editar a mensagem clicando no botão de edição. Por vezes, apenas o poderá fazer por um período limitado de tempo, após o envio da mensagem. Caso alguém tenha já respondido, encontrará um pequeno texto abaixo da mensagem que reporta o número de vezes que a editou, juntamente com a data e a hora. Isto não aparece apenas caso alguém não tenha respondido. Não aparecerá igualmente se um Administrador ou Moderador editarem a mensagem, embora possam deixar uma nota a informar o critério que justificou a edição. Por favor note que os Utilizadores normais não podem apagar uma mensagem após alguém já ter respondido.'
 	),
 	array(
 		0 => 'Como posso adicionar uma assinatura às minhas Mensagens?',
@@ -130,7 +130,7 @@ $help = array(
 	),
 	array(
 		0	=> 'Como posso criar uma votação?',
-		1	=> 'Criar uma votação é fácil. Quando envia um Tópico novo (ou Edita a primeira mensagem de um Tópico, caso tenha permissão para tal), encontra na parte inferior à caixa principal da mensagem, um painel com o Título Adicionar Votação (se não vê isto, é porque provavelmente não tem permissão para criar Votação ou o Tópico não é de sua autoria). Deve escrever um Título para a Votação e em seguida, escrever pelo menos Duas Opções de Voto (para adicionar uma opção de votação, escreva o que pretende, e clique no botão Adicionar opção de Voto). Deverá também estipular um tempo limite para a Votação, sendo 0 ilimitado. Poderá acontecer de existir um limite no Número de Opções de Voto, estando esse limite ao critério e configuração do Administrador.',
+		1	=> 'Criar uma votação é fácil. Quando envia um Tópico novo (ou Edita a primeira mensagem de um Tópico, caso tenha permissão para tal), encontra na parte inferior à caixa principal da mensagem, um painel com o Título Adicionar Votação (se não vê isto, é porque provavelmente não tem permissão para criar Votação ou o Tópico não é da sua autoria). Deve escrever um Título para a Votação e em seguida, escrever pelo menos Duas Opções de Voto (para adicionar uma opção de votação, escreva o que pretende, e clique no botão Adicionar opção de Voto). Deverá também estipular um tempo limite para a Votação, sendo 0 ilimitado. Poderá acontecer de existir um limite no Número de Opções de Voto, estando esse limite ao critério e configuração do Administrador.',
 	),
 	array(
 		0 => 'Porque não posso adicionar mais opções nas votações?',
@@ -162,11 +162,11 @@ $help = array(
 	),
 	array(
 		0	=> 'Do que necessita a minha Mensagem para ser Aprovada?',
-		1	=> 'O Administrador pode decidir se na secção em que está postando, as Mensagens precisem ser revisadas ou não. E também é possível que o Administrador O tenha adicionado a um Grupo de Utilizadores que precise ter suas Mensagens aprovadas antes de enviá-las ao Fórum. Por Favor, contacte o Administrador para maiores informações.',
+		1	=> 'O Administrador pode decidir se na secção em que está a postar, as Mensagens precisem ser revisadas ou não. E também é possível que o Administrador O tenha adicionado a um Grupo de Utilizadores que precise ter suas Mensagens aprovadas antes de enviá-las ao Fórum. Por Favor, contacte o Administrador para maiores informações.',
 	),
 	array(
 		0	=> 'Como posso ressuscitar os meus Tópicos?',
-		1	=> 'Clicando em Ressuscitar Tópico, quando estiver a visualizar o mesmo, pode ressuscitar o Tópico para o topo do Fórum na primeira página. Porém, se não vir esta opção, então esta ferramenta encontra-se desativada. Também o pode fazer simplesmente respondendo ao Tópico. Entretanto, fique atento às regras do sítio web.',
+		1	=> 'Ao clicar em Ressuscitar Tópico, quando estiver a visualizar o mesmo, pode ressuscitar o Tópico para o topo do Fórum na primeira página. Porém, se não vir esta opção, então esta ferramenta encontra-se desativada. Também o pode fazer simplesmente respondendo ao Tópico. Entretanto, fique atento às regras do sítio web.',
 	),
 	array(
 		0	=> '--',
@@ -182,7 +182,7 @@ $help = array(
 	),
 	array(
 		0	=> 'O que são Emoções?',
-		1	=> 'As Emoções, ou Smilies, são pequenas representações gráficas que são usadas para expressar sentimentos através da utilização de poucos caracteres. :) quer dizer Feliz, :( quer dizer Triste. A lista completa de pode ser vista no formulário junto à caixa de cada mensagem. Evite o uso excessivo de Emoções, já que podem tornar uma Mensagem ilegível, podendo o Administrador ou um Moderador excluí-las ou apagar a mensagem inteira.',
+		1	=> 'As Emoções, ou Smilies, são pequenas representações gráficas que são usadas para expressar sentimentos através da utilização de poucos caracteres. :) quer dizer Feliz, :( quer dizer Triste. A lista completa pode ser vista no formulário junto à caixa de cada mensagem. Evite o uso excessivo de Emoções, já que podem tornar uma Mensagem ilegível, podendo o Administrador ou um Moderador removê-las ou apagar a mensagem inteira.',
 	),
 	array(
 		0	=> 'Posso exibir Imagens?',
@@ -259,7 +259,7 @@ $help = array(
 	),
 	array(
 		0	=> 'Recebo Mensagens Privadas indesejáveis!',
-		1	=> 'Pode apagar automaticamente Mensagens Privadas enviadas por um Utilizador usando as regras das mensagens no seu Painel de Controlo do Utilizador. Se estiver recebendo Mensagens indesejáveis por parte de algum Utilizador, denuncie as mensagens a um Moderador do Fórum para que possa proibir o determinado utilizador de enviar este tipo de Mensagens.',
+		1	=> 'Pode apagar automaticamente Mensagens Privadas enviadas por um Utilizador usando as regras das mensagens no seu Painel de Controlo do Utilizador. Se estiver a receber Mensagens indesejáveis por parte de algum Utilizador, denuncie as mensagens a um Moderador do Fórum para que possa proibir o determinado utilizador de enviar este tipo de Mensagens.',
 	),
 	array(
 		0	=> 'Recebi de alguém neste Fórum um email com assuntos irrelevantes ou abusivos!',
@@ -275,7 +275,7 @@ $help = array(
 	),
 	array(
 		0	=> 'Como posso Adicionar/apagar de minha Lista de Amigos e Inimigos?',
-		1	=> 'Pode adicionar Utilizadores na sua lista de duas formas. Através do Perfil de cada Utilizador, existe um atalho para adicioná-los à sua lista. De maneira alternativa, pode adicionar Utilizadores diretamente escrevendo os seus Nomes de Utilizadores. Pode também apagar Utilizadores de sua lista utilizando a mesma página.',
+		1	=> 'Pode adicionar Utilizadores na sua lista de duas formas. Através do Perfil de cada Utilizador, existe um atalho para adicioná-los à sua lista. De maneira alternativa, pode adicionar Utilizadores diretamente escrevendo os seus Nomes de Utilizadores. Pode também apagar Utilizadores da sua lista utilizando a mesma página.',
 	),
 	array(
 		0	=> '--',
@@ -283,7 +283,7 @@ $help = array(
 	),
 	array(
 		0	=> 'Como posso Pesquisar?',
-		1	=> 'Escrevendo um Termo de Pesquisa na respetiva página localizada no Índice do Fórum, Visualizando Tópicos ou Secções. Pode aceder à Pesquisa Avançada clicando no atalho Pesquisar que encontra-se disponível em todas as páginas do Fórum.',
+		1	=> 'Ao escrever um Termo de Pesquisa na respetiva página localizada no Índice do Fórum, Visualizando Tópicos ou Secções. Pode aceder à Pesquisa Avançada clicando no atalho Pesquisar que encontra-se disponível em todas as páginas do Fórum.',
 	),
 	array(
 		0	=> 'Por que a minha Pesquisa resultou em nenhuma ocorrência?',
@@ -327,7 +327,7 @@ $help = array(
 	),
 	array(
 		0	=> 'Quais os Anexos que são permitidos no Fórum?',
-		1	=> 'Cada Administrador pode ativar ou desativar os tipos de anexos que desejar. Se não tem certeza sobre o que pode ser enviado, contacte o Administrador para mais informações.',
+		1	=> 'Cada Administrador pode ativar ou desativar os tipos de anexos que desejar. Se não tem a certeza sobre o que pode ser enviado, contacte o Administrador para mais informações.',
 	),
 	array(
 		0	=> 'Como posso encontrar Anexos que enviei?',

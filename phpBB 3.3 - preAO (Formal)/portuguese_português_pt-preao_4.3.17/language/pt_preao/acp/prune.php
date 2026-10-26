@@ -37,12 +37,12 @@ if (empty($lang) || !is_array($lang)) {
 
 // User pruning
 $lang = array_merge($lang, [
-	'ACP_PRUNE_USERS_EXPLAIN'		=> 'Esta secção permite excluir ou desactivar Utilizadores do Fórum. As contas podem ser filtradas de várias maneiras: pela contagem de mensagens, actividade mais recente, etc. Os critérios podem ser combinados para determinar as contas afectadas. Por exemplo, pode seleccionar os Utilizadores com menos de 10 mensagens, inactivos de 01/01/2002. Use um * como complemento para campos de texto. Alternativamente, pode não usar a selecção por critérios, introduzindo a lista de Utilizadores (um por linha) no campo de texto. Tenha cuidado com este recurso! Depois de excluir um Utilizador não é possível reverter a acção.',
+	'ACP_PRUNE_USERS_EXPLAIN'		=> 'Esta secção permite apagar ou desactivar Utilizadores do Fórum. As contas podem ser filtradas de várias maneiras: pela contagem de mensagens, actividade mais recente, etc. Os critérios podem ser combinados para determinar as contas afectadas. Por exemplo, pode seleccionar os Utilizadores com menos de 10 mensagens, inactivos de 01/01/2002. Use um * como complemento para campos de texto. Alternativamente, pode não usar a selecção por critérios, introduzindo a lista de Utilizadores (um por linha) no campo de texto. Tenha cuidado com este recurso! Depois de apagar um Utilizador não é possível reverter a acção.',
 
 	'CRITERIA'							=> 'Critérios',
 
 	'DEACTIVATE_DELETE'				=> 'Desactivar ou apagar',
-	'DEACTIVATE_DELETE_EXPLAIN'	=> 'Escolher se quer desactivar Utilizadores ou excluí-los totalmente. Por favor, note que os Utilizadores excluídos não podem ser restaurados!',
+	'DEACTIVATE_DELETE_EXPLAIN'	=> 'Escolher se quer desactivar Utilizadores ou apagá-los totalmente. Por favor, note que os Utilizadores apagados não podem ser restaurados!',
 	'DELETE_USERS'						=> 'Apagar',
 	'DELETE_USER_POSTS'				=> 'Apagar Mensagens Limpas',
 	'DELETE_USER_POSTS_EXPLAIN'	=> 'Não é possível apagar as Mensagens de Utilizadores eliminados',
@@ -58,7 +58,7 @@ $lang = array_merge($lang, [
 	'PRUNE_USERS_LIST_DELETE'		=> 'Se seleccionar este critério, os Utilizadores terão as suas contas removidas.',
 	'PRUNE_USERS_LIST_DEACTIVATE'	=> 'Se seleccionar este critério, os Utilizadores terão as suas contas desactivadas.',
 
-	'SELECT_USERS_EXPLAIN'			=> 'Digite aqui utilizadores, que serão utilizados de preferência nos critérios acima. Fundadores não podem ser apagados.',
+	'SELECT_USERS_EXPLAIN'			=> 'Introduza aqui utilizadores, que serão utilizados de preferência nos critérios acima. Fundadores não podem ser apagados.',
 
 	'USER_DEACTIVATE_SUCCESS'		=> 'Os Utilizadores seleccionados foram desactivados com sucesso.',
 	'USER_DELETE_SUCCESS'			=> 'Os Utilizadores seleccionados foram apagados com sucesso.',
@@ -69,7 +69,7 @@ $lang = array_merge($lang, [
 
 // Forum Pruning
 $lang = array_merge($lang, [
-	'ACP_PRUNE_FORUMS_EXPLAIN'		=> 'Aqui pode apagar qualquer Tópico que não tenha sido respondido ou visualizado dentro do número de dias seleccionado. Se não escrever um número, então todos os Tópicos serão apagados. Note que esta operação não excluirá Tópicos com Votações em Curso ou Tópicos Fixos e Anúncios.',
+	'ACP_PRUNE_FORUMS_EXPLAIN'		=> 'Aqui pode apagar qualquer Tópico que não tenha sido respondido ou visualizado dentro do número de dias seleccionado. Se não escrever um número, então todos os Tópicos serão apagados. Note que esta operação não apagará Tópicos com Votações em Curso ou Tópicos Fixos e Anúncios.',
 
 	'FORUM_PRUNE'						=> 'Limpeza',
 

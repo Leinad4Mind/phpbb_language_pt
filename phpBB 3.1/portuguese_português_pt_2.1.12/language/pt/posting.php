@@ -90,8 +90,8 @@ $lang = array_merge($lang, array(
 	'DELETE_POST_CONFIRM'			=> 'Tem a certeza que deseja apagar esta mensagem?',
 	'DELETE_POST_PERMANENTLY_CONFIRM'	=> 'Tem a certeza que deseja eliminar <strong>permanentemente</strong> esta mensagem?',
 	'DELETE_POST_PERMANENTLY'		=> array(
-		1	=> 'Excluir permanentemente esta mensagem, não poderá ser depois recuperada',
-		2	=> 'Excluir permanentemente %1$d mensagens, não poderão ser depois recuperadas',
+		1	=> 'Apagar permanentemente esta mensagem, não poderá ser depois recuperada',
+		2	=> 'Apagar permanentemente %1$d mensagens, não poderão ser depois recuperadas',
 	),
 	'DELETE_POSTS_CONFIRM'				=> 'Tem a certeza que deseja apagar estas mensagens?',
 	'DELETE_POSTS_PERMANENTLY_CONFIRM'	=> 'Tem a certeza que deseja eliminar <strong>permanentemente</strong> estas mensagens?',
@@ -100,8 +100,8 @@ $lang = array_merge($lang, array(
 	'DELETE_POST_WARN'					=> 'Apagar esta mensagem',
 	'DELETE_TOPIC_CONFIRM'				=> 'Tem a certeza que deseja apagar este tópico?',
 	'DELETE_TOPIC_PERMANENTLY'	=> array(
-		1	=> 'Excluir permanentemente este tópico, não poderá ser depois recuperado',
-		2	=> 'Excluir permanentemente %1$d tópicos, não poderão ser depois recuperados',
+		1	=> 'Apagar permanentemente este tópico, não poderá ser depois recuperado',
+		2	=> 'Apagar permanentemente %1$d tópicos, não poderão ser depois recuperados',
 	),
 	'DELETE_TOPIC_PERMANENTLY_CONFIRM'	=> 'Tem a certeza que deseja eliminar <strong>permanentemente</strong> este tópico?',
 	'DELETE_TOPICS_CONFIRM'				=> 'Tem a certeza que deseja apagar estes tópicos?',
@@ -168,8 +168,8 @@ $lang = array_merge($lang, array(
 
 	'MESSAGE_BODY_EXPLAIN'		=> array(
 		0	=> '', // zero means no limit, so we don't view a message here.
-		1	=> 'Digite aqui a sua mensagem, pode conter mais do que <strong>%d</strong> carácter.',
-		2	=> 'Digite aqui a sua mensagem, pode conter mais do que <strong>%d</strong> caracteres.',
+		1	=> 'Introduza aqui a sua mensagem, pode conter mais do que <strong>%d</strong> carácter.',
+		2	=> 'Introduza aqui a sua mensagem, pode conter mais do que <strong>%d</strong> caracteres.',
 	),
 	'MESSAGE_DELETED'				=> 'A Mensagem foi apagada com sucesso.',
 	'MORE_SMILIES'					=> 'Ver mais Emoções',
@@ -208,7 +208,7 @@ $lang = array_merge($lang, array(
 	'POSTED_ATTACHMENTS'			=> 'Anexos',
 	'POST_APPROVAL_NOTIFY'			=> 'Será avisado quando a mensagem for aprovada.',
 	'POST_CONFIRMATION'				=> 'Confirmação da Mensagem',
-	'POST_CONFIRM_EXPLAIN'			=> 'Para evitar Mensagens automáticas, o fórum exige que digite o código de confirmação. O código é mostrado na imagem abaixo. Se não consegue ver a imagem, por favor contacte o %sAdministrador%s.',
+	'POST_CONFIRM_EXPLAIN'			=> 'Para evitar Mensagens automáticas, o fórum exige que introduza o código de confirmação. O código é mostrado na imagem abaixo. Se não consegue ver a imagem, por favor contacte o %sAdministrador%s.',
 	'POST_DELETED'					=> 'A Mensagem foi apagada com sucesso.',
 	'POST_EDITED'					=> 'A Mensagem foi editada com sucesso.',
 	'POST_EDITED_MOD'				=> 'A Mensagem foi editada mas necessita de ser aprovada por um Moderador antes de se tornar visível. Será avisado quando a sua Mensagem for aprovada.',
@@ -240,7 +240,7 @@ $lang = array_merge($lang, array(
 	'SMILIES_ARE_ON'				=> 'Emoções estão <em>Ligadas</em>',
 	'STICKY_ANNOUNCE_TIME_LIMIT'	=> 'Tempo limite do Fixo/Anúncio/Global',
 	'STICK_TOPIC_FOR'				=> 'Fixar Tópico por',
-	'STICK_TOPIC_FOR_EXPLAIN'		=> 'Digite 0 para manter Fixo/Anúncio/Global por tempo indeterminado. Por favor, note que este número é relativo à data do envio da mensagem.',
+	'STICK_TOPIC_FOR_EXPLAIN'		=> 'Introduza 0 para manter Fixo/Anúncio/Global por tempo indeterminado. Por favor, note que este número é relativo à data do envio da mensagem.',
 	'STYLES_TIP'					=> 'Dica: Estilos podem ser aplicados a textos selecionados.',
 
 	'TOO_FEW_CHARS'					=> 'A Mensagem contém poucos caracteres.',

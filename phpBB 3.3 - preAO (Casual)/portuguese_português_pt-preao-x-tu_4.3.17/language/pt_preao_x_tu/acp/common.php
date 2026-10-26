@@ -119,12 +119,12 @@ $lang = array_merge($lang, [
 	'ACP_LANGUAGE'						=> 'Administração de Idiomas',
 	'ACP_LANGUAGE_PACKS'				=> 'Administração de Idiomas',
 	'ACP_LOAD_SETTINGS'				=> 'Configurações de Carga',
-	'ACP_LOGGING'						=> 'Ligando',
+	'ACP_LOGGING'						=> 'Registos',
 
 	'ACP_MAIN'							=> 'Índice Principal',
 
 	'ACP_MANAGE_ATTACHMENTS'			=> 'Administrar anexos',
-	'ACP_MANAGE_ATTACHMENTS_EXPLAIN'	=> 'Aqui podes listar e excluir ficheiros anexados a mensagens e mensagens privadas.',
+	'ACP_MANAGE_ATTACHMENTS_EXPLAIN'	=> 'Aqui podes listar e apagar ficheiros anexados a mensagens e mensagens privadas.',
 
 	'ACP_MANAGE_EXTENSIONS'			=> 'Administrar Extensões',
 	'ACP_MANAGE_FORUMS'				=> 'Administrar Fóruns',
@@ -299,7 +299,7 @@ $lang = array_merge($lang, [
 	'REPARSE_LOCK_ERROR'				=> 'A reanálise já está em execução com outro processo.',
 	'RESYNC'								=> 'Ressincronizar',
 
-	'RUNNING_TASK'						=> 'Executando as tarefas: %s.',
+	'RUNNING_TASK'						=> 'A executar as tarefas: %s.',
 	'SELECT_ANONYMOUS'				=> 'Seleccionar Utilizador Anónimo',
 	'SELECT_OPTION'					=> 'Seleccionar Opção',
 
@@ -462,8 +462,8 @@ $lang = array_merge($lang, [
 	'INACTIVE_REASON_REMIND'		=> 'Forçar Reactivação de Registo do Utilizador',
 	'INACTIVE_REASON_UNKNOWN'		=> 'Desconhecido',
 	'INACTIVE_USERS'					=> 'Utilizadores Inactivos',
-	'INACTIVE_USERS_EXPLAIN'		=> 'Esta é uma lista dos Utilizadores Registados, mas com os Registos ainda inactivos. Se desejares podes activar, excluir ou avisar (enviando um email) estes Utilizadores.',
-	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Lista dos 10 últimos Utilizadores Registados ainda inativos. As Contas estão inativas porque a sua activação está configurada para ser feita pelo próprio utilizador e estes ainda o não fizeram ou porque foram desactivadas. A lista completa está disponível através do item apropriado do menu ou clicando no atalho abaixo onde podes activar, excluir ou avisar (enviando um email) estes Utilizadores se desejares.',
+	'INACTIVE_USERS_EXPLAIN'		=> 'Esta é uma lista dos Utilizadores Registados, mas com os Registos ainda inactivos. Se desejares podes activar, apagar ou avisar (enviando um email) estes Utilizadores.',
+	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Lista dos 10 últimos Utilizadores Registados ainda inativos. As Contas estão inativas porque a sua activação está configurada para ser feita pelo próprio utilizador e estes ainda o não fizeram ou porque foram desactivadas. A lista completa está disponível através do item apropriado do menu ou clicando no atalho abaixo onde podes activar, apagar ou avisar (enviando um email) estes Utilizadores se desejares.',
 
 	'NO_INACTIVE_USERS'				=> 'Não há Utilizadores Inactivos',
 
@@ -596,8 +596,8 @@ $lang = array_merge($lang, [
 	'LOG_REPORT_CLOSED'						=> '<strong>Denúncia Bloqueada</strong><br />» %s',
 	'LOG_REPORT_DELETED'						=> '<strong>Denúncia Apagada</strong><br />» %s',
 	'LOG_RESTORE_TOPIC'						=> '<strong>Foi restaurado o Tópico “%1$s” escrito por</strong><br />» %2$s',
-	'LOG_SOFTDELETE_POST'					=> '<strong>Foi excluída a mensagem “%1$s” escrita por “%2$s” pelo seguinte motivo</strong><br />» %3$s',
-	'LOG_SOFTDELETE_TOPIC'					=> '<strong>Foi excluído o Tópico “%1$s” escrito por “%2$s” pelo seguinte motivo</strong><br />» %3$s',
+	'LOG_SOFTDELETE_POST'					=> '<strong>Foi apagada a mensagem “%1$s” escrita por “%2$s” pelo seguinte motivo</strong><br />» %3$s',
+	'LOG_SOFTDELETE_TOPIC'					=> '<strong>Foi apagado o Tópico “%1$s” escrito por “%2$s” pelo seguinte motivo</strong><br />» %3$s',
 	'LOG_SPLIT_DESTINATION'					=> '<strong>Tópico Subdividido</strong><br />» para %s',
 	'LOG_SPLIT_SOURCE'						=> '<strong>Mensagens Subdivididas</strong><br />» de %s',
 
@@ -734,8 +734,8 @@ $lang = array_merge($lang, [
 	'LOG_RESYNC_POST_MARKING'				=> '<strong>"Tópicos Marcados" ressincronizados</strong>',
 	'LOG_RESYNC_STATS'						=> '<strong>Estatísticas de Utilizadores, Tópicos e Mensagens ressincronizadas</strong>',
 
-	'LOG_SEARCH_INDEX_CREATED'				=> '<strong>Índice de busca criado por</strong><br />» %s',
-	'LOG_SEARCH_INDEX_REMOVED'				=> '<strong>Índice de busca excluído por</strong><br />» %s',
+	'LOG_SEARCH_INDEX_CREATED'				=> '<strong>Índice de pesquisa criado por</strong><br />» %s',
+	'LOG_SEARCH_INDEX_REMOVED'				=> '<strong>Índice de pesquisa apagado por</strong><br />» %s',
 	'LOG_SPHINX_ERROR'						=> '<strong>Erro de Sphinx</strong><br />» %s',
 
 	'LOG_SPAMHAUS_OPEN_RESOLVER'			=> 'A Spamhaus não permite consultas a partir de um resolvedor aberto. A verificação da lista negra foi desactivada. Para obter mais informações, consulta https://www.spamhaus.com/product/help-for-spamhaus-public-mirror-users/.',
@@ -810,7 +810,7 @@ $lang = array_merge($lang, [
 	'LOG_USER_GROUP_DEMOTE'					=> '<strong>Utilizadores Demitidos de Líderes no Grupo</strong><br />» %s',
 	'LOG_USER_GROUP_JOIN'					=> '<strong>Inscrição do Utilizador no Grupo</strong><br />» %s',
 	'LOG_USER_GROUP_JOIN_PENDING'			=> '<strong>O Utilizador inscreveu-se no Grupo e precisa de ser Aprovado</strong><br />» %s',
-	'LOG_USER_GROUP_RESIGN'					=> '<strong>Utilizador excluído do Grupo</strong><br />» %s',
+	'LOG_USER_GROUP_RESIGN'					=> '<strong>Utilizador saiu do Grupo</strong><br />» %s',
 
 	'LOG_WARNING_DELETED'					=> '<strong>Eliminados avisos de utilizadores</strong><br />» %s',
 	'LOG_WARNINGS_DELETED'		=> [

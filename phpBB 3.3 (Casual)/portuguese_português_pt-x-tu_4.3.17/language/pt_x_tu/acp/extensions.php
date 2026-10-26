@@ -71,7 +71,7 @@ $lang = array_merge($lang, [
 	'EXTENSION_NAME'					=> 'Nome da Extensão',
 	'EXTENSION_ACTIONS'				=> 'Ações',
 	'EXTENSION_OPTIONS'				=> 'Opções',
-	'EXTENSION_INSTALL_HEADLINE' 	=> 'Instalando uma extensão',
+	'EXTENSION_INSTALL_HEADLINE' 	=> 'A instalar uma extensão',
 	'EXTENSION_INSTALL_EXPLAIN'	=> '<ol>
 			<li>Transfira uma extensão da base de dados de extensões do phpBB</li>
 			<li>Descompacta a extensão e envia-la para a pasta <samp>ext/</samp> do teu fórum phpBB</li>
@@ -91,7 +91,7 @@ $lang = array_merge($lang, [
 			<li>Apaga os ficheiros da extensão do sistema de ficheiros</li>
 		</ol>',
 
-	'EXTENSION_DELETE_DATA_CONFIRM'		=> 'Tens a certeza que desejas excluir os dados associados à “%s”?<br /><br />Se continuares, serão removidos todos os dados e configurações. Esta ação não é reversível!',
+	'EXTENSION_DELETE_DATA_CONFIRM'		=> 'Tens a certeza que desejas apagar os dados associados à “%s”?<br /><br />Se continuares, serão removidos todos os dados e configurações. Esta ação não é reversível!',
 	'EXTENSION_DISABLE_CONFIRM'			=> 'Tens a certeza que desejas desativar a extensão “%s”?',
 	'EXTENSION_ENABLE_CONFIRM'				=> 'Tens a certeza que desejas ativar a extensão “%s”?',
 	'EXTENSION_FORCE_UNSTABLE_CONFIRM'	=> 'Tens a certeza que desejas forçar o uso de versões instáveis?',

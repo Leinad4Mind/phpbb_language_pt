@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang)) {
 
 $lang = array_merge($lang, array(
 	'ACP_ATTACHMENT_SETTINGS_EXPLAIN'	=> 'Aqui pode configurar as Opções Principais para os Anexos e Categorias Especiais associadas.',
-	'ACP_EXTENSION_GROUPS_EXPLAIN'		=> 'Aqui pode adicionar, excluir, modificar e desativar as Extensões. Consulte o Painel Gestor de Grupos de Extensões. Recomenda-se que não permita extensões de scripts (tipo: php, php3, php4, phtml, pl, cgi, py, rb, asp, aspx, entre outras…), por serem potencialmente perigosas.',
+	'ACP_EXTENSION_GROUPS_EXPLAIN'		=> 'Aqui pode adicionar, apagar, modificar e desativar as Extensões. Consulte o Painel Gestor de Grupos de Extensões. Recomenda-se que não permita extensões de scripts (tipo: php, php3, php4, phtml, pl, cgi, py, rb, asp, aspx, entre outras…), por serem potencialmente perigosas.',
 	'ACP_MANAGE_EXTENSIONS_EXPLAIN'		=> 'Aqui pode controlar as Extensões permitidas. Para ativar as suas Extensões, consulte por favor o Painel de Gestão dos Grupos das Extensões. Recomenda-se que não permita extensões de scripts (tipo: php, php3, php4, phtml, pl, cgi, py, rb, asp, aspx, entre outras…), por serem potencialmente perigosas.',
 	'ACP_ORPHAN_ATTACHMENTS_EXPLAIN'	=> 'Estes são os Ficheiros que não estão associados a uma Mensagem.',
 	'ADD_EXTENSION'						=> 'Adicionar Extensão',
@@ -80,14 +80,14 @@ $lang = array_merge($lang, array(
 	'DEFINE_ALLOWED_IPS'				=> 'Definir IPs/Servidores autorizados',
 	'DEFINE_DISALLOWED_IPS'				=> 'Definir IPs/Servidores proibidos',
 	'DOWNLOAD_ADD_IPS_EXPLAIN'			=> 'Para definir vários IPs ou Servidores diferentes, introduza cada um numa nova linha. Para definir uma faixa de endereços de IP separe o início e o fim com um hífen (-). Pode utilizar asteriscos (*)',
-	'DOWNLOAD_REMOVE_IPS_EXPLAIN'		=> 'Pode remover (ou não-excluir) múltiplos endereços de IPs de uma única vez usando a combinação apropriada de rato e teclado para seu computador e navegador. IPs apagados têm um fundo em azul.',
+	'DOWNLOAD_REMOVE_IPS_EXPLAIN'		=> 'Pode remover (ou não-excluir) múltiplos endereços de IPs de uma única vez usando a combinação apropriada de rato e teclado do seu computador e navegador. IPs excluídos têm um fundo em azul.',
 	'DISPLAY_INLINED'					=> 'Mostrar Imagens',
 	'DISPLAY_INLINED_EXPLAIN'			=> 'Se escolher Não as imagens anexadas serão mostradas como atalhos.',
 	'DISPLAY_ORDER'						=> 'Ordem de visualização dos Anexos',
 	'DISPLAY_ORDER_EXPLAIN'				=> 'Os anexos são ordenados pela hora de envio.',
 
 	'EDIT_EXTENSION_GROUP'				=> 'Editar Grupo de Extensões',
-	'EXCLUDE_ENTERED_IP'				=> 'Ative para excluir o IP/Servidor digitado.',
+	'EXCLUDE_ENTERED_IP'				=> 'Ative para excluir o IP/Servidor introduzido.',
 	'EXCLUDE_FROM_ALLOWED_IP'			=> 'Excluir IP dos IPs/Servidores autorizados',
 	'EXCLUDE_FROM_DISALLOWED_IP'		=> 'Excluir IP dos IPs/Servidores proibidos',
 	'EXTENSIONS_UPDATED'				=> 'Extensões atualizadas com sucesso.',
@@ -107,7 +107,7 @@ $lang = array_merge($lang, array(
 	'EXT_GROUP_REAL_MEDIA'				=> 'Real Média',
 	'EXT_GROUP_WINDOWS_MEDIA'			=> 'Windows Média',
 
-	'GO_TO_EXTENSIONS'					=> 'Vá para a Tela de Gestão de Extensões',
+	'GO_TO_EXTENSIONS'					=> 'Vá para a Página de Gestão de Extensões',
 	'GROUP_NAME'						=> 'Nome do Grupo',
 
 	'IMAGE_LINK_SIZE'					=> 'Dimensões para o atalho de Imagem',

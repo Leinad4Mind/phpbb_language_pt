@@ -112,7 +112,7 @@ $lang = array_merge($lang, array(
 	'ACP_LANGUAGE'					=> 'Administração de Idiomas',
 	'ACP_LANGUAGE_PACKS'			=> 'Pacotes de Idiomas',
 	'ACP_LOAD_SETTINGS'				=> 'Configurações de Carga',
-	'ACP_LOGGING'					=> 'Ligando',
+	'ACP_LOGGING'					=> 'Registos',
 
 	'ACP_MAIN'						=> 'Índice Principal',
 	'ACP_MANAGE_EXTENSIONS'			=> 'Administrar Extensões',
@@ -358,16 +358,16 @@ $lang = array_merge($lang, array(
 	'PURGE_CACHE_EXPLAIN'			=> 'Apagar a Cache, incluindo a dos Templates e de consulta à Base de Dados.',
 
 	'PURGE_SESSIONS'				=> 'Terminar todas as sessões',
-	'PURGE_SESSIONS_CONFIRM'		=> 'Tem certeza que desejar para terminar todas as sessões? Esta acção terminará as sessões de todos os utilizadores.',
+	'PURGE_SESSIONS_CONFIRM'		=> 'Tem a certeza que desejar para terminar todas as sessões? Esta acção terminará as sessões de todos os utilizadores.',
 	'PURGE_SESSIONS_EXPLAIN'		=> 'Esta acção encerra a tabela de sessões, provocando a saída de todos os utilizadores.',
 
 	'RESET_DATE'					=> 'Reiniciar Data',
-	'RESET_DATE_CONFIRM'			=> 'Tem certeza que deseja reiniciar a Data de inicio do Painel?',
+	'RESET_DATE_CONFIRM'			=> 'Tem a certeza que deseja reiniciar a Data de inicio do Painel?',
 	'RESET_ONLINE'					=> 'Reiniciar Online',
 	'RESET_ONLINE_CONFIRM'			=> 'Tem a certeza de que deseja reiniciar o contador do Recorde de Utilizadores online?',
 	'RESYNC_POSTCOUNTS'				=> 'Sincronizar contagem de Mensagens',
 	'RESYNC_POSTCOUNTS_EXPLAIN'		=> 'Apenas são consideradas as mensagens actuais.',
-	'RESYNC_POSTCOUNTS_CONFIRM'		=> 'Tem certeza que deseja ressincronizar o contador de mensagens?',
+	'RESYNC_POSTCOUNTS_CONFIRM'		=> 'Tem a certeza que deseja ressincronizar o contador de mensagens?',
 	'RESYNC_POST_MARKING'			=> 'Sincronizar Tópicos Recentes',
 	'RESYNC_POST_MARKING_CONFIRM'	=> 'Tem a certeza que deseja ressincronizar os Tópicos recentes?',
 	'RESYNC_POST_MARKING_EXPLAIN'	=> 'Primeiro desmarca todos os Tópicos. Finalmente marca correctamente os Tópicos com actividade nos últimos seis meses.',
@@ -404,8 +404,8 @@ $lang = array_merge($lang, array(
 	'INACTIVE_REASON_REMIND'		=> 'Forçar Reactivação de Registo do Utilizador',
 	'INACTIVE_REASON_UNKNOWN'		=> 'Desconhecido',
 	'INACTIVE_USERS'				=> 'Utilizadores Inactivos',
-	'INACTIVE_USERS_EXPLAIN'		=> 'Esta é uma lista dos Utilizadores Registados, mas com os Registos ainda inactivos. Se desejar pode activar, excluir ou avisar (enviando um email) estes Utilizadores.',
-	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Lista dos 10 últimos Utilizadores Registados ainda inactivos. As Contas estão inactivas porque a sua activação está configurada para ser feita pelo próprio utilizador e estes ainda o não fizeram ou porque foram desactivadas. A lista completa está disponível através do item apropriado do Menu ou clicando no atalho abaixo onde pode activar, excluir ou avisar (enviando um email) estes Utilizadores se desejar.',
+	'INACTIVE_USERS_EXPLAIN'		=> 'Esta é uma lista dos Utilizadores Registados, mas com os Registos ainda inactivos. Se desejar pode activar, apagar ou avisar (enviando um email) estes Utilizadores.',
+	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Lista dos 10 últimos Utilizadores Registados ainda inactivos. As Contas estão inactivas porque a sua activação está configurada para ser feita pelo próprio utilizador e estes ainda o não fizeram ou porque foram desactivadas. A lista completa está disponível através do item apropriado do Menu ou clicando no atalho abaixo onde pode activar, apagar ou avisar (enviando um email) estes Utilizadores se desejar.',
 
 	'NO_INACTIVE_USERS'				=> 'Não há Utilizadores Inactivos',
 
@@ -422,7 +422,7 @@ $lang = array_merge($lang, array(
 // Send statistics page
 $lang = array_merge($lang, array(
 	'EXPLAIN_SEND_STATISTICS'		=> 'Por favor, envie informação acerca do seu servidor e configurações do Fórum para análise de estatística do phpBB. Toda a informação que possa identificá-lo a si ou ao seu website será removida - os dados são totalmente <strong>anónimos</strong>. Basearemos as nossas decisões sobre as futuras versões de phpBB com esta informação. As estatísticas serão publicamente disponibilizadas. Compartilharemos igualmente os dados com o projecto PHP, a linguagem de programação phpBB é baseada nele.',
-	'EXPLAIN_SHOW_STATISTICS'		=> 'Usando o botão abaixo pode visualizar todas as variáveis que serão transmitidas.',
+	'EXPLAIN_SHOW_STATISTICS'		=> 'A usar o botão abaixo pode visualizar todas as variáveis que serão transmitidas.',
 	'DONT_SEND_STATISTICS'			=> 'Clique aqui para entrar no ACP, se não deseja enviar as informações estatísticas para o phpBB.',
 	'GO_ACP_MAIN'					=> 'Ir para a página inicial do ACP',
 	'HIDE_STATISTICS'				=> 'Esconder detalhes',
@@ -604,7 +604,7 @@ $lang = array_merge($lang, array(
 	'LOG_INSTALL_CONVERTED'					=> '<strong>Actualizado de %1$s para o phpBB %2$s</strong>',
 	'LOG_INSTALL_INSTALLED'					=> '<strong>Versão do phpBB instalada %s</strong>',
 
-	'LOG_IP_BROWSER_FORWARDED_CHECK'		=> '<strong>A verificação da sessão de IP/navegador/X_FORWARDED_FOR falhou</strong><br />»Verificado o endereço de IP do Utilizador "<em>%1$s</em>" em contraste com a sessão de IP "<em>%2$s</em>", verificado o navegador do Utilizadores "<em>%3$s</em>" em contraste com a sessão de navegador "<em>%4$s</em>" e verificado o X_FORWARDED_FOR do usuário "<em>%5$s</em>" em contraste com a sessão de X_FORWARDED_FOR "<em>%6$s</em>".',
+	'LOG_IP_BROWSER_FORWARDED_CHECK'		=> '<strong>A verificação da sessão de IP/navegador/X_FORWARDED_FOR falhou</strong><br />»Verificado o endereço de IP do Utilizador "<em>%1$s</em>" em contraste com a sessão de IP "<em>%2$s</em>", verificado o navegador do Utilizadores "<em>%3$s</em>" em contraste com a sessão de navegador "<em>%4$s</em>" e verificado o X_FORWARDED_FOR do utilizador "<em>%5$s</em>" em contraste com a sessão de X_FORWARDED_FOR "<em>%6$s</em>".',
 
 	'LOG_JAB_CHANGED'						=> '<strong>Registo de Jabber Alterado</strong>',
 	'LOG_JAB_PASSCHG'						=> '<strong>Senha de Jabber Alterada</strong>',
@@ -673,8 +673,8 @@ $lang = array_merge($lang, array(
 	'LOG_RESYNC_POST_MARKING'				=> '<strong>Tópicos Pontilhados Ressincronizados</strong>',
 	'LOG_RESYNC_STATS'						=> '<strong>Estatísticas de Utilizadores, Tópicos e Mensagens Ressincronizadas</strong>',
 
-	'LOG_SEARCH_INDEX_CREATED'				=> '<strong>Índice de busca criado por</strong><br />» %s',
-	'LOG_SEARCH_INDEX_REMOVED'				=> '<strong>Índice de busca excluído por</strong><br />» %s',
+	'LOG_SEARCH_INDEX_CREATED'				=> '<strong>Índice de pesquisa criado por</strong><br />» %s',
+	'LOG_SEARCH_INDEX_REMOVED'				=> '<strong>Índice de pesquisa apagado por</strong><br />» %s',
 	'LOG_STYLE_ADD'							=> '<strong>Template Adicionada</strong><br />» %s',
 	'LOG_STYLE_DELETE'						=> '<strong>Template Apagada</strong><br />» %s',
 	'LOG_STYLE_EDIT_DETAILS'				=> '<strong>Template Editada</strong><br />» %s',
@@ -738,7 +738,7 @@ $lang = array_merge($lang, array(
 	'LOG_USER_GROUP_DEMOTE'					=> '<strong>Utilizadores Demitidos de Líderes no Grupo</strong><br />» %s',
 	'LOG_USER_GROUP_JOIN'					=> '<strong>Inscrição do Utilizador no Grupo</strong><br />» %s',
 	'LOG_USER_GROUP_JOIN_PENDING'			=> '<strong>O Utilizador inscreveu-se no Grupo e precisa de ser Aprovado</strong><br />» %s',
-	'LOG_USER_GROUP_RESIGN'					=> '<strong>Utilizador excluído do Grupo</strong><br />» %s',
+	'LOG_USER_GROUP_RESIGN'					=> '<strong>Utilizador saiu do Grupo</strong><br />» %s',
 
 	'LOG_WARNING_DELETED'					=> '<strong>Eliminado utilizador avisado</strong><br />» %s',
 	'LOG_WARNINGS_DELETED'					=> '<strong>Eliminados %2$s utilizadores avisados</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username'

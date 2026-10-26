@@ -117,12 +117,12 @@ $lang = array_merge($lang, array(
 	'ACP_LANGUAGE'					=> 'Administração de Idiomas',
 	'ACP_LANGUAGE_PACKS'			=> 'Administração de Idiomas',
 	'ACP_LOAD_SETTINGS'				=> 'Configurações de Carga',
-	'ACP_LOGGING'					=> 'Ligando',
+	'ACP_LOGGING'					=> 'Registos',
 
 	'ACP_MAIN'						=> 'Índice Principal',
 
 	'ACP_MANAGE_ATTACHMENTS'			=> 'Administrar anexos',
-	'ACP_MANAGE_ATTACHMENTS_EXPLAIN'	=> 'Aqui pode listar e excluir ficheiros anexados a mensagens e mensagens privadas.',
+	'ACP_MANAGE_ATTACHMENTS_EXPLAIN'	=> 'Aqui pode listar e apagar ficheiros anexados a mensagens e mensagens privadas.',
 
 	'ACP_MANAGE_EXTENSIONS'			=> 'Administrar Extensões',
 	'ACP_MANAGE_FORUMS'				=> 'Administrar Fóruns',
@@ -290,7 +290,7 @@ $lang = array_merge($lang, array(
 	'REMIND'						=> 'Lembrar',
 	'RESYNC'						=> 'Ressincronizar',
 
-	'RUNNING_TASK'					=> 'Executando as tarefas: %s.',
+	'RUNNING_TASK'					=> 'A executar as tarefas: %s.',
 	'SELECT_ANONYMOUS'				=> 'Selecionar Utilizador Anónimo',
 	'SELECT_OPTION'					=> 'Selecionar Opção',
 
@@ -439,8 +439,8 @@ $lang = array_merge($lang, array(
 	'INACTIVE_REASON_REMIND'		=> 'Forçar Reativação de Registo do Utilizador',
 	'INACTIVE_REASON_UNKNOWN'		=> 'Desconhecido',
 	'INACTIVE_USERS'				=> 'Utilizadores Inativos',
-	'INACTIVE_USERS_EXPLAIN'		=> 'Esta é uma lista dos Utilizadores Registados, mas com os Registos ainda inativos. Se desejar pode ativar, excluir ou avisar (enviando um email) estes Utilizadores.',
-	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Lista dos 10 últimos Utilizadores Registados ainda inativos. As Contas estão inativas porque a sua ativação está configurada para ser feita pelo próprio utilizador e estes ainda o não fizeram ou porque foram desativadas. A lista completa está disponível através do item apropriado do menu ou clicando no atalho abaixo onde pode ativar, excluir ou avisar (enviando um email) estes Utilizadores se desejar.',
+	'INACTIVE_USERS_EXPLAIN'		=> 'Esta é uma lista dos Utilizadores Registados, mas com os Registos ainda inativos. Se desejar pode ativar, apagar ou avisar (enviando um email) estes Utilizadores.',
+	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Lista dos 10 últimos Utilizadores Registados ainda inativos. As Contas estão inativas porque a sua ativação está configurada para ser feita pelo próprio utilizador e estes ainda o não fizeram ou porque foram desativadas. A lista completa está disponível através do item apropriado do menu ou clicando no atalho abaixo onde pode ativar, apagar ou avisar (enviando um email) estes Utilizadores se desejar.',
 
 	'NO_INACTIVE_USERS'				=> 'Não há Utilizadores Inativos',
 
@@ -457,7 +457,7 @@ $lang = array_merge($lang, array(
 // Send statistics page
 $lang = array_merge($lang, array(
 	'EXPLAIN_SEND_STATISTICS'		=> 'Por favor, envie informação acerca do seu servidor e configurações do Fórum para análise de estatística do phpBB. Toda a informação que possa identificá-lo a si ou ao seu website será removida - os dados são totalmente <strong>anónimos</strong>. Basearemos as nossas decisões sobre as futuras versões de phpBB com esta informação. As estatísticas serão publicamente disponibilizadas. Compartilharemos igualmente os dados com o projeto PHP, a linguagem de programação phpBB é baseada nele.',
-	'EXPLAIN_SHOW_STATISTICS'		=> 'Usando o botão abaixo pode visualizar todas as variáveis que serão transmitidas.',
+	'EXPLAIN_SHOW_STATISTICS'		=> 'A usar o botão abaixo pode visualizar todas as variáveis que serão transmitidas.',
 	'DONT_SEND_STATISTICS'			=> 'Clique aqui para entrar no ACP, se não deseja enviar as informações estatísticas para o phpBB.',
 	'GO_ACP_MAIN'					=> 'Ir para a página inicial do ACP',
 	'HIDE_STATISTICS'				=> 'Esconder detalhes',
@@ -570,8 +570,8 @@ $lang = array_merge($lang, array(
 	'LOG_REPORT_CLOSED'						=> '<strong>Denúncia Bloqueada</strong><br />» %s',
 	'LOG_REPORT_DELETED'					=> '<strong>Denúncia Apagada</strong><br />» %s',
 	'LOG_RESTORE_TOPIC'						=> '<strong>Foi restaurado o Tópico “%1$s” escrito por</strong><br />» %2$s',
-	'LOG_SOFTDELETE_POST'					=> '<strong>Foi excluída a mensagem “%1$s” escrita por “%2$s” pelo seguinte motivo</strong><br />» %3$s',
-	'LOG_SOFTDELETE_TOPIC'					=> '<strong>Foi excluído o Tópico “%1$s” escrito por “%2$s” pelo seguinte motivo</strong><br />» %3$s',
+	'LOG_SOFTDELETE_POST'					=> '<strong>Foi apagada a mensagem “%1$s” escrita por “%2$s” pelo seguinte motivo</strong><br />» %3$s',
+	'LOG_SOFTDELETE_TOPIC'					=> '<strong>Foi apagado o Tópico “%1$s” escrito por “%2$s” pelo seguinte motivo</strong><br />» %3$s',
 	'LOG_SPLIT_DESTINATION'					=> '<strong>Tópico Subdividido</strong><br />» para %s',
 	'LOG_SPLIT_SOURCE'						=> '<strong>Mensagens Subdivididas</strong><br />» de %s',
 
@@ -708,8 +708,8 @@ $lang = array_merge($lang, array(
 	'LOG_RESYNC_POST_MARKING'				=> '<strong>"Tópicos Marcados" ressincronizados</strong>',
 	'LOG_RESYNC_STATS'						=> '<strong>Estatísticas de Utilizadores, Tópicos e Mensagens ressincronizadas</strong>',
 
-	'LOG_SEARCH_INDEX_CREATED'				=> '<strong>Índice de busca criado por</strong><br />» %s',
-	'LOG_SEARCH_INDEX_REMOVED'				=> '<strong>Índice de busca excluído por</strong><br />» %s',
+	'LOG_SEARCH_INDEX_CREATED'				=> '<strong>Índice de pesquisa criado por</strong><br />» %s',
+	'LOG_SEARCH_INDEX_REMOVED'				=> '<strong>Índice de pesquisa apagado por</strong><br />» %s',
 	'LOG_SPHINX_ERROR'						=> '<strong>Erro de Sphinx</strong><br />» %s',
 	'LOG_STYLE_ADD'							=> '<strong>Template Adicionado</strong><br />» %s',
 	'LOG_STYLE_DELETE'						=> '<strong>Template Apagado</strong><br />» %s',
@@ -780,7 +780,7 @@ $lang = array_merge($lang, array(
 	'LOG_USER_GROUP_DEMOTE'					=> '<strong>Utilizadores Demitidos de Líderes no Grupo</strong><br />» %s',
 	'LOG_USER_GROUP_JOIN'					=> '<strong>Inscrição do Utilizador no Grupo</strong><br />» %s',
 	'LOG_USER_GROUP_JOIN_PENDING'			=> '<strong>O Utilizador inscreveu-se no Grupo e precisa de ser Aprovado</strong><br />» %s',
-	'LOG_USER_GROUP_RESIGN'					=> '<strong>Utilizador excluído do Grupo</strong><br />» %s',
+	'LOG_USER_GROUP_RESIGN'					=> '<strong>Utilizador saiu do Grupo</strong><br />» %s',
 
 	'LOG_WARNING_DELETED'					=> '<strong>Eliminados utilizadores avisados</strong><br />» %s',
 	'LOG_WARNINGS_DELETED'		=> array(

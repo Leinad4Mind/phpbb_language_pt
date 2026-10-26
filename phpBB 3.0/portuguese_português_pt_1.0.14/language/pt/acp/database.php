@@ -59,7 +59,7 @@ $lang = array_merge($lang, array(
 
 	'RESTORE_FAILURE'			=> 'O Ficheiro da Cópia de Segurança deve estar corrompido.',
 	'RESTORE_OPTIONS'			=> 'Opções de restauração',
-	'RESTORE_SELECTED_BACKUP'	=> 'Tem certeza que deseja restaurar a Cópia de Segurança selecionada?',
+	'RESTORE_SELECTED_BACKUP'	=> 'Tem a certeza que deseja restaurar a Cópia de Segurança selecionada?',
 	'RESTORE_SUCCESS'			=> 'A Base de Dados foi restaurada com sucesso.<br /><br />O Fórum deverá estar de acordo com o momento em que a cópia de segurança foi feita.',
 
 	'SELECT_ALL'				=> 'Marcar todas',

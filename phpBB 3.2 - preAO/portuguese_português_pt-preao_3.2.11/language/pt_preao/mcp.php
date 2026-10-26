@@ -93,7 +93,7 @@ $lang = array_merge($lang, array(
 	'DISPLAY_OPTIONS'					=> 'Opções de exibição',
 
 	'EMPTY_REPORT'						=> 'Tem que introduzir uma descrição quando utiliza este motivo.',
-	'EMPTY_TOPICS_REMOVED_WARNING'		=> 'Um ou mais Tópicos foram excluídos da Base de Dados porque eram ou tornaram-se vazios.',
+	'EMPTY_TOPICS_REMOVED_WARNING'		=> 'Um ou mais Tópicos foram removidos da Base de Dados porque eram ou tornaram-se vazios.',
 
 	'FEEDBACK'							=> 'Relatório',
 	'FORK'								=> 'Copiar',
@@ -203,10 +203,10 @@ $lang = array_merge($lang, array(
 	'MCP_QUEUE_UNAPPROVED_POSTS_EXPLAIN'	=> 'Lista de Mensagens que aguardam aprovação para se tornarem visíveis aos Utilizadores.',
 	'MCP_QUEUE_UNAPPROVED_TOPICS'		=> 'Tópicos para aprovação',
 	'MCP_QUEUE_UNAPPROVED_TOPICS_EXPLAIN'	=> 'Lista de Tópicos que aguardam aprovação para se tornarem visíveis aos Utilizadores.',
-	'MCP_QUEUE_DELETED_POSTS'				=> 'Mensagens excluídas',
-	'MCP_QUEUE_DELETED_POSTS_EXPLAIN'		=> 'Esta é uma lista de todas as mensagens excluídas. Pode restaurar ou apagar permanentemente todas as mensagens.',
-	'MCP_QUEUE_DELETED_TOPICS'				=> 'Tópicos excluídos',
-	'MCP_QUEUE_DELETED_TOPICS_EXPLAIN'		=> 'Esta é uma lista de todos os tópicos excluídos. Pode restaurar ou apagar permanentemente todos os tópicos.',
+	'MCP_QUEUE_DELETED_POSTS'				=> 'Mensagens apagadas',
+	'MCP_QUEUE_DELETED_POSTS_EXPLAIN'		=> 'Esta é uma lista de todas as mensagens apagadas. Pode restaurar ou apagar permanentemente todas as mensagens.',
+	'MCP_QUEUE_DELETED_TOPICS'				=> 'Tópicos apagados',
+	'MCP_QUEUE_DELETED_TOPICS_EXPLAIN'		=> 'Esta é uma lista de todos os tópicos apagados. Pode restaurar ou apagar permanentemente todos os tópicos.',
 
 	'MCP_VIEW_USER'						=> 'Ver avisos dum Utilizador específico',
 
@@ -217,7 +217,7 @@ $lang = array_merge($lang, array(
 	'MCP_WARN_USER'						=> 'Avisar Utilizador',
 
 	'MERGE_POSTS_CONFIRM'				=> 'Deseja fundir as Mensagens seleccionadas?',
-	'MERGE_TOPIC_EXPLAIN'				=> 'Use este formulário para fundir Mensagens com Tópicos. Depois de fundidas, as mensagens comportam-se como se tivessem sido enviadas originalmente para o Tópico.<br />Digite a ID do Tópico de destino da mensagem ou clique em “Escolher Tópico” e procure-o na lista.',
+	'MERGE_TOPIC_EXPLAIN'				=> 'Use este formulário para fundir Mensagens com Tópicos. Depois de fundidas, as mensagens comportam-se como se tivessem sido enviadas originalmente para o Tópico.<br />Introduza a ID do Tópico de destino da mensagem ou clique em “Escolher Tópico” e procure-o na lista.',
 	'MERGE_TOPIC_ID'					=> 'ID do Tópico de destino',
 	'MERGE_TOPICS'						=> 'Fundir Tópicos',
 	'MERGE_TOPICS_CONFIRM'				=> 'Tem a certeza que deseja fundir os Tópicos seleccionados?',
@@ -244,7 +244,7 @@ $lang = array_merge($lang, array(
 	'NO_POST'							=> 'Tem que seleccionar a Mensagem cujo conteúdo quer avisar o Utilizador.',
 	'NO_POST_REPORT'					=> 'Esta Mensagem não foi relatada.',
 	'NO_POST_SELECTED'					=> 'Deve seleccionar pelo menos uma Mensagem para realizar esta acção.',
-	'NO_POSTS_DELETED'					=> 'Não há mensagens excluídas.',
+	'NO_POSTS_DELETED'					=> 'Não há mensagens apagadas.',
 	'NO_POSTS_QUEUE'					=> 'Não há mensagens à espera de aprovação.',
 	'NO_REASON_DISAPPROVAL'				=> 'Por favor, justifique a desaprovação.',
 	'NO_REPORT'							=> 'Nenhuma denúncia encontrada',
@@ -252,7 +252,7 @@ $lang = array_merge($lang, array(
 	'NO_REPORT_SELECTED'				=> 'Deve seleccionar pelo menos uma denúncia para realizar esta acção.',
 	'NO_TOPIC_ICON'						=> 'Nenhum',
 	'NO_TOPIC_SELECTED'					=> 'Deve seleccionar ao menos um Tópico para realizar esta acção.',
-	'NO_TOPICS_DELETED'					=> 'Não há tópicos excluídos.',
+	'NO_TOPICS_DELETED'					=> 'Não há tópicos apagados.',
 	'NO_TOPICS_QUEUE'					=> 'Sem Tópicos',
 
 	'ONLY_TOPIC'						=> 'Apenas o Tópico "%s"',
@@ -353,7 +353,7 @@ $lang = array_merge($lang, array(
 	'SPLIT_TOPIC_ALL_CONFIRM'			=> 'Tem a certeza que deseja dividir este Tópico?',
 	'SPLIT_TOPIC_BEYOND'				=> 'Dividir o Tópico em Mensagens seleccionadas',
 	'SPLIT_TOPIC_BEYOND_CONFIRM'		=> 'Tem a certeza que deseja dividir este Tópico na Mensagem seleccionada?',
-	'SPLIT_TOPIC_EXPLAIN'				=> 'Usando este formulário pode dividir um Tópico em dois, ao seleccionar as Mensagens do novo Tópico.',
+	'SPLIT_TOPIC_EXPLAIN'				=> 'Ao usar este formulário pode dividir um Tópico em dois, ao seleccionar as Mensagens do novo Tópico.',
 
 	'THIS_PM_IP'						=> 'IP para esta Mensagem Privada',
 	'THIS_POST_IP'						=> 'IP para esta Mensagem',

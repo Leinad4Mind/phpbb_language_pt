@@ -41,7 +41,7 @@ $lang = array_merge($lang, [
 
 	'COMMON_WORD_THRESHOLD'						=> 'Limite de palavras comuns',
 	'COMMON_WORD_THRESHOLD_EXPLAIN'			=> 'Palavras que estão incluídas em grande percentagem em todas as Mensagens são consideradas comuns. As palavras comuns são ignoradas nas pesquisas. Escreve zero para desativar esta opção. Esta opção só terá efeito se o Fórum tiver mais de 100 Mensagens.',
-	'CONFIRM_SEARCH_BACKEND'					=> 'Desejas alterar o modo de pesquisa? Depois de modificares o teu modo de pesquisa, deverás criar um novo índice para o novo modo selecionado. Se não planeias voltar ao teu modo de pesquisa antigo, poderás excluí-lo.',
+	'CONFIRM_SEARCH_BACKEND'					=> 'Desejas alterar o modo de pesquisa? Depois de modificares o teu modo de pesquisa, deverás criar um novo índice para o novo modo selecionado. Se não planeias voltar ao teu modo de pesquisa antigo, poderás apagar o índice do modo antigo.',
 	'CONTINUE_DELETING_INDEX'					=> 'Continuar processo de exclusão de índice',
 	'CONTINUE_DELETING_INDEX_EXPLAIN'		=> 'Um processo de exclusão de índice foi iniciado. Para voltares a aceder à página de índice da pesquisa, deves completar o processo ou cancelá-lo.',
 	'CONTINUE_INDEXING'							=> 'Continuar com o processo de indexar anterior',
@@ -51,7 +51,7 @@ $lang = array_merge($lang, [
 	'DEFAULT_SEARCH_RETURN_CHARS'				=> 'Número de caracteres retornados por padrão',
 	'DEFAULT_SEARCH_RETURN_CHARS_EXPLAIN'	=> 'O número padrão de caracteres que serão retornados durante a pesquisa. Um valor 0 retornará a mensagem inteira.',
 	'DELETE_INDEX'									=> 'Apagar Índice',
-	'DELETING_INDEX_IN_PROGRESS'				=> 'Excluindo o Índice em progresso...',
+	'DELETING_INDEX_IN_PROGRESS'				=> 'A apagar o Índice...',
 	'DELETING_INDEX_IN_PROGRESS_EXPLAIN'	=> 'A pesquisa está a apagar os Índices. Esta ação pode levar alguns minutos.',
 
 	'FULLTEXT_MYSQL_INCOMPATIBLE_DATABASE'		=> 'O MySQL só permite modo de pesquisa de texto completo a partir da versão MySQL4.',
