@@ -45,7 +45,7 @@ $lang = array_merge($lang, [
 	'CHANGED_DEFAULT_GROUP'			=> 'Grupo Padrão foi mudado.',
 
 	'GROUP_AVATAR'						=> 'Avatar do Grupo',
-	'GROUP_CHANGE_DEFAULT'			=> 'Tens a certeza que desejas alterar o teu Grupo Padrão para o “%s”?',
+	'GROUP_CHANGE_DEFAULT'			=> 'Tens a certeza que desejas alterar o teu Grupo Padrão para o "%s"?',
 	'GROUP_CLOSED'						=> 'Fechado',
 	'GROUP_DESC'						=> 'Descrição do Grupo',
 	'GROUP_HIDDEN'						=> 'Escondido',
@@ -87,7 +87,7 @@ $lang = array_merge($lang, [
 
 	'REMOVE_SELECTED'						=> 'Remover Seleccionado',
 
-	'USER_GROUP_CHANGE'					=> 'Do grupo “%1$s” para “%2$s”',
+	'USER_GROUP_CHANGE'					=> 'Do grupo "%1$s" para "%2$s"',
 	'USER_GROUP_DEMOTE'					=> 'Líder do Grupo',
 	'USER_GROUP_DEMOTE_CONFIRM'		=> 'Tens a certeza de que desejas tornar-te Líder do Grupo Seleccionado?',
 	'USER_GROUP_DEMOTED'					=> 'Tornaste-te Líder do Grupo com sucesso.',

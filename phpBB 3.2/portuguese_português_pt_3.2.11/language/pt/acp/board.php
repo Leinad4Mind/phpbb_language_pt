@@ -39,7 +39,7 @@ if (empty($lang) || !is_array($lang)) {
 $lang = array_merge($lang, array(
 	'ACP_BOARD_SETTINGS_EXPLAIN'	=> 'Aqui pode definir as configurações básicas do phpBB e as configurações gerais do Fórum.',
 	'BOARD_INDEX_TEXT'				=> 'Texto Índice do Fórum',
-	'BOARD_INDEX_TEXT_EXPLAIN'		=> 'Texto que será mostrado no board’s breadcrumbs (Navegação estrutural). Se não for indicado, o texto mostrado será Board index',
+	'BOARD_INDEX_TEXT_EXPLAIN'		=> 'Texto que será mostrado como índice do fórum na navegação estrutural (breadcrumbs). Se não for indicado, será mostrado "Índice do Fórum".',
 	'BOARD_STYLE'					=> 'Estilo do Fórum',
 	'CUSTOM_DATEFORMAT'				=> 'Personalizado...',
 	'DEFAULT_DATE_FORMAT'			=> 'Formato da Data',
@@ -287,12 +287,12 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_TOPICS_NEW'				=> 'Ativar Feeds nos Tópicos novos',
 	'ACP_FEED_TOPICS_NEW_EXPLAIN'		=> 'Ativa Feeds nos "Tópicos Novos", exibindo os últimos Tópicos criados, incluindo a primeira mensagem.',
 	'ACP_FEED_TOPICS_ACTIVE'			=> 'Ativar Feeds nos Tópicos ativos',
-	'ACP_FEED_TOPICS_ACTIVE_EXPLAIN'	=> 'Ativa Feeds nos "Tópicos ativos”, exibindo os últimos Tópicos ativos, incluindo as últimas mensagens.',
+	'ACP_FEED_TOPICS_ACTIVE_EXPLAIN'	=> 'Ativa Feeds nos "Tópicos ativos", exibindo os últimos Tópicos ativos, incluindo as últimas mensagens.',
 	'ACP_FEED_NEWS'						=> 'Notícias Feed',
 	'ACP_FEED_NEWS_EXPLAIN'				=> 'Selecione a primeira mensagem destes Fóruns. Selecione nenhum Fórum para desativar o Feed de notícias.<br>Selecione múltiplos Fóruns clicando na tecla <samp>CTRL</samp> e clicando no Fórum.',
 
 	'ACP_FEED_OVERALL_FORUMS'			=> 'Ativar Feed nos Fóruns',
-	'ACP_FEED_OVERALL_FORUMS_EXPLAIN'	=> 'Permite mostrar a lista de “Todos os Fóruns” com Feed.',
+	'ACP_FEED_OVERALL_FORUMS_EXPLAIN'	=> 'Permite mostrar a lista de "Todos os Fóruns" com Feed.',
 
 	'ACP_FEED_HTTP_AUTH'				=> 'Permitir Autenticação HTTP',
 	'ACP_FEED_HTTP_AUTH_EXPLAIN'		=> 'Permite aos utilizadores receber o conteúdo oculto para visitantes adicionando o parâmetro <samp>auth=http</samp> ao URL do feed. Note por favor que algumas configurações do PHP exigem mudanças adicionais no ficheiro .htaccess. As instruções podem ser encontradas no ficheiro.',
@@ -383,7 +383,7 @@ $lang = array_merge($lang, array(
 	'ACP_LOAD_SETTINGS_EXPLAIN'				=> 'Aqui pode ativar e desativar certas funções do Fórum que podem reduzir o total de processamento pedido. Para a maioria dos Servidores não é necessário desativar nenhuma função. No entanto, em certos sistemas ou em ambientes de hospedagem compartilhada pode ser benéfico se desativar alguns recursos que não sejam realmente necessários. Pode também especificar limites para a carga do sistema e ativar sessões, além das quais o Fórum sairá do ar.',
 
 	'ALLOW_CDN'								=> 'Permitir o uso de redes de entrega de conteúdo de terceiros',
-	'ALLOW_CDN_EXPLAIN'						=> 'Se esta configuração for ativada, alguns ficheiros podem ser colocados em servidores externos em vez do seu próprio servidor. Isso reduz o consumo de largura de banda no seu servidor, mas alguns administradores podem colocar questões de privacidade. Em instalações phpBB padrão inclui o carregamento do “jQuery” e do tipo de letra “Open Sans” de rede de distribuição de conteúdo do Google.',
+	'ALLOW_CDN_EXPLAIN'						=> 'Se esta configuração for ativada, alguns ficheiros podem ser colocados em servidores externos em vez do seu próprio servidor. Isso reduz o consumo de largura de banda no seu servidor, mas alguns administradores podem colocar questões de privacidade. Em instalações phpBB padrão inclui o carregamento do "jQuery" e do tipo de letra "Open Sans" de rede de distribuição de conteúdo do Google.',
 	'ALLOW_LIVE_SEARCHES'					=> 'Permitir pesquisas ativas',
 	'ALLOW_LIVE_SEARCHES_EXPLAIN'			=> 'Se esta configuração for ativada, serão sugeridas aos utilizadores palavras-chave, à medida que digitam em certos campos do fórum.',
 	'CUSTOM_PROFILE_FIELDS'					=> 'Campos do Perfil Personalizados',
@@ -471,7 +471,7 @@ $lang = array_merge($lang, array(
 	'ICONS_PATH'							=> 'Caminho para Ficheiro de Ícones',
 	'ICONS_PATH_EXPLAIN'					=> 'Caminho desde a raiz do phpBB. Exemplo: images/icons.',
 	'MOD_REWRITE_ENABLE'					=> 'Ativar URL Rewriting',
-	'MOD_REWRITE_ENABLE_EXPLAIN' 			=> 'Quando ativado, as URLs que contenham ’app.php’ serão reescritas para remover o nome do ficheiro (ou seja, app.php/foo transforma-se em /foo). <strong>O mod_rewrite tem que estar ativado no Servidor Apache. Ativando esta opção sem o mod_rewrite, poderá comprometer o funcionamento do seu Fórum.</strong>',
+	'MOD_REWRITE_ENABLE_EXPLAIN' 			=> 'Quando ativado, as URLs que contenham \'app.php\' serão reescritas para remover o nome do ficheiro (ou seja, app.php/foo transforma-se em /foo). <strong>O mod_rewrite tem que estar ativado no Servidor Apache. Ativando esta opção sem o mod_rewrite, poderá comprometer o funcionamento do seu Fórum.</strong>',
 	'MOD_REWRITE_DISABLED'					=> 'O módulo <strong>mod_rewrite</strong> está desativado no seu servidor web Apache. Ative o módulo ou entre em contacto com seu serviço de hospedagem web, para ativar este recurso.',
 	'MOD_REWRITE_INFORMATION_UNAVAILABLE' 	=> 'É impossível determinar se este servidor suporta regravação de URL. A configuração pode estar ativada, mas se a regravação não estiver disponível os caminhos gerados por este fórum (para uso em links) podem não funcionar. Contacte o seu fornecedor de hospedagem web, se não tiver a certeza se pode ou não ativar com segurança este recurso.',
 	'PATH_SETTINGS'							=> 'Configurações do Caminho de Pastas',
@@ -572,7 +572,7 @@ $lang = array_merge($lang, array(
 	'EMAIL_SIG'								=> 'Assinatura de Email',
 	'EMAIL_SIG_EXPLAIN'						=> 'Este texto será anexado a todos os emails que o Fórum enviar.',
 	'ENABLE_EMAIL'							=> 'Correio eletrónico do Fórum',
-	'ENABLE_EMAIL_EXPLAIN'					=> 'Se estiver definido como desativado não poderá ser enviado correio eletrónico através do Fórum. <em>Note que a ativação e configuração de contas requer que esta função esteja ativada. Desativar esta função impedirá que a ativação de novas contas seja feita pelo “Utilizador” ou “Administrador”.</em>',
+	'ENABLE_EMAIL_EXPLAIN'					=> 'Se estiver definido como desativado não poderá ser enviado correio eletrónico através do Fórum. <em>Note que a ativação e configuração de contas requer que esta função esteja ativada. Desativar esta função impedirá que a ativação de novas contas seja feita pelo "Utilizador" ou "Administrador".</em>',
 	'SEND_TEST_EMAIL'						=> 'Enviar email de teste',
 	'SEND_TEST_EMAIL_EXPLAIN'				=> 'Irá ser enviado um email, para efeitos de teste, para o endereço definido na sua conta.',
 	'SMTP_ALLOW_SELF_SIGNED'				=> 'Permitir certificados SSL autoassinados',
@@ -600,7 +600,7 @@ $lang = array_merge($lang, array(
 	'TEST_EMAIL_SENT'						=> 'O email de teste foi enviado.<br>Caso não o receba, por favor, verifique a sua configuração.<br><br>Caso necessite de assistência, visite o <a href="https://www.phpbb.com/community/">Fórum Oficial de Suporte phpBB</a> (Em inglês) ou o <a href="https://www.phpbb.com/community/">Fórum Oficial Português de Suporte phpBB</a>.',
 
 	'USE_SMTP'								=> 'Usar um Servidor de SMTP para enviar emails',
-	'USE_SMTP_EXPLAIN'						=> 'Marque “Sim” se quer ou tem que enviar os emails recorrendo a um Servidor SMTP em vez da função de email do Servidor.',
+	'USE_SMTP_EXPLAIN'						=> 'Marque "Sim" se quer ou tem que enviar os emails recorrendo a um Servidor SMTP em vez da função de email do Servidor.',
 ));
 
 // Jabber settings

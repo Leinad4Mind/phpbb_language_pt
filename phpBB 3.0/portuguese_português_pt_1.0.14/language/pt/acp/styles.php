@@ -286,9 +286,9 @@ $lang = array_merge($lang, array(
 	'INSTALLED_TEMPLATE'			=> 'Templates Instalados',
 	'INSTALLED_THEME'				=> 'Temas Instalados',
 
-	'KEEP_IMAGESET'					=> 'Manter “%s” conjunto de imagens',
-	'KEEP_TEMPLATE'					=> 'Manter “%s” Template',
-	'KEEP_THEME'					=> 'Manter “%s” Tema',
+	'KEEP_IMAGESET'					=> 'Manter "%s" conjunto de imagens',
+	'KEEP_TEMPLATE'					=> 'Manter "%s" Template',
+	'KEEP_THEME'					=> 'Manter "%s" Tema',
 
 	'LINE_SPACING'					=> 'Espaçamento da Linha',
 	'LOCALISED_IMAGES'				=> 'Localizado',
@@ -326,7 +326,7 @@ $lang = array_merge($lang, array(
 	'REPLACE_TEMPLATE_EXPLAIN'		=> 'Este Template substituirá todos os Estilos que o usavam.',
 	'REPLACE_THEME'					=> 'Substituir Tema por',
 	'REPLACE_THEME_EXPLAIN'			=> 'Este Tema substituirá todos os Estilos que o estiverem a usar.',
-	'REPLACE_WITH_OPTION'			=> 'Substituir com “%s”',
+	'REPLACE_WITH_OPTION'			=> 'Substituir com "%s"',
 	'REQUIRES_IMAGESET'				=> 'Este Estilo requer o Conjunto de Imagens %s para ser instalado.',
 	'REQUIRES_TEMPLATE'				=> 'Este Estilo requer o Template %s para ser instalado.',
 	'REQUIRES_THEME'				=> 'Este Estilo requer o Tema %s para ser instalado.',

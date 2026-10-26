@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang)) {
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, [
-	'ACP_STYLES_EXPLAIN'			=> 'Aqui pode gerir os estilos disponíveis no seu Fórum.<br>Observe que não pode desinstalar o estilo “<strong>prosilver</strong>”, pois é o estilo pai padrão e principal do phpBB.',
+	'ACP_STYLES_EXPLAIN'			=> 'Aqui pode gerir os estilos disponíveis no seu Fórum.<br>Observe que não pode desinstalar o estilo "<strong>prosilver</strong>", pois é o estilo pai padrão e principal do phpBB.',
 
 	'CANNOT_BE_INSTALLED'			=> 'Não pode ser instalado',
 	'CONFIRM_UNINSTALL_STYLES'		=> 'Tem a certeza de deseja desinstalar os estilos selecionados?',
@@ -83,7 +83,7 @@ $lang = array_merge($lang, [
 	'STYLE_USED_BY'					=> 'Usado por (incluindo Motor de Busca)',
 	'STYLE_VERSION'					=> 'Versão do Estilo',
 
-	'UNINSTALL_PROSILVER'			=> 'Não pode desinstalar o estilo “prosilver”.',
+	'UNINSTALL_PROSILVER'			=> 'Não pode desinstalar o estilo "prosilver".',
 	'UNINSTALL_DEFAULT'				=> 'Não é possível desinstalar o estilo padrão.',
 
 

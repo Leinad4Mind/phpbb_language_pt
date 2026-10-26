@@ -37,26 +37,26 @@ if (empty($lang) || !is_array($lang)) {
 
 // Privacy policy and T&C
 $lang = array_merge($lang, [
-	'TERMS_OF_USE_CONTENT'	=> 'Ao acederes a “%1$s” (doravante “nós”, “nos”, “nosso”, “%1$s”, “%2$s”), concordas em ficar legalmente vinculado aos termos seguintes. Se não concordares em ficar legalmente vinculado a todos os termos seguintes, por favor, não acedas nem utilizes “%1$s”. Podemos alterar estes termos a qualquer momento e faremos todos os esforços para te informar dessas alterações. No entanto, é da tua responsabilidade rever este documento regularmente, uma vez que a utilização continuada de “%1$s” após a realização de alterações constitui a tua concordância em ficar legalmente vinculado aos termos atualizados e/ou alterados.
+	'TERMS_OF_USE_CONTENT'	=> 'Ao acederes a "%1$s" (doravante "nós", "nos", "nosso", "%1$s", "%2$s"), concordas em ficar legalmente vinculado aos termos seguintes. Se não concordares em ficar legalmente vinculado a todos os termos seguintes, por favor, não acedas nem utilizes "%1$s". Podemos alterar estes termos a qualquer momento e faremos todos os esforços para te informar dessas alterações. No entanto, é da tua responsabilidade rever este documento regularmente, uma vez que a utilização continuada de "%1$s" após a realização de alterações constitui a tua concordância em ficar legalmente vinculado aos termos atualizados e/ou alterados.
 	<br><br>
-	Os nossos Fóruns utilizam o phpBB (doravante “eles”, “os”, “deles”, “software phpBB”, “www.phpbb.com”, “phpBB Limited”, “Equipas phpBB”), uma solução de fórum disponibilizada ao abrigo da “<a href="https://opensource.org/license/gpl-2-0">GNU General Public License v2</a>” (doravante “GPL”), que pode ser descarregada em <a href="https://www.phpbb.com/">www.phpbb.com</a>. O software phpBB limita-se a facilitar discussões através da Internet; a phpBB Limited não é responsável pelos conteúdos ou condutas permitidos ou proibidos neste site. Para mais informações sobre o phpBB, consulta: <a href="https://www.phpbb.com/">https://www.phpbb.com/</a>.
+	Os nossos Fóruns utilizam o phpBB (doravante "eles", "os", "deles", "software phpBB", "www.phpbb.com", "phpBB Limited", "Equipas phpBB"), uma solução de fórum disponibilizada ao abrigo da "<a href="https://opensource.org/license/gpl-2-0">GNU General Public License v2</a>" (doravante "GPL"), que pode ser descarregada em <a href="https://www.phpbb.com/">www.phpbb.com</a>. O software phpBB limita-se a facilitar discussões através da Internet; a phpBB Limited não é responsável pelos conteúdos ou condutas permitidos ou proibidos neste site. Para mais informações sobre o phpBB, consulta: <a href="https://www.phpbb.com/">https://www.phpbb.com/</a>.
 	<br><br>
-	Comprometes-te a não publicar material abusivo, obsceno, vulgar, difamatório, odioso, ameaçador, de cariz sexual ou de qualquer outra forma ilegal, seja ao abrigo das leis do teu país, do país onde “%1$s” está alojado ou do direito internacional. Essa conduta pode resultar na tua expulsão imediata e permanente e, se o considerarmos necessário, na notificação do teu fornecedor de serviços de Internet. O endereço IP de todas as mensagens é registado para ajudar a aplicar estas condições.
+	Comprometes-te a não publicar material abusivo, obsceno, vulgar, difamatório, odioso, ameaçador, de cariz sexual ou de qualquer outra forma ilegal, seja ao abrigo das leis do teu país, do país onde "%1$s" está alojado ou do direito internacional. Essa conduta pode resultar na tua expulsão imediata e permanente e, se o considerarmos necessário, na notificação do teu fornecedor de serviços de Internet. O endereço IP de todas as mensagens é registado para ajudar a aplicar estas condições.
 	<br><br>
-	Concordas que “%1$s” se reserva o direito de remover, editar, mover ou encerrar qualquer tópico, a qualquer momento e ao nosso exclusivo critério. Como utilizador, concordas que todas as informações que introduzires podem ser guardadas numa base de dados. Embora estas informações não sejam divulgadas a terceiros sem o teu consentimento, nem “%1$s” nem o phpBB podem ser responsabilizados por qualquer tentativa de intrusão informática que possa comprometer os dados.
+	Concordas que "%1$s" se reserva o direito de remover, editar, mover ou encerrar qualquer tópico, a qualquer momento e ao nosso exclusivo critério. Como utilizador, concordas que todas as informações que introduzires podem ser guardadas numa base de dados. Embora estas informações não sejam divulgadas a terceiros sem o teu consentimento, nem "%1$s" nem o phpBB podem ser responsabilizados por qualquer tentativa de intrusão informática que possa comprometer os dados.
 	',
 
-	'PRIVACY_POLICY'		=> 'Esta política explica em detalhe como “%1$s” e as respetivas empresas afiliadas (doravante “nós”, “nos”, “nosso”, “%1$s”, “%2$s”) e o phpBB (doravante “eles”, “os”, “deles”, “software phpBB”, “www.phpbb.com”, “phpBB Limited”, “Equipas phpBB”) utilizam as informações recolhidas durante a tua utilização deste site (doravante “as tuas informações”).
+	'PRIVACY_POLICY'		=> 'Esta política explica em detalhe como "%1$s" e as respetivas empresas afiliadas (doravante "nós", "nos", "nosso", "%1$s", "%2$s") e o phpBB (doravante "eles", "os", "deles", "software phpBB", "www.phpbb.com", "phpBB Limited", "Equipas phpBB") utilizam as informações recolhidas durante a tua utilização deste site (doravante "as tuas informações").
 	<br><br>
-	As tuas informações são recolhidas de duas formas. Quando navegas em “%1$s”, o software phpBB cria vários cookies. Os cookies são pequenos ficheiros de texto guardados nos ficheiros temporários do teu navegador. Os dois primeiros cookies contêm um identificador de utilizador (doravante “user-id”) e um identificador de sessão anónima (doravante “session-id”), ambos atribuídos automaticamente pelo software phpBB. É criado um terceiro cookie depois de consultares tópicos em “%1$s”. Este guarda informações sobre os tópicos que leste, melhorando assim a tua experiência de utilização.
+	As tuas informações são recolhidas de duas formas. Quando navegas em "%1$s", o software phpBB cria vários cookies. Os cookies são pequenos ficheiros de texto guardados nos ficheiros temporários do teu navegador. Os dois primeiros cookies contêm um identificador de utilizador (doravante "user-id") e um identificador de sessão anónima (doravante "session-id"), ambos atribuídos automaticamente pelo software phpBB. É criado um terceiro cookie depois de consultares tópicos em "%1$s". Este guarda informações sobre os tópicos que leste, melhorando assim a tua experiência de utilização.
 	<br><br>
-	Também podemos criar cookies externos ao software phpBB enquanto navegas em “%1$s”. Estes ficam fora do âmbito deste documento, que abrange apenas os cookies criados pelo software phpBB.
+	Também podemos criar cookies externos ao software phpBB enquanto navegas em "%1$s". Estes ficam fora do âmbito deste documento, que abrange apenas os cookies criados pelo software phpBB.
 	<br><br>
-	A segunda forma de recolhermos informações é através do que nos envias. Isto inclui, entre outros: publicar mensagens como utilizador anónimo (doravante “mensagens anónimas”), registares-te em “%1$s” (doravante “a tua conta”) e as mensagens que publicas depois de te registares e enquanto estás ligado (doravante “as tuas mensagens”).
+	A segunda forma de recolhermos informações é através do que nos envias. Isto inclui, entre outros: publicar mensagens como utilizador anónimo (doravante "mensagens anónimas"), registares-te em "%1$s" (doravante "a tua conta") e as mensagens que publicas depois de te registares e enquanto estás ligado (doravante "as tuas mensagens").
 	<br><br>
-	A tua conta contém, no mínimo: um nome de utilizador único (doravante “o teu nome de utilizador”), uma senha pessoal utilizada para entrares (doravante “a tua senha”) e um endereço de email válido (doravante “o teu email”). As informações da tua conta em “%1$s” são protegidas pelas leis de proteção de dados aplicáveis no país que nos aloja. Quaisquer informações para além do teu nome de utilizador, senha e endereço de email que sejam solicitadas durante o registo podem ser obrigatórias ou opcionais, segundo o critério de “%1$s”. Em todos os casos, podes escolher as informações da tua conta que serão apresentadas publicamente. Também podes optar por receber ou não os emails gerados automaticamente pelo software phpBB.
+	A tua conta contém, no mínimo: um nome de utilizador único (doravante "o teu nome de utilizador"), uma senha pessoal utilizada para entrares (doravante "a tua senha") e um endereço de email válido (doravante "o teu email"). As informações da tua conta em "%1$s" são protegidas pelas leis de proteção de dados aplicáveis no país que nos aloja. Quaisquer informações para além do teu nome de utilizador, senha e endereço de email que sejam solicitadas durante o registo podem ser obrigatórias ou opcionais, segundo o critério de "%1$s". Em todos os casos, podes escolher as informações da tua conta que serão apresentadas publicamente. Também podes optar por receber ou não os emails gerados automaticamente pelo software phpBB.
 	<br><br>
-	A tua senha é guardada como um hash unidirecional para garantir a segurança. No entanto, recomendamos que não reutilizes a mesma senha em vários sites. A tua senha é a chave de acesso à tua conta em “%1$s”, por isso, guarda-a em segurança. Em circunstância alguma alguém associado a “%1$s”, ao phpBB ou qualquer terceiro te pedirá legitimamente a tua senha. Se te esqueceres da senha, podes usar a opção “Esqueci-me da senha” disponibilizada pelo software phpBB. Este processo exige que indiques o teu nome de utilizador e endereço de email, após o que o software phpBB irá gerar uma nova senha para recuperares o acesso à tua conta.
+	A tua senha é guardada como um hash unidirecional para garantir a segurança. No entanto, recomendamos que não reutilizes a mesma senha em vários sites. A tua senha é a chave de acesso à tua conta em "%1$s", por isso, guarda-a em segurança. Em circunstância alguma alguém associado a "%1$s", ao phpBB ou qualquer terceiro te pedirá legitimamente a tua senha. Se te esqueceres da senha, podes usar a opção "Esqueci-me da senha" disponibilizada pelo software phpBB. Este processo exige que indiques o teu nome de utilizador e endereço de email, após o que o software phpBB irá gerar uma nova senha para recuperares o acesso à tua conta.
 	',
 ]);
 
@@ -135,7 +135,7 @@ $lang = array_merge($lang, [
 	'CANNOT_REMOVE_FOLDER'				=> 'Esta pasta não pode ser apagada.',
 	'CHANGE_DEFAULT_GROUP'				=> 'Alterar Grupo Padrão',
 	'CHANGE_PASSWORD'						=> 'Alterar Senha',
-	'CLICK_GOTO_FOLDER'					=> '%1$sIr para a pasta “%3$s”%2$s',
+	'CLICK_GOTO_FOLDER'					=> '%1$sIr para a pasta "%3$s"%2$s',
 	'CLICK_RETURN_FOLDER'				=> 'Clica %1$sAqui%2$s para voltar para a pasta %3$s',
 	'CONFIRMATION'							=> 'Confirmação de Registo',
 	'CONFIRM_CHANGES'						=> 'Confirmar Alterações',
@@ -201,32 +201,32 @@ $lang = array_merge($lang, [
 	'EXPORT_AS_MSG'						=> 'Exportar em MSG',
 	'EXPORT_FOLDER'						=> 'Exportar Pasta',
 
-	'FIELD_REQUIRED'					=> 'O Campo “%s” deve ser preenchido.',
+	'FIELD_REQUIRED'					=> 'O Campo "%s" deve ser preenchido.',
 	'FIELD_TOO_SHORT'					=> [
-		1	=> 'O campo “%2$s” é muito curto, é necessário um mínimo de %1$d carácter.',
-		2	=> 'O campo “%2$s” é muito curto, é necessário um mínimo de %1$d caracteres.',
+		1	=> 'O campo "%2$s" é muito curto, é necessário um mínimo de %1$d carácter.',
+		2	=> 'O campo "%2$s" é muito curto, é necessário um mínimo de %1$d caracteres.',
 	],
 	'FIELD_TOO_LONG'					=> [
-		1	=> 'O campo “%2$s” é muito extenso, o máximo permitido é %1$d carácter.',
-		2	=> 'O campo “%2$s” é muito extenso, o máximo permitido são %1$d caracteres.',
+		1	=> 'O campo "%2$s" é muito extenso, o máximo permitido é %1$d carácter.',
+		2	=> 'O campo "%2$s" é muito extenso, o máximo permitido são %1$d caracteres.',
 	],
-	'FIELD_TOO_SMALL'								=> 'O valor de “%2$s” é muito pequeno, o valor mínimo necessário é %1$d.',
-	'FIELD_TOO_LARGE'								=> 'O valor de “%2$s” é muito grande, o valor máximo permitido é %1$d.',
-	'FIELD_INVALID_CHARS_INVALID'				=> 'O Campo “%s” tem caracteres inválidos.',
-	'FIELD_INVALID_CHARS_NUMBERS_ONLY'		=> 'O Campo “%s” tem caracteres inválidos. São permitidos apenas números.',
-	'FIELD_INVALID_CHARS_ALPHA_DOTS'			=> 'O Campo “%s” tem caracteres inválidos. São permitidos apenas o . e caracteres alfanuméricos.',
-	'FIELD_INVALID_CHARS_ALPHA_ONLY'			=> 'O Campo “%s” tem caracteres inválidos. São permitidos apenas caracteres alfanuméricos.',
-	'FIELD_INVALID_CHARS_ALPHA_PUNCTUATION'		=> 'O Campo “%s” tem caracteres inválidos. São permitidos apenas os _,-. e caracteres alfanuméricos. O primeiro carácter tem que ser alfanumérico.',
-	'FIELD_INVALID_CHARS_ALPHA_SPACERS'				=> 'O campo “%s” tem caracteres inválidos. São permitidos apenas o espaço ou -+_[] e caracteres alfanuméricos.',
-	'FIELD_INVALID_CHARS_ALPHA_UNDERSCORE'			=> 'O campo “%s” tem caracteres inválidos. São permitidos apenas o _ e caracteres alfanuméricos.',
-	'FIELD_INVALID_CHARS_LETTER_NUM_DOTS'			=> 'O campo “%s” tem caracteres inválidos. São permitidos apenas letras, números ou . (ponto).',
-	'FIELD_INVALID_CHARS_LETTER_NUM_ONLY'			=> 'O campo “%s” tem caracteres inválidos. São permitidos apenas letras e números.',
-	'FIELD_INVALID_CHARS_LETTER_NUM_PUNCTUATION'	=> 'O campo “%s” tem caracteres inválidos. São permitidos apenas letras, números ou _,-. e o primeiro carácter tem que ser alfabético.',
-	'FIELD_INVALID_CHARS_LETTER_NUM_SPACERS'		=> 'O campo “%s” tem caracteres inválidos. São permitidos apenas letras, números, espaço ou -+_[].',
-	'FIELD_INVALID_CHARS_LETTER_NUM_UNDERSCORE'	=> 'O campo “%s” tem caracteres inválidos. São permitidos apenas letras, números ou _.',
-	'FIELD_INVALID_DATE'				=> 'O Campo “%s” tem uma data inválida.',
-	'FIELD_INVALID_URL'				=> 'O Campo “%s” tem uma url inválida.',
-	'FIELD_INVALID_VALUE'			=> 'O Campo “%s” tem um valor inválido.',
+	'FIELD_TOO_SMALL'								=> 'O valor de "%2$s" é muito pequeno, o valor mínimo necessário é %1$d.',
+	'FIELD_TOO_LARGE'								=> 'O valor de "%2$s" é muito grande, o valor máximo permitido é %1$d.',
+	'FIELD_INVALID_CHARS_INVALID'				=> 'O Campo "%s" tem caracteres inválidos.',
+	'FIELD_INVALID_CHARS_NUMBERS_ONLY'		=> 'O Campo "%s" tem caracteres inválidos. São permitidos apenas números.',
+	'FIELD_INVALID_CHARS_ALPHA_DOTS'			=> 'O Campo "%s" tem caracteres inválidos. São permitidos apenas o . e caracteres alfanuméricos.',
+	'FIELD_INVALID_CHARS_ALPHA_ONLY'			=> 'O Campo "%s" tem caracteres inválidos. São permitidos apenas caracteres alfanuméricos.',
+	'FIELD_INVALID_CHARS_ALPHA_PUNCTUATION'		=> 'O Campo "%s" tem caracteres inválidos. São permitidos apenas os _,-. e caracteres alfanuméricos. O primeiro carácter tem que ser alfanumérico.',
+	'FIELD_INVALID_CHARS_ALPHA_SPACERS'				=> 'O campo "%s" tem caracteres inválidos. São permitidos apenas o espaço ou -+_[] e caracteres alfanuméricos.',
+	'FIELD_INVALID_CHARS_ALPHA_UNDERSCORE'			=> 'O campo "%s" tem caracteres inválidos. São permitidos apenas o _ e caracteres alfanuméricos.',
+	'FIELD_INVALID_CHARS_LETTER_NUM_DOTS'			=> 'O campo "%s" tem caracteres inválidos. São permitidos apenas letras, números ou . (ponto).',
+	'FIELD_INVALID_CHARS_LETTER_NUM_ONLY'			=> 'O campo "%s" tem caracteres inválidos. São permitidos apenas letras e números.',
+	'FIELD_INVALID_CHARS_LETTER_NUM_PUNCTUATION'	=> 'O campo "%s" tem caracteres inválidos. São permitidos apenas letras, números ou _,-. e o primeiro carácter tem que ser alfabético.',
+	'FIELD_INVALID_CHARS_LETTER_NUM_SPACERS'		=> 'O campo "%s" tem caracteres inválidos. São permitidos apenas letras, números, espaço ou -+_[].',
+	'FIELD_INVALID_CHARS_LETTER_NUM_UNDERSCORE'	=> 'O campo "%s" tem caracteres inválidos. São permitidos apenas letras, números ou _.',
+	'FIELD_INVALID_DATE'				=> 'O Campo "%s" tem uma data inválida.',
+	'FIELD_INVALID_URL'				=> 'O Campo "%s" tem uma url inválida.',
+	'FIELD_INVALID_VALUE'			=> 'O Campo "%s" tem um valor inválido.',
 
 	'FOE_MESSAGE'						=> 'Mensagem de um Inimigo',
 	'FOES_EXPLAIN'						=> 'Inimigos são Utilizadores que serão ignorados por predefinição. As Mensagens destes Utilizadores não serão totalmente visíveis, mas as Mensagens Privadas continuam a ser permitidas. No entanto, não podes ignorar Administradores ou Moderadores.',
@@ -370,7 +370,7 @@ $lang = array_merge($lang, [
 	'NOT_ADDED_FOES_FRIENDS'			=> 'Não podes adicionar Amigos à tua Lista de Inimigos.',
 	'NOT_ADDED_FOES_SELF'				=> 'Não podes auto adicionar-te à tua Lista de Inimigos.',
 	'NOT_AGREE'								=> 'Li e não concordo com estas condições',
-	'NOT_ENOUGH_SPACE_FOLDER'			=> 'A Pasta de Destino “%s” parece estar cheia. O teu pedido não foi executado.',
+	'NOT_ENOUGH_SPACE_FOLDER'			=> 'A Pasta de Destino "%s" parece estar cheia. O teu pedido não foi executado.',
 	'NOT_MOVED_MESSAGES'			=> [
 		1	=> 'Tens atualmente %d mensagem privada em espera porque tens a pasta cheia.',
 		2	=> 'Tens atualmente %d mensagens privadas em espera porque tens a pasta cheia.',
@@ -453,8 +453,8 @@ $lang = array_merge($lang, [
 	'PREFERENCES_UPDATED'				=> 'As tuas Preferências foram atualizadas.',
 	'PROFILE_INFO_NOTICE'				=> 'Estas informações serão visíveis por todos os Utilizadores. Verifica se desejas incluir os teus dados pessoais. Todos os campos marcados com (*) são de preenchimento obrigatório.',
 	'PROFILE_UPDATED'						=> 'O teu Perfil foi atualizado.',
-	'PROFILE_AUTOLOGIN_KEYS'			=> 'As chaves de acesso “Lembrar-me” permitem-te entrar automaticamente quando visitas o fórum. Quando te desligas, a chave de acesso só é apagada no computador onde terminaste a sessão. Podes ver aqui todas as chaves de acesso criadas noutros computadores.',
-	'PROFILE_NO_AUTOLOGIN_KEYS'		=> 'Não existem chaves de acesso “Lembrar-me” guardadas.',
+	'PROFILE_AUTOLOGIN_KEYS'			=> 'As chaves de acesso "Lembrar-me" permitem-te entrar automaticamente quando visitas o fórum. Quando te desligas, a chave de acesso só é apagada no computador onde terminaste a sessão. Podes ver aqui todas as chaves de acesso criadas noutros computadores.',
+	'PROFILE_NO_AUTOLOGIN_KEYS'		=> 'Não existem chaves de acesso "Lembrar-me" guardadas.',
 
 	'RECIPIENT'								=> 'Destinatário',
 	'RECIPIENTS'							=> 'Destinatários',
@@ -564,7 +564,7 @@ $lang = array_merge($lang, [
 	'UCP_PROFILE_PROFILE_INFO'		=> 'O teu Perfil',
 	'UCP_PROFILE_REG_DETAILS'		=> 'Detalhes do teu Registo',
 	'UCP_PROFILE_SIGNATURE'			=> 'A tua assinatura',
-	'UCP_PROFILE_AUTOLOGIN_KEYS'	=> 'Gerir as chaves “Lembrar-me”',
+	'UCP_PROFILE_AUTOLOGIN_KEYS'	=> 'Gerir as chaves "Lembrar-me"',
 
 	'UCP_USERGROUPS'					=> 'Grupos de Utilizadores',
 	'UCP_USERGROUPS_MEMBER'			=> 'Editar Inscrições em Grupos',

@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang)) {
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, [
-	'ACP_STYLES_EXPLAIN'				=> 'O gestor de estilos permite alterar estilos existentes, apagar, desinstalar, reinstalar e instalar novos. Também podes ver como será o teu estilo usando a função de pré-visualização. É mostrado o número de utilizadores de cada estilo. No entanto, a função Sobrepor Estilo do Utilizador, não reflete esta contagem. De salientar também que não podes desinstalar o estilo “<strong>prosilver</strong>”, pois é o estilo pai padrão e principal do phpBB.',
+	'ACP_STYLES_EXPLAIN'				=> 'O gestor de estilos permite alterar estilos existentes, apagar, desinstalar, reinstalar e instalar novos. Também podes ver como será o teu estilo usando a função de pré-visualização. É mostrado o número de utilizadores de cada estilo. No entanto, a função Sobrepor Estilo do Utilizador, não reflete esta contagem. De salientar também que não podes desinstalar o estilo "<strong>prosilver</strong>", pois é o estilo pai padrão e principal do phpBB.',
 
 	'CANNOT_BE_INSTALLED'			=> 'Não pode ser instalado',
 	'CONFIRM_UNINSTALL_STYLES'		=> 'Tens a certeza de que desejas desinstalar os estilos seleccionados?',
@@ -83,7 +83,7 @@ $lang = array_merge($lang, [
 	'STYLE_USED_BY'					=> 'Usado por (incluindo Motor de Busca)',
 	'STYLE_VERSION'					=> 'Versão do Estilo',
 
-	'UNINSTALL_PROSILVER'			=> 'Não podes desinstalar o estilo “prosilver”.',
+	'UNINSTALL_PROSILVER'			=> 'Não podes desinstalar o estilo "prosilver".',
 	'UNINSTALL_DEFAULT'				=> 'Não é possível desinstalar o estilo padrão.',
 
 	'BROWSE_STYLES_DATABASE'		=> 'Visita o repositório de estilos',

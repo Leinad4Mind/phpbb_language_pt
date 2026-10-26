@@ -216,7 +216,7 @@ $lang = array_merge($lang, array(
 	'MCP_WARN_USER'						=> 'Avisar Utilizador',
 
 	'MERGE_POSTS_CONFIRM'				=> 'Deseja fundir as Mensagens selecionadas?',
-	'MERGE_TOPIC_EXPLAIN'				=> 'Use este formulário para fundir Mensagens com Tópicos. Depois de fundidas, as mensagens comportam-se como se tivessem sido enviadas originalmente para o Tópico.<br />Introduza a ID do Tópico de destino da mensagem ou clique em “Escolher Tópico” e procure-o na lista.',
+	'MERGE_TOPIC_EXPLAIN'				=> 'Use este formulário para fundir Mensagens com Tópicos. Depois de fundidas, as mensagens comportam-se como se tivessem sido enviadas originalmente para o Tópico.<br />Introduza a ID do Tópico de destino da mensagem ou clique em "Escolher Tópico" e procure-o na lista.',
 	'MERGE_TOPIC_ID'					=> 'ID do Tópico de destino',
 	'MERGE_TOPICS'						=> 'Fundir Tópicos',
 	'MERGE_TOPICS_CONFIRM'				=> 'Tem a certeza que deseja fundir os Tópicos selecionados?',

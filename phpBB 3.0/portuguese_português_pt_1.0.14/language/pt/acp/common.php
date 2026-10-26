@@ -517,9 +517,9 @@ $lang = array_merge($lang, array(
 
 	'LOG_APPROVE_TOPIC'						=> '<strong>Tópico Aprovado</strong><br />» %s',
 	'LOG_BUMP_TOPIC'						=> '<strong>Tópico Ressuscitado</strong><br />» %s',
-	'LOG_DELETE_POST'						=> '<strong>Mensagem apagada “%1$s” escrita por</strong><br />» %2$s',
+	'LOG_DELETE_POST'						=> '<strong>Mensagem apagada "%1$s" escrita por</strong><br />» %2$s',
 	'LOG_DELETE_SHADOW_TOPIC'				=> '<strong>Tópico fantasma eliminado</strong><br />» %s',
-	'LOG_DELETE_TOPIC'						=> '<strong>Tópico apagado “%1$s” escrito por</strong><br />» %2$s',
+	'LOG_DELETE_TOPIC'						=> '<strong>Tópico apagado "%1$s" escrito por</strong><br />» %2$s',
 	'LOG_FORK'								=> '<strong>Tópico Copiado</strong><br />» de %s',
 	'LOG_LOCK'								=> '<strong>Tópico Bloqueado</strong><br />» %s',
 	'LOG_LOCK_POST'							=> '<strong>Mensagem Bloqueada</strong><br />» %s',
@@ -528,15 +528,15 @@ $lang = array_merge($lang, array(
 	'LOG_PM_REPORT_CLOSED'					=> '<strong>Denúncia de MP fechada</strong><br />» %s',
 	'LOG_PM_REPORT_DELETED'					=> '<strong>Denúncia de MP apagada</strong><br />» %s',
 	'LOG_POST_APPROVED'						=> '<strong>Mensagem Aprovada</strong><br />» %s',
-	'LOG_POST_DISAPPROVED'					=> '<strong>Mensagem Desaprovada “%1$s” pelo seguinte motivo</strong><br />%2$s',
-	'LOG_POST_EDITED'						=> '<strong>Mensagem Editada “%1$s” escrita por</strong><br />» %2$s',
+	'LOG_POST_DISAPPROVED'					=> '<strong>Mensagem Desaprovada "%1$s" pelo seguinte motivo</strong><br />%2$s',
+	'LOG_POST_EDITED'						=> '<strong>Mensagem Editada "%1$s" escrita por</strong><br />» %2$s',
 	'LOG_REPORT_CLOSED'						=> '<strong>Denúncia Bloqueada</strong><br />» %s',
 	'LOG_REPORT_DELETED'					=> '<strong>Denúncia Apagada</strong><br />» %s',
 	'LOG_SPLIT_DESTINATION'					=> '<strong>Tópico Subdividido</strong><br />» para %s',
 	'LOG_SPLIT_SOURCE'						=> '<strong>Mensagens Subdivididas</strong><br />» de %s',
 
 	'LOG_TOPIC_APPROVED'					=> '<strong>Tópico Aprovado</strong><br />» %s',
-	'LOG_TOPIC_DISAPPROVED'					=> '<strong>Tópico não Aprovado “%1$s” pelo seguinte motivo</strong><br />%2$s',
+	'LOG_TOPIC_DISAPPROVED'					=> '<strong>Tópico não Aprovado "%1$s" pelo seguinte motivo</strong><br />%2$s',
 	'LOG_TOPIC_RESYNC'						=> '<strong>Contadores de Tópico Ressincronizado</strong><br />» %s',
 	'LOG_TOPIC_TYPE_CHANGED'				=> '<strong>Tipo de Tópico Alterado</strong><br />» %s',
 	'LOG_UNLOCK'							=> '<strong>Tópico Desbloqueado</strong><br />» %s',
@@ -575,7 +575,7 @@ $lang = array_merge($lang, array(
 	'LOG_GENERAL_ERROR'						=> '<strong>Ocorreu um erro geral</strong>: %1$s <br />» %2$s',
 
 	'LOG_GROUP_CREATED'						=> '<strong>Novo Grupo criado</strong><br />» %s',
-	'LOG_GROUP_DEFAULTS'					=> '<strong>Grupo “%1$s” definido padrão para membros</strong><br />» %2$s',
+	'LOG_GROUP_DEFAULTS'					=> '<strong>Grupo "%1$s" definido padrão para membros</strong><br />» %2$s',
 	'LOG_GROUP_DELETE'						=> '<strong>Grupo apagado</strong><br />» %s',
 	'LOG_GROUP_DEMOTED'						=> '<strong>Líderes demitidos do Grupo</strong> %1$s<br />» %2$s',
 	'LOG_GROUP_PROMOTED'					=> '<strong>Membros promovidos a Líderes do Grupo</strong> %1$s<br />» %2$s',
@@ -584,7 +584,7 @@ $lang = array_merge($lang, array(
 	'LOG_MODS_ADDED'						=> '<strong>Novos Líderes adicionados ao Grupo</strong> %1$s<br />» %2$s',
 	'LOG_USERS_ADDED'						=> '<strong>Novos Membros adicionados ao Grupo</strong> %1$s<br />» %2$s',
 	'LOG_USERS_APPROVED'					=> '<strong>Utilizadores aprovados no grupo de utilizadores</strong> %1$s<br />» %2$s',
-	'LOG_USERS_PENDING'						=> '<strong>Pedido de utilizadores para pertencer ao grupo “%1$s” e que necessitam de aprovação</strong><br />» %2$s',
+	'LOG_USERS_PENDING'						=> '<strong>Pedido de utilizadores para pertencer ao grupo "%1$s" e que necessitam de aprovação</strong><br />» %2$s',
 
 	'LOG_IMAGE_GENERATION_ERROR'			=> '<strong>Erro ao criar a imagem</strong><br />» Erro em %1$s na linha %2$s: %3$s',
 
@@ -594,8 +594,8 @@ $lang = array_merge($lang, array(
 	'LOG_IMAGESET_EDIT_DETAILS'				=> '<strong>Detalhes da Imagem Editados</strong><br />» %s',
 	'LOG_IMAGESET_EDIT'						=> '<strong>Imagem Editada</strong><br />» %s',
 	'LOG_IMAGESET_EXPORT'					=> '<strong>Imagem Exportada</strong><br />» %s',
-	'LOG_IMAGESET_LANG_MISSING'				=> '<strong>Erro na localização do conjunto de imagens “%2$s” </strong><br />» %1$s',
-	'LOG_IMAGESET_LANG_REFRESHED'			=> '<strong>Atualizado a localização do Conjunto de Imagens “%2$s”</strong><br />» %1$s',
+	'LOG_IMAGESET_LANG_MISSING'				=> '<strong>Erro na localização do conjunto de imagens "%2$s" </strong><br />» %1$s',
+	'LOG_IMAGESET_LANG_REFRESHED'			=> '<strong>Atualizado a localização do Conjunto de Imagens "%2$s"</strong><br />» %1$s',
 	'LOG_IMAGESET_REFRESHED'				=> '<strong>Imagem Atualizada</strong><br />» %s',
 
 	'LOG_INACTIVE_ACTIVATE'					=> '<strong>Utilizadores Inativos Ativados</strong><br />» %s',
@@ -665,7 +665,7 @@ $lang = array_merge($lang, array(
 	'LOG_REASON_ADDED'						=> '<strong>Razão de Denúncia/Negação Adicionada</strong><br />» %s',
 	'LOG_REASON_REMOVED'					=> '<strong>Razão de Denúncia/Negação Apagada</strong><br />» %s',
 	'LOG_REASON_UPDATED'					=> '<strong>Razão de Denúncia/Negação Atualizada</strong><br />» %s',
-	'LOG_REFERER_INVALID'					=> '<strong>Validação de referência falhou</strong><br />»Referência foi “<em>%1$s</em>”. A requisição foi rejeitada e a sessão encerrada.',
+	'LOG_REFERER_INVALID'					=> '<strong>Validação de referência falhou</strong><br />»Referência foi "<em>%1$s</em>". A requisição foi rejeitada e a sessão encerrada.',
 
 	'LOG_RESET_DATE'						=> '<strong>Reiniciar Início do Fórum</strong>',
 	'LOG_RESET_ONLINE'						=> '<strong>Reiniciar Utilizadores Mais Ativos</strong>',

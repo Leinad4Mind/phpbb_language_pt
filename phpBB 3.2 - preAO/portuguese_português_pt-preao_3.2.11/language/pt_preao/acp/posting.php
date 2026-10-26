@@ -71,7 +71,7 @@ $lang = array_merge($lang, array(
 
 	'TOKEN'							=> 'Símbolo',
 	'TOKENS'						=> 'Símbolos',
-	'TOKENS_EXPLAIN'				=> 'Os Símbolos são campos especiais a serem adicionados pelos Utilizadores. Mas estes apenas serão válidos se tiverem as definições correspondentes. Se necessário, pode numerá-los adicionando um número como o último carácter: Exemplo: {Utilizador}, {Utilizador1}.<br /> <br />Pode ainda utilizar estes Símbolos com qualquer sequência de linguagem presente na pasta /language como esta: {L_<em>&lt;STRINGNAME&gt;</em>} onde <em>&lt;STRINGNAME&gt;</em> é o nome da sequência traduzida que deseja adicionar. Por exemplo, {L_WROTE} será exibido como “Escreveu” ou traduzido de acordo com a localidade do Utilizador.<br /><br /><strong>Tenha em atenção que apenas os Símbolos listados abaixo podem ser utilizados com os BBCodes personalizados.</strong>',
+	'TOKENS_EXPLAIN'				=> 'Os Símbolos são campos especiais a serem adicionados pelos Utilizadores. Mas estes apenas serão válidos se tiverem as definições correspondentes. Se necessário, pode numerá-los adicionando um número como o último carácter: Exemplo: {Utilizador}, {Utilizador1}.<br /> <br />Pode ainda utilizar estes Símbolos com qualquer sequência de linguagem presente na pasta /language como esta: {L_<em>&lt;STRINGNAME&gt;</em>} onde <em>&lt;STRINGNAME&gt;</em> é o nome da sequência traduzida que deseja adicionar. Por exemplo, {L_WROTE} será exibido como "Escreveu" ou traduzido de acordo com a localidade do Utilizador.<br /><br /><strong>Tenha em atenção que apenas os Símbolos listados abaixo podem ser utilizados com os BBCodes personalizados.</strong>',
 	'TOKEN_DEFINITION'				=> 'O que é que isto pode ser?',
 	'TOO_MANY_BBCODES'				=> 'Não pode criar mais BBCodes. Elimine alguns BBCodes para poder criar outros.',
 
@@ -82,8 +82,8 @@ $lang = array_merge($lang, array(
 		'IDENTIFIER'		=> 'Caracteres do alfabeto latino (A-Z), números, hífen e sublinhado',
 		'NUMBER'		=> 'Qualquer Séries de Dígitos',
 		'EMAIL'			=> 'Um endereço de email válido',
-		'URL'			=> 'Uma URL válida utilizando qualquer protocolo (http, ftp, etc. não pode ser utilizada para javascript). Se nenhum for concedido, “http://” é o prefixado para a sequência.',
-		'LOCAL_URL'		=> 'Uma URL local. O URL deve ser relativo à página do tópico e não pode conter o nome do servidor ou o protocolo, como as ligações são prefixados com “%s”',
+		'URL'			=> 'Uma URL válida utilizando qualquer protocolo (http, ftp, etc. não pode ser utilizada para javascript). Se nenhum for concedido, "http://" é o prefixado para a sequência.',
+		'LOCAL_URL'		=> 'Uma URL local. O URL deve ser relativo à página do tópico e não pode conter o nome do servidor ou o protocolo, como as ligações são prefixados com "%s"',
 		'RELATIVE_URL'	=> 'Uma URL relativa. Pode combinar partes de uma URL, mas tenha cuidado: a URL completa é uma URL relativa válida. Quando quiser usar URLs relativas do seu fórum, use o token LOCAL_URL.',
 		'COLOR'			=> 'Uma Cor de HTML, pode ser tanto na forma numérica <samp>#FF1234</samp> ou uma <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS colour keyword</a> assim como <samp>fuchsia</samp> ou <samp>InactiveBorder</samp>',
 	),
@@ -175,7 +175,7 @@ $lang = array_merge($lang, array(
 	'SMILIES_EDIT'					=> 'Editar Emoção',
 	'SMILIE_NO_CODE'				=> 'A Emoção "%s" foi ignorada, como se nenhum código tivesse sido escrito.',
 	'SMILIE_NO_EMOTION'				=> 'A Emoção "%s" foi ignorada, como se nenhuma emoção tivesse sido escrita.',
-	'SMILIE_NO_FILE'				=> 'A Emoção “%s” foi ignorada, porque falta o ficheiro.',
+	'SMILIE_NO_FILE'				=> 'A Emoção "%s" foi ignorada, porque falta o ficheiro.',
 	'SMILIES_EDITED'			=> array(
 		0	=> 'Não foram actualizadas emoções.',
 		1	=> 'A emoção foi actualizada com sucesso.',

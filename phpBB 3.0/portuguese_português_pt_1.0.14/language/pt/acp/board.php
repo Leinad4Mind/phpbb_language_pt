@@ -270,7 +270,7 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_TOPICS_NEW'				=> 'Ativar Feeds nos Tópicos novos',
 	'ACP_FEED_TOPICS_NEW_EXPLAIN'		=> 'Ativa Feeds nos "Tópicos Novos", exibindo os últimos Tópicos criados, incluindo a primeira mensagem.',
 	'ACP_FEED_TOPICS_ACTIVE'			=> 'Ativar Feeds nos Tópicos ativos',
-	'ACP_FEED_TOPICS_ACTIVE_EXPLAIN'	=> 'Ativa Feeds nos "Tópicos ativos”, exibindo os últimos Tópicos ativos, incluindo as últimas mensagens.',
+	'ACP_FEED_TOPICS_ACTIVE_EXPLAIN'	=> 'Ativa Feeds nos "Tópicos ativos", exibindo os últimos Tópicos ativos, incluindo as últimas mensagens.',
 	'ACP_FEED_NEWS'						=> 'Notícias Feed',
 	'ACP_FEED_NEWS_EXPLAIN'				=> 'Selecione a primeira mensagem destes Fóruns. Selecione nenhum Fórum para desativar o Feed de notícias.<br />Selecione múltiplos Fóruns clicando na tecla <samp>CTRL</samp> e clicando no Fórum.',
 
@@ -504,7 +504,7 @@ $lang = array_merge($lang, array(
 	'EMAIL_SIG'								=> 'Assinatura de Email',
 	'EMAIL_SIG_EXPLAIN'						=> 'Este texto será anexado a todos os emails que o Fórum enviar.',
 	'ENABLE_EMAIL'							=> 'Correio eletrónico do Fórum',
-	'ENABLE_EMAIL_EXPLAIN'					=> 'Se estiver definido como desativado não poderá ser enviado correio eletrónico através do Fórum. <em>Note que a ativação e configuração de contas requer que esta função esteja ativada. Desativar esta função impedirá que a ativação de novas contas seja feita pelo  “Utilizador” ou “Administrador”.</em>',
+	'ENABLE_EMAIL_EXPLAIN'					=> 'Se estiver definido como desativado não poderá ser enviado correio eletrónico através do Fórum. <em>Note que a ativação e configuração de contas requer que esta função esteja ativada. Desativar esta função impedirá que a ativação de novas contas seja feita pelo  "Utilizador" ou "Administrador".</em>',
 	'SMTP_AUTH_METHOD'						=> 'Método de Autenticação para o SMTP',
 	'SMTP_AUTH_METHOD_EXPLAIN'				=> 'Apenas usado se um Nome/Senha é atribuído, pergunte ao seu ISP se não sabe que método usa.',
 	'SMTP_CRAM_MD5'							=> 'CRAM-MD5',
@@ -521,7 +521,7 @@ $lang = array_merge($lang, array(
 	'SMTP_USERNAME'							=> 'Nome de Utilizador SMTP',
 	'SMTP_USERNAME_EXPLAIN'					=> 'Só introduza um Nome se o Servidor de SMTP o pedir.',
 	'USE_SMTP'								=> 'Usar um Servidor de SMTP para enviar emails',
-	'USE_SMTP_EXPLAIN'						=> 'Marque “Sim” se quer ou tem que enviar os emails recorrendo a um Servidor SMTP em vez da função de email do Servidor.',
+	'USE_SMTP_EXPLAIN'						=> 'Marque "Sim" se quer ou tem que enviar os emails recorrendo a um Servidor SMTP em vez da função de email do Servidor.',
 ));
 
 // Jabber settings 

@@ -202,7 +202,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_NO_WRITABLE'		=> 'Tanto a base de dados como as pastas do fórum devem permitir a escrita.',
 	'INST_ERR_DB_NO_ERROR'			=> 'Nenhuma mensagem de erro foi reportada.',
 	'INST_ERR_PREFIX'				=> 'Já existem tabelas com o prefixo indicado. Por favor, escolha outro prefixo.',
-	'INST_ERR_DB_NO_MYSQLI'			=> 'A versão do MySQL instalada nesta máquina é incompatível com a opção “MySQL com Extensão MySQLi” selecionada. Tente com uma outra opção “MySQL”.',
+	'INST_ERR_DB_NO_MYSQLI'			=> 'A versão do MySQL instalada nesta máquina é incompatível com a opção "MySQL com Extensão MySQLi" selecionada. Tente com uma outra opção "MySQL".',
 	'INST_ERR_DB_NO_SQLITE3'		=> 'A versão da extensão SQLite instalada é muito antiga, tem que atualizá-la para pelo menos 3.6.15.',
 	'INST_ERR_DB_NO_ORACLE'			=> 'A versão do Oracle instalada nesta máquina exige que defina o parâmetro <var>NLS_CHARACTERSET</var> para <var>UTF8</var>. Pode atualizar a sua instalação para uma posterior à 9.2+ ou alterar o seu parâmetro.',
 	'INST_ERR_DB_NO_POSTGRES'		=> 'A Base de Dados selecionada não foi criada na codificação <var>UNICODE</var> ou <var>UTF8</var>. Tente instalar uma Base de Dados com codificação<var>UNICODE</var> ou <var>UTF8</var>.',
@@ -320,11 +320,11 @@ $lang = array_merge($lang, array(
 	'TASK_NOT_FOUND'				=> 'Tarefa não encontrada',
 	'TASK_NOT_FOUND_DESCRIPTION'	=> 'Não foi possível encontrar uma tarefa porque o serviço, %s, é indefinido.',
 
-	'SKIP_MODULE'	=> 'Ignorar o módulo“%s”',
-	'SKIP_TASK'		=> 'Ignorar a tarefa“%s”',
+	'SKIP_MODULE'	=> 'Ignorar o módulo"%s"',
+	'SKIP_TASK'		=> 'Ignorar a tarefa"%s"',
 
-	'TASK_SERVICE_INSTALLER_MISSING'	=> 'Todos os serviços de tarefa do instalador devem começar com “installer”',
-	'TASK_CLASS_NOT_FOUND'				=> 'A definição do serviço da tarefa do instalador é inválida. O nome do serviço prestado“%1$s” class namespace que é esperado para “%2$s” . Para mais informações, por favor, consulte a documentação do task_interface.',
+	'TASK_SERVICE_INSTALLER_MISSING'	=> 'Todos os serviços de tarefa do instalador devem começar com "installer"',
+	'TASK_CLASS_NOT_FOUND'				=> 'A definição do serviço da tarefa do instalador é inválida. O nome do serviço prestado"%1$s" class namespace que é esperado para "%2$s" . Para mais informações, por favor, consulte a documentação do task_interface.',
 
 	'INSTALLER_CONFIG_NOT_WRITABLE'	=> 'O ficheiro de instalação de configuração não tem permissão de escrita.',
 ));
@@ -472,7 +472,7 @@ $lang = array_merge($lang, array(
 	// File updater
 	'UPDATE_UPDATING_FILES'	=> 'A atualizar ficheiros',
 
-	'UPDATE_FILE_UPDATER_HAS_FAILED'	=> 'O atualizador de ficheiros “%1$s“ falhou. O instalador irá tentar com “%2$s“.',
+	'UPDATE_FILE_UPDATER_HAS_FAILED'	=> 'O atualizador de ficheiros "%1$s" falhou. O instalador irá tentar com "%2$s".',
 	'UPDATE_FILE_UPDATERS_HAVE_FAILED'	=> 'O atualizador de ficheiros falhou. Não existe métodos alternativos disponíveis.',
 
 	'UPDATE_CONTINUE_UPDATE_PROCESS'	=> 'Continuar processo de atualização',
@@ -494,7 +494,7 @@ $lang = array_merge($lang, array(
 	'CONVERT_NOT_EXIST'			=> 'O Conversor selecionado não existe.',
 	'DEV_NO_TEST_FILE'			=> 'Não foi especificado um valor para a variável ficheiro_teste no conversor. Se é utilizador deste conversor, e não deveria estar a ver este erro, por favor, contacte o autor do conversor. Se é o autor do conversor, deve especificar o nome de um ficheiro que exista no Fórum de destino para que seja possível a verificação da pasta.',
 	'COULD_NOT_FIND_PATH'		=> 'Não foi possível encontrar o local para o seu Fórum anterior. Por favor, verifique as suas configurações e tente novamente.<br />» O local especificado foi %s.',
-	'CONFIG_PHPBB_EMPTY'		=> 'A variável de configuração do phpBB3 para “%s” está vazia.',
+	'CONFIG_PHPBB_EMPTY'		=> 'A variável de configuração do phpBB3 para "%s" está vazia.',
 
 	'MAKE_FOLDER_WRITABLE'		=> 'Por favor, certifique-se de que esta pasta existe e pode ser escrita pelo servidor e tente novamente:<br />»<strong>%s</strong>.',
 	'MAKE_FOLDERS_WRITABLE'		=> 'Por favor, certifique-se de que estas pastas existem e podem ser escritas pelo servidor e tente novamente:<br />»<strong>%s</strong>.',
@@ -545,7 +545,7 @@ $lang = array_merge($lang, array(
 	'DB_ERR_INSERT'				=> 'Erro ao processar a query <code>INSERT</code>.',
 	'DB_ERR_LAST'				=> 'Erro ao processar <var>query_last</var>.',
 	'DB_ERR_QUERY_FIRST'		=> 'Erro ao executar <var>query_first</var>.',
-	'DB_ERR_QUERY_FIRST_TABLE'	=> 'Erro ao executar <var>query_first</var>, %s (“%s”).',
+	'DB_ERR_QUERY_FIRST_TABLE'	=> 'Erro ao executar <var>query_first</var>, %s ("%s").',
 	'DB_ERR_SELECT'				=> 'Erro ao processar a query <code>SELECT</code>.',
 	'STEP_PERCENT_COMPLETED'	=> 'Etapa <strong>%d</strong> de <strong>%d</strong>',
 	'FINAL_STEP'				=> 'Etapa Final do Processo',
@@ -559,7 +559,7 @@ $lang = array_merge($lang, array(
 	'UPDATE_TOPICS_POSTED_ERR'	=> 'Algum erro ocorreu enquanto as informações dos Tópicos eram geradas. Pode tentar novamente esta etapa no Painel de Administração quando a conversão estiver completa.',
 	'CONTINUE_LAST'				=> 'Continuar com esta atualização',
 	'CLEAN_VERIFY'				=> 'A limpar e a verificar a estrutura final',
-	'NOT_UNDERSTAND'			=> 'Não foi possível entender %s #%d, tabela %s (“%s”)',
+	'NOT_UNDERSTAND'			=> 'Não foi possível entender %s #%d, tabela %s ("%s")',
 	'NAMING_CONFLICT'			=> 'Conflito de nomes: %s e %s são pseudónimos<br /><br />%s',
 
 	// Finish conversion
@@ -571,7 +571,7 @@ $lang = array_merge($lang, array(
 	'CONV_ERROR_FORUM_ACCESS'			=> 'Não foi possível aceder às informações do Fórum.',
 	'CONV_ERROR_GET_CATEGORIES'			=> 'Não foi possível adquirir as categorias.',
 	'CONV_ERROR_GET_CONFIG'				=> 'Não foi possível adquirir a configuração do Fórum.',
-	'CONV_ERROR_COULD_NOT_READ'			=> 'Não foi possível aceder/ler “%s”.',
+	'CONV_ERROR_COULD_NOT_READ'			=> 'Não foi possível aceder/ler "%s".',
 	'CONV_ERROR_GROUP_ACCESS'			=> 'Não foi possível adquirir as informações de autenticação dos Grupos.',
 	'CONV_ERROR_INCONSISTENT_GROUPS'	=> 'Foi encontrada uma inconsistência na tabela de grupos em add_bots() - tem que adicionar todos os Grupos especiais manualmente.',
 	'CONV_ERROR_INSERT_BOT'				=> 'Não foi possível inserir o Bot na tabela de Utilizadores.',
@@ -581,7 +581,7 @@ $lang = array_merge($lang, array(
 	'CONV_ERROR_NO_AVATAR_PATH'			=> 'Nota para desenvolvedores: tem que especificar $convertor[\'avatar_path\'] para usar %s.',
 	'CONV_ERROR_NO_FORUM_PATH'			=> 'Não foi indicado o local relativo aos ficheiros do Fórum.',
 	'CONV_ERROR_NO_GALLERY_PATH'		=> 'Nota para desenvolvedores: tem que especificar $convertor[\'avatar_gallery_path\'] para usar %s.',
-	'CONV_ERROR_NO_GROUP'				=> 'Grupo “%1$s” não foi encontrado em %2$s.',
+	'CONV_ERROR_NO_GROUP'				=> 'Grupo "%1$s" não foi encontrado em %2$s.',
 	'CONV_ERROR_NO_RANKS_PATH'			=> 'Nota: tem que especificar $convertor[\'ranks_path\'] para usar %s.',
 	'CONV_ERROR_NO_SMILIES_PATH'		=> 'Nota: tem que especificar $convertor[\'smilies_path\'] para usar %s.',
 	'CONV_ERROR_NO_UPLOAD_DIR'			=> 'Nota: tem que especificar $convertor[\'upload_path\'] para usar %s.',
@@ -590,7 +590,7 @@ $lang = array_merge($lang, array(
 	'CONV_ERROR_REPLACE_CATEGORY'		=> 'Não foi possível inserir um novo Fórum substituindo uma categoria antiga.',
 	'CONV_ERROR_REPLACE_FORUM'			=> 'Não foi possível inserir um novo Fórum substituindo um Fórum antigo.',
 	'CONV_ERROR_USER_ACCESS'			=> 'Não foi possível adquirir as informações de autenticação dos utilizadores.',
-	'CONV_ERROR_WRONG_GROUP'			=> 'Erro no Grupo “%1$s” definido em %2$s.',
+	'CONV_ERROR_WRONG_GROUP'			=> 'Erro no Grupo "%1$s" definido em %2$s.',
 	'CONV_OPTIONS_BODY'					=> 'Esta página precisa do acesso ao código do Fórum. Introduza os dados da Base de Dados; o conversor não irá mexer no código atual. O acesso ao código deve ser desativado para evitar erros.',
 	'CONV_SAVED_MESSAGES'				=> 'Mensagens Guardadas',
 

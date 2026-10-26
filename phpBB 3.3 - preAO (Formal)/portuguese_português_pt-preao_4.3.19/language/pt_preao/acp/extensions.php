@@ -40,7 +40,7 @@ $lang = array_merge($lang, [
 	'EXTENSIONS'					=> 'Extensões',
 	'EXTENSIONS_ADMIN'			=> 'Gestão de Extensões',
 	'EXTENSIONS_EXPLAIN'			=> 'O Gestor de Extensões é uma ferramenta do phpBB que permite gerir todas as suas extensões e exibir as respectivas informações.',
-	'EXTENSION_INVALID_LIST'	=> 'A Extensão “%s” não é válida.<br />%s<br /><br />',
+	'EXTENSION_INVALID_LIST'	=> 'A Extensão "%s" não é válida.<br />%s<br /><br />',
 	'EXTENSION_NOT_AVAILABLE'	=> 'A extensão seleccionada não está disponível para este Fórum, por favor, verifique versões do phpBB e PHP permitidas (veja a página de detalhes).',
 	'EXTENSION_DIR_INVALID'		=> 'A extensão seleccionada não pode ser activada porque tem uma estrutura de pastas inválida.',
 	'EXTENSION_NOT_ENABLEABLE'	=> 'A extensão seleccionada não pode ser activada, por favor, verifique os requisitos do extensão.',
@@ -91,9 +91,9 @@ $lang = array_merge($lang, [
 			<li>Apague os ficheiros da extensão do sistema de ficheiros</li>
 		</ol>',
 
-	'EXTENSION_DELETE_DATA_CONFIRM'		=> 'Tem a certeza que deseja apagar os dados associados à “%s”?<br /><br />Se continuar remove todos os dados e configurações. Esta acção não é reversível!',
-	'EXTENSION_DISABLE_CONFIRM'			=> 'Tem a certeza que deseja desactivar a extensão “%s”?',
-	'EXTENSION_ENABLE_CONFIRM'				=> 'Tem a certeza que deseja activar a extensão “%s”?',
+	'EXTENSION_DELETE_DATA_CONFIRM'		=> 'Tem a certeza que deseja apagar os dados associados à "%s"?<br /><br />Se continuar remove todos os dados e configurações. Esta acção não é reversível!',
+	'EXTENSION_DISABLE_CONFIRM'			=> 'Tem a certeza que deseja desactivar a extensão "%s"?',
+	'EXTENSION_ENABLE_CONFIRM'				=> 'Tem a certeza que deseja activar a extensão "%s"?',
 	'EXTENSION_FORCE_UNSTABLE_CONFIRM'	=> 'Tem a certeza que deseja forçar o uso de versões instáveis?',
 
 	'RETURN_TO_EXTENSION_LIST'		=> 'Voltar à lista de extensões',

@@ -68,10 +68,10 @@ $lang = array_merge($lang, array(
 	'LOGIN_NOTIFY_TOPIC'				=> 'Foi notificado por este Tópico, ligue-se para vê-lo.',
 	'LOGIN_VIEWTOPIC'					=> 'Tem que estar Registado e ligado para ver este Tópico.',
 
-	'MAKE_ANNOUNCE'						=> 'Alterar para “Anúncio”',
-	'MAKE_GLOBAL'						=> 'Alterar para “Global”',
-	'MAKE_NORMAL'						=> 'Alterar para “Tópico Normal”',
-	'MAKE_STICKY'						=> 'Alterar para “Fixo”',
+	'MAKE_ANNOUNCE'						=> 'Alterar para "Anúncio"',
+	'MAKE_GLOBAL'						=> 'Alterar para "Global"',
+	'MAKE_NORMAL'						=> 'Alterar para "Tópico Normal"',
+	'MAKE_STICKY'						=> 'Alterar para "Fixo"',
 	'MAX_OPTIONS_SELECT'		=> array(
 		1	=> 'Pode selecionar <strong>%d</strong> opção',
 		2	=> 'Pode selecionar até <strong>%d</strong> opções',

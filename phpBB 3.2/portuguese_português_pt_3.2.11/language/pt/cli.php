@@ -160,7 +160,7 @@ $lang = array_merge($lang, array(
 	'CLI_THUMBNAIL_NOTHING_TO_DELETE'	=> 'Sem miniaturas para apagar.',
 
 	'CLI_USER_ADD_SUCCESS'		=> 'Utilizador %s adicionado com sucesso.',
-	'CLI_USER_DELETE_CONFIRM'	=> 'Tem a certeza que deseja remover ‘%s’? [s/N]',
+	'CLI_USER_DELETE_CONFIRM'	=> 'Tem a certeza que deseja remover \'%s\'? [s/N]',
 	'CLI_USER_RECLEAN_START'	=> 'A limpar nomes de utilizadores',
 	'CLI_USER_RECLEAN_DONE'		=> [
 		0	=> 'Limpeza completa. Nenhum nome de utilizador precisava de ser limpo.',

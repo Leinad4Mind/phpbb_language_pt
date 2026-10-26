@@ -42,7 +42,7 @@ $help = array(
 	),
 	array(
 		0 => 'O que significa COPPA?',
-		1 => 'COPPA, ou Lei de Protecção da Privacidade Online Infantil de 1998,  é uma Lei dos EUA que exige uma autorização dos encarregados de educação, ou de um responsável legal, para guardar as informações relativas a menores de 13 anos de idade. Caso não saiba se isso se aplica a si, obtenha aconselhamento legal. Por favor, esteja ciente de que nem o phpBB Limited nem o fundador deste fórum o pode aconselhar em termos legais, à excepção da questão “Quem devo contactar em caso de abusos e/ou assuntos legais relacionados com este fórum?”.',
+		1 => 'COPPA, ou Lei de Protecção da Privacidade Online Infantil de 1998,  é uma Lei dos EUA que exige uma autorização dos encarregados de educação, ou de um responsável legal, para guardar as informações relativas a menores de 13 anos de idade. Caso não saiba se isso se aplica a si, obtenha aconselhamento legal. Por favor, esteja ciente de que nem o phpBB Limited nem o fundador deste fórum o pode aconselhar em termos legais, à excepção da questão "Quem devo contactar em caso de abusos e/ou assuntos legais relacionados com este fórum?".',
 	),
 	array(
 		0 => 'Porque não me posso registar?',
@@ -70,7 +70,7 @@ $help = array(
 	),
 	array(
 		0 => 'Para que serve a opção Apagar cookies?',
-		1 => '“Apaga do seu PC todos os Cookies criados pelo phpBB3 e que servem para o manter ligado e autenticado, e permitem o pleno funcionamento das opções activadas pelo Administrador.',
+		1 => 'Apaga do seu PC todos os Cookies criados pelo phpBB3 e que servem para o manter ligado e autenticado, e permitem o pleno funcionamento das opções activadas pelo Administrador.',
 	),
 	array(
 		0 => '--',
@@ -315,7 +315,7 @@ $help = array(
 	),
 	array(
 		0 => 'Como posso subscrever um Fórum específico?',
-		1 => 'Para subscrever um fórum específico,clique no link “Observar Fórum”, na parte inferior da página, ao entrar no fórum.',
+		1 => 'Para subscrever um fórum específico,clique no link "Observar Fórum", na parte inferior da página, ao entrar no fórum.',
 	),
 	array(
 		0	=> 'Como posso apagar as minhas Subscrições?',
@@ -351,6 +351,6 @@ $help = array(
 	),
 	array(
 		0 => 'Como faço para entrar em contacto com o administrador do fórum?',
-		1 => 'Todos os Utilizadores do Fórum podem usar o formulário “Contacte-nos”, se a opção estiver activada.<br />Os Utilizadores podem usar o link “Equipa”.',
+		1 => 'Todos os Utilizadores do Fórum podem usar o formulário "Contacte-nos", se a opção estiver activada.<br />Os Utilizadores podem usar o link "Equipa".',
 	),
 );
