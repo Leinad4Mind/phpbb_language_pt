@@ -49,6 +49,8 @@ $lang = array_merge($lang, [
 	'BOT_DELETED'				=> 'Motor de Busca removido com sucesso.',
 	'BOT_EDIT'					=> 'Editar Motores de Busca',
 	'BOT_EDIT_EXPLAIN'		=> 'Aqui podes editar ou adicionar novos Motores de Busca. Podes definir qualquer sequência de agentes e/ou um ou mais endereços de IP (ou grupo de endereços) para coincidir. Cuidado ao definir os parâmetros dos agentes ou endereços. Podes especificar um estilo ou Idioma com os quais o Motor de Busca visualizará o teu Fórum. Isto pode reduzir o tráfego do teu site especificando um estilo simples para motores de busca. Lembra-te de especificar permissões para o grupo especial de Motores de Busca.',
+	'BOT_GROUP'		=> 'Grupo do Motor de Busca',
+	'BOT_GROUP_EXPLAIN'		=> 'Seleciona o grupo a que este Motor de Busca pertence.',
 	'BOT_LANG'					=> 'Idioma do Motor de Busca',
 	'BOT_LANG_EXPLAIN'		=> 'O idioma presente no Motor de Busca quando ele navega.',
 	'BOT_LAST_VISIT'			=> 'Última visita',
@@ -65,6 +67,7 @@ $lang = array_merge($lang, [
 	'ERR_BOT_AGENT_MATCHES_UA'	=> 'O agente do motor de busca que escolheste é semelhante ao que estás a usar atualmente. Por favor, ajusta o agente deste Motor de Busca.',
 	'ERR_BOT_NO_IP'				=> 'O IP que forneceste é inválido ou o hostname não pode ser resolvido.',
 	'ERR_BOT_NO_MATCHES'			=> 'Tens que indicar pelo menos uma descrição do navegador ou um IP para o parâmetro.',
+	'ERR_BOT_NO_NAME'			=> 'Tens que indicar um nome para o Motor de Busca.',
 
 	'NO_BOT'						=> 'O Motor de Busca selecionado não existe.',
 	'NO_BOT_GROUP'				=> 'O Grupo de Motores de Busca especial existe.',

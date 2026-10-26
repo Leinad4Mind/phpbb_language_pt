@@ -48,7 +48,7 @@ $lang = array_merge($lang, [
 
 	// Support page
 	'SUPPORT_TITLE'			=> 'Suporte',
-	'SUPPORT_BODY'				=> 'Será fornecido gratuitamente suporte completo para a actual versão do phpBB3. Isto inclui:</p><ul><li>instalação</li><li>configuração</li><li>questões técnicas</li><li>problemas relativos a potenciais erros do software</li><li>actualização de versões Release Candidate (RC) para a última versão estável</li><li>conversão phpBB 2.0.x para phpBB3</li><li>conversão de outro software de fórum de discussão para phpBB3 (consulte o <a href="https://www.phpbb.com/community/viewforum.php?f=486">Conversores de fóruns</a>)</li></ul><p>Encorajamos os utilizadores que ainda têm versões beta do phpBB3 a converter a sua instalação para a versão mais recente.</p><h2>Extensões / Estilos</h2><p>Para questões relacionadas com extensões, por favor poste no <a href="https://www.phpbb.com/community/viewforum.php?f=451">Fórum de Extensões</a>.<br />Para questões relacionadas com estilos, por favor poste no <a href="https://www.phpbb.com/community/viewforum.php?f=471">Fórum de estilos</a>.<br /><br />Se a sua pergunta se refere a um pacote específico, por favor escreva directamente no tópico dedicado ao pacote.</p><h2>Obtendo Suporte</h2><p><a href="https://www.phpbb.com/support/">Secção de Suporte</a><br /><a href="https://www.phpbb.com/support/docs/en/3.3/ug/quickstart/">Guia rápido de iniciação</a><br /><br />Para garantir que se mantém actualizado com as últimas notícias e versões, siga-nos no <a href="https://www.twitter.com/phpbb/">Twitter</a> e no <a href="https://www.facebook.com/phpbb/">Facebook</a>.<br /><br />',
+	'SUPPORT_BODY'				=> 'Será fornecido gratuitamente suporte completo para a actual versão do phpBB3. Isto inclui:</p><ul><li>instalação</li><li>configuração</li><li>questões técnicas</li><li>problemas relativos a potenciais erros do software</li><li>actualização de versões Release Candidate (RC) para a última versão estável</li><li>conversão phpBB 2.0.x para phpBB3</li><li>conversão de outro software de fórum de discussão para phpBB3 (consulte o <a href="https://www.phpbb.com/community/viewforum.php?f=486">Conversores de fóruns</a>)</li></ul><p>Encorajamos os utilizadores que ainda têm versões beta do phpBB3 a converter a sua instalação para a versão mais recente.</p><h2>Extensões / Estilos</h2><p>Para questões relacionadas com extensões, por favor poste no <a href="https://www.phpbb.com/community/viewforum.php?f=451">Fórum de Extensões</a>.<br />Para questões relacionadas com estilos, por favor poste no <a href="https://www.phpbb.com/community/viewforum.php?f=471">Fórum de estilos</a>.<br /><br />Se a sua pergunta se refere a um pacote específico, por favor escreva directamente no tópico dedicado ao pacote.</p><h2>Obtendo Suporte</h2><p><a href="https://www.phpbb.com/support/">Secção de Suporte</a><br /><a href="https://www.phpbb.com/support/docs/en/3.3/ug/quickstart/">Guia rápido de iniciação</a><br /><br />Para garantir que se mantém actualizado com as últimas notícias e versões, siga-nos no <a href="https://www.x.com/phpbb/">X</a> e no <a href="https://www.facebook.com/phpbb/">Facebook</a>.<br /><br />',
 
 	// License
 	'LICENSE_TITLE'			=> 'Licença Pública Geral',
@@ -301,6 +301,7 @@ $lang = array_merge($lang, [
 
 	// Install data
 	'TASK_ADD_BOTS'				=> 'A registar bots',
+	'TASK_ADD_AI_CRAWLERS'				=> 'A registar rastreadores de IA',
 	'TASK_ADD_LANGUAGES'			=> 'A instalar idiomas disponíveis',
 	'TASK_ADD_MODULES'			=> 'A instalar módulos',
 	'TASK_CREATE_SEARCH_INDEX'	=> 'A criar índice de pesquisa',
@@ -495,6 +496,7 @@ $lang = array_merge($lang, [
 	// Common converter messages
 	'CONVERT_NOT_EXIST'			=> 'O Conversor seleccionado não existe',
 	'DEV_NO_TEST_FILE'			=> 'Não foi especificado um valor para a variável ficheiro_teste no conversor. Se é utilizador deste conversor, e não deveria estar a ver este erro, por favor, contacte o autor do conversor. Se é o autor do conversor, deve especificar o nome de um ficheiro que exista no Fórum de destino para que seja possível a verificação da pasta.',
+	'COULD_NOT_COPY'			=> 'Não foi possível copiar o ficheiro <strong>%1$s</strong> para <strong>%2$s</strong><br><br>Por favor, verifique se a pasta de destino existe e se o servidor web tem permissão de escrita nela.',
 	'COULD_NOT_FIND_PATH'		=> 'Não foi possível encontrar o local para o seu Fórum anterior. Por favor, verifique as suas configurações e tente novamente.<br />» O local especificado foi %s',
 	'CONFIG_PHPBB_EMPTY'			=> 'A variável de configuração do phpBB3 para “%s” está vazia.',
 
@@ -557,7 +559,7 @@ $lang = array_merge($lang, [
 	'SYNC_POST_COUNT'				=> 'A sincronizar contador de Mensagens',
 	'SYNC_POST_COUNT_ID'			=> 'A sincronizar contador de Mensagens para <var>entry</var> %1$s para %2$s.',
 	'SYNC_TOPICS'					=> 'A iniciar sincronização de Tópicos',
-	'SYNC_TOPIC_ID'				=> 'A sincronizar Tópicos a partir do <var>topic_id</var> $1%s ao $2%s.',
+	'SYNC_TOPIC_ID'				=> 'A sincronizar Tópicos a partir do <var>topic_id</var> %1$s ao %2$s.',
 	'PROCESS_LAST'					=> 'A executar as últimas instruções',
 	'UPDATE_TOPICS_POSTED'		=> 'A gerar informações de Tópicos enviados',
 	'UPDATE_TOPICS_POSTED_ERR'	=> 'Algum erro ocorreu enquanto as informações dos Tópicos eram geradas. Pode tentar novamente esta etapa no Painel de Administração quando a conversão estiver completa.',

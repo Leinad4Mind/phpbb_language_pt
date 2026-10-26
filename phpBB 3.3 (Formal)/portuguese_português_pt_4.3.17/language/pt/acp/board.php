@@ -365,6 +365,12 @@ $lang = array_merge($lang, [
 	'ONLINE_LENGTH_EXPLAIN'					=> 'Tempo em minutos após o qual o Utilizador inativo não aparecerá na lista de Utilizadores online. Quanto menor, menos processamento exige.',
 	'SESSION_LENGTH'							=> 'Tempo da Sessão [ segundos ]',
 	'SESSION_LENGTH_EXPLAIN'				=> 'A Sessão será encerrada após este tempo, em segundos.',
+	'SESSION_GC'				=> 'Intervalo de limpeza da Sessão [ segundos ]',
+	'SESSION_GC_EXPLAIN'				=> 'As Sessões serão limpas após este tempo, em segundos.',
+	'SESSION_GUEST_LENGTH'				=> 'Tempo da Sessão de Visitantes [ segundos ]',
+	'SESSION_GUEST_LENGTH_EXPLAIN'				=> 'A Sessão dos Visitantes será encerrada após este tempo, em segundos.',
+	'SESSION_GUEST_GC'				=> 'Intervalo de limpeza da Sessão de Visitantes [ segundos ]',
+	'SESSION_GUEST_GC_EXPLAIN'				=> 'As Sessões dos Visitantes serão limpas após este tempo, em segundos.',
 ]);
 
 // Contact Settings
@@ -492,8 +498,8 @@ $lang = array_merge($lang, [
 	'SMILIES_PATH_EXPLAIN'					=> 'Caminho da pasta desde a raiz do phpBB. Exemplo: images/smilies.',
 	'UPLOAD_ICONS_PATH'						=> 'Caminho da pasta de Ficheiro de Ícones de Grupos de Extensões',
 	'UPLOAD_ICONS_PATH_EXPLAIN'			=> 'Caminho da pasta desde a raiz do phpBB. Exemplo: images/upload_icons.',
-	'USE_SYSTEM_CRON'							=> 'Executar tarefas periódicas do sistema cron',
-	'USE_SYSTEM_CRON_EXPLAIN'				=> 'Quando desligado, o phpBB organizará as tarefas periódicas para serem executadas automaticamente. Quando ligado, o phpBB não organizará as tarefas periódicas, por si só, um administrador do sistema deve executar o <code>bin/phpbbcli.php cron:run</code> para ser executado pelo sistema cron a intervalos regulares(por exemplo, a cada 5 minutos).',
+	'USE_SYSTEM_CRON'							=> 'Executar tarefas periódicas a partir do cron do sistema operativo',
+	'USE_SYSTEM_CRON_EXPLAIN'				=> 'Quando desativado, o phpBB organiza a execução automática das tarefas periódicas. Quando ativado, o phpBB não agenda por si só nenhuma tarefa periódica; um administrador do sistema deve configurar o cron do sistema operativo para executar <code>bin/phpbbcli.php cron:run</code> a intervalos regulares (por exemplo, a cada 5 minutos).',
 ]);
 
 // Security Settings

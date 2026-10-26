@@ -503,13 +503,13 @@ $lang = array_merge($lang, [
 	'LOG_ACL_ADD_ADMIN_GLOBAL_A_'			=> '<strong>Administradores Adicionados ou Editados</strong><br />» %s',
 	'LOG_ACL_ADD_MOD_GLOBAL_M_'			=> '<strong>Moderadores Globais Adicionados ou Editados</strong><br />» %s',
 
-	'LOG_ACL_ADD_USER_LOCAL_F_'			=> '<strong>Acessos ao Fórum de Utilizadores Adicionados ou Editados</strong> de %1$s<br />» %2$s',
-	'LOG_ACL_ADD_USER_LOCAL_M_'			=> '<strong>Acessos de Moderadores a Utilizadores Adicionados ou Editados</strong> de %1$s<br />» %2$s',
-	'LOG_ACL_ADD_GROUP_LOCAL_F_'			=> '<strong>Acessos do Fórum a Grupos Adicionados ou Editados</strong> de %1$s<br />» %2$s',
-	'LOG_ACL_ADD_GROUP_LOCAL_M_'			=> '<strong>Acessos de Moderadores a Grupos Adicionados ou Editados</strong> de %1$s<br />» %2$s',
+	'LOG_ACL_ADD_USER_LOCAL_F_'			=> '<strong>Acessos ao Fórum de Utilizadores Adicionados ou Editados</strong> em %1$s<br />» %2$s',
+	'LOG_ACL_ADD_USER_LOCAL_M_'			=> '<strong>Acessos de Moderadores a Utilizadores Adicionados ou Editados</strong> em %1$s<br />» %2$s',
+	'LOG_ACL_ADD_GROUP_LOCAL_F_'			=> '<strong>Acessos do Fórum a Grupos Adicionados ou Editados</strong> em %1$s<br />» %2$s',
+	'LOG_ACL_ADD_GROUP_LOCAL_M_'			=> '<strong>Acessos de Moderadores a Grupos Adicionados ou Editados</strong> em %1$s<br />» %2$s',
 
-	'LOG_ACL_ADD_MOD_LOCAL_M_'				=> '<strong>Moderadores Adicionados ou Editados</strong> de %1$s<br />» %2$s',
-	'LOG_ACL_ADD_FORUM_LOCAL_F_'			=> '<strong>Permissões de Fóruns Adicionadas ou Editadas</strong> de %1$s<br />» %2$s',
+	'LOG_ACL_ADD_MOD_LOCAL_M_'				=> '<strong>Moderadores Adicionados ou Editados</strong> em %1$s<br />» %2$s',
+	'LOG_ACL_ADD_FORUM_LOCAL_F_'			=> '<strong>Permissões de Fóruns Adicionadas ou Editadas</strong> em %1$s<br />» %2$s',
 
 	'LOG_ACL_DEL_ADMIN_GLOBAL_A_'			=> '<strong>Administradores Apagados</strong><br />» %s',
 	'LOG_ACL_DEL_MOD_GLOBAL_M_'			=> '<strong>Moderadores Globais Apagados</strong><br />» %s',
@@ -608,6 +608,7 @@ $lang = array_merge($lang, [
 	'LOG_TOPIC_TYPE_CHANGED'				=> '<strong>Tipo de Tópico alterado</strong><br />» %s',
 	'LOG_UNLOCK'								=> '<strong>Tópico desbloqueado</strong><br />» %s',
 	'LOG_UNLOCK_POST'							=> '<strong>Mensagem desbloqueada</strong><br />» %s',
+	'LOG_VERSION_CHECK_FAIL'							=> '<strong>A verificação da versão falhou</strong>',
 
 	'LOG_DISALLOW_ADD'						=> '<strong>Nome Proibido Adicionado</strong><br />» %s',
 	'LOG_DISALLOW_DELETE'					=> '<strong>Nome Proibido Apagado</strong>',

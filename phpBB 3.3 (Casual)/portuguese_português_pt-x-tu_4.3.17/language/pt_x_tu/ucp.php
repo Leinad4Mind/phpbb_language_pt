@@ -71,8 +71,8 @@ $lang = array_merge($lang, [
 	'ACCOUNT_EMAIL_CHANGED_ADMIN'		=> 'A tua conta foi atualizada. Neste Fórum as alterações de email requerem a reativação por um administrador. Receberás um email quando a tua conta for reativada.',
 	'ACCOUNT_INACTIVE'					=> 'A tua conta foi criada com sucesso. A Chave de Ativação foi enviada para o endereço de email que indicaste durante o teu Registo. Ao receberes o email procede à Ativação da tua conta. Só então poderás entrar no Fórum. Se não receberes o email na tua caixa de entrada verifica a caixa de lixo eletrónico. Pode levar algum tempo para obter o e-mail, dependendo do teu provedor de e-mail.',
 	'ACCOUNT_INACTIVE_ADMIN'			=> 'A tua conta foi criada. Neste Fórum a ativação da conta é realizada pelo Administrador. Foi-te enviado um email que te informará de Ativar a tua conta. Serás informado após tal, mantém-te atento ao teu email.',
-	'ACTIVATION_EMAIL_SENT'				=> 'O email de ativação foi enviado para o teu endereço de email.',
-	'ACTIVATION_EMAIL_SENT_ADMIN'		=> 'O email de ativação foi enviado para o Administrador.',
+	'ACTIVATION_EMAIL_SENT'				=> 'Se o nome de utilizador e o email que indicaste estiverem corretos, foi enviado um email de ativação para esse endereço. Os emails de ativação estão limitados a um por cada 24 horas. Se continuares a ter problemas para ativares a tua conta, por favor, contacta um Administrador do fórum.',
+	'ACTIVATION_EMAIL_SENT_ADMIN'		=> 'Se o nome de utilizador e o email que indicaste estiverem corretos, foi enviado um email de ativação para os endereços de email dos Administradores. Os emails de ativação estão limitados a um por cada 24 horas. Se continuares a ter problemas para ativares a tua conta, por favor, contacta um Administrador do fórum.',
 	'ADD'										=> 'Adicionar',
 	'ADD_BCC'								=> 'Adicionar [Bcc]',
 	'ADD_FOES'								=> 'Adicionar novo Inimigo',
@@ -229,7 +229,7 @@ $lang = array_merge($lang, [
 	'FIELD_INVALID_VALUE'			=> 'O Campo “%s” tem um valor inválido.',
 
 	'FOE_MESSAGE'						=> 'Mensagem de um Inimigo',
-	'FOES_EXPLAIN'						=> 'Inimigos são Utilizadores que serão ignorados. As Mensagens destes Utilizadores não serão totalmente visíveis e as Mensagens Privadas não são autorizadas. No entanto não podes ignorar Administradores ou Moderadores.',
+	'FOES_EXPLAIN'						=> 'Inimigos são Utilizadores que serão ignorados por predefinição. As Mensagens destes Utilizadores não serão totalmente visíveis, mas as Mensagens Privadas continuam a ser permitidas. No entanto, não podes ignorar Administradores ou Moderadores.',
 	'FOES_UPDATED'						=> 'A tua Lista de Inimigos foi atualizada com sucesso.',
 	'FOLDER_ADDED'						=> 'A Pasta foi adicionada com sucesso.',
 	'FOLDER_MESSAGE_STATUS'		=> [
@@ -352,6 +352,7 @@ $lang = array_merge($lang, [
 	'NOTIFICATION_TYPE_REPORT_PM_CLOSED'		=> 'A tua mensagem privada denunciada foi fechada por um moderador',
 	'NOTIFICATION_TYPE_TOPIC'						=> 'Alguém criou um tópico num fórum que estás a observar',
 	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'	=> 'Há um novo utilizador que precisa de ativação',
+	'NOTIFICATION_TYPE_UPDATE_MAINTENANCE'	=> 'Notificações de atualização do phpBB',
 
 	'NOTIFY_METHOD'						=> 'Método de Notificação',
 	'NOTIFY_METHOD_BOTH'					=> 'Ambos',
