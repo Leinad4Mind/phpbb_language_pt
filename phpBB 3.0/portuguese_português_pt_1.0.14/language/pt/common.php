@@ -43,7 +43,7 @@ $lang = array_merge($lang, array(
 	'TRANSLATION_INFO'					=> 'Traduzido por: <a href="https://leinad4mind.top">Leinad4Mind - Premium phpBB</a>',
 	'DIRECTION'							=> 'ltr',
 	'DATE_FORMAT'						=> '|d M Y|',	// 01 Jan 2007 (with Relative days enabled) 
-	'USER_LANG'							=> 'pt',
+	'USER_LANG'							=> 'pt-pt',
 
 	'1_DAY'								=> '1 Dia',
 	'1_MONTH'							=> '1 Mês',
