@@ -9,7 +9,7 @@
  *
  * For full copyright and license information, please see
  * the docs/CREDITS.txt file.
- * @Traduzido por: https://leinad4mind.top/forum - segundo pré-Acordo Ortográfico (Versão Formal)
+ * @Traduzido por: phpBB Portugal (phpbbportugal.com) & Leinad4Mind (https://leinad4mind.top) - segundo pré-Acordo Ortográfico (Versão Formal)
  */
 
 /**

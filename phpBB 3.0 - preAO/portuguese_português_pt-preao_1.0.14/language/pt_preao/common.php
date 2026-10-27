@@ -6,7 +6,7 @@
  *
  * @package language
  * @version 1.0.9
- * @Traduzido por: https://leinad4mind.top/forum - segundo pré-Acordo Ortográfico
+ * @Traduzido por: phpBB Portugal (phpbbportugal.com) & Leinad4Mind (https://leinad4mind.top) - segundo pré-Acordo Ortográfico
  * @copyright (c) 2005 phpBB Group
  * @license http://opensource.org/licenses/gpl-license.php GNU Public License
  * 
@@ -40,7 +40,7 @@ if (empty($lang) || !is_array($lang)) {
 //
 
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'					=> 'Traduzido por phpBB Leinad4Mind',
+	'TRANSLATION_INFO'					=> 'Traduzido por: <a href="https://leinad4mind.top">Leinad4Mind - Premium phpBB</a>',
 	'DIRECTION'							=> 'ltr',
 	'DATE_FORMAT'						=> '|d M Y|',	// 01 Jan 2007 (with Relative days enabled) 
 	'USER_LANG'							=> 'pt-preao',

@@ -1,6 +1,6 @@
 [Português](https://www.phpbb.com/customise/db/translation/portuguese/)
 
-[Suporte] (https://leinad4mind.top/forum)
+[Suporte] (https://leinad4mind.top)
 
 =================================
 

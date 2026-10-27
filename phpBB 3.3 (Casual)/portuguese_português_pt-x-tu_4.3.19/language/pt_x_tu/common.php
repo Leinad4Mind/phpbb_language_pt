@@ -9,7 +9,7 @@
  *
  * For full copyright and license information, please see
  * the docs/CREDITS.txt file.
- * @Traduzido por: https://leinad4mind.top/forum - segundo as normas do Acordo Ortográfico (Versão Casual)
+ * @Traduzido por: phpBB Portugal (phpbbportugal.com) & Leinad4Mind (https://leinad4mind.top) - segundo as normas do Acordo Ortográfico (Versão Casual)
  */
 
 /**
@@ -40,7 +40,7 @@ if (empty($lang) || !is_array($lang)) {
 //
 
 $lang = array_merge($lang, [
-	'TRANSLATION_INFO'				=> 'Traduzido por: Leinad4Mind — https://leinad4mind.top/forum',
+	'TRANSLATION_INFO'				=> 'Traduzido por: <a href="https://leinad4mind.top">Leinad4Mind - Premium phpBB</a>',
 	'DIRECTION'							=> 'ltr',
 	'DATE_FORMAT'						=> '|d M Y|',	// 01 Jan 2007 (with Relative days enabled)
 	'DATETIME_FORMAT'					=> '|d M Y, H:i|',	// 01 Jan 2007, 13:37 (with Relative days enabled)

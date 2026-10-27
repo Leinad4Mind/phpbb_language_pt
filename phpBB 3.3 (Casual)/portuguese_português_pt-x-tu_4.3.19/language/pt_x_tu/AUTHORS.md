@@ -1,6 +1,6 @@
 [Português](https://www.phpbb.com/customise/db/translation/portuguese/)
 
-[Suporte] (https://leinad4mind.top/forum)
+[Suporte] (https://leinad4mind.top)
 
 =================================
 
@@ -22,4 +22,4 @@ Ex-Colaboradores
 
 Origem e agradecimentos
 -------
-* Tradução original (2010) da equipa phpBB Portugal (http://www.phpbbportugal.com), feita com base na tradução brasileira da equipa Suporte phpBB (https://www.suportephpbb.com.br)
+* Tradução original (2010) da equipa phpBB Portugal (http://www.phpbbportugal.com)

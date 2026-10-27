@@ -9,7 +9,7 @@
  *
  * For full copyright and license information, please see
  * the docs/CREDITS.txt file.
- * @Traduzido por: http://www.phpbb-pt.com & https://leinad4mind.top/forum - segundo as normas do Acordo Ortográfico
+ * @Traduzido por: phpBB Portugal (phpbbportugal.com) & Leinad4Mind (https://leinad4mind.top) - segundo as normas do Acordo Ortográfico
  */
 
 /**
@@ -597,7 +597,7 @@ $lang = array_merge($lang, array(
 	'SMTP_VERIFY_PEER_EXPLAIN'				=> 'Requer a verificação do certificado SSL usado pelo servidor SMTP.<br><em><strong>Aviso:</strong> Conectar pontos de rede com certificados SSL não verificados pode causar implicações de segurança.</em>',
 	'SMTP_VERIFY_PEER_NAME'					=> 'Verificar nome do ponto de rede SMTP',
 	'SMTP_VERIFY_PEER_NAME_EXPLAIN'			=> 'Requer verificação do nome do ponto de rede para os servidores SMTP que usem conexões SSL / TLS.<br><em><strong>Aviso:</strong> Conectar a pontos de rede não verificados pode causar implicações de segurança.</em>',
-	'TEST_EMAIL_SENT'						=> 'O email de teste foi enviado.<br>Caso não o receba, por favor, verifique a sua configuração.<br><br>Caso necessite de assistência, visite o <a href="https://www.phpbb.com/community/">Fórum Oficial de Suporte phpBB</a> (Em inglês) ou o <a href="https://www.phpbb.com/community/">Fórum Oficial Português de Suporte phpBB</a>.',
+	'TEST_EMAIL_SENT'						=> 'O email de teste foi enviado.<br>Caso não o receba, por favor, verifique a sua configuração.<br><br>Caso necessite de assistência, visite o <a href="https://www.phpbb.com/community/">Fórum Oficial de Suporte phpBB</a> (em inglês) ou <a href="https://leinad4mind.top">Leinad4Mind - Premium phpBB</a> (em português).',
 
 	'USE_SMTP'								=> 'Usar um Servidor de SMTP para enviar emails',
 	'USE_SMTP_EXPLAIN'						=> 'Marque "Sim" se quer ou tem que enviar os emails recorrendo a um Servidor SMTP em vez da função de email do Servidor.',
