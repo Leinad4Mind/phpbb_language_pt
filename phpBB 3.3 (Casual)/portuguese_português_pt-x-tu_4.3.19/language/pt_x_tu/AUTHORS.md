@@ -17,7 +17,7 @@ Ex-Colaboradores
 * diogomessi10 https://github.com/diogomessi10
 * Pavlov (https://github.com/Pavlov)
 * ordhor (https://github.com/ordhor)
-* casper™ (http://www.phpbbportugal.com/forum/memberlist.php?mode=viewprofile&u=65)
+* casper™ (https://www.phpbb.com/customise/db/author/caspertm)
 
 
 Origem e agradecimentos
