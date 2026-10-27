@@ -22,4 +22,4 @@ Ex-Colaboradores
 
 Origem e agradecimentos
 -------
-* Tradução original (2010) da equipa phpBB Portugal (http://www.phpbbportugal.com), feita com base na tradução brasileira da equipa Suporte phpBB (https://www.suportephpbb.com.br)
+* Tradução original (2010) da equipa phpBB Portugal (phpbbportugal.com), feita com base na tradução brasileira da equipa Suporte phpBB (https://www.suportephpbb.com.br)
