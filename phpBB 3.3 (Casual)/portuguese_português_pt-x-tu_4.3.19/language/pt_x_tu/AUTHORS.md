@@ -1,4 +1,4 @@
-[Português](https://www.phpbb.com/customise/db/translation/portuguese/)
+[Português](https://www.phpbb.com/customise/db/translation/portuguese_casual/)
 
 [Suporte] (https://leinad4mind.top)
 

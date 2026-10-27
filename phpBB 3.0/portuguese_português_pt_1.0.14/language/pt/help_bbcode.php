@@ -5,7 +5,7 @@
  * help_bbcode [Português]
  *
  * @package language
- * @version 1.0.9
+ * @version 1.0.14
  * @Traduzido por: phpBB Portugal (phpbbportugal.com) & Leinad4Mind (https://leinad4mind.top) - segundo as normas do Acordo Ortográfico
  * @copyright (c) 2005 phpBB Group
  * @license http://opensource.org/licenses/gpl-license.php GNU Public License
